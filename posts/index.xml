@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Hello Friend NG</title>
+        <link>https://zoylendt.github.io/posts/</link>
+        <description>Recent content in Posts on Hello Friend NG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Tue, 26 Mar 2019 08:47:11 +0100</lastBuildDate>
+        <atom:link href="https://zoylendt.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>My First Post</title>
+            <link>https://zoylendt.github.io/posts/2019/03/my-first-post/</link>
+            <pubDate>Tue, 26 Mar 2019 08:47:11 +0100</pubDate>
+            
+            <guid>https://zoylendt.github.io/posts/2019/03/my-first-post/</guid>
+            <description>abcd</description>
+            <content type="html"><![CDATA[<p>abcd</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
