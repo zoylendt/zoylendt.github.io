@@ -127,5 +127,15 @@
   </url><url>
     <loc>https://zoylendt.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://zoylendt.github.io/de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zoylendt.github.io/about/"
+                />
   </url>
 </urlset>
