@@ -80,6 +80,8 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 - ...
 
-> This page is heavily inspired and contains excerpts from ["this page"](https://jzhao.zyx/books) from the blog of quartz's developer.
+---
+
+> This page is heavily inspired and contains excerpts from [this page](https://jzhao.zyx/books) on the quartz's developer's blog.
 >
 > Books and Audiobooks are mixed, where possible the english title is given (although most books were consumed in german).
