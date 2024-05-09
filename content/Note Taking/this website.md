@@ -159,9 +159,14 @@ https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actio
 
 ## Obsidian Git Plugin
 
-Options -> Community Plugins -> Turn on community plugins -> Browse -> "Git by Vinzent, (Denis Olehov)" -> Install
-Options -> Community Plugins -> Installed Plugins -> Git -> enable (slide to right)
-Options -> Community Plugins -> Installed Plugins -> Git -> Options (kog)
+After making sure that we've installed Git and prepared the Obsidian vault as a git repo (with GitHub Desktop), we need to install and enable the Obsidian Git plugin:
+
+   - Options -> Community Plugins -> Turn on community plugins -> Browse -> "Git by Vinzent, (Denis Olehov)" -> Install
+   - Options -> Community Plugins -> Installed Plugins -> Git -> enable (slide to right)
+   - Options -> Community Plugins -> Installed Plugins -> Git -> Options (kog)
+
+...
+
    - Backup -> "Pull updates on startup" -> enable
    - Commit message -> "{{hostname}} placeholder replacement" -> enter your hostname
    - Commit message -> "Commit message on manual backup/commit" -> "manual backup: {{date}} from {{hostname}}, {{numFiles}} files"
@@ -171,10 +176,13 @@ Options -> Community Plugins -> Installed Plugins -> Git -> Options (kog)
    - Automatic -> "Vault backup interval (minutes)" -> 10
    - Automatic -> "Auto pull interval (minutes)" -> 9
 
+...
+
 # Config Changes
 
 ## earlier stuff
   - changes of layout
+  - make **fat** text stand out more
 
 ## enable rss feed
 

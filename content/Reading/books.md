@@ -41,7 +41,6 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ## Current Reading
 
-- **Three Parts Dead** by Max Gladstone
 - **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
 - **Warboss** by Mike Brooks
 - **Dark Imperium 1-3** by Guy Haley
@@ -62,6 +61,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Angelus Exterminatus** by Graham McNeill (audiobook)
 - **The Kaiju Preservation Society** by John Scalzi
 - **Scholomance 1-3** by Naomi Novik
+- **Three Parts Dead** by Max Gladstone
 - **Ascension** by Nicholas Binge
 - **Mickey 7** by Edward Ashton
 
