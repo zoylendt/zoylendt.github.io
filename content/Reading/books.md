@@ -43,6 +43,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### Comic & Manga
 
+- Junji Ito
 - ...
 
 ## Current Reading
@@ -93,6 +94,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Der Automatische Detektiv** by A. Lee Martinez
 - **What if? 1+2** by Randall Munroe
 - **Der Zombie Survival Guide** by Max Brooks
+- **World War Z** by Max Brooks
 - ...
 
 ### Previously read Warhammer 40K Books
