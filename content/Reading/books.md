@@ -9,10 +9,6 @@ aliases:
   - Reading list
 ---
 
-> This page is heavily inspired and contains excerpts from ["this page"](https://jzhao.zyx/books) from the blog of quartz's developer.
->
-> Audio books are also included, without special note.
-
 A (mostly) up-to-date list of books I at some point, have wanted to read, am reading, or finished reading. Links are to pages/blog posts/ideas that were inspired by the book that's linked!
 
 ## To Read
@@ -74,3 +70,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 ### Previously read Warhammer 40K Books
 
 - ...
+
+> This page is heavily inspired and contains excerpts from ["this page"](https://jzhao.zyx/books) from the blog of quartz's developer.
+>
+> Books and Audiobooks are mixed, where possible the english title is given (although most books were consumed in german).
