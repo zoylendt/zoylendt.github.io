@@ -28,6 +28,12 @@ tags:
 - 
 
 ## Note Taking
+
+- Linking and connecting notes in Obsidian
+- Obsidian usage
+- Obsidian Plugins
+- Quartz
+	- allowed frontmatter
 - ...
 
 ## Reading
