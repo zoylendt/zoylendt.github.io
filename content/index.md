@@ -37,6 +37,8 @@ This will guide you through initializing your Quartz with content. Once you've d
 
 Some topics that are covered in this blog:
 
+- 🧬 [[Braindump]]
+   - 🏷 [[tags/todo|ToDo (unfinished blog entries)]] 
 - 🍺 [[Home Brewing|Home Brewing and cooking Recipes]]
    - 🏷 [[tags/beer|Beer]]
    - 🏷 [[tags/bread|Bread]]
@@ -69,8 +71,6 @@ Some topics that are covered in this blog:
    - 🏷 [[tags/unraid|Unraid]]
    - 🏷 [[tags/synology|Synology]]
    - 🏷 [[tags/windows|Windows]]
-- 🧬 [[Braindump]]
-   - 🏷 [[tags/todo|ToDo (unfinished blog entries)]] 
    
 There are also overviews of all 📄 [[tags/post|posts]] and all 🏷 [[tags]].
 

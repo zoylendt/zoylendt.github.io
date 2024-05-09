@@ -9,7 +9,10 @@ tags:
   - todo
 ---
  
-## Some topics I want to write about:
+# Some topics I want to write about:
+
+## Braindump
+
 
 ### Note Taking
 - github flavoured markdown
@@ -18,7 +21,13 @@ tags:
    - obsidian plugins
 - quartz content structure
 
-### Reading
+## Home Brewing
+- 30XX-35XX
+
+## Note Taking
+- ...
+
+## Reading
 - movies
 - quotes
 - series
@@ -26,7 +35,7 @@ tags:
 - list of owned books
 - list of board games
 
-### Self Hosted
+## Self Hosted
 - list of used hardware
 - list of unused hardware
 - list of RasPi stuff
@@ -45,5 +54,3 @@ tags:
    - youtube
 - document HomeAssistant
 
-### Brewing
-- 30XX-35XX
