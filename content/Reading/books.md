@@ -22,8 +22,17 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **The Ministry for the Future** by Kim Stanley Robinson
 - **Cat's Cradle** by Kurt Vonnegut
 
+### Fiction (suggestions from friends)
+
+- ...
+
+### Warhammer 40K
+
+- ...
+
 ### Non-fiction
 
+- **Lost in Math: How Beauty Leads Physics Astray** by Sabine Hossenfelder
 - ...
 
 ### Comic & Manga
