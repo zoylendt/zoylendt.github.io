@@ -54,12 +54,16 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### 2024
 
-- **[[thoughts/Alexandre Grothendieck#Reflection and testimony on a past as a mathematician|Récoltes et Semailles]]** by Alexandre Grothendieck
-- 
-- **This Is How You Lose the Time War** by Amal El-Mohtar & Max Gladstone
-- **The End and the Death, Volume II** by Dan Abnett
-- **Far from the Light of Heaven** by Tade Thompson
-- 
+- **The End and the Death, Volume III** by Dan Abnett
+- **Time Salvager** by Wesley Chu
+- **A Memory Called Empire** by Arkady Martine
+- **A Desolation Called Peace** by Arkady Martine
+- **The Murderbot Diaries 1-7** by Martha Wells
+- **Bobiverse 1-4** by Dennis E. Taylor
+- **The Kaiju Preservation Society** by John Scalzi
+- **Scholomance 1-3** by Naomi Novik
+- **Ascension** by Nicholas Binge
+- **Mickey 7** by Edward Ashton
 
 ### 2023
 
@@ -73,6 +77,10 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Foundation** by Isaac Asimov
 - **[[thoughts/Tomorrow, and Tomorrow, and Tomorrow|Tomorrow, and Tomorrow, and Tomorrow]]** by Gabrielle Zevin
 - **Project Hail Mary** by Andy Weir
+- ...
+- **Far from the Light of Heaven** by Tade Thompson
+- - **This Is How You Lose the Time War** by Amal El-Mohtar & Max Gladstone
+- **The End and the Death, Volume II** by Dan Abnett
 
 ### Noteworthy Books From Before 2023
 
