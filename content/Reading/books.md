@@ -47,19 +47,21 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ## Current Reading
 
-- **The Dream Machine** by M. Mitchell Waldrop
-- **Saving Time, Discovering a Life Beyond the Clock** by Jenny Odell
+- **Three Parts Dead** by Max Gladstone
+- **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
+- 
 
 ## Previously Read Books
 
 ### 2024
 
-- **The End and the Death, Volume III** by Dan Abnett
+- **The End and the Death: Volume III** by Dan Abnett
 - **Time Salvager** by Wesley Chu
 - **A Memory Called Empire** by Arkady Martine
 - **A Desolation Called Peace** by Arkady Martine
 - **The Murderbot Diaries 1-7** by Martha Wells
 - **Bobiverse 1-4** by Dennis E. Taylor
+- **Angelus Exterminatus** by Graham McNeill (audiobook)
 - **The Kaiju Preservation Society** by John Scalzi
 - **Scholomance 1-3** by Naomi Novik
 - **Ascension** by Nicholas Binge
@@ -67,23 +69,14 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### 2023
 
-- **[[thoughts/The Mythical Man-Month|The Mythical Man-Month]]** by Frederick P. Brooks, Jr.
-- **Design as Art** by Bruno Munari
-- **[[thoughts/Scientific Freedom|Scientific Freedom: The Elixir of Civilization]]** by Donald W. Braben
-- **[[thoughts/Where is My Flying Car|Where Is My Flying Car?]]** by J. Storrs Hall
-- **[[thoughts/visualization|The Visual Display of Quantitative Information]]** by Edward R. Tufte
-- **[[thoughts/A Pattern Language]]** by Christopher Alexander
-- **Upstream: Selected Essays** by Mary Oliver
-- **Foundation** by Isaac Asimov
-- **[[thoughts/Tomorrow, and Tomorrow, and Tomorrow|Tomorrow, and Tomorrow, and Tomorrow]]** by Gabrielle Zevin
-- **Project Hail Mary** by Andy Weir
-- ...
+- **This Is How You Lose the Time War** by Amal El-Mohtar & Max Gladstone
 - **Far from the Light of Heaven** by Tade Thompson
-- - **This Is How You Lose the Time War** by Amal El-Mohtar & Max Gladstone
-- **The End and the Death, Volume II** by Dan Abnett
+- **The End and the Death: Volume II** by Dan Abnett
 
 ### Noteworthy Books From Before 2023
 
+- **Project Hail Mary** by Andy Weir
+- ...
 - **[[thoughts/Seeing like a State|Seeing Like A State]]** by James C. Scott
 - **[[thoughts/Games Agency as Art]]** by C. Thi Nguyen
 - **Permutation City** by Greg Egan
