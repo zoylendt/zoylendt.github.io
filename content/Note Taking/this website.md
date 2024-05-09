@@ -86,9 +86,9 @@ jobs:
 
  (Explain .github files)
 
-  "SKIP_PR: true" -> pushes directly to default branch, skips creating a pull request
-  "COMMIT_EACH_FILE: false" -> commit multiple file changes a a single commit
-  "main" instead of "master"
+   - "SKIP_PR: true" -> pushes directly to default branch, skips creating a pull request
+   - "COMMIT_EACH_FILE: false" -> commit multiple file changes a a single commit
+   - "main" instead of "master"
 
 ### (Optional) Suggested folder structure:
 
@@ -123,17 +123,17 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
 
 ## Initialize Obsidian folder as git repo (using GitHub Desktop)
 
-   Now we need to initialie the Obsidian vault directory as a git repo. Using GitHub Desktop this works as follows:
-      (Install GitHubDesktop and log in with your GitHub USERNAME)
-      GitHub Desktop -> "Add an Existing Repository from your local drive" -> choose Obsidian folder -> Click on blue "create a repository" within red warning text
-        Name: obsidian-backup
-        other settings unchanged
-          Path: (path of your Obsidian vault, named VAULTNAME)
+Now we need to initialize the Obsidian vault directory as a git repo. Using GitHub Desktop this works as follows:
+  - (Install GitHubDesktop and log in with your GitHub USERNAME)
+  - GitHub Desktop -> "Add an Existing Repository from your local drive" -> choose Obsidian folder -> Click on blue "create a repository" within red warning text
+    - Name: obsidian-backup
+    - other settings unchanged
+    - Path: (path of your Obsidian vault, named VAULTNAME)
       -> "Create repository"
       -> click the blue button "Publish repository"
          -> name: obsidian-backup
          -> "[x] Keep this code private"  <- IMPORTANT!
-      GitHub Desktop can be closed now. It's useful for resolving git issues if they occur.
+GitHub Desktop can be closed now. It's useful for resolving git issues if they occur.
 
 ## Create PAT (Personal Access Token) and store it as a Repository Secret in your obsidian-backup-repo
 
@@ -178,9 +178,9 @@ After making sure that we've installed Git and prepared the Obsidian vault as a 
 
 ...
 
-# Config Changes
+# Personalize you Quartz
 
-## earlier stuff
+## config changes
   - changes of layout
   - make **fat** text stand out more
 
@@ -195,3 +195,7 @@ After making sure that we've installed Git and prepared the Obsidian vault as a 
 - https://www.chadly.net/ & https://notes.yxy.ninja/
   - "last updated at"
   - "History" -> link to github
+
+# Working on multiple PCs
+
+...
