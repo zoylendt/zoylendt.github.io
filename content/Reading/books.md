@@ -84,7 +84,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Starship Troopers** by Robert A. Heinlein
 - **Forever War** by Joe Haldeman
 - **DinoPark** by Michael Crichton
-- **Turils Reise** by Michael Marcus Thurner
+- **Turils Reise** by Michael Marcus Thurner (Plasmawelt?)
 - **Quest** by Andreas Eschbach
 - **Der Unbesiegbare & Solaris** by Stanislaw Lem
 - **Battle Royale** by Koushun Takami
@@ -93,7 +93,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Der Automatische Detektiv** by A. Lee Martinez
 - **What if? 1+2** by Randall Munroe
 - **Der Zombie Survival Guide** by Max Brooks
-- 
+- ...
 
 ### Previously read Warhammer 40K Books
 
