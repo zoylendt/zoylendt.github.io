@@ -1,7 +1,7 @@
 ---
 title: This Website
 description: link preview
-date: 2024-02-05
+date: 2024-05-06
 draft: false
 enableToc: true
 noindex: false
@@ -11,4 +11,179 @@ tags:
   - self hosted
 ---
  
-markdown content :)
+# Introduction
+
+# Basic Setup
+
+## 1. Install Obsidian, GitHub Desktop & Git
+
+ (Reasons for chosen programs)
+
+## 2. GitHub Setup (Blog repository)
+
+- Fork https://github.com/jackyzha0/quartz (name: GHUSERNAME.github.io)
+- create new branch "upstream" (from v4, useful to compare changes that happen upstream which might require config changes)
+- delete the folder "content" and the file README.md
+- follow https://quartz.jzhao.xyz/hosting#github-pages
+- (optional) Instructions for use with a custom domain: https://quartz.jzhao.xyz/hosting#custom-domain
+
+## 3. Initial Obsidian Settings
+
+Options -> Appearance > Base color scheme -> Dark
+Options -> Files and links -> Deleted files -> Move to Obsidian trash (.trash folder)
+Options -> Files and links -> Detect all file extensions -> enable
+Options -> Files and links -> Default location for new attachments -> in subfolder under current folder -> attachments
+Options -> Files and links -> Default location for new notes -> In the folder specified below -> private
+Options -> Editor -> Default editing mode -> Source mode
+Options -> Editor -> Display -> Readable line length -> toggle off
+
+## Create required folder structure
+
+### Minimal setup:
+
+```
+C:\users\USERNAME\Obsidian\VAULTNAME\
+ ├── .obsidian
+ │   └── ...
+ ├── .github
+ │   ├── sync.yml
+ │   └── workflows
+ │       └── sync.yml
+ ├── private
+ │   └── .gitkeep
+ └── public
+     └── index.md
+```
+
+Contents of `/.github/workflows/sync.yml` and `/.github/sync.yml`:
+
+``` "/.github/sync.yml"
+zoylendt/zoylendt.github.io@v4:
+  - source: public/
+    dest: content/
+    deleteOrphaned: true
+```
+
+``` "/.github/workflows/sync.yml"
+name: Sync Files
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@master
+      - name: Run GitHub File Sync
+        uses: BetaHuhn/repo-file-sync-action@v1
+        with:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          SKIP_PR: true
+```
+
+ (Explain .github files)
+
+  "SKIP_PR: true" -> pushes directly to default branch, skips creating a pull request
+  "COMMIT_EACH_FILE: false" -> commit multiple file changes a a single commit
+  "main" instead of "master"
+
+### (Optional) Suggested folder structure:
+
+```
+C:\users\USERNAME\Obsidian\VAULTNAME\
+ ├── .git
+ │   └── ...
+ ├── .obsidian
+ │   └── ...
+ ├── .github
+ │   ├── sync.yml
+ │   └── workflows
+ │       └── sync.yml
+ ├── .trash
+ │   └── .gitkeep
+ ├── private
+ │   └── .gitkeep
+ └── public
+     ├── index.md
+     ├── template.md
+     ├── tags
+     │   ├── tag1.md
+     ├── Topic1
+     │   ├── blogpage1.md
+     │   └── attachments
+     │       └── image.png
+     └── Topic2
+         └── blogpage2.md
+```
+
+ (Reasons)
+
+## Initialize Obsidian folder as git repo (using GitHub Desktop)
+
+   Now we need to initialie the Obsidian vault directory as a git repo. Using GitHub Desktop this works as follows:
+      (Install GitHubDesktop and log in with your GitHub USERNAME)
+      GitHub Desktop -> "Add an Existing Repository from your local drive" -> choose Obsidian folder -> Click on blue "create a repository" within red warning text
+        Name: obsidian-backup
+        other settings unchanged
+          Path: (path of your Obsidian vault, named VAULTNAME)
+      -> "Create repository"
+      -> click the blue button "Publish repository"
+         -> name: obsidian-backup
+         -> "[x] Keep this code private"  <- IMPORTANT!
+      GitHub Desktop can be closed now. It's useful for resolving git issues if they occur.
+
+## Create PAT (Personal Access Token) and store it as a Repository Secret in your obsidian-backup-repo
+
+1. https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
+
+   Note: custom name, e.g. "sync contents to blog"
+   Expiration: No expiration
+   Scope: full repo scope (see image: https://github.com/BetaHuhn/repo-file-sync-action/discussions/31 )
+
+Take note of the generated PAT for the next step! It looks like this: `ghp_xxxxxxxxxxxxxxxx`
+
+2.
+https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository
+
+    Open your private obsidian-backup repo on gitHub
+    Settings -> Security -> Secrets and variables -> Actions-> Secrets -> New repository secret
+
+   Name: GH_PAT
+   Secret: (PAT generated in the previous step)
+
+3.
+(Maybe better: use GH_INSTALLATION_TOKEN as described here: https://github.com/marketplace/actions/repo-file-sync-action#token )
+
+## Obsidian Git Plugin
+
+Options -> Community Plugins -> Turn on community plugins -> Browse -> "Git by Vinzent, (Denis Olehov)" -> Install
+Options -> Community Plugins -> Installed Plugins -> Git -> enable (slide to right)
+Options -> Community Plugins -> Installed Plugins -> Git -> Options (kog)
+   - Backup -> "Pull updates on startup" -> enable
+   - Commit message -> "{{hostname}} placeholder replacement" -> enter your hostname
+   - Commit message -> "Commit message on manual backup/commit" -> "manual backup: {{date}} from {{hostname}}, {{numFiles}} files"
+   - Automatic -> "Commit message on auto backup/commit" -> "auto backup: {{date}} from {{hostname}}, {{numFiles}} files"
+   - Miscellaneous -> "Show the count of modified files in the status bar" -> enable
+   - Commit message -> "List filenames affected by commit in the commit body" -> enable
+   - Automatic -> "Vault backup interval (minutes)" -> 10
+   - Automatic -> "Auto pull interval (minutes)" -> 9
+
+# Config Changes
+
+## earlier stuff
+  - changes of layout
+
+## enable rss feed
+
+## inspired by showcases
+
+- https://jzhao.xyz/
+  - different background
+  - "recent notes" & "explorer" only on startpage
+
+- https://www.chadly.net/ & https://notes.yxy.ninja/
+  - "last updated at"
+  - "History" -> link to github
