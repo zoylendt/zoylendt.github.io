@@ -13,6 +13,7 @@ tags:
 # Resources
 
 https://www.youtube.com/watch?v=Yzi1o-BH6QQ
+https://www.youtube.com/watch?v=W7kTtn9empU
 
 
 # Community Plugins
@@ -23,8 +24,28 @@ see [[this website]]
 
 ## Commander
 
+...
+
 ## QuickAdd
 
+...
+
 ## Advanced Tables
+
+...
+
+## Dataview
+
+[Documentation](https://blacksmithgu.github.io/obsidian-dataview/)
+
+...
+
+## Projects
+
+...
+
+## Excalidraw
+
+...
 
 ## 
