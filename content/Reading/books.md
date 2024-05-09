@@ -18,6 +18,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 ### Fiction
 
 - **Accelerando** by Charles Stross
+- **Glasshouse** by Charles Stross
 - **The Ministry for the Future** by Kim Stanley Robinson
 - **Cat's Cradle** by Kurt Vonnegut
 - ...
