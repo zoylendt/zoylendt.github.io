@@ -29,7 +29,8 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 - **Black Bird Academy** by Stella Tack
 - **Book of Night** Holly Black
-- 
+- **Rivers of London (series)** by ben Aaronovitch
+- ...
 
 ### Warhammer 40K
 
@@ -39,6 +40,11 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 - **Lost in Math: How Beauty Leads Physics Astray** by Sabine Hossenfelder
 - **The Making of the Atomic Bomb** by Richard Rhodes
+- **72 Minuten bis zur Vernichtung** by Annie Jacobsen
+- **Das elegante Universum** by Brian Greene
+- **Humble Pi** by Matt Parker
+- **Bald!** by Zach Weinersmith
+- **Sapiens** by Yuval Noah Harari
 - ...
 
 ### Comic & Manga
@@ -76,6 +82,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 - **This Is How You Lose the Time War** by Amal El-Mohtar & Max Gladstone
 - **Far from the Light of Heaven** by Tade Thompson
+- **Signus Daemonicus** by james Swallow
 - **The End and the Death: Volume II** by Dan Abnett
 
 ### Noteworthy Books From Before 2023
