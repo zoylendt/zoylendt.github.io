@@ -84,9 +84,28 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### Previously read Warhammer 40K Books
 
-- Die Bürde der Loyalität
-- **Wiederkehr & Divination** by John French
-- **Urdesh 2** by 
+- **Inkarnation, Wiederkehr & Divination** by John French
+- **Urdesh 2+3** by Matthew Farrer
+- **Der Sabbatkrieg** by Dan Abnett
+- **Ciaphas Cain 1-5** by Sandy Mitchell
+- **Siege of Terra (all books)** by VA
+- **HH Primarchs: Die Söhne des Imperators**
+- **Das Helwinter-Tor, Blut von Asaheim** by Chris Wraight
+- **Eisenhorn, Ravenor & Bequin** by Dan Abnett
+- **Horus Heresy**
+	- Prospero brennt
+	- Tallarn
+	- Die Bürde der Loyalität
+	- Prätorianer des Dorn
+	- Die zerschlagenen Legionen
+- **Der Weg der Orks** by Mike Brooks
+- **Cadias Blut** by Aaron Dembski-Bowden
+- **Legion der Sühne** by Gav Thorpe (?)
+- **Nexus** by VA
+- **Der Schild der Heiligen** by Rachel Harrison
+- **Volpones Ruhm** by Nick Kyme
+- **Mensch und Maschine** by Guy Haley
+- **Priester des Mars 1+2** by Graham McNeill
 
 ---
 
