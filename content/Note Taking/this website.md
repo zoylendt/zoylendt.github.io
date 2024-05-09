@@ -29,13 +29,13 @@ tags:
 
 ## 3. Initial Obsidian Settings
 
-Options -> Appearance > Base color scheme -> Dark
-Options -> Files and links -> Deleted files -> Move to Obsidian trash (.trash folder)
-Options -> Files and links -> Detect all file extensions -> enable
-Options -> Files and links -> Default location for new attachments -> in subfolder under current folder -> attachments
-Options -> Files and links -> Default location for new notes -> In the folder specified below -> private
-Options -> Editor -> Default editing mode -> Source mode
-Options -> Editor -> Display -> Readable line length -> toggle off
+  - Options -> Appearance > Base color scheme -> Dark
+  - Options -> Files and links -> Deleted files -> Move to Obsidian trash (.trash folder)
+  - Options -> Files and links -> Detect all file extensions -> enable
+  - Options -> Files and links -> Default location for new attachments -> in subfolder under current folder -> attachments
+  - Options -> Files and links -> Default location for new notes -> In the folder specified below -> private
+  - Options -> Editor -> Default editing mode -> Source mode
+  - Options -> Editor -> Display -> Readable line length -> toggle off
 
 ## Create required folder structure
 
@@ -129,10 +129,10 @@ Now we need to initialize the Obsidian vault directory as a git repo. Using GitH
     - Name: obsidian-backup
     - other settings unchanged
     - Path: (path of your Obsidian vault, named VAULTNAME)
-      -> "Create repository"
-      -> click the blue button "Publish repository"
-         -> name: obsidian-backup
-         -> "[x] Keep this code private"  <- IMPORTANT!
+  - -> "Create repository"
+  - -> click the blue button "Publish repository"
+    - -> name: obsidian-backup
+    - -> "[x] Keep this code private"  <- IMPORTANT!
 GitHub Desktop can be closed now. It's useful for resolving git issues if they occur.
 
 ## Create PAT (Personal Access Token) and store it as a Repository Secret in your obsidian-backup-repo
