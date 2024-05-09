@@ -21,10 +21,15 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Homo Ludens** by Johan Huizinga
 - **The Ministry for the Future** by Kim Stanley Robinson
 - **Cat's Cradle** by Kurt Vonnegut
+- ...
+- **Ex-Heroes 2+** by Peter Clines
+- 
 
 ### Fiction (recommendations from friends)
 
-- ...
+- **Black Bird Academy** by Stella Tack
+- **Book of Night** Holly Black
+- 
 
 ### Warhammer 40K
 
@@ -33,6 +38,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 ### Non-fiction
 
 - **Lost in Math: How Beauty Leads Physics Astray** by Sabine Hossenfelder
+- **The Making of the Atomic Bomb** by Richard Rhodes
 - ...
 
 ### Comic & Manga
@@ -78,7 +84,9 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### Previously read Warhammer 40K Books
 
-- ...
+- Die Bürde der Loyalität
+- **Wiederkehr & Divination** by John French
+- **Urdesh 2** by 
 
 ---
 
