@@ -15,7 +15,6 @@ aliases:
 
 A (mostly) up-to-date list of books I at some point, have wanted to read, am reading, or finished reading. Links are to pages/blog posts/ideas that were inspired by the book that's linked!
 
->  [“the end of a book’s wisdom appears to us as merely the start of our own,”](https://www.themarginalian.org/2016/10/20/proust-on-reading/) Nussbaum writes
 ## To Read
 
 > What is an [antilibrary](https://nesslabs.com/antilibrary)? To put it simply, an antilibrary is a private collection of unread books. Instead of a celebration of everything you know, an antilibrary is an ode to everything you want to explore.
@@ -49,7 +48,10 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 - **Three Parts Dead** by Max Gladstone
 - **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
-- 
+- **Warboss** by Mike Brooks
+- **Dark Imperium 1-3** by Guy Haley
+- **Python - Der Grundkurs** by Michael Kofler
+- ...
 
 ## Previously Read Books
 
@@ -61,6 +63,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **A Desolation Called Peace** by Arkady Martine
 - **The Murderbot Diaries 1-7** by Martha Wells
 - **Bobiverse 1-4** by Dennis E. Taylor
+- **Git - kurz & gut** by Nina Siessegger
 - **Angelus Exterminatus** by Graham McNeill (audiobook)
 - **The Kaiju Preservation Society** by John Scalzi
 - **Scholomance 1-3** by Naomi Novik
@@ -92,7 +95,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - [**Archipelago**](thoughts/Archipelago.md) by Édouard Glissant
 - **Unflattening** by Nick Sousanis
 
-### Warhammer 40K Books
+### Previously read Warhammer 40K Books
 
 - [**How to Do Nothing**](thoughts/How%20to%20do%20Nothing.md) by Jenny Odell
 - [**A Tale for the Time Being**](thoughts/A%20Tale%20for%20the%20Time%20Being.md) by Ruth Ozeki
