@@ -24,11 +24,14 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Change the background from plain white, like here: https://jzhao.xyz/ & https://mwalton.me/
   - Exclude some pages, like `tags`, from the [Graph View](https://quartz.jzhao.xyz/features/graph-view)
   - (optional) Change the with at wich the left and right layout parts get removed
-  - Make **fat** text more stand out (in light mode)
+  - Make **fat text** more stand out (in light mode)
   - Link to `all tags` next to search and mode toggle, like here: https://glossary.airbyte.com/
   - `Recent Updates` part at start page, like here: https://glossary.airbyte.com/
   - Have some links on the top of each page, like here: https://notes.camargomau.com/
-  - 
+  - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/
+  - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/
+  - Change font, like here: https://www.pmcf.xyz/topo-da-mente/
+  - Show `Most recent notes` in left layout part
 
 ## quartz.layout.ts
 
