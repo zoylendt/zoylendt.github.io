@@ -50,7 +50,7 @@ Changes:
    - Line `6`: The blog's title, displayed on each page's top left corner. Emojis might render differently depending on the end device, for example 🪴 (from the [Quartz Documentation Blog](https://quartz.jzhao.xyz/)) renders as a [potted plant](https://emojipedia.org/potted-plant) in iOS, but the Brave browser under Windows shows just a square. [Here](https://emojipedia.org/) can some renderings be compared.
    - Line `10`: Disabling analytics.
    - Line `12`: The blog's base URL, very important!
-   - Line `54`: I changed the LaTEX rendering engine because the default, `katex`, didn't work properly sometimes. 📚🔖
+   - Line `54`: I changed the LaTEX rendering engine because the default, `katex`, didn't work properly sometimes. 📚🔖🏷
 
 Emoji: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🗺🐳📚📖📋
 
