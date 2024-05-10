@@ -27,7 +27,9 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Make **fat** text more stand out (in light mode)
   - Link to `all tags` next to search and mode toggle, like here: https://glossary.airbyte.com/
   - `Recent Updates` part at start page, like here: https://glossary.airbyte.com/
-  - 
+  - [[Q- Reading/books]]
+  - [[C- Reading/books]]
+  -  [[I- Reading/books]]
 
 ## quartz.layout.ts
 
