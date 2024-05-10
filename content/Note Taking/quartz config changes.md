@@ -30,8 +30,9 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Have some links on the top of each page, like here: https://notes.camargomau.com/
   - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/
   - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/
-  - Change font, like here: https://www.pmcf.xyz/topo-da-mente/
-  - Show `Most recent notes` in left layout part
+  - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/
+  - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
+  - 
 
 ## quartz.layout.ts
 
