@@ -270,25 +270,25 @@ The unaltered config files are included here, in order to make it easier to comp
 # ...
 
 
-```
+
 | :exclamation:  This is very important   |
 |-----------------------------------------|
 
 
 | :zap:        Ignore at your own risk!   |
 |-----------------------------------------|
-```
 
-```
+
+
 | :memo:        | Take note of this       |
 |---------------|:------------------------|
 
 
 | :point_up:    | Remember to not forget! |
 |---------------|:------------------------|
-```
 
-```
+
+
 | :warning: WARNING          |
 |:---------------------------|
 | I should warn you ...      |
@@ -297,9 +297,9 @@ The unaltered config files are included here, in order to make it easier to comp
 | :boom: DANGER              |
 |:---------------------------|
 | Will explode when clicked! |
-```
 
-```xml
+
+
 <table>
   <thead>
     <tr>
@@ -320,4 +320,3 @@ The unaltered config files are included here, in order to make it easier to comp
     </tr>
   </tbody>
 </table>
-```
