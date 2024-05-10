@@ -245,12 +245,8 @@ export const defaultListPageLayout: PageLayout = {
 
 The unaltered config files are included here, in order to make it easier to compare them.
 
-> [!abstract]- `quartz.config.ts`
-> 
-> ...
-
 <details>
-  <summary>[Click me] `quartz.config.ts`</summary>
+  <summary>[Click me]  quartz.config.ts</summary>
   
   ```ts
   import { QuartzConfig } from "./quartz/cfg"
@@ -347,6 +343,13 @@ export default config
 ```
 </details>
 
+<details>
+  <summary>[Click me]  quartz.config.ts</summary>
+  
+  ```ts
+...
+```
+</details>
 
 # ...
 
