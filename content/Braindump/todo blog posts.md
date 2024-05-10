@@ -14,6 +14,7 @@ tags:
 ## Braindump
 - Game keys
 - pr0gramm tampermonkey setup
+- tag: bookmark
 
 ### Note Taking
 - github flavoured markdown
