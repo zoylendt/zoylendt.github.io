@@ -35,6 +35,7 @@ tags:
 - Quartz
 	- allowed frontmatter
 - ...
+- Marmaid Diagrams -> https://mermaid.live/
 
 ## Reading
 - movies

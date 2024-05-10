@@ -38,11 +38,19 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 - ...
 
+A list of physical books I own but haven't read yet:
+
+- **Assasinorum** by Robert Rath
+- **Fürchte den Xenos** by Christian Dunn 
+- **Lupercal's War** by VA
+- ...
+
 #### Comic & Manga
 
 - Junji Ito
 - Ruri Dragon (finished chapters 1-12)
-- 
+- Chainsaw Man (finished chapters 1-161)
+- Kaiju No. 8 (finished chapters 1-21)
 - Solo Leveling (paused after chapter 64)
 - ...
 
