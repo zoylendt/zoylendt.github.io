@@ -36,6 +36,7 @@ tags:
   - Options -> Files and links -> Default location for new notes -> In the folder specified below -> private
   - Options -> Editor -> Default editing mode -> Source mode
   - Options -> Editor -> Display -> Readable line length -> toggle off
+  - Options -> Editor -> Behavior -> Spellcheck languages -> Add `English`
 
 ## Create required folder structure
 
