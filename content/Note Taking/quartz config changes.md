@@ -13,7 +13,7 @@ This post's topic are the changes I made of my Quartz instance, in order to diff
 
 The main drawback of changing core components of Quartz is, that an upstream update might break your installation (if you incorporate it without looking closely).
 
-## Planned changes
+# Planned changes
 
 The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
   - Change the [Layout](https://quartz.jzhao.xyz/layout) for all pages
@@ -34,6 +34,8 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/
   - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
   - 
+
+# Modified files
 
 ## quartz.config.ts
 
@@ -127,6 +129,15 @@ const config: QuartzConfig = {
 export default config
 ```
 
+
+## /quartz/static
+
+...
+
+## /quartz/components
+
+...
+
 ## quartz.layout.ts
 
 In `quartz.layout.ts` ...
@@ -139,6 +150,8 @@ Changes:
    - Line `54-61`: Changes of elements in the right column:
       - ...
       - ...
+
+... (important text block!)
 
 ```ts {3,11-12,28-51,54-61} title="quartz.layout.ts"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
@@ -220,3 +233,9 @@ export const defaultListPageLayout: PageLayout = {
   right: [],
 }
 ```
+
+
+
+# dfsdf
+
+ddd
