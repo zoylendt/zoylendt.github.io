@@ -11,7 +11,7 @@ tags:
  
 This post's topic are the changes I made of my quartz instance, in order to differentiate its appearance from the default config.
 
-The main drawback of changing core components of Quartz is, that an upstream update might i
+The main drawback of changing core components of Quartz is, that an upstream update might break your installation (if you incorporate it without looking closely).
 
 The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
 
@@ -23,6 +23,10 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Show `Last updated at` and `History` (link to github file history) next to `Published at` and `Reading time`, like here: https://www.chadly.net/ & https://notes.yxy.ninja/
   - Change the background from plain white, like here: https://jzhao.xyz/
   - Exclude some pages, like `tags`, from the [Graph View](https://quartz.jzhao.xyz/features/graph-view)
+  - (optional) Change the with at wich the left and right layout parts get removed
+  - Make **fat** text more stand out (in light mode)
+  - Link to `all tags` next to search and mode toggle, like here: https://glossary.airbyte.com/
+  - `Recent Updates` part at start page, like here: https://glossary.airbyte.com/
   - 
 
 ## quartz.layout.ts
