@@ -17,6 +17,8 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### Fiction
 
+#### Award-winning books
+
 - **Accelerando** by Charles Stross
 - **Glasshouse** by Charles Stross
 - **The Ministry for the Future** by Kim Stanley Robinson
@@ -25,16 +27,23 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Ex-Heroes 2+** by Peter Clines
 - 
 
-### Fiction (recommendations from friends)
+#### Recommendations from friends
 
 - **Black Bird Academy** by Stella Tack
 - **Book of Night** Holly Black
 - **Rivers of London (series)** by ben Aaronovitch
 - ...
 
-### Warhammer 40K
+#### Warhammer 40K
 
 - ...
+
+#### Comic & Manga
+
+- Junji Ito
+- Ruri Dragon
+- ...
+
 
 ### Non-fiction
 
@@ -45,11 +54,6 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Humble Pi** by Matt Parker
 - **Bald!** by Zach Weinersmith
 - **Sapiens** by Yuval Noah Harari
-- ...
-
-### Comic & Manga
-
-- Junji Ito
 - ...
 
 ## Current Reading
