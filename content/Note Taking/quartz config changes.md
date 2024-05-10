@@ -250,8 +250,9 @@ The unaltered config files are included here, in order to make it easier to comp
 > ...
 
 <details>
-  <summary>Click me</summary>
-  ```jts
+  <summary>[Click me] `quartz.config.ts`</summary>
+  
+  ```ts
   import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -343,7 +344,7 @@ const config: QuartzConfig = {
 }
 
 export default config
-  ```
+```
 </details>
 
 
