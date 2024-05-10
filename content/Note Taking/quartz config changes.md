@@ -9,7 +9,9 @@ tags:
   - self hosted
 ---
  
-This post's topic are the changes I made of my quartz instance, besides the content inside the directory `/content`.
+This post's topic are the changes I made of my quartz instance, in order to differentiate its appearance from the default config.
+
+The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
 
 ## quartz.layout.ts
 
