@@ -13,6 +13,13 @@ This post's topic are the changes I made of my quartz instance, in order to diff
 
 The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
 
+  - Change the [Layout](https://quartz.jzhao.xyz/layout) for all pages
+	  - Change the blog name
+	  - Change the default footer
+	  - Compress the search bar to fit the light/dark mode toggle switch next to it instead of under it
+  - Remove the [Explorer](https://quartz.jzhao.xyz/features/explorer) from all but the `index.md` page
+  - 
+
 ## quartz.layout.ts
 
 In `quartz.layout.ts` ...
