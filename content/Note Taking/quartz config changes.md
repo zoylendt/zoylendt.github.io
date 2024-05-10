@@ -50,7 +50,7 @@ Changes:
    - Line `12`: The blog's base URL, very important!
    - Line `54`: I changed the LaTEX rendering engine because the default, `katex`, didn't work properly sometimes.
 
-Emoji: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🗺🐳📚📖
+Emoji: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🗺🐳📚📖📋
 
 <details>
   <summary>[Click me] custom quartz.config.ts</summary>
