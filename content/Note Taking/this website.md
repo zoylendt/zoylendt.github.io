@@ -199,3 +199,5 @@ After making sure that we've installed Git and prepared the Obsidian vault as a 
 # Working on multiple PCs
 
 ...
+
+(add `workspace.json)` to local `.gitignore`)

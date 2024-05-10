@@ -21,7 +21,7 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
 	  - Compress the search bar to fit the light/dark mode toggle switch next to it instead of under it
   - Remove the [Explorer](https://quartz.jzhao.xyz/features/explorer) from all but the `index.md` page
   - Show `Last updated at` and `History` (link to github file history) next to `Published at` and `Reading time`, like here: https://www.chadly.net/ & https://notes.yxy.ninja/
-  - Change the background from plain white, like here: https://jzhao.xyz/
+  - Change the background from plain white, like here: https://jzhao.xyz/ & https://mwalton.me/
   - Exclude some pages, like `tags`, from the [Graph View](https://quartz.jzhao.xyz/features/graph-view)
   - (optional) Change the with at wich the left and right layout parts get removed
   - Make **fat** text more stand out (in light mode)
