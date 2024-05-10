@@ -42,6 +42,8 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 - Junji Ito
 - Ruri Dragon (finished chapters 1-12)
+- 
+- Solo Leveling (paused after chapter 64)
 - ...
 
 

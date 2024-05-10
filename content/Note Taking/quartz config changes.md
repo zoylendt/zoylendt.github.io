@@ -29,8 +29,8 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Link to `all tags` next to search and mode toggle, like here: https://glossary.airbyte.com/
   - `Recent Updates` part at start page, like here: https://glossary.airbyte.com/
   - Have some links on the top of each page, like here: https://notes.camargomau.com/
-  - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/
-  - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/
+  - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
+  - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
   - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/
   - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
   - 
