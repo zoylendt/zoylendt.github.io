@@ -28,12 +28,15 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Make **fat text** more stand out (noticeable in dark mode)
   - Link to `all tags` next to search and mode toggle, like here: https://glossary.airbyte.com/
   - `Recent Updates` part at start page, like here: https://glossary.airbyte.com/
-  - Have some links on the top of each page, like here: https://notes.camargomau.com/
+  - Have some links on the top of each page, like here: https://notes.camargomau.com/ -> [GitHub](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/LinksHeader.tsx#L15)
   - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
   - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
   - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/
   - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
   - 
+
+> [!abstract]- Sciujo
+> The [[Sciujo]] ("knowledge container" in Esperanto) is the main and the knowledge-oriented part of the Notkesto; it follows the [[Zettelkasten]] method.
 
 # Modified files
 
