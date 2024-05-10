@@ -22,7 +22,7 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
 	  - Compress the search bar to fit the light/dark mode toggle switch next to it instead of under it
   - Remove the [Explorer](https://quartz.jzhao.xyz/features/explorer) from all but the `index.md` page
   - Change the Image shown in the browser tab, default: [Quartz image](https://github.com/jackyzha0/quartz/blob/v4/quartz/static/icon.png)
-  - Show folder images in the explorer
+  - Show folder images in the explorer, see [here](https://github.com/jackyzha0/quartz/blob/v4/quartz/static/icon.png)
   - Show `Last updated at` and `History` (link to github file history) next to `Published at` and `Reading time`, like here: https://www.chadly.net/ & https://notes.yxy.ninja/
   - Change the background from plain white, like here: https://jzhao.xyz/ & https://mwalton.me/ -> [GitHub](https://github.com/jackyzha0/jackyzha0.github.io/blob/db58591f9291df6f789e80294a343c5ffd424918/quartz/styles/custom.scss#L20)
   - Exclude some pages, like `tags`, from the [Graph View](https://quartz.jzhao.xyz/features/graph-view)
@@ -50,7 +50,7 @@ Changes:
    - Line `6`: The blog's title, displayed on each page's top left corner. Emojis might render differently depending on the end device, for example 🪴 (from the [Quartz Documentation Blog](https://quartz.jzhao.xyz/)) renders as a [potted plant](https://emojipedia.org/potted-plant) in iOS, but the Brave browser under Windows shows just a square. [Here](https://emojipedia.org/) can some renderings be compared.
    - Line `10`: Disabling analytics.
    - Line `12`: The blog's base URL, very important!
-   - Line `54`: I changed the LaTEX rendering engine because the default, `katex`, didn't work properly sometimes. 📚
+   - Line `54`: I changed the LaTEX rendering engine because the default, `katex`, didn't work properly sometimes. 📚🔖
 
 Emoji: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🗺🐳📚📖📋
 
