@@ -11,7 +11,7 @@ tags:
  
 This post's topic are the changes I made of my Quartz instance, in order to differentiate its appearance from the default config.
 
-The main drawback of changing core components of Quartz is, that an upstream update might break your installation (if you incorporate it without looking closely).
+The main drawback of changing core components of Quartz is, that upstream changes might break your installation (if you incorporate them without looking closely).
 
 # Planned changes
 
@@ -342,6 +342,7 @@ const config: QuartzConfig = {
 export default config
 ```
 </details>
+
 
 <details>
   <summary>[Click me]  quartz.layout.ts</summary>
