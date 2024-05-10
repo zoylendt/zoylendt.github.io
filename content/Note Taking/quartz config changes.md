@@ -1,5 +1,5 @@
 ---
-title: Quartz Config Changes
+title: Quartz Personalization
 date: 2024-02-07
 draft: false
 enableToc: true
