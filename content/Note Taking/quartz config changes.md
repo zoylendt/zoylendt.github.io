@@ -11,6 +11,8 @@ tags:
  
 This post's topic are the changes I made of my quartz instance, in order to differentiate its appearance from the default config.
 
+The main drawback of changing core components of Quartz is, that an upstream update might i
+
 The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
 
   - Change the [Layout](https://quartz.jzhao.xyz/layout) for all pages
@@ -18,6 +20,9 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
 	  - Change the default footer
 	  - Compress the search bar to fit the light/dark mode toggle switch next to it instead of under it
   - Remove the [Explorer](https://quartz.jzhao.xyz/features/explorer) from all but the `index.md` page
+  - Show `Last updated at` and `History` (link to github file history) next to `Published at` and `Reading time`, like here: https://www.chadly.net/ & https://notes.yxy.ninja/
+  - Change the background from plain white, like here: https://jzhao.xyz/
+  - Exclude some pages, like `tags`, from the [Graph View](https://quartz.jzhao.xyz/features/graph-view)
   - 
 
 ## quartz.layout.ts
