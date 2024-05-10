@@ -22,21 +22,21 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
 	  - Compress the search bar to fit the light/dark mode toggle switch next to it instead of under it
   - Remove the [Explorer](https://quartz.jzhao.xyz/features/explorer) from all but the `index.md` page
   - Show `Last updated at` and `History` (link to github file history) next to `Published at` and `Reading time`, like here: https://www.chadly.net/ & https://notes.yxy.ninja/
-  - Change the background from plain white, like here: https://jzhao.xyz/ & https://mwalton.me/
+  - Change the background from plain white, like here: https://jzhao.xyz/ & https://mwalton.me/ -> [GitHub](https://github.com/jackyzha0/jackyzha0.github.io/blob/db58591f9291df6f789e80294a343c5ffd424918/quartz/styles/custom.scss#L20)
   - Exclude some pages, like `tags`, from the [Graph View](https://quartz.jzhao.xyz/features/graph-view)
   - (optional) Change the width at which the left and right layout parts get removed
   - Make **fat text** more stand out (noticeable in dark mode)
   - Link to `all tags` next to search and mode toggle, like here: https://glossary.airbyte.com/
   - `Recent Updates` part at start page, like here: https://glossary.airbyte.com/
   - Have some links on the top of each page, like here: https://notes.camargomau.com/ -> [GitHub](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/LinksHeader.tsx#L15)
+  - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/ -> front name: [Lexend](https://www.lexend.com/)
+  - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
+  - ...
+
+Sadly, some Quartz blogs haven't documented their changes:
+
   - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
   - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
-  - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/
-  - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
-  - 
-
-> [!abstract]- Sciujo
-> The [[Sciujo]] ("knowledge container" in Esperanto) is the main and the knowledge-oriented part of the Notkesto; it follows the [[Zettelkasten]] method.
 
 # Modified files
 
@@ -228,6 +228,9 @@ export const defaultListPageLayout: PageLayout = {
 }
 ```
 
+## /quartz/styles/custom.scss
+
+...
 
 ## /quartz/static
 

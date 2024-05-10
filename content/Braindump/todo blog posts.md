@@ -40,6 +40,11 @@ tags:
 - about digital gardening -> https://mwalton.me/thoughts/digital-forests
 - ...
 
+Callouts example:
+
+> [!abstract]- Sciujo
+> The [[Sciujo]] ("knowledge container" in Esperanto) is the main and the knowledge-oriented part of the Notkesto; it follows the [[Zettelkasten]] method.
+
 ## Reading
 - movies
 - quotes
