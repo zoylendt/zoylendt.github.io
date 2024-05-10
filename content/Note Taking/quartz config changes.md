@@ -50,7 +50,10 @@ Changes:
    - Line `12`: The blog's base URL, very important!
    - Line `54`: I changed the LaTEX rendering engine because the default, `katex`, didn't work properly sometimes.
 
-```ts {6,10,12,54} title="quartz.config.ts"
+<details>
+  <summary>[Click me] custom quartz.config.ts</summary>
+  
+  ```ts {6,10,12,54} title="quartz.config.ts"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -131,6 +134,7 @@ const config: QuartzConfig = {
 
 export default config
 ```
+</details>
 
 ## quartz.layout.ts
 
@@ -147,7 +151,10 @@ Changes:
 
 ... (important text block!)
 
-```ts {3,11-12,28-51,54-61} title="quartz.layout.ts"
+<details>
+  <summary>[Click me] custom quartz.layout.ts</summary>
+  
+  ```ts {3,11-12,28-51,54-61} title="quartz.layout.ts"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { SimpleSlug } from "./quartz/util/path"
@@ -227,6 +234,7 @@ export const defaultListPageLayout: PageLayout = {
   right: [],
 }
 ```
+</details>
 
 ## /quartz/styles/custom.scss
 
@@ -246,7 +254,7 @@ export const defaultListPageLayout: PageLayout = {
 The unaltered config files are included here, in order to make it easier to compare them.
 
 <details>
-  <summary>[Click me]  quartz.config.ts</summary>
+  <summary>[Click me] default quartz.config.ts</summary>
   
   ```ts
 import { QuartzConfig } from "./quartz/cfg"
@@ -345,7 +353,7 @@ export default config
 
 
 <details>
-  <summary>[Click me]  quartz.layout.ts</summary>
+  <summary>[Click me] default quartz.layout.ts</summary>
   
   ```ts
 import { PageLayout, SharedLayout } from "./quartz/cfg"
