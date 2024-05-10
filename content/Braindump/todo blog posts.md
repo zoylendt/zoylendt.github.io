@@ -36,6 +36,8 @@ tags:
 	- allowed frontmatter
 - ...
 - Marmaid Diagrams -> https://mermaid.live/
+- about digital gardening -> https://mwalton.me/thoughts/digital-forests
+- ...
 
 ## Reading
 - movies
