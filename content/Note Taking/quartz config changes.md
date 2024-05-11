@@ -83,7 +83,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "DM Serif Display",
+        header: "Bebas Neue",
         body: "Lexend",
         code: "JetBrains Mono",
       },
