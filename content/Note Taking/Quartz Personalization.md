@@ -59,11 +59,11 @@ missing:
 Finished:
   - Required: Blog title, base URL
   - Analytics, fonts, colors
-  - Links in the footer
+  - Footer links
   - Recent notes
   - Explorer customization
   - Graph customization
-  - Desktop and Mobile specific layout changes
+  - Desktop and mobile specific layout changes
   - LinksHeader -> [GitHub](https://github.com/search?q=repo%3Acamargomau%2Fnotkesto-site%20linksheader&type=code)
   - 
 
@@ -82,7 +82,27 @@ Missing:
 
 ...
 
-## Links in the footer
+## Footer links
+
+...
+
+## Recent notes
+
+...
+
+## Explorer customization
+
+...
+
+## Graph customization
+
+...
+
+## Destop and mobile layout
+
+...
+
+## LinksHeader
 
 ...
 
