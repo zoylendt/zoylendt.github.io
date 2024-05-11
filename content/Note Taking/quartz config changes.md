@@ -22,7 +22,7 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
 	  - Compress the search bar to fit the light/dark mode toggle switch next to it instead of under it
   - Remove the [Explorer](https://quartz.jzhao.xyz/features/explorer) from all but the `index.md` page
   - Change the Image shown in the browser tab, default: [Quartz image](https://github.com/jackyzha0/quartz/blob/v4/quartz/static/icon.png)
-  - Show folder images in the explorer, see [here](https://github.com/jackyzha0/quartz/blob/v4/quartz/static/icon.png)
+  - Show folder emoji in the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
   - Show `Last updated at` and `History` (link to github file history) next to `Published at` and `Reading time`, like here: https://www.chadly.net/ & https://notes.yxy.ninja/
   - Change the background from plain white, like here: https://jzhao.xyz/ & https://mwalton.me/ -> [GitHub](https://github.com/jackyzha0/jackyzha0.github.io/blob/db58591f9291df6f789e80294a343c5ffd424918/quartz/styles/custom.scss#L20)
   - Exclude some pages, like `tags`, from the [Graph View](https://quartz.jzhao.xyz/features/graph-view)
@@ -159,8 +159,8 @@ In `quartz.layout.ts` ...
 Changes:
    - Line `3`: `import { SimpleSlug } from "./quartz/util/path"`
    - Line `10-11`: Links in the footer of each site.
-   - Line `29-`: Changes of elements in the left column:
-      - ...
+   - Line `29-41`: Changes of elements in the left column:
+      - Add emoji to the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
       - ...
    - Line `54-61`: Changes of elements in the right column:
       - ...
