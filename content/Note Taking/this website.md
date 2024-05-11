@@ -4,11 +4,10 @@ description: link preview
 date: 2024-05-06
 draft: false
 enableToc: true
-noindex: false
 tags:
   - note
   - markdown
-  - self hosted
+  - selfhosted
 ---
  
 # Introduction
