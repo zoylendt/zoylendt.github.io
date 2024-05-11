@@ -264,9 +264,9 @@ export {
 </details>
 
 <details>
-  <summary>[Click me] new /quartz/components/LinksHeader.tsx</summary>
+  <summary>[Click me] new /quartz/components/styles/LinksHeader.scss</summary>
   
-  ```tsx
+  ```scss
 @use "../../styles/variables.scss" as *;
  
 header {
