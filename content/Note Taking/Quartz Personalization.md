@@ -198,11 +198,26 @@ Component.DesktopOnly(Component.Explorer({
 
 ## Graph customization
 
-...
+The graph-view on the right side is also [highly customizable](https://quartz.jzhao.xyz/features/graph-view), I just removed the tags from the local and global graph:
+
+```ts {2-9} title="quartz.layout.ts"
+right: [
+  Component.Graph({
+    localGraph: {
+      showTags: false,
+    },
+    globalGraph: {
+      showTags: false,
+    },
+  }),
+  Component.DesktopOnly(Component.TableOfContents()),
+  Component.Backlinks(),
+],
+```
 
 ## Desktop and mobile layout
 
-...
+You can change the order of plugins, if they appear right or left and if they are only on the desktop (`Component.DesktopOnly(...),`) or the mobile view (`Component.MobileOnly(...),`), otherwise they appear in both.
 
 ## LinksHeader
 
