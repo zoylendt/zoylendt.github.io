@@ -162,6 +162,7 @@ Changes:
    - Line `29-41`: Changes of elements in the left column:
       - Add emoji to the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
       - Add `Recent Notes` above Explorer
+   - Line `3, ...`: Add `Recent Notes` above Explorer
    - Line `54-61`: Changes of elements in the right column:
       - ...
       - ...
@@ -174,6 +175,7 @@ Changes:
   ```ts {3,11-12,28-51,54-61} title="quartz.layout.ts"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -200,6 +202,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
+    Component.DesktopOnly(Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 4,
+        filter: (f) =>
+          !f.frontmatter?.noindex,
+        linkToMore: "tags/note" as SimpleSlug,
+      }),),
     Component.DesktopOnly(Component.Explorer({
   mapFn: (node) => {
     // dont change name of root node
@@ -232,7 +241,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
-}ght: [],
 }
 ```
 </details>
