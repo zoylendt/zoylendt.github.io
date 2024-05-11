@@ -40,6 +40,18 @@ Sadly, some Quartz blogs haven't documented their changes:
   - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
   - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
 
+missing:
+  - background
+  - last updated
+  - history
+  - graph- und explorer exclude
+  - folder emoji (index.md)
+  - browser tab image
+  - links on top
+  - tag structure
+  - note template
+  - 
+
 # Modified files
 
 ## quartz.config.ts
