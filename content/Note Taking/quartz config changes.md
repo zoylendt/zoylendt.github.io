@@ -9,7 +9,7 @@ tags:
   - self hosted
 ---
  
-This post's topic are the changes I made of my Quartz instance, in order to differentiate its appearance from the default config.
+This post's topic are the changes I made of my Quartz instance in order to differentiate its appearance from the default config.
 
 The main drawback of changing core components of Quartz is, that upstream changes might break your installation (if you incorporate them without looking closely).
 
@@ -50,6 +50,7 @@ Changes:
    - Line `11`: The blog's title, displayed on each page's top left corner. Emojis might render differently depending on the end device, for example 🪴 (from the [Quartz Documentation Blog](https://quartz.jzhao.xyz/)) renders as a [potted plant](https://emojipedia.org/potted-plant) in iOS, but the Brave browser under Windows shows just a square. [Here](https://emojipedia.org/) can some renderings be compared.
    - Line `15`: Disabling analytics.
    - Line `18`: The blog's base URL, very important!
+   - Line `25-27`: Change the fonts
    - Line `59`: I changed the LaTEX rendering engine because the default, `katex`, didn't work properly sometimes. 📚🔖🏷
 
 Emoji: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🗺🐳📚📖📋
@@ -82,9 +83,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Lexend",
+        body: "Lexend",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
