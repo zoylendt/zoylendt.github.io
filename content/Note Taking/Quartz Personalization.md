@@ -106,7 +106,11 @@ Missing:
 
 ...
 
-## 
+## `Last updated` & `History`
+
+...
+
+## RSS
 
 # Modified files
 
