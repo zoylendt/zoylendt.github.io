@@ -14,7 +14,7 @@ This post's topic are the changes I made of my Quartz instance in order to diffe
 
 The main drawback of changing core components of Quartz is, that upstream changes might break your installation (if you incorporate them without looking closely).
 
-# Planned changes
+# Inspirations
 
 The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
   - Change the [Layout](https://quartz.jzhao.xyz/layout) for all pages
@@ -78,6 +78,8 @@ Missing:
 
 -> Blog title, base URL
 
+...
+
 ## Analytics, fonts, colors
 
 ...
@@ -106,7 +108,7 @@ Missing:
 
 ...
 
-## `Last updated` & `History`
+## Last updated & History
 
 ...
 
