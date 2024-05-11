@@ -80,6 +80,10 @@ Missing:
 
 These are the only strictly required config changes: modify the `pageTitle` & `baseURL` in `quartz.config.ts`. Follow [this instructions](https://quartz.jzhao.xyz/configuration#general-configuration) for the `baseURL`.
 
+## RSS
+
+The RSS feed is enabled by default, it's reachable at https://zoylendt.github.io/index.xml.
+
 ## Analytics, fonts, colors
 
 This are the other changes that happen entirely within `quartz.config.ts`.
@@ -480,10 +484,6 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   return ContentMetadata
 }) satisfies QuartzComponentConstructor
 ```
-
-## RSS
-
-The RSS feed is enabled by default, it's reachable at https://zoylendt.github.io/index.xml.
 
 # Modified files
 
