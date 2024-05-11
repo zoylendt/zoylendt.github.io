@@ -57,7 +57,7 @@ missing:
 # Individual Changes
 
 Finished:
-  - [[Quartz Personalization#Minimal required config changes|Required: Blog title, base URL]]
+  - Required:  [[Quartz Personalization#Minimal required config changes|Blog title, base URL]]
   - Analytics, fonts, colors
   - Footer links
   - Recent notes
