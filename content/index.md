@@ -45,6 +45,7 @@ Some topics that are covered in this blog:
    - 🏷 [[tags/fermenting|Fermenting]]
    - 🏷 [[tags/recipe|General cooking recipes]]
 - 📑 [[Note Taking]]
+   - -> "Coding & Note Taking"
    - 📄 [[markdown guide|Markdown Guide]]
    - 📄 [[this website|How this website was build]]
    - 🏷 [[tags/markdown|Markdown]]
