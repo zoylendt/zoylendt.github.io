@@ -32,6 +32,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const fileRelativePath = fileData.filePath
       //const segments: (string | JSX.Element)[] = []
 
+      // hack
+      if (fileData.dates) {
+        segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+      }
+
       if (fileData.dates) {
         const cfgDefaultDataType = cfg.defaultDateType // For backward compatibility, just in case this is used somewhere else by the original author
 
