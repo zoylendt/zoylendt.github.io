@@ -190,9 +190,25 @@ Component.DesktopOnly(Component.Explorer({
 ```
 
    - ...
-   - Line `54-61`: Remove tags from graph
-      - ...
-      - ...
+   - Line `52-59`: Remove tags from graph, see [here](https://quartz.jzhao.xyz/features/graph-view)
+
+```ts
+    Component.Graph({
+      localGraph: {
+        showTags: false,
+      },
+      globalGraph: {
+        showTags: false,
+      },
+    }),
+```
+
+   - ...
+
+
+
+
+
 
 
 ... (important text block!)
@@ -200,7 +216,7 @@ Component.DesktopOnly(Component.Explorer({
 <details>
   <summary>[Click me] custom quartz.layout.ts</summary>
   
-  ```ts {3,11-12,30-49,54-61} title="quartz.layout.ts"
+  ```ts {3,11-12,30-49,52-59} title="quartz.layout.ts"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { SimpleSlug } from "./quartz/util/path"
