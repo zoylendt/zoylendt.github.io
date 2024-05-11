@@ -595,61 +595,6 @@ export default config
 
 
 <details>
-  <summary>[Click me] default /quartz/components/index.ts</summary>
-  
-  ```ts
-import Content from "./pages/Content"
-import TagContent from "./pages/TagContent"
-import FolderContent from "./pages/FolderContent"
-import NotFound from "./pages/404"
-import ArticleTitle from "./ArticleTitle"
-import Darkmode from "./Darkmode"
-import Head from "./Head"
-import PageTitle from "./PageTitle"
-import ContentMeta from "./ContentMeta"
-import Spacer from "./Spacer"
-import TableOfContents from "./TableOfContents"
-import Explorer from "./Explorer"
-import TagList from "./TagList"
-import Graph from "./Graph"
-import Backlinks from "./Backlinks"
-import Search from "./Search"
-import Footer from "./Footer"
-import DesktopOnly from "./DesktopOnly"
-import MobileOnly from "./MobileOnly"
-import RecentNotes from "./RecentNotes"
-import Breadcrumbs from "./Breadcrumbs"
-import LinksHeader from "./LinksHeader"
-
-export {
-  ArticleTitle,
-  Content,
-  TagContent,
-  FolderContent,
-  Darkmode,
-  Head,
-  PageTitle,
-  ContentMeta,
-  Spacer,
-  TableOfContents,
-  Explorer,
-  TagList,
-  Graph,
-  Backlinks,
-  Search,
-  Footer,
-  DesktopOnly,
-  MobileOnly,
-  RecentNotes,
-  NotFound,
-  Breadcrumbs,
-  LinksHeader,
-}
-```
-</details>
-
-
-<details>
   <summary>[Click me] custom quartz.layout.ts</summary>
   
   ```ts {3,11-12,30-49,52-59} title="quartz.layout.ts"
@@ -731,6 +676,63 @@ export const defaultListPageLayout: PageLayout = {
 }
 ```
 </details>
+
+<details>
+  <summary>[Click me] custom /quartz/components/index.ts</summary>
+  
+  ```ts
+import Content from "./pages/Content"
+import TagContent from "./pages/TagContent"
+import FolderContent from "./pages/FolderContent"
+import NotFound from "./pages/404"
+import ArticleTitle from "./ArticleTitle"
+import Darkmode from "./Darkmode"
+import Head from "./Head"
+import PageTitle from "./PageTitle"
+import ContentMeta from "./ContentMeta"
+import Spacer from "./Spacer"
+import TableOfContents from "./TableOfContents"
+import Explorer from "./Explorer"
+import TagList from "./TagList"
+import Graph from "./Graph"
+import Backlinks from "./Backlinks"
+import Search from "./Search"
+import Footer from "./Footer"
+import DesktopOnly from "./DesktopOnly"
+import MobileOnly from "./MobileOnly"
+import RecentNotes from "./RecentNotes"
+import Breadcrumbs from "./Breadcrumbs"
+import LinksHeader from "./LinksHeader"
+
+export {
+  ArticleTitle,
+  Content,
+  TagContent,
+  FolderContent,
+  Darkmode,
+  Head,
+  PageTitle,
+  ContentMeta,
+  Spacer,
+  TableOfContents,
+  Explorer,
+  TagList,
+  Graph,
+  Backlinks,
+  Search,
+  Footer,
+  DesktopOnly,
+  MobileOnly,
+  RecentNotes,
+  NotFound,
+  Breadcrumbs,
+  LinksHeader,
+}
+```
+</details>
+
+
+
 
 ## Original files
 
@@ -893,17 +895,6 @@ export const defaultListPageLayout: PageLayout = {
 
 
 <details>
-  <summary>[Click me] default /quartz/styles/custom.scss</summary>
-  
-  ```scss
-@use "./base.scss";
-
-// put your custom CSS here!
-```
-</details>
-
-
-<details>
   <summary>[Click me] default /quartz/components/ContentMeta.tsx</summary>
   
   ```tsx title="/quartz/components/ContentMeta.tsx"
@@ -967,6 +958,59 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
   return ContentMetadata
 }) satisfies QuartzComponentConstructor
+```
+</details>
+
+
+<details>
+  <summary>[Click me] default /quartz/components/index.ts</summary>
+  
+  ```ts
+import Content from "./pages/Content"
+import TagContent from "./pages/TagContent"
+import FolderContent from "./pages/FolderContent"
+import NotFound from "./pages/404"
+import ArticleTitle from "./ArticleTitle"
+import Darkmode from "./Darkmode"
+import Head from "./Head"
+import PageTitle from "./PageTitle"
+import ContentMeta from "./ContentMeta"
+import Spacer from "./Spacer"
+import TableOfContents from "./TableOfContents"
+import Explorer from "./Explorer"
+import TagList from "./TagList"
+import Graph from "./Graph"
+import Backlinks from "./Backlinks"
+import Search from "./Search"
+import Footer from "./Footer"
+import DesktopOnly from "./DesktopOnly"
+import MobileOnly from "./MobileOnly"
+import RecentNotes from "./RecentNotes"
+import Breadcrumbs from "./Breadcrumbs"
+
+export {
+  ArticleTitle,
+  Content,
+  TagContent,
+  FolderContent,
+  Darkmode,
+  Head,
+  PageTitle,
+  ContentMeta,
+  Spacer,
+  TableOfContents,
+  Explorer,
+  TagList,
+  Graph,
+  Backlinks,
+  Search,
+  Footer,
+  DesktopOnly,
+  MobileOnly,
+  RecentNotes,
+  NotFound,
+  Breadcrumbs,
+}
 ```
 </details>
 
