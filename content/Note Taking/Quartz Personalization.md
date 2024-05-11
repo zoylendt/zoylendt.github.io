@@ -57,7 +57,7 @@ missing:
 # Individual Changes
 
 Finished:
-  - Required: Blog title, base URL
+  - [[Required: Blog title, base URL]]
   - Analytics, fonts, colors
   - Footer links
   - Recent notes
@@ -111,6 +111,8 @@ Missing:
 ...
 
 ## RSS
+
+...
 
 # Modified files
 
