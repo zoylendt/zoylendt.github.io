@@ -162,7 +162,7 @@ Changes:
    - Line `3, 30-36`: Add `Recent Notes` above Explorer: 
 
 ```ts
-    Component.DesktopOnly(Component.RecentNotes({
+Component.DesktopOnly(Component.RecentNotes({
         title: "Recent Notes",
         limit: 4,
         filter: (f) =>
@@ -171,11 +171,26 @@ Changes:
       }),),
 ```
 
-   - Line `37-49`: Changes of elements in the left column:
-      - Add emoji to the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
-      - Add `Recent Notes` above Explorer
-   - 
-   - Line `54-61`: Changes of elements in the right column:
+   - Line `37-49`: Add emoji to the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
+
+```ts
+Component.DesktopOnly(Component.Explorer({
+  mapFn: (node) => {
+    // dont change name of root node
+    if (node.depth > 0) {
+      // set emoji for file/folder
+      if (node.file) {
+        node.displayName = "📄 " + node.displayName
+      } else {
+        node.displayName = "📁 " + node.displayName
+      }
+    }
+  },
+})),
+```
+
+   - ...
+   - Line `54-61`: Remove tags from graph
       - ...
       - ...
 
@@ -237,7 +252,14 @@ export const defaultContentPageLayout: PageLayout = {
 })),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      localGraph: {
+        showTags: false,
+      },
+      globalGraph: {
+        showTags: false,
+      },
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

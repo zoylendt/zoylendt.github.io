@@ -49,7 +49,7 @@ A list of physical books I own but haven't read yet:
 
 - Junji Ito
 - Ruri Dragon (finished chapters 1-12)
-- Chainsaw Man (finished chapters 1-161)
+- Chainsaw Man (finished chapters 1-164)
 - Kaiju No. 8 (finished chapters 1-21)
 - Solo Leveling (paused after chapter 64)
 - ...
