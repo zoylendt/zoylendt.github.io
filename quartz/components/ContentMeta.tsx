@@ -2,7 +2,7 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
-import { format as formatDateFn, formatISO } from "date-fns"
+import { format as formatDateFn, formatISO } from "./Date"
 import type { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
 
