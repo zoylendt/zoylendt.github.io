@@ -72,7 +72,7 @@ Missing:
   - Browser tab image
   - Compress search bar (or add `all tags` next to darkmode toggle)
   - enable RSS
-  - 
+  - move DarkModeToggle to right, like here: https://notes.camargomau.com/
 
 ## Minimal required config changes
 
@@ -106,7 +106,9 @@ Missing:
 
 ## LinksHeader
 
-...
+This change, together with [[Quartz Personalization#Last updated & History]], involves probably the most code modifications. Its target is to create a row with six links in the `beforeBody`-part of the layout (above the breadcrumbs). This can be viewed in action on the site of its (apparent) creator: https://notes.camargomau.com/
+
+After some digging in his GitHub repo, i determined the changes to be [this](https://github.com/search?q=repo%3Acamargomau%2Fnotkesto-site%20linksheader&type=code). We need to create two new files, 
 
 ## Last updated & History
 
