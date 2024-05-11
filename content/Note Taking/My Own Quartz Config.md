@@ -1,13 +1,10 @@
 ---
-title: 
-aliases:
-  - alias1
-description: <Description of the page used for link previews>
+title: My Own Quartz Config
+description: 
 date: 2024-05-12
 publishDate: 2024-05-12
 updated: 2024-05-12
-draft: true
-publish: false
+publish: true
 tags:
   - note
   - quartz
