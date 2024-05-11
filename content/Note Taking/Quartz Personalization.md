@@ -385,7 +385,7 @@ export {
 
 ## Last updated & History
 
-This feature was implemented differently by two blogs, https://www.chadly.net/ & https://notes.yxy.ninja/. I replaced the default `...` with a modified version of [quartz/components/ContentMeta.tsx](https://github.com/xy-241/CS-Notes/blob/v4/quartz/components/ContentMeta.tsx)
+This feature was implemented differently by two blogs, https://www.chadly.net/ & https://notes.yxy.ninja/. I replaced the default `...` with a modified version of [quartz/components/ContentMeta.tsx](https://github.com/xy-241/CS-Notes/blob/v4/quartz/components/ContentMeta.tsx):
 
 ```tsx title="/quartz/components/ContentMeta.tsx"
 import { formatDate, getDate } from "./Date"
@@ -483,7 +483,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
 ## RSS
 
-...
+The RSS feed is enabled by default, it's reachable at https://zoylendt.github.io/index.xml.
 
 # Modified files
 
