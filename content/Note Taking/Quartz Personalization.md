@@ -78,11 +78,19 @@ Missing:
 
 ## Minimal required config changes
 
-These are the only strictly required config changes: modify the `pageTitle` & `baseURL` in `quartz.config.ts`.
+These are the only strictly required config changes: modify the `pageTitle` & `baseURL` in `quartz.config.ts`. Follow [this instructions](https://quartz.jzhao.xyz/configuration#general-configuration) for the `baseURL`.
 
 ## Analytics, fonts, colors
 
-...
+This are the other changes that happen entirely within `quartz.config.ts`.
+
+The analytics can be switched off with 
+
+```
+  analytics: {
+    provider: "null",
+  },
+```
 
 ## Footer links
 
