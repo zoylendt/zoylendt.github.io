@@ -23,7 +23,7 @@ tags:
 
 - Fork https://github.com/jackyzha0/quartz (name: GHUSERNAME.github.io)
 - create new branch "upstream" (from v4, useful to compare changes that happen upstream which might require config changes)
-- delete the folder "content" and the file README.md
+- delete the folder "content" and the file README.md (and `Build and Test` workflow)
 - follow https://quartz.jzhao.xyz/hosting#github-pages
 - (optional) Instructions for use with a custom domain: https://quartz.jzhao.xyz/hosting#custom-domain
 

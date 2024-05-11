@@ -161,7 +161,7 @@ Changes:
    - Line `10-11`: Links in the footer of each site.
    - Line `29-41`: Changes of elements in the left column:
       - Add emoji to the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
-      - Add `Recent Notes` 
+      - Add `Recent Notes` above Explorer
    - Line `54-61`: Changes of elements in the right column:
       - ...
       - ...
