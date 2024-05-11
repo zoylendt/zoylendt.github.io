@@ -2,7 +2,7 @@
 title: Obsidian Plugins
 description: <Description of the page used for link previews>
 date: 2024-05-10
-updated: 2024-05-10
+updated: 2024-05-11
 publishDate: 2024-05-10
 draft: true
 tags:
@@ -48,4 +48,8 @@ see [[this website]]
 
 ...
 
-##
+## Update modified date
+
+... -> https://forum.obsidian.md/t/automatically-update-last-modified-date-in-note/51776/10
+
+## .

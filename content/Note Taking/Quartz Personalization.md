@@ -1,6 +1,7 @@
 ---
 title: Quartz Personalization
 date: 2024-02-07
+updated: 2024-05-11
 draft: false
 enableToc: true
 tags:
