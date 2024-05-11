@@ -22,7 +22,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Bebas Neue",
+        header: "Cinzel",
         body: "Lexend",
         code: "JetBrains Mono",
       },
