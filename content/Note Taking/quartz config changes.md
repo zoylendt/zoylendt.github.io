@@ -157,8 +157,9 @@ export default config
 In `quartz.layout.ts` ...
 
 Changes:
-   - Line `11-12`: Links in the footer of each site.
-   - Line `3, 28-51`: Changes of elements in the left column:
+   - Line `3`: `import { SimpleSlug } from "./quartz/util/path"`
+   - Line `10-11`: Links in the footer of each site.
+   - Line `29-`: Changes of elements in the left column:
       - ...
       - ...
    - Line `54-61`: Changes of elements in the right column:
