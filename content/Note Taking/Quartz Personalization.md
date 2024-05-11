@@ -910,7 +910,7 @@ export const defaultListPageLayout: PageLayout = {
 
 
 <details>
-  <summary>[Click me] default quartz/styles/custom.scss</summary>
+  <summary>[Click me] default /quartz/styles/custom.scss</summary>
   
   ```scss
 @use "./base.scss";
