@@ -205,12 +205,6 @@ Component.DesktopOnly(Component.Explorer({
 
    - ...
 
-
-
-
-
-
-
 ... (important text block!)
 
 <details>
