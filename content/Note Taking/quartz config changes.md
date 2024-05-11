@@ -159,7 +159,7 @@ In `quartz.layout.ts` ...
 Changes:
    - Line `3`: `import { SimpleSlug } from "./quartz/util/path"`
    - Line `10-11`: Links in the footer of each site.
-   - Line `3, 30-36`: Add `Recent Notes` above Explorer
+   - Line `3, 30-36`: Add `Recent Notes` above Explorer: 
    - Line `37-49`: Changes of elements in the left column:
       - Add emoji to the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
       - Add `Recent Notes` above Explorer
@@ -167,6 +167,18 @@ Changes:
    - Line `54-61`: Changes of elements in the right column:
       - ...
       - ...
+
+Instead: create own functions!
+
+```ts title="exploreremoji.ts"
+import { Options } from "./quartz/components/ExplorerNode"
+import { SimpleSlug } from "./quartz/util/path"
+
+export const mapFn: Options["mapFn"] = (node) => {
+  // implement your function here
+}
+```
+
 
 ... (important text block!)
 
