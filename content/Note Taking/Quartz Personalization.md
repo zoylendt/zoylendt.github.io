@@ -74,6 +74,18 @@ Missing:
   - enable RSS
   - 
 
+## Minimal required config changes
+
+-> Blog title, base URL
+
+## Analytics, fonts, colors
+
+...
+
+## Links in the footer
+
+...
+
 ## 
 
 # Modified files
