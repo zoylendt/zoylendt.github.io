@@ -43,4 +43,5 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
+  LinksHeader,
 }
