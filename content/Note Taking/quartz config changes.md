@@ -159,10 +159,11 @@ In `quartz.layout.ts` ...
 Changes:
    - Line `3`: `import { SimpleSlug } from "./quartz/util/path"`
    - Line `10-11`: Links in the footer of each site.
-   - Line `29-41`: Changes of elements in the left column:
+   - Line `3, 30-36`: Add `Recent Notes` above Explorer
+   - Line `37-49`: Changes of elements in the left column:
       - Add emoji to the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
       - Add `Recent Notes` above Explorer
-   - Line `3, ...`: Add `Recent Notes` above Explorer
+   - 
    - Line `54-61`: Changes of elements in the right column:
       - ...
       - ...
@@ -172,7 +173,7 @@ Changes:
 <details>
   <summary>[Click me] custom quartz.layout.ts</summary>
   
-  ```ts {3,11-12,28-51,54-61} title="quartz.layout.ts"
+  ```ts {3,11-12,30-49,54-61} title="quartz.layout.ts"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { SimpleSlug } from "./quartz/util/path"
