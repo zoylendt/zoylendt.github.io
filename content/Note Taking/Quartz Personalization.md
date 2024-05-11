@@ -56,7 +56,8 @@ missing:
 # Individual Changes
 
 Finished:
-  - Blog title, base URL, analytics, fonts, colors
+  - Required: Blog title, base URL
+  - Analytics, fonts, colors
   - Links in the footer
   - Recent notes
   - Explorer customization
