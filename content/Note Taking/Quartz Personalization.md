@@ -172,11 +172,29 @@ left: [
   Component.Darkmode(),
 ```
 
-Take care where 
+Take care where `linkToMore` points. [Here](https://quartz.jzhao.xyz/features/recent-notes) are the config options for this plugin listed.
 
 ## Explorer customization
 
-...
+The Explorer can also be [configured in many ways](https://quartz.jzhao.xyz/features/explorer). I used the example code to [add emoji prefix to files](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix), but without changing the folder icons (they can be individualized for each folder with a `index.md` inside that folder).
+
+I changed `Component.DesktopOnly(Component.Explorer()),` to
+
+```ts title="quartz.layout.ts"
+Component.DesktopOnly(Component.Explorer({
+  mapFn: (node) => {
+    // dont change name of root node
+    if (node.depth > 0) {
+      // set emoji for file/folder
+      if (node.file) {
+        node.displayName = "📄 " + node.displayName
+      } else {
+        node.displayName = node.displayName
+      }
+    }
+  },
+}))
+```
 
 ## Graph customization
 
