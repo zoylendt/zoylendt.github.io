@@ -53,6 +53,21 @@ missing:
   - note template
   - 
 
+# Individual Changes
+
+Finished:
+  - Blog title, base URL, analytics, fonts, colors
+  - Links in the footer
+  - Recent notes
+  - Explorer customization
+  - Graph customization
+  - Desktop and Mobile specific layout changes
+  - 
+
+Missing:
+  - `Last updated` & `History`
+  - 
+
 # Modified files
 
 ## quartz.config.ts
