@@ -173,7 +173,6 @@ Changes:
   ```ts {3,11-12,28-51,54-61} title="quartz.layout.ts"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -181,8 +180,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/zoylendt/blog",
-      "Contact": "https://discord.gg/---",
+      GitHub: "https://github.com/jackyzha0/quartz",
+      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -198,40 +197,12 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Darkmode(),
-	Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Posts",
-        limit: 4,
-        filter: (f) =>
-          !f.frontmatter?.noindex,
-        linkToMore: "tags/post" as SimpleSlug,
-      }),
-    ),
     Component.Search(),
-    Component.DesktopOnly(Component.Explorer({
-  mapFn: (node) => {
-    // dont change name of root node
-    if (node.depth > 0) {
-      // set emoji for file/folder
-      if (node.file) {
-        node.displayName = "📄 " + node.displayName
-      } else {
-        node.displayName = "📁 " + node.displayName
-      }
-      }
-      },
-    })),
+    Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph({
-      localGraph: {
-        showTags: false,
-      },
-      globalGraph: {
-        showTags: false,
-      },
-    }),
+    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
@@ -248,6 +219,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
+}ght: [],
 }
 ```
 </details>
