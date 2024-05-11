@@ -133,15 +133,46 @@ The white page color in the default lightMode was not to my liking, so I changed
     },
 ```
 
-In theory it's possible to se
+In theory it's possible to set a custom background image, like in [jzhao.xyz/](https://jzhao.xyz/), but I couldn't get that to work.
 
 ## Footer links
 
-...
+Now we need to edit the file `quartz.layout.ts`. The default footer links are defined at the start:
+
+```ts {3-4} title="quartz.layout.ts"
+footer: Component.Footer({
+  links: {
+    GitHub: "https://github.com/jackyzha0/quartz",
+    "Discord Community": "https://discord.gg/cRFFHYye7t",
+  },
+}),
+```
 
 ## Recent notes
 
-...
+To create a list of the latest four new posts above the Explorer in the left part of the page's layout, we add this code block
+
+```ts title="quartz.layout.ts"
+  Component.DesktopOnly(Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 4,
+        filter: (f) =>
+          !f.frontmatter?.noindex,
+        linkToMore: "tags/note" as SimpleSlug,
+      }),),
+```
+
+right after this:
+
+```ts title="quartz.layout.ts"
+left: [
+  Component.PageTitle(),
+  Component.MobileOnly(Component.Spacer()),
+  Component.Search(),
+  Component.Darkmode(),
+```
+
+Take care where 
 
 ## Explorer customization
 
