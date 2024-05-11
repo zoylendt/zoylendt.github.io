@@ -7,7 +7,7 @@ enableToc: true
 tags:
   - note
   - markdown
-  - self hosted
+  - selfhosted
 ---
  
 This post's topic are the changes I made of my Quartz instance in order to differentiate its appearance from the default config.
@@ -71,6 +71,7 @@ Missing:
   - `Last updated` & `History`
   - Browser tab image
   - Compress search bar (or add `all tags` next to darkmode toggle)
+  - enable RSS
   - 
 
 ## 
