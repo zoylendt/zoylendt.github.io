@@ -73,6 +73,7 @@ Missing:
   - Compress search bar (or add `all tags` next to darkmode toggle)
   - enable RSS
   - move DarkModeToggle to right, like here: https://notes.camargomau.com/
+  - add explorer and recent posts to mobile layout
 
 ## Minimal required config changes
 
@@ -100,7 +101,7 @@ Missing:
 
 ...
 
-## Destop and mobile layout
+## Desktop and mobile layout
 
 ...
 
@@ -108,7 +109,11 @@ Missing:
 
 This change, together with [[Quartz Personalization#Last updated & History]], involves probably the most code modifications. Its target is to create a row with six links in the `beforeBody`-part of the layout (above the breadcrumbs). This can be viewed in action on the site of its (apparent) creator: https://notes.camargomau.com/
 
-After some digging in his GitHub repo, i determined the changes to be [this](https://github.com/search?q=repo%3Acamargomau%2Fnotkesto-site%20linksheader&type=code). We need to create two new files, 
+After some digging in his GitHub repo, i determined the changes to be [this](https://github.com/search?q=repo%3Acamargomau%2Fnotkesto-site%20linksheader&type=code). We need to create two new files, [quartz/components/LinksHeader.tsx](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/LinksHeader.tsx#L2) & [[quartz/components/styles/linksHeader.scss](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/styles/linksHeader.scss#L4)], and modify two other, [[quartz.layout.ts](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz.layout.ts#L7)] & [[quartz/components/index.ts](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/index.ts#L22)].
+
+The first new file, [[quartz/components/LinksHeader.tsx](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/LinksHeader.tsx#L2)], contains the links and images, so we need to modify it to suit our needs.
+
+One advantage of this "plugin" is, that it renders well on the mobile layout (as two rows with 3 elements each), where it can be used to browse the folders (if configured in this way), since the mobile layout per default no Explorer has. 
 
 ## Last updated & History
 
