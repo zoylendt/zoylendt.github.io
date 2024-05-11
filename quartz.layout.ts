@@ -28,11 +28,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.RecentNotes({
-        title: "Recent Posts",
+        title: "Recent Notes",
         limit: 4,
         filter: (f) =>
           !f.frontmatter?.noindex,
-        linkToMore: "tags/post" as SimpleSlug,
+        linkToMore: "tags/note" as SimpleSlug,
       }),),
     Component.DesktopOnly(Component.Explorer({
   mapFn: (node) => {
