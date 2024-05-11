@@ -6,7 +6,7 @@ updated: 2024-05-10
 publishDate: 2024-05-10
 draft: true
 tags:
-  - post
+  - note
   - obsidian
 ---
 

@@ -6,7 +6,7 @@ draft: false
 enableToc: true
 noindex: false
 tags:
-  - post
+  - note
   - markdown
   - self hosted
 ---
