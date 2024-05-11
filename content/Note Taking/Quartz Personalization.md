@@ -80,6 +80,10 @@ Missing:
 
 These are the only strictly required config changes: modify the `pageTitle` & `baseURL` in `quartz.config.ts`. Follow [this instructions](https://quartz.jzhao.xyz/configuration#general-configuration) for the `baseURL`.
 
+Emojis might render differently depending on the end device, for example 🪴 (from the [Quartz Documentation Blog](https://quartz.jzhao.xyz/)) renders as a [potted plant](https://emojipedia.org/potted-plant) in iOS, but the Brave browser under Windows shows just a square. [Here](https://emojipedia.org/) can some renderings be compared.
+
+Emoji examples: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🏷🗺🐳📚📖📋
+
 ## RSS
 
 The RSS feed is enabled by default, it's reachable at https://zoylendt.github.io/index.xml.
@@ -176,7 +180,7 @@ left: [
   Component.Darkmode(),
 ```
 
-Take care where `linkToMore` points. [Here](https://quartz.jzhao.xyz/features/recent-notes) are the config options for this plugin listed.
+Also, add `import { SimpleSlug } from "./quartz/util/path"` at the beginning of `quartz.layout.ts`. And take care where `linkToMore` points. [Here](https://quartz.jzhao.xyz/features/recent-notes) are the config options for this plugin listed.
 
 ## Explorer customization
 
@@ -485,20 +489,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 }) satisfies QuartzComponentConstructor
 ```
 
-# Modified files
+# My own config
 
-## quartz.config.ts
+This should help to rebuild the blog, if needed.
 
-In `quartz.config.ts` ...
-
-Changes:
-   - Line `11`: The blog's title, displayed on each page's top left corner. Emojis might render differently depending on the end device, for example 🪴 (from the [Quartz Documentation Blog](https://quartz.jzhao.xyz/)) renders as a [potted plant](https://emojipedia.org/potted-plant) in iOS, but the Brave browser under Windows shows just a square. [Here](https://emojipedia.org/) can some renderings be compared.
-   - Line `15`: Disabling analytics.
-   - Line `18`: The blog's base URL, very important!
-   - Line `25-27`: Change the fonts
-   - Line `59`: I changed the LaTEX rendering engine because the default, `katex`, didn't work properly sometimes. 📚🔖🏷
-
-Emoji: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🗺🐳📚📖📋
+## Modified files
 
 <details>
   <summary>[Click me] custom quartz.config.ts</summary>
@@ -598,58 +593,24 @@ export default config
 ```
 </details>
 
-## quartz.layout.ts
 
-In `quartz.layout.ts` ...
-
-Changes:
-   - Line `3`: `import { SimpleSlug } from "./quartz/util/path"`
-   - Line `10-11`: Links in the footer of each site.
-   - Line `3, 30-36`: Add `Recent Notes` above Explorer: 
-
-```ts
-Component.DesktopOnly(Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 4,
-        filter: (f) =>
-          !f.frontmatter?.noindex,
-        linkToMore: "tags/note" as SimpleSlug,
-      }),),
+<details>
+  <summary>[Click me] default /quartz/styles/custom.scss</summary>
+  
+  ```
+codeblock
 ```
+</details>
 
-   - Line `37-49`: Add emoji to the explorer, see [here](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix)
 
-```ts
-Component.DesktopOnly(Component.Explorer({
-  mapFn: (node) => {
-    // dont change name of root node
-    if (node.depth > 0) {
-      // set emoji for file/folder
-      if (node.file) {
-        node.displayName = "📄 " + node.displayName
-      } else {
-        node.displayName = "📁 " + node.displayName
-      }
-    }
-  },
-})),
+<details>
+  <summary>[Click me] default /quartz/styles/custom.scss</summary>
+  
+  ```
+codeblock
 ```
+</details>
 
-   - ...
-   - Line `52-59`: Remove tags from graph, see [here](https://quartz.jzhao.xyz/features/graph-view)
-
-```ts
-    Component.Graph({
-      localGraph: {
-        showTags: false,
-      },
-      globalGraph: {
-        showTags: false,
-      },
-    }),
-```
-
-   - ...
 
 ... (important text block!)
 
