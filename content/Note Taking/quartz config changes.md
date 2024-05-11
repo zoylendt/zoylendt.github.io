@@ -47,6 +47,7 @@ missing:
   - graph- und explorer exclude
   - folder emoji (index.md)
   - browser tab image
+  - footer links
   - links on top
   - tag structure
   - note template
