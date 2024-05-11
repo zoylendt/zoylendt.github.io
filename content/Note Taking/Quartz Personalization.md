@@ -86,11 +86,54 @@ This are the other changes that happen entirely within `quartz.config.ts`.
 
 The analytics can be switched off with 
 
-```
+```ts {2} title="quartz.config.ts"
   analytics: {
     provider: "null",
   },
 ```
+
+For the general site theme the next code block is relevant, you can experiment with fonts from [Google Fonts](https://fonts.google.com/) by referencing them by name.
+
+```ts {5-7} title="quartz.config.ts"
+  theme: {
+    fontOrigin: "googleFonts",
+    cdnCaching: true,
+    typography: {
+      header: "Sedan SC",
+      body: "Lexend",
+      code: "JetBrains Mono",
+    },
+```
+
+The white page color in the default lightMode was not to my liking, so I changed it like in [this blog](https://mwalton.me/) (there he also set `lightgray: "#646464",`, which was not to my liking since it made code snippets harder to read).
+
+```ts {3-4} title="quartz.config.ts"
+    colors: {
+      lightMode: {
+        //light: "#faf8f8",
+        light: "#d8cfc4",
+        lightgray: "#e5e5e5",
+        gray: "#b8b8b8",
+        darkgray: "#4e4e4e",
+        dark: "#2b2b2b",
+        secondary: "#284b63",
+        tertiary: "#84a59d",
+        highlight: "rgba(143, 159, 169, 0.15)",
+      },
+      darkMode: {
+        light: "#161618",
+        lightgray: "#393639",
+        gray: "#646464",
+        darkgray: "#d4d4d4",
+        dark: "#ebebec",
+        secondary: "#7b97aa",
+        tertiary: "#84a59d",
+        highlight: "rgba(143, 159, 169, 0.15)",
+      },
+    },
+```
+
+In theory it's possible to se
 
 ## Footer links
 
