@@ -328,7 +328,7 @@ header {
 }
 ```
 
-In `quartz.layout.ts` change `header: [],` to `header: [Component.LinksHeader()],`, like here:
+In `quartz.layout.ts` change `header: [],` to `header: [Component.LinksHeader()],` like this:
 
 ```ts {2} title="quartz.layout.ts"
   head: Component.Head(),
@@ -336,7 +336,7 @@ In `quartz.layout.ts` change `header: [],` to `header: [Component.LinksHeader()]
   footer: Component.Footer({
 ```
 
-In `quartz/components/index.ts` add `import LinksHeader from "./LinksHeader"` to the start and `LinksHeader` to the export list, like this:
+In `quartz/components/index.ts` add `import LinksHeader from "./LinksHeader"` to the start and `LinksHeader,` to the export list, like this:
 
 ```ts {22,46} title="quartz/components/index.ts"
 import Content from "./pages/Content"
@@ -384,7 +384,7 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
-  LinksHeader
+  LinksHeader,
 }
 ```
 
