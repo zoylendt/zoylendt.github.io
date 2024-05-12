@@ -42,14 +42,11 @@ Sadly, some Quartz blogs haven't documented their changes:
   - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
 
 missing:
-  - background
-  - last updated
-  - history
   - graph- und explorer exclude
   - folder emoji (index.md)
   - browser tab image
   - footer links
-  - links on top
+  - folder structure
   - tag structure
   - note template
   - 
