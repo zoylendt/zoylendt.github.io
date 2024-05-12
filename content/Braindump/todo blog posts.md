@@ -27,7 +27,7 @@ tags:
 - Brewing Setup
 - 
 
-### Coding
+## Coding
 
 - github flavoured markdown
 - obsidian flavoured markdown
@@ -57,6 +57,7 @@ Callouts example: from https://notes.camargomau.com/
 ...
 
 ## Media
+
 - movies
 - quotes
 - series
@@ -65,6 +66,7 @@ Callouts example: from https://notes.camargomau.com/
 - list of board games
 
 ## Selfhosted
+
 - list of used hardware
 - list of unused hardware
 - list of RasPi stuff
