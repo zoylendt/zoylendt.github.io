@@ -11,22 +11,29 @@ tags:
  
 # Some topics I want to write about:
 
+## index.md
+
+...
+
 ## Braindump
+
 - Game keys
 - pr0gramm tampermonkey setup
 - tag: bookmark
 
-### Note Taking
+## Brewing
+
+- 30XX-35XX
+- Brewing Setup
+- 
+
+### Coding
+
 - github flavoured markdown
 - obsidian flavoured markdown
 - obsidian github quartz workflow
    - obsidian plugins
 - quartz content structure
-
-## Home Brewing
-- 30XX-35XX
-- Brewing Setup
-- 
 
 ## Note Taking
 
@@ -45,7 +52,11 @@ Callouts example: from https://notes.camargomau.com/
 > [!abstract]- Sciujo
 > The [[Sciujo]] ("knowledge container" in Esperanto) is the main and the knowledge-oriented part of the Notkesto; it follows the [[Zettelkasten]] method.
 
-## Reading
+## Physics
+
+...
+
+## Media
 - movies
 - quotes
 - series
@@ -53,7 +64,7 @@ Callouts example: from https://notes.camargomau.com/
 - list of owned books
 - list of board games
 
-## Self Hosted
+## Selfhosted
 - list of used hardware
 - list of unused hardware
 - list of RasPi stuff
