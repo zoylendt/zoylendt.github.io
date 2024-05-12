@@ -251,16 +251,16 @@ export default (() => {
       <div>
         <div id="links-header">
           <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Card%20index/Color/card_index_color.svg"></img>
-            <a href="https://camargomau.com/">Blog</a>
-          </span>
-          <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Books/Color/books_color.svg"></img>
-            <a href="/Sciujo/MAC/MAC">MAC</a>
-          </span>
-          <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Brain/Color/brain_color.svg"></img>
-            <a href="/Sciujo/Sciujo">Learn</a>
+            <a href="/Braindump">Brain</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Keyboard/Color/keyboard_color.svg"></img>
+            <a href="/Coding">Code</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beer%20mug/Color/beer_mug_color.svg"></img>
+            <a href="/Brewing">Brew</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Parrot/Color/parrot_color.svg"></img>
