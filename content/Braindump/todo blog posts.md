@@ -29,9 +29,9 @@ tags:
 
 ## Coding
 
-- github flavoured markdown
-- obsidian flavoured markdown
-- obsidian github quartz workflow
+- GitHub flavored markdown
+- obsidian flavored markdown
+- obsidian GitHub quartz workflow
    - obsidian plugins
 - quartz content structure
 
