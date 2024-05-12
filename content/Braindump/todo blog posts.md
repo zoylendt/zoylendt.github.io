@@ -35,8 +35,6 @@ tags:
    - obsidian plugins
 - quartz content structure
 
-## Note Taking
-
 - Linking and connecting notes in Obsidian
 - Obsidian usage
 - Obsidian Plugins
