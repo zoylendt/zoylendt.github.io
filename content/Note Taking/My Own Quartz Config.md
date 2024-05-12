@@ -200,67 +200,12 @@ export const defaultListPageLayout: PageLayout = {
 ```
 </details>
 
-<details>
-  <summary>[Click me] custom /quartz/components/index.ts</summary>
-  
-  ```ts
-import Content from "./pages/Content"
-import TagContent from "./pages/TagContent"
-import FolderContent from "./pages/FolderContent"
-import NotFound from "./pages/404"
-import ArticleTitle from "./ArticleTitle"
-import Darkmode from "./Darkmode"
-import Head from "./Head"
-import PageTitle from "./PageTitle"
-import ContentMeta from "./ContentMeta"
-import Spacer from "./Spacer"
-import TableOfContents from "./TableOfContents"
-import Explorer from "./Explorer"
-import TagList from "./TagList"
-import Graph from "./Graph"
-import Backlinks from "./Backlinks"
-import Search from "./Search"
-import Footer from "./Footer"
-import DesktopOnly from "./DesktopOnly"
-import MobileOnly from "./MobileOnly"
-import RecentNotes from "./RecentNotes"
-import Breadcrumbs from "./Breadcrumbs"
-import LinksHeader from "./LinksHeader"
 
-export {
-  ArticleTitle,
-  Content,
-  TagContent,
-  FolderContent,
-  Darkmode,
-  Head,
-  PageTitle,
-  ContentMeta,
-  Spacer,
-  TableOfContents,
-  Explorer,
-  TagList,
-  Graph,
-  Backlinks,
-  Search,
-  Footer,
-  DesktopOnly,
-  MobileOnly,
-  RecentNotes,
-  NotFound,
-  Breadcrumbs,
-  LinksHeader,
-}
-```
-</details>
-
-... a
 
 <details>
   <summary>[Click me] new /quartz/components/LinksHeader.tsx</summary>
   
-  ```
-
+  ```tsx title="/quartz/components/LinksHeader.tsx"
 import { QuartzComponentConstructor } from "./types"
 import style from "./styles/linksHeader.scss"
 
@@ -306,16 +251,15 @@ export default (() => {
   LinksHeader.css = style
   return LinksHeader
 }) satisfies QuartzComponentConstructor
-
 ```
 </details>
 
-... b
+
 
 <details>
   <summary>[Click me] new /quartz/components/styles/LinksHeader.scss</summary>
   
-  ```scss
+  ```scss title="/quartz/components/styles/LinksHeader.scss"
 @use "../../styles/variables.scss" as *;
  
 header {
@@ -366,7 +310,7 @@ header {
 <details>
   <summary>[Click me] custom /quartz/components/ContentMeta.tsx</summary>
   
-  ```
+  ```tsx title="/quartz/components/ContentMeta.tsx"
 import { formatDate, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
@@ -462,6 +406,61 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 </details>
 
 
+
+<details>
+  <summary>[Click me] custom /quartz/components/index.ts</summary>
+  
+  ```ts title="/quartz/components/index.ts"
+import Content from "./pages/Content"
+import TagContent from "./pages/TagContent"
+import FolderContent from "./pages/FolderContent"
+import NotFound from "./pages/404"
+import ArticleTitle from "./ArticleTitle"
+import Darkmode from "./Darkmode"
+import Head from "./Head"
+import PageTitle from "./PageTitle"
+import ContentMeta from "./ContentMeta"
+import Spacer from "./Spacer"
+import TableOfContents from "./TableOfContents"
+import Explorer from "./Explorer"
+import TagList from "./TagList"
+import Graph from "./Graph"
+import Backlinks from "./Backlinks"
+import Search from "./Search"
+import Footer from "./Footer"
+import DesktopOnly from "./DesktopOnly"
+import MobileOnly from "./MobileOnly"
+import RecentNotes from "./RecentNotes"
+import Breadcrumbs from "./Breadcrumbs"
+import LinksHeader from "./LinksHeader"
+
+export {
+  ArticleTitle,
+  Content,
+  TagContent,
+  FolderContent,
+  Darkmode,
+  Head,
+  PageTitle,
+  ContentMeta,
+  Spacer,
+  TableOfContents,
+  Explorer,
+  TagList,
+  Graph,
+  Backlinks,
+  Search,
+  Footer,
+  DesktopOnly,
+  MobileOnly,
+  RecentNotes,
+  NotFound,
+  Breadcrumbs,
+  LinksHeader,
+}
+```
+</details>
+
 ## Original files
 
 The unaltered config files are included here, in order to make it easier to compare them.
@@ -469,7 +468,7 @@ The unaltered config files are included here, in order to make it easier to comp
 <details>
   <summary>[Click me] default quartz.config.ts</summary>
   
-  ```ts
+  ```ts title="quartz.config.ts"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -568,7 +567,7 @@ export default config
 <details>
   <summary>[Click me] default quartz.layout.ts</summary>
   
-  ```ts
+  ```ts title="quartz.layout.ts"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
@@ -693,7 +692,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 <details>
   <summary>[Click me] default /quartz/components/index.ts</summary>
   
-  ```ts
+  ```ts title="/quartz/components/index.ts"
 import Content from "./pages/Content"
 import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
