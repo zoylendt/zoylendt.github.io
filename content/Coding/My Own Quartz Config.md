@@ -223,12 +223,12 @@ export default (() => {
             <a href="/Braindump">Braindump</a>
           </span>
           <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Keyboard/Color/keyboard_color.svg"></img>
-            <a href="/Coding">Coding</a>
-          </span>
-          <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beer%20mug/Color/beer_mug_color.svg"></img>
             <a href="/Brewing">Brewing</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Keyboard/Color/keyboard_color.svg"></img>
+            <a href="/Coding">Coding</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Atom%20symbol/Color/atom_symbol_color.svg"></img>
