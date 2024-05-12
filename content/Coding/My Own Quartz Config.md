@@ -203,111 +203,6 @@ export const defaultListPageLayout: PageLayout = {
 
 
 <details>
-  <summary>[Click me] new /quartz/components/LinksHeader.tsx</summary>
-  
-  ```tsx title="/quartz/components/LinksHeader.tsx"
-import { QuartzComponentConstructor } from "./types"
-import style from "./styles/linksHeader.scss"
-
-interface Options {
-  links: Record<string, string>
-}
-
-export default (() => {
-  function LinksHeader() {
-    return (
-      <div>
-        <div id="links-header">
-          <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Brain/Color/brain_color.svg"></img>
-            <a href="/Braindump">Braindump</a>
-          </span>
-          <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beer%20mug/Color/beer_mug_color.svg"></img>
-            <a href="/Brewing">Brewing</a>
-          </span>
-          <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Keyboard/Color/keyboard_color.svg"></img>
-            <a href="/Coding">Coding</a>
-          </span>
-          <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Atom%20symbol/Color/atom_symbol_color.svg"></img>
-            <a href="/Physics">Physics</a>
-          </span>
-          <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Open%20book/Color/open_book_color.svg"></img>
-            <a href="/Media">Media</a>
-          </span>
-          <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Spouting%20whale/Color/spouting_whale_color.svg"></img>
-            <a href="/Selfhosted">Selfhosted</a>
-          </span>
-        </div>
-      <hr style="background-color: var(--gray); border-top: 1px var(--gray) solid; margin-top: 1.3rem"></hr>
-      </div>
-    )
-  }
-
-  LinksHeader.css = style
-  return LinksHeader
-}) satisfies QuartzComponentConstructor
-```
-</details>
-
-
-
-<details>
-  <summary>[Click me] new /quartz/components/styles/LinksHeader.scss</summary>
-  
-  ```scss title="/quartz/components/styles/LinksHeader.scss"
-@use "../../styles/variables.scss" as *;
- 
-header {
-  display: block;
-  margin-top: 1rem;
-}
- 
-#links-header {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 1em;
-  font-size: 1.2em;
-  justify-content: space-between;
-  margin: 0 0.2em;
- 
-  span {
-    margin-top: 0.75em;
-  }
- 
-  img {
-    height: 1em;
-    margin: 0 0.3em 0 0;
-    vertical-align: sub;
-  }
- 
-  a {
-    color: var(--dark);
-  }
-}
- 
-@media (max-width: $mobileBreakpoint) {
-  #links-header > * {
-    width: calc(33.33% - 0.67em); /* 33.33% width with some gap */
-  }
- 
-  #links-header > *:nth-child(3n-1) {
-    text-align: center;
-  }
- 
-  #links-header > *:nth-child(3n) {
-    text-align: right;
-  }
-}
-```
-</details>
-
-
-<details>
   <summary>[Click me] custom /quartz/components/ContentMeta.tsx</summary>
   
   ```tsx title="/quartz/components/ContentMeta.tsx"
@@ -460,6 +355,116 @@ export {
 }
 ```
 </details>
+
+
+
+
+<details>
+  <summary>[Click me] new /quartz/components/LinksHeader.tsx</summary>
+  
+  ```tsx title="/quartz/components/LinksHeader.tsx"
+import { QuartzComponentConstructor } from "./types"
+import style from "./styles/linksHeader.scss"
+
+interface Options {
+  links: Record<string, string>
+}
+
+export default (() => {
+  function LinksHeader() {
+    return (
+      <div>
+        <div id="links-header">
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Brain/Color/brain_color.svg"></img>
+            <a href="/Braindump">Braindump</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beer%20mug/Color/beer_mug_color.svg"></img>
+            <a href="/Brewing">Brewing</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Keyboard/Color/keyboard_color.svg"></img>
+            <a href="/Coding">Coding</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Atom%20symbol/Color/atom_symbol_color.svg"></img>
+            <a href="/Physics">Physics</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Open%20book/Color/open_book_color.svg"></img>
+            <a href="/Media">Media</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Spouting%20whale/Color/spouting_whale_color.svg"></img>
+            <a href="/Selfhosted">Selfhosted</a>
+          </span>
+        </div>
+      <hr style="background-color: var(--gray); border-top: 1px var(--gray) solid; margin-top: 1.3rem"></hr>
+      </div>
+    )
+  }
+
+  LinksHeader.css = style
+  return LinksHeader
+}) satisfies QuartzComponentConstructor
+```
+</details>
+
+
+
+
+<details>
+  <summary>[Click me] new /quartz/components/styles/LinksHeader.scss</summary>
+  
+  ```scss title="/quartz/components/styles/LinksHeader.scss"
+@use "../../styles/variables.scss" as *;
+ 
+header {
+  display: block;
+  margin-top: 1rem;
+}
+ 
+#links-header {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+  font-size: 1.2em;
+  justify-content: space-between;
+  margin: 0 0.2em;
+ 
+  span {
+    margin-top: 0.75em;
+  }
+ 
+  img {
+    height: 1em;
+    margin: 0 0.3em 0 0;
+    vertical-align: sub;
+  }
+ 
+  a {
+    color: var(--dark);
+  }
+}
+ 
+@media (max-width: $mobileBreakpoint) {
+  #links-header > * {
+    width: calc(33.33% - 0.67em); /* 33.33% width with some gap */
+  }
+ 
+  #links-header > *:nth-child(3n-1) {
+    text-align: center;
+  }
+ 
+  #links-header > *:nth-child(3n) {
+    text-align: right;
+  }
+}
+```
+</details>
+
+
 
 ## Original files
 
