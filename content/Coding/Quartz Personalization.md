@@ -488,7 +488,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
 # My own config
 
-The original files and my custom changed files have I documented [[My Own Quartz Config|here]].
+The original files and my custom changed files have I documented [[My Quartz Config|here]].
 
 
 ---
