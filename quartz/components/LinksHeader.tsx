@@ -12,15 +12,15 @@ export default (() => {
         <div id="links-header">
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Brain/Color/brain_color.svg"></img>
-            <a href="/Braindump">Brain</a>
+            <a href="/Braindump">Braindump</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Keyboard/Color/keyboard_color.svg"></img>
-            <a href="/Coding">Code</a>
+            <a href="/Coding">Coding</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beer%20mug/Color/beer_mug_color.svg"></img>
-            <a href="/Brewing">Brew</a>
+            <a href="/Brewing">Brewing</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Atom%20symbol/Color/atom_symbol_color.svg"></img>
