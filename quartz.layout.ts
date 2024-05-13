@@ -27,13 +27,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 4,
-        filter: (f) =>
-          !f.frontmatter?.noindex,
-        linkToMore: "tags/note" as SimpleSlug,
-      }),),
     Component.DesktopOnly(Component.Explorer({
   mapFn: (node) => {
     // dont change name of root node
@@ -47,6 +40,13 @@ export const defaultContentPageLayout: PageLayout = {
     }
   },
 })),
+    Component.DesktopOnly(Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 4,
+        filter: (f) =>
+          !f.frontmatter?.noindex,
+        linkToMore: "tags/note" as SimpleSlug,
+      }),),
   ],
   right: [
     Component.Graph({
