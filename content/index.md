@@ -57,7 +57,7 @@ Some topics that are covered in this blog:
 - 🐍 [[Programming]]
    - 🏷 [[tags/python|Python]]
    - 🏷 [[machine_learning|Machine Learning]]
-   - 🏷 [[datascience|Data Science]]
+   - 🏷 [[data_science|Data Science]]
 - 📖 [[Reading]]
    - 📄[[Booklist|Antlibrary]]
    - 🏷 [[review|Book Reviews]]
