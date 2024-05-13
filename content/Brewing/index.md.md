@@ -1,4 +1,4 @@
 ---
-title: Brewing 🍺
+title: Brewing
 ---
 Exampletext

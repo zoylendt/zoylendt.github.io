@@ -181,7 +181,7 @@ left: [
 
 Also, add `import { SimpleSlug } from "./quartz/util/path"` at the beginning of `quartz.layout.ts`. And take care where `linkToMore` points. [Here](https://quartz.jzhao.xyz/features/recent-notes) are the config options for this plugin listed.
 
-One remaining issue: this plugin does not show up when I open one of the folders, like [[Braindump]] or [[Brewing/]].
+One remaining issue: this plugin does not show up when I open one of the folders, like [[Braindump]] or [[Brewing/]]. The [[Quartz Personalization#Explorer customization]] also don't take effect here.
 
 ## Explorer customization
 
