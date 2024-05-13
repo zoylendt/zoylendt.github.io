@@ -82,7 +82,7 @@ These are the only strictly required config changes: modify the `pageTitle` & `b
 
 Emojis might render differently depending on the end device, for example 🪴 (from the [Quartz Documentation Blog](https://quartz.jzhao.xyz/)) renders as a [potted plant](https://emojipedia.org/potted-plant) in iOS, but the Brave browser under Windows shows just a square. [Here](https://emojipedia.org/) can some renderings be compared.
 
-Emoji examples: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🏷🗺🐳📚📖📋
+Emoji examples: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🏷🗺🐳📚📖📋🚧🛑⚠💾📌🗃
 
 ## RSS
 
