@@ -59,7 +59,7 @@ Some topics that are covered in this blog:
    - 🏷 [[tags/machine learning|Machine Learning]]
    - 🏷 [[tags/data science|Data Science]]
 - 📖 [[Reading]]
-   - 📄[[books|Antlibrary]]
+   - 📄[[Booklist|Antlibrary]]
    - 🏷 [[tags/reviews|Book Reviews]]
    - 🏷 [[tags/scifi|SciFi]]
 - 🐳 [[Selfhosted]]
