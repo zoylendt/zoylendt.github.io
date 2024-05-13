@@ -4,18 +4,21 @@ date: 2024-02-11
 updated: 2024-05-13
 publishDate: 2024-02-11
 draft: false
-public: false
 enableToc: true
 tags:
   - post
   - todo
+  - unfinished
 ---
  
 # Some topics I want to write about:
 
 ## index.md
 
-...
+- [ ] write about me
+- [ ] ...
+- [x] ...2
+- [ ] ...3
 
 ## Braindump
 
