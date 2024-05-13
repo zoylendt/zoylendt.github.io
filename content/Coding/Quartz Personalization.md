@@ -495,7 +495,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
 The original files and my custom changed files have I documented [[My Quartz Config|here]].
 
-They are also included in [this blog's GitHub repo](https://github.com/zoylendt/zoylendt.github.io/tree/v4/content/my%20quartz%20config).
+They are also included in [this blog's GitHub repo](https://github.com/zoylendt/zoylendt.github.io/tree/v4/content/z/my%20quartz%20config).
 
 In total, this files were modified or newly created:
 
@@ -505,5 +505,5 @@ In total, this files were modified or newly created:
 - `/quartz/components/index.ts`
 - `/quartz/components/LinksHeader.tsx`
 - `/quartz/components/styles/LinksHeader.scss`
-- 
+- `/quartz/static/icon.png` (not yet changed)
 
