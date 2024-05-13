@@ -3,8 +3,8 @@ title: My Own Quartz Config
 description: 
 date: 2024-05-12
 publishDate: 2024-05-12
-updated: 2024-05-12
-publish: true
+updated: 2024-05-13
+draft: false
 tags:
   - note
   - quartz

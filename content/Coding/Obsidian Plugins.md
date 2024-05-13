@@ -8,6 +8,7 @@ draft: true
 tags:
   - note
   - obsidian
+  - unfinished
 ---
 
 # Resources

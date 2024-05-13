@@ -4,7 +4,7 @@ description: <Description of the page used for link previews>
 date: 2024-05-13
 publishDate: 2024-05-13
 updated: 2024-05-13
-publish: false
+draft: false
 tags:
   - note
   - selfhosted
