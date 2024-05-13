@@ -184,8 +184,6 @@ After making sure that we've installed Git and prepared the Obsidian vault as a 
   - changes of layout
   - make **fat** text stand out more
 
-## enable rss feed
-
 ## inspired by showcases
 
 - https://jzhao.xyz/

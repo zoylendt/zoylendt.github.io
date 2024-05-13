@@ -1,7 +1,7 @@
 ---
 title: Quartz Personalization
 date: 2024-02-07
-updated: 2024-05-12
+updated: 2024-05-13
 draft: false
 enableToc: true
 tags:
@@ -83,7 +83,7 @@ Emoji examples: 🍺🍻🧠🌌🌊🪐🌠⚛☣🔖🏷🗺🐳📚📖📋
 
 ## RSS
 
-The RSS feed is enabled by default, it's reachable at https://zoylendt.github.io/index.xml.
+The RSS feed is enabled by default, it's reachable at https://zoylendt.github.io/index.xml. It uses the previously set `pageTitle`.
 
 ## Analytics, fonts, colors
 
