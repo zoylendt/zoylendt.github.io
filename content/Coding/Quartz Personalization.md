@@ -490,6 +490,8 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
 The original files and my custom changed files have I documented [[My Quartz Config|here]].
 
+They are also in in this site's GitHub repo at https://github.com/zoylendt/zoylendt.github.io/tree/v4/content/my%20quartz%20config.
+
 
 ---
 
