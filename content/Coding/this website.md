@@ -206,4 +206,4 @@ After making sure that we've installed Git and prepared the Obsidian vault as a 
 
 ...
 
-(add `.obsidian/workspace.json)` to local `.gitignore`)
+(add `.obsidian/workspace.json)` to local `.gitignore`) <- done
