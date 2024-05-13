@@ -2,7 +2,8 @@
 title: Obsidian Plugins
 description: <Description of the page used for link previews>
 date: 2024-05-10
-updated: 2024-05-11
+updated: 2024-05-13
+publishDate: 2024-05-10
 draft: true
 tags:
   - note
