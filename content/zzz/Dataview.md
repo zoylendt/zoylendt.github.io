@@ -2,8 +2,8 @@
 ```dataview
 
 table title, date, updated
-from "public/*"
-where draft = "true"
+from "public"
+WHERE draft = "true" AND tags = note
 sort date
 
 ```
