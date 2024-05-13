@@ -23,12 +23,12 @@ export default (() => {
             <a href="/Coding">Coding</a>
           </span>
           <span>
-            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Atom%20symbol/Color/atom_symbol_color.svg"></img>
-            <a href="/Physics">Physics</a>
-          </span>
-          <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Open%20book/Color/open_book_color.svg"></img>
             <a href="/Media">Media</a>
+          </span>
+          <span>
+            <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Atom%20symbol/Color/atom_symbol_color.svg"></img>
+            <a href="/Physics">Physics</a>
           </span>
           <span>
             <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Spouting%20whale/Color/spouting_whale_color.svg"></img>
