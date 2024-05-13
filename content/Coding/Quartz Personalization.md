@@ -497,4 +497,13 @@ The original files and my custom changed files have I documented [[My Quartz Con
 
 They are also included in [this blog's GitHub repo](https://github.com/zoylendt/zoylendt.github.io/tree/v4/content/my%20quartz%20config).
 
+In total, this files were modified or newly created:
+
+- `quartz.config.ts`
+- `quartz.layout.ts`
+- `/quartz/components/ContentMeta.tsx`
+- `/quartz/components/index.ts`
+- `/quartz/components/LinksHeader.tsx`
+- `/quartz/components/styles/LinksHeader.scss`
+- 
 
