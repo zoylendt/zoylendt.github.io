@@ -1,5 +1,4 @@
 ---
-title: Welcome to my blog ;)
 date: 2024-02-03
 updated: 2024-05-13
 ---
