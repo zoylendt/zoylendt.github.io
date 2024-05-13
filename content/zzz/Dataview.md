@@ -3,7 +3,7 @@
 
 table title, date, updated
 from "public"
-WHERE draft = "true" AND tags = note
+WHERE draft = true
 sort date
 
 ```
