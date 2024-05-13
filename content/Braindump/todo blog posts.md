@@ -1,6 +1,8 @@
 ---
-title: List of Blog Posts I Want to Write
+title: Some Topics I Want to Write About
 date: 2024-02-11
+updated: 2024-05-13
+publishDate: 2024-02-11
 draft: false
 public: true
 enableToc: true

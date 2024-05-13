@@ -2,11 +2,13 @@
 title: Markdown Guide
 date: 2024-02-04
 updated: 2024-05-13
-draft: false
+publishDate: 2024-02-04
+publish: true
 tags:
-  - quartz
+  - note
   - markdown
-  - post
+  - quartz
+  - unfinished
 ---
  
 Here are some examples about how markdown rendered by Quartz.

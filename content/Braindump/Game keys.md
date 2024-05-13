@@ -1,12 +1,12 @@
 ---
-title: Example Title
+title: Surplus Steam Keys
 description: <Description of the page used for link previews>
 date: 2024-05-09
-updated: 2024-05-09
+updated: 2024-05-13
 publishDate: 2024-05-09
 draft: false
 tags:
-  - post
+  - note
   - todo
 ---
  
