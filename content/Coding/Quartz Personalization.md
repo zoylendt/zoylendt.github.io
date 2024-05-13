@@ -14,6 +14,8 @@ This post's topic are the changes I made of my Quartz instance in order to diffe
 
 The main drawback of changing core components of Quartz is, that upstream changes might break your installation (if you incorporate them without looking closely).
 
+-> add callout with version info
+
 # Inspirations
 
 The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
