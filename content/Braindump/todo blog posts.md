@@ -6,7 +6,7 @@ publishDate: 2024-02-11
 draft: false
 enableToc: true
 tags:
-  - post
+  - note
   - todo
   - unfinished
 ---
