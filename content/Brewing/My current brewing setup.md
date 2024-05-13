@@ -1,16 +1,14 @@
 ---
 title: 
-aliases:
-  - alias1
-description: <Description of the page used for link previews>
+description: 
 date: 2024-05-13
 publishDate: 2024-05-13
 updated: 2024-05-13
-draft: true
-publish: false
+publish: true
 tags:
   - note
-  - changeme
+  - beer
+  - -brewing
 ---
  
 markdown content :)
