@@ -8,7 +8,7 @@ publish: true
 tags:
   - note
   - beer
-  - -brewing
+  - brewing
 ---
  
 markdown content :)

@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ;)
 date: 2024-02-03
-updated: 2024-05-07
+updated: 2024-05-13
 ---
 
 Hi, welcome to my blog ;)
@@ -73,7 +73,7 @@ Some topics that are covered in this blog:
    - 🏷 [[tags/synology|Synology]]
    - 🏷 [[tags/windows|Windows]]
    
-There are also overviews of all 📄 [[tags/post|posts]] and all 🏷 [[tags]].
+There are also overviews of all 📄 [[tags/note|posts]] and all 🏷 [[tags]].
 
 ---
 
