@@ -495,16 +495,6 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
 The original files and my custom changed files have I documented [[My Quartz Config|here]].
 
-They are also in in this site's GitHub repo at https://github.com/zoylendt/zoylendt.github.io/tree/v4/content/my%20quartz%20config.
+They are also included in [this blog's GitHub repo](https://github.com/zoylendt/zoylendt.github.io/tree/v4/content/my%20quartz%20config).
 
-
----
-
-<details>
-  <summary>[Click me] default /quartz/styles/custom.scss</summary>
-  
-  ```
-codeblock
-```
-</details>
 
