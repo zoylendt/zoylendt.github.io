@@ -17,6 +17,9 @@ The main drawback of changing core components of Quartz is, that upstream change
 
 -> add callout with version info
 
+> [!tip]
+> The instructions here might be outdated, please chech the [official instructions](https://quartz.jzhao.xyz/configuration) first!
+
 # Inspirations
 
 The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
