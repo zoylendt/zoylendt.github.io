@@ -415,9 +415,9 @@ export default (() => {
 
 
 <details>
-  <summary>[Click me] new /quartz/components/styles/LinksHeader.scss</summary>
+  <summary>[Click me] new /quartz/components/styles/linksHeader.scss</summary>
   
-  ```scss title="/quartz/components/styles/LinksHeader.scss"
+  ```scss title="/quartz/components/styles/linksHeader.scss"
 @use "../../styles/variables.scss" as *;
  
 header {
