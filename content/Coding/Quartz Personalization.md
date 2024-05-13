@@ -179,6 +179,8 @@ left: [
 
 Also, add `import { SimpleSlug } from "./quartz/util/path"` at the beginning of `quartz.layout.ts`. And take care where `linkToMore` points. [Here](https://quartz.jzhao.xyz/features/recent-notes) are the config options for this plugin listed.
 
+One remaining issue: this plugin does not show up when I open one of the folders, like [[Braindump]].
+
 ## Explorer customization
 
 The Explorer can also be [configured in many ways](https://quartz.jzhao.xyz/features/explorer). I used the example code to [add emoji prefix to files](https://quartz.jzhao.xyz/features/explorer#add-emoji-prefix), but without changing the folder icons (they can be individualized for each folder with a `index.md` inside that folder).
@@ -390,7 +392,7 @@ export {
 
 ## Last updated & History
 
-This feature was implemented differently by two blogs, https://www.chadly.net/ & https://notes.yxy.ninja/. I replaced the default `...` with a modified version of [quartz/components/ContentMeta.tsx](https://github.com/xy-241/CS-Notes/blob/v4/quartz/components/ContentMeta.tsx):
+This feature was implemented differently by two blogs, https://www.chadly.net/ & https://notes.yxy.ninja/. I replaced the default `quartz/components/ContentMeta.tsx` with a modified version of [this file](https://github.com/xy-241/CS-Notes/blob/v4/quartz/components/ContentMeta.tsx), so it looks like this:
 
 ```tsx title="/quartz/components/ContentMeta.tsx"
 import { formatDate, getDate } from "./Date"
