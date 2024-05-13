@@ -1,6 +1,7 @@
 ---
 title: Building Quartz With Docker
 date: 2024-02-05
+updated: 2024-05-13
 draft: false
 enableToc: true
 tags:
