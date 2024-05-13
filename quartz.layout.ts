@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [Component.LinksHeader()],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/zoylendt/zoylendt.github.io",
+//      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -28,18 +28,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
-  mapFn: (node) => {
-    // dont change name of root node
-    if (node.depth > 0) {
-      // set emoji for file/folder
-      if (node.file) {
-        node.displayName = "📄 " + node.displayName
-      } else {
-        node.displayName = "📁 " + node.displayName
-      }
-    }
-  },
-})),
+      mapFn: (node) => {
+        // dont change name of root node
+        if (node.depth > 0) {
+        // set emoji for file/folder
+        if (node.file) {
+          node.displayName = "📄 " + node.displayName
+        } else {
+          node.displayName = "📁 " + node.displayName
+        }}},})),
     Component.DesktopOnly(Component.RecentNotes({
         title: "Recent Notes",
         limit: 4,
