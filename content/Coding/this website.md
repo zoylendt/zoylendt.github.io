@@ -91,7 +91,7 @@ The file `.gitignore` contains only one line:
 .obsidian/workspace.json
 ```
 
- (Explain .github files)
+ (Explain .github files etc)
 
    - "SKIP_PR: true" -> pushes directly to default branch, skips creating a pull request
    - "COMMIT_EACH_FILE: false" -> commit multiple file changes a a single commit
