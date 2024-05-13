@@ -127,7 +127,7 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  └── .gitignore
 ```
 
- (Reasons)
+ (Reasons for this structure)
 
 ## Initialize Obsidian folder as git repo (using GitHub Desktop)
 
