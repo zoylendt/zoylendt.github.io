@@ -1,6 +1,7 @@
 ---
 title: Markdown Guide
 date: 2024-02-04
+updated: 2024-05-13
 draft: false
 tags:
   - quartz
@@ -14,7 +15,7 @@ Here are some examples about how markdown rendered by Quartz.
 
 # Text boxes
 
-## Coloured Blocks
+## Colored Blocks
 
 Text can be placed within a `tip` (aka `hint`), `note` or a `warning` block.
 
