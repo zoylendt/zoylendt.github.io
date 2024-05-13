@@ -41,7 +41,7 @@ tags:
 
 ### Minimal setup:
 
-```
+``` title="minimal folder structure"
 C:\users\USERNAME\Obsidian\VAULTNAME\
  ├── .obsidian
  │   └── ...
@@ -52,19 +52,20 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  ├── private
  │   └── .gitkeep
  └── public
-     └── index.md
+ │   └── index.md
+ └── .gitignore
 ```
 
 Contents of `/.github/workflows/sync.yml` and `/.github/sync.yml`:
 
-``` "/.github/sync.yml"
+``` title="/.github/sync.yml"
 zoylendt/zoylendt.github.io@v4:
   - source: public/
     dest: content/
     deleteOrphaned: true
 ```
 
-``` "/.github/workflows/sync.yml"
+``` title="/.github/workflows/sync.yml"
 name: Sync Files
 on:
   push:
@@ -82,6 +83,12 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           SKIP_PR: true
+```
+
+The file `.gitignore` contains only one line:
+
+``` title=".gitignore"
+.obsidian/workspace.json
 ```
 
  (Explain .github files)
@@ -107,16 +114,17 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  ├── private
  │   └── .gitkeep
  └── public
-     ├── index.md
-     ├── template.md
-     ├── tags
-     │   ├── tag1.md
-     ├── Topic1
-     │   ├── blogpage1.md
-     │   └── attachments
-     │       └── image.png
-     └── Topic2
-         └── blogpage2.md
+ │   ├── index.md
+ │   ├── template.md
+ │   ├── tags
+ │   │   └── tag1.md
+ │   ├── Topic1
+ │   │   ├── blogpage1.md
+ │   │   └── attachments
+ │   │       └── image.png
+ │   └── Topic2
+ │       └── blogpage2.md
+ └── .gitignore
 ```
 
  (Reasons)
