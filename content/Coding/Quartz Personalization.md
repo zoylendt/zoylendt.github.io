@@ -8,6 +8,7 @@ enableToc: true
 tags:
   - note
   - markdown
+  - quartz
   - selfhosted
 ---
  
@@ -18,7 +19,8 @@ The main drawback of changing core components of Quartz is, that upstream change
 -> add callout with version info
 
 > [!tip]
-> The instructions here might be outdated, please chech the [official instructions](https://quartz.jzhao.xyz/configuration) first!
+> The instructions here might be outdated, please check the [official instructions](https://quartz.jzhao.xyz/configuration) first!
+> 
 
 # Inspirations
 
