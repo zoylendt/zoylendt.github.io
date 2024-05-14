@@ -37,12 +37,13 @@ This will guide you through initializing your Quartz with content. Once you've d
 
 Some topics that are covered in this blog:
 
-- 🧠 [[Braindump]]
+- 🧠 [[Braindump]]  
 A place for thoughts and stuff that doesn't fit the other categories.
    - [[tags/todo|ToDo]] 
    - [[tags/unfinished|unfinished blog entries]] 
-- 🍺 [[Brewing|Home Brewing and cooking Recipes]]
-A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its combination of handcrafting and automation - and of course it provides you with tasty beer ;) Documenting my suds (brewing processes, "Sud" in german) is the main reason for creating this blog, besides my [homelab](https://linuxhandbook.com/homelab/) hobby.  
+- 🍺 [[Brewing|Home Brewing and cooking Recipes]]  
+A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its combination of handcrafting and automation - and of course it provides you with tasty beer ;)  
+Documenting my suds (brewing processes, "Sud" in german) was a big motivation for creating this blog, besides my [homelab](https://linuxhandbook.com/homelab/) hobby.  
 In this category I also deal with other food-related topics, like brewing mead, fermenting kombucha, baking bread and general cooking recipes.
    - [[tags/beer|Beer]]
    - [[tags/bread|Bread]]
