@@ -93,3 +93,7 @@ Callouts example: from https://notes.camargomau.com/
    - youtube
 - document HomeAssistant
 
+### Proxmox-related
+
+- [ ] virtualize MacOS, without  a real Mac and without a GPU
+- [ ] 
