@@ -42,7 +42,9 @@ A place for thoughts and stuff that doesn't fit the other categories.
    - [[tags/todo|ToDo]] 
    - [[tags/unfinished|unfinished blog entries]] 
 - 🍺 [[Brewing|Home Brewing and cooking Recipes]]
-A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its combination of handcrafting and automation - and of course it provides you with tasty beer ;) Docuemnting my 
+- 
+A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its combination of handcrafting and automation - and of course it provides you with tasty beer ;) Documenting my suds (brewing processes, "Sud" in german) is the main reason for creating this blog, besides my homelab hobby.
+In this category I also deal with other food-related topics, like brewing mead, fermenting kombucha, baking bread and general cooking recipes.
    - [[tags/beer|Beer]]
    - [[tags/bread|Bread]]
    - [[tags/fermenting|Fermenting]]
