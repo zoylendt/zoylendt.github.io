@@ -97,4 +97,19 @@ Callouts example: from https://notes.camargomau.com/
 ### Proxmox-related
 
 - [ ] virtualize MacOS, without  a real Mac and without a GPU
+- [ ] RancherOS
+- [ ] different monitoring options
+- [ ] Brave browser setup, multiple profiles
+- [ ] bookmark manager
+- [ ] Traefik guide
+- [ ] OPNsense VM
+- [ ] Hardware
+	- [ ] Zisternensensor
+- [ ] YT frontende
+- [ ] YT playlist -> archivist
+- [ ] HomeAssistant
+	- [ ] connect multiple instances
+- [ ] FreshRSS
+- [ ] Podgrab
+- [ ] TrueNAS VM
 - [ ] 
