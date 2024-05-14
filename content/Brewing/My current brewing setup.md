@@ -12,3 +12,5 @@ tags:
 ---
  
 markdown content :)
+
+![[giphy.gif]]
