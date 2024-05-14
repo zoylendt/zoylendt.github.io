@@ -3,7 +3,7 @@ title: Booklist
 aliases:
   - Reading list
 date: 2024-02-06
-updated: 2024-05-13
+updated: 2024-05-14
 publishDate: 2024-02-06
 draft: false
 tags:
@@ -50,8 +50,10 @@ A list of physical books I own but haven't read yet:
 #### Comic & Manga
 
 - Junji Ito
-- Ruri Dragon (finished chapters 1-12)
+- Ruri Dragon (finished chapters 1-13)
 - Chainsaw Man (finished chapters 1-164)
+- Kaiju No. 8 (finished chapters 1-21)
+- Goodnight Punpun (finished chapters 1-21)
 - Kaiju No. 8 (finished chapters 1-21)
 - Solo Leveling (paused after chapter 64)
 - ...
