@@ -53,7 +53,7 @@ In this category I also deal with other food-related topics, like brewing mead, 
    - [[tags/fermenting|Fermenting]]
    - [[tags/recipe|General cooking recipes]]
 - 📑 [[Coding|Coding, programming & Note Taking]]
-Here I write about 
+Here I write about my Obsidian setup and how I use it to deploy this website on GitHub, 
    - 📄 [[markdown guide|Markdown Guide]]
    - 📄 [[this website|How this website was build]]
    - [[tags/markdown|Markdown]]
