@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-13
+updated: 2024-05-14
 publishDate: 2024-02-11
 draft: false
 enableToc: true
@@ -54,6 +54,11 @@ Callouts example: from https://notes.camargomau.com/
 
 > [!abstract]- Sciujo
 > The [[Sciujo]] ("knowledge container" in Esperanto) is the main and the knowledge-oriented part of the Notkesto; it follows the [[Zettelkasten]] method.
+
+### This website
+
+- [ ] write easy basic setup guide (no obsidian or git)
+- [ ] 
 
 ## Physics
 
