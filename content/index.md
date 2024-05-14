@@ -35,6 +35,9 @@ This will guide you through initializing your Quartz with content. Once you've d
 
 ---
 
+> [!warning]
+> Many notes in this blog are still [[tags/unfinished]]!
+
 Some topics that are covered in this blog:
 
 - 🧠 [[Braindump]]  
@@ -50,6 +53,7 @@ In this category I also deal with other food-related topics, like brewing mead, 
    - [[tags/fermenting|Fermenting]]
    - [[tags/recipe|General cooking recipes]]
 - 📑 [[Coding|Coding, programming & Note Taking]]
+Here I write about 
    - 📄 [[markdown guide|Markdown Guide]]
    - 📄 [[this website|How this website was build]]
    - [[tags/markdown|Markdown]]
