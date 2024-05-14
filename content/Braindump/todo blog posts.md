@@ -30,7 +30,9 @@ tags:
 
 - 30XX-35XX
 - Brewing Setup
-- 
+- [ ] Inventur
+- [ ] list of all previously brewed beers
+- [ ] 
 
 ## Coding
 
@@ -94,15 +96,25 @@ Callouts example: from https://notes.camargomau.com/
    - youtube
 - document HomeAssistant
 
+- [ ] abcnas
+	- [ ] snapshot setup
+	- [ ] backup via business
+- [ ] paperless-ngx
+- [ ] calendar
+
 ### Proxmox-related
 
-- [ ] virtualize MacOS, without  a real Mac and without a GPU
-- [ ] RancherOS
+- [ ] VMs
+	- [ ] virtualize MacOS, without  a real Mac and without a GPU
+	- [ ] RancherOS
+	- [ ] OPNsense VM
+	- [ ] HomeAssistant
+	- [ ] ChromeOS
+	- [ ] TrueNAS
 - [ ] different monitoring options
 - [ ] Brave browser setup, multiple profiles
 - [ ] bookmark manager
 - [ ] Traefik guide
-- [ ] OPNsense VM
 - [ ] Hardware
 	- [ ] Zisternensensor
 - [ ] YT frontende
