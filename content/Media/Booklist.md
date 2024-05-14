@@ -29,14 +29,14 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Ex-Heroes 2+** by Peter Clines
 - 
 
-#### Recommendations from friends
+### Recommendations from friends
 
 - **Black Bird Academy** by Stella Tack
 - **Book of Night** Holly Black
 - **Rivers of London (series)** by ben Aaronovitch
 - ...
 
-#### Warhammer 40K
+### Warhammer 40K
 
 - ...
 
@@ -47,7 +47,7 @@ A list of physical books I own but haven't read yet:
 - **Lupercal's War** by VA
 - ...
 
-#### Comic & Manga
+### Comic & Manga
 
 - Junji Ito
 - Ruri Dragon (finished chapters 1-13)
@@ -59,7 +59,7 @@ A list of physical books I own but haven't read yet:
 - ...
 
 
-### Non-fiction
+## Non-fiction
 
 - **Lost in Math: How Beauty Leads Physics Astray** by Sabine Hossenfelder
 - **The Making of the Atomic Bomb** by Richard Rhodes
@@ -70,7 +70,7 @@ A list of physical books I own but haven't read yet:
 - **Sapiens** by Yuval Noah Harari
 - ...
 
-## Current Reading
+# Current Reading
 
 - **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
 - **Warboss** by Mike Brooks
@@ -78,9 +78,9 @@ A list of physical books I own but haven't read yet:
 - **Python - Der Grundkurs** by Michael Kofler
 - ...
 
-## Previously Read Books
+# Previously Read Books
 
-### 2024
+## 2024
 
 - **The End and the Death: Volume III** by Dan Abnett
 - **Time Salvager** by Wesley Chu
@@ -96,14 +96,14 @@ A list of physical books I own but haven't read yet:
 - **Ascension** by Nicholas Binge
 - **Mickey 7** by Edward Ashton
 
-### 2023
+## 2023
 
 - **This Is How You Lose the Time War** by Amal El-Mohtar & Max Gladstone
 - **Far from the Light of Heaven** by Tade Thompson
 - **Signus Daemonicus** by james Swallow
 - **The End and the Death: Volume II** by Dan Abnett
 
-### Noteworthy Books From Before 2023
+## Noteworthy Books From Before 2023
 
 - **Project Hail Mary** by Andy Weir
 - **Snow Crash** by Neal Stephenson
@@ -122,7 +122,7 @@ A list of physical books I own but haven't read yet:
 - **World War Z** by Max Brooks
 - ...
 
-### Previously read Warhammer 40K Books
+## Previously read Warhammer 40K Books
 
 - **Inkarnation, Wiederkehr & Divination** by John French
 - **Urdesh 2+3** by Matthew Farrer
