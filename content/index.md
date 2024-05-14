@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-05-13
+updated: 2024-05-14
 ---
 
 Hi, welcome to my blog ;)
@@ -42,6 +42,7 @@ A place for thoughts and stuff that doesn't fit the other categories.
    - [[tags/todo|ToDo]] 
    - [[tags/unfinished|unfinished blog entries]] 
 - 🍺 [[Brewing|Home Brewing and cooking Recipes]]
+A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its combination of handcrafting and automation - and of course it provides you with tasty beer ;) Docuemnting my 
    - [[tags/beer|Beer]]
    - [[tags/bread|Bread]]
    - [[tags/fermenting|Fermenting]]
