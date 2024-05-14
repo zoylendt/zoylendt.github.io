@@ -13,13 +13,13 @@ tags:
 
 A (mostly) up-to-date list of books I at some point, have wanted to read, am reading, or finished reading. Links are to pages/blog posts/ideas that were inspired by the book that's linked!
 
-## To Read
+# To Read
 
 > What is an [antilibrary](https://nesslabs.com/antilibrary)? To put it simply, an antilibrary is a private collection of unread books. Instead of a celebration of everything you know, an antilibrary is an ode to everything you want to explore.
 
-### Fiction
+## Fiction
 
-#### Award-winning books
+### Award-winning books
 
 - **Accelerando** by Charles Stross
 - **Glasshouse** by Charles Stross
@@ -54,7 +54,7 @@ A list of physical books I own but haven't read yet:
 - Chainsaw Man (finished chapters 1-164)
 - Kaiju No. 8 (finished chapters 1-21)
 - Goodnight Punpun (finished chapters 1-21)
-- Kaiju No. 8 (finished chapters 1-21)
+- Blame! (finished chapters ("Log.") 1-37)
 - Solo Leveling (paused after chapter 64)
 - ...
 
