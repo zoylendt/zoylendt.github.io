@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-14
+updated: 2024-05-15
 publishDate: 2024-02-11
 draft: false
 enableToc: true
@@ -66,6 +66,7 @@ Callouts example: from https://notes.camargomau.com/
 
 ## Media
 
+- [ ] Handhelds
 - movies
 - quotes
 - series
