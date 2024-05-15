@@ -29,7 +29,9 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### Award-winning books
 
+Books awarded with the [Hugo](https://de.wikipedia.org/wiki/Hugo_Award), [Nebula](https://de.wikipedia.org/wiki/Nebula_Award), their [joint winners](https://en.wikipedia.org/wiki/List_of_joint_winners_of_the_Hugo_and_Nebula_awards), or [Locus Award](https://de.wikipedia.org/wiki/Locus_Award), and possibly [other awards](https://en.wikipedia.org/wiki/List_of_science_fiction_and_fantasy_literary_awards).
 
+Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choiceawards/), mainly for ScienceFiction in [2023](https://www.goodreads.com/choiceawards/best-science-fiction-books-2023) and earlier.
 
 -  Charles Stross
 	- **Accelerando**
