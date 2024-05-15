@@ -13,6 +13,14 @@ tags:
 
 A (mostly) up-to-date list of books I at some point, have wanted to read, am reading, or finished reading. Links are to pages/blog posts/ideas that were inspired by the book that's linked!
 
+# Current Reading
+
+- **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
+- **Warboss** by Mike Brooks
+- **Dark Imperium 1-3** by Guy Haley
+- **Python - Der Grundkurs** by Michael Kofler
+- ...
+
 # To Read
 
 > What is an [antilibrary](https://nesslabs.com/antilibrary)? To put it simply, an antilibrary is a private collection of unread books. Instead of a celebration of everything you know, an antilibrary is an ode to everything you want to explore.
@@ -24,25 +32,31 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 -  Charles Stross
 	- **Accelerando**
 	- **Glasshouse**
-	- **Halting State**
-	- **The Atrocity Archives (Laundry #1)**
-	- **Saturn’s Children**
-	- **The Apocalypse Codex**
+	- **The Concrete Jungle (short novel)**
+	- **Palimpsest (short novel)**
+	- **Halting State (Halting State #1)**
+	- **The Atrocity Archives (The Laundry Files #1)**
+	- **Saturn’s Children (Saturn’s Children #1)**
+- John Scalzi
+	- **Starter Villain**
+	- **The Last Emperox (The Interdependency #3)**
+- Naomi Novik
+	- **Uprooted**
+	- **Spinning Silver**
 - **The Ministry for the Future** by Kim Stanley Robinson
 - **Cat's Cradle** by Kurt Vonnegut
 - ...
 - **Ex-Heroes 2+** by Peter Clines
-- **Starter Villain** by John Scalzi
-- 
 - ...
 - **Babel** by R. F. Kuang
 - **The City in the Middle of the Night** by Charlie Jane Anders
 - **The Calculating Stars** by Mary Robinette Kowal
-- **Uprooted** by Naomi Novik
-- **Spinning Silver** by Naomi Novik
-- **The Last Emperox (The Interdependency #3)** by John Scalzi
 - **Death's End (Three Body Problem #3)** by Cixin Liu
 - **Imperial Radch (series)** by Ann Leckie
+- China Miéville
+	- **Embassytown**
+	- **The City & the City**
+	- **Perdido Street Station**
 - 
 
 ### Recommendations from friends
@@ -89,14 +103,6 @@ A list of physical books I own but haven't read yet:
 - **Humble Pi** by Matt Parker
 - **Bald!** by Zach Weinersmith
 - **Sapiens** by Yuval Noah Harari
-- ...
-
-# Current Reading
-
-- **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
-- **Warboss** by Mike Brooks
-- **Dark Imperium 1-3** by Guy Haley
-- **Python - Der Grundkurs** by Michael Kofler
 - ...
 
 # Previously Read Books
