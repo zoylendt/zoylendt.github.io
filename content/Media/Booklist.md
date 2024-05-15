@@ -29,6 +29,8 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### Award-winning books
 
+
+
 -  Charles Stross
 	- **Accelerando**
 	- **Glasshouse**
@@ -43,7 +45,10 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - Naomi Novik
 	- **Uprooted**
 	- **Spinning Silver**
-- **The Ministry for the Future** by Kim Stanley Robinson
+- Kim Stanley Robinson
+	- **The Ministry for the Future**
+	- **The Years of Rice and Salt**
+	- **Mars (series)**
 - **Cat's Cradle** by Kurt Vonnegut
 - ...
 - **Ex-Heroes 2+** by Peter Clines
@@ -58,17 +63,27 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 	- **The City & the City**
 	- **Perdido Street Station**
 - **Blackout/All Clear** by Connie Willis
+- **Boneshaker** by Cherie Priest
+- **The Yiddish Policemen’s Union** by Michael Chabon
+- **Rainbow's End** by Vernor Vinge
+- Neal Stephenson
+	- **Anathem**
+	- **The Baroque Cycle (series)**
+	- **Cryptonomicon**
+- Dan Simmons
+	- **Ilium**
+- ...
 
 ### Recommendations from friends
 
-- **Black Bird Academy** by Stella Tack
-- **Book of Night** Holly Black
-- **Rivers of London (series)** by ben Aaronovitch
+- **Rivers of London (series)** by Ben Aaronovitch
 - [**The Perfect Run** by Maxime J. Durand](https://www.royalroad.com/fiction/36735/the-perfect-run)
 - [**Mother of Learning** by nobody103](https://www.royalroad.com/fiction/21220/mother-of-learning)
 - [**Cradle (series)** by Will Wight](https://www.goodreads.com/series/192821-cradle)
 - [**Worm** by Wildbow](https://parahumans.wordpress.com/)
 - [**Super Supportive (ongoing)** by Sleyca](https://www.royalroad.com/fiction/63759/super-supportive)
+- **Black Bird Academy** by Stella Tack
+- **Book of Night** Holly Black
 
 ### Warhammer 40K
 
@@ -147,7 +162,8 @@ A list of physical books I own but haven't read yet:
 - **What if? 1+2** by Randall Munroe
 - **Der Zombie Survival Guide** by Max Brooks
 - **World War Z** by Max Brooks
-- ...
+- **American Gods** by Neil Gaiman
+- 
 
 ## Previously read Warhammer 40K Books
 
