@@ -61,6 +61,7 @@ Callouts example: from https://notes.camargomau.com/
 ### This website
 
 - [ ] write easy basic setup guide (no obsidian or git)
+- [ ] how to include upstream updates into your quartz repo
 - [ ] 
 
 ## Physics

@@ -45,7 +45,7 @@ A list of physical books I own but haven't read yet:
 - **Assasinorum** by Robert Rath
 - **Fürchte den Xenos** by Christian Dunn 
 - **Lupercal's War** by VA
-- ...
+- **
 
 ### Comic & Manga
 
