@@ -1,17 +1,17 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-05-15
+updated: 2024-05-16
 ---
 
 > [!warning]
-> Many notes in this blog are still [[tags/unfinished]]! This blog is quite new.
+> Many notes in this blog are still [[tags/unfinished]], many topics are not yet flashed out!
 
 Hi, welcome to my notes and thoughts :D
 
 This blog runs on a [[Quartz Personalization|slightly modified]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/) and backed up with Obsidian's git plugin. [[this website|Here]] I've documented my workflow.
 
-Soon after realizing that my previous method, (digital) "Zettelwirtschaft", an unsustainable way of organizing my thoughts was, was I searching for an alternative, something with more structure. I chose Quartz for its [native integration](https://quartz.jzhao.xyz/features/Obsidian-compatibility) with Obsidian and its other great features, like the [incredible fast search](https://quartz.jzhao.xyz/features/full-text-search) (try `[ctrl]+[k]`), the [popover previews](https://quartz.jzhao.xyz/features/popover-previews) (hover over an [[Booklist|internal link]]) and the [graph view](https://quartz.jzhao.xyz/features/graph-view) (klick the little graph in its top right corner). These features make Quartz an ideal choice as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system or a ["digital garden"](https://mwalton.me/thoughts/digital-forests), a topic which I haven't explored myself yet.
+Soon after realizing that my previous method, (digital) "Zettelwirtschaft", an unsustainable way of organizing my thoughts was, was I searching for an alternative, something with more structure. I chose Quartz for its [native integration](https://quartz.jzhao.xyz/features/Obsidian-compatibility) with Obsidian and its other great [features](https://quartz.jzhao.xyz/#-features), like the incredible fast [search](https://quartz.jzhao.xyz/features/full-text-search) (try `[ctrl]+[k]`), the [popover previews](https://quartz.jzhao.xyz/features/popover-previews) (hover over an [[Booklist|internal link]]) and the [graph view](https://quartz.jzhao.xyz/features/graph-view) (klick the little graph symbol in the Graph View's top right corner). These features make Quartz an ideal choice as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system or a ["digital garden"](https://mwalton.me/thoughts/digital-forests), a topic which I haven't explored myself yet.
 
 By making my notes public I'm forcing myself to write with some coherence in mind, which should help me finding notes if I search for them. Hopefully it will also improve my english writing skills. As a final inspiration, I've come quite often across some tech blogs on the web after googling about how to implement something or resolve a specific, often [[Selfhosted/]] related problem, so I hope this pile of notes may be useful to somebody else someday :D
 
@@ -33,7 +33,7 @@ In this category I also deal with other food-related topics, like brewing mead, 
    - [[tags/bread|Bread]]
    - [[tags/fermenting|Fermenting]]
    - [[tags/recipe|General cooking recipes]]
-- 📑 [[Coding|Coding, programming & Note Taking]]  
+- 📑 [[Coding|Coding, Programming & Note Taking]]  
 Here I write about my Obsidian setup and how I use it to deploy this website on GitHub, 
    - 📄 [[markdown guide|Markdown Guide]]
    - 📄 [[this website|How this website was build]]
