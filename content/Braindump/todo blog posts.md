@@ -25,6 +25,7 @@ tags:
 - Game keys
 - pr0gramm tampermonkey setup
 - tag: bookmark
+- [ ] list of other blogs -> https://www.vibrio.eu/blog/50-wichtige-deutschsprachige-it-blogs-die-enrico-liste/
 
 ## Brewing
 
@@ -111,18 +112,6 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] matrix messenger
 - [ ] nextcloud
 - [ ] music
-- [ ] 
-
-
-### Proxmox-related
-
-- [ ] VMs
-	- [ ] virtualize MacOS, without  a real Mac and without a GPU
-	- [ ] RancherOS
-	- [ ] OPNsense VM
-	- [ ] HomeAssistant
-	- [ ] ChromeOS
-	- [ ] TrueNAS
 - [ ] different monitoring options
 - [ ] Brave browser setup, multiple profiles
 - [ ] bookmark manager
@@ -135,5 +124,17 @@ Callouts example: from https://notes.camargomau.com/
 	- [ ] connect multiple instances
 - [ ] FreshRSS
 - [ ] Podgrab
-- [ ] TrueNAS VM
 - [ ] 
+
+
+### Proxmox-related
+
+- [ ] VMs
+	- [ ] virtualize MacOS, without  a real Mac and without a GPU
+	- [ ] RancherOS
+	- [ ] OPNsense VM
+	- [ ] HomeAssistant
+	- [ ] ChromeOS
+	- [ ] TrueNAS
+	- [ ] 
+
