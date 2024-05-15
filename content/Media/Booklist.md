@@ -21,8 +21,13 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### Award-winning books
 
-- **Accelerando** by Charles Stross
-- **Glasshouse** by Charles Stross
+-  Charles Stross
+	- **Accelerando**
+	- **Glasshouse**
+	- **Halting State**
+	- **The Atrocity Archives (Laundry #1)**
+	- **Saturn’s Children**
+	- **The Apocalypse Codex**
 - **The Ministry for the Future** by Kim Stanley Robinson
 - **Cat's Cradle** by Kurt Vonnegut
 - ...
@@ -35,7 +40,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **The Calculating Stars** by Mary Robinette Kowal
 - **Uprooted** by Naomi Novik
 - **Spinning Silver** by Naomi Novik
-- **The Collapsing Empire 3** by John Scalzi
+- **The Last Emperox (The Interdependency #3)** by John Scalzi
 - **Death's End (Three Body Problem #3)** by Cixin Liu
 - **Imperial Radch (series)** by Ann Leckie
 - 
@@ -45,11 +50,11 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Black Bird Academy** by Stella Tack
 - **Book of Night** Holly Black
 - **Rivers of London (series)** by ben Aaronovitch
-- **The Perfect Run** by Maxime J. Durand
-- **Mother of Learning** by nobody103
-- **Cradle (series)** by Will Wight
+- [**The Perfect Run** by Maxime J. Durand](https://www.royalroad.com/fiction/36735/the-perfect-run)
+- [**Mother of Learning** by nobody103](https://www.royalroad.com/fiction/21220/mother-of-learning)
+- [**Cradle (series)** by Will Wight](https://www.goodreads.com/series/192821-cradle)
 - [**Worm** by Wildbow](https://parahumans.wordpress.com/)
-- [**Super Supportive** by Sleyca]
+- [**Super Supportive (ongoing)** by Sleyca](https://www.royalroad.com/fiction/63759/super-supportive)
 
 ### Warhammer 40K
 
