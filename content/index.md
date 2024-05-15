@@ -4,15 +4,13 @@ date: 2024-02-03
 updated: 2024-05-15
 ---
 
-Hi, welcome to my blog ;)
+Hi, welcome to my notes and thoughts :D
 
 This blog runs on a [[Quartz Personalization|slightly modified]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/) and backed up with Obsidian's git plugin. [[this website|Here]] I've documented my workflow.
 
-I chose Quartz for its [native integration](https://quartz.jzhao.xyz/features/Obsidian-compatibility) with Obsidian and its other great features, like the [incredible fast search](https://quartz.jzhao.xyz/features/full-text-search), the [popover previews](https://quartz.jzhao.xyz/features/popover-previews) and the [graph view](https://quartz.jzhao.xyz/features/graph-view).
+Soon after realizing that my previous method, (digital) "Zettelwirtschaft", an unsustainable way of organizing my thoughts was, was I searching for an alternative, something with more structure. I chose Quartz for its [native integration](https://quartz.jzhao.xyz/features/Obsidian-compatibility) with Obsidian and its other great features, like the [incredible fast search](https://quartz.jzhao.xyz/features/full-text-search), the [popover previews](https://quartz.jzhao.xyz/features/popover-previews) and the [graph view](https://quartz.jzhao.xyz/features/graph-view). These features make Quartz an ideal choice as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system or a ["digital garden"](https://mwalton.me/thoughts/digital-forests), a topic which I haven't explored myself yet.
 
-Soon after realizing that my previous method, (digital) "Zettelwirtschaft", an unsustainable way of organizing my thoughts was - I needed something with more structure. Using Obsidian/Quartz as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system
-
-Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
+By making my notes public I'm forcing myself to write with some coherence in mind, which should help me finding notes if I search for them. IT SHOULD ALSO IMPROVE MY ENGLISH SKILLAlso I've often come across some tech blogs after googling about how to implement something or resolve a problem (often [[Selfhosted/]] related), so I hope this pile of notes may be useful to somebody else someday :D
 
 ## 🪴 Get Started :D 5
 
