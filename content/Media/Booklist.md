@@ -28,8 +28,16 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - ...
 - **Ex-Heroes 2+** by Peter Clines
 - **Starter Villain** by John Scalzi
-- **Uprooted** by Naomi Novik
+- 
 - ...
+- **Babel** by R. F. Kuang
+- **The City in the Middle of the Night** by Charlie Jane Anders
+- **The Calculating Stars** by Mary Robinette Kowal
+- **Uprooted** by Naomi Novik
+- **Spinning Silver** by Naomi Novik
+- **The Collapsing Empire 3** by John Scalzi
+- **Death's End (Three Body Problem #3)** by Cixin Liu
+- **Imperial Radch (series)** by Ann Leckie
 - 
 
 ### Recommendations from friends
@@ -40,7 +48,8 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **The Perfect Run** by Maxime J. Durand
 - **Mother of Learning** by nobody103
 - **Cradle (series)** by Will Wight
-- ...
+- [**Worm** by Wildbow](https://parahumans.wordpress.com/)
+- [**Super Supportive** by Sleyca]
 
 ### Warhammer 40K
 
