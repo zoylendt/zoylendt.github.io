@@ -10,6 +10,9 @@ tags:
   - selfhosted
   - unfinished
 ---
+
+> [!warning]
+> Many notes in this blog are still [[tags/unfinished]]!
  
 # Complete Systems
 
