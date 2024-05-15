@@ -3,7 +3,7 @@ title: Booklist
 aliases:
   - Reading list
 date: 2024-02-06
-updated: 2024-05-14
+updated: 2024-05-15
 publishDate: 2024-02-06
 draft: false
 tags:
@@ -27,13 +27,18 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Cat's Cradle** by Kurt Vonnegut
 - ...
 - **Ex-Heroes 2+** by Peter Clines
-- 
+- **Starter Villain** by John Scalzi
+- **Uprooted** by Naomi Novik
+- ...
 
 ### Recommendations from friends
 
 - **Black Bird Academy** by Stella Tack
 - **Book of Night** Holly Black
 - **Rivers of London (series)** by ben Aaronovitch
+- **The Perfect Run** by Maxime J. Durand
+- **Mother of Learning** by nobody103
+- **Cradle (series)** by Will Wight
 - ...
 
 ### Warhammer 40K
@@ -45,7 +50,7 @@ A list of physical books I own but haven't read yet:
 - **Assasinorum** by Robert Rath
 - **Fürchte den Xenos** by Christian Dunn 
 - **Lupercal's War** by VA
-- **
+- ...
 
 ### Comic & Manga
 
