@@ -4,58 +4,36 @@ date: 2024-02-03
 updated: 2024-05-15
 ---
 
+> [!warning]
+> Many notes in this blog are still [[tags/unfinished]]! This blog is quite new.
+
 Hi, welcome to my notes and thoughts :D
 
 This blog runs on a [[Quartz Personalization|slightly modified]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/) and backed up with Obsidian's git plugin. [[this website|Here]] I've documented my workflow.
 
 Soon after realizing that my previous method, (digital) "Zettelwirtschaft", an unsustainable way of organizing my thoughts was, was I searching for an alternative, something with more structure. I chose Quartz for its [native integration](https://quartz.jzhao.xyz/features/Obsidian-compatibility) with Obsidian and its other great features, like the [incredible fast search](https://quartz.jzhao.xyz/features/full-text-search), the [popover previews](https://quartz.jzhao.xyz/features/popover-previews) and the [graph view](https://quartz.jzhao.xyz/features/graph-view). These features make Quartz an ideal choice as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system or a ["digital garden"](https://mwalton.me/thoughts/digital-forests), a topic which I haven't explored myself yet.
 
-By making my notes public I'm forcing myself to write with some coherence in mind, which should help me finding notes if I search for them. IT SHOULD ALSO IMPROVE MY ENGLISH SKILLAlso I've often come across some tech blogs after googling about how to implement something or resolve a problem (often [[Selfhosted/]] related), so I hope this pile of notes may be useful to somebody else someday :D
-
-## 🪴 Get Started :D 5
-
-Quartz requires **at least [Node](https://nodejs.org/) v18.14** and `npm` v9.3.1 to function correctly. Ensure you have this installed on your machine before continuing.
-
-Then, in your terminal of choice, enter the following commands line by line:
-
-```shell
-git clone https://github.com/jackyzha0/quartz.git
-cd quartz
-npm i
-npx quartz create
-```
-
-This will guide you through initializing your Quartz with content. Once you've done so, see how to:
-
-1. [[authoring content|Writing content]] in Quartz
-2. [[configuration|Configure]] Quartz's behaviour
-3. Change Quartz's [[layout]]
-4. [[build|Build and preview]] Quartz
-5. [[hosting|Host]] Quartz online
-
-6. [[markdown guide|top level]]
-7. [[Markdown/markdown guide|lower level]]
+By making my notes public I'm forcing myself to write with some coherence in mind, which should help me finding notes if I search for them. Hopefully it will also improve my english writing skills. As a final inspiration, I've come quite often across some tech blogs on the web after googling about how to implement something or resolve a specific, often [[Selfhosted/]] related problem, so I hope this pile of notes may be useful to somebody else someday :D
 
 ---
 
-> [!warning]
-> Many notes in this blog are still [[tags/unfinished]]!
+## My interests
 
-Some topics that are covered in this blog:
+I aim to write about many different topics, but they can (hopefully) be categorized in some way. There are also overviews of all 📄 [[tags/note|posts]] and all 🏷 [[tags]].
 
 - 🧠 [[Braindump]]  
-A place for thoughts and stuff that doesn't fit the other categories.
+A place for thoughts and stuff that doesn't fit the other categories. New ideas, unfinished thoughts, plans, things I stumbled upon the net, stuff like that ;)
    - [[tags/todo|ToDo]] 
    - [[tags/unfinished|unfinished blog entries]] 
 - 🍺 [[Brewing|Home Brewing and cooking Recipes]]  
 A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its combination of handcrafting and automation - and of course it provides you with tasty beer ;)  
-Documenting my suds (brewing processes, "Sud" in german) was a big motivation for creating this blog, besides my [homelab](https://linuxhandbook.com/homelab/) hobby.  
+Documenting my suds (brewing processes, "Sud" in german) was a big motivation for creating this blog, besides my [[Selfhosted/]] hobby.  
 In this category I also deal with other food-related topics, like brewing mead, fermenting kombucha, baking bread and general cooking recipes.
    - [[tags/beer|Beer]]
    - [[tags/bread|Bread]]
    - [[tags/fermenting|Fermenting]]
    - [[tags/recipe|General cooking recipes]]
-- 📑 [[Coding|Coding, programming & Note Taking]]
+- 📑 [[Coding|Coding, programming & Note Taking]]  
 Here I write about my Obsidian setup and how I use it to deploy this website on GitHub, 
    - 📄 [[markdown guide|Markdown Guide]]
    - 📄 [[this website|How this website was build]]
@@ -72,7 +50,8 @@ Here I write about my Obsidian setup and how I use it to deploy this website on 
    - [[tags/scifi|SciFi]]
 - ⚛ [[Physics]]
    - [[]]
-- 🐳 [[Selfhosted]]
+- 🐳 [[Selfhosted]]  
+I've build myself a [homelab](https://linuxhandbook.com/homelab/) to tinker with software.
    - [[tags/docker|Docker]]
    - [[tags/proxmox|Proxmox]]
    - [[tags/linux|Linux]]
@@ -82,8 +61,6 @@ Here I write about my Obsidian setup and how I use it to deploy this website on 
    - [[tags/unraid|Unraid]]
    - [[tags/synology|Synology]]
    - [[tags/windows|Windows]]
-   
-There are also overviews of all 📄 [[tags/note|posts]] and all 🏷 [[tags]].
 
 ---
 
@@ -102,3 +79,12 @@ For a comprehensive list of features, visit the [features page](/features). You 
 Having trouble with Quartz? Try searching for your issue using the search feature. If you haven't already, [[upgrading|upgrade]] to the newest version of Quartz to see if this fixes your issue.
 
 If you're still having trouble, feel free to [submit an issue](https://github.com/jackyzha0/quartz/issues) if you feel you found a bug or ask for help in our [Discord Community](https://discord.gg/cRFFHYye7t).
+
+---
+
+```shell
+git clone https://github.com/jackyzha0/quartz.git
+cd quartz
+npm i
+npx quartz create
+```
