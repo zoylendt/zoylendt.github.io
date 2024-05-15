@@ -3,7 +3,7 @@ title: Booklist
 aliases:
   - Reading list
 date: 2024-02-06
-updated: 2024-05-15
+updated: 2024-05-16
 publishDate: 2024-02-06
 draft: false
 tags:
@@ -108,6 +108,10 @@ A list of physical books I own but haven't read yet:
 - Goodnight Punpun (finished chapters 1-...)
 - Blame! (finished chapters ("Log.") 1-37)
 - Solo Leveling (paused after chapter 64)
+- Comic books by Simon Stålenhag
+	- **Tales from the Loop**
+	  **Things from the Flood**
+	- **The Electric State**
 - ...
 
 
