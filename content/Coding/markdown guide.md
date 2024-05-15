@@ -1,7 +1,7 @@
 ---
 title: Markdown Guide
 date: 2024-02-04
-updated: 2024-05-13
+updated: 2024-05-15
 publishDate: 2024-02-04
 draft: false
 tags:
@@ -10,6 +10,9 @@ tags:
   - quartz
   - unfinished
 ---
+
+> [!warning]
+> This note is highly unfinished!
  
 Here are some examples about how markdown rendered by Quartz.
 

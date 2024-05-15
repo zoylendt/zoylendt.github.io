@@ -12,7 +12,7 @@ tags:
 ---
 
 > [!warning]
-> Many notes in this blog are still [[tags/unfinished]]!
+> This note is highly unfinished!
  
 # Complete Systems
 

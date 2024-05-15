@@ -10,6 +10,9 @@ tags:
   - todo
   - unfinished
 ---
+
+> [!warning]
+> This note is highly unfinished!
  
 # Some topics I want to write about:
 
