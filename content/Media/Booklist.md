@@ -88,7 +88,7 @@ A list of physical books I own but haven't read yet:
 - Ruri Dragon (finished chapters 1-13)
 - Chainsaw Man (finished chapters 1-164)
 - Kaiju No. 8 (finished chapters 1-21)
-- Goodnight Punpun (finished chapters 1-21)
+- Goodnight Punpun (finished chapters 1-...)
 - Blame! (finished chapters ("Log.") 1-37)
 - Solo Leveling (paused after chapter 64)
 - ...
