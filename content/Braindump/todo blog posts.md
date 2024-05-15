@@ -101,6 +101,18 @@ Callouts example: from https://notes.camargomau.com/
 	- [ ] backup via business
 - [ ] paperless-ngx
 - [ ] calendar
+- [ ] calibre & calibre-web
+- [ ] servarr
+	- [ ] prowlarr
+- [ ] kopia
+- [ ] imgbrd-grabber & szurubooru
+- [ ] unraid sleep setup
+- [ ] pr0gramm backup
+- [ ] matrix messenger
+- [ ] nextcloud
+- [ ] music
+- [ ] 
+
 
 ### Proxmox-related
 
