@@ -30,6 +30,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Starter Villain** by John Scalzi
 - **Uprooted** by Naomi Novik
 - ...
+- 
 
 ### Recommendations from friends
 
@@ -43,6 +44,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 
 ### Warhammer 40K
 
+- **Grey Knights (series)** by ...
 - ...
 
 A list of physical books I own but haven't read yet:
