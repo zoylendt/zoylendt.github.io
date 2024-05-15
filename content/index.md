@@ -19,7 +19,7 @@ By making my notes public I'm forcing myself to write with some coherence in min
 
 ## My interests
 
-I aim to write about many different topics, but they can (hopefully) be categorized in some way. There are also overviews of all 📄 [[tags/note|posts]] and all 🏷 [[tags]].
+I aim to write about many different topics, but they can (hopefully) be categorized in some way. There are also overviews of all 📄 [[tags/note|notes]] and all 🏷[[tags]].
 
 - 🧠 [[Braindump]]  
 A place for thoughts and stuff that doesn't fit the other categories. New ideas, unfinished thoughts, plans, things I stumbled upon the net, stuff like that ;)
