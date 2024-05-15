@@ -8,7 +8,9 @@ Hi, welcome to my blog ;)
 
 This blog runs on a [[this website|slightly modified]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/).
 
+After realizing that 
 
+I use this blog as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system
 
 Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
 
