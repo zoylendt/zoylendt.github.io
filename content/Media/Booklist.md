@@ -138,7 +138,9 @@ A list of physical books I own but haven't read yet:
 - **The Murderbot Diaries 1-7** by Martha Wells
 - **Bobiverse 1-4** by Dennis E. Taylor
 - **Git - kurz & gut** by Nina Siessegger
-- **Angelus Exterminatus** by Graham McNeill (audiobook)
+- **HH 23 - Angel Exterminatus** by Graham McNeill (audiobook)
+- **HH 19 - Know no Fear** by Dan Abnett (audiobook)
+- **HH 25 - Mark of Calth** by VA (audiobook)
 - **The Kaiju Preservation Society** by John Scalzi
 - **Scholomance 1-3** by Naomi Novik
 - **Three Parts Dead** by Max Gladstone
