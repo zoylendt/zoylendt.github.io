@@ -74,6 +74,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Cryptonomicon**
 - Dan Simmons
 	- **Ilium**
+- **The Atlas Six (The Atlas #1)** by Olivie Blake
 - ...
 
 ### Recommendations from friends
