@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-16
+updated: 2024-05-17
 publishDate: 2024-02-11
 draft: false
 enableToc: true
@@ -63,7 +63,8 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] write easy basic setup guide (no obsidian or git)
 - [ ] how to include upstream updates into your quartz repo
 - [ ] quartz allowed frontmatter
-- [ ] 
+- [ ] Restructure Guide:
+	- [ ] 1. 
 
 ## Physics
 
