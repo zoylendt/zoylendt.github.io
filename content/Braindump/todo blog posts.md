@@ -96,23 +96,25 @@ Callouts example: from https://notes.camargomau.com/
    - wallabag
    - photos
    - youtube
-- document HomeAssistant
+
 
 - [ ] abcnas
 	- [ ] snapshot setup
 	- [ ] backup via business
-- [ ] paperless-ngx
+- [ ] docker stacks
+	- [ ] paperless-ngx
+	- [ ] calibre & calibre-web
+	- [ ] servarr
+		- [ ] prowlarr
+	- [ ] kopia
+	- [ ] imgbrd-grabber & szurubooru
+	- [ ] music
 - [ ] calendar
-- [ ] calibre & calibre-web
-- [ ] servarr
-	- [ ] prowlarr
-- [ ] kopia
-- [ ] imgbrd-grabber & szurubooru
 - [ ] unraid sleep setup
 - [ ] pr0gramm backup
 - [ ] matrix messenger
 - [ ] nextcloud
-- [ ] music
+
 - [ ] different monitoring options
 - [ ] Brave browser setup, multiple profiles
 - [ ] bookmark manager
