@@ -94,7 +94,6 @@ Callouts example: from https://notes.camargomau.com/
 - imgbrd-grabber & szurubooru
 - Docker stacks todo
    - wallabag
-   - freshRSS
    - photos
    - youtube
 - document HomeAssistant
@@ -126,6 +125,7 @@ Callouts example: from https://notes.camargomau.com/
 	- [ ] connect multiple instances
 - [ ] FreshRSS
 - [ ] Podgrab
+- [ ] Dashboards: [dashy](https://github.com/Lissy93/dashy) vs [homepage]
 - [ ] 
 
 
