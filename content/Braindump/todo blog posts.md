@@ -72,11 +72,11 @@ Callouts example: from https://notes.camargomau.com/
 ## Media
 
 - [ ] Handhelds
+- [ ] Booklist -> translate german titles
+- [ ] webcomics
+- [ ] quotes
 - movies
-- quotes
 - series
-- warhammer 40k
-- list of owned books
 - list of board games
 
 ## Selfhosted
