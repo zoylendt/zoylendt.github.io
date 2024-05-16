@@ -115,6 +115,7 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] pr0gramm backup
 - [ ] matrix messenger
 - [ ] nextcloud
+- [ ] makemkv guide
 
 - [ ] different monitoring options
 - [ ] Brave browser setup, multiple profiles
