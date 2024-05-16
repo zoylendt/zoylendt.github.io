@@ -109,6 +109,7 @@ Callouts example: from https://notes.camargomau.com/
 	- [ ] kopia
 	- [ ] imgbrd-grabber & szurubooru
 	- [ ] music
+	- [ ] [Jellystat](https://github.com/CyferShepard/Jellystat) -> tag: unstable
 - [ ] calendar
 - [ ] unraid sleep setup
 - [ ] pr0gramm backup
