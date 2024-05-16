@@ -2,7 +2,7 @@
 title: Building This Website
 description: link preview
 date: 2024-05-06
-updated: 2024-05-14
+updated: 2024-05-16
 publishDate: 2024-05-06
 draft: false
 enableToc: true
@@ -93,7 +93,7 @@ The file `.gitignore` contains only one line:
 .obsidian/workspace.json
 ```
 
- (Explain .github files etc)
+ (Explain .github files etc, [original file](https://github.com/BetaHuhn/repo-file-sync-action?tab=readme-ov-file#workflow))
 
    - "SKIP_PR: true" -> pushes directly to default branch, skips creating a pull request
    - "COMMIT_EACH_FILE: false" -> commit multiple file changes a a single commit
