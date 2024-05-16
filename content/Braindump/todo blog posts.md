@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-15
+updated: 2024-05-16
 publishDate: 2024-02-11
 draft: false
 enableToc: true
@@ -49,9 +49,6 @@ tags:
 - Linking and connecting notes in Obsidian
 - Obsidian usage
 - Obsidian Plugins
-- Quartz
-	- allowed frontmatter
-- ...
 - Marmaid Diagrams -> https://mermaid.live/
 - about digital gardening -> https://mwalton.me/thoughts/digital-forests
 - ...
@@ -65,6 +62,7 @@ Callouts example: from https://notes.camargomau.com/
 
 - [ ] write easy basic setup guide (no obsidian or git)
 - [ ] how to include upstream updates into your quartz repo
+- [ ] quartz allowed frontmatter
 - [ ] 
 
 ## Physics
