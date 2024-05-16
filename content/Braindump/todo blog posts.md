@@ -125,7 +125,7 @@ Callouts example: from https://notes.camargomau.com/
 	- [ ] connect multiple instances
 - [ ] FreshRSS
 - [ ] Podgrab
-- [ ] Dashboards: [dashy](https://github.com/Lissy93/dashy) vs [homepage]
+- [ ] Dashboards: [dashy](https://github.com/Lissy93/dashy) vs [homepage](https://github.com/gethomepage/homepage)
 - [ ] 
 
 
