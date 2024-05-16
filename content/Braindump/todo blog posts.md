@@ -64,7 +64,9 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] how to include upstream updates into your quartz repo
 - [ ] quartz allowed frontmatter
 - [ ] Restructure Guide:
-	- [ ] 1. 
+	- [ ] my workflow
+	- [ ] basic setup
+	- [ ] my setup
 
 ## Physics
 
