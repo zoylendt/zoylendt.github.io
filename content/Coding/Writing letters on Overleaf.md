@@ -14,6 +14,8 @@ This is my workflow for writing german letters with LaTEX on [Overleaf](https://
 
 <img src="https://writelatex.s3.amazonaws.com/published_ver/6956.jpeg?X-Amz-Expires=14400&amp;X-Amz-Date=20240517T201634Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAWJBOALPNFPV7PVH5/20240517/us-east-1/s3/aws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a96bd74ef1de89ee5bd828bd4d52ca8e4416f28bbf89b66ab2bdffdee300bb4b" alt="German Modern Formal Letter">
 
+<img src="https://writelatex.s3.amazonaws.com/published_ver/6956.jpeg" alt="German Modern Formal Letter">
+
 It requires three files, `Absender.lco` (containing the sender's information),  `main.tex` (the letter's content) and `Briefvorlage.lco` (defining the layout).
 
 ```lco title="Absender.lco"
