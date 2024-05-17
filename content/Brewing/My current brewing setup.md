@@ -95,6 +95,21 @@ timeline
 
 -> https://github.com/freenandes/topo-da-mente/blob/main/content/index.md
 
+---
+
+<div class="onecompilerCode-wrapper">
+<iframe
+ class="onecompilerCode"
+ frameBorder="0" src="https://en.wikipedia.org/wiki/Package_manager#Comparison_of_commands" 
+ ></iframe>
+ </div>
+
+---
+
+Welcome to this digital garden! You are at the gate now. What will you do?
+
+[Run away](https://drawing.garden) or [Open the gate](https://www.pmcf.xyz/topo-da-mente#you-open-the-gate)
+
 <a href="#you-open-the-gate" class="gate">
 
 <svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -308,3 +323,7 @@ timeline
 </svg>
 
 </a>
+
+## You open the gate
+
+My name is Pedro. I’m Portuguese and live in Lisbon, Portugal, with my wife and daughter. I work as a product designer in tech, and I identify myself as a creative person. I love arts, designing, sketching and experimenting with expressing feelings, experiences, stories, beliefs, ideas and contributing with useful messages, solutions and inspiration to society.
