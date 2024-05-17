@@ -2,7 +2,7 @@
 title: Building This Website
 description: link preview
 date: 2024-05-06
-updated: 2024-05-16
+updated: 2024-05-17
 publishDate: 2024-05-06
 draft: false
 enableToc: true
@@ -19,6 +19,8 @@ tags:
 ## 1. Install Obsidian, GitHub Desktop & Git
 
  (Reasons for chosen programs)
+
+GitHub Desktop includes a git client, however for [a number of reasons](https://github.com/desktop/desktop/issues/3708#issuecomment-354665183) we need another separate git installation for the Obsidian git plugin. -> https://github.com/desktop/desktop/issues/3801#issuecomment-357713357
 
 ## 2. GitHub Setup (Blog repository)
 
