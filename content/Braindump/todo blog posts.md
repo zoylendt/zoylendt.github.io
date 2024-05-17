@@ -63,6 +63,7 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] write easy basic setup guide (no obsidian or git)
 - [ ] how to include upstream updates into your quartz repo
 - [ ] quartz allowed frontmatter
+- [ ] define poetry -> https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code
 - [ ] Restructure Guide:
 	- [ ] my workflow
 	- [ ] basic setup
