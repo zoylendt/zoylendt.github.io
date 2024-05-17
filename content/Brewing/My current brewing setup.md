@@ -106,6 +106,13 @@ timeline
 
 ---
 
+<iframe
+  src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
+  style="width:100%; height:300px;"
+></iframe>
+
+---
+
 Welcome to this digital garden! You are at the gate now. What will you do?
 
 [Run away](https://drawing.garden) or [Open the gate](https://www.pmcf.xyz/topo-da-mente#you-open-the-gate)
