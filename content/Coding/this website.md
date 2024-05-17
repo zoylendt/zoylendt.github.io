@@ -95,7 +95,7 @@ The file `.gitignore` contains only one line:
 .obsidian/workspace.json
 ```
 
- (Explain .github files etc, [original file](https://github.com/BetaHuhn/repo-file-sync-action?tab=readme-ov-file#workflow))
+ (Explain .github files etc, [original file](https://github.com/BetaHuhn/repo-file-sync-action?tab=readme-ov-file#workflow) [add .gitignore retroactively](https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/))
 
    - "SKIP_PR: true" -> pushes directly to default branch, skips creating a pull request
    - "COMMIT_EACH_FILE: false" -> commit multiple file changes a a single commit
