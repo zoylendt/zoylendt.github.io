@@ -91,6 +91,10 @@ timeline
 
 ---
 
+-> https://www.pmcf.xyz/topo-da-mente/#you-open-the-gate
+
+-> https://github.com/freenandes/topo-da-mente/blob/main/content/index.md
+
 <a href="#you-open-the-gate" class="gate">
 
 <svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
