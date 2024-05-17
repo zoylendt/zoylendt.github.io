@@ -12,7 +12,7 @@ tags:
  
 This is my workflow for writing german letters with LaTEX on [Overleaf](https://overleaf.com). It's based on the template [German Modern Formal Letter](https://de.overleaf.com/latex/templates/german-modern-formal-letter/gbxkhhdbmgbc).
 
-I created three files, `Absender.lco`, `Briefvorlage.lco` and `main.tex`.
+It requires three files, `Absender.lco` (containing the sender's information),  `main.tex` (the letter's content) and `Briefvorlage.lco` (defining the layout).
 
 ```lco title="Absender.lco"
 \ProvidesFile{sender.lco}
