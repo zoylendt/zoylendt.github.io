@@ -113,6 +113,13 @@ timeline
 
 ---
 
+<iframe
+  src="https://en.wikipedia.org/wiki/Package_manager#Comparison_of_commands"
+  style="width:100%; height:600px;"
+></iframe>
+
+---
+
 Welcome to this digital garden! You are at the gate now. What will you do?
 
 [Run away](https://drawing.garden) or [Open the gate](https://www.pmcf.xyz/topo-da-mente#you-open-the-gate)
