@@ -52,17 +52,11 @@ timeline
 >
 > def get_markdown_files(directory):
 > """Recursively finds all Markdown files in a directory and its subdirectories.
-
 >
-
 > Args:
-
 > directory: The path to the directory to search.
-
 >
-
 > Returns:
-
 > A list of tuples, where each tuple contains:
 > * The filename (str)
 > * The file size in bytes (int)
