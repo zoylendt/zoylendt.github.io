@@ -49,12 +49,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph({
       localGraph: {
         showTags: false,
-        scale: 1.1, // default view scal
-        fontSize: 0.6, // what size should the node labels be?
-        opacityScale: 2, // how quickly do we fade out the labels when zooming out?
+        scale: 1.1, // default view scal -> 1.1
+        fontSize: 0.6, // what size should the node labels be? -> 0.6
+        opacityScale: 2, // how quickly do we fade out the labels when zooming out? -> 1
       },
       globalGraph: {
         showTags: true,
+        scale: 1.5, // default view scal -> 0.9
+        fontSize: 0.6, // what size should the node labels be? -> 0.6
+        opacityScale: 2, // how quickly do we fade out the labels when zooming out? -> 1
       },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
