@@ -13,7 +13,7 @@ tags:
  
 This is my workflow for writing german letters with LaTEX on [Overleaf](https://overleaf.com). It's based on the template [German Modern Formal Letter](https://de.overleaf.com/latex/templates/german-modern-formal-letter/gbxkhhdbmgbc).
 
-<img src="https://writelatex.s3.amazonaws.com/published_ver/6956.jpeg?X-Amz-Expires=14400&amp;X-Amz-Date=20240517T201634Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAWJBOALPNFPV7PVH5/20240517/us-east-1/s3/aws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a96bd74ef1de89ee5bd828bd4d52ca8e4416f28bbf89b66ab2bdffdee300bb4b" alt="German Modern Formal Letter">
+<img src="https://writelatex.s3.amazonaws.com/published_ver/6956.jpeg?X-Amz-Expires=14400&amp;X-Amz-Date=20240518T174205Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAWJBOALPNFPV7PVH5/20240518/us-east-1/s3/aws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=830cff1b5f615abe331fefb07a6d6a3e2877aa036fcca4a6a6fe3f664fd58f52" alt="German Modern Formal Letter">
 
 It requires three files, `Absender.lco` (containing the sender's information),  `main.tex` (the letter's content) and `Briefvorlage.lco` (defining the layout).
 
