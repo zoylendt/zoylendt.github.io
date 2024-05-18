@@ -3,7 +3,7 @@ title: Booklist
 aliases:
   - Reading list
 date: 2024-02-06
-updated: 2024-05-16
+updated: 2024-05-18
 publishDate: 2024-02-06
 draft: false
 tags:
@@ -106,7 +106,7 @@ A list of physical books I own but haven't read yet:
 - Ruri Dragon (finished chapters 1-13)
 - Chainsaw Man (finished chapters 1-164)
 - Kaiju No. 8 (finished chapters 1-21)
-- Goodnight Punpun (finished chapters 1-14)
+- Goodnight Punpun (finished chapters 1-17)
 - Blame! (finished chapters ("Log.") 1-37)
 - Solo Leveling (paused after chapter 64)
 - Comic books by Simon Stålenhag
