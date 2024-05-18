@@ -156,3 +156,7 @@ timeline
 > ![[change_timezone.png|400]]
 > 
 > As you can see changing timezone on a process level doesn't affect the system-level timezone. And all processes follow the system-level timezone by default.
+
+---
+
+![[Pasted image 20240518184453.png]]
