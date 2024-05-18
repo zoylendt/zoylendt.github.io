@@ -47,6 +47,14 @@ docker logs blog
 
 ---
 
-- download
+- [Download recent Quartz](https://github.com/jackyzha0/quartz/archive/refs/heads/v4.zip)
 - extract
-- `[Win]+[x],[i]`, `cd %HOMEPATH%\Downloads\quartz-4`
+- `[Win]+[x],[i]`, `cd "$env:USERPROFILE\Downloads\quartz-4"`
+```shell
+cd "$env:USERPROFILE\Downloads\quartz-4"
+```
+- `Expand-Archive '.\quartz-4.zip' .`
+```
+Expand-Archive '.\quartz-4.zip' . -and cd '.\quartz-4\'
+```
+- 
