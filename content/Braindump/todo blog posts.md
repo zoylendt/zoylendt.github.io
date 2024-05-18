@@ -25,9 +25,9 @@ tags:
 
 ## Braindump
 
-- Game keys
-- pr0gramm tampermonkey setup
-- tag: bookmark
+- [x] Game keys
+- [ ] pr0gramm tampermonkey setup
+- [ ] tag: bookmark -> 
 - [ ] list of other blogs -> https://www.vibrio.eu/blog/50-wichtige-deutschsprachige-it-blogs-die-enrico-liste/
 
 ## Brewing

@@ -162,3 +162,21 @@ timeline
 ![[Pasted image 20240518184453.png]]
 
 <img src="https://writelatex.s3.amazonaws.com/published_ver/6956.jpeg?X-Amz-Expires=14400&amp;X-Amz-Date=20240518T174205Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAWJBOALPNFPV7PVH5/20240518/us-east-1/s3/aws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=830cff1b5f615abe331fefb07a6d6a3e2877aa036fcca4a6a6fe3f664fd58f52" alt="German Modern Formal Letter">
+
+---
+
+```diff  
+diff --git a/file.txt b/file.txt  
+index 62c73f1..ef5b7f9 100644  
+--- a/file.txt  
++++ b/file.txt  
+@@ -1,+4 +4 @@  
+-Hello, world!  
++Hello, Markdown!  
+This is a sample file.  
+-It's in plain text format.  
++It's in Markdown format.  
+```
+
+``
+``
