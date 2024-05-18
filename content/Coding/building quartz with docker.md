@@ -64,12 +64,16 @@ Start-Process "http:localhost:8071"
 
 ---
 
-
+`[Win]+[x],[i]`
 
 ```powershell title="Powershell-oneliner: download & depoly dummy blog"
 cd "$env:USERPROFILE\Downloads\" ; Invoke-WebRequest "https://github.com/jackyzha0/quartz/archive/refs/heads/v4.zip" -OutFile quartz-4.zip ; Expand-Archive '.\quartz-4.zip' . ; cd '.\quartz-4\' ; New-Item .\content\index.md ; docker rm -f blog ; docker image rm blog ; docker build -qt blog . ; docker run -dp 8071:8080 --name blog blog ; Start-Sleep -Seconds 5 ; Start-Process "http:localhost:8071"
 ```
 
 ```powershell title="Powershell-oneliner: download & depoly documentation blog"
-cd "$env:USERPROFILE\Downloads\" ; Invoke-WebRequest "https://github.com/jackyzha0/quartz/archive/refs/heads/v4.zip" -OutFile quartz-4.zip ; Expand-Archive '.\quartz-4.zip' . ; cd '.\quartz-4\' ; Copy-Item -Path "C:\Logfiles\*" -Destination "C:\Drawings" -Recurse ; docker rm -f blog ; docker image rm blog ; docker build -qt blog . ; docker run -dp 8071:8080 --name blog blog ; Start-Sleep -Seconds 5 ; Start-Process "http:localhost:8071"
+cd "$env:USERPROFILE\Downloads\" ; Invoke-WebRequest "https://github.com/jackyzha0/quartz/archive/refs/heads/v4.zip" -OutFile quartz-4.zip ; Expand-Archive '.\quartz-4.zip' . ; cd '.\quartz-4\' ; Copy-Item -Path ".\docs\*" -Destination ".\content" -Recurse ; docker rm -f blog ; docker image rm blog ; docker build -qt blog . ; docker run -dp 8071:8080 --name blog blog ; Start-Sleep -Seconds 8 ; Start-Process "http:localhost:8071"
+```
+
+```powershell title="Powershell-oneliner: cleanup"
+cd "$env:USERPROFILE\Downloads\" ; rm -r .\quartz-4.zip ; rm -r .\quartz-4\ ; docker rm -f blog ; docker image rm blog
 ```
