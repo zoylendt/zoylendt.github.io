@@ -49,6 +49,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph({
       localGraph: {
         showTags: false,
+        scale: 1.5, // default view scal
       },
       globalGraph: {
         showTags: true,
