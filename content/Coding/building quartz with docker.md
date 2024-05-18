@@ -62,3 +62,6 @@ New-Item .\content\index.md
 Start-Process "http:localhost:8071"
 ```
 - 
+```powershell title="all-in-one"
+cd "$env:USERPROFILE\Downloads\" ; Invoke-WebRequest "https://github.com/jackyzha0/quartz/archive/refs/heads/v4.zip" -OutFile quartz-4.zip ; Expand-Archive '.\quartz-4.zip' . ; cd '.\quartz-4\' ; New-Item .\content\index.md ; docker rm -f blog ; docker image rm blog ; docker build -qt blog . ; docker run -dp 8071:8080 --name blog blog ; Start-Process "http:localhost:8071"
+```
