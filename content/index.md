@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-05-16
+updated: 2024-05-18
 ---
 
 > [!warning]
@@ -88,3 +88,9 @@ cd quartz
 npm i
 npx quartz create
 ```
+
+---
+
+<!-- https://github.com/kittinan/spotify-github-profile -->
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=metruzanca&cover_image=true&theme=default&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=metruzanca&redirect=true)
