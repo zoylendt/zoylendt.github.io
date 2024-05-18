@@ -178,5 +178,6 @@ This is a sample file.
 +It's in Markdown format.  
 ```
 
-``
-``
+`$ git diff HEAD~1 HEAD file.txt`
+
+`$ diff -u file1.txt file2.txt`
