@@ -51,7 +51,7 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
         scale: 1.1, // default view scal
         fontSize: 0.6, // what size should the node labels be?
-        opacityScale: 0.5, // how quickly do we fade out the labels when zooming out?
+        opacityScale: 2, // how quickly do we fade out the labels when zooming out?
       },
       globalGraph: {
         showTags: true,
