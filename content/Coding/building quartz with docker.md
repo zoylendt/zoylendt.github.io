@@ -1,7 +1,7 @@
 ---
 title: Building Quartz With Docker
 date: 2024-02-05
-updated: 2024-05-15
+updated: 2024-05-18
 publishDate: 2024-02-05
 draft: false
 enableToc: true
@@ -44,3 +44,9 @@ If the blog fails to start (for example because a misformatted line in the front
 ```shell
 docker logs blog
 ```
+
+---
+
+- download
+- extract
+- `[Win]+[x],[i]`, `cd %HOMEPATH%\Downloads\quartz-4`
