@@ -55,6 +55,9 @@ cd "$env:USERPROFILE\Downloads\quartz-4"
 ```
 - `Expand-Archive '.\quartz-4.zip' .`
 ```
-Expand-Archive '.\quartz-4.zip' . -and cd '.\quartz-4\'
+Expand-Archive '.\quartz-4.zip' .
+cd '.\quartz-4\'
+New-Item .\content\index.md
+...
 ```
 - 
