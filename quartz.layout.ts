@@ -50,6 +50,7 @@ export const defaultContentPageLayout: PageLayout = {
       localGraph: {
         showTags: false,
         scale: 1.5, // default view scal
+        fontSize: 0.9, // what size should the node labels be?
       },
       globalGraph: {
         showTags: true,
