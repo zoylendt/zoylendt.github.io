@@ -9,6 +9,8 @@ tags:
   - note
   - quartz
   - docker
+  - windows
+  - powershell
   - unfinished
 ---
 
@@ -39,7 +41,7 @@ docker build -qt blog .
 docker run -dp 8071:8080 --name blog blog
 ```
 
-If the blog fails to start (for example because a misformatted line in the frontmatter of a .md file), the container log can be viewed with
+If the blog fails to start (for example caused by a misformatted line in the frontmatter of a .md file), the container log can be viewed with
 
 ```shell
 docker logs blog
