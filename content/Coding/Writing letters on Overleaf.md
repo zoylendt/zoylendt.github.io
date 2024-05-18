@@ -22,33 +22,35 @@ It requires three files, `Absender.lco` (containing the sender's information),  
 %
 \newcommand{\mFirstname}{Max}
 \newcommand{\mLastname}{Mustermann}
-\newcommand{\mStreet}{Hauptstraße 1} % original: Weg~323\,a = Weg 23a
+\newcommand{\mStreet}{Beispielweg~23\,a}
 \newcommand{\mPostalcode}{12345}
-\newcommand{\mCity}{Berlin}
-\newcommand{\mPhone}{+49~176~12345678}
-\newcommand{\mEmail}{max.mustermann@gmail.ch}
+\newcommand{\mCity}{Köln}
+\newcommand{\mPhone}{+49~123~5279143}
+\newcommand{\mEmail}{max@mustermann.de}
 ```
 
 ```tex title="main.tex"
 \documentclass[version=last, Briefvorlage]{scrlttr2}
-\usepackage[ngerman]{babel}
 %
-\setkomavar{subject}{Briefthema}
+\setkomavar{subject}{Beispiel der neuen LaTeX-Briefvorlage}
 %
 \begin{document}
 %
 \begin{letter}{%
-		Bob Mustermann\\
-		Hauptstraße 2\\
-		12345 Berlin%
+		Erika Mustermann\\
+		Rheinische Straße 1\\
+		12345 Dortmund%
 	}
 	%
-	\opening{Sehr geehrter Herr Mustermann,}
+	\opening{Sehr geehrte Damen und Herren,}
 	%
-	...
- 
-	\closing{Mit freundlichen Grüßen,}
-    Max \& Moritz Mustermann
+	Lorem Ipsum 1
+	
+	Lorem Ipsum 2
+	
+	Lorem Ipsum 3
+	%
+	\closing{Freundliche Grüße}
 	%
 \end{letter}
 %
