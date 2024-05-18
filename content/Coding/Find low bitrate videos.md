@@ -18,7 +18,7 @@ Idea:
 	- get list of all video files
 	- list files with lowest bitrate/quality/resolution/...
 
-# ffprobe
+# ffprobe (Windows)
 
 -> https://www.reddit.com/r/DataHoarder/comments/lwqmwt/comment/gpjaylb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
@@ -50,4 +50,42 @@ foreach ($Video in $Videos) {
     }
 }
 remove-item VideoQuality.txt
+```
+
+# python (Linux)
+
+-> https://askubuntu.com/questions/536091/sort-videos-by-bitrate
+
+```python 
+import os, sys, glob
+import pprint
+
+# Call: python mediainfo_sort.py 'search_criteria' 'sort_criteria'
+# Call example: python mediainfo_sort.py '*.avi' 'Bit rate'
+
+files = glob.glob(sys.argv[1])
+criteria = sys.argv[2]
+
+# Will have data in format: {'file_path': {'Media Attribute', 'Value'}}
+file_datas = {}
+
+# Contruct data by calling mediainfo for all files in 
+for file_path in files:
+    mediainfo = os.popen('mediainfo "%s"' % file_path).read()
+    file_data = {}
+    infos = mediainfo.splitlines()
+    for info in infos:
+        if ':' in info:
+            info_split = info.split(':')
+            file_data[info_split[0].strip()] = info_split[1].strip()
+        file_datas[file_path] = file_data
+
+# function for sorted, uses Media attribute (sort_criteria) value as sorting key
+def getKey(item):
+    return item[1][criteria]
+
+sorted_files = sorted(file_datas.items(), key=getKey)
+
+# In the end just join the keys (filenames) with newline and print
+print '\n'.join([x[0] for x in sorted_files])
 ```
