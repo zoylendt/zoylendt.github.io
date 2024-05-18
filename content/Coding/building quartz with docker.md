@@ -54,10 +54,11 @@ docker logs blog
 cd "$env:USERPROFILE\Downloads\quartz-4"
 ```
 - `Expand-Archive '.\quartz-4.zip' .`
-```
+```powershell
 Expand-Archive '.\quartz-4.zip' .
 cd '.\quartz-4\'
 New-Item .\content\index.md
 ...
+Start-Process "http:localhost:8071"
 ```
 - 
