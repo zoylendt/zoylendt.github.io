@@ -1,7 +1,7 @@
 ---
 title: Quartz Personalization
 date: 2024-02-07
-updated: 2024-05-17
+updated: 2024-05-18
 publishDate: 2024-02-07
 draft: false
 enableToc: true
@@ -46,9 +46,9 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
 
 Sadly, some Quartz blogs haven't documented their changes:
 
-  - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
+  - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented) -> https://github.com/search?q=repo%3Afreenandes%2Ftopo-da-mente%20gate%20svg&type=code
   - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
-  - -> https://github.com/freenandes/topo-da-mente
+  - -> https://github.com/freenandes/topo-da-mente 
 
 missing:
   - graph- und explorer exclude
