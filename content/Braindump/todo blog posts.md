@@ -108,7 +108,7 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] docker stacks
 	- [ ] paperless-ngx
 	- [ ] calibre & calibre-web
-	- [ ] servarr
+	- [ ] servarr -> https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/
 		- [ ] prowlarr
 	- [ ] kopia
 	- [ ] imgbrd-grabber & szurubooru
