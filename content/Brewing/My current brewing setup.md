@@ -23,7 +23,7 @@ markdown content :)
 
 <div style="text-align: right"> your-text-here, right </div>
 
-<p style='text-align: justify;'> Your Text, justify </p>
+<p style='text-align: justify;'> Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads). </p>
 
 <p style='text-align: right;'> Your Text, right </p>
 
