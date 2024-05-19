@@ -1,7 +1,7 @@
 ---
 title: Quartz Personalization
 date: 2024-02-07
-updated: 2024-05-18
+updated: 2024-05-19
 publishDate: 2024-02-07
 draft: false
 enableToc: true
@@ -38,10 +38,11 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - (optional) Change the width at which the left and right layout parts get removed
   - Make **fat text** more stand out (noticeable in dark mode)
   - Link to `all tags` next to search and mode toggle, like here: https://glossary.airbyte.com/
-  - `Recent Updates` part at start page, like here: https://glossary.airbyte.com/
+  - `Recent Updates` part at start page, like here: https://glossary.airbyte.com/ & https://www.ssp.sh/brain/
   - Have some links on the top of each page, like here: https://notes.camargomau.com/ -> [GitHub](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/LinksHeader.tsx#L15)
   - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/ -> front name: [Lexend](https://www.lexend.com/)
   - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
+  - Move Darkmode toggle to right layout part, like here: https://notes.yxy.ninja/
   - ...
 
 Sadly, some Quartz blogs haven't documented their changes:
