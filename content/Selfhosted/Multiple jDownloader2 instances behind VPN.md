@@ -6,11 +6,11 @@ description: <Description of the page used for link previews>
 date: 2024-05-19
 publishDate: 2024-05-19
 updated: 2024-05-19
-draft: true
-publish: false
+draft: false
 tags:
   - note
   - docker
+  - unfinished
 ---
  
 Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads).
@@ -35,11 +35,15 @@ The following different containers are part of this setup:
 
 ...
 
-# Syncthing setup
+# Olivetin configuration
 
 ...
 
-# Browser setup
+# Syncthing configuration
+
+...
+
+# Browser setup, useful Windows software
 
 ...
 
