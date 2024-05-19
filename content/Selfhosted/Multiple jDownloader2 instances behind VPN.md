@@ -18,7 +18,7 @@ Here I describe the setup I came up with in order to use multiple jDownloader2 i
 Currently I use five parallel jd2 instances, each behind its own VPN container. With my [ProtonVPN plan](https://protonvpn.com/de/pricing) I could use up to ten instances. However there is nothing preventing you from using other VPN providers or mix multiple providers.
 
 > [!note]
-> Of course this setup is u
+> Of course this setup is useless for One-click hosts that prohibit downloads from IPs associated with VPS or VPN. Geoblocking can also be an issue due to the random connections.
 
 # Docker containers utilized
 
@@ -269,6 +269,10 @@ See the [documentation](https://docs.olivetin.app/) for more options. The contai
 ...
 
 # Solve captcha with 9kw.eu integration
+
+...
+
+# Download workflow
 
 ...
 
