@@ -3,7 +3,7 @@ title:
 description: 
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-05-19
+updated: 2024-05-20
 draft: false
 tags:
   - note
@@ -18,6 +18,16 @@ markdown content :)
 ![[punpun1.gif]]
 
 [[alias2]]
+
+---
+
+<div style="text-align: right"> your-text-here, right </div>
+
+<p style='text-align: justify;'> Your Text, justify </p>
+
+<p style='text-align: right;'> Your Text, right </p>
+
+---
 
 <!-- Snek -->   
 <p align="center">
