@@ -241,6 +241,7 @@ volumes:
 Open the `vscode` container's WebUI, navigate the explorer to `/mnt/olivetin_config`, create a new file called `config.yaml` (next to `installation-id.txt`) with the content
 
 ```yaml title="config.yaml"
+actions:
   - title: restart jd2 stack [1]
     icon: '<img src = "https://jdownloader.org/_media/knowledge/wiki/jdownloader.png" width = "48px"/>'
     shell: docker restart vpn_1  jd2_1
