@@ -45,6 +45,8 @@ JD2_PW=
 PVPN_USERNAME=
 PVPN_PASSWORD=
 PVPN_TIER=2
+PVPN_1_PORT=8080
+PVPN_2_PORT=8081
 ```
 
 ```yaml title="docker-compose.yaml"
@@ -106,7 +108,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
     ports:
-      - 9204:8080
+      - ${PVPN_1_PORT}:8080
     environment:
       - PVPN_USERNAME=${PVPN_USERNAME}
       - PVPN_PASSWORD=${PVPN_PASSWORD}
@@ -125,7 +127,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
     ports:
-      - 9205:8080
+      - ${PVPN_2_PORT}:8080
     environment:
       - PVPN_USERNAME=${PVPN_USERNAME}
       - PVPN_PASSWORD=${PVPN_PASSWORD}
