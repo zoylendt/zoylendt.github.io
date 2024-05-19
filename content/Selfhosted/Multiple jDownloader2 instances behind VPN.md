@@ -31,7 +31,7 @@ The following different containers are part of this setup:
 
 ...
 
-``` title=".env"
+```yaml title=".env"
 SYNCTHING_HOSTNAME=host
 SYNCTHING_PORT_WEBUI=8384
 SYNCTHING_PORT_LISTENING=22000
