@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-18
+updated: 2024-05-19
 publishDate: 2024-02-11
 draft: false
 enableToc: true
@@ -65,9 +65,10 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] quartz allowed frontmatter
 - [ ] define [poetry code](https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code)
 - [ ] Restructure Guide:
-	- [ ] my workflow
-	- [ ] basic setup
-	- [ ] my setup
+	- [ ] my workflow (Obsidian -> git -> GitHub -> sync action)
+	- [ ] basic setup (without custom layout)
+	- [ ] my setup (only my changes to customize my instance)
+	- [ ] how to incorporate upstream changes
 
 ## Physics
 
