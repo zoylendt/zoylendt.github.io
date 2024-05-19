@@ -1,7 +1,7 @@
 ---
 title: Quartz Personalization
 date: 2024-02-07
-updated: 2024-05-19
+updated: 2024-05-20
 publishDate: 2024-02-07
 draft: false
 enableToc: true
@@ -43,6 +43,7 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/ -> front name: [Lexend](https://www.lexend.com/)
   - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
   - Move Darkmode toggle to right layout part, like here: https://notes.yxy.ninja/
+  - remove only tag #note from global graph
   - ...
 
 Sadly, some Quartz blogs haven't documented their changes:
