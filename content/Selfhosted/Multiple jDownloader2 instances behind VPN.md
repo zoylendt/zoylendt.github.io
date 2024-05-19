@@ -10,7 +10,7 @@ draft: true
 publish: false
 tags:
   - note
-  - changeme
+  - docker
 ---
  
 Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads).
@@ -26,3 +26,32 @@ The following different containers are part of this setup:
 - `lscr.io/linuxserver/syncthing` ([LinuxServer.io](https://docs.linuxserver.io/images/docker-adguardhome-sync/)) -> I run the setup on a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) to circumvent disconnections caused by my [ISP](https://en.wikipedia.org/wiki/Internet_service_provider), so I need some tool to retrieve successfully downloaded files.
 - `jamesread/olivetin` ([GitHub](https://github.com/OliveTin/OliveTin), [DockerHub](https://hub.docker.com/r/jamesread/olivetin)) -> Used to restart individual components of the setup without requiring to log into the server's shell, Portainer or something similar.
 - `lscr.io/linuxserver/code-server` ([LinuxServer.io](https://docs.linuxserver.io/images/docker-code-server/)) -> Only required to edit the config file of `jamesread/olivetin`, can be omitted/replaced as needed.
+
+# Docker-compose file
+
+...
+
+# Configuration of each jd2 instance
+
+...
+
+# Syncthing setup
+
+...
+
+# Browser setup
+
+...
+
+# Solve captcha with 9kw.eu integration
+
+...
+
+# Improvement ideas
+
+Just some bullet points of improvement ideas:
+
+- automatically split download links best between containers
+- reduce required browser interaction
+- remove the need for https://my.jdownloader.org/ (maybe through only local connections?)
+- build a script to detect idle containers (maybe by network load?) and restart the associated containers
