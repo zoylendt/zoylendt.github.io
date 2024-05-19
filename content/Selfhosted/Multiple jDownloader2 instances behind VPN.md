@@ -5,7 +5,7 @@ aliases:
 description: <Description of the page used for link previews>
 date: 2024-05-19
 publishDate: 2024-05-19
-updated: 2024-05-19
+updated: 2024-05-20
 draft: false
 tags:
   - note
@@ -30,6 +30,197 @@ The following different containers are part of this setup:
 # Docker-compose file
 
 ...
+
+``` title=".env"
+SYNCTHING_HOSTNAME=host
+SYNCTHING_PORT_WEBUI=8384
+SYNCTHING_PORT_LISTENING=22000
+SYNCTHING_PORT_DISCOVERY=21027
+TIMEZONE=Europe/Berlin
+OLIVETIN_PORT=1337
+VSCODE_PW=
+VSCODE_PORT=8443
+JD2_EMAIL=
+JD2_PW=
+PVPN_USERNAME=
+PVPN_PASSWORD=
+PVPN_TIER=2
+```
+
+```yaml title="docker-compose.yaml"
+version: '3.3'
+services:
+
+  syncthing:
+    container_name: syncthing
+    image: lscr.io/linuxserver/syncthing
+    restart: unless-stopped
+    hostname: ${SYNCTHING_HOSTNAME}
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=${TIMEZONE}
+    ports:
+      - ${SYNCTHING_PORT_WEBUI}:8384
+      - ${SYNCTHING_PORT_LISTENING}:22000/tcp
+      - ${SYNCTHING_PORT_LISTENING}:22000/udp
+      - ${SYNCTHING_PORT_DISCOVERY}:21027/udp
+    volumes:
+      - syncthing_config:/config
+      - jd2_downloads:/data1
+
+  olivetin:
+    container_name: olivetin
+    image: jamesread/olivetin
+    restart: unless-stopped
+    user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - olivetin_config:/config
+    ports:
+      - ${OLIVETIN_PORT}:1337
+
+  vscode:
+    container_name: vscode
+    image: lscr.io/linuxserver/code-server:latest
+    restart: unless-stopped
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=${TIMEZONE}
+      - PASSWORD=${VSCODE_PW}
+      - DEFAULT_WORKSPACE=/mnt
+    volumes:
+      - olivetin_config:/mnt/olivetin_config
+    ports:
+      - ${VSCODE_PORT}:8443
+
+  vpn_1:
+    container_name: vpn_1
+    image: walt3rl/proton-privoxy
+    restart: unless-stopped
+    devices:
+      - /dev/net/tun
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - 9204:8080
+    environment:
+      - PVPN_USERNAME=${PVPN_USERNAME}
+      - PVPN_PASSWORD=${PVPN_PASSWORD}
+      - PVPN_TIER=${PVPN_TIER}
+      - PVPN_CMD_ARGS=connect --random
+      - PVPN_DEBUG=1
+
+  vpn_2:
+    container_name: vpn_2
+    image: walt3rl/proton-privoxy
+    restart: unless-stopped
+    devices:
+      - /dev/net/tun
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - 9205:8080
+    environment:
+      - PVPN_USERNAME=${PVPN_USERNAME}
+      - PVPN_PASSWORD=${PVPN_PASSWORD}
+      - PVPN_TIER=${PVPN_TIER}
+      - PVPN_CMD_ARGS=connect --random
+
+  jd2_0:
+    container_name: jd2_0
+    image: plusminus/jdownloader2-headless
+    restart: unless-stopped
+    user: root
+    environment:
+      EMAIL: ${JD2_EMAIL}
+      PASSWORD: ${JD2_PW}
+    volumes:
+      - jd2_0_config:/opt/JDownloader/cfg
+      - jd2_0_logs:/opt/JDownloader/logs
+      - jd2_0_extensions:/opt/JDownloader/extensions
+      - jd2_downloads:/opt/JDownloader/Downloads
+      - /etc/localtime:/etc/localtime:ro
+
+  jd2_1:
+    container_name: jd2_1
+    image: plusminus/jdownloader2-headless
+    restart: unless-stopped
+    user: root
+    network_mode: 'container:vpn_1'
+    depends_on:
+      - vpn_1
+    environment:
+      EMAIL: ${JD2_EMAIL}
+      PASSWORD: ${JD2_PW}
+    volumes:
+      - jd2_1_config:/opt/JDownloader/cfg
+      - jd2_1_logs:/opt/JDownloader/logs
+      - jd2_1_extensions:/opt/JDownloader/extensions
+      - jd2_downloads:/opt/JDownloader/Downloads
+      - /etc/localtime:/etc/localtime:ro
+
+  jd2_2:
+    container_name: jd2_2
+    image: plusminus/jdownloader2-headless
+    restart: unless-stopped
+    user: root
+    network_mode: 'container:vpn_2'
+    depends_on:
+      - vpn_2
+    environment:
+      EMAIL: ${JD2_EMAIL}
+      PASSWORD: ${JD2_PW}
+    volumes:
+      - jd2_2_config:/opt/JDownloader/cfg
+      - jd2_2_logs:/opt/JDownloader/logs
+      - jd2_2_extensions:/opt/JDownloader/extensions
+      - jd2_downloads:/opt/JDownloader/Downloads
+      - /etc/localtime:/etc/localtime:ro
+
+volumes:
+  syncthing_config:
+    driver: local
+    name: syncthing_config
+  olivetin_config:
+    driver: local
+    name: olivetin_config
+  jd2_downloads:
+    driver: local
+    name: jd2_downloads
+  jd2_0_config:
+    driver: local
+    name: jd2_0_config
+  jd2_0_logs:
+    driver: local
+    name: jd2_0_logs
+  jd2_0_extensions:
+    driver: local
+    name: jd2_0_extensions
+  jd2_1_config:
+    driver: local
+    name: jd2_1_config
+  jd2_1_logs:
+    driver: local
+    name: jd2_1_logs
+  jd2_1_extensions:
+    driver: local
+    name: jd2_1_extensions
+  jd2_2_config:
+    driver: local
+    name: jd2_2_config
+  jd2_2_logs:
+    driver: local
+    name: jd2_2_logs
+  jd2_2_extensions:
+    driver: local
+    name: jd2_2_extensions
+```
 
 # Configuration of each jd2 instance
 
