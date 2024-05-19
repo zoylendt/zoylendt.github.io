@@ -27,13 +27,16 @@ The following different containers are part of this setup:
 - `jamesread/olivetin` ([GitHub](https://github.com/OliveTin/OliveTin), [DockerHub](https://hub.docker.com/r/jamesread/olivetin)) -> Used to restart individual components of the setup without requiring to log into the server's shell, Portainer or something similar.
 - `lscr.io/linuxserver/code-server` ([LinuxServer.io](https://docs.linuxserver.io/images/docker-code-server/)) -> Only required to edit the config file of `jamesread/olivetin`, can be omitted/replaced as needed.
 
+> [!warning]
+> This setup includes no killswitch! If a VPN container fails, the corresponding jD2 instance connects through the host's network to the internet. If you need a killswitch, look into [gluetun](https://github.com/qdm12/gluetun).
+
 # Docker-compose file
 
 The following `docker-compose.yaml` and `.env` files create three jD2 instances:
 	- `jd2_0` connects without a VPN to the internet
 	- `jd2_1` connects through the container `vpn_1` 
 	- `jd2_2` connects through the container `vpn_2` 
-The downloaded files (finished and .temp and finished files)
+The downloaded files (.temp and finished) are placed in the volume `jd2_downloads`, which is mounted into the Syncthing container at `/data1`.
 
 ```yaml title=".env"
 SYNCTHING_HOSTNAME=host
@@ -235,7 +238,11 @@ volumes:
 
 # Olivetin configuration
 
-...
+Open the `vscode` container's WebUI, navigate the explorer to `/mnt/olivetin_config`, create a new file called `config.yaml` (next to `installation-id.txt`) with the content
+
+```
+
+```
 
 # Syncthing configuration
 
