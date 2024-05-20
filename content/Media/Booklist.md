@@ -1,9 +1,7 @@
 ---
 title: Booklist
-aliases:
-  - Reading list
 date: 2024-02-06
-updated: 2024-05-19
+updated: 2024-05-20
 publishDate: 2024-02-06
 draft: false
 tags:
