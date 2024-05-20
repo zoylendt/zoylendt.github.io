@@ -15,6 +15,8 @@ Soon after realizing that my previous method, (digital) "Zettelwirtschaft", an u
 
 By making my notes public I'm forcing myself to write with some coherence in mind, which should help me finding notes if I search for them. Hopefully it will also improve my english writing skills. As a final inspiration, I've come quite often across some tech blogs on the web after googling about how to implement something or resolve a specific, often [[Selfhosted/]] related problem, so I hope this pile of notes may be useful to somebody else someday :D
 
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=zoylendt&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=zoylendt&redirect=true)
+
 ---
 
 ## My interests
