@@ -104,8 +104,7 @@ In this category I also deal with other food-related topics, like brewing mead, 
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />](tags/github)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" />](tags/latex)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" />](tags/markdown)  
-
-A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its fusion of handcrafting and automation - and of course it provides you with tasty beer ;)  
+	A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its fusion of handcrafting and automation - and of course it provides you with tasty beer ;)  
 Documenting my suds (brewing processes, "Sud" in german) was a big motivation for creating this blog, besides my [[Selfhosted/]] hobby.  
 In this category I also deal with other food-related topics, like brewing mead, fermenting kombucha, baking bread and general cooking recipes.
 - ⚛ [[Physics]]
