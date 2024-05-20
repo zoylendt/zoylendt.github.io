@@ -264,6 +264,24 @@ See the [documentation](https://docs.olivetin.app/) for more options. The contai
 
 ...
 
+- General
+	- set a fitting folder label, like `jd2_${SYNCTHING_HOSTNAME}`
+	- Folder Path: `/data1`
+- Sharing
+	- select your desired (home) Syncthing instance
+- File Versioning
+	- `No File Versioning`
+- Ignore Patterns
+	- set as follows:
+``` title="Ignore Patterns"
+*.part
+jd_accessCheck_*
+<jd:default>
+```
+- Advanced
+	- ...
+
+
 # Browser setup, useful Windows software
 
 ...
