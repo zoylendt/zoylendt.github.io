@@ -16,9 +16,11 @@ tags:
  
 # Some topics I want to write about:
 
+- [ ] rename .md files, same naming scheme (upper-/lowercase)
+
 ## index.md
 
-- [ ] write about me
+- [ ] write something about me
 - [ ] ...
 - [x] ...2
 - [ ] ...3
