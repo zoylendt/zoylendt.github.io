@@ -61,6 +61,7 @@ missing:
   - tag structure
   - note template
   - enhancement idea: add `-`, `->` or `/cdot` in front of chapters in ToC, in order to enhance readability
+	  - (or some default emoji, if none is present already)
 	  - `->` renders in ToC as `<span>&rarr;</span>`
 	  - 
 
