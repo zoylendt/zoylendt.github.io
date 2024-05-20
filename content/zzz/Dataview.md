@@ -35,6 +35,16 @@ sort date DESC
 LIMIT 10
 ```
 
+# 10 latest Notes edited in the last week
+
+```dataview
+TABLE title, date AS "Created", updated AS "Updated"
+from "public"
+WHERE updated >= date(today) - dur(1 week)
+sort updated DESC
+LIMIT 10
+```
+
 ---
 
 # More dataview examples
@@ -43,4 +53,11 @@ LIMIT 10
 TABLE file.ctime AS "Created"
 WHERE file.ctime >= date(today) - dur(1 week)
 LIMIT 10
+```
+
+```dataview
+table title, date, updated
+from "public"
+where econtains(tags, "alias")
+sort updated
 ```
