@@ -61,6 +61,13 @@ For me, it's all about learning and sharing what I pick up along the way. I aim 
 
 ---
 
+[[tags/docker|<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />]]
+[[tags/github|<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />]]
+[[tags/latex|<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" />]]
+[[tags/markdown|<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" />]]
+
+---
+
 <br>
 
 _For side projects, my goto stack has been: Solid, Tailwind and I'm currently trying out Turso._
