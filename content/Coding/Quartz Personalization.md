@@ -60,7 +60,9 @@ missing:
   - folder structure
   - tag structure
   - note template
-  - 
+  - enhancement idea: add `-`, `->` or `/cdot` in front of chapters in ToC, in order to enhance readability
+	  - `->` renders in ToC as `<span>&rarr;</span>`
+	  - 
 
 # Individual Changes
 
