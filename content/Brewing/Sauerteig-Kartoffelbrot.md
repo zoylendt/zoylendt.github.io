@@ -11,7 +11,9 @@ tags:
   - bread
   - german
 ---
- 
+
+...
+
 Zutaten:
 
 - 325g Kartoffeln (geschält, gekocht, zerdrückt)
@@ -31,5 +33,7 @@ Zubereitung:
 - Zutaten mischen (Röstzwiebeln nicht mit trockenem Mehl vermischen)
 - in Silikonform gießen, leicht befeuchten, mit Frischhaltefolie abdecken
 - ca. 20h auf Backblech gehen lassen (anfangs im ca 40°C warmen Backofen)
-- Backofen auf 220°C Umluft aufheizen, mit einer Schale Wasser am Boden
-- Brot befeuchten & in d
+- Backofen auf 220°C aufheizen, mit einer Schale Wasser am Boden
+- Brot befeuchten & 30 Minuten bei Ober-/Unterhitze backen
+- Brot aus Silikonform lösen, befeuchten, Temperatur auf 200°C reduzieren
+- 30 Minuten fertigbacken
