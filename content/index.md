@@ -36,7 +36,7 @@ By making my notes public I'm forcing myself to write with some coherence in min
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />](tags/k8s)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg" />](tags/podman)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/portainer/portainer-original.svg" />](tags/portainer)
-
+<br>
 ---
 
 ## My interests
