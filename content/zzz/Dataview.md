@@ -1,21 +1,28 @@
 # Unpublished notes
 
 ```dataview title="Unpublished notes"
-
 table title, date, updated
 from "public"
 WHERE draft = true
 sort date
-
 ```
 
-# Notes about untested topics
+# Notes tagged #unfinished 
+
+```dataview title="Untested notes"
+table title, date, updated
+from "public"
+where econtains(tags, "unfinished")
+sort updated
+```
+
+# Notes tagged #untested 
 
 ```dataview title="Untested notes"
 table title, date, updated
 from "public"
 where econtains(tags, "untested")
-sort date
+sort updated
 ```
 
 # 10 Notes created in the last week
