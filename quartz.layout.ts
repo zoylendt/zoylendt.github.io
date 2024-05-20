@@ -66,10 +66,8 @@ export const defaultContentPageLayout: PageLayout = {
 //    Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.TableOfContents({
       mapFn: (node) => {
-        // dont change name of root node
-        if (node.depth > 0) {
-          node.displayName = "- " + node.displayName
-        }},})),
+        node.displayName = "- " + node.displayName
+        },})),
     Component.Backlinks(),
   ],
 }
