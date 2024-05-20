@@ -1,7 +1,7 @@
 ---
 title: Markdown Guide
 date: 2024-02-04
-updated: 2024-05-15
+updated: 2024-05-20
 publishDate: 2024-02-04
 draft: false
 tags:
@@ -111,13 +111,13 @@ see http://localhost:8070/advanced/paths
 
 ### link to a whole page
 
-[[markdown guide]]
+[[Markdown guide]]
 
 [[index]]
 
 ### links to a paragraph
 
-[[markdown guide#Code block|alternative name]]
+[[Markdown guide#Code block|alternative name]]
 
 ## external links
 

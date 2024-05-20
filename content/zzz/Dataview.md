@@ -58,6 +58,6 @@ LIMIT 10
 ```dataview
 table title, date, updated
 from "public"
-where econtains(tags, "alias")
+where econtains(title, "Example Title")
 sort updated
 ```

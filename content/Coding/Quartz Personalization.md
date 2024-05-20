@@ -508,9 +508,9 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
 # My own config
 
-The original files and my custom changed files have I documented [[My Quartz Config|here]].
+The original files and my custom changed files have I documented [[My quartz config files|here]].
 
-They are also included in [this blog's GitHub repo](https://github.com/zoylendt/zoylendt.github.io/tree/v4/content/zzz/my%20quartz%20config).
+They are also included in [this blog's GitHub repo](https://github.com/zoylendt/zoylendt.github.io/tree/v4/content/zzz/my%20quartz%20config%20files).
 
 In total, this files were modified or newly created:
 

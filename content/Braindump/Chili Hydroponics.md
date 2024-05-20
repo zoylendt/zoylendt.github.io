@@ -1,5 +1,5 @@
 ---
-title: Example Title
+title: 
 date: 2024-05-11
 publishDate: 2024-05-11
 updated: 2024-05-20
