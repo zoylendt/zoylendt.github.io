@@ -4,8 +4,7 @@ description: <Description of the page used for link previews>
 date: 2024-05-19
 publishDate: 2024-05-19
 updated: 2024-05-20
-draft: true
-publish: false
+draft: false
 tags:
   - note
   - bread
