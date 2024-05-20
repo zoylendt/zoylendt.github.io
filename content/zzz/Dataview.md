@@ -15,8 +15,15 @@ sort date
 
 table title, date, updated
 from "public"
-WHERE tags = untested
+WHERE "tags" = untested
 sort date
 
 ```
 
+# 10 Notes created in the last week
+
+```dataview
+TABLE file.ctime AS "Created"
+WHERE file.ctime >= date(today) - dur(1 week)
+LIMIT 10
+```

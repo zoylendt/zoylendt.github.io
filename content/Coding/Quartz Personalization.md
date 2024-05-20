@@ -67,6 +67,7 @@ missing:
 		  - (or some default emoji, if none is present already)
 		  - `->` renders in ToC as `<span>&rarr;</span>`
 	  - searching for `foo.bar` returns sites containing `foo` and `bar` separately as well
+	  - specify a part of .md file that doesn't get parsed into quartz (e.g. for `dataview`, like [here](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/#List_unlinked_files))
 
 # Individual Changes
 
