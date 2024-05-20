@@ -5,7 +5,7 @@ updated: 2024-05-20
 ---
 
 > [!warning]
-> Many notes in this blog are still [[tags/unfinished]], some are about topics I [[tags/untested|haven't tested\/implemented yet]], but want to eventually.
+> Many notes in this blog are still [[tags/unfinished]], some are about topics I [[tags/untested|"haven't tested/implemented yet"]], but want to eventually.
 
 Hi, welcome to my notes and thoughts :D
 
