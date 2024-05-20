@@ -53,7 +53,7 @@ For me, it's all about learning and sharing what I pick up along the way. I aim 
 
 ---
 
-<img width="30px" style="padding-right:10px;" src="/content/zzz/static_files/Tailscale-Logo-Black.svg" />
+<img width="30px" style="padding-right:10px;" src="zzz/static_files/Tailscale-Logo-Black.svg" />
 
 ---
 
