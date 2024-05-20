@@ -84,9 +84,9 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] quotes
 - [ ] iPhone apps I use
 	- [ ] Tachimanga setup -> Android
-- movies
-- series
-- list of board games
+- [ ] movies
+- [ ] series
+- [ ] list of board games
 
 ## Selfhosted
 
