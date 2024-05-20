@@ -273,7 +273,7 @@ See the [documentation](https://docs.olivetin.app/) for more options. The contai
 	- `No File Versioning`
 - Ignore Patterns
 	- set as follows:
-``` title="Ignore Patterns"
+```title="Ignore Patterns"
 *.part
 jd_accessCheck_*
 <jd:default>
@@ -281,6 +281,7 @@ jd_accessCheck_*
 - Advanced
 	- ...
 
+-> folder structure for `.dlc` files
 
 # Browser setup, useful Windows software
 
