@@ -38,4 +38,4 @@ publish: false
 
 # not allowed (or GitHub Action fails)
 
-- `:` in title
+- `:` in title (when used like `title: movie: 123`, works fine when used like `title: "movie: 123"`)
