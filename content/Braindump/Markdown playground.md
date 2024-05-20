@@ -51,7 +51,11 @@ For me, it's all about learning and sharing what I pick up along the way. I aim 
 <img width="30px" style="padding-right:10px;" src="https://www.solidjs.com/img/logo/without-wordmark/logo.svg" />
 <!-- Note, the last icon needs to have no alignment set -->
 
+---
 
+<img width="30px" style="padding-right:10px;" src="content/zzz/static_files/Tailscale-Logo-Black.svg" />
+
+---
 
 <br>
 
