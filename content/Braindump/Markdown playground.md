@@ -51,6 +51,8 @@ For me, it's all about learning and sharing what I pick up along the way. I aim 
 <img width="30px" style="padding-right:10px;" src="https://www.solidjs.com/img/logo/without-wordmark/logo.svg" />
 <!-- Note, the last icon needs to have no alignment set -->
 
+
+
 <br>
 
 _For side projects, my goto stack has been: Solid, Tailwind and I'm currently trying out Turso._
