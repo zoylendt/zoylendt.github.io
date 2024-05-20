@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-05-19
+updated: 2024-05-20
 ---
 
 > [!warning]
