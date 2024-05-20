@@ -44,6 +44,8 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
   - Move Darkmode toggle to right layout part, like here: https://notes.yxy.ninja/
   - remove only tag #note from global graph
+  - move tags to right column
+  - remove tags from 'Recent Notes'
   - ...
 
 Sadly, some Quartz blogs haven't documented their changes:
