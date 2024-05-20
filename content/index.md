@@ -20,8 +20,6 @@ By making my notes public I'm forcing myself to write with some coherence in min
 
 ---
 
-## My interests
-
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />](tags/docker)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />](tags/github)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" />](tags/latex)
@@ -39,9 +37,9 @@ By making my notes public I'm forcing myself to write with some coherence in min
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg" />](tags/podman)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/portainer/portainer-original.svg" />](tags/portainer)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg" />](tags/prometheus)
-[<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />](tags/python)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />](tags/python)
 
-<br>
+## My interests
 
 I aim to write about many different topics, but they can (hopefully) be categorized in some way. There are also overviews of all 📄 [[tags/note|notes]] and all 🏷[[tags]].
 
