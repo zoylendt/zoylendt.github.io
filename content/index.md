@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-05-20
+updated: 2024-05-21
 ---
 
 > [!warning]
@@ -43,8 +43,10 @@ By making my notes public I'm forcing myself to write with some coherence in min
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rancher/rancher-original.svg" />](tags/rancher)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" />](tags/raspi)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />](tags/terraform)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/traefikproxy/traefikproxy-original.svg" />](tags/traefik)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />](tags/vscode)
+\ [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/traefikproxy/traefikproxy-original.svg" />](tags/traefik)
+\\ [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />](tags/vscode)
+
+<br>
 
 I aim to write about many different topics, but they can (hopefully) be categorized in some way. There are also overviews of all 📄 [[tags/note|notes]] and all 🏷[[tags]].
 
