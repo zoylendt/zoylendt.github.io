@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-19
+updated: 2024-05-20
 publishDate: 2024-02-11
 draft: false
 enableToc: true
@@ -82,6 +82,8 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] Booklist -> translate german titles
 - [ ] webcomics
 - [ ] quotes
+- [ ] iPhone apps I use
+	- [ ] Tachimanga setup -> Android
 - movies
 - series
 - list of board games

@@ -20,7 +20,7 @@ Currently I use five parallel jd2 instances, each behind its own VPN container. 
 > [!note]
 > Of course this setup is useless for One-click hosts that prohibit downloads from IPs associated with VPS or VPN. Geoblocking can also be an issue due to the random connections.
 
-# Docker containers utilized
+# -> Docker containers utilized
 
 The following different containers are part of this setup:
 
@@ -33,7 +33,7 @@ The following different containers are part of this setup:
 > [!warning]
 > This setup includes no killswitch! If a VPN container fails, the corresponding jD2 instance connects through the host's network to the internet. If you need a killswitch, look into [gluetun](https://github.com/qdm12/gluetun).
 
-# Docker-compose file
+# -> Docker-compose file
 
 The following `docker-compose.yaml` and `.env` files create three jD2 instances:
 
@@ -237,11 +237,11 @@ volumes:
     name: jd2_2_extensions
 ```
 
-# Configuration of each jd2 instance
+# -> Configuration of each jd2 instance
 
 ...
 
-# Olivetin configuration
+# -> Olivetin configuration
 
 Open the `vscode` container's WebUI, navigate the explorer to `/mnt/olivetin_config`, create a new file called `config.yaml` (next to `installation-id.txt`) with the content
 
@@ -260,7 +260,7 @@ actions:
 
 See the [documentation](https://docs.olivetin.app/) for more options. The container `vscode` can (and should) be stopped now.
 
-# Syncthing configuration
+# -> Syncthing configuration
 
 ...
 
@@ -283,19 +283,19 @@ jd_accessCheck_*
 
 -> folder structure for `.dlc` files
 
-# Browser setup, useful Windows software
+# -> Browser setup, useful Windows software
 
 ...
 
-# Solve captcha with 9kw.eu integration
+# -> Solve captcha with 9kw.eu integration
 
 ...
 
-# Download workflow
+# -> Download workflow
 
 ...
 
-# Improvement ideas
+# -> Improvement ideas
 
 Just some bullet points of improvement ideas:
 
