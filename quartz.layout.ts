@@ -26,7 +26,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
+    Component.MobileOnly(Component.Darkmode()),
+//    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
         // dont change name of root node
@@ -46,6 +47,7 @@ export const defaultContentPageLayout: PageLayout = {
       }),),
   ],
   right: [
+    Component.DesktopOnly(Component.Darkmode()),
     Component.Graph({
       localGraph: {
         showTags: false,
