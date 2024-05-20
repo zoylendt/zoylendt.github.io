@@ -35,3 +35,7 @@ description: <Description of the page used for link previews>
 publishDate: 2024-05-20
 publish: false
 ```
+
+# not allowed (or GitHub Action fails)
+
+- `:` in title
