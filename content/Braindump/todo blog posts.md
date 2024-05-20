@@ -28,6 +28,8 @@ tags:
 ## Braindump
 
 - [x] Game keys
+	- [ ] add recent keys
+	- [ ] add older keys
 - [ ] pr0gramm tampermonkey setup
 - [ ] tag: bookmark -> 
 - [ ] list of other blogs -> https://www.vibrio.eu/blog/50-wichtige-deutschsprachige-it-blogs-die-enrico-liste/
