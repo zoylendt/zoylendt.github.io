@@ -63,7 +63,13 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 2, // how quickly do we fade out the labels when zooming out? -> 1
       },
     }),
-    Component.DesktopOnly(Component.TableOfContents()),
+//    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.TableOfContents({
+      mapFn: (node) => {
+        // dont change name of root node
+        if (node.depth > 0) {
+          node.displayName = "- " + node.displayName
+        }},})),
     Component.Backlinks(),
   ],
 }
