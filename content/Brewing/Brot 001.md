@@ -1,5 +1,5 @@
 ---
-title: 
+title: Sauerteig-Kartoffelbrot 2024-05-19
 description: <Description of the page used for link previews>
 date: 2024-05-19
 publishDate: 2024-05-19
