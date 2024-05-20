@@ -87,6 +87,8 @@ Callouts example: from https://notes.camargomau.com/
 - [ ] movies
 - [ ] series
 - [ ] list of board games
+- [ ] list of blogs/websites
+	- [ ] virtualizationhowto.com
 
 ## Selfhosted
 
@@ -94,10 +96,8 @@ Callouts example: from https://notes.camargomau.com/
 - list of unused hardware
 - list of RasPi stuff
 - list of µController stuff
-- jd2 vpn stack
-   - 9kw.eu
-- list of blogs/websites
-   - virtualizationhowto.com
+
+
    - 
 - ExHex
 - imgbrd-grabber & szurubooru
