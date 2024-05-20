@@ -1,9 +1,9 @@
 ---
-title: My Own Quartz Config
+title: My Own Quartz Config Files
 description: 
 date: 2024-05-12
 publishDate: 2024-05-12
-updated: 2024-05-13
+updated: 2024-05-20
 draft: false
 tags:
   - note
