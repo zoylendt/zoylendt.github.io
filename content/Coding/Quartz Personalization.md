@@ -62,10 +62,11 @@ missing:
   - folder structure
   - tag structure
   - note template
-  - enhancement idea: add `-`, `->` or `/cdot` in front of chapters in ToC, in order to enhance readability
-	  - (or some default emoji, if none is present already)
-	  - `->` renders in ToC as `<span>&rarr;</span>`
-	  - 
+  - enhancement ideas and bugs 
+	  - add `-`, `->` or `/cdot` in front of chapters in ToC, in order to enhance readability
+		  - (or some default emoji, if none is present already)
+		  - `->` renders in ToC as `<span>&rarr;</span>`
+	  - searching for `foo.bar` returns sites containing `foo` and `bar` separately as well
 
 # Individual Changes
 
