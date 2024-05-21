@@ -12,8 +12,16 @@ tags:
 # Collections
 
 - https://selfh.st/apps/
+- 
 
 
 # Tools
 
 - https://github.com/YuukanOO/seelf
+- 
+
+
+# Blogs
+
+- https://blog.gurucomputing.com.au/Offsite%20Docker%20Backups%20with%20Kopia/Offsite%20Docker%20Backups%20with%20Kopia/
+- 
