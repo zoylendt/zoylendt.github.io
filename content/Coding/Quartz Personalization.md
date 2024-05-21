@@ -109,6 +109,7 @@ missing:
 	  - searching for `foo.bar` returns sites containing `foo` and `bar` separately as well
 	  - specify a part of .md file that doesn't get parsed into quartz (e.g. for `dataview`, like [here](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/#List_unlinked_files))
 	  - check for dead (internal) links
+	  - if the string `#foo` appears outside of the frontmatter, it gets added to the list of tags despite not being present in the frontmatter
 
 # Individual Changes
 

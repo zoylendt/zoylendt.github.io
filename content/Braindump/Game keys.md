@@ -2,7 +2,7 @@
 title: Surplus Steam Keys
 description: <Description of the page used for link previews>
 date: 2024-05-09
-updated: 2024-05-15
+updated: 2024-05-21
 publishDate: 2024-05-09
 draft: false
 tags:
@@ -71,7 +71,7 @@ tags:
 | Going Under                                                                        | Stand with Ukraine Bundle                            | 2022-03-18    | -                                     |
 | Golden Light                                                                       | Humble Choice Mar 2023                               | 2023-03-07    | -                                     |
 | Grime                                                                              | Humble Choice Jun 2023                               | 2023-06-07    | -                                     |
-| Guilty Gear X2 \#Reload                                                            | Türkiye-Syria Earthquake Relief Bundle               | 2023-03-01    | -                                     |
+| Guilty Gear X2 "#Reload"                                                           | Türkiye-Syria Earthquake Relief Bundle               | 2023-03-01    | -                                     |
 | Guts and Glory                                                                     | tinyBuild x Versus Evil Smashup                      | 2022-09-14    | -                                     |
 | Hack 'n' Slash                                                                     | Türkiye-Syria Earthquake Relief Bundle               | 2023-03-01    | -                                     |
 | Haiku, the Robot                                                                   | Must-Play Metroidvanias                              | 2023-06-21    | -                                     |
