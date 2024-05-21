@@ -72,19 +72,25 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  │   └── .gitkeep
  ├── private
  │   └── .gitkeep
+ ├── templates
+ │   └── blog.md
  └── public
- │   └── blog (or "notes"?)
- │   │   ├── index.md
- │       ├── template.md
- │       ├── tags
- │       │   └── tag1.md
- │       ├── Topic1
- │       │   ├── blogpage1.md
- │       │   └── attachments
- │       │       └── image.png
- │       └── Topic2
- │           └── blogpage2.md
- │   └
+ │   ├── blog (or "notes"?)
+ │   │   ├── Topic1
+ │   │   │   ├── blogpage1.md
+ │   │   │   └── attachments
+ │   │   │       └── image.png
+ │   │   └── Topic2
+ │   │       └── blogpage2.md
+ │   ├── tags
+ │   │   └── tag1.md
+ │   ├── static_files
+ │   │   ├── my quartz config files
+ │   │   │   ├── Version 1
+ │   │   │   │   └── ...
+ │   │   │   └── README.md
+ │   │   └── Dataview.md
+ │   └── index.md
  └── .gitignore
 ```
 
