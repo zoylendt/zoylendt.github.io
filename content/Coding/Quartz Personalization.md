@@ -1,7 +1,7 @@
 ---
 title: Quartz Personalization
 date: 2024-02-07
-updated: 2024-05-20
+updated: 2024-05-21
 publishDate: 2024-02-07
 draft: false
 enableToc: true
@@ -46,6 +46,8 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - remove only tag #note from global graph
   - move tags to right column
   - remove tags from 'Recent Notes'
+  - make explorer collapsible, like here: https://zanca.dev/
+  - remove specific tagged notes from recent notes: https://zanca.dev/blog/quartz#setting-up-quartz
   - ...
 
 Sadly, some Quartz blogs haven't documented their changes:

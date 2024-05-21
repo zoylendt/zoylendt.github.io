@@ -1,7 +1,7 @@
 ---
 title: Markdown Guide
 date: 2024-02-04
-updated: 2024-05-20
+updated: 2024-05-21
 publishDate: 2024-02-04
 draft: false
 tags:
@@ -20,7 +20,9 @@ Here are some examples about how markdown rendered by Quartz.
 
 # Text boxes
 
-## Colored Blocks
+## Callouts
+
+-> https://zanca.dev/notes/callouts
 
 Text can be placed within a `tip` (aka `hint`), `note` or a `warning` block.
 

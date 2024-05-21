@@ -2,7 +2,7 @@
 title: Building This Website
 description: link preview
 date: 2024-05-06
-updated: 2024-05-17
+updated: 2024-05-21
 publishDate: 2024-05-06
 draft: false
 enableToc: true
@@ -14,6 +14,12 @@ tags:
  
 # Introduction
 
+## Other guides
+
+https://kanpov.github.io/articles/creating-blog-site-with-quartz4-obsidian
+https://zanca.dev/blog/quartz
+
+
 # Basic Setup
 
 ## 1. Install Obsidian, GitHub Desktop & Git
@@ -21,6 +27,8 @@ tags:
  (Reasons for chosen programs)
 
 GitHub Desktop includes a git client, however for [a number of reasons](https://github.com/desktop/desktop/issues/3708#issuecomment-354665183) we need another separate git installation for the Obsidian git plugin. -> https://github.com/desktop/desktop/issues/3801#issuecomment-357713357
+
+[Git](https://git-scm.com/downloads), [Obsidian](https://obsidian.md/download)
 
 ## 2. GitHub Setup (Blog repository)
 
