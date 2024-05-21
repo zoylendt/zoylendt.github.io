@@ -42,12 +42,6 @@ By making my notes public I'm forcing myself to write with some coherence in min
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/portainer/portainer-original.svg" />](tags/portainer)
 <!-- Note, the last icon needs to have no alignment set -->
 
-<br>
-
-_For side projects, my goto stack has been: Solid, Tailwind and I'm currently trying out Turso._
-
-<br>
-
 ---
 
 ## My interests
