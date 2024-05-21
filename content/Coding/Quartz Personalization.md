@@ -77,9 +77,9 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  └── public
  │   ├── blog (or "notes"?)
  │   │   ├── Topic1
- │   │   │   ├── blogpage1.md
- │   │   │   └── attachments
- │   │   │       └── image.png
+ │   │   │   ├── attachments
+ │   │   │   │   └── image.png
+ │   │   │   └── blogpage1.md
  │   │   └── Topic2
  │   │       └── blogpage2.md
  │   ├── tags
