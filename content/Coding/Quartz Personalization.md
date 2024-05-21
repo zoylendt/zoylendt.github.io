@@ -74,7 +74,7 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  │   └── .gitkeep
  └── public
  │   └── blog (or "notes"?)
- │       ├── index.md
+ │   │   ├── index.md
  │       ├── template.md
  │       ├── tags
  │       │   └── tag1.md
@@ -84,6 +84,7 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  │       │       └── image.png
  │       └── Topic2
  │           └── blogpage2.md
+ │   └
  └── .gitignore
 ```
 
