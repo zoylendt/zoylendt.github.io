@@ -16,6 +16,10 @@ tags:
  
 Here are some examples about how markdown rendered by Quartz.
 
+# Guides
+
+- https://markdownguide.offshoot.io/basic-syntax/
+
 # General formatting techniques
 
 # Text boxes
