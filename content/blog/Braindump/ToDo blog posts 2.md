@@ -72,6 +72,7 @@ tags:
 	- [ ] my workflow (Obsidian -> git -> GitHub -> sync action)
 	- [ ] basic setup (without custom layout)
 	- [ ] my setup (only my changes to customize my instance)
+	- [ ] my config files -> link to github
 	- [ ] how to incorporate upstream changes
 	- [ ] my obsidian folder structure
 	- [ ] continue on another PC
