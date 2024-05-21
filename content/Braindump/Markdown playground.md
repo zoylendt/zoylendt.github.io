@@ -246,3 +246,10 @@ VSCode: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vsco
 >- [r/conceptart](https://www.reddit.com/r/conceptart/)
 >- [r/unrealengine](https://www.reddit.com/r/unrealengine/)
 
+---
+
+-> https://forum.obsidian.md/t/how-to-make-dataview-works-in-table/20445
+
+| Col 1                | Col 2              |
+| -------------------- | ------------------ |
+| `=this.file.inlinks` | `=this.file.ctime` |
