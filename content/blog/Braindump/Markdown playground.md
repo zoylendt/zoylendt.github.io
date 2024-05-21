@@ -253,3 +253,14 @@ VSCode: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vsco
 | Col 1                | Col 2              |
 | -------------------- | ------------------ |
 | `=this.file.inlinks` | `=this.file.ctime` |
+
+---
+
+> [!abstract]- Sciujo
+> The [[Sciujo]] ("knowledge container" in Esperanto) is the main and the knowledge-oriented part of the Notkesto; it follows the [[Zettelkasten]] method.
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f" title="YouTube video player" allowfullscreen></iframe>

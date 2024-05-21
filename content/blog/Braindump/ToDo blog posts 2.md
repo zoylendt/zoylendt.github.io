@@ -61,9 +61,6 @@ tags:
 	- [ ] Blog personalisation
 - [ ] 
 
-> [!abstract]- Sciujo
-> The [[Sciujo]] ("knowledge container" in Esperanto) is the main and the knowledge-oriented part of the Notkesto; it follows the [[Zettelkasten]] method.
-
 ### This website
 
 - [ ] how to include upstream updates into your quartz repo
