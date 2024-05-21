@@ -36,13 +36,14 @@ By making my notes public I'm forcing myself to write with some coherence in min
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />](tags/k8s)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg" />](tags/podman)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/portainer/portainer-original.svg" />](tags/portainer)
+  
 <br>
 
 ---
 
 ## My interests
 
-I aim to write about many different topics, but they can (hopefully) be categorized in some way. There are also overviews of all 📄 [[tags/note|notes]] and all 🏷[[tags]].
+I want to write about many different topics, but they can (hopefully) be categorized in some way. There are also overviews of all 📄 [[tags/note|notes]] and all 🏷[[tags]].
 
 - 🧠 [[Braindump]]  
 A place for thoughts and stuff that doesn't fit the other categories. New ideas, unfinished thoughts, plans, things I stumbled upon the net, stuff like that ;)
