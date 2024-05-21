@@ -4,7 +4,6 @@ date: 2024-02-11
 updated: 2024-05-21
 publishDate: 2024-02-11
 draft: false
-enableToc: true
 tags:
   - note
   - todo
@@ -21,9 +20,8 @@ tags:
 ## index.md
 
 - [ ] write something about me
-- [ ] ...
-- [x] ...2
-- [ ] ...3
+- [ ] remove last parts from documentation
+- [ ] 
 
 ## Braindump
 
@@ -42,7 +40,7 @@ tags:
 - [ ] list of all previously brewed beers
 - [ ] https://de.wikipedia.org/wiki/Dinnete
 - [ ] https://www.amazon.de/s?k=eichelmehl
-- [ ] 
+- [ ] 36XX & 37XX -> Extraktbrauen
 
 ## Coding
 
@@ -76,6 +74,7 @@ tags:
 	- [ ] my setup (only my changes to customize my instance)
 	- [ ] how to incorporate upstream changes
 	- [ ] my obsidian folder structure
+	- [ ] continue on another PC
 
 ## Physics
 
@@ -122,7 +121,7 @@ tags:
 		- [ ] prowlarr
 	- [ ] kopia
 	- [ ] imgbrd-grabber & szurubooru
-	- [ ] music
+	- [ ] music -> navidrome (+ identifier)
 	- [ ] [Jellystat](https://github.com/CyferShepard/Jellystat) -> tag: unstable
 - [ ] calendar
 - [ ] unraid sleep setup
