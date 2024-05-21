@@ -22,6 +22,8 @@ By making my notes public I'm forcing myself to write with some coherence in min
 
 ## 🛠️ Languages and Tools
 
+
+
 <!-- https://devicon.dev/ -->
 
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />](tags/docker)
