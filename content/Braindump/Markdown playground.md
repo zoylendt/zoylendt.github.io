@@ -231,3 +231,18 @@ VSCode: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vsco
 
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />](tags/linux)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />](tags/git)
+
+---
+
+<iframe width="560" height="315" src="[https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f](https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+>[!example] Subreddits
+>
+>- [r/blenderhelp](https://www.reddit.com/r/blenderhelp/)
+>- [r/Blender](https://www.reddit.com/r/blender/)
+>- [r/3Dmodeling](https://www.reddit.com/r/3Dmodeling/)
+>- [r/ZBrush](https://www.reddit.com/r/ZBrush/)
+>- [r/MarmosetToolbag](https://www.reddit.com/r/MarmosetToolbag/)
+>- [r/conceptart](https://www.reddit.com/r/conceptart/)
+>- [r/unrealengine](https://www.reddit.com/r/unrealengine/)
+
