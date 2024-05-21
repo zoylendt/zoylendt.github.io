@@ -117,13 +117,13 @@ see http://localhost:8070/advanced/paths
 
 ### link to a whole page
 
-[[Markdown guide]]
+[[Markdown guide 2]]
 
 [[index]]
 
 ### links to a paragraph
 
-[[Markdown guide#Code block|alternative name]]
+[[Markdown guide 2#Code block|alternative name]]
 
 ## external links
 
