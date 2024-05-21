@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-21
+updated: 2024-05-22
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -91,6 +91,11 @@ tags:
 - [ ] list of board games
 - [ ] list of blogs/websites
 	- [ ] virtualizationhowto.com
+- [ ] split booklist -> only antilibrary (to-read books)
+	- [ ] Comics/manga separately
+	- [ ] previously read books
+	- [ ] favorite books
+	- [ ] 
 
 ## Selfhosted
 
