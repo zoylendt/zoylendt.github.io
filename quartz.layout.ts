@@ -57,8 +57,8 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 2, // how quickly do we fade out the labels when zooming out? -> 1
       },
       globalGraph: {
-//        showTags: true,
-        removeTags: [], // what tags to remove from the graph
+        showTags: true,
+//        removeTags: [notes], // what tags to remove from the graph
         scale: 1.5, // default view scal -> 0.9
         fontSize: 0.6, // what size should the node labels be? -> 0.6
         opacityScale: 2, // how quickly do we fade out the labels when zooming out? -> 1
