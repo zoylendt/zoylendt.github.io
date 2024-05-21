@@ -13,7 +13,7 @@ A collection of Quartz bugs I noticed, and some improvement Ideas I came up with
 
 # Bugs
 
-- [Graph config](https://quartz.jzhao.xyz/features/graph-view): `removeTags: [], // what tags to remove from the graph` (at least in the global graph) doesn't work, like here: `removeTags: [note],`
+- [Graph config](https://quartz.jzhao.xyz/features/graph-view): `removeTags: [], // what tags to remove from the graph` (at least in the global graph) doesn't work, like here: `removeTags: [note],` -> crashes GitHub Action
 	- (I use `#note` on all posts -> `linkToAll` in the `RecentNotes` plugin to link to all notes created)
 	- idea for possible workaround: implement a path like `https://zoylendt.github.io/all-notes` to link to all notes
 
@@ -21,7 +21,7 @@ A collection of Quartz bugs I noticed, and some improvement Ideas I came up with
 
 - searching for `foo.bar` returns sites containing `foo` and `bar` separately as well -> should only return sites containing `foo.bar`
 - if the string `#foo` appears in a .md file outside of the frontmatter, it gets added to the list of tags despite not being present in the frontmatter
-- 
+- `https://zoylendt.github.io/tags/{tagname}/` and `https://zoylendt.github.io/{foldername}/` -> layout looks different from normal pages, like `https://zoylendt.github.io/`
 
 # Enhancement ideas
 
