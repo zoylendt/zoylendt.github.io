@@ -46,35 +46,36 @@ tags:
 
 ## Coding
 
-- GitHub flavored markdown
-- obsidian flavored markdown
-- obsidian GitHub quartz workflow
-   - obsidian plugins
-- quartz content structure
-
-- Linking and connecting notes in Obsidian
-- Obsidian usage
-- Obsidian Plugins
-- Marmaid Diagrams -> https://mermaid.live/
-- about digital gardening -> https://mwalton.me/thoughts/digital-forests
-- ...
-
-Callouts example: from https://notes.camargomau.com/
+- [ ] Markdown Guides
+	- [ ] GitHub flavored markdown
+	- [ ] Obsidian flavored markdown
+	- [ ] Callouts example: from https://notes.camargomau.com/
+	- [ ] Collapsable sections
+	- [ ] 
+- [ ] Obsidian Guides
+	- [ ] Linking and connecting notes in Obsidian
+	- [ ] Plugins I use (+ good resources for other plugins)
+	- [ ] Dataview
+- [ ] Quartz Guides
+	- [ ] Mermaid Diagrams -> https://mermaid.live/
+	- [ ] about digital gardening -> https://mwalton.me/thoughts/digital-forests
+	- [ ] allowed frontmatter
+	- [ ] Blog personalisation
+- [ ] 
 
 > [!abstract]- Sciujo
 > The [[Sciujo]] ("knowledge container" in Esperanto) is the main and the knowledge-oriented part of the Notkesto; it follows the [[Zettelkasten]] method.
 
 ### This website
 
-- [ ] write easy basic setup guide (no obsidian or git)
 - [ ] how to include upstream updates into your quartz repo
-- [ ] quartz allowed frontmatter
 - [ ] define [poetry code](https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code)
 - [ ] Restructure Guide:
 	- [ ] my workflow (Obsidian -> git -> GitHub -> sync action)
 	- [ ] basic setup (without custom layout)
 	- [ ] my setup (only my changes to customize my instance)
 	- [ ] how to incorporate upstream changes
+	- [ ] my obsidian folder structure
 
 ## Physics
 
