@@ -73,16 +73,17 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  ├── private
  │   └── .gitkeep
  └── public
- │   ├── index.md
- │   ├── template.md
- │   ├── tags
- │   │   └── tag1.md
- │   ├── Topic1
- │   │   ├── blogpage1.md
- │   │   └── attachments
- │   │       └── image.png
- │   └── Topic2
- │       └── blogpage2.md
+ │   └── blog (or "notes"?)
+ │       ├── index.md
+ │       ├── template.md
+ │       ├── tags
+ │       │   └── tag1.md
+ │       ├── Topic1
+ │       │   ├── blogpage1.md
+ │       │   └── attachments
+ │       │       └── image.png
+ │       └── Topic2
+ │           └── blogpage2.md
  └── .gitignore
 ```
 
