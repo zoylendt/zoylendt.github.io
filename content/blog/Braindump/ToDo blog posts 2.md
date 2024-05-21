@@ -153,5 +153,5 @@ tags:
 	- [ ] HomeAssistant
 	- [ ] ChromeOS
 	- [ ] TrueNAS
-	- [ ] 
+	- [ ] install tailscale on proxmox
 
