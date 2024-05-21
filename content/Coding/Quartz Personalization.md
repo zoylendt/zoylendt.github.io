@@ -46,7 +46,6 @@ The inspirations for this changes come from the [Quartz Showcases](https://quart
   - remove only tag #note from global graph
   - move tags to right column
   - remove tags from 'Recent Notes'
-  - make explorer collapsible, like here: https://zanca.dev/
   - remove specific tagged notes from recent notes: https://zanca.dev/blog/quartz#setting-up-quartz
   - ...
 
@@ -55,6 +54,37 @@ Sadly, some Quartz blogs haven't documented their changes:
   - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented) -> https://github.com/search?q=repo%3Afreenandes%2Ftopo-da-mente%20gate%20svg&type=code
   - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
   - -> https://github.com/freenandes/topo-da-mente 
+
+Idea for new folder structure:
+- /contents/notes/[Brewing Coding etc]
+- 
+```
+C:\users\USERNAME\Obsidian\VAULTNAME\
+ ├── .git
+ │   └── ...
+ ├── .obsidian
+ │   └── ...
+ ├── .github
+ │   ├── sync.yml
+ │   └── workflows
+ │       └── sync.yml
+ ├── .trash
+ │   └── .gitkeep
+ ├── private
+ │   └── .gitkeep
+ └── public
+ │   ├── index.md
+ │   ├── template.md
+ │   ├── tags
+ │   │   └── tag1.md
+ │   ├── Topic1
+ │   │   ├── blogpage1.md
+ │   │   └── attachments
+ │   │       └── image.png
+ │   └── Topic2
+ │       └── blogpage2.md
+ └── .gitignore
+```
 
 missing:
   - graph- und explorer exclude
@@ -70,6 +100,7 @@ missing:
 		  - `->` renders in ToC as `<span>&rarr;</span>`
 	  - searching for `foo.bar` returns sites containing `foo` and `bar` separately as well
 	  - specify a part of .md file that doesn't get parsed into quartz (e.g. for `dataview`, like [here](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/#List_unlinked_files))
+	  - check for dead (internal) links
 
 # Individual Changes
 
