@@ -18,6 +18,8 @@ By making my notes public I'm forcing myself to write with some coherence in min
 <!-- https://github.com/kittinan/spotify-github-profile -->
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=zoylendt&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=zoylendt&redirect=true)
 
+---
+
 ## 🛠️ Languages and Tools
 
 <!-- https://devicon.dev/ -->
@@ -37,7 +39,7 @@ By making my notes public I'm forcing myself to write with some coherence in min
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/k3s/k3s-original.svg" />](tags/k3s)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />](tags/k8s)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg" />](tags/podman)
-[<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/portainer/portainer-original.svg" />](tags/portainer)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/portainer/portainer-original.svg" />](tags/portainer)
 <!-- Note, the last icon needs to have no alignment set -->
 
 <br>
@@ -45,6 +47,8 @@ By making my notes public I'm forcing myself to write with some coherence in min
 _For side projects, my goto stack has been: Solid, Tailwind and I'm currently trying out Turso._
 
 <br>
+
+---
 
 ## My interests
 
