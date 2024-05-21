@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-20
+updated: 2024-05-21
 publishDate: 2024-02-11
 draft: false
 enableToc: true
@@ -40,6 +40,8 @@ tags:
 - Brewing Setup
 - [ ] Inventur
 - [ ] list of all previously brewed beers
+- [ ] https://de.wikipedia.org/wiki/Dinnete
+- [ ] https://www.amazon.de/s?k=eichelmehl
 - [ ] 
 
 ## Coding
