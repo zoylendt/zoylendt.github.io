@@ -16,8 +16,10 @@ tags:
 
 ## Other guides
 
-https://kanpov.github.io/articles/creating-blog-site-with-quartz4-obsidian
-https://zanca.dev/blog/quartz
+- https://kanpov.github.io/articles/creating-blog-site-with-quartz4-obsidian
+- https://zanca.dev/blog/quartz
+- https://till-lieber.de/Anleitungen-quartz/
+- 
 
 
 # Basic Setup
