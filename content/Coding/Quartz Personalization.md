@@ -55,45 +55,6 @@ Sadly, some Quartz blogs haven't documented their changes:
   - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
   - -> https://github.com/freenandes/topo-da-mente 
 
-Idea for new folder structure:
-- /contents/notes/[Brewing Coding etc]
-- 
-```
-C:\users\USERNAME\Obsidian\VAULTNAME\
- ├── .git
- │   └── ...
- ├── .obsidian
- │   └── ...
- ├── .github
- │   ├── sync.yml
- │   └── workflows
- │       └── sync.yml
- ├── .trash
- │   └── .gitkeep
- ├── private
- │   └── .gitkeep
- ├── templates
- │   └── blog.md
- └── public
- │   ├── blog (or "notes"?)
- │   │   ├── Topic1
- │   │   │   ├── attachments
- │   │   │   │   └── image.png
- │   │   │   └── blogpage1.md
- │   │   └── Topic2
- │   │       └── blogpage2.md
- │   ├── tags
- │   │   └── tag1.md
- │   ├── static_files
- │   │   ├── my quartz config files
- │   │   │   ├── Version 1
- │   │   │   │   └── ...
- │   │   │   └── README.md
- │   │   └── Dataview.md
- │   └── index.md
- └── .gitignore
-```
-
 missing:
   - graph- und explorer exclude
   - folder emoji (index.md)
@@ -102,14 +63,6 @@ missing:
   - folder structure
   - tag structure
   - note template
-  - enhancement ideas and bugs 
-	  - add `-`, `->` or `/cdot` in front of chapters in ToC, in order to enhance readability
-		  - (or some default emoji, if none is present already)
-		  - `->` renders in ToC as `<span>&rarr;</span>`
-	  - searching for `foo.bar` returns sites containing `foo` and `bar` separately as well
-	  - specify a part of .md file that doesn't get parsed into quartz (e.g. for `dataview`, like [here](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/#List_unlinked_files))
-	  - check for dead (internal) links
-	  - if the string `#foo` appears outside of the frontmatter, it gets added to the list of tags despite not being present in the frontmatter
 
 # Individual Changes
 

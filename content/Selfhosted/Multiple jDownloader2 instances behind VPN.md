@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-19
 publishDate: 2024-05-19
-updated: 2024-05-20
+updated: 2024-05-21
 draft: false
 tags:
   - note
@@ -306,3 +306,6 @@ Just some bullet points of improvement ideas:
 - reduce required browser interaction
 - remove the need for https://my.jdownloader.org/ (maybe through only local connections?)
 - build a script to detect idle containers (maybe by network load?) and restart the associated containers
+- script to identify (and resolve) problems related to `<jd:default>`
+- script to identify (and resolve) problems related to too long filenames (Synology problem?)
+- 
