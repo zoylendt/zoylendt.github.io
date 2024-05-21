@@ -22,7 +22,11 @@ By making my notes public I'm forcing myself to write with some coherence in min
 
 ## 🛠️ Languages and Tools
 
-
+Missing .svg icons:
+- Proxmox
+- Tailscale
+- TrueNAS
+- HomeAssistant
 
 <!-- https://devicon.dev/ -->
 
