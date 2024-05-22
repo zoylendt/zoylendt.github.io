@@ -14,7 +14,10 @@ I often have way too many browser tabs open and occasionally save them all to my
 There are [many open source projects](https://github.com/awesome-selfhosted/awesome-selfhosted?tab=readme-ov-file#bookmarks-and-link-sharing) that aim to solve this problem. Before I evaluate them I need to formulate the objectives a bookmark manager should satisfy for me:
 
 Required functions:
-- ...
+- runs on Docker
+- Chrome browser extension
+- 
 
 Optional functions:
-- ...
+- import/export
+- 
