@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-05-21
+updated: 2024-05-22
 ---
 
 > [!warning]
@@ -9,7 +9,7 @@ updated: 2024-05-21
 
 Hi, welcome to my notes and thoughts :D
 
-This blog runs on a [[Quartz customizations|slightly modified]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/) and backed up with Obsidian's git plugin. [[This website 2|Here]] I've documented my workflow.
+This blog runs on a [[Quartz starting page|slightly modified]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/) and backed up with Obsidian's git plugin. [[My obsidian git quartz workflow|Here]] I've documented my workflow.
 
 Soon after realizing that my previous method, (digital) "Zettelwirtschaft", an unsustainable way of organizing my thoughts was, was I searching for an alternative, something with more structure. I chose Quartz for its [native integration](https://quartz.jzhao.xyz/features/Obsidian-compatibility) with Obsidian and its other great [features](https://quartz.jzhao.xyz/#-features), like the incredible fast [search](https://quartz.jzhao.xyz/features/full-text-search) (try `[ctrl]+[k]`), the [popover previews](https://quartz.jzhao.xyz/features/popover-previews) (hover over an [[Booklist|internal link]]) and the [graph view](https://quartz.jzhao.xyz/features/graph-view) (klick the little graph symbol in the Graph View's top right corner). These features make Quartz an ideal choice as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system, a [second brain](https://www.ssp.sh/brain/second-brain) or a ["digital garden"](https://mwalton.me/thoughts/digital-forests), a topic which I haven't explored myself yet.
 
