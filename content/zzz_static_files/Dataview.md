@@ -16,6 +16,15 @@ where econtains(tags, "unfinished")
 sort updated
 ```
 
+# Notes tagged #barebone 
+
+```dataview title="Untested notes"
+table title, date, updated
+from "public"
+where econtains(tags, "barebone")
+sort updated
+```
+
 # Notes tagged #untested 
 
 ```dataview title="Untested notes"
