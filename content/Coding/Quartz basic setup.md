@@ -20,8 +20,10 @@ This note is about how to spin up your own quartz instance, hosted on [GitHub Pa
 In this guide we'll host Quartz on GitHub Pages, however there are [other options](https://quartz.jzhao.xyz/hosting). 
 
 
-- Fork https://github.com/jackyzha0/quartz (name: GHUSERNAME.github.io)
-- create new branch "upstream" (from v4, useful to compare changes that happen upstream which might require config changes)
+- Fork https://github.com/jackyzha0/quartz 
+	- Your blog can be reachable at `GHUSERNAME.github.io` (fork as `GHUSERNAME.github.io`) or a subdomain, like `GHUSERNAME.github.io/blog` (fork as `blog`).  You only need to fork the branch `v4`.
+- (optional) Create new branch "upstream" 
+	- From branch `v4`, useful to compare changes that happen upstream, see [[Quartz sync fork|this note]] for more details.
 - delete the folder "content" and the file README.md (and `Build and Test` workflow)
 - follow https://quartz.jzhao.xyz/hosting#github-pages
 - (optional) Instructions for use with a custom domain: https://quartz.jzhao.xyz/hosting#custom-domain
