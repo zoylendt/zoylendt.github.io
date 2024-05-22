@@ -72,4 +72,4 @@ tags:
 
 # Notes
 
-- `draft: flase` gets treated as `draft: flase`
+- `draft: flase` gets treated as (the default?) `draft: true`
