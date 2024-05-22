@@ -5,7 +5,7 @@ updated: 2024-05-22
 ---
 
 > [!warning]
-> Many notes in this blog are still [[tags/unfinished]], some are about topics I [[tags/untested|haven't tested or implemented yet]], but want to eventually.
+> Many notes in this blog are still [[tags/unfinished]] or only exist as a [[tags/barebone]], some are about topics I [[tags/untested|haven't tested or implemented yet]] but want to eventually.
 
 Hi, welcome to my notes and thoughts :D
 
@@ -68,7 +68,7 @@ In this category I also deal with other food-related topics, like brewing mead, 
    - [[tags/recipe|General cooking recipes]]
 - 📑 [[Coding|Coding, Programming & Note Taking]]  
 Here I write about my Obsidian setup and how I use it to deploy this website on GitHub, 
-   - 📄 [[Markdown guide 2|Markdown Guide]]
+   - 📄 [[Markdown guide|Markdown Guide]]
    - 📄 [[My obsidian git quartz workflow|How this website was build]]
    - [[tags/markdown|Markdown]]
    - [[tags/latex|LaTEX]]

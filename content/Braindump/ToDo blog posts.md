@@ -6,7 +6,6 @@ publishDate: 2024-02-11
 draft: false
 tags:
   - note
-  - todo
   - unfinished
 ---
 
