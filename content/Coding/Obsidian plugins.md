@@ -14,11 +14,12 @@ tags:
 > This note is part of a series about how this blog is set up.
 > See [[Quartz starting page|here]] for an overview.
 
+An overview about Obsidian plugins, with notes about the ones I'm using.
+
 # Resources
 
 https://www.youtube.com/watch?v=Yzi1o-BH6QQ
 https://www.youtube.com/watch?v=W7kTtn9empU
-
 
 # Community Plugins
 
