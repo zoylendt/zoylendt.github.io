@@ -10,5 +10,6 @@ tags:
   - barebone
   - markdown
 ---
- 
-https://notes.camargomau.com/
+
+- https://notes.camargomau.com/
+- https://zanca.dev/notes/callouts
