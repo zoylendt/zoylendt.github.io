@@ -3,7 +3,7 @@ title:
 date: 2024-05-12
 publishDate: 2024-05-12
 updated: 2024-05-22
-draft: true
+draft: false
 tags:
   - note
   - unfinished
@@ -52,3 +52,4 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
 
 
 - naming conventions for new files
+- make sure every file has an individual name -> script/plugin to check?
