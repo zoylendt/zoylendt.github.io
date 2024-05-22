@@ -18,5 +18,15 @@ I've also documented my [[My obsidian git quartz workflow|workflow for new blog 
 
 If you're now starting with Quartz and/or Obsidian, you might want to read my notes on [[tags/markdown]] or all notes about [[tags/obsidian]], [[tags/quartz]] and [[tags/github]].
 
----
+>[!example] Finished notes referenced
+>- [ ] [[Quartz basic setup]]
+>- [ ] [[Quartz customizations]]
+>- [ ] [[My quartz config files]]
+>- [ ] [[Quartz sync fork]]
+>- [ ] [[Quartz bugs & enhancement ideas]]
+>- [ ] [[My obsidian git quartz workflow]]
+>- [ ] [[Obsidian Plugins]]
+>- [ ] [[My obsidian folder structure]]
+>- [ ] [[Quartz frontmatter]]
+>- [ ] [[Obsidian on multiple PCs]]
 
