@@ -22,6 +22,8 @@ A collection of Quartz bugs I noticed, and some improvement Ideas I came up with
 - searching for `foo.bar` returns sites containing `foo` and `bar` separately as well -> should only return sites containing `foo.bar`
 - if the string `#foo` appears in a .md file outside of the frontmatter, it gets added to the list of tags despite not being present in the frontmatter
 - `https://zoylendt.github.io/tags/{tagname}/` and `https://zoylendt.github.io/{foldername}/` -> layout looks different from normal pages, like `https://zoylendt.github.io/`
+- RSS feed crashed for an unknown reason: https://zoylendt.github.io/index.xml
+- 
 
 # Enhancement ideas
 
