@@ -26,4 +26,6 @@ tags:
 
 ...
 
-# 
+# ...
+
+This page is intended to be a starting point, if you want to know how to build your own Quartz blog, either with a quick basic setup or with many individualizations to customize the appearance. I've also documented my workflow for new blog entries, using Obsidian and its git plugin (among other plugins I use).
