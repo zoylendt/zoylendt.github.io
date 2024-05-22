@@ -16,7 +16,7 @@ There are [many open source projects](https://github.com/awesome-selfhosted/awes
 Required functions:
 - runs on Docker
 - Chrome browser extension
-- 
+- save & restore current session
 
 Optional functions:
 - import/export
