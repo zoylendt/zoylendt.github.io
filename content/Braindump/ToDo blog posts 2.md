@@ -31,6 +31,8 @@ tags:
 - [ ] pr0gramm tampermonkey setup
 - [ ] tag: bookmark -> 
 - [ ] list of other blogs -> https://www.vibrio.eu/blog/50-wichtige-deutschsprachige-it-blogs-die-enrico-liste/
+- [ ] (automatic) check spelling and suggest improved sentences
+- [ ] 
 
 ## Brewing
 
