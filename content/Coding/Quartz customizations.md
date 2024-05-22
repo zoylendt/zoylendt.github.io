@@ -9,6 +9,7 @@ tags:
   - markdown
   - quartz
   - selfhosted
+  - unfinished
 ---
 
 > [!tip] Associated notes

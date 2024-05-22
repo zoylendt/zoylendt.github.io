@@ -226,7 +226,4 @@ After making sure that we've installed Git and prepared the Obsidian vault as a 
 
 ## Setup on new PC (Windows)
 
-- Install git
-- Install Obsidian, but don't create a new vault
-- Install GitHub Desktop, select your private repo `obsidian-backup` and klick "Clone `yourusername/obsidian-backup`"
-- Change your `local path` to your liking and click "Clone"
+-> see [[Obsidian on multiple PCs]]

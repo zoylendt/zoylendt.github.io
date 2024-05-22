@@ -8,6 +8,7 @@ tags:
   - note
   - quartz
   - markdown
+  - unfinished
 ---
 
 > [!tip] Associated notes

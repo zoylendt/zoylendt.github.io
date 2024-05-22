@@ -15,4 +15,4 @@ tags:
 > This note is part of a series about how this blog is set up.
 > See [[Quartz starting page|here]] for an overview.
 
-...
+First check if no file (outside of `/content`) that you have modified has been updated.
