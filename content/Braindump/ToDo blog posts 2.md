@@ -68,7 +68,7 @@ tags:
 - [ ] Restructure Guide:
 	- [ ] my workflow (Obsidian -> git -> GitHub -> sync action) -> [[My obsidian git quartz workflow]]
 	- [ ] basic setup (without custom layout) -> [[Quartz basic setup]]
-	- [ ] personalisations (used by me and not used by me) [[Quartz individualizations]]
+	- [ ] personalisations (used by me and not used by me) [[Quartz customizations]]
 	- [ ] my config files -> only link to github [[My quartz config files]]
 	- [ ] how to incorporate upstream changes [[Quartz sync fork]]
 	- [ ] my obsidian folder structure [[My obsidian folder structure]]
