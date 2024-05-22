@@ -19,6 +19,7 @@ tags:
 - Awesome-Selfhosted -> [GitHub](https://github.com/awesome-selfhosted/awesome-selfhosted), [Website](https://awesome-selfhosted.net/), [Daily](https://www.trackawesomelist.com/awesome-selfhosted/awesome-selfhosted/), 
 - Awesome-SysAdmin -> [GitHub](https://github.com/awesome-foss/awesome-sysadmin)
 - r/selfhosted -> [Reddit](https://www.reddit.com/r/selfhosted/), [Wiki](https://wiki.r-selfhosted.com/)
+- Unraid Community Apps -> [alphabetical list](https://unraid.net/community/apps)
 
 # Podcasts
 
@@ -30,10 +31,10 @@ tags:
 - Awesome-Docker -> [GitHub](https://github.com/veggiemonk/awesome-docker), [Website](https://awesome-docker.netlify.app/)
 
 
-# Individual apps
+# Individual apps I want to check out
 
-- https://github.com/YuukanOO/seelf
-- 
+- [ ] https://github.com/YuukanOO/seelf
+- [ ] [Jellystat](https://github.com/CyferShepard/Jellystat) -> tag: unstable
 
 
 # Blogs

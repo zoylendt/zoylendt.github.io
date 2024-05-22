@@ -124,7 +124,7 @@ tags:
 	- [ ] kopia
 	- [ ] imgbrd-grabber & szurubooru
 	- [ ] music -> navidrome (+ identifier)
-	- [ ] [Jellystat](https://github.com/CyferShepard/Jellystat) -> tag: unstable
+	- [ ] 
 - [ ] calendar
 - [ ] unraid sleep setup
 - [ ] pr0gramm backup
