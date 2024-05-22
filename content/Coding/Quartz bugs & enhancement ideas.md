@@ -9,6 +9,10 @@ tags:
   - quartz
 ---
 
+> [!tip] Associated notes
+> This note is part of a series about how this blog is set up.
+> See [[Quartz starting page|here]] for an overview.
+
 A collection of Quartz bugs I noticed, and some improvement Ideas I came up with.
 
 # Bugs

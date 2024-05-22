@@ -3,7 +3,7 @@ title: My Own Quartz Config Files
 description: 
 date: 2024-05-12
 publishDate: 2024-05-12
-updated: 2024-05-20
+updated: 2024-05-22
 draft: false
 tags:
   - note
@@ -11,6 +11,10 @@ tags:
   - git
   - github
 ---
+
+> [!tip] Associated notes
+> This note is part of a series about how this blog is set up.
+> See [[Quartz starting page|here]] for an overview.
  
 # My own config
 

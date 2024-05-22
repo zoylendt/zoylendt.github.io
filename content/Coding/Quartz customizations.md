@@ -10,6 +10,10 @@ tags:
   - quartz
   - selfhosted
 ---
+
+> [!tip] Associated notes
+> This note is part of a series about how this blog is set up.
+> See [[Quartz starting page|here]] for an overview.
  
 This post's topic are the changes I made of my Quartz instance in order to differentiate its appearance from the default config.
 

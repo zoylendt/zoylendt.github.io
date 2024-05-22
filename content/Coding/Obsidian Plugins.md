@@ -2,7 +2,7 @@
 title: Obsidian Plugins
 description: <Description of the page used for link previews>
 date: 2024-05-10
-updated: 2024-05-13
+updated: 2024-05-22
 publishDate: 2024-05-10
 draft: true
 tags:
@@ -10,6 +10,10 @@ tags:
   - obsidian
   - unfinished
 ---
+
+> [!tip] Associated notes
+> This note is part of a series about how this blog is set up.
+> See [[Quartz starting page|here]] for an overview.
 
 # Resources
 
@@ -21,7 +25,7 @@ https://www.youtube.com/watch?v=W7kTtn9empU
 
 ## Git
 
-see [[This website 2]]
+see [[My obsidian git quartz workflow]]
 
 ## Commander
 

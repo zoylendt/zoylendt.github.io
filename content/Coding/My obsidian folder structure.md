@@ -9,6 +9,10 @@ tags:
   - unfinished
   - obsidian
 ---
+
+> [!tip] Associated notes
+> This note is part of a series about how this blog is set up.
+> See [[Quartz starting page|here]] for an overview.
  
 - 
 ```

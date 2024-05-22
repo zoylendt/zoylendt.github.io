@@ -2,7 +2,7 @@
 title: Building This Website
 description: link preview
 date: 2024-05-06
-updated: 2024-05-21
+updated: 2024-05-22
 publishDate: 2024-05-06
 draft: false
 enableToc: true
@@ -11,6 +11,10 @@ tags:
   - markdown
   - selfhosted
 ---
+
+> [!tip] Associated notes
+> This note is part of a series about how this blog is set up.
+> See [[Quartz starting page|here]] for an overview.
  
 # Introduction
 

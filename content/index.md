@@ -69,7 +69,7 @@ In this category I also deal with other food-related topics, like brewing mead, 
 - 📑 [[Coding|Coding, Programming & Note Taking]]  
 Here I write about my Obsidian setup and how I use it to deploy this website on GitHub, 
    - 📄 [[Markdown guide 2|Markdown Guide]]
-   - 📄 [[This website 2|How this website was build]]
+   - 📄 [[My obsidian git quartz workflow|How this website was build]]
    - [[tags/markdown|Markdown]]
    - [[tags/latex|LaTEX]]
    - [[tags/obsidian|Obsidian]]

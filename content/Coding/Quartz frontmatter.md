@@ -10,6 +10,10 @@ tags:
   - markdown
 ---
 
+> [!tip] Associated notes
+> This note is part of a series about how this blog is set up.
+> See [[Quartz starting page|here]] for an overview.
+
 Documentation of the Quartz frontmatter implementation: [Here](https://quartz.jzhao.xyz/plugins/Frontmatter)
 
 Frontmatter example:
