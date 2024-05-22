@@ -27,6 +27,6 @@ If you're now starting with Quartz and/or Obsidian, you might want to read my no
 >- [ ] [[My obsidian git quartz workflow]]
 >- [ ] [[Obsidian Plugins]]
 >- [ ] [[My obsidian folder structure]]
->- [ ] [[Quartz frontmatter]]
+>- [x] [[Quartz frontmatter]]
 >- [ ] [[Obsidian on multiple PCs]]
 

@@ -3,7 +3,7 @@ title:
 date: 2024-05-20
 publishDate: 2024-05-20
 updated: 2024-05-22
-draft: true
+draft: false
 tags:
   - note
   - quartz
@@ -12,9 +12,9 @@ tags:
 
 Documentation of the Quartz frontmatter implementation: [Here](https://quartz.jzhao.xyz/plugins/Frontmatter)
 
+Frontmatter example:
 
-
-```
+```md
 title: 
 aliases:
   - alias1
@@ -30,9 +30,9 @@ tags:
   - changeme
 ```
 
-components without any effect:
+Apparently by Quartz ignored components:
 
-```
+```md
 aliases:
   - alias1
 description: <Description of the page used for link previews>
@@ -42,14 +42,16 @@ publish: false
 
 # not allowed (or GitHub Action fails)
 
+> [!warning]
+> A wrongly formatted frontmatter can prevent Quartz from compiling successfully!
+
 - `:` in title
 	- fails: `title: movie: 123`
 	- works: `title: "movie: 123"`
-- 
 
 # My default frontmatter (Obsidian template)
 
-```
+```md
 ---
 title: 
 date: {{date}} 
