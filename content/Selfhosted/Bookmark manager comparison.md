@@ -22,6 +22,8 @@ Optional functions:
 - import/export
 
 
-https://chromewebstore.google.com/detail/tab-session-manager/iaiomicjabeggjcfkbimgmglanimpnae
+https://github.com/sienori/Tab-Session-Manager -> https://chromewebstore.google.com/detail/tab-session-manager/iaiomicjabeggjcfkbimgmglanimpnae
 
 `chrome://flags/#tab-groups-save`
+
+https://github.com/sissbruecker/linkding

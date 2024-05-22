@@ -8,6 +8,8 @@ tags:
   - note
   - beer
   - brewing
+  - unfinished
+  - barebone
 ---
  
 markdown content :)
