@@ -8,7 +8,11 @@ tags:
   - note
   - markdown
 ---
- 
+
+A page to test markdown renderings in Quartz.
+
+---
+
 <!-- This page is the same as https://github.com/metruzanca/metruzanca -->
 
 # Sam <img width="20px" style="margin-bottom:-0px" src="https://zanca.dev/static/icon.png"/>anca
