@@ -2,14 +2,18 @@
 title: 
 date: 2024-05-20
 publishDate: 2024-05-20
-updated: 2024-05-20
+updated: 2024-05-22
 draft: true
 tags:
   - note
   - quartz
   - markdown
 ---
- 
+
+Documentation of the Quartz frontmatter implementation: [Here](https://quartz.jzhao.xyz/plugins/Frontmatter)
+
+
+
 ```
 title: 
 aliases:
@@ -38,4 +42,22 @@ publish: false
 
 # not allowed (or GitHub Action fails)
 
-- `:` in title (when used like `title: movie: 123`, works fine when used like `title: "movie: 123"`)
+- `:` in title
+	- fails: `title: movie: 123`
+	- works: `title: "movie: 123"`
+- 
+
+# My default frontmatter (Obsidian template)
+
+```
+---
+title: 
+date: {{date}} 
+publishDate: {{date}} 
+updated: {{date}} 
+draft: true
+tags:
+  - note
+  - unfinished
+---
+```
