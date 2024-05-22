@@ -58,21 +58,19 @@ tags:
 	- [ ] Mermaid Diagrams -> https://mermaid.live/
 	- [ ] about digital gardening -> https://mwalton.me/thoughts/digital-forests
 	- [ ] allowed frontmatter
-	- [ ] Blog personalisation
 - [ ] 
 
 ### This website
 
-- [ ] how to include upstream updates into your quartz repo
 - [ ] define [poetry code](https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code)
 - [ ] Restructure Guide:
 	- [ ] my workflow (Obsidian -> git -> GitHub -> sync action)
 	- [ ] basic setup (without custom layout)
-	- [ ] my setup (only my changes to customize my instance)
-	- [ ] my config files -> link to github
+	- [ ] personalisations (used by me and not used by me)
+	- [ ] my config files -> only link to github
 	- [ ] how to incorporate upstream changes
 	- [ ] my obsidian folder structure
-	- [ ] continue on another PC
+	- [ ] how to continue on another PC
 
 ## Physics
 
@@ -81,7 +79,7 @@ tags:
 ## Media
 
 - [ ] Handhelds
-- [ ] Booklist -> translate german titles
+- [ ] videogames
 - [ ] webcomics
 - [ ] quotes
 - [ ] iPhone apps I use
@@ -95,7 +93,7 @@ tags:
 	- [ ] Comics/manga separately
 	- [ ] previously read books
 	- [ ] favorite books
-	- [ ] 
+	- [ ] translate german titles
 
 ## Selfhosted
 
