@@ -25,6 +25,7 @@ In this guide we'll host Quartz on GitHub Pages, however there are [other option
 	- From branch `v4`, useful to compare changes that happen upstream, see [[Quartz sync fork|this note]] for more details.
 - (optional) Delete the files `README.md` and `.github/workflows/ci.yaml`
 - Create a new file `contents/index.md`. 
+	- The file can be empty (for now), look [here](https://github.com/jackyzha0/quartz/blob/v4/docs/index.md) for inspirations.
 - Follow the [[Quartz customizations#Minimal required config changes]].
 - Create a new file `.github/workflows/deploy.yml`, for the contents see https://quartz.jzhao.xyz/hosting#github-pages
 - Head to “Settings” tab of your forked repository and in the sidebar, click “Pages”. Under “Source”, select “GitHub Actions”.
