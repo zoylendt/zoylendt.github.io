@@ -202,7 +202,7 @@ After making sure that we've installed Git and prepared the Obsidian vault as a 
 
 ...
 
-# Personalize you Quartz
+# Customize you Quartz
 
 ## config changes
   - changes of layout
