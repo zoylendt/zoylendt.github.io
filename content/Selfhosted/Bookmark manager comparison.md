@@ -20,4 +20,8 @@ Required functions:
 
 Optional functions:
 - import/export
-- 
+
+
+https://chromewebstore.google.com/detail/tab-session-manager/iaiomicjabeggjcfkbimgmglanimpnae
+
+`chrome://flags/#tab-groups-save`
