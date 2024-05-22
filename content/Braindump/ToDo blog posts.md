@@ -95,10 +95,10 @@ tags:
 	- [ ] previously read books
 	- [ ] favorite books
 	- [ ] translate german titles
+	- [ ] Warhammer40K books
 
 ## Selfhosted
 
-- list of used hardware
 - list of unused hardware
 - list of RasPi stuff
 - list of µController stuff

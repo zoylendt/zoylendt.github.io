@@ -3,7 +3,7 @@ title:
 date: 2024-05-11
 publishDate: 2024-05-11
 updated: 2024-05-22
-draft: flase
+draft: false
 tags:
   - note
   - unfinished
