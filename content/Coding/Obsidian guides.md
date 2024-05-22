@@ -8,6 +8,8 @@ tags:
   - note
   - obsidian
   - bookmarks
+  - unfinished
+  - barebone
 ---
 
 Some websites with guides about Obsidian:
