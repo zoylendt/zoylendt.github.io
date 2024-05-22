@@ -10,9 +10,6 @@ tags:
   - quartz
   - unfinished
 ---
-
-> [!warning]
-> This note is highly unfinished!
  
 Here are some examples about how markdown rendered by Quartz.
 

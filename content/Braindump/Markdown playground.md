@@ -9,6 +9,9 @@ tags:
   - markdown
 ---
 
+> [!warning]
+> This note is subject to frequent changes!
+
 A page to test markdown renderings in Quartz.
 
 ---

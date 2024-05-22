@@ -10,7 +10,7 @@ tags:
 ---
 
 > [!warning]
-> This note is highly unfinished!
+> This note is subject to frequent changes!
  
 # Some topics I want to write about:
 
