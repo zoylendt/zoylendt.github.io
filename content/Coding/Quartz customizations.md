@@ -4,7 +4,6 @@ date: 2024-02-07
 updated: 2024-05-22
 publishDate: 2024-02-07
 draft: false
-enableToc: true
 tags:
   - note
   - markdown
@@ -19,12 +18,25 @@ The main drawback of changing core components of Quartz is, that upstream change
 -> add callout with version info
 
 > [!tip]
-> The instructions here might be outdated, please check the [official instructions](https://quartz.jzhao.xyz/configuration) first!
+> The instructions provided here might be outdated, please check the newest [official instructions](https://quartz.jzhao.xyz/configuration) first!
 > 
 
-# Inspirations
+# Inspirations from other Quartz instances
 
-The inspirations for this changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase), mainly the following ones:
+The inspirations for most changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase).
+
+I have incorporated these changes into my instance:
+
+- ...
+- ...
+
+Some other modifications that caught my interest, but which I did not include in my instance:
+
+- ...
+- ...
+
+---
+
   - Change the [Layout](https://quartz.jzhao.xyz/layout) for all pages
 	  - Change the blog name
 	  - Change the default footer
