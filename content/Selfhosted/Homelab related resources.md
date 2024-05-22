@@ -16,7 +16,14 @@ tags:
 # Compilations of selfhostable apps
 
 - https://selfh.st/apps/
-- 
+- Awesome-Selfhosted -> [GitHub](https://github.com/awesome-selfhosted/awesome-selfhosted), [Website](https://awesome-selfhosted.net/), [Daily](https://www.trackawesomelist.com/awesome-selfhosted/awesome-selfhosted/), 
+- Awesome-SysAdmin -> [GitHub](https://github.com/awesome-foss/awesome-sysadmin)
+- r/selfhosted -> [Reddit](https://www.reddit.com/r/selfhosted/), [Wiki](https://wiki.r-selfhosted.com/)
+
+
+# Docker
+
+- Awesome-docker -> [GitHub](https://github.com/veggiemonk/awesome-docker), [Website](https://awesome-docker.netlify.app/)
 
 
 # Tools
