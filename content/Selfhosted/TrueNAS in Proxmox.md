@@ -13,6 +13,8 @@ tags:
  
 How to set up a TrueNAS Vm on Proxmox 8, with a 2TB SSD passed through.
 
+ISO: TrueNAS-SCALE-24.04.0.iso
+
 # VM setup
 
 (enable Advanced view)
