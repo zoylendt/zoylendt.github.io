@@ -3,7 +3,7 @@ title: Dataview plugin
 date: 2024-05-20
 publishDate: 2024-05-20
 updated: 2024-05-22
-draft: true
+draft: false
 tags:
   - note
   - unfinished

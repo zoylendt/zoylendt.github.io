@@ -2,12 +2,12 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-05-20
-draft: true
-publish: false
+updated: 2024-05-22
+draft: false
 tags:
   - note
   - markdown
+  - unfinished
 ---
  
 [Source](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
