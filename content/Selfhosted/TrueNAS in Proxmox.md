@@ -9,6 +9,7 @@ tags:
   - unfinished
   - proxmox
   - truenas
+  - internal
 ---
  
 How to set up a TrueNAS Vm on Proxmox 8, with a 2TB SSD passed through.
