@@ -23,7 +23,7 @@ If you're now starting with Quartz and/or Obsidian, you might want to read my no
 >- [ ] [[Quartz customizations]]
 >- [ ] [[My quartz config files]]
 >- [ ] [[Quartz sync fork]]
->- [ ] [[Quartz bugs & enhancement ideas]]
+>- [x] [[Quartz bugs & enhancement ideas]]
 >- [ ] [[My obsidian git quartz workflow]]
 >- [ ] [[Obsidian Plugins]]
 >- [ ] [[My obsidian folder structure]]

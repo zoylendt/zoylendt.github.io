@@ -1,6 +1,5 @@
 ---
 title: 
-description: <Description of the page used for link previews>
 date: 2024-05-12
 publishDate: 2024-05-12
 updated: 2024-05-22
@@ -8,7 +7,7 @@ draft: true
 tags:
   - note
   - unfinished
-  - quartz
+  - obsidian
 ---
  
 - 
@@ -28,13 +27,13 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  │   └── .gitkeep
  ├── templates
  │   └── blog.md
- └── public
+ ├── public
  │   ├── Topic1
  │   │   ├── attachments
  │   │   │   └── image.png
  │   │   └── blogpage1.md
  │   ├── Topic2
- │       └── blogpage2.md
+ │   │   └── blogpage2.md
  │   ├── tags
  │   │   └── tag1.md
  │   ├── zzz_static_files
@@ -46,3 +45,6 @@ C:\users\USERNAME\Obsidian\VAULTNAME\
  │   └── index.md
  └── .gitignore
 ```
+
+
+- naming conventions for new files
