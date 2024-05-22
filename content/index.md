@@ -56,8 +56,10 @@ I want to write about many different topics, but they can (hopefully) be categor
 
 - 🧠 [[Braindump]]  
 A place for thoughts and stuff that doesn't fit the other categories. New ideas, unfinished thoughts, plans, things I stumbled upon the net, stuff like that ;)
-   - [[tags/todo|ToDo]] 
-   - [[tags/unfinished|unfinished blog entries]] 
+   - 📄 [[ToDo blog posts]] 
+   - [[tags/unfinished|unfinished notes]] 
+   - [[tags/barebone|notes with almost no content]] 
+   - [[tags/bookmarks|notes containing mainly references to external resources]] 
 - 🍺 [[Brewing|Home Brewing and cooking Recipes]]  
 A hobby of mine is home brewing which I like for its combination of traditional techniques, modern experiments, its fusion of handcrafting and automation - and of course it provides you with tasty beer ;)  
 Documenting my suds (brewing processes, "Sud" in german) was a big motivation for creating this blog, besides my [[Selfhosted/]] hobby.  

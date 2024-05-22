@@ -6,7 +6,7 @@ updated: 2024-05-22
 draft: false
 tags:
   - note
-  - bookmark
+  - bookmarks
   - unfinished
   - barebone
 ---
