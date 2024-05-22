@@ -13,7 +13,7 @@ tags:
 
 
 
-# Collections
+# Compilations of selfhostable apps
 
 - https://selfh.st/apps/
 - 
@@ -28,4 +28,9 @@ tags:
 # Blogs
 
 - https://blog.gurucomputing.com.au/Offsite%20Docker%20Backups%20with%20Kopia/Offsite%20Docker%20Backups%20with%20Kopia/
-- 
+
+
+# Proxmox
+
+- Proxmox VE Helper-Scripts -> [GitHub](https://github.com/tteck/Proxmox), [Website](https://helper-scripts.com/), [Guides](https://github.com/tteck/Proxmox/blob/main/USER_SUBMITTED_GUIDES.md)
+- ...
