@@ -8,7 +8,6 @@ tags:
   - note
   - quartz
   - github
-  - unfinished
 ---
  
 > [!tip] Associated notes
@@ -17,9 +16,7 @@ tags:
 
 First check if no file (outside of `/content`) that you have modified has been updated. Compare changes here: https://github.com/zoylendt/zoylendt.github.io/compare/upstream...jackyzha0%3Aquartz%3Av4 (for my repo).
 
-Sync both
-
-
+Sync both branches (`upstream` and `v4`) with https://github.com/jackyzha0/quartz 
 
 ![[Pasted image 20240522153730.png]]
 
