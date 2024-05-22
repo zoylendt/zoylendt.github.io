@@ -20,13 +20,17 @@ tags:
 - Awesome-SysAdmin -> [GitHub](https://github.com/awesome-foss/awesome-sysadmin)
 - r/selfhosted -> [Reddit](https://www.reddit.com/r/selfhosted/), [Wiki](https://wiki.r-selfhosted.com/)
 
+# Podcasts
+
+- [selfhosted](https://selfhosted.show/)
+
 
 # Docker
 
-- Awesome-docker -> [GitHub](https://github.com/veggiemonk/awesome-docker), [Website](https://awesome-docker.netlify.app/)
+- Awesome-Docker -> [GitHub](https://github.com/veggiemonk/awesome-docker), [Website](https://awesome-docker.netlify.app/)
 
 
-# Tools
+# Individual apps
 
 - https://github.com/YuukanOO/seelf
 - 
@@ -40,4 +44,9 @@ tags:
 # Proxmox
 
 - Proxmox VE Helper-Scripts -> [GitHub](https://github.com/tteck/Proxmox), [Website](https://helper-scripts.com/), [Guides](https://github.com/tteck/Proxmox/blob/main/USER_SUBMITTED_GUIDES.md)
+- ...
+
+# HomeAssistant
+
+- [Installing HA on Proxmox 8](https://community.home-assistant.io/t/installing-home-assistant-os-using-proxmox-8/201835)
 - ...
