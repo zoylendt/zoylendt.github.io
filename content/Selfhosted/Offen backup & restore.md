@@ -17,8 +17,6 @@ This note is about how to use **offen/docker-volume-backup** ([GitHub](https://g
 
 Let's say we want to back up the volume `important_volume` into another volume, `offen_backup_syncthing`. Instead a local folder can also be selected, I just use a volume mounted into syncthing to sync the backups to a remote location.
 
-
-
 >[!info]- Useful docker commands
 > 1. List all docker volumes
 > ```shell title="1. List all docker volumes"
@@ -69,3 +67,21 @@ docker run --rm \
 The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf file.tar.gz`. This creates a new folder `backup` (notice: **NOT** with the name of the archive!) and within a folder with the volume name. The volume's contents are inside this folder.
 
 # Restore backup
+
+1. Set shell variable with the name of the volume you want to restore to
+
+```shell
+DVAR='important_volume'
+```
+
+2. 
+
+```shell"
+mkdir ./tmp/$DVAR
+tar -C ./tmp/$DVAR -xvf  $DVAR-*.tar.gz
+docker run -d --name temp_restore_container -v /volume1/temp/docker/deluge/downloads:/backup_restore alpine
+docker cp -a ./tmp/$DVAR/backup/$DVAR/. temp_restore_container:/backup_restore
+docker rm temp_restore_container
+rm -r ./tmp/$DVAR
+rm -r $DVAR-*.tar.gz
+```
