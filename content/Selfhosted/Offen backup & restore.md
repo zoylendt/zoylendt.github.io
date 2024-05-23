@@ -66,7 +66,7 @@ docker run --rm \
 
 ## Into another volume
 
-I use this approach on remote hosts to create backups inside a volume (`offen_backup_syncthing`) that's mounted to a [[tags/syncthing|Syncthing]] container, which syncs it to my home or another backup location.
+I use this approach on remote hosts to create backups inside a volume (`offen_backup_syncthing`) that's mounted to a [[tags/syncthing|Syncthing]] container, which copies the backups to my home or another backup location.
 
 > [!warning] Required folder structure
 > The folder `offenbackup` inside the volume `offen_backup_syncthing` must be present, the copy script inside `offen/docker-volume-backup` fails otherwise. Workaround: -> replace `BACKUP_ARCHIVE="/archive/offenbackup"` with `BACKUP_ARCHIVE="/archive"`, which changes how the backup archives are stored inside the volume `offen_backup_syncthing`.
