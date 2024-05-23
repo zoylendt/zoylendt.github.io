@@ -6,7 +6,6 @@ updated: 2024-05-23
 draft: false
 tags:
   - note
-  - unfinished
   - docker
   - backup
   - syncthing
