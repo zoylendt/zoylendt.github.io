@@ -25,11 +25,12 @@ The following different containers are part of this setup:
 - `plusminus/jdownloader2-headless` ([GitHub](https://github.com/PlusMinus0/headless-jd2-docker), [DockerHub](https://hub.docker.com/r/plusminus/jdownloader2-headless)) -> Despite not been updated in a long time, this container worked best for me. The regular updates of jD2 are installed upon container restart. **This image is not available for `linux/arm64`!**
 
 >[!info]- Build `jdownloader2-headless` on RasPi
-> ````
+> ```shell 
 > git clone https://github.com/PlusMinus0/headless-jd2-docker
-
-
+> cd headless-jd2-docker/
+> docker build -t localjd2 -f alpine.Dockerfile .
 > ```
+> Replace every `image: plusminus/jdownloader2-headless` in `docker-compose.yaml` with `image: localjd2`
 
 - `lscr.io/linuxserver/syncthing` ([LinuxServer.io](https://docs.linuxserver.io/images/docker-syncthing/)) -> I run the setup on a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) to circumvent disconnections caused by my [ISP](https://en.wikipedia.org/wiki/Internet_service_provider), so I need some tool to retrieve successfully downloaded files.
 - `jamesread/olivetin` ([GitHub](https://github.com/OliveTin/OliveTin), [DockerHub](https://hub.docker.com/r/jamesread/olivetin)) -> Used to restart individual components of the setup without requiring to log into the server's shell, Portainer or something similar.
@@ -242,6 +243,7 @@ volumes:
     name: jd2_2_extensions
 ```
 
+Enter your credentials in `.env`, then run `docker compose pull`, followed 
 # - Configuration of each jd2 instance
 
 ...
