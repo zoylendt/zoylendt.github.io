@@ -71,3 +71,18 @@ sudo docker run hello-world
  https://cdn-learn.adafruit.com/downloads/pdf/read-only-raspberry-pi.pdf
  
 sudo raspi-config
+
+# Problem
+
+```
+$ lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sdb           8:16   0 476.9G  0 disk
+└─sdb1        8:17   0 476.9G  0 part
+mmcblk0     179:0    0  29.1G  0 disk
+├─mmcblk0p1 179:1    0   512M  0 part /boot/firmware
+└─mmcblk0p2 179:2    0  28.6G  0 part /media/root-ro
+
+$ ls /mnt/ssd/
+ls: reading directory '/mnt/ssd/': Input/output error
+```
