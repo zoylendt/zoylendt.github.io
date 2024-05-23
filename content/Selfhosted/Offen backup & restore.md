@@ -72,7 +72,7 @@ I use this approach on remote hosts to create backups inside a volume (`offen_ba
 > [!warning] Required folder structure
 > The folder `offenbackup` inside the volume `offen_backup_syncthing` must be present, the copy script inside `offen/docker-volume-backup` fails otherwise. Workaround: -> replace `BACKUP_ARCHIVE="/archive/offenbackup"` with `BACKUP_ARCHIVE="/archive"`, which changes how the backup archives are stored inside the volume `offen_backup_syncthing`.
 
-The contents of `offen_backup_syncthing` are structured like this, to separate the backup archives from the syncthing files (`.stfolder` & `.stversions`):
+The contents of `offen_backup_syncthing` are structured like this to separate the backup archives from the syncthing files (`.stfolder` & `.stversions`):
 
 ```
 offen_backup_syncthing
@@ -119,7 +119,7 @@ You can also view the content of `backup.tar.gz` like this:
 tar -tvf backup.tar.gz
 ```
 
-or using Docker:
+or using Docker (if for some reason `tar` is not installed):
 
 ```shell
 docker run --rm -v ./backup.tar.gz:/data/backup.tar.gz alpine tar -tvf /data/backup.tar.gz
@@ -147,7 +147,7 @@ drwxr-xr-x 1000/users        0 2024-05-23 13:38 /backup/volumename
 1. Set shell variable with the name of the volume you want to restore to
 
 ```shell
-DVAR='important_volume'
+DVAR='volumename'
 ```
 
 2. Remove old volume contents (after stopping related containers!)
@@ -189,7 +189,7 @@ It's possible to restore the backup directly to the volume instead of extracting
 1. Set shell variable with the name of the volume you want to restore to.
 
 ```shell
-DVAR='important_volume'
+DVAR='volumename'
 ```
 
 2. Remove old volume contents (after stopping related containers!)
