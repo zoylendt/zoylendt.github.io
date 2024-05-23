@@ -13,7 +13,7 @@ tags:
  
 Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads).
 
-Currently I use five parallel jd2 instances, each behind its own VPN container. With my [ProtonVPN plan](https://protonvpn.com/de/pricing) I could use up to ten instances. However there is nothing preventing you from using other VPN providers or mix multiple providers.
+Currently I use five parallel jd2 instances, each behind its own VPN container. With my [ProtonVPN plan](https://protonvpn.com/de/pricing) I could use up to ten instances simultaneously. However there is nothing preventing you from using other VPN providers or mix multiple providers.
 
 > [!note]
 > Of course this setup is useless for One-click hosts that prohibit downloads from IPs associated with VPS or VPN. Geoblocking can also be an issue due to the random connections.

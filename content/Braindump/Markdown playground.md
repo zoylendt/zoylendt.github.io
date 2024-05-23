@@ -394,7 +394,7 @@ This is a sample file.
 
 <details>
 <summary>[Click me] description</summary>
-```shell
+  ```shell
 ls -alh
-```
+  ```
 </details>

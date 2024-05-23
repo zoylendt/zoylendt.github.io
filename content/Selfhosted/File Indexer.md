@@ -9,4 +9,14 @@ tags:
   - unfinished
 ---
  
-markdown content :)
+I'm looking for a (dockerized) Setup that indexes files from multiple file storage systems at once.
+
+# Featurelist
+
+...
+
+# Candidates
+
+- (Windows only) [Everything](https://www.voidtools.com/)
+- sist2 [GitHub](https://github.com/simon987/sist2), [DockerHub](https://hub.docker.com/r/simon987/sist2)
+- andesite [GitHub](https://github.com/nektro/andesite) 
