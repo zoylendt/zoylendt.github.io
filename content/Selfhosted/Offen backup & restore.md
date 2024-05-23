@@ -26,6 +26,10 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 > ```shell title="2. Enter a container"
 > docker exec -it containername sh
 >```
+>3. List contents of a volume
+>```
+>docker run --rm -v $DVAR:/data/ ubuntu ls -la /data
+>```
 
 1. Set shell variable with volume name, useful if you want to backup multiple volumes (different syntax on Windows?)
 
@@ -85,8 +89,11 @@ mkdir -p ./tmp/$DVAR
 
 tar -C ./tmp/$DVAR -xvf $DVAR-*.tar.gz
 
-docker run -d --name temp_restore_container \
-  -v /volume1/temp/docker/deluge/downloads:/backup_restore alpine
+-> ./tmp/$DVAR/backup/$DVAR/[contents]
+
+docker run -d --name temp_restore_container -v $DVAR:/backup_restore alpine
+
+docker exec -it temp_restore_container "rm -r /backup_restore/*"
   
 docker cp -a ./tmp/$DVAR/backup/$DVAR/. temp_restore_container:/backup_restore
 
@@ -100,4 +107,10 @@ rm -r $DVAR-*.tar.gz
 Assumptions:
 - Only one archive named `$DVAR-*.tar.gz` is present.
 - Extracting to `./tmp/$DVAR` does not conflict with the path length limit of the filesystem.
-- 
+
+
+docker exec -it temp_restore_container sh
+
+docker run --rm -v $DVAR:/data/ ubuntu ls -la /data
+
+docker run --rm -v my_volume:/data/ ubuntu rm -rf /data/*
