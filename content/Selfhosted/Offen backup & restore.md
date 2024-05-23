@@ -86,10 +86,19 @@ You can also view the content of `backup.tar.gz` like this:
 tar -tvf backup.tar.gz
 ```
 
-# Restore backup
+# Restore backup manually
 
 Assumptions:
-- Extracting to `./tmp/$DVAR` does not conflict with the path length limit of the filesystem.
+- In your working directory is only one backup file per volume (so `$DVAR-*.tar.gz` is unambiguous).
+- Your archive file created by **offen/docker-volume-backup** has its contents nested like in this example (the volume's name, `$DVAR`, is here 'jd2_0_config'):
+
+```
+# tar -tvf backup.tar.gz
+tar: Removing leading `/' from member names
+drwxr-xr-x root/root         0 2024-05-23 13:45 /backup
+drwxr-xr-x 1000/users        0 2024-05-23 13:38 /backup/jd2_0_config
+-rw-r--r-- 1000/users        4 2024-05-23 13:15 /backup/jd2_0_config/config.json
+```
 
 ## With local extraction
 
@@ -150,7 +159,7 @@ docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 cp $DVAR-*.tar.gz backup.tar.gz
 ```
 
-4. Restore the backup. Without the [flag](https://askubuntu.com/questions/749592/extract-specific-folder-from-tarball-into-specific-folder) `--strip-components=2` the contents of our restored volume would look like this: `/backup/$DVAR/[contents of original volume]` instead of `/`. Depending on how you've nested the leading folders in your backup, you might have to change this. You can inspect your backup file first with `tar -tvf backup.tar.gz`.
+4. Restore the backup. Without the [flag](https://askubuntu.com/questions/749592/extract-specific-folder-from-tarball-into-specific-folder) `--strip-components=2` the contents of our restored volume would look like this: `/backup/$DVAR/[contents of original volume]` instead of `[contents of original volume]`. Depending on how you've nested the leading folders in your backup, you might have to change this. You can inspect your backup file first with `tar -tvf backup.tar.gz`.
 
 ```shell
 docker run --rm -it -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar --strip-components=2 -C /target -xzvf /archive/backup.tar.gz
