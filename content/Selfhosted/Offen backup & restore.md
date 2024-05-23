@@ -41,7 +41,7 @@ DVAR='important_volume'
 ```shell {4}
 docker run --rm \
   -v $DVAR:/backup/$DVAR:ro \
-  -v syncthing_data_5:/archive \
+  -v offen_backup_syncthing:/archive \
   --env BACKUP_ARCHIVE="/archive/offenbackup" \
   --env BACKUP_COMPRESSION="gz" \
   --env BACKUP_FILENAME="$DVAR-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
@@ -50,9 +50,9 @@ docker run --rm \
   offen/docker-volume-backup:v2
 ```
 
-Create Backup in current folder:
+Create Backup in current folder (no subdirectory):
 
-```
+```shell
 docker run --rm \
   -v $DVAR:/backup/$DVAR:ro \
   -v .:/archive \
