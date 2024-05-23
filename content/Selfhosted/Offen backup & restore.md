@@ -85,6 +85,16 @@ offen_backup_syncthing
      └── ...
 ```
 
+1. Set shell variable with volume name.
+
+```shell
+DVAR='volumename'
+```
+
+2. Make sure the corresponding containers are stopped. If the volume you want to backup contains a database, it might be advisable to create a database backup inside this volume now.
+
+3. Create the backup file. It will be named like `volumename-2024-05-23T11-45-02.tar.gz`.
+
 ```shell {4} title="Create Backup inside syncthing volume (with subdirectory)"
 docker run --rm \
   -v $DVAR:/backup/$DVAR:ro \
@@ -97,7 +107,9 @@ docker run --rm \
   offen/docker-volume-backup:v2
 ```
 
-# Inspect or extract backup
+4. Restart the previously stopped containers.
+
+# Inspect or extract backup archives
 
 The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf backup.tar.gz`. This creates a new folder `backup` (Note: **NOT** with the name of the archive, but with the name of the highest folder inside it!) and within this a folder with the volume name. The volume's contents are inside this folder.
 
