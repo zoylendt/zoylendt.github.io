@@ -25,10 +25,12 @@ mkdir /volume1/temp/input && mkdir /volume1/temp/output
 
 ```
 docker run --rm -d --name=makemkv -p 9400:5800 -v /volume1/temp/input:/storage:ro -v /volume1/temp/output:/output:rw -e USER_ID=0 -e GROUP_ID=0 jlesage/makemkv
+```
 
-connect browser to port 9400
+3. Connect browser to port 9400
+4. Cleanup
 
-...
-
+```
 docker stop makemkv
 ```
+
