@@ -49,18 +49,15 @@ I want to write about many different topics, but they can (hopefully) be categor
 
 - 🧠 [[Braindump]]  
 A place for thoughts and stuff that doesn't fit the other categories. New ideas, unfinished thoughts, plans, things I stumbled upon the net, stuff like that ;)
-   - 📄 [[ToDo blog posts|Topics I want to write about eventually]] 
-   - [[tags/unfinished|unfinished notes]] 
-   - [[tags/barebone|notes with almost no content]] 
-   - [[tags/bookmarks|notes containing mainly references to external resources]] 
+   - 📄 [[ToDo blog posts|Topics I want to write about eventually]]
 - 🍺 [[Brewing|Home Brewing and cooking Recipes]]  
 A hobby of mine is [[tags/brewing|home brewing]] which I like for its combination of traditional techniques and modern experiments, its fusion of handcrafting and automation (I use a [[tags/raspi|RaspberryPi]] for this) - and of course it provides you with tasty [[tags/beer]] ;)  
 Documenting my suds (brewing processes, "Sud" in german) was a big motivation for creating this blog, besides my [[Selfhosted/]] hobby.  
-In this category I also deal with other food-related topics, like brewing [[tags/mead]], fermenting kombucha, baking [[tags/bread]] and general cooking [[tags/recipe|recipes]].
+In this category I also deal with other food-related topics, like brewing [[tags/mead]], [[tags/fermenting]] kombucha, baking [[tags/bread]] and general cooking [[tags/recipe|recipes]].
    - 📄 [[My current brewing setup]]
-Here I write about my Obsidian setup and how I use it to deploy this website on GitHub, 
-   - 📄 [[Markdown guide|Markdown Guide]]
-   - 📄 [[My obsidian git quartz workflow|How this website was build]]
+- 📑 [[Coding|Coding, Programming & Note Taking]]
+Here I write about my [[tags/obsidian|Obsidian]] setup and how I use it to deploy this website on [[tags/github|GitHub]], ...
+   - 📄 [[Quartz starting page|How this website was build]]
    - [[tags/markdown|Markdown]]
    - [[tags/latex|LaTEX]]
    - [[tags/obsidian|Obsidian]]
