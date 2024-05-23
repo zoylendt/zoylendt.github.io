@@ -127,7 +127,7 @@ Assumptions:
 now: tar inside container
 
 ```shell
-docker run --rm -it -v $DVAR:/backup -v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro alpine tar -xf /archive/backup.tar.gz -C /backup
+docker run --rm -it -v $DVAR:/target -v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro alpine tar -C /target -xf /archive/backup.tar.gz backup
 ```
 
-docker run --rm -it -v $DVAR:/backup -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar -xf /archive/backup.tar.gz -C /backup
+docker run --rm -it -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar -C /target -xzvf /archive/backup.tar.gz backup
