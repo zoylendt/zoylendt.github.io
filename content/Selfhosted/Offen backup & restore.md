@@ -29,12 +29,12 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 >```
 >
 >3. List contents of a volume (works with alpine and ubuntu)
->```
+>```shell
 >docker run --rm -v $DVAR:/data/ alpine ls -la /data
 >```
 >
 >4. Remove contents of a volume (works with alpine and ubuntu)
->```
+>```shell
 >docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 >```
 
@@ -79,6 +79,12 @@ docker run --rm \
 # Extract backup
 
 The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf file.tar.gz`. This creates a new folder `backup` (notice: **NOT** with the name of the archive!) and within a folder with the volume name. The volume's contents are inside this folder.
+
+You can also view the top level content of `file.tar.gz` like this:
+
+```shell
+docker run --rm -v ./file.tar.gz:/mnt/file.tar.gz alpine /bin/sh -c "tar -xf /mnt/file.tar.gz -C /mnt && ls -lah /data"
+```
 
 # Restore backup
 
