@@ -73,14 +73,20 @@ docker run --rm \
   offen/docker-volume-backup:v2
 ```
 
-# Extract backup
+# Inspect or extract backup
 
-The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf file.tar.gz`. This creates a new folder `backup` (notice: **NOT** with the name of the archive!) and within a folder with the volume name. The volume's contents are inside this folder.
+The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf backup.tar.gz`. This creates a new folder `backup` (notice: **NOT** with the name of the archive, but w!) and within a folder with the volume name. The volume's contents are inside this folder.
 
 You can also view the content of `backup.tar.gz` like this:
 
 ```shell
 tar -tvf backup.tar.gz
+```
+
+or using docker:
+
+```shell
+docker run --rm -v ./file.tar.gz:/data/file.tar.gz alpine /bin/sh -c "tar -xf /data/file.tar.gz -C /mnt && ls -lah /mnt"
 ```
 
 # Restore backup manually
