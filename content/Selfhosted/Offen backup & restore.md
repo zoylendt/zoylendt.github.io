@@ -88,6 +88,14 @@ tar -tvf backup.tar.gz
 
 # Restore backup
 
+Assumptions:
+- Extracting to `./tmp/$DVAR` does not conflict with the path length limit of the filesystem.
+
+## With local extraction
+
+> [!warning]
+> Depending on your working directory, you might run into problems related to the filesystem's path length limit.
+
 1. Set shell variable with the name of the volume you want to restore to
 
 ```shell
@@ -96,7 +104,7 @@ DVAR='important_volume'
 
 2. Remove old volume contents (after stopping related containers!)
 
-```
+```shell
 docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 ```
 
@@ -120,15 +128,11 @@ rm -r ./tmp/$DVAR
 rm -r $DVAR-*.tar.gz
 ```
 
-Assumptions:
-- Only one archive named `$DVAR-*.tar.gz` is present.
-- Extracting to `./tmp/$DVAR` does not conflict with the path length limit of the filesystem.
-
 ## Without local extraction
 
-...
+It's possible to restore the backup directly to the volume instead of extracting on the host first.
 
-1. Set shell variable with the name of the volume you want to restore to
+1. Set shell variable with the name of the volume you want to restore to.
 
 ```shell
 DVAR='important_volume'
@@ -136,17 +140,17 @@ DVAR='important_volume'
 
 2. Remove old volume contents (after stopping related containers!)
 
-```
+```shell
 docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 ```
 
-3. Rename backup archive that you want to restore to `backup.tar.gz`
+3. Rename backup archive that you want to restore to `backup.tar.gz`. `cp` because we might want to archive the backup file.
 
-```
-mv $DVAR-*.tar.gz backup.tar.gz
+```shell
+cp $DVAR-*.tar.gz backup.tar.gz
 ```
 
-4. Restore backup. Without the flag `--strip-components=2` the contents of our restored volume would look like this: `/backup/`
+4. Restore the backup. Without the [flag](https://askubuntu.com/questions/749592/extract-specific-folder-from-tarball-into-specific-folder) `--strip-components=2` the contents of our restored volume would look like this: `/backup/$DVAR/[contents of original volume]` instead of `/`. Depending on how you've nested the leading folders in your backup, you might have to change this. You can inspect your backup file first with `tar -tvf backup.tar.gz`.
 
 ```shell
 docker run --rm -it -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar --strip-components=2 -C /target -xzvf /archive/backup.tar.gz
@@ -154,6 +158,6 @@ docker run --rm -it -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:r
 
 5. Cleanup
 
-```
+```shell
 rm backup.tar.gz
 ```
