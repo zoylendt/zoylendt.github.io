@@ -75,7 +75,7 @@ docker run --rm \
 
 # Inspect or extract backup
 
-The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf backup.tar.gz`. This creates a new folder `backup` (notice: **NOT** with the name of the archive, but w!) and within a folder with the volume name. The volume's contents are inside this folder.
+The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf backup.tar.gz`. This creates a new folder `backup` (Note: **NOT** with the name of the archive, but with the name of the highest folder inside it!) and within this a folder with the volume name. The volume's contents are inside this folder.
 
 You can also view the content of `backup.tar.gz` like this:
 
@@ -86,10 +86,10 @@ tar -tvf backup.tar.gz
 or using docker:
 
 ```shell
-docker run --rm -v ./file.tar.gz:/data/file.tar.gz alpine /bin/sh -c "tar -xf /data/file.tar.gz -C /mnt && ls -lah /mnt"
+docker run --rm -v ./backup.tar.gz:/data/backup.tar.gz alpine tar -tvf /data/backup.tar.gz
 ```
 
-# Restore backup manually
+# Restore a backup manually
 
 Assumptions:
 - In your working directory is only one backup file per volume (so `$DVAR-*.tar.gz` is unambiguous).
@@ -103,7 +103,7 @@ drwxr-xr-x 1000/users        0 2024-05-23 13:38 /backup/jd2_0_config
 -rw-r--r-- 1000/users        4 2024-05-23 13:15 /backup/jd2_0_config/config.json
 ```
 
-## With local extraction
+## With local extraction (docker cp)
 
 > [!warning]
 > Depending on your working directory, you might run into problems related to the filesystem's path length limit.
@@ -120,23 +120,23 @@ DVAR='important_volume'
 docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 ```
 
-3. Extract backup into local folder and move files into empty volume, then cleanup.
+3. Extract backup into local folder. It's folder structure should look like this: `./tmp/$DVAR/backup/$DVAR/[volume contents]`.
 
 ```shell
 mkdir -p ./tmp/$DVAR
 
 tar -C ./tmp/$DVAR -xvf $DVAR-*.tar.gz
+```
 
--> ./tmp/$DVAR/backup/$DVAR/[contents]
+4. Copy files into the empty volume using `docker cp`.
 
+```shell
 docker run -d --name temp_restore_container -v $DVAR:/backup_restore alpine
   
 docker cp -a ./tmp/$DVAR/backup/$DVAR/. temp_restore_container:/backup_restore
-
-
 ```
 
-x. Cleanup.
+5. Cleanup.
 
 ```shell
 docker rm temp_restore_container
@@ -171,7 +171,7 @@ cp $DVAR-*.tar.gz backup.tar.gz
 4. Restore the backup. Without the [flag](https://askubuntu.com/questions/749592/extract-specific-folder-from-tarball-into-specific-folder) `--strip-components=2` the contents of our restored volume would look like this: `/backup/$DVAR/[contents of original volume]` instead of `[contents of original volume]`. Depending on how you've nested the leading folders in your backup, you might have to change this. You can inspect your backup file first with `tar -tvf backup.tar.gz`.
 
 ```shell
-docker run --rm -it -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar --strip-components=2 -C /target -xzvf /archive/backup.tar.gz
+docker run --rm -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar --strip-components=2 -C /target -xzvf /archive/backup.tar.gz
 ```
 
 5. Cleanup
