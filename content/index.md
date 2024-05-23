@@ -119,8 +119,4 @@ npx quartz create
 
 ---
 
-![[proxmox-logo-stacked-color.png]]
-
-![[Tailscale-Logo-Black.png]]
-
 
