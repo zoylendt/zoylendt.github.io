@@ -22,30 +22,23 @@ By making my notes public I'm forcing myself to write with some coherence in min
 
 ## 🛠️ Languages and Tools
 
-Missing .svg icons:
-- Proxmox
-- Tailscale
-- TrueNAS
-- HomeAssistant
-
 <!-- https://devicon.dev/ -->
-
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />](tags/docker)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />](tags/github)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" />](tags/latex)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" />](tags/markdown)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />](tags/linux)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />](tags/windows)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fedora/fedora-original.svg" />](tags/fedora)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg" />](tags/ansible)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />](tags/bash)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" />](tags/gitlab)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg" />](tags/grafana)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/influxdb/influxdb-original.svg" />](tags/influxdb)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />](tags/git)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />](tags/github)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />](tags/python)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" />](tags/jupyter)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/k3s/k3s-original.svg" />](tags/k3s)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />](tags/k8s)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />](tags/docker)
 [<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg" />](tags/podman)
-[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/portainer/portainer-original.svg" />](tags/portainer)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/k3s/k3s-original.svg" />](tags/k3s)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" />](tags/raspi)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://raw.githubusercontent.com/zoylendt/zoylendt.github.io/v4/content/zzz_static_files/static_files/proxmox-logo-stacked-color.png" />](tags/proxmox)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg" />](tags/ansible)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg" />](tags/grafana)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://raw.githubusercontent.com/zoylendt/zoylendt.github.io/v4/content/zzz_static_files/static_files/Tailscale-Logo-Black.png" />](tags/tailscale)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://raw.githubusercontent.com/zoylendt/zoylendt.github.io/v4/content/zzz_static_files/static_files/truenas.svg" />](tags/truenas)
+[<img align="left" width="30px" style="padding-right:10px;" src="https://raw.githubusercontent.com/zoylendt/zoylendt.github.io/v4/content/zzz_static_files/static_files/Home_Assistant_logo_(2023).svg" />](tags/homeassistant)
 <!-- Note, the last icon needs to have no alignment set -->
 
 ---
