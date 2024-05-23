@@ -23,7 +23,7 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 > docker volume ls
 >```
 > 2. Enter the container `containername`
-> ```shell title="2. Enter the container `containername`"
+> ```shell title="2. Enter a container"
 > docker exec -it containername sh
 >```
 
@@ -74,14 +74,18 @@ The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xv
 DVAR='important_volume'
 ```
 
-2. 
+2. Remove old directory (after stopping related containers!)
+
+```
+docker volume rm -f $DVAR
+```
 
 ```shell
-mkdir ./tmp/$DVAR
+mkdir -p ./tmp/$DVAR
 
 tar -C ./tmp/$DVAR -xvf $DVAR-*.tar.gz
 
-docker run -d --rm --name temp_restore_container \
+docker run -d --name temp_restore_container \
   -v /volume1/temp/docker/deluge/downloads:/backup_restore alpine
   
 docker cp -a ./tmp/$DVAR/backup/$DVAR/. temp_restore_container:/backup_restore
