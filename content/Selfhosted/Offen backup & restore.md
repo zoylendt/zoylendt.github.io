@@ -66,4 +66,6 @@ docker run --rm \
 
 # Extract backup
 
-The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf file.tar.gz`. This creates a new folder `backup` (notice: **NOT** with the name of the archive!) and within a folder with the volume name. The volume's contents are in this folder.
+The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf file.tar.gz`. This creates a new folder `backup` (notice: **NOT** with the name of the archive!) and within a folder with the volume name. The volume's contents are inside this folder.
+
+# Restore backup
