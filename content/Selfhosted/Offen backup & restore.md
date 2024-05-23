@@ -206,6 +206,9 @@ rm backup.tar.gz
 
 ---
 
->[!example] Missing topics
->- [] automatic backups with flags in docker compose
->- backups to remote lo
+>[!example] Missing topics -> https://offen.github.io/docker-volume-backup/how-tos/
+>- [ ] automatic backups with flags in docker compose
+>- [ ] backup rotations & retention schedules
+>- [ ] backups to remote locations -> pcloud.com
+>- [ ] encrypting backups
+>- [ ] run custom commands during backup/restore
