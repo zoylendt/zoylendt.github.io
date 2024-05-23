@@ -22,14 +22,24 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 > ```shell title="1. List all docker volumes"
 > docker volume ls
 >```
+>
 > 2. Enter the container `containername`
 > ```shell title="2. Enter a container"
 > docker exec -it containername sh
 >```
->3. List contents of a volume
+>
+>3. List contents of a volume (works with alpine and ubuntu)
 >```
->docker run --rm -v $DVAR:/data/ ubuntu ls -la /data
+>docker run --rm -v $DVAR:/data/ alpine ls -la /data
 >```
+>
+>4. Remove contents of a volume (works with alpine and ubuntu)
+>```
+>docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
+>```
+
+
+
 
 1. Set shell variable with volume name, useful if you want to backup multiple volumes (different syntax on Windows?)
 
@@ -78,11 +88,13 @@ The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xv
 DVAR='important_volume'
 ```
 
-2. Remove old directory (after stopping related containers!)
+2. Remove old volume contents (after stopping related containers!)
 
 ```
-docker volume rm -f $DVAR
+docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 ```
+
+3. Extract backup and move files into empty volume, cleanup.
 
 ```shell
 mkdir -p ./tmp/$DVAR
@@ -92,8 +104,6 @@ tar -C ./tmp/$DVAR -xvf $DVAR-*.tar.gz
 -> ./tmp/$DVAR/backup/$DVAR/[contents]
 
 docker run -d --name temp_restore_container -v $DVAR:/backup_restore alpine
-
-docker exec -it temp_restore_container "rm -r /backup_restore/*"
   
 docker cp -a ./tmp/$DVAR/backup/$DVAR/. temp_restore_container:/backup_restore
 
@@ -108,9 +118,3 @@ Assumptions:
 - Only one archive named `$DVAR-*.tar.gz` is present.
 - Extracting to `./tmp/$DVAR` does not conflict with the path length limit of the filesystem.
 
-
-docker exec -it temp_restore_container sh
-
-docker run --rm -v $DVAR:/data/ ubuntu ls -la /data
-
-docker run --rm -v my_volume:/data/ ubuntu rm -rf /data/*
