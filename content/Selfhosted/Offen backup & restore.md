@@ -92,7 +92,7 @@ DVAR='volumename'
 
 2. Make sure the corresponding containers are stopped. If the volume you want to backup contains a database, it might be advisable to create a database backup inside this volume now.
 
-3. Create the backup file. It will be named like `volumename-2024-05-23T11-45-02.tar.gz`.
+3. Create the backup file.
 
 ```shell {4} title="Create Backup inside syncthing volume (with subdirectory)"
 docker run --rm \
@@ -107,6 +107,8 @@ docker run --rm \
 ```
 
 4. Restart the previously stopped containers.
+
+Of course Syncthing has to be configured properly to sync the backup archives to remote locations.
 
 # Inspect or extract backup archives
 
