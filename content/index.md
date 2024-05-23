@@ -1,11 +1,11 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-05-22
+updated: 2024-05-23
 ---
 
 > [!warning]
-> Many notes in this blog are still [[tags/unfinished]] or only exist as a [[tags/barebone]], some are about topics I [[tags/untested|haven't tested or implemented yet]] but want to eventually. Some notes are tagged 
+> Many notes in this blog are still [[tags/unfinished]] or only exist as a [[tags/barebone]], some are about topics I [[tags/untested|haven't tested or implemented yet]] but want to eventually. Some notes are tagged as [[tags/internal]] to reflect that they are mainly created for my personal documentation.
 
 Hi, welcome to my notes and thoughts :D
 
