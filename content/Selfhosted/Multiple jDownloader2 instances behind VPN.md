@@ -8,6 +8,7 @@ tags:
   - note
   - docker
   - unfinished
+  - syncthing
 ---
  
 Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads).
