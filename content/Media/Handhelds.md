@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-23
+updated: 2024-05-24
 draft: true
 tags:
   - note
@@ -28,6 +28,8 @@ A compilation of handheld gaming devices I own and notes about their OS, softwar
 [RGC Guide](https://retrogamecorps.com/2023/10/27/powkiddy-rgb30-starter-guide/)
 
 ## OS options
+
+[OS Comparison](https://retrohandheldguides.com/powkiddy-rgb30-cfw-guide/)
 
 - JELOS (shipped, discontinued)
 	- [GitHub](https://github.com/JustEnoughLinuxOS/distribution)
