@@ -389,3 +389,12 @@ This is a sample file.
 `$ git diff HEAD~1 HEAD file.txt`
 
 `$ diff -u file1.txt file2.txt`
+
+---
+
+<details>
+<summary>[Click me] description</summary>
+```shell
+ls -alh
+```
+</details>
