@@ -39,6 +39,7 @@ A compilation of handheld gaming devices I own and notes about their OS, softwar
 - MinUI (not really an option)
 
 -> ArkOS or ROCKNIX
+- [Comparison](https://www.reddit.com/r/SBCGaming/comments/1bzuhzw/arkos_vs_jelos/)
 
 # Miyoo-mini & Miyoo-mini +
 
@@ -61,4 +62,4 @@ A compilation of handheld gaming devices I own and notes about their OS, softwar
 	- SimpleMenu frontend for Miyoo Mini
 	- no GameSwitcher feature
 
--> 
+-> OnionOS
