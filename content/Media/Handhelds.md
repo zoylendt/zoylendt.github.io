@@ -40,6 +40,7 @@ A compilation of handheld gaming devices I own and notes about their OS, softwar
 
 -> ArkOS or ROCKNIX
 - [Comparison](https://www.reddit.com/r/SBCGaming/comments/1bzuhzw/arkos_vs_jelos/)
+- [Comparison 2](https://www.reddit.com/r/SBCGaming/comments/1c4p8wr/which_fw_for_rgb30_is_better_for_me/)
 
 # Miyoo-mini & Miyoo-mini +
 
