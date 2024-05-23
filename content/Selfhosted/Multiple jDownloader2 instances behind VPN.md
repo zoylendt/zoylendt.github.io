@@ -243,7 +243,8 @@ volumes:
     name: jd2_2_extensions
 ```
 
-Enter your credentials in `.env`, then run `docker compose pull`, followed 
+Enter your credentials in `.env`, then run `docker compose pull` and `docker compose up -d`.
+
 # - Configuration of each jd2 instance
 
 ...
