@@ -154,7 +154,7 @@ $ history
 sudo mount -t ext4 -o defaults,noatime /dev/sda1 /mnt/ssd && sudo systemctl start docker
 ```
 
-->
+fixed ->
 
 ```sh title="/home/adrian/docker-readonly.sh"
 sudo mount -t ext4 -o defaults,noatime /dev/disk/by-uuid/61e34e00-c880-4237-98cb-71cb8257b1c2 /mnt/ssd && sudo systemctl start docker
@@ -179,4 +179,33 @@ mmcblk0     179:0    0  29.1G  0 disk
 
 $ ls /mnt/ssd/
 ls: reading directory '/mnt/ssd/': Input/output error
+```
+
+```Dockerfile title="/mnt/ssd/git/docker-sonos-web-arm/Dockerfile"
+FROM node:16
+
+RUN apt-get update && \
+    apt-get install -y git && \
+    apt-get clean autoclean && apt-get autoremove --yes && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN git clone https://github.com/sonos-web/sonos-web
+
+WORKDIR /sonos-web/client
+RUN npm install && \
+    npm run build && \
+    mv dist ../server/
+
+WORKDIR /sonos-web
+RUN rm -rf client
+
+WORKDIR /sonos-web/server
+RUN npm install && \
+        npm install https://github.com/stufisher/node-sonos#v1.15.0-test && \
+    mv .env.production .env && \
+    printf "\nREGION=EU\n" >> .env && \
+    printf "\nENHANCE_METADATA=true\n" >> .env
+
+EXPOSE 5050
+CMD npm start
 ```
