@@ -63,3 +63,7 @@ docker run --rm \
   --entrypoint backup \
   offen/docker-volume-backup:v2
 ```
+
+# Extract backup
+
+The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf file.tar.gz`. This creates a new folder `backup` 
