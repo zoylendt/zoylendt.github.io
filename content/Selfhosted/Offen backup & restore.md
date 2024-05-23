@@ -13,18 +13,14 @@ tags:
  
 This note is about how to use **offen/docker-volume-backup** ([GitHub](https://github.com/offen/docker-volume-backup), [Documentation](https://offen.github.io/docker-volume-backup/)) to back up (and restore) docker volumes. Offen works with mounted folders as well as docker volumes and offers many backup targets.
 
-# Manual backup to local folder
-
-Let's say we want to back up the volume `important_volume` into another volume, `offen_backup_syncthing`. Instead a local folder can also be selected, I just use a volume mounted into syncthing to sync the backups to a remote location.
-
 >[!info]- Useful docker commands
 > 1. List all docker volumes
-> ```shell title="1. List all docker volumes"
+> ```shell
 > docker volume ls
 >```
 >
 > 2. Enter the container `containername`
-> ```shell title="2. Enter a container"
+> ```shell
 > docker exec -it containername sh
 >```
 >
@@ -38,8 +34,9 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 >docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 >```
 
+# Manual backup to local folder
 
-
+Let's say we want to back up the volume `important_volume` into another volume, `offen_backup_syncthing`. Instead a local folder can also be selected, I just use a volume mounted into syncthing to sync the backups to a remote location.
 
 1. Set shell variable with volume name, useful if you want to backup multiple volumes (different syntax on Windows?)
 
