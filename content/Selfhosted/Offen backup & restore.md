@@ -127,6 +127,12 @@ docker run -d --name temp_restore_container -v $DVAR:/backup_restore alpine
   
 docker cp -a ./tmp/$DVAR/backup/$DVAR/. temp_restore_container:/backup_restore
 
+
+```
+
+x. Cleanup.
+
+```shell
 docker rm temp_restore_container
 
 rm -r ./tmp/$DVAR
@@ -150,7 +156,7 @@ DVAR='important_volume'
 docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 ```
 
-3. Rename backup archive that you want to restore to `backup.tar.gz`. `cp` because we might want to archive the backup file.
+3. Rename backup archive that you want to restore to `backup.tar.gz`. `cp` because we might want to archive the backup file. (This step is necessary because Docker won't accept `-v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro`, instead Docker creates a new folder called `$jd2_0_config-*.tar.gz`.)
 
 ```shell
 cp $DVAR-*.tar.gz backup.tar.gz
