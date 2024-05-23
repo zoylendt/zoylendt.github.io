@@ -34,7 +34,9 @@ This note is about how to use **offen/docker-volume-backup** ([GitHub](https://g
 >docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 >```
 
-# Manual backup to local folder
+# Manual backup 
+
+## into local folder
 
 Let's say we want to back up the volume `important_volume` into another volume, `offen_backup_syncthing`. Instead a local folder can also be selected, I just use a volume mounted into syncthing to sync the backups to a remote location.
 
@@ -72,6 +74,10 @@ docker run --rm \
   --entrypoint backup \
   offen/docker-volume-backup:v2
 ```
+
+## Into another volume
+
+I use this approach to create backups 
 
 # Inspect or extract backup
 
