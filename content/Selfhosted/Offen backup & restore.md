@@ -36,9 +36,9 @@ This note is about how to use **offen/docker-volume-backup** ([GitHub](https://g
 
 # Manual backup 
 
-## into local folder
+## Into local folder
 
-Let's say we want to back up the volume `important_volume` into another volume, `offen_backup_syncthing`. Instead a local folder can also be selected, I just use a volume mounted into syncthing to sync the backups to a remote location.
+Let's say we want to back up the volume `important_volume` into an archive file inside our current directory. 
 
 1. Set shell variable with volume name, useful if you want to backup multiple volumes (different syntax on Windows?)
 
@@ -46,24 +46,9 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 DVAR='important_volume'
 ```
 
-2. 
+2. Create backup file. It will be named like `volumename-2024-05-23T11-45-02.tar.gz`.
 
-```shell {4} title="Create Backup in syncthing volume (with subdirectory)"
-docker run --rm \
-  -v $DVAR:/backup/$DVAR:ro \
-  -v offen_backup_syncthing:/archive \
-  --env BACKUP_ARCHIVE="/archive/offenbackup" \
-  --env BACKUP_COMPRESSION="gz" \
-  --env BACKUP_FILENAME="$DVAR-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
-  --env BACKUP_FILENAME_EXPAND="true" \
-  --entrypoint backup \
-  offen/docker-volume-backup:v2
-```
-
-> [!warning] Required folder structure
-> The folder `offenbackup` inside the volume `offen_backup_syncthing` must be present, the script fails otherwise. Workaround: -> replace `BACKUP_ARCHIVE="/archive/offenbackup"` with `BACKUP_ARCHIVE="/archive"`
-
-```shell {3,4} title="Create Backup in current folder (no subdirectory)"
+```shell title="Create Backup in current folder (no subdirectory)"
 docker run --rm \
   -v $DVAR:/backup/$DVAR:ro \
   -v .:/archive \
@@ -77,7 +62,35 @@ docker run --rm \
 
 ## Into another volume
 
-I use this approach to create backups 
+I use this approach on remote hosts to create backups inside a volume (`offen_backup_syncthing`) that's mounted to a [Syncthing](https://syncthing.net/) container, which syncs it to my home or another backup location.
+
+> [!warning] Required folder structure
+> The folder `offenbackup` inside the volume `offen_backup_syncthing` must be present, the script fails otherwise. Workaround: -> replace `BACKUP_ARCHIVE="/archive/offenbackup"` with `BACKUP_ARCHIVE="/archive"`
+
+The contents of `offen_backup_syncthing` are structured like this:
+
+```
+offen_backup_syncthing
+ ├── .stfolder
+ │   └── ...
+ ├── .stversions
+ │   └── ...
+ ├── offenbackup
+ │   ├── jd2_0_config-2024-05-23T11-45-02.tar.gz
+ │   └── ...
+```
+
+```shell {4} title="Create Backup inside syncthing volume (with subdirectory)"
+docker run --rm \
+  -v $DVAR:/backup/$DVAR:ro \
+  -v offen_backup_syncthing:/archive \
+  --env BACKUP_ARCHIVE="/archive/offenbackup" \
+  --env BACKUP_COMPRESSION="gz" \
+  --env BACKUP_FILENAME="$DVAR-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
+  --env BACKUP_FILENAME_EXPAND="true" \
+  --entrypoint backup \
+  offen/docker-volume-backup:v2
+```
 
 # Inspect or extract backup
 
