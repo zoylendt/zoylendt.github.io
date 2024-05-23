@@ -83,7 +83,7 @@ The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xv
 You can also view the top level content of `file.tar.gz` like this:
 
 ```shell
-docker run --rm -v ./file.tar.gz:/mnt/file.tar.gz alpine /bin/sh -c "tar -xf /mnt/file.tar.gz -C /mnt && ls -lah /data"
+docker run --rm -v ./file.tar.gz:/data/file.tar.gz alpine /bin/sh -c "tar -xf /data/file.tar.gz -C /mnt && ls -lah /mnt"
 ```
 
 # Restore backup
@@ -124,3 +124,8 @@ Assumptions:
 - Only one archive named `$DVAR-*.tar.gz` is present.
 - Extracting to `./tmp/$DVAR` does not conflict with the path length limit of the filesystem.
 
+now: tar inside container
+
+```shell
+docker run --rm -it -v $DVAR:/backup -v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro alpine tar -xvzf /archive/backup.tar.gz -C /backup
+```
