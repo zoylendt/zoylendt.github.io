@@ -126,6 +126,6 @@ npx quartz create
 
 ---
 
-
+![[proxmox-logo-stacked-color.png]]
 
 
