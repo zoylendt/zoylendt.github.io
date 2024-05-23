@@ -38,4 +38,5 @@ A collection of Quartz bugs I noticed, and some improvement Ideas I came up with
 - check for dead (internal) links
 - GitHub-commit-history-style history in the last year -> like https://github.com/Platane/snk but only for commits to your blog
 - create small field in right (or left) layout section for markdown content, like the (compact) spotify widget: https://github.com/kittinan/spotify-github-profile
+- hide horizontal scrolling bar in code blocks that don't need them
 - 
