@@ -24,9 +24,9 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 > 1. List all docker volumes
 > ```shell title="1. List all docker volumes"
 > docker volume ls
->```shell title="2. List all docker volumes"
+>```
 > 2. List all docker volumes
-> ```
+> ```shell title="2. List all docker volumes"
 > docker volume ls
 >```
 
