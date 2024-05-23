@@ -79,7 +79,7 @@ DVAR='important_volume'
 ```shell
 mkdir ./tmp/$DVAR
 
-tar -C ./tmp/$DVAR -xvf  $DVAR-*.tar.gz
+tar -C ./tmp/$DVAR -xvf $DVAR-*.tar.gz
 
 docker run -d --rm --name temp_restore_container \
   -v /volume1/temp/docker/deluge/downloads:/backup_restore alpine
@@ -92,3 +92,8 @@ rm -r ./tmp/$DVAR
 
 rm -r $DVAR-*.tar.gz
 ```
+
+Assumptions:
+- Only one archive named `$DVAR-*.tar.gz` is present.
+- Extracting to `./tmp/$DVAR` does not conflict with the path length limit of the filesystem.
+- 
