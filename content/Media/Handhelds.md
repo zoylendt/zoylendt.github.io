@@ -38,16 +38,27 @@ A compilation of handheld gaming devices I own and notes about their OS, softwar
 	- [RGB30 Guide](https://github.com/christianhaitian/arkos/wiki/Frequently-Asked-Questions---RGB30)
 - MinUI (not really an option)
 
+-> ArkOS or ROCKNIX
+
 # Miyoo-mini & Miyoo-mini +
 
-[RGC Guide](https://retrogamecorps.com/2022/05/15/miyoo-mini-v2-guide/)
+- [RGC Guide](https://retrogamecorps.com/2022/05/15/miyoo-mini-v2-guide/)
+- [Reddit Wiki](https://www.reddit.com/r/MiyooMini/wiki/index/)
+- [Reddit Tips](https://www.reddit.com/r/MiyooMini/comments/unsy68/new_miyoo_mini_start_here/)
 
 ## OS options
 
 - OnionOS 
+	- [GitHub](https://github.com/OnionUI/Onion), [Documentation](https://onionui.github.io/)
 	- ...
+- GarlicOS
+	- [Comparison with OnionOS](https://www.reddit.com/r/ANBERNIC/comments/129pt13/onion_os_and_garlic_os_difference/)
+	- [Patreon](https://www.patreon.com/posts/92690050)
+- MiniUI
 - BastardOS
 - Koriki
 	- [GitHub](https://github.com/Rparadise-Team/Koriki)
+	- SimpleMenu frontend for Miyoo Mini
 	- no GameSwitcher feature
-- 
+
+-> 
