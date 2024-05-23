@@ -25,9 +25,9 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 > ```shell title="1. List all docker volumes"
 > docker volume ls
 >```
-> 2. List all docker volumes
-> ```shell title="2. List all docker volumes"
-> docker volume ls
+> 2. Enter the container `containername`
+> ```shell title="2. Enter the container `containername`"
+> docker exec -it containername sh
 >```
 
 1. Set shell variable with volume name (on a Linux host)
