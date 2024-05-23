@@ -17,8 +17,7 @@ This note is about how to use **offen/docker-volume-backup** ([GitHub](https://g
 
 Let's say we want to back up the volume `important_volume` into another volume, `offen_backup_syncthing`. Instead a local folder can also be selected, I just use a volume mounted into syncthing to sync the backups to a remote location.
 
-> [!warning] Required folder structure
-> The folder `offenbackup` inside the volume `offen_backup_syncthing` must be present, the script fails otherwise. Workaround: -> replace `BACKUP_ARCHIVE="/archive/offenbackup"` with `BACKUP_ARCHIVE="/archive"`
+
 
 >[!info]- Useful docker commands
 > 1. List all docker volumes
@@ -30,15 +29,15 @@ Let's say we want to back up the volume `important_volume` into another volume, 
 > docker exec -it containername sh
 >```
 
-1. Set shell variable with volume name (on a Linux host)
+1. Set shell variable with volume name, useful if you want to backup multiple volumes (different syntax on Windows?)
 
-```
+```shell
 DVAR='important_volume'
 ```
 
 2. 
 
-```shell {4}
+```shell {4} title="Create Backup in syncthing volume (with subdirectory)"
 docker run --rm \
   -v $DVAR:/backup/$DVAR:ro \
   -v offen_backup_syncthing:/archive \
@@ -50,13 +49,14 @@ docker run --rm \
   offen/docker-volume-backup:v2
 ```
 
-Create Backup in current folder (no subdirectory):
+> [!warning] Required folder structure
+> The folder `offenbackup` inside the volume `offen_backup_syncthing` must be present, the script fails otherwise. Workaround: -> replace `BACKUP_ARCHIVE="/archive/offenbackup"` with `BACKUP_ARCHIVE="/archive"`
 
-```shell
+```shell {3,4} title="Create Backup in current folder (no subdirectory)"
 docker run --rm \
   -v $DVAR:/backup/$DVAR:ro \
   -v .:/archive \
-  --env BACKUP_ARCHIVE="/archive/offenbackup" \
+  --env BACKUP_ARCHIVE="/archive" \
   --env BACKUP_COMPRESSION="gz" \
   --env BACKUP_FILENAME="$DVAR-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
   --env BACKUP_FILENAME_EXPAND="true" \
