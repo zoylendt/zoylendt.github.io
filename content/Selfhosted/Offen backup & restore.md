@@ -76,10 +76,14 @@ DVAR='important_volume'
 
 2. 
 
-```shell"
+```shell
 mkdir ./tmp/$DVAR
+
 tar -C ./tmp/$DVAR -xvf  $DVAR-*.tar.gz
-docker run -d --name temp_restore_container -v /volume1/temp/docker/deluge/downloads:/backup_restore alpine
+
+docker run -d --name temp_restore_container -v 
+
+/volume1/temp/docker/deluge/downloads:/backup_restore alpine
 docker cp -a ./tmp/$DVAR/backup/$DVAR/. temp_restore_container:/backup_restore
 docker rm temp_restore_container
 rm -r ./tmp/$DVAR
