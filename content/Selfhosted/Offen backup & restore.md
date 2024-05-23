@@ -80,10 +80,10 @@ docker run --rm \
 
 The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf file.tar.gz`. This creates a new folder `backup` (notice: **NOT** with the name of the archive!) and within a folder with the volume name. The volume's contents are inside this folder.
 
-You can also view the top level content of `file.tar.gz` like this:
+You can also view the content of `backup.tar.gz` like this:
 
 ```shell
-docker run --rm -v ./file.tar.gz:/data/file.tar.gz alpine /bin/sh -c "tar -xf /data/file.tar.gz -C /mnt && ls -lah /mnt"
+tar -tvf backup.tar.gz
 ```
 
 # Restore backup
@@ -127,5 +127,7 @@ Assumptions:
 now: tar inside container
 
 ```shell
-docker run --rm -it -v $DVAR:/backup -v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro alpine tar -xvzf /archive/backup.tar.gz -C /backup
+docker run --rm -it -v $DVAR:/backup -v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro alpine tar -xf /archive/backup.tar.gz -C /backup
 ```
+
+docker run --rm -it -v $DVAR:/backup -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar -xf /archive/backup.tar.gz -C /backup
