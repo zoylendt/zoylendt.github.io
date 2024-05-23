@@ -100,7 +100,7 @@ DVAR='important_volume'
 docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 ```
 
-3. Extract backup and move files into empty volume, cleanup.
+3. Extract backup into local folder and move files into empty volume, then cleanup.
 
 ```shell
 mkdir -p ./tmp/$DVAR
@@ -124,10 +124,36 @@ Assumptions:
 - Only one archive named `$DVAR-*.tar.gz` is present.
 - Extracting to `./tmp/$DVAR` does not conflict with the path length limit of the filesystem.
 
-now: tar inside container
+## Without local extraction
+
+...
+
+1. Set shell variable with the name of the volume you want to restore to
 
 ```shell
-docker run --rm -it -v $DVAR:/target -v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro alpine tar -C /target -xf /archive/backup.tar.gz backup
+DVAR='important_volume'
 ```
 
-docker run --rm -it -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar -C /target -xzvf /archive/backup.tar.gz backup
+2. Remove old volume contents (after stopping related containers!)
+
+```
+docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
+```
+
+3. Rename backup archive that you want to restore to `backup.tar.gz`
+
+```
+mv $DVAR-*.tar.gz backup.tar.gz
+```
+
+4. Restore backup. Without the flag `--strip-components=2` the contents of our restored volume would look like this: `/backup/`
+
+```shell
+docker run --rm -it -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro alpine tar --strip-components=2 -C /target -xzvf /archive/backup.tar.gz
+```
+
+5. Cleanup
+
+```
+rm backup.tar.gz
+```
