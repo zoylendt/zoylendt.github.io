@@ -55,7 +55,7 @@ A hobby of mine is [[tags/brewing|home brewing]] which I like for its combinatio
 Documenting my suds (brewing processes, "Sud" in german) was a big motivation for creating this blog, besides my [[Selfhosted/]] hobby.  
 In this category I also deal with other food-related topics, like brewing [[tags/mead]], [[tags/fermenting]] kombucha, baking [[tags/bread]] and general cooking [[tags/recipe|recipes]].
    - 📄 [[My current brewing setup]]
-- 📑 [[Coding|Coding, Programming & Note Taking]]
+- 📑 [[Coding|Coding, Programming & Note Taking]]  
 Here I write about my [[tags/obsidian|Obsidian]] setup and how I use it to deploy this website on [[tags/github|GitHub]], ...
    - 📄 [[Quartz starting page|How this website was build]]
    - [[tags/markdown|Markdown]]
@@ -65,11 +65,13 @@ Here I write about my [[tags/obsidian|Obsidian]] setup and how I use it to deplo
    - [[tags/python|Python]]
    - [[tags/machine_learning|Machine Learning]]
    - [[tags/data_science|Data Science]]
-- 📖 [[Media]]
+- 📖 [[Media]]  
+...
    - 📄[[Booklist]]
    - [[tags/review|Book Reviews]]
    - [[tags/scifi|SciFi]]
-- ⚛ [[Physics]]
+- ⚛ [[Physics]]  
+...
    - [[]]
 - 🐳 [[Selfhosted]]  
 I've build myself a [homelab](https://linuxhandbook.com/homelab/) to tinker with software.
