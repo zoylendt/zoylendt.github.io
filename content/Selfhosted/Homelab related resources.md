@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-05-22
+updated: 2024-05-23
 draft: false
 tags:
   - note
@@ -40,6 +40,8 @@ tags:
 # Blogs
 
 - https://blog.gurucomputing.com.au/Offsite%20Docker%20Backups%20with%20Kopia/Offsite%20Docker%20Backups%20with%20Kopia/
+- https://sequr.be/blog/
+- 
 
 
 # Proxmox
@@ -50,4 +52,5 @@ tags:
 # HomeAssistant
 
 - [Installing HA on Proxmox 8](https://community.home-assistant.io/t/installing-home-assistant-os-using-proxmox-8/201835)
-- ...
+- https://sequr.be/tags/home-assistant/
+- 
