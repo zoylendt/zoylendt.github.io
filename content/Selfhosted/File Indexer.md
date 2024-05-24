@@ -48,8 +48,6 @@ services:
       - "PGID=1000"
   sist2-admin:
     image: simon987/sist2:x64-linux
-#    build:
-#      context: .
     container_name: sist2-admin
     volumes:
       - /data/sist2-admin-data/:/sist2-admin/
