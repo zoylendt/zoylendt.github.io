@@ -6,7 +6,8 @@ updated: 2024-05-24
 draft: true
 tags:
   - note
-  - unfinished
+  - books
+  - reading
 ---
  
 # Current Reading
