@@ -47,8 +47,9 @@ services:
       - "PUID=1000"
       - "PGID=1000"
   sist2-admin:
-    build:
-      context: .
+    image: simon987/sist2:x64-linux
+#    build:
+#      context: .
     container_name: sist2-admin
     volumes:
       - /data/sist2-admin-data/:/sist2-admin/
@@ -61,4 +62,14 @@ services:
     entrypoint: python3
     command:
       - /root/sist2-admin/sist2_admin/app.py
+
+volumes:
+  data:
+    driver: local
+    name: 
+    driver_opts:
+      type: cifs
+      device: "//192.168.1.17/share"
+      o: "username=XXX,password=YYY,uid=1000,gid=1000"
+
 ```
