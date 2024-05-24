@@ -59,15 +59,18 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Cryptonomicon**
 - Mur Lafferty
 	- **Six Wakes**
-	- ****
+	- **Station Eternity (The Midsolar Murders #1)**
+- Ann Leckie
+	- **Imperial Radch (series)**
+	- **Translation State**
 - **Cat's Cradle** by Kurt Vonnegut
+- **In the Lives of Puppets** by T. J. Klune
 - **The Last Emperox (The Interdependency #3)** by John Scalzi
 - **Ex-Heroes 2+** by Peter Clines
 - **Babel** by R. F. Kuang
 - **The City in the Middle of the Night** by Charlie Jane Anders
 - **The Calculating Stars** by Mary Robinette Kowal
 - **Death's End (Three Body Problem #3)** by Cixin Liu
-- **Imperial Radch (series)** by Ann Leckie
 - **Blackout/All Clear** by Connie Willis
 - **Boneshaker** by Cherie Priest
 - **The Yiddish Policemen’s Union** by Michael Chabon
