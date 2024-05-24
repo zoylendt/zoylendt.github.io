@@ -57,6 +57,9 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Anathem**
 	- **The Baroque Cycle (series)**
 	- **Cryptonomicon**
+- Mur Lafferty
+	- **Six Wakes**
+	- ****
 - **Cat's Cradle** by Kurt Vonnegut
 - **The Last Emperox (The Interdependency #3)** by John Scalzi
 - **Ex-Heroes 2+** by Peter Clines
