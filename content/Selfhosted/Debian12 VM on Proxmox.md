@@ -3,10 +3,11 @@ title:
 date: 2024-05-25
 publishDate: 2024-05-25
 updated: 2024-05-25
-draft: true
+draft: false
 tags:
   - note
-  - unfinished
+  - proxmox
+  - linux
 ---
  
 How to quickly set up a Debian12 VM on Proxmox 8 using [helper scripts](https://helper-scripts.com).
@@ -26,5 +27,8 @@ How to quickly set up a Debian12 VM on Proxmox 8 using [helper scripts](https://
 bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/vm/debian-vm.sh)"
 ```
 
-2. Configure settings to your liking, but don't enable "Start after created" at the end.
-3. (optional) "Balooning"
+2. Configure settings to your liking
+	1. (optional) Don't enable "Start after created" at the end.
+	2. (optional) "RAM -> Balooning Device" is enabled, disable it under "VM -> Hardware -> Memory (Advanced)".
+	3. Start VM.
+3. Follow the desired [post-installation steps](https://github.com/tteck/Proxmox/discussions/1988)
