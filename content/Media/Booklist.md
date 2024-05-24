@@ -11,16 +11,6 @@ tags:
 
 A (mostly) up-to-date list of books I at some point, have wanted to read, am reading, or finished reading. Links are to pages/blog posts/ideas that were inspired by the book that's linked!
 
-# Current Reading
-
-- **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
-- **Warboss** by Mike Brooks
-- **Dark Imperium 1-3** by Guy Haley
-- **Python - Der Grundkurs** by Michael Kofler
-- ...
-
-
-
 # Previously Read Books
 
 ## 2024
@@ -100,9 +90,3 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **Titanensturm** by Dan Abnett
 - **Gaunt's Ghosts (all books untill Der Anarch)** by Dan Abnett
 - **Requiem Infernale** by Peter Fehervari
-
----
-
-> This page is heavily inspired and contains excerpts from [this page](https://jzhao.zyx/books) on the quartz's developer's blog.
->
-> Books and Audiobooks are mixed, where possible the english title is given (although most books were consumed in german).
