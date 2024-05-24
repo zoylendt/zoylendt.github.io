@@ -1,7 +1,7 @@
 ---
 title: Booklist
 date: 2024-02-06
-updated: 2024-05-20
+updated: 2024-05-24
 publishDate: 2024-02-06
 draft: false
 tags:
@@ -39,9 +39,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Halting State (Halting State #1)**
 	- **The Atrocity Archives (The Laundry Files #1)**
 	- **Saturn’s Children (Saturn’s Children #1)**
-- John Scalzi
-	- **Starter Villain**
-	- **The Last Emperox (The Interdependency #3)**
+- **The Last Emperox (The Interdependency #3)** by John Scalzi
 - Naomi Novik
 	- **Uprooted**
 	- **Spinning Silver**
@@ -144,6 +142,7 @@ A list of physical books I own but haven't read yet:
 - **Three Parts Dead** by Max Gladstone
 - **Ascension** by Nicholas Binge
 - **Mickey 7** by Edward Ashton
+- **Starter Villain** by John Scalzi
 
 ## 2023
 
