@@ -14,6 +14,17 @@ tags:
 
 # To Read
 
+## Non-fiction
+
+- **Lost in Math: How Beauty Leads Physics Astray** by Sabine Hossenfelder
+- **The Making of the Atomic Bomb** by Richard Rhodes
+- **72 Minuten bis zur Vernichtung** by Annie Jacobsen
+- **Das elegante Universum** by Brian Greene
+- **Humble Pi** by Matt Parker
+- **Bald!** by Zach Weinersmith
+- **Sapiens** by Yuval Noah Harari
+- ...
+
 ## Fiction
 
 ### Award-winning books
@@ -30,7 +41,6 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Halting State (Halting State #1)**
 	- **The Atrocity Archives (The Laundry Files #1)**
 	- **Saturn’s Children (Saturn’s Children #1)**
-- **The Last Emperox (The Interdependency #3)** by John Scalzi
 - Naomi Novik
 	- **Uprooted**
 	- **Spinning Silver**
@@ -38,27 +48,26 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **The Ministry for the Future**
 	- **The Years of Rice and Salt**
 	- **Mars (series)**
+- China Miéville
+	- **Embassytown**
+	- **The City & the City**
+	- **Perdido Street Station**
+- Neal Stephenson
+	- **Anathem**
+	- **The Baroque Cycle (series)**
+	- **Cryptonomicon**
 - **Cat's Cradle** by Kurt Vonnegut
-- ...
+- **The Last Emperox (The Interdependency #3)** by John Scalzi
 - **Ex-Heroes 2+** by Peter Clines
-- ...
 - **Babel** by R. F. Kuang
 - **The City in the Middle of the Night** by Charlie Jane Anders
 - **The Calculating Stars** by Mary Robinette Kowal
 - **Death's End (Three Body Problem #3)** by Cixin Liu
 - **Imperial Radch (series)** by Ann Leckie
-- China Miéville
-	- **Embassytown**
-	- **The City & the City**
-	- **Perdido Street Station**
 - **Blackout/All Clear** by Connie Willis
 - **Boneshaker** by Cherie Priest
 - **The Yiddish Policemen’s Union** by Michael Chabon
 - **Rainbow's End** by Vernor Vinge
-- Neal Stephenson
-	- **Anathem**
-	- **The Baroque Cycle (series)**
-	- **Cryptonomicon**
 - Dan Simmons
 	- **Ilium**
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
@@ -87,7 +96,7 @@ A list of physical books I own but haven't read yet:
 - **Lupercal's War** by VA
 - ...
 
-### Comic & Manga
+## Comic & Manga
 
 - Junji Ito
 - Ruri Dragon (finished chapters 1-13)
@@ -103,13 +112,3 @@ A list of physical books I own but haven't read yet:
 - ...
 
 
-## Non-fiction
-
-- **Lost in Math: How Beauty Leads Physics Astray** by Sabine Hossenfelder
-- **The Making of the Atomic Bomb** by Richard Rhodes
-- **72 Minuten bis zur Vernichtung** by Annie Jacobsen
-- **Das elegante Universum** by Brian Greene
-- **Humble Pi** by Matt Parker
-- **Bald!** by Zach Weinersmith
-- **Sapiens** by Yuval Noah Harari
-- ...
