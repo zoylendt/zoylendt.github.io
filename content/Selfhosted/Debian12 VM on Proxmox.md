@@ -32,3 +32,14 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/vm/debian-vm.sh
 	2. (optional) "RAM -> Balooning Device" is enabled, disable it under "VM -> Hardware -> Memory (Advanced)".
 	3. Start VM.
 3. Follow the desired [post-installation steps](https://github.com/tteck/Proxmox/discussions/1988)
+4. Set your timezone (inside the VM) with 
+
+```shell
+timedatectl set-timezone Europe/Berlin
+```
+
+5. Install `quemu-guest-agent` with
+
+```
+
+```
