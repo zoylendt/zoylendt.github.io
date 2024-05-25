@@ -1,5 +1,5 @@
 ---
-title: 
+title: Debian 12 VM on Proxmox
 date: 2024-05-25
 publishDate: 2024-05-25
 updated: 2024-05-25
@@ -10,7 +10,7 @@ tags:
   - linux
 ---
  
-How to quickly set up a Debian12 VM on Proxmox 8 using [helper scripts](https://helper-scripts.com).
+How to quickly set up a Debian 12 VM on Proxmox 8 using [helper scripts](https://helper-scripts.com).
 
 # Resources
 
@@ -29,7 +29,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/vm/debian-vm.sh
 
 2. Configure settings to your liking
 	1. (optional) Don't enable "Start after created" at the end.
-	2. (optional) "RAM -> Balooning Device" is enabled, disable it under "VM -> Hardware -> Memory (Advanced)".
+	2. (optional) By default "RAM -> Balooning Device" is enabled, disable it under "VM -> Hardware -> Memory (Advanced)".
 	3. Start VM.
 3. Follow the desired [post-installation steps](https://github.com/tteck/Proxmox/discussions/1988)
 4. Set your timezone (inside the VM) with 
@@ -43,5 +43,3 @@ timedatectl set-timezone Europe/Berlin
 ```
 apt-get update && apt-get install -y qemu-guest-agent
 ```
-
-6. 
