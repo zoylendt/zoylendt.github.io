@@ -16,7 +16,6 @@ tags:
 
 - **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
 - **Warboss** by Mike Brooks
-- **Dark Imperium 1-3** by Guy Haley
 - **Python - Der Grundkurs** by Michael Kofler
 - ...
 
@@ -33,7 +32,8 @@ tags:
 
 ## Books
 
-...
+- **Dark Imperium 1-3** by Guy Haley
+- 
 
 ## Manga
 
