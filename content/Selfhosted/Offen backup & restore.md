@@ -2,7 +2,7 @@
 title: Backup & restore Docker volumes with Offen
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-23
+updated: 2024-05-26
 draft: false
 tags:
   - note
@@ -200,7 +200,7 @@ docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
 ```
 
 3. Rename the backup archive that you want to restore to `backup.tar.gz`. `cp` because we might want to archive the backup file.  
-4. This step is necessary because Docker won't accept `-v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro`, instead Docker creates a new folder called `volumename-*.tar.gz`.
+   This step is necessary because Docker won't accept `-v ./$DVAR-*.tar.gz:/archive/backup.tar.gz:ro`, instead Docker creates a new folder called `volumename-*.tar.gz`.
 
 ```shell
 cp $DVAR-*.tar.gz backup.tar.gz
