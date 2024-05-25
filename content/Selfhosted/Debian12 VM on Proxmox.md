@@ -14,10 +14,10 @@ How to quickly set up a Debian 12 VM on Proxmox 8 using [helper scripts](https:/
 
 # Resources
 
-- [Scripts](https://helper-scripts.com/scripts)
-- [Userguides](https://github.com/tteck/Proxmox/blob/main/USER_SUBMITTED_GUIDES.md)
-- [Debian12 script](https://helper-scripts.com/scripts?id=Debian+12)
-- [Debian12 post-installation steps](https://github.com/tteck/Proxmox/discussions/1988)
+- [helper-scripts.com Scripts](https://helper-scripts.com/scripts)
+- [helper-scripts.com Userguides](https://github.com/tteck/Proxmox/blob/main/USER_SUBMITTED_GUIDES.md)
+- [helper-scripts.com Debian12 script](https://helper-scripts.com/scripts?id=Debian+12)
+- [helper-scripts.com Debian12 post-installation steps](https://github.com/tteck/Proxmox/discussions/1988)
 
 # Installation steps
 
