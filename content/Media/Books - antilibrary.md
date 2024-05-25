@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-05-24
+updated: 2024-05-25
 draft: true
 tags:
   - note
@@ -13,9 +13,7 @@ tags:
 > What is an [antilibrary](https://nesslabs.com/antilibrary)? To put it simply, an antilibrary is a private collection of unread books. Instead of a celebration of everything you know, an antilibrary is an ode to everything you want to explore.  
 > Inspired by [this page](https://jzhao.zyx/books).
 
-# To Read
-
-## Non-fiction
+# Non-fiction
 
 - **Lost in Math: How Beauty Leads Physics Astray** by Sabine Hossenfelder
 - **The Making of the Atomic Bomb** by Richard Rhodes
@@ -26,9 +24,9 @@ tags:
 - **Sapiens** by Yuval Noah Harari
 - ...
 
-## Fiction
+# Fiction
 
-### Award-winning books
+## Award-winning books
 
 Books awarded with the [Hugo](https://de.wikipedia.org/wiki/Hugo_Award), [Nebula](https://de.wikipedia.org/wiki/Nebula_Award), their [joint winners](https://en.wikipedia.org/wiki/List_of_joint_winners_of_the_Hugo_and_Nebula_awards), or [Locus Award](https://de.wikipedia.org/wiki/Locus_Award), and possibly [other awards](https://en.wikipedia.org/wiki/List_of_science_fiction_and_fantasy_literary_awards).
 
@@ -80,7 +78,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
 - ...
 
-### Recommendations from friends
+## Recommendations from friends
 
 - **Rivers of London (series)** by Ben Aaronovitch
 - [**The Perfect Run** by Maxime J. Durand](https://www.royalroad.com/fiction/36735/the-perfect-run)
@@ -91,7 +89,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Black Bird Academy** by Stella Tack
 - **Book of Night** Holly Black
 
-### Warhammer 40K
+## Warhammer 40K
 
 - **Grey Knights (series)** by ...
 - ...
@@ -103,15 +101,9 @@ A list of physical books I own but haven't read yet:
 - **Lupercal's War** by VA
 - ...
 
-## Comic & Manga
+# Comic & Manga
 
 - Junji Ito
-- Ruri Dragon (finished chapters 1-13)
-- Chainsaw Man (finished chapters 1-165)
-- Kaiju No. 8 (finished chapters 1-21)
-- Goodnight Punpun (finished chapters 1-23)
-- Blame! (finished chapters ("Log.") 1-37)
-- Solo Leveling (paused after chapter 64)
 - Comic books by Simon Stålenhag
 	- **Tales from the Loop**
 	  **Things from the Flood**
