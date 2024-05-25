@@ -40,6 +40,6 @@ timedatectl set-timezone Europe/Berlin
 
 5. Install `quemu-guest-agent` with
 
-```
+```shell
 apt-get update && apt-get install -y qemu-guest-agent
 ```
