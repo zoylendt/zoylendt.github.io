@@ -1,7 +1,7 @@
 ---
 title: Obsidian Plugins
 date: 2024-05-10
-updated: 2024-05-22
+updated: 2024-05-25
 publishDate: 2024-05-10
 draft: false
 tags:
@@ -57,4 +57,5 @@ see [[My obsidian git quartz workflow]]
 
 ... -> https://forum.obsidian.md/t/automatically-update-last-modified-date-in-note/51776/10
 
-## .
+## Sort & Permute lines
+
