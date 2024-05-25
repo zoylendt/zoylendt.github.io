@@ -32,7 +32,7 @@ tags:
 
 ## Books
 
-- **Dark Imperium 1-3** by Guy Haley
+- **Dark Imperium 1-3 (anthology)** by Guy Haley
 - 
 
 ## Manga
