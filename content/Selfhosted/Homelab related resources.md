@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-05-24
+updated: 2024-05-25
 draft: false
 tags:
   - note
@@ -35,6 +35,9 @@ tags:
 
 - [ ] https://github.com/YuukanOO/seelf
 - [ ] [Jellystat](https://github.com/CyferShepard/Jellystat) -> tag: unstable
+- [ ] Dashboards: [dashy](https://github.com/Lissy93/dashy) vs [homepage](https://github.com/gethomepage/homepage)
+- [ ] [Firefly III](https://github.com/firefly-iii/firefly-iii) & [Firefly-Pico](https://github.com/cioraneanu/firefly-pico)
+- [ ] 
 
 
 # Blogs

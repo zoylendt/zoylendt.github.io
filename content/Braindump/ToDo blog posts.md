@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-22
+updated: 2024-05-25
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -144,8 +144,7 @@ tags:
 	- [ ] connect multiple instances
 - [ ] FreshRSS
 - [ ] Podgrab
-- [ ] Dashboards: [dashy](https://github.com/Lissy93/dashy) vs [homepage](https://github.com/gethomepage/homepage)
-- [ ] 
+
 
 
 ### Proxmox-related
