@@ -58,7 +58,7 @@ This note is about how to use **offen/docker-volume-backup** ([GitHub](https://g
 >docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}"
 >```
 >
->10. Print running conatainers and which tag the're pulling:
+>10. Print running containers and which tag the're pulling:
 >```shell
 >docker inspect $(docker ps  | awk '{print $2}' | grep -v ID) | jq .[].RepoTags
 >```
