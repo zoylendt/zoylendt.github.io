@@ -283,7 +283,15 @@ This section is about my personal backup script, adapted to the layout of my sys
 ## Unraid
 
 ```
-mkdir /mnt/user/medien/offen-backup && cd mkdir /mnt/user/medien/offen-backup
+mkdir /mnt/user/medien/offen-backup && cd /mnt/user/medien/offen-backup
+```
+
+```
+VOLUMENAME='/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia'
+```
+
+```shell title="Prepare additional info"
+mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt && docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt && docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt && docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt && docker run --rm -v .:/src -v $VOLUMENAME:/data alpine cp -r /src/Offen-Backup-Info /data
 ```
 
 ...
@@ -293,7 +301,8 @@ mkdir /mnt/user/medien/offen-backup && cd mkdir /mnt/user/medien/offen-backup
 ```
 /mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia
 /mnt/user/appdata/tailscale
-/mnt/user/appdata/stash2/
+/mnt/user/appdata/scrutiny2/config
+/mnt/user/appdata/stash2
   config
   metadata
   cache
