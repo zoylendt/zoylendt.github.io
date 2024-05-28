@@ -125,7 +125,11 @@ tags:
   ```shell
   docker ps -a --format="{{.Image}}"
   ```
-- ...
+- Get `ImageID` from 
+  ```shell
+  ...
+  ```
+-
 
 # Combined commands
 

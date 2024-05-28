@@ -112,9 +112,9 @@ docker ps -aq --filter volume=$VOLUMENAME
 docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
 ```
 
-Then: save `RepoDigest` with `docker run` command and `docker inspect` to volume.
+Then: save `RepoDigest` with `docker run` command and output of `docker inspect` to volume (maybe subdirectory?).
 
-
+...
 
 # Inspect or extract backup archives
 
