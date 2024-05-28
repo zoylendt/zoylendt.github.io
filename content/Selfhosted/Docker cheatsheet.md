@@ -67,10 +67,10 @@ tags:
 - List all volumes and by which container those are used ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
   ```shell
   for v in $(docker volume ls --format "{{.Name}}")
-do
- containers="$(docker ps -a --filter volume=$v --format '{{.Names}}' | tr '\n' ',')"
- echo "volume $v is used by $containers"
-done
+  do
+   containers="$(docker ps -a --filter volume=$v --format '{{.Names}}' | tr '\n' ',')"
+   echo "volume $v is used by $containers"
+  done
   ```
 - List all volumes and by which container those are used (Alternative, [Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
   ```shell
