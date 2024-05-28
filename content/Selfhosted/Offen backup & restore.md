@@ -291,19 +291,24 @@ VOLUMENAME='/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia'
 ```
 
 ```shell title="Prepare additional info"
-mkdir Offen-Backup-Info && 
-
-docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt && 
-
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt && 
-
-docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt && 
-
-docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt && 
-
-docker run --rm -v .:/src -v $VOLUMENAME:/data alpine cp -r /src/Offen-Backup-Info /data
+mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt && docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt && docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt && docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt && mv ./Offen-Backup-Info $VOLUMENAME
 ```
 
+```shell title="Stop container"
+docker stop Stash
+```
+
+```shell title="Create backup archive"
+docker run --rm \
+  -v $VOLUMENAME:/backup/$VOLUMENAME:ro \
+  -v .:/archive \
+  --env BACKUP_ARCHIVE="/archive" \
+  --env BACKUP_COMPRESSION="gz" \
+  --env BACKUP_FILENAME="$DVAR-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
+  --env BACKUP_FILENAME_EXPAND="true" \
+  --entrypoint backup \
+  offen/docker-volume-backup:v2
+```
 ...
 
 ### Volumes
