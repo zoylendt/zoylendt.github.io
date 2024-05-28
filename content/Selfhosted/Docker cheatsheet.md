@@ -34,7 +34,7 @@ tags:
   ```shell
   docker exec -it $CONTAINERNAME sh
   ```
--
+- ...
 
 # Volumes
 
@@ -71,27 +71,27 @@ tags:
    docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
   done
   ```
--
+- ...
 
 # Images
 
-> [!warning]- Difference between `ImageID` and `ImageDigest`
-> ...
+> [!warning]- Difference between `ImageID` and `RepoDigest`
+> While examining images they are sometimes referenced by their `ImageID` and their `RepoDigest`, both are sha256 encoded strings -> they look similar but have very different purposes. 
 > 
 > Short answer: ([Source 1](https://stackoverflow.com/questions/56364643/whats-the-difference-between-a-docker-images-image-id-and-its-digest), [Source 2](https://stackoverflow.com/questions/39811230/why-doesnt-my-newly-created-docker-have-a-digest))
-> - The `ImageID` is a hash of the local image JSON configuration **-> only local!**
-> - The `ImageDigest` is a hash of the manifest, introduced in Docker registry v2 **-> identification in the registry!**
+> - The `ImageID` is a hash of the local image JSON configuration **-> only local ID!**
+> - The `RepoDigest` is a hash of the manifest, introduced in Docker registry v2 **-> ID in the registry!**
 
 
-- List all downloaded Docker images
+- List all local Docker images
   ```shell
   docker image ls
   ```
-- List all downloaded Docker images and their RepoDigest
+- List all local Docker images (including their `RepoDigest`)
   ```shell
   docker image ls --digests
   ```
-- List image (and RepoDigest) of the local image `$IMAGENAME`
+- List image (and `RepoDigest`) of the local image `$IMAGENAME`
   ```shell
   docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
   ```
@@ -104,7 +104,7 @@ tags:
   >- `'{{index .RepoDigests 0}}'` -> `jellyfin/jellyfin@sha256:21e49baac...`
   >- `'{{.RepoDigests}}'` -> `[jellyfin/jellyfin@sha256:21e49baac...]`
 
-- Download image with specific RepoDigest [example: jellyfin/jellyfin]:
+- Download image with specific `RepoDigest` (**NOT `ImageID`**, must not be truncated!)
   ```shell
   docker pull jellyfin/jellyfin@sha256:21e49baac0a05efd4822269e3d8ba2f693e741006a2f81aa397cf5f8445e48a9
   ```
@@ -112,7 +112,7 @@ tags:
   ```shell
   docker images -f "dangling=true"
   ```
-- List dangling images (only ImageID) ([Source](https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers/44246929#44246929))
+- List only `ImageID` of dangling images ([Source](https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers/44246929#44246929))
   ```shell
   docker images -qf "dangling=true"
   ```
@@ -120,7 +120,7 @@ tags:
   ```shell
   docker image prune
   ```
-- List all images used by containers (running and stopped) ([Source](https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers/44246929#44246929))
+- List all images currently used by containers (running and stopped) ([Source](https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers/44246929#44246929))
   ```shell
   docker ps -a --format="{{.Image}}"
   ```
@@ -179,7 +179,7 @@ tags:
   ```shell
   docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $CONTAINERNAME
   ```
--
+- ...
 
 
 ---
