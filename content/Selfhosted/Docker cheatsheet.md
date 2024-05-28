@@ -66,6 +66,26 @@ tags:
   ```shell
   docker run --rm -v $VOLUMENAME:/data/ alpine /bin/sh -c "rm -rf /data/*"
   ```
+- List all containers using the volume `$VOLUMENAME` ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
+  ```shell
+  docker ps -a --filter volume=$VOLUMENAME
+  ```
+- List all volumes and by which container those are used ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
+  ```shell
+  for v in $(docker volume ls --format "{{.Name}}")
+do
+ containers="$(docker ps -a --filter volume=$v --format '{{.Names}}' | tr '\n' ',')"
+ echo "volume $v is used by $containers"
+done
+  ```
+- List all volumes and by which container those are used (Alternative, [Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
+  ```shell
+  for volume in $(docker volume ls  --format '{{.Name}}')
+do
+ echo $volume
+ docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
+done
+  ```
 -
 
 # Images
@@ -91,9 +111,9 @@ tags:
   >`'{{index .RepoDigests 0}}'` -> `jellyfin/jellyfin@sha256:21e49baac...`
   >`'{{.RepoDigests}}'` -> `[jellyfin/jellyfin@sha256:21e49baac...]`
 
-- ...
+- Download image with specific RepoDigest [example: jellyfin/jellyfin]:
   ```shell
-  ...
+  docker pull jellyfin/jellyfin@sha256:21e49baac0a05efd4822269e3d8ba2f693e741006a2f81aa397cf5f8445e48a9
   ```
 -
 - List dangling images [Source](https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers/44246929#44246929)
@@ -141,9 +161,17 @@ tags:
   >```
 -
 
-# Commands involving external containers
+# Other commands
 
-...
+- Restore `docker run` command of the container `$CONTAINERNAME` (with [runlike](https://github.com/lavie/runlike/))
+  ```shell
+  docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $CONTAINERNAME
+  ```
+- Restore `docker run` command by inspecting the container `$CONTAINERNAME` (with `docker inspect`, [Source](https://stackoverflow.com/questions/32758793/how-to-show-the-run-command-of-a-docker-container), [more about `docker inspect`](https://blog.container-solutions.com/docker-inspect-template-magic))
+  ```shell
+  docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $CONTAINERNAME
+  ```
+-
 
 
 ---
