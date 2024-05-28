@@ -118,9 +118,29 @@ docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
 docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}')
 ```
 
+  >[!info]- The components of this command
+  >This command consists of four steps:
+  >1. Get `ContainerID` of container(s) that use the volume `$VOLUMENAME`
+  >```shell
+  >docker ps -aq --filter volume=$VOLUMENAME
+  >```
+  >2. Get `ContainerID`, `ContainerName` & `ImageID` of the container `$CONTAINERID`. 
+  >```shell
+  >docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $CONTAINERID
+  >```
+  >3. We only need 
+  >544ca96a1dd2   Jellyfin-Intel   Up 9 days (healthy)
+  >17adac0dcbfb   scrutiny2        Up 2 weeks
+  >f727e77de244   Tailscale        Up 2 weeks
+  >```
+
 Next: save `RepoDigest` (with `docker run` command and output of `docker inspect`) to volume (maybe subfolder?) before backup starts.
 
 ...
+
+```
+docker run --rm -v `pwd`:/src -v my-jenkins-volume:/data busybox cp -r /src /data
+```
 
 # Inspect or extract backup archives
 
