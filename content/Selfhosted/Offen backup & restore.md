@@ -2,7 +2,7 @@
 title: Backup & restore Docker volumes with Offen
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-28
+updated: 2024-05-29
 draft: false
 tags:
   - note
@@ -289,7 +289,7 @@ mkdir /mnt/user/medien/offen-backup && cd /mnt/user/medien/offen-backup
 ### stash
 
 ```
-VOLUMENAME='/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia'
+VOLUMENAME='/mnt/user/appdata/stash'
 ```
 
 ```shell title="Prepare additional info"
@@ -297,12 +297,12 @@ mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0
 ```
 
 ```shell title="Stop container"
-docker stop Stash
+docker stop stash
 ```
 
 ```shell title="Create backup archive"
 docker run --rm \
-  -v $VOLUMENAME:/backup/Stash:ro \
+  -v $VOLUMENAME:/backup/stash:ro \
   -v `pwd`:/archive \
   --env BACKUP_ARCHIVE="/archive" \
   --env BACKUP_COMPRESSION="gz" \
