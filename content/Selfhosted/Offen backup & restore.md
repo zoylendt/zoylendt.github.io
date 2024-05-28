@@ -14,7 +14,7 @@ tags:
 This note is about how to use **offen/docker-volume-backup** ([GitHub](https://github.com/offen/docker-volume-backup), [Documentation](https://offen.github.io/docker-volume-backup/)) to back up (and restore) docker volumes. Offen works with mounted folders as well as docker volumes and offers many backup targets.
 
 >[!info] Useful docker commands
-> I have compiled a [[Docker cheatsheet|list of useful docker commands]] that might be useful.
+> I have compiled a [[Docker cheatsheet|list of useful docker commands]].
 
 # Manual backup 
 

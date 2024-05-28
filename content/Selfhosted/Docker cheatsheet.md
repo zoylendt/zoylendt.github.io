@@ -23,23 +23,14 @@ tags:
   ```shell
   docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}"
   ```
-- Print running containers and the tag they’ve been pulled from
-  ```shell
-  docker inspect $(docker ps | awk '{print $2}' | grep -v ID) | jq .[].RepoTags
-  ```
   >[!info]- Output example
   >```shell
-  >[
-  >  "jellyfin/jellyfin:latest"
-  >]
-  >[
-  >  "ghcr.io/analogj/scrutiny:master-omnibus"
-  >]
-  >[
-  >  "deasmi/unraid-tailscale:latest"
-  >]
+  >CONTAINER ID   NAMES            STATUS
+  >544ca96a1dd2   Jellyfin-Intel   Up 9 days (healthy)
+  >17adac0dcbfb   scrutiny2        Up 2 weeks
+  >f727e77de244   Tailscale        Up 2 weeks
   >```
-- Enter the container `$CONTAINERNAME`
+- Enter the shell of the container `$CONTAINERNAME` (must be running)
   ```shell
   docker exec -it $CONTAINERNAME sh
   ```
@@ -86,10 +77,10 @@ tags:
 
 > [!warning]- Difference between `ImageID` and `ImageDigest`
 > ...
-> .
+> 
 > Short answer: ([Source 1](https://stackoverflow.com/questions/56364643/whats-the-difference-between-a-docker-images-image-id-and-its-digest), [Source 2](https://stackoverflow.com/questions/39811230/why-doesnt-my-newly-created-docker-have-a-digest))
-> - The `ImageID` is a hash of the local image JSON configuration -> **only local!**
-> - The `ImageDigest` is a hash of the manifest, introduced in Docker registry v2 -> **you can search on the registry by this!**
+> - The `ImageID` is a hash of the local image JSON configuration **-> only local!**
+> - The `ImageDigest` is a hash of the manifest, introduced in Docker registry v2 **-> identification in the registry!**
 
 
 - List all downloaded Docker images
@@ -159,6 +150,22 @@ tags:
   >            "Image": "ghcr.io/analogj/scrutiny:master-omnibus",
   >        "Image": "sha256:dc3c8a6f33b924faf5d0462431c424eaca24c3063c581d7800feaab44366e30e",
   >            "Image": "deasmi/unraid-tailscale:latest",
+  >```
+- Print from which tag the running containers have been pulled
+  ```shell
+  docker inspect $(docker ps | awk '{print $2}' | grep -v ID) | jq .[].RepoTags
+  ```
+  >[!info]- Output example
+  >```shell
+  >[
+  >  "jellyfin/jellyfin:latest"
+  >]
+  >[
+  >  "ghcr.io/analogj/scrutiny:master-omnibus"
+  >]
+  >[
+  >  "deasmi/unraid-tailscale:latest"
+  >]
   >```
 -
 
