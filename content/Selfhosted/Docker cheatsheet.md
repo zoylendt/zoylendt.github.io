@@ -9,10 +9,61 @@ tags:
   - docker
 ---
 
+- ...
+  ```shell
+  ...
+  ```
+-
 
+# Containers
+
+- List all containers
+  ```shell
+  docker ps -a
+  ```
+- List only running containers
+  ```shell
+  docker ps
+  ```
+- List running containers with custom formatting
+  ```shell
+  docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}"
+  ```
+-
+- Enter the container `$CONTAINERNAME`
+  ```shell
+  docker exec -it $CONTAINERNAME sh
+  ```
+-
+
+# Volumes
+
+- List all volumes
+  ```shell
+  docker volume ls
+  ```
+- List contents of the volume `$VOLUMENAME` (works with alpine and ubuntu)
+  ```shell
+  docker run --rm -v $VOLUMENAME:/data/ alpine ls -la /data
+  ```
+- Delete contents of the volume `$VOLUMENAME`  
+  (works with alpine and ubuntu)
+  ```shell
+  docker run --rm -v $VOLUMENAME:/data/ alpine /bin/sh -c "rm -rf /data/*"
+  ```
+-
 
 # Images
 
+- List all downloaded Docker images
+  ```shell
+  docker image ls
+  ```
+- List all downloaded Docker images and their RepoDigest
+  ```shell
+  docker image ls --digests
+  ```
+-
 - List dangling images [Source](https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers/44246929#44246929)
   ```shell
   docker images -f "dangling=true"
@@ -29,4 +80,12 @@ tags:
   ```shell
   docker ps -a --format="{{.Image}}"
   ```
-- 
+- ...
+
+# Combined commands
+
+...
+
+# Commands involving external containers
+
+...
