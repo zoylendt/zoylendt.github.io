@@ -112,7 +112,7 @@ docker ps -aq --filter volume=$VOLUMENAME
 docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
 ```
 
-Then: save `RepoDigest` with `docker run` command and output of `docker inspect` to volume (maybe subdirectory?).
+Then: save `RepoDigest` with `docker run` command and output of `docker inspect` to volume (maybe subfolder?).
 
 ...
 

@@ -125,11 +125,11 @@ tags:
   ```shell
   docker ps -a --format="{{.Image}}"
   ```
-- Get `ImageID` from 
+- Get `ImageID` from `$IMAGENAME` ([Source](https://stackoverflow.com/questions/31263275/how-to-get-image-id-of-docker-in-jenkins))
   ```shell
-  ...
+  docker images --format "{{.ID}}" --filter=reference=$IMAGENAME
   ```
--
+- ...
 
 # Combined commands
 
