@@ -286,6 +286,8 @@ This section is about my personal backup script, adapted to the layout of my sys
 mkdir /mnt/user/medien/offen-backup && cd /mnt/user/medien/offen-backup
 ```
 
+### stash
+
 ```
 VOLUMENAME='/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia'
 ```
