@@ -101,7 +101,7 @@ My idea here is to add some information about the container that's using the tar
 1. Get the `RepoDigest` corresponding to the volume `$VOLUMENAME` that is to be backed up:
 
 > [!warning]
-> The command fails if the volume `$VOLUMENAME` is mounted into multiple containers!
+> The command fails if the volume `$VOLUMENAME` is mounted into multiple containers simultaneously, even if they're stopped!
 
 ```shell
 docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}')
@@ -126,13 +126,17 @@ docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --form
   >docker image inspect --format '{{index .RepoDigests 0}}' $IMAGEID
   >```
 
-We write that information into a new file:
+Now we write that information into a new file:
 
 ```shell
-docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/RepoDigest.txt
+mkdir Offen-Backup-Info && touch Offen-Backup-Info/RepoDigest.txt && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt
 ```
 
-2. 
+2. With two different methods we reconstruct the `docker run` command that created the container and save those aswell.
+
+```shell
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt
+```
 
 Next: save `RepoDigest` (with `docker run` command and output of `docker inspect`) to volume (maybe subfolder?) before backup starts.
 
