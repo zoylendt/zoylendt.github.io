@@ -78,6 +78,23 @@ tags:
   ```shell
   docker image ls --digests
   ```
+- List image (and RepoDigest) of the local image `$IMAGENAME`
+  ```shell
+  docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
+  ```
+  >[!info]- Output example
+  >```shell
+  >jellyfin/jellyfin@sha256:21e49baac0a05efd4822269e3d8ba2f693e741006a2f81aa397cf5f8445e48a9
+  >```
+
+  >[!info]- Formatting
+  >`'{{index .RepoDigests 0}}'` -> `jellyfin/jellyfin@sha256:21e49baac...`
+  >`'{{.RepoDigests}}'` -> `[jellyfin/jellyfin@sha256:21e49baac...]`
+
+- ...
+  ```shell
+  ...
+  ```
 -
 - List dangling images [Source](https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers/44246929#44246929)
   ```shell
@@ -109,6 +126,10 @@ tags:
   >ghcr.io/analogj/scrutiny@sha256:51240579aca148379fce5a469bb2fa470d016d14b687121e50a9c19fe2e930d7
   >deasmi/unraid-tailscale@sha256:caf8f4497fb3f6b8e54a1b12bbac7721564882fe4e5ceb63fc8d8666c8607251
   >```
+- List image (with tag and ImageID) of running containers:
+  ```shell
+  docker inspect $(docker ps -q) | grep Image
+  ```
 -
 
 # Commands involving external containers
