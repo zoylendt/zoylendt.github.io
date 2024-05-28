@@ -178,16 +178,39 @@ My idea here is to add some information about the container that's using the tar
 > ```shell
 > docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $CONTAINERNAME
 >```
->...
->3. List all volumes and by which container those are used ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume)):
 >
-```
-for v in $(docker volume ls --format "{{.Name}}")
+>3. List all volumes and by which container those are used ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume)):
+>```shell
+>for v in $(docker volume ls --format "{{.Name}}")
+>do
+>  containers="$(docker ps -a --filter volume=$v --format '{{.Names}}' | tr '\n' ',')"
+>  echo "volume $v is used by $containers"
+>done
+>```
+>
+>4. List all volumes and by which container those are used (Alternative, [Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume)):
+>```shell
+>for volume in $(docker volume ls  --format '{{.Name}}')
+>do
+>  echo $volume
+>  docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
+>done
+>```
+>
+>5. List all containers using a specific volume ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume)):
+>```shell
+>docker ps -a --filter volume=$VOLUMENAME
+>```
+>
+>6. 
+
+
+
+for volume in $(docker volume ls  --format '{{.Name}}')
 do
-  containers="$(docker ps -a --filter volume=$v --format '{{.Names}}' | tr '\n' ',')"
-  echo "volume $v is used by $containers"
+  echo $volume
+  docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
 done
- 
 
 # Inspect or extract backup archives
 
