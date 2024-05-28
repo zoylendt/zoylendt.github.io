@@ -126,7 +126,7 @@ docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --form
   >docker image inspect --format '{{index .RepoDigests 0}}' $IMAGEID
   >```
 
-Now we write that information into a new file:
+We write that information into a new file:
 
 ```shell
 mkdir Offen-Backup-Info && touch Offen-Backup-Info/RepoDigest.txt && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt
