@@ -109,7 +109,6 @@ done
   ```shell
   docker pull jellyfin/jellyfin@sha256:21e49baac0a05efd4822269e3d8ba2f693e741006a2f81aa397cf5f8445e48a9
   ```
--
 - List dangling images [Source](https://stackoverflow.com/questions/44246586/how-to-list-images-and-their-containers/44246929#44246929)
   ```shell
   docker images -f "dangling=true"
