@@ -94,15 +94,27 @@ Of course Syncthing has to be configured properly to sync the backup archives to
 
 ## Add container information to volume before backup
 
+> [!warning] This part is unfinished!
+
 My idea here is to add some information about the container that's using the target volume to said volume before the backup.
 
-Steps:
-- Identify container(s) using the volume `$VOLUMENAME`
+Steps for saving the `RepoDigest` corresponding to the volume `$VOLUMENAME` that is to be backed up:
+- Identify container(s) that use the volume `$VOLUMENAME`
 ```shell
 docker ps -aq --filter volume=$VOLUMENAME
 ```
+- List which IMAGENAME (or IMAGEID) the container `$CONTAINERNAME` uses
+```shell
+???
+```
+- List image (and `RepoDigest`) of a specific local image `$IMAGENAME` 
+```shell
+docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
+```
 
-...
+Then: save `RepoDigest` with `docker run` command and `docker inspect` to volume.
+
+
 
 # Inspect or extract backup archives
 
