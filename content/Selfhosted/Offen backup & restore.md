@@ -94,8 +94,6 @@ Of course Syncthing has to be configured properly to sync the backup archives to
 
 ## Add container information to volume before backup
 
-> [!warning] This part is unfinished!
-
 My idea here is to add some information about the container that's using the target volume to said volume before the backup.
 
 1. Get the `RepoDigest` corresponding to the volume `$VOLUMENAME` that is to be backed up:
@@ -129,7 +127,7 @@ docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --form
 We write that information into a new file:
 
 ```shell
-mkdir Offen-Backup-Info && touch Offen-Backup-Info/RepoDigest.txt && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt
+mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt
 ```
 
 2. With two different methods we reconstruct the `docker run` command that created the container and save those as well.
@@ -153,21 +151,21 @@ docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-In
 ```
 
 4. We copy the folder `./Offen-Backup-Info` into the volume
+  (works with busybox and alpine)
 
 ```shell
-docker run --rm -v .:/src -v $VOLUMENAME:/data busybox cp -r /src/Offen-Backup-Info /data
+docker run --rm -v .:/src -v $VOLUMENAME:/data alpine cp -r /src/Offen-Backup-Info /data
 ```
 
+5. Run the desired backup.
+6. Cleanup
 
-docker volume inspect $VOLUMENAME
-
-
-Next: save `RepoDigest` (with `docker run` command and output of `docker inspect`) to volume (maybe subfolder?) before backup starts.
-
-...
-
+```shell
+docker run --rm -v $VOLUMENAME:/data/ alpine /bin/sh -c "rm -rf /data//Offen-Backup-Info"
 ```
-docker run --rm -v `pwd`:/src -v my-jenkins-volume:/data busybox cp -r /src /data
+
+```shell
+rm -r Offen-Backup-Info
 ```
 
 # Inspect or extract backup archives
