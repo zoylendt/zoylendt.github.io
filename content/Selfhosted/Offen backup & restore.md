@@ -132,11 +132,35 @@ Now we write that information into a new file:
 mkdir Offen-Backup-Info && touch Offen-Backup-Info/RepoDigest.txt && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt
 ```
 
-2. With two different methods we reconstruct the `docker run` command that created the container and save those aswell.
+2. With two different methods we reconstruct the `docker run` command that created the container and save those as well.
 
 ```shell
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt
 ```
+
+```shell
+docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt
+```
+
+3. We save the output of `docker volume inspect` & `docker inspect` as well.
+
+```shell
+docker volume inspect $VOLUMENAME >> ./Offen-Backup-Info/docker_inspect_volume.txt
+```
+
+```shell
+docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt
+```
+
+4. We copy the folder `./Offen-Backup-Info` into the volume
+
+```shell
+docker run --rm -v .:/src -v $VOLUMENAME:/data busybox cp -r /src/Offen-Backup-Info /data
+```
+
+
+docker volume inspect $VOLUMENAME
+
 
 Next: save `RepoDigest` (with `docker run` command and output of `docker inspect`) to volume (maybe subfolder?) before backup starts.
 
@@ -263,7 +287,8 @@ rm backup.tar.gz
 >- [ ] encrypting backups
 >- [ ] run custom commands during backup/restore
 
->[!example] Steps to improve this note
+>[!example] Steps to improve this guide
 >- [ ] Make stuff like `$VOLUMENAME` & `ContainerID` consistent
+>- [ ] write consistently 'we' or 'you'
 >- [ ] add unraid section
 >- [ ] add synology section
