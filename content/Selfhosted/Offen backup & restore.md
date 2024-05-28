@@ -283,6 +283,16 @@ This section is about my personal backup script, adapted to the layout of my sys
 ## Unraid
 
 ```
+/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia
+/mnt/user/appdata/tailscale
+/mnt/user/appdata/scrutiny2/config
+/mnt/user/appdata/stash2
+  config
+  metadata
+  cache
+```
+
+```
 mkdir /mnt/user/medien/offen-backup && cd /mnt/user/medien/offen-backup
 ```
 
@@ -313,16 +323,10 @@ docker run --rm \
 ```
 ...
 
-### Volumes
+### jellyfin
 
 ```
-/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia
-/mnt/user/appdata/tailscale
-/mnt/user/appdata/scrutiny2/config
-/mnt/user/appdata/stash2
-  config
-  metadata
-  cache
+VOLUMENAME='/mnt/user/appdata/jellyfin'
 ```
 
 ---
