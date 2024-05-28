@@ -168,7 +168,20 @@ Of course Syncthing has to be configured properly to sync the backup archives to
 
 My idea here is to add some information about the container that's using the target volume to said volume before the backup.
 
+>[!info]- Docker commands for extracting container information
+> 1. restore `docker run` command by inspecting the container (with [runlike](https://github.com/lavie/runlike/)):
+> ```shell
+> docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $CONTAINERNAME
+>```
+>
+> 2. restore `docker run` command by inspecting the container (with `docker inspect`, [Source](https://stackoverflow.com/questions/32758793/how-to-show-the-run-command-of-a-docker-container), [more about `docker inspect`](https://blog.container-solutions.com/docker-inspect-template-magic)):
+> ```shell
+> docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $CONTAINERNAME
+>```
+>...
+>
 
+ 
 
 # Inspect or extract backup archives
 
