@@ -2,7 +2,7 @@
 title: Backup & restore Docker volumes with Offen
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-26
+updated: 2024-05-28
 draft: false
 tags:
   - note
@@ -32,6 +32,60 @@ This note is about how to use **offen/docker-volume-backup** ([GitHub](https://g
 >4. Remove contents of a volume (works with alpine and ubuntu)
 >```shell
 >docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
+>```
+>5. List all downloaded Docker images:
+>```shell
+>docker image ls
+>```
+>
+>6. List all downloaded Docker images and their RepoDigest:
+>```shell
+>docker image ls --digests
+>```
+>
+>7. List running containers:
+>```shell
+>docker ps
+>```
+>
+>8. List all containers:
+>```shell
+>docker ps -a
+>```
+>
+>9. List running containers with custom formatting:
+>```shell
+>docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}"
+>```
+>
+>10. Print running conatainers and which tag the're pulling:
+>```shell
+>docker inspect $(docker ps  | awk '{print $2}' | grep -v ID) | jq .[].RepoTags
+>```
+>
+>11. List image (and RepoDigest) of running containers:
+>```shell
+>docker ps --format '{{.Image}}' | xargs docker image inspect --format '{{if .RepoDigests}}{{index .RepoDigests 0}}{{end}}'
+>```
+>
+>12. List image (and RepoDigest) of a specific container [example: jellyfin/jellyfin]:
+>```shell
+>docker image inspect --format '{{index .RepoDigests 0}}' jellyfin/jellyfin
+>```
+>
+>13. Get RepoDigest from ImageID (´docker image ls´) for a specific image [example: ${image id}]:
+>```shell
+>docker image inspect ${image id} --format '{{.RepoDigests}}'
+>```
+>
+>14. List image (with tag and ImageID) of running containers:
+>```shell
+>docker inspect $(docker ps -q) | grep Image
+>```
+>
+>15. Download image with specific RepoDigest [example: jellyfin/jellyfin]:
+>```shell
+>docker pull jellyfin/jellyfin@sha256:21e49baac0a05efd4822269e3d8ba2f693e741006a2f81aa397cf5f8445e48a9
 >```
 
 # Manual backup 
