@@ -29,7 +29,22 @@ tags:
   ```shell
   docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}"
   ```
--
+- Print running containers and the tag they’ve been pulled from
+  ```shell
+  docker inspect $(docker ps | awk '{print $2}' | grep -v ID) | jq .[].RepoTags
+  ```
+  >[!info]- example output
+  >```shell
+  >[
+  >  "jellyfin/jellyfin:latest"
+  >]
+  >[
+  >  "ghcr.io/analogj/scrutiny:master-omnibus"
+  >]
+  >[
+  >  "deasmi/unraid-tailscale:latest"
+  >]
+  >```
 - Enter the container `$CONTAINERNAME`
   ```shell
   docker exec -it $CONTAINERNAME sh
