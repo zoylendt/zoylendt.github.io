@@ -101,6 +101,7 @@ tags:
   >```
 
   >[!info]- Formatting
+  > -> [more about `docker inspect` formatting](https://blog.container-solutions.com/docker-inspect-template-magic)
   >- `'{{index .RepoDigests 0}}'` -> `jellyfin/jellyfin@sha256:21e49baac...`
   >- `'{{.RepoDigests}}'` -> `[jellyfin/jellyfin@sha256:21e49baac...]`
 
@@ -128,7 +129,7 @@ tags:
 
 # Combined commands
 
-- List image (and RepoDigest) of running containers
+- List image (and `RepoDigest`) of running containers
   ```shell
   docker ps --format '{{.Image}}' | xargs docker image inspect --format '{{if .RepoDigests}}{{index .RepoDigests 0}}{{end}}'
   ```
@@ -138,7 +139,7 @@ tags:
   >ghcr.io/analogj/scrutiny@sha256:51240579aca148379fce5a469bb2fa470d016d14b687121e50a9c19fe2e930d7
   >deasmi/unraid-tailscale@sha256:caf8f4497fb3f6b8e54a1b12bbac7721564882fe4e5ceb63fc8d8666c8607251
   >```
-- List image (with tag and ImageID) of running containers:
+- List `ImageID` and tag of running containers:
   ```shell
   docker inspect $(docker ps -q) | grep Image
   ```
@@ -175,10 +176,60 @@ tags:
   ```shell
   docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $CONTAINERNAME
   ```
-- Restore `docker run` command by inspecting the container `$CONTAINERNAME` (with `docker inspect`, [Source](https://stackoverflow.com/questions/32758793/how-to-show-the-run-command-of-a-docker-container), [more about `docker inspect`](https://blog.container-solutions.com/docker-inspect-template-magic))
+  >[!info]- Output example
+  >```shell
+  >docker run --name=Jellyfin-Intel --hostname=544ca96a1dd2 --mac-address=02:42:ac:11:00:02 --env=TZ=Europe/Berlin --env=HOST_OS=Unraid --env=HOST_HOSTNAME=Datengrab --env=HOST_CONTAINERNAME=Jellyfin-Intel --env=NVIDIA_DRIVER_CAPABILITIES=all --volume=/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia:/config:rw --volume=/mnt/user/medien/Jellyfin/:/movies:rw --volume=/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia/cache:/cache:rw --network=bridge -p 8096:8096 -p 8097:8920 --restart=unless-stopped --device /dev/dri:/dev/dri --label='net.unraid.docker.managed=dockerman' --label='net.unraid.docker.icon=https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/jellyfin.png' --label='net.unraid.docker.webui=http://[IP]:[PORT:8096]/' --log-opt max-file=1 --log-opt max-size=50m --runtime=runc --detach=true jellyfin/jellyfin
+  >```
+- Restore `docker run` command by inspecting the container `$CONTAINERNAME` (with `docker inspect`, [Source](https://stackoverflow.com/questions/32758793/how-to-show-the-run-command-of-a-docker-container))
   ```shell
   docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $CONTAINERNAME
   ```
+  >[!info]- Output example
+  >```shell
+  >docker run \
+  >  --name "/Jellyfin-Intel" \
+  >  --runtime "runc" \
+  >  --volume "/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia:/config:rw" \
+  >  --volume "/mnt/user/medien/Jellyfin/:/movies:rw" \
+  >  --volume "/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia/cache:/cache:rw" \
+  >  --log-driver "json-file" \
+  >  --log-opt max-file="1" \
+  >  --log-opt max-size="50m" \
+  >  --restart "unless-stopped" \
+  >  --device "/dev/dri":"/dev/dri":rwm \
+  >  --publish "0.0.0.0:8096:8096/tcp" \
+  >  --publish "0.0.0.0:8097:8920/tcp" \
+  >  --network "bridge" \
+  >  --hostname "544ca96a1dd2" \
+  >  --expose "8096/tcp" \
+  >  --expose "8920/tcp" \
+  >  --env "TZ=Europe/Berlin" \
+  >  --env "HOST_OS=Unraid" \
+  >  --env "HOST_HOSTNAME=Datengrab" \
+  >  --env "HOST_CONTAINERNAME=Jellyfin-Intel" \
+  >  --env "NVIDIA_DRIVER_CAPABILITIES=all" \
+  >  --env "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
+  >  --env "HEALTHCHECK_URL=http://localhost:8096/health" \
+  >  --env "DEBIAN_FRONTEND=noninteractive" \
+  >  --env "LC_ALL=en_US.UTF-8" \
+  >  --env "LANG=en_US.UTF-8" \
+  >  --env "LANGUAGE=en_US:en" \
+  >  --env "JELLYFIN_DATA_DIR=/config" \
+  >  --env "JELLYFIN_CACHE_DIR=/cache" \
+  >  --env "JELLYFIN_CONFIG_DIR=/config/config" \
+  >  --env "JELLYFIN_LOG_DIR=/config/log" \
+  >  --env "JELLYFIN_WEB_DIR=/jellyfin/jellyfin-web" \
+  >  --env "JELLYFIN_FFMPEG=/usr/lib/jellyfin-ffmpeg/ffmpeg" \
+  >  --env "XDG_CACHE_HOME=/cache" \
+  >  --env "MALLOC_TRIM_THRESHOLD_=131072" \
+  >  --env "NVIDIA_VISIBLE_DEVICES=all" \
+  >  --label "net.unraid.docker.icon"="https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/jellyfin.png" \
+  >  --label "net.unraid.docker.managed"="dockerman" \
+  >  --label "net.unraid.docker.webui"="http://[IP]:[PORT:8096]/" \
+  >  --detach \
+  >  "jellyfin/jellyfin" \
+  >  
+  >```
 - ...
 
 
