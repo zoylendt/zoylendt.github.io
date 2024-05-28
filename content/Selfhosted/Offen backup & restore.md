@@ -161,7 +161,7 @@ docker run --rm -v .:/src -v $VOLUMENAME:/data alpine cp -r /src/Offen-Backup-In
 6. Cleanup
 
 ```shell
-docker run --rm -v $VOLUMENAME:/data/ alpine /bin/sh -c "rm -rf /data//Offen-Backup-Info"
+docker run --rm -v $VOLUMENAME:/data/ alpine /bin/sh -c "rm -rf /data/Offen-Backup-Info"
 ```
 
 ```shell
