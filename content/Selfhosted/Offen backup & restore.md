@@ -206,12 +206,6 @@ My idea here is to add some information about the container that's using the tar
 
 
 
-for volume in $(docker volume ls  --format '{{.Name}}')
-do
-  echo $volume
-  docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
-done
-
 # Inspect or extract backup archives
 
 The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf backup.tar.gz`. This creates a new folder `backup` (Note: **NOT** with the name of the archive, but with the name of the highest folder inside it!) and within this a folder with the volume name. The volume's contents are inside this folder.
