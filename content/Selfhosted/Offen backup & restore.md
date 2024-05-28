@@ -98,28 +98,17 @@ Of course Syncthing has to be configured properly to sync the backup archives to
 
 My idea here is to add some information about the container that's using the target volume to said volume before the backup.
 
-Steps for saving the `RepoDigest` corresponding to the volume `$VOLUMENAME` that is to be backed up:
-- get `ContainerID` of container(s) that use the volume `$VOLUMENAME`
-```shell
-docker ps -aq --filter volume=$VOLUMENAME
-```
-- List which IMAGENAME (or IMAGEID) the container `$CONTAINERID` uses
-```shell
-docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $CONTAINERID
-```
-  -> 3rd element of it -> ` | awk '{print $3}'`
-- List image (and `RepoDigest`) of a specific local image `$IMAGENAME` (also works with `$IMAGEID`)
-```shell
-docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
-```
+1. Get the `RepoDigest` corresponding to the volume `$VOLUMENAME` that is to be backed up:
 
--> all together: (Fails if multiple containers use the same volume!)
+> [!warning]
+> The command fails if the volume `$VOLUMENAME` is mounted into multiple containers!
+
 ```shell
 docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}')
 ```
 
   >[!info]- The components of this command
-  >This command consists of four steps:
+  >This command consists of four parts:
   >1. Get `ContainerID` of container(s) that use the volume `$VOLUMENAME`
   >```shell
   >docker ps -aq --filter volume=$VOLUMENAME
@@ -128,11 +117,22 @@ docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --form
   >```shell
   >docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $CONTAINERID
   >```
-  >3. We only need 
-  >544ca96a1dd2   Jellyfin-Intel   Up 9 days (healthy)
-  >17adac0dcbfb   scrutiny2        Up 2 weeks
-  >f727e77de244   Tailscale        Up 2 weeks
+  >3. We only need the `ImageID`, so we add
+  >```shell
+  > | awk '{print $3}'
   >```
+  >4. List image (and `RepoDigest`) of the local image `$IMAGEID` (also works with `$IMAGENAME`)
+  >```shell
+  >docker image inspect --format '{{index .RepoDigests 0}}' $IMAGEID
+  >```
+
+We write that information into a new file:
+
+```shell
+docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/RepoDigest.txt
+```
+
+2. 
 
 Next: save `RepoDigest` (with `docker run` command and output of `docker inspect`) to volume (maybe subfolder?) before backup starts.
 
@@ -258,3 +258,8 @@ rm backup.tar.gz
 >- [ ] backups to remote locations -> pcloud.com
 >- [ ] encrypting backups
 >- [ ] run custom commands during backup/restore
+
+>[!example] Steps to improve this note
+>- [ ] Make stuff like `$VOLUMENAME` & `ContainerID` consistent
+>- [ ] add unraid section
+>- [ ] add synology section
