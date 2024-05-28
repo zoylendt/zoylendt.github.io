@@ -129,6 +129,10 @@ tags:
   ```shell
   docker images --format "{{.ID}}" --filter=reference=$IMAGENAME
   ```
+- List all local images by name, `ImageID` and `RepoDigest` ([Source](https://stackoverflow.com/questions/53191733/dynamically-get-docker-image-id-from-its-name/53191962#53191962))
+  ```shell
+  docker images --format="{{.Repository}} {{.ID}} {{.Digest}}"
+  ```
 - ...
 
 # Combined commands

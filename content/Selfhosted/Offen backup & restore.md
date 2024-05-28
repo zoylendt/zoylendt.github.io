@@ -105,14 +105,10 @@ docker ps -aq --filter volume=$VOLUMENAME
 ```
 - List which IMAGENAME (or IMAGEID) the container `$CONTAINERID` uses
 ```shell
-???
+-> 3rd element of
+docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $CONTAINERID
 ```
-
-docker images --format="{{.Repository}} {{.ID}} {{.Digest}}" | grep $(docker ps -aq --filter volume=$VOLUMENAME)
-
-
-
-- List image (and `RepoDigest`) of a specific local image `$IMAGENAME` 
+- List image (and `RepoDigest`) of a specific local image `$IMAGENAME` (also works with `$IMAGEID`)
 ```shell
 docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
 ```
