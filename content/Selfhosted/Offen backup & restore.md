@@ -13,80 +13,8 @@ tags:
  
 This note is about how to use **offen/docker-volume-backup** ([GitHub](https://github.com/offen/docker-volume-backup), [Documentation](https://offen.github.io/docker-volume-backup/)) to back up (and restore) docker volumes. Offen works with mounted folders as well as docker volumes and offers many backup targets.
 
->[!info]- Useful docker commands
-> 1. List all docker volumes
-> ```shell
-> docker volume ls
->```
->
-> 2. Enter the container `containername`
-> ```shell
-> docker exec -it containername sh
->```
->
->3. List contents of a volume (works with alpine and ubuntu)
->```shell
->docker run --rm -v $DVAR:/data/ alpine ls -la /data
->```
->
->4. Remove contents of a volume (works with alpine and ubuntu)
->```shell
->docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
->```
->5. List all downloaded Docker images:
->```shell
->docker image ls
->```
->
->6. List all downloaded Docker images and their RepoDigest:
->```shell
->docker image ls --digests
->```
->
->7. List running containers:
->```shell
->docker ps
->```
->
->8. List all containers:
->```shell
->docker ps -a
->```
->
->9. List running containers with custom formatting:
->```shell
->docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}"
->```
->
->10. Print running containers and which tag the're pulling:
->```shell
->docker inspect $(docker ps  | awk '{print $2}' | grep -v ID) | jq .[].RepoTags
->```
->
->11. List image (and RepoDigest) of running containers:
->```shell
->docker ps --format '{{.Image}}' | xargs docker image inspect --format '{{if .RepoDigests}}{{index .RepoDigests 0}}{{end}}'
->```
->
->12. List image (and RepoDigest) of a specific local image [example: jellyfin/jellyfin]:
->```shell
->docker image inspect --format '{{index .RepoDigests 0}}' jellyfin/jellyfin
->```
->
->13. Get RepoDigest from ImageID (´docker image ls´) for a specific image [example: ${image id}]:
->```shell
->docker image inspect ${image id} --format '{{.RepoDigests}}'
->```
->
->14. List image (with tag and ImageID) of running containers:
->```shell
->docker inspect $(docker ps -q) | grep Image
->```
->
->15. Download image with specific RepoDigest [example: jellyfin/jellyfin]:
->```shell
->docker pull jellyfin/jellyfin@sha256:21e49baac0a05efd4822269e3d8ba2f693e741006a2f81aa397cf5f8445e48a9
->```
+>[!info] Useful docker commands
+> I have compiled a [[Docker cheatsheet|list of useful docker commands]] that might be useful.
 
 # Manual backup 
 
@@ -168,43 +96,7 @@ Of course Syncthing has to be configured properly to sync the backup archives to
 
 My idea here is to add some information about the container that's using the target volume to said volume before the backup.
 
->[!info]- Docker commands for extracting container information
-> 1. restore `docker run` command by inspecting the container (with [runlike](https://github.com/lavie/runlike/)):
-> ```shell
-> docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $CONTAINERNAME
->```
->
-> 2. restore `docker run` command by inspecting the container (with `docker inspect`, [Source](https://stackoverflow.com/questions/32758793/how-to-show-the-run-command-of-a-docker-container), [more about `docker inspect`](https://blog.container-solutions.com/docker-inspect-template-magic)):
-> ```shell
-> docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $CONTAINERNAME
->```
->
->3. List all volumes and by which container those are used ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume)):
->```shell
->for v in $(docker volume ls --format "{{.Name}}")
->do
->  containers="$(docker ps -a --filter volume=$v --format '{{.Names}}' | tr '\n' ',')"
->  echo "volume $v is used by $containers"
->done
->```
->
->4. List all volumes and by which container those are used (Alternative, [Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume)):
->```shell
->for volume in $(docker volume ls  --format '{{.Name}}')
->do
->  echo $volume
->  docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
->done
->```
->
->5. List all containers using a specific volume ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume)):
->```shell
->docker ps -a --filter volume=$VOLUMENAME
->```
->
->6. 
-
-
+...
 
 # Inspect or extract backup archives
 
