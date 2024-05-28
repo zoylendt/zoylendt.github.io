@@ -96,6 +96,12 @@ Of course Syncthing has to be configured properly to sync the backup archives to
 
 My idea here is to add some information about the container that's using the target volume to said volume before the backup.
 
+Steps:
+- Identify container(s) using the volume `$VOLUMENAME`
+```shell
+docker ps -aq --filter volume=$VOLUMENAME
+```
+
 ...
 
 # Inspect or extract backup archives
