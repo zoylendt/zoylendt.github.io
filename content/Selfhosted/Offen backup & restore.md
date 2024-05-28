@@ -179,8 +179,14 @@ My idea here is to add some information about the container that's using the tar
 > docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $CONTAINERNAME
 >```
 >...
+>3. List all volumes and by which container those are used ([Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume)):
 >
-
+```
+for v in $(docker volume ls --format "{{.Name}}")
+do
+  containers="$(docker ps -a --filter volume=$v --format '{{.Names}}' | tr '\n' ',')"
+  echo "volume $v is used by $containers"
+done
  
 
 # Inspect or extract backup archives
