@@ -130,6 +130,15 @@ tags:
   ```shell
   docker inspect $(docker ps -q) | grep Image
   ```
+  >[!info]- Output example
+  >```shell
+  >        "Image": "sha256:29d538f1e5ddfe70a1ad5ab05dda11e77b409d8a4fea953b65934c5df74fa557",
+  >            "Image": "jellyfin/jellyfin",
+  >        "Image": "sha256:463444ecf4bd41ff747d18fd0bb62274a448faf628d0907e29a643454429be38",
+  >            "Image": "ghcr.io/analogj/scrutiny:master-omnibus",
+  >        "Image": "sha256:dc3c8a6f33b924faf5d0462431c424eaca24c3063c581d7800feaab44366e30e",
+  >            "Image": "deasmi/unraid-tailscale:latest",
+  >```
 -
 
 # Commands involving external containers
