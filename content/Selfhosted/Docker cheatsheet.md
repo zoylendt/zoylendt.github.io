@@ -9,12 +9,6 @@ tags:
   - docker
 ---
 
-- ...
-  ```shell
-  ...
-  ```
--
-
 # Containers
 
 - List all containers
@@ -108,8 +102,8 @@ done
   >```
 
   >[!info]- Formatting
-  >`'{{index .RepoDigests 0}}'` -> `jellyfin/jellyfin@sha256:21e49baac...`
-  >`'{{.RepoDigests}}'` -> `[jellyfin/jellyfin@sha256:21e49baac...]`
+  >- `'{{index .RepoDigests 0}}'` -> `jellyfin/jellyfin@sha256:21e49baac...`
+  >- `'{{.RepoDigests}}'` -> `[jellyfin/jellyfin@sha256:21e49baac...]`
 
 - Download image with specific RepoDigest [example: jellyfin/jellyfin]:
   ```shell
