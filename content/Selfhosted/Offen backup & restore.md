@@ -68,7 +68,7 @@ This note is about how to use **offen/docker-volume-backup** ([GitHub](https://g
 >docker ps --format '{{.Image}}' | xargs docker image inspect --format '{{if .RepoDigests}}{{index .RepoDigests 0}}{{end}}'
 >```
 >
->12. List image (and RepoDigest) of a specific container [example: jellyfin/jellyfin]:
+>12. List image (and RepoDigest) of a specific local image [example: jellyfin/jellyfin]:
 >```shell
 >docker image inspect --format '{{index .RepoDigests 0}}' jellyfin/jellyfin
 >```
