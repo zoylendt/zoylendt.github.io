@@ -75,10 +75,10 @@ done
 - List all volumes and by which container those are used (Alternative, [Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
   ```shell
   for volume in $(docker volume ls  --format '{{.Name}}')
-do
- echo $volume
- docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
-done
+  do
+   echo $volume
+   docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
+  done
   ```
 -
 
