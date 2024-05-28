@@ -276,8 +276,28 @@ docker run --rm -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro al
 rm backup.tar.gz
 ```
 
-# Practical backup scrpts
+# Personal backup scripts
 
+This section is about my personal backup script, adapted to the layout of my systems.
+
+## Unraid
+
+```
+mkdir /mnt/user/medien/offen-backup && cd mkdir /mnt/user/medien/offen-backup
+```
+
+...
+
+### Volumes
+
+```
+/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia
+/mnt/user/appdata/tailscale
+/mnt/user/appdata/stash2/
+  config
+  metadata
+  cache
+```
 
 ---
 
