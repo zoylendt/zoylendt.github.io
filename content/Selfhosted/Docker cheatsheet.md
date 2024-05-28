@@ -33,7 +33,7 @@ tags:
   ```shell
   docker inspect $(docker ps | awk '{print $2}' | grep -v ID) | jq .[].RepoTags
   ```
-  >[!info]- example output
+  >[!info]- Output example
   >```shell
   >[
   >  "jellyfin/jellyfin:latest"
@@ -99,8 +99,27 @@ tags:
 
 # Combined commands
 
-...
+- List image (and RepoDigest) of running containers
+  ```shell
+  docker ps --format '{{.Image}}' | xargs docker image inspect --format '{{if .RepoDigests}}{{index .RepoDigests 0}}{{end}}'
+  ```
+  >[!info]- Output example
+  >```shell
+  >jellyfin/jellyfin@sha256:21e49baac0a05efd4822269e3d8ba2f693e741006a2f81aa397cf5f8445e48a9
+  >ghcr.io/analogj/scrutiny@sha256:51240579aca148379fce5a469bb2fa470d016d14b687121e50a9c19fe2e930d7
+  >deasmi/unraid-tailscale@sha256:caf8f4497fb3f6b8e54a1b12bbac7721564882fe4e5ceb63fc8d8666c8607251
+  >```
+-
 
 # Commands involving external containers
 
 ...
+
+
+---
+
+- ...
+  ```shell
+  ...
+  ```
+-
