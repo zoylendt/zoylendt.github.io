@@ -105,15 +105,20 @@ docker ps -aq --filter volume=$VOLUMENAME
 ```
 - List which IMAGENAME (or IMAGEID) the container `$CONTAINERID` uses
 ```shell
--> 3rd element of
 docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $CONTAINERID
 ```
+  -> 3rd element of it -> ` | awk '{print $3}'`
 - List image (and `RepoDigest`) of a specific local image `$IMAGENAME` (also works with `$IMAGEID`)
 ```shell
 docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
 ```
 
-Then: save `RepoDigest` with `docker run` command and output of `docker inspect` to volume (maybe subfolder?).
+-> all together: (Fails if multiple containers use the same volume!)
+```shell
+docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}')
+```
+
+Next: save `RepoDigest` (with `docker run` command and output of `docker inspect`) to volume (maybe subfolder?) before backup starts.
 
 ...
 
