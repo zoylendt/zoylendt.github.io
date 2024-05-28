@@ -164,6 +164,12 @@ docker run --rm \
 
 Of course Syncthing has to be configured properly to sync the backup archives to remote locations.
 
+## Add container information to volume before backup
+
+My idea here is to add some information about the container that's using the target volume to said volume before the backup.
+
+
+
 # Inspect or extract backup archives
 
 The backup gets stored as a `.tar.gz` file, which can be extracted with `tar -xvf backup.tar.gz`. This creates a new folder `backup` (Note: **NOT** with the name of the archive, but with the name of the highest folder inside it!) and within this a folder with the volume name. The volume's contents are inside this folder.
