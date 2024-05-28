@@ -300,11 +300,11 @@ docker stop Stash
 
 ```shell title="Create backup archive"
 docker run --rm \
-  -v $VOLUMENAME:/backup/$VOLUMENAME:ro \
-  -v .:/archive \
+  -v $VOLUMENAME:/backup/Stash:ro \
+  -v `pwd`:/archive \
   --env BACKUP_ARCHIVE="/archive" \
   --env BACKUP_COMPRESSION="gz" \
-  --env BACKUP_FILENAME="$DVAR-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
+  --env BACKUP_FILENAME="Stash-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
   --env BACKUP_FILENAME_EXPAND="true" \
   --entrypoint backup \
   offen/docker-volume-backup:v2
