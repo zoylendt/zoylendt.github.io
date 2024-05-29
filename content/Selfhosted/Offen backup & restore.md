@@ -322,7 +322,7 @@ docker run --rm \
   offen/docker-volume-backup:v2
 ```
 
-```shell title="Start container"
+```shell title="delete Offen-Backup-Info"
 rm -r /mnt/user/appdata/stash/Offen-Backup-Info
 ```
 
@@ -358,6 +358,14 @@ docker run --rm \
   --env BACKUP_FILENAME_EXPAND="true" \
   --entrypoint backup \
   offen/docker-volume-backup:v2
+```
+
+```shell title="delete Offen-Backup-Info"
+rm -r /mnt/user/appdata/jellyfin/Offen-Backup-Info
+```
+
+```shell title="Start container"
+docker start jellyfin
 ```
 
 ---
