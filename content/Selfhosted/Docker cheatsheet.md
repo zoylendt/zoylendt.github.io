@@ -53,6 +53,10 @@ tags:
   ```shell
   docker volume ls
   ```
+- Delete the volume `$VOLUMENAME`
+  ```shell
+  docker volume rm $VOLUMENAME
+  ```
 - List contents of the volume `$VOLUMENAME` (works with alpine and ubuntu)
   ```shell
   docker run --rm -v $VOLUMENAME:/data/ alpine ls -la /data
@@ -74,6 +78,19 @@ tags:
    echo "volume $v is used by $containers"
   done
   ```
+  >[!info]- Output example
+  >```shell
+  >volume jackett_config is used by 
+  >volume jd2_0_config is used by jd2_0,
+  >volume jd2_0_extensions is used by jd2_0,
+  >volume jd2_0_logs is used by jd2_0,
+  >volume jd2_1_config is used by jd2_1,
+  >volume jd2_1_extensions is used by jd2_1,
+  >volume jd2_1_logs is used by jd2_1,
+  >volume jd2_downloads is used by jd2_1,jd2_2,syncthing,
+  >volume jellyseerr_config is used by 
+  >volume kapowarr_content is used by kapowarr,
+  >```
 - List all volumes and by which container those are used (Alternative, [Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
   ```shell
   for volume in $(docker volume ls  --format '{{.Name}}')
