@@ -46,6 +46,7 @@ tags:
 - https://sequr.be/blog/
 - https://blog.stefandroid.com/2021/03/03/mount-nfs-share-in-docker-compose.html
 - https://deployn.de/en/blog/
+- https://linux-nerds.org/
 - 
 
 
