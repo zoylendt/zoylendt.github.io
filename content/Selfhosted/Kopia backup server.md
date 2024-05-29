@@ -42,7 +42,7 @@ version: '3.7'
 services:
   kopia-server:
     image: kopia/kopia:latest
-    hostname: ds918zoy
+    hostname: synologynas
     container_name: kopia-server
     restart: unless-stopped
     ports:
@@ -74,3 +74,25 @@ SERVER CERT SHA256: 321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31
 ```
 
 Then we stop the container, remove the line `- --tls-generate-cert` from the compose file and redeploy it.
+
+## Create new repository on NAS
+
+Now we can configure the repository server via its WebUI at `https://[Synology-IP]:51515`, username "kopiagui" and password "jz9x5y3zftnyo2zt" (or other values, see your compose file). 
+
+- "Select Storage Type" -> "Local Directory or NAS" -> "/repository" -> Next
+- Enter a new Repository PW
+
+
+
+# Setup on another PC
+
+...
+
+## With Docker
+
+...
+
+## With binary
+
+...
+
