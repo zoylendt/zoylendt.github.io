@@ -294,8 +294,12 @@ This section is about my personal backup script, adapted to the layout of my sys
 
 ### stash
 
+```shell title="Stop container"
+docker stop stash
 ```
-VOLUMENAME='/mnt/user/appdata/stash'
+
+```
+VOLUMENAME='/mnt/user/appdata/stash/config'
 ```
 
 ```
@@ -306,17 +310,13 @@ mkdir /mnt/user/medien/offen-backup && cd /mnt/user/medien/offen-backup
 mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt && docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt && docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt && docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt && mv ./Offen-Backup-Info $VOLUMENAME
 ```
 
-```shell title="Stop container"
-docker stop stash
-```
-
 ```shell title="Create backup archive"
 docker run --rm \
-  -v $VOLUMENAME:/backup/stash:ro \
+  -v /mnt/user/appdata/stash:/backup/stash:ro \
   -v `pwd`:/archive \
   --env BACKUP_ARCHIVE="/archive" \
   --env BACKUP_COMPRESSION="gz" \
-  --env BACKUP_FILENAME="Stash-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
+  --env BACKUP_FILENAME="stash-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
   --env BACKUP_FILENAME_EXPAND="true" \
   --entrypoint backup \
   offen/docker-volume-backup:v2
@@ -324,6 +324,10 @@ docker run --rm \
 ...
 
 ### jellyfin
+
+```shell title="Stop container"
+docker stop jellyfin
+```
 
 ```
 VOLUMENAME='/mnt/user/appdata/jellyfin'
@@ -335,10 +339,6 @@ mkdir /mnt/user/medien/offen-backup && cd /mnt/user/medien/offen-backup
 
 ```shell title="Prepare additional info"
 mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt && docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt && docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt && docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt && mv ./Offen-Backup-Info $VOLUMENAME
-```
-
-```shell title="Stop container"
-docker stop jellyfin
 ```
 
 ```shell title="Create backup archive"
