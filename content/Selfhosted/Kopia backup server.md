@@ -77,7 +77,7 @@ Then we stop the container, remove the line `- --tls-generate-cert` from the com
 
 ## Create new repository on NAS
 
-Now we can configure the repository server via its WebUI at `https://[Synology-IP]:51515`, username "kopiagui" and password "jz9x5y3zftnyo2zt" (or other values, see your compose file). 
+Now we can configure the repository server via its WebUI at `https://[Synology-IP]:51515` (note: http**s**), username "kopiagui" and password "jz9x5y3zftnyo2zt" (or other values, see your compose file). 
 
 - "Select Storage Type" -> "Local Directory or NAS" -> "/repository" -> Next
 - Enter a new Repository PW (use the value "KOPIA_PASSWORD" from your compose file, here: "yqxwbdjgmqkrj2t2")
@@ -93,10 +93,16 @@ We can also set global policies, some also define defaults for backups from othe
 One big advantage of having a central repository server is the ability to isolate backups from different endpoints. To utilize this we need to create a new user for each PC we want to back up from (it is possible to use the same credentials for more than one endpoint, too). We need to enter the `kopia-server` container, via Portainer or through the shell of the Synology NAS (`docker exec -it kopia-server sh`). here we add a new user with
 
   ```shell
-  docker exec -it $CONTAINERNAME sh
+  kopia server user add user@host
   ```
 
+"user" and "host" should be changed, but "user" without "@host" is not sufficient. You also need to provide a password. For this guide let's assume the login "user2@remotehost" & password "12345678".
+
 ## With Docker
+
+...
+
+### Restoring files
 
 ...
 
