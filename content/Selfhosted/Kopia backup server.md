@@ -22,4 +22,17 @@ This guide is about how to set up a [Kopia](https://kopia.io/) repository server
 > [!warning]
 > All credentials and IPs in this guide **must be changed** before you deploy it yourself, they're only written out for demonstration purposes!
 
-I have set up a dockerized Kopia server on my Synology NAS, which doesn't create new snapshots but only accept remote ones. On my NAS I created a shared folder "backups" as a place for Kopia and other tools to deposit their data. Inside this folder I created 
+I have set up a dockerized Kopia server on my Synology NAS, which doesn't create new snapshots but only accept remote ones. On my NAS I created a shared folder "backups" as a place for Kopia and other tools to deposit their data. Inside this folder I created a folder called "kopia" with various subfolders (due to [limitations of Docker on Synology](https://www.reddit.com/r/synology/comments/ls64fy/grant_docker_access_to_createdelete_folders/) these folders have to be created in the DSM WebUI or via SSH before running the docker stack):
+
+```
+volume1
+ └── backups
+     └── kopia
+         ├── config
+         ├── cache
+         ├── logs
+         ├── cert
+         └── repository
+```
+
+Now we create our 
