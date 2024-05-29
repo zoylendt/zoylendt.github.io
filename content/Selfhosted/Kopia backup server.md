@@ -8,8 +8,11 @@ tags:
   - note
   - unfinished
 ---
+
+> [!warning]
+> All credentials and IPs in this guide **must be changed** before you deploy it yourself, they're only written out for demonstration purposes! Also you might want to change stuff like ports, mount points and the timezone.
  
-This guide is about how to set up a [Kopia](https://kopia.io/) repository server with docker and connect Kopia instances on other PCs to it.
+This guide is about how to set up a [Kopia](https://kopia.io/) repository server with docker and connect Kopia instances on other PCs to it. Most configurations are done via the WebUI, but some things (like adding new users) requires the command line. 
 
 (What is Kopia)
 
@@ -18,9 +21,6 @@ This guide is about how to set up a [Kopia](https://kopia.io/) repository server
 ...
 
 # My usecase
-
-> [!warning]
-> All credentials and IPs in this guide **must be changed** before you deploy it yourself, they're only written out for demonstration purposes!
 
 I have set up a dockerized Kopia server on my Synology NAS, which doesn't create new snapshots but only accept remote ones. On my NAS I created a shared folder "backups" as a place for Kopia and other tools to deposit their data. Inside this folder I created a folder called "kopia" with various subfolders (due to [limitations of Docker on Synology](https://www.reddit.com/r/synology/comments/ls64fy/grant_docker_access_to_createdelete_folders/) these folders have to be created in the DSM WebUI or via SSH before running the docker stack):
 
@@ -106,7 +106,7 @@ For this example we store the config files for our local Kopia container at subd
 
 Important: set "KOPIA_PASSWORD" to the password of our newly created user, here: "12345678".
 
-```yaml {13} title="docker-compose.yaml"
+```yaml {20} title="docker-compose.yaml"
 version: '3.7'
 services:
   kopia:
@@ -135,11 +135,14 @@ services:
       - /root/restore:/restore
 ```
 
+Note that this configuration is less secure than our repository server setup (no HTTPS, for example), but it is way easier this way.
+
 Now we can configure the remote repository server through our local Kopia WebUI at `http://[local-IP]:51515` (note: **http**), username "kopiagui" and password "gfmh7qevukqnur58" (or other values, see your local compose file). 
 
 -> Select Storage Type -> Kopia Repository Server 
 
-Set the "Server address" to the IP of your Synology NAS (I use [Tailscale](https://tailscale.com/) on both the NAS and the local PC) with the correct IP (example here: "https://100.95.65.71:51515"). We also need to add the repository server's fingerprint, which we noted from the container's log after its first start (example here: "321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31e09c")
+Set the "Server address" to the IP of your Synology NAS (I use [Tailscale](https://tailscale.com/) on both the NAS and the local PC) with the correct IP (example here: "https://100.95.65.71:51515"). We also need to add the repository server's fingerprint, which we noted from the container's log after its first start (example here: "321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31e09c").  
+Here we also have to insert our credentials (login "user2@remotehost" & password "12345678"), the login can be changed from its default value via the Advanced View below.
 
 Now we can create our first snapshot:
 
@@ -157,3 +160,13 @@ Drawback of Docker approach: "Mount as Local Filesystem" does not work!
 
 ...
 
+# Kopia command line commands
+
+## inside the `kopia-server` (repository) container
+
+- List all snapshots (by a)
+  ```shell
+  docker ps -a
+  ```
+
+https://kopia.io/docs/reference/command-line/common/snapshot-list/
