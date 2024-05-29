@@ -77,7 +77,7 @@ Then we stop the container, remove the line `- --tls-generate-cert` from the com
 
 ## Create new repository on NAS
 
-Now we can configure the repository server via its WebUI at `https://[Synology-IP]:51515` (note: http**s**), username "kopiagui" and password "jz9x5y3zftnyo2zt" (or other values, see your compose file). 
+Now we can configure the repository server via its WebUI at `https://[Synology-IP]:51515` (note: **https**), username "kopiagui" and password "jz9x5y3zftnyo2zt" (or other values, see your compose file). 
 
 - "Select Storage Type" -> "Local Directory or NAS" -> "/repository" -> Next
 - Enter a new Repository PW (use the value "KOPIA_PASSWORD" from your compose file, here: "yqxwbdjgmqkrj2t2")
@@ -101,6 +101,44 @@ One big advantage of having a central repository server is the ability to isolat
 ## With Docker
 
 ...
+
+Important: set "KOPIA_PASSWORD" to the password of our newly created user, here: "12345678".
+
+```yaml {13} title="docker-compose.yaml"
+version: '3.7'
+services:
+  kopia:
+    image: kopia/kopia:latest
+    hostname: testvm
+    container_name: kopia
+    restart: unless-stopped
+    ports:
+      - 51515:51515
+    command:
+      - server
+      - start
+      - --disable-csrf-token-checks
+      - --insecure
+      - --address=0.0.0.0:51515
+      - --server-username=kopiagui
+      - --server-password=gfmh7qevukqnur58
+    environment:
+      TZ: Europe/Berlin
+      KOPIA_PASSWORD: "12345678"
+    volumes:
+      - /root/kopia_config/config:/app/config
+      - /root/kopia_config/cache:/app/cache
+      - /root/kopia_config/logs:/app/logs
+      - /root/important-data:/data:ro
+      - /root/restore:/restore
+```
+
+Now we can configure the remote repository server through our local Kopia WebUI at `http://[local-IP]:51515` (note: **http**), username "kopiagui" and password "gfmh7qevukqnur58" (or other values, see your local compose file). 
+
+-> Select Storage Type -> Kopia Repository Server 
+
+Set the "Server address" to the IP of your Synology NAS (I use Tailscale on both the NAS and the local PC) with the correct IP (example: )
+    -> Server address: https://100.95.dd.74:51515 -> add fingerprint -> Next
 
 ### Restoring files
 
