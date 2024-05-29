@@ -102,6 +102,8 @@ One big advantage of having a central repository server is the ability to isolat
 
 ...
 
+For this example we store the config files for our local Kopia container at subdirectories of `/root/kopia_config`, the important data we want to back up is located at `/root/important-data` (mounted read-only to the container) and we mount `/root/restore` into the container at `/restore` to have a location (besides the WebUI) to retrieve our restored files.
+
 Important: set "KOPIA_PASSWORD" to the password of our newly created user, here: "12345678".
 
 ```yaml {13} title="docker-compose.yaml"
@@ -139,9 +141,17 @@ Now we can configure the remote repository server through our local Kopia WebUI 
 
 Set the "Server address" to the IP of your Synology NAS (I use [Tailscale](https://tailscale.com/) on both the NAS and the local PC) with the correct IP (example here: "https://100.95.65.71:51515"). We also need to add the repository server's fingerprint, which we noted from the container's log after its first start (example here: "321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31e09c")
 
+Now we can create our first snapshot:
+
+- Snapshots -> New Snapshot -> "/data"
+
 ### Restoring files
 
 ...
+
+Possible: remove ":ro" from "/root/important-data:/data:ro", restore at "/data" and select "Overwrite Files" & "Overwrite Directories" -> restore at original place
+
+Drawback of Docker approach: "Mount as Local Filesystem" does not work!
 
 ## With binary
 
