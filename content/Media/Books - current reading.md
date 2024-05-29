@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-05-25
+updated: 2024-05-29
 draft: true
 tags:
   - note
@@ -17,7 +17,7 @@ tags:
 - **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
 - **Warboss** by Mike Brooks
 - **Python - Der Grundkurs** by Michael Kofler
-- ...
+- **Six Wakes** by Mur Lafferty (english)
 
 ## Manga
 

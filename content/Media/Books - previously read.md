@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-05-24
+updated: 2024-05-29
 draft: true
 tags:
   - note
@@ -30,6 +30,8 @@ tags:
 - **Ascension** by Nicholas Binge (german)
 - **Mickey 7** by Edward Ashton (german)
 - **Starter Villain** by John Scalzi (english)
+- **Schöne Scheine** by Terry Pratchett (german, audiobook)
+- **Klonk!** by Terry Pratchett (german, audiobook)
 
 ## 2023
 
