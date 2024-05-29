@@ -91,7 +91,7 @@ tags:
   >volume jellyseerr_config is used by 
   >volume kapowarr_content is used by kapowarr,
   >```
-- List all volumes and by which container those are used (Alternative, [Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
+- List all volumes and by which container those are used (Alternative formatting, [Source](https://stackoverflow.com/questions/42857575/how-to-determine-what-containers-use-the-docker-volume))
   ```shell
   for volume in $(docker volume ls  --format '{{.Name}}')
   do
@@ -99,6 +99,29 @@ tags:
    docker ps -a --filter volume="$volume"  --format '{{.Names}}' | sed 's/^/  /'
   done
   ```
+  >[!info]- Output example
+  >```shell
+  >jackett_config
+  >jd2_0_config
+  >  jd2_0
+  >jd2_0_extensions
+  >  jd2_0
+  >jd2_0_logs
+  >  jd2_0
+  >jd2_1_config
+  >  jd2_1
+  >jd2_1_extensions
+  >  jd2_1
+  >jd2_1_logs
+  >  jd2_1
+  >jd2_downloads
+  >  jd2_1
+  >  syncthing
+  >  jd2_0
+  >jellyseerr_config
+  >kapowarr_content
+  >  kapowarr
+  >```
 - ...
 
 # Images
