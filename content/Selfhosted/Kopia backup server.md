@@ -35,4 +35,42 @@ volume1
          └── repository
 ```
 
-Now we create our 
+Now we create our "docker-compose.yaml" (I use [Portainer](https://www.portainer.io/) or [dockge](https://github.com/louislam/dockge)):
+
+```yaml {13} title="docker-compose.yaml"
+version: '3.7'
+services:
+  kopia-server:
+    image: kopia/kopia:latest
+    hostname: ds918zoy
+    container_name: kopia-server
+    restart: unless-stopped
+    ports:
+      - 51515:51515
+    command:
+      - server
+      - start
+      - --tls-generate-cert
+      - --tls-cert-file=/app/cert/my.cert
+      - --tls-key-file=/app/cert/my.key
+      - --address=0.0.0.0:51515
+      - --server-username=kopiagui
+      - --server-password=jz9x5y3zftnyo2zt
+    environment:
+      KOPIA_PASSWORD: "yqxwbdjgmqkrj2t2"
+      TZ: Europe/Berlin
+    volumes:
+      - /volume1/backups/kopia/config:/app/config
+      - /volume1/backups/kopia/cache:/app/cache
+      - /volume1/backups/kopia/logs:/app/logs
+      - /volume1/backups/kopia/cert:/app/cert
+      - /volume1/backups/kopia/repository:/repository
+```
+
+Right after (successfully) starting the container we inspect its logs, where we watch for a line similar to this (and note it down):
+
+```
+SERVER CERT SHA256: 321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31e09c
+```
+
+Then we stop the container, remove the line `- --tls-generate-cert` from the compose file and redeploy it.
