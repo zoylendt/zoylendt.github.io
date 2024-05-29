@@ -2,12 +2,23 @@
 title: Docker Cheatsheet
 date: 2024-05-28
 publishDate: 2024-05-28
-updated: 2024-05-28
+updated: 2024-05-29
 draft: false
 tags:
   - note
   - docker
 ---
+
+# General commands
+
+- List total size used by Docker components ([Source](https://medium.com/homullus/how-to-inspect-volumes-size-in-docker-de1068d57f6b))
+  ```shell
+  docker system df
+  ```
+- List detailed size used by Docker components ([Source](https://medium.com/homullus/how-to-inspect-volumes-size-in-docker-de1068d57f6b))
+  ```shell
+  docker system df -v
+  ```
 
 # Containers
 
