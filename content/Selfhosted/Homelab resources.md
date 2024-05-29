@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-05-25
+updated: 2024-05-29
 draft: false
 tags:
   - note
@@ -45,6 +45,7 @@ tags:
 - https://blog.gurucomputing.com.au/Offsite%20Docker%20Backups%20with%20Kopia/Offsite%20Docker%20Backups%20with%20Kopia/
 - https://sequr.be/blog/
 - https://blog.stefandroid.com/2021/03/03/mount-nfs-share-in-docker-compose.html
+- https://deployn.de/en/blog/
 - 
 
 

@@ -23,7 +23,6 @@ tags:
 
 - Ruri Dragon (finished chapters 1-13)
 - Chainsaw Man (finished chapters 1-165)
-- Kaiju No. 8 (finished chapters 1-21)
 - Goodnight Punpun (finished chapters 1-23)
 - Blame! (finished chapters ("Log.") 1-37)
 
@@ -38,4 +37,5 @@ tags:
 ## Manga
 
 - Solo Leveling (paused after chapter 64)
+- Kaiju No. 8 (finished chapters 1-21)
 - 
