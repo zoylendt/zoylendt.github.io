@@ -278,7 +278,7 @@ rm backup.tar.gz
 
 # Personal backup scripts
 
-This section is about my personal backup script, adapted to the layout of my systems.
+This section is about my personal backup scripts, adapted to the layout of my systems.
 
 ## Unraid
 
