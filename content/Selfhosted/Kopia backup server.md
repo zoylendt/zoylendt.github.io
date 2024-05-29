@@ -137,8 +137,7 @@ Now we can configure the remote repository server through our local Kopia WebUI 
 
 -> Select Storage Type -> Kopia Repository Server 
 
-Set the "Server address" to the IP of your Synology NAS (I use Tailscale on both the NAS and the local PC) with the correct IP (example: )
-    -> Server address: https://100.95.dd.74:51515 -> add fingerprint -> Next
+Set the "Server address" to the IP of your Synology NAS (I use [Tailscale](https://tailscale.com/) on both the NAS and the local PC) with the correct IP (example here: "https://100.95.65.71:51515"). We also need to add the repository server's fingerprint, which we noted from the container's log after its first start (example here: "321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31e09c")
 
 ### Restoring files
 
