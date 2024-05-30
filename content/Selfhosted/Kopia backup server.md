@@ -14,13 +14,12 @@ tags:
 > [!warning]
 > All credentials and IPs in this guide **must be changed** before you deploy it yourself, they're only written out for demonstration purposes! Also you might want to change stuff like ports, mount points and the timezone.
  
-This guide is about how to set up a [Kopia](https://kopia.io/) repository server with docker and connect Kopia instances on other PCs to it. Most configurations are done via the WebUI, but some things (like adding new users) requires the command line. 
-
-> [!warning] Write about what Kopia is
+This guide is about how to set up a [Kopia](https://kopia.io/) repository server with docker and connect Kopia instances on other PCs to it. This way we can take snapshots of folders on different PCs and save them in a central place.  
+Most configuration steps of this guide are done via the containers WebUI but some things (like adding new users) require the command line. 
 
 # My usecase
 
-I have set up a dockerized Kopia server on my Synology NAS, which doesn't create new snapshots but only accept remote ones. On my NAS I created a shared folder "backups" as a place for Kopia and other tools to deposit their data. Inside this folder I created a folder called "kopia" with various subfolders (due to [limitations of Docker on Synology](https://www.reddit.com/r/synology/comments/ls64fy/grant_docker_access_to_createdelete_folders/) these folders have to be created in the DSM WebUI or via SSH before running the docker stack):
+I have set up a dockerized Kopia repository server on my Synology NAS, which doesn't create new snapshots himself but only accept remote ones. On my NAS I created a shared folder "backups" as a place for Kopia and other tools to deposit their data. Inside this folder I created a folder called "kopia" with various subfolders (due to [limitations of Docker on Synology](https://www.reddit.com/r/synology/comments/ls64fy/grant_docker_access_to_createdelete_folders/) these folders have to be created in the DSM WebUI or via SSH before running the docker stack):
 
 ```
 volume1
@@ -40,7 +39,7 @@ version: '3.7'
 services:
   kopia-server:
     image: kopia/kopia:latest
-    hostname: synologynas
+    hostname: repositoryserver
     container_name: kopia-server
     restart: unless-stopped
     ports:
@@ -163,7 +162,7 @@ Drawback of Docker approach: "Mount as Local Filesystem" does not work!
 
 > [!warning] untested, might have advantages over docker approach
 
-# Kopia command line commands
+# Kopia command line refference
 
 -> https://kopia.io/docs/reference/command-line/common/
 
