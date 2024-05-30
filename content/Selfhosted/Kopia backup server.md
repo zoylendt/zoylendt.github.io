@@ -155,7 +155,7 @@ Now we can create our first snapshot:
 
 Since we mounted `/root/restore` into the container at `/restore` writeable we can restore files there and manually move or compare them to `/root/important-data`.
 
-Possible: remove ":ro" from "/root/important-data:/data:ro", restore at "/data" and select "Overwrite Files" & "Overwrite Directories" -> restore at original place
+Possible: remove ":ro" from "/root/important-data:/data:ro", restore at "/data" and select "Overwrite Files" & "Overwrite Directories" -> restore at original place (but overwrite new changes, since apparently no partial restore through the WebUI is possible, beside downloading single files -> maybe through cli commands?).
 
 Drawback of Docker approach: "Mount as Local Filesystem" does not work!
 
