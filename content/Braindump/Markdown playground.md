@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-05-25
+updated: 2024-05-30
 draft: false
 tags:
   - note
@@ -398,3 +398,7 @@ This is a sample file.
 ls -alh
   ```
 </details>
+
+---
+
+![[1533bbd1893859b5.mp4]]
