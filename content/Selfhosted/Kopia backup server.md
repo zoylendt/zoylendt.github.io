@@ -89,13 +89,13 @@ We can also set global policies, some also define defaults for backups from othe
 
 # Setup on another PC
 
-One big advantage of having a central repository server is the ability to isolate backups from different endpoints. To utilize this we need to create a new user for each PC we want to back up from (it is possible to use the same credentials for more than one endpoint, too). We need to enter the `kopia-server` container, via Portainer or through the shell of the Synology NAS (`docker exec -it kopia-server sh`). here we add a new user with
+One big advantage of having a central repository server is the ability to isolate backups from different endpoints. To utilize this we need to create a new user for each PC we want to back up from (it is possible to use the same credentials for more than one endpoint, too). We need to enter the `kopia-server` container, via Portainer or through the shell of the Synology NAS (`docker exec -it kopia-server sh`). Here we add a new user with
 
   ```shell
   kopia server user add user@host
   ```
 
-"user" and "host" should be changed, but "user" without "@host" is not sufficient. You also need to provide a password. For this guide let's assume the login "user2@remotehost" & password "12345678".
+"user" and "host" should of course be changed, but "user" without "@host" is not sufficient. You also need to provide a password. For this guide let's assume the login "user2@remotehost" & password "12345678".
 
 ## With Docker
 
@@ -193,4 +193,9 @@ Some links with additional information:
 - [official docker-compose.yaml](https://github.com/kopia/kopia/blob/master/tools/docker/docker-compose.yml)
 - https://kopia.io/docs/installation/
 - https://blog.gurucomputing.com.au/Offsite%20Docker%20Backups%20with%20Kopia/Offsite%20Docker%20Backups%20with%20Kopia/
-- 
+
+---
+
+>[!example] Steps to improve this guide
+>- [ ] write consistently 'we' or 'you'
+>- [ ] ...
