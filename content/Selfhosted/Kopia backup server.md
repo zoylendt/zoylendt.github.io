@@ -37,7 +37,7 @@ volume1
 
 Now we create our "docker-compose.yaml" (I use [Portainer](https://www.portainer.io/) or [dockge](https://github.com/louislam/dockge)):
 
-```yaml {13} title="docker-compose.yaml"
+```yaml {13} title="repository server docker-compose.yaml"
 version: '3.7'
 services:
   kopia-server:
@@ -100,13 +100,13 @@ One big advantage of having a central repository server is the ability to isolat
 
 ## With Docker
 
-Let's assume we want do snapshot some files on a remote PC using a Kopia container, but of course we want to save the backups in our repository server. 
+Let's assume we want to snapshot some files on a remote PC ("testvm" in our example) using a Kopia container, but of course we want to save the backups in our repository server. 
 
-For this example we store the config files for our local Kopia container at subdirectories of `/root/kopia_config`, the important data we want to back up is located at `/root/important-data` (mounted read-only to the container) and we mount `/root/restore` into the container at `/restore` to have a location (besides the WebUI) to retrieve our restored files.
+For this example we store the config files for our "testvm" Kopia container at subdirectories of `/root/kopia_config`, the important data we want to back up is located at `/root/important-data` (mounted read-only to the container) and we mount `/root/restore` into the container at `/restore` to have a location (besides the WebUI) to retrieve our restored files.
 
 Important: set "KOPIA_PASSWORD" to the password of our newly created user, here: "12345678".
 
-```yaml {20} title="docker-compose.yaml"
+```yaml {20} title="testvm docker-compose.yaml"
 version: '3.7'
 services:
   kopia:
@@ -137,20 +137,24 @@ services:
 
 Note that this configuration is less secure than our repository server setup (no HTTPS, for example), but it is way easier this way.
 
-Now we can configure the remote repository server through our local Kopia WebUI at `http://[local-IP]:51515` (note: **http**), username "kopiagui" and password "gfmh7qevukqnur58" (or other values, see your local compose file). 
+Now we can configure the repository server on our NAS to be our snapshot target. Open the Kopia WebUI of "testvm" at `http://[testvm-IP]:51515` (note: **http**), username "kopiagui" and password "gfmh7qevukqnur58" (or other values, see the "testvm" compose file). 
 
 -> Select Storage Type -> Kopia Repository Server 
 
-Set the "Server address" to the IP of your Synology NAS (I use [Tailscale](https://tailscale.com/) on both the NAS and the local PC) with the correct IP (example here: "https://100.95.65.71:51515"). We also need to add the repository server's fingerprint, which we noted from the container's log after its first start (example here: "321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31e09c").  
-Here we also have to insert our credentials (login "user2@remotehost" & password "12345678"), the login can be changed from its default value via the Advanced View below.
+Set the "Server address" to the IP of your Synology NAS (I use [Tailscale](https://tailscale.com/) on both the NAS and the local PC) with the correct port (example here: "https://100.95.65.71:51515"). We also need to add the repository server's fingerprint, which we noted from the container's log after its first start (example here: "321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31e09c").  
+Here we also have to insert our credentials (login "user2@remotehost" & password "12345678"), the login can be changed from its default value in the Advanced View below.
 
 Now we can create our first snapshot:
 
 - Snapshots -> New Snapshot -> "/data"
 
+> [!warning] More information about snapshot options needed!
+
 ### Restoring files
 
-...
+> [!warning] More information ne
+
+Since we mounted `/root/restore` into the container at `/restore` writeable we can restore files there and manually move or compare them to `/root/important-data`.
 
 Possible: remove ":ro" from "/root/important-data:/data:ro", restore at "/data" and select "Overwrite Files" & "Overwrite Directories" -> restore at original place
 
@@ -158,7 +162,7 @@ Drawback of Docker approach: "Mount as Local Filesystem" does not work!
 
 ## With binary
 
-... (untested, might have advantages over docker approach)
+> [!warning] untested, might have advantages over docker approach
 
 # Kopia command line commands
 
@@ -170,4 +174,4 @@ Drawback of Docker approach: "Mount as Local Filesystem" does not work!
   ```shell
   kopia snapshot list -a
   ```
-
+- Delete snapshots: Best approach (IMHO) -> delete through WebUI of PC where the snapshot was created.
