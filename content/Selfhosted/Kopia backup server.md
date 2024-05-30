@@ -100,7 +100,7 @@ One big advantage of having a central repository server is the ability to isolat
 
 ## With Docker
 
-...
+Let's assume we want do snapshot some files on a remote PC using a Kopia container, but of course we want to save the backups in our repository server. 
 
 For this example we store the config files for our local Kopia container at subdirectories of `/root/kopia_config`, the important data we want to back up is located at `/root/important-data` (mounted read-only to the container) and we mount `/root/restore` into the container at `/restore` to have a location (besides the WebUI) to retrieve our restored files.
 
@@ -158,15 +158,16 @@ Drawback of Docker approach: "Mount as Local Filesystem" does not work!
 
 ## With binary
 
-...
+... (untested, might have advantages over docker approach)
 
 # Kopia command line commands
 
+-> https://kopia.io/docs/reference/command-line/common/
+
 ## inside the `kopia-server` (repository) container
 
-- List all snapshots (by a)
+- List all snapshots by all users ([Source](https://kopia.io/docs/reference/command-line/common/snapshot-list/))
   ```shell
-  docker ps -a
+  kopia snapshot list -a
   ```
 
-https://kopia.io/docs/reference/command-line/common/snapshot-list/
