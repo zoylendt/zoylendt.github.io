@@ -74,7 +74,7 @@ Here I write about my [[tags/obsidian|Obsidian]] setup and how I use it to deplo
 ...
    - [[]]
 - 🐳 [[Selfhosted]]  
-I've build myself a [homelab](https://linuxhandbook.com/homelab/) to tinker with software.
+I've build myself a [homelab](https://linuxhandbook.com/homelab/) to tinker with software. Some notes (mainly in this category) have evolved into full [[tags/guide|guides]].
    - [[tags/docker|Docker]]
    - [[tags/proxmox|Proxmox]]
    - [[tags/linux|Linux]]

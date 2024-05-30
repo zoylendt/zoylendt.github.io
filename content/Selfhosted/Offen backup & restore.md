@@ -2,13 +2,14 @@
 title: Backup & restore Docker volumes with Offen
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-29
+updated: 2024-05-30
 draft: false
 tags:
   - note
   - docker
   - backup
   - syncthing
+  - guide
 ---
  
 This note is about how to use **offen/docker-volume-backup** ([GitHub](https://github.com/offen/docker-volume-backup), [Documentation](https://offen.github.io/docker-volume-backup/)) to back up (and restore) docker volumes. Offen works with mounted folders as well as docker volumes and offers many backup targets.
