@@ -3,10 +3,12 @@ title:
 date: 2024-05-30
 publishDate: 2024-05-30
 updated: 2024-05-30
-draft: true
+draft: false
 tags:
   - note
   - unfinished
+  - docker
+  - backup
 ---
 
 > [!warning]
@@ -14,7 +16,7 @@ tags:
  
 This guide is about how to set up a [Kopia](https://kopia.io/) repository server with docker and connect Kopia instances on other PCs to it. Most configurations are done via the WebUI, but some things (like adding new users) requires the command line. 
 
-(What is Kopia)
+> [!warning] Write about what Kopia is
 
 # Resources
 
@@ -152,7 +154,7 @@ Now we can create our first snapshot:
 
 ### Restoring files
 
-> [!warning] More information ne
+> [!warning] More information needed!
 
 Since we mounted `/root/restore` into the container at `/restore` writeable we can restore files there and manually move or compare them to `/root/important-data`.
 
