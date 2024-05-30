@@ -33,7 +33,7 @@ volume1
          └── repository
 ```
 
-Now we create our "docker-compose.yaml" (I use [Portainer](https://www.portainer.io/) or [dockge](https://github.com/louislam/dockge)):
+Now we create our "docker-compose.yaml" (I use [Portainer](https://www.portainer.io/) or [dockge](https://github.com/louislam/dockge) for this):
 
 ```yaml {13} title="repository server docker-compose.yaml"
 version: '3.7'
@@ -193,6 +193,7 @@ Some links with additional information:
 - [official docker-compose.yaml](https://github.com/kopia/kopia/blob/master/tools/docker/docker-compose.yml)
 - https://kopia.io/docs/installation/
 - https://blog.gurucomputing.com.au/Offsite%20Docker%20Backups%20with%20Kopia/Offsite%20Docker%20Backups%20with%20Kopia/
+- https://kopia.io/docs/getting-started/
 
 ---
 
