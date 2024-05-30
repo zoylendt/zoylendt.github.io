@@ -197,4 +197,4 @@ Some links with additional information:
 
 >[!example] Steps to improve this guide
 >- [ ] write consistently 'we' or 'you'
->- [ ] ...
+>- [ ] consistently write `abc -> def` or `"abc" -> "def"`
