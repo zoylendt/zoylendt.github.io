@@ -18,10 +18,6 @@ This guide is about how to set up a [Kopia](https://kopia.io/) repository server
 
 > [!warning] Write about what Kopia is
 
-# Resources
-
-...
-
 # My usecase
 
 I have set up a dockerized Kopia server on my Synology NAS, which doesn't create new snapshots but only accept remote ones. On my NAS I created a shared folder "backups" as a place for Kopia and other tools to deposit their data. Inside this folder I created a folder called "kopia" with various subfolders (due to [limitations of Docker on Synology](https://www.reddit.com/r/synology/comments/ls64fy/grant_docker_access_to_createdelete_folders/) these folders have to be created in the DSM WebUI or via SSH before running the docker stack):
@@ -75,14 +71,15 @@ Right after (successfully) starting the container we inspect its logs, where we 
 SERVER CERT SHA256: 321a09df468f2fd7a7cb198a2aa195015014ae839409f5ca32718e34bd31e09c
 ```
 
-Then we stop the container, remove the line `- --tls-generate-cert` from the compose file and redeploy it.
+Then we stop the container, remove the line `- --tls-generate-cert` from the compose file (otherwise he will [fail to start](https://kopia.io/docs/repository-server/#auto-generated-tls-certificate)) and redeploy it.
 
 ## Create new repository on NAS
 
 Now we can configure the repository server via its WebUI at `https://[Synology-IP]:51515` (note: **https**), username "kopiagui" and password "jz9x5y3zftnyo2zt" (or other values, see your compose file). 
 
 - "Select Storage Type" -> "Local Directory or NAS" -> "/repository" -> Next
-- Enter a new Repository PW (use the value "KOPIA_PASSWORD" from your compose file, here: "yqxwbdjgmqkrj2t2")
+- Enter the Repository PW (use the value "KOPIA_PASSWORD" from your compose file, here: "yqxwbdjgmqkrj2t2")  
+  (Only after being manually configured once the value from the compose file is used for the configured repository.)
 - (optional) Advanced Options -> Error Correction Overhead -> 1%
 - Create Repository
 
@@ -150,7 +147,7 @@ Now we can create our first snapshot:
 
 - Snapshots -> New Snapshot -> "/data"
 
-> [!warning] More information about snapshot options needed!
+> [!warning] More information about snapshot options needed, like [ignore patterns](https://kopia.io/docs/advanced/kopiaignore/)!
 
 ### Restoring files
 
@@ -177,3 +174,18 @@ Drawback of Docker approach: "Mount as Local Filesystem" does not work!
   kopia snapshot list -a
   ```
 - Delete snapshots: Best approach (IMHO) -> delete through WebUI of PC where the snapshot was created.
+
+# Resources
+
+Some links with additional information:
+
+- https://linux-nerds.org/topic/848/kopia-http-s-server
+- https://github.com/kopia/kopia/issues/1982
+- https://kopia.discourse.group/t/error-connecting-to-api-server/2422/4
+- https://kopia.discourse.group/t/how-snapshot-restore-works/2601
+- https://kopia.discourse.group/t/containerized-kopia-server-setup/510
+- https://kopia.discourse.group/t/repository-server-via-docker/400
+- https://kopia.io/docs/repository-server/
+- [Various backup strategies](https://www.reddit.com/r/selfhosted/comments/18qfjn5/how_does_everyone_else_backup_their_docker/)
+- 
+- 
