@@ -185,7 +185,12 @@ Some links with additional information:
 - https://kopia.discourse.group/t/how-snapshot-restore-works/2601
 - https://kopia.discourse.group/t/containerized-kopia-server-setup/510
 - https://kopia.discourse.group/t/repository-server-via-docker/400
+- https://kopia.discourse.group/t/kopia-repository-server-on-docker/2141
+- https://github.com/kopia/kopia/issues/2045
 - https://kopia.io/docs/repository-server/
 - [Various backup strategies](https://www.reddit.com/r/selfhosted/comments/18qfjn5/how_does_everyone_else_backup_their_docker/)
-- 
+- [YT Guide including automatic stop/start of containers](https://www.youtube.com/watch?v=a6GfQy9wZfA)
+- [official docker-compose.yaml](https://github.com/kopia/kopia/blob/master/tools/docker/docker-compose.yml)
+- https://kopia.io/docs/installation/
+- https://blog.gurucomputing.com.au/Offsite%20Docker%20Backups%20with%20Kopia/Offsite%20Docker%20Backups%20with%20Kopia/
 - 
