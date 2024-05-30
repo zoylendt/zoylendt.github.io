@@ -78,9 +78,9 @@ Now we can configure the repository server via its WebUI at `https://[Synology-I
 
 - "Select Storage Type" -> "Local Directory or NAS" -> "/repository" -> Next
 - Enter the Repository PW (use the value "KOPIA_PASSWORD" from your compose file, here: "yqxwbdjgmqkrj2t2")  
-  (Only after being manually configured once the value from the compose file is used for the configured repository.)
+  Only after being manually configured once the value from the compose file is used for the configured repository.
 - (optional) Advanced Options -> Error Correction Overhead -> 1%
-- Create Repository
+- "Create Repository"
 
 We can also set global policies, some also define defaults for backups from other PCs. Set them at "Policies" -> "Edit". For now I only changed this (to reduce the required storage space):
 
