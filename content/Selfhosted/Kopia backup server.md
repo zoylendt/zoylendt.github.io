@@ -82,7 +82,7 @@ Now we can configure the repository server via its WebUI at `https://[Synology-I
 - (optional) Advanced Options -> Error Correction Overhead -> 1%
 - Create Repository
 
-We can also set global policies, some also define defaults for backups from other PCs. Set them at "Policies" -> "Edit".
+We can also set global policies, some also define defaults for backups from other PCs. Set them at "Policies" -> "Edit". For now I only changed this (to reduce the required storage space):
 
 - Compression -> Compression Algorithm -> Defined -> zstd
 
