@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-22
 publishDate: 2024-05-22
-updated: 2024-05-22
+updated: 2024-05-30
 draft: false
 tags:
   - note
@@ -16,6 +16,12 @@ tags:
 > See [[Quartz starting page|here]] for an overview.
 
 # Windows
+
+> [!tip]- Installation with Chocolatey
+> Git, Obsidian & GitHub Desktop can be installed using 
+> ```shell
+> ...
+> ```
 
 - Install git
 - Install Obsidian, but don't create a new vault

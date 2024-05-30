@@ -1,8 +1,8 @@
 ---
-title: "Rezept: Kontanzer Kartoffelseelen"
+title: "Rezept: Konstanzer Kartoffelseelen"
 date: 2024-05-20
 publishDate: 2024-05-20
-updated: 2024-05-20
+updated: 2024-05-30
 draft: false
 tags:
   - note
