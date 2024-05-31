@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-05-29
+updated: 2024-06-01
 draft: true
 tags:
   - note
@@ -17,7 +17,8 @@ tags:
 - **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
 - **Warboss** by Mike Brooks
 - **Python - Der Grundkurs** by Michael Kofler
-- **Six Wakes** by Mur Lafferty (english)
+- - **72 Minuten bis zur Vernichtung** by Annie Jacobsen
+- **Going Postal** by Terry Pratchett (audiobook)
 
 ## Manga
 

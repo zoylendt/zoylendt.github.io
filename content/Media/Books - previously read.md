@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-05-30
+updated: 2024-06-01
 draft: true
 tags:
   - note
@@ -32,6 +32,7 @@ tags:
 - **Starter Villain** by John Scalzi (english)
 - **Making Money** by Terry Pratchett (german, abridged audiobook)
 - **Thud!** by Terry Pratchett (german, abridged audiobook)
+- **Six Wakes** by Mur Lafferty (english)
 
 ## 2023
 

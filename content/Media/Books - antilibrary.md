@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-05-25
+updated: 2024-06-01
 draft: true
 tags:
   - note
@@ -17,7 +17,6 @@ tags:
 
 - **Lost in Math: How Beauty Leads Physics Astray** by Sabine Hossenfelder
 - **The Making of the Atomic Bomb** by Richard Rhodes
-- **72 Minuten bis zur Vernichtung** by Annie Jacobsen
 - **Das elegante Universum** by Brian Greene
 - **Humble Pi** by Matt Parker
 - **Bald!** by Zach Weinersmith
