@@ -10,7 +10,7 @@ tags:
   - reading
 ---
 
-![[Henry_Wallis_-_Chatterton_-_Google_Art_Project.jpg]]
+![[Chatterton.jpg]]
 
 A list of my all time favorite books :)
 
