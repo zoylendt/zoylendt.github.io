@@ -3,7 +3,7 @@ title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
 updated: 2024-06-01
-draft: true
+draft: false
 tags:
   - note
   - reading
