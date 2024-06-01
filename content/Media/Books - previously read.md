@@ -33,6 +33,7 @@ tags:
 - **Making Money** by Terry Pratchett (german, abridged audiobook)
 - **Thud!** by Terry Pratchett (german, abridged audiobook)
 - **Six Wakes** by Mur Lafferty (english)
+- - **72 Minuten bis zur Vernichtung** by Annie Jacobsen (german)
 
 ## 2023
 

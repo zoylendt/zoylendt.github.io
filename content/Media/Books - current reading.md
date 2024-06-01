@@ -16,7 +16,6 @@ tags:
 
 - **Warboss** by Mike Brooks
 - **Python - Der Grundkurs** by Michael Kofler
-- - **72 Minuten bis zur Vernichtung** by Annie Jacobsen
 - **Going Postal** by Terry Pratchett (audiobook)
 
 ## Manga & Comics

@@ -23,3 +23,7 @@ A list of my all time favorite books :)
 - **Necropolis (and other 'Gaunts Ghosts' books)** by Dan Abnett
 - **Eisenhorn (series)** by Dan Abnett
 - **The Solar War (and other 'Siege of Terra' books)** by John French
+- **HH 9 - Mechanicum** by Graham McNeill
+- **The Zombie Survival Guide** by Max Brooks
+- **World War Z** by Max Brooks
+- 
