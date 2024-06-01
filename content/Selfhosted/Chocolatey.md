@@ -41,7 +41,7 @@ The packages I use:
 
 - chocolateygui
 - everything
-- extractnow (no longer managed by Chocolatey)
+- [extractnow](https://extractnow.com/#/home) (no longer managed by Chocolatey)
 - jdownloader
 - wiztree
 - git.install
