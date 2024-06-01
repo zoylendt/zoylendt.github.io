@@ -47,10 +47,10 @@ The packages I use:
 - git.install
 - github-desktop
 - treesizefree
+- kopiaui
 
 Manually installed but available on Chocolatey:
 
-- kopiaui
 - synctrayzor
 - anydesk
 - obsidian
