@@ -48,15 +48,21 @@ The packages I use:
 - github-desktop
 - treesizefree
 
+Manually installed but available on Chocolatey:
+
 - kopiaui
 - synctrayzor
 - anydesk
 - obsidian
 - spotify
 - pdf24
-- 
+- vlc
+- telegram
+- bitwarden
+- teamspeak
+- steam
 
 Install all at once:
-```shell
-choco install -y 
-```
+  ```shell
+  choco install -y 
+  ```
