@@ -3,10 +3,45 @@ title:
 date: 2024-06-01
 publishDate: 2024-06-01
 updated: 2024-06-01
-draft: true
+draft: false
 tags:
   - note
-  - unfinished
+  - windows
 ---
  
-Chocolatey is
+[Chocolatey](https://chocolatey.org/) is a packet manager for Windows.
+
+# Installation
+
+[Guide for 'Individual Installation'](https://chocolatey.org/install#individual)
+
+1. Open PowerShell as Admin -> `[Win]+[x],[a]`
+
+2. "Run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`."
+
+3. 
+
+  ```shell
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+  ```
+
+# Useful commands
+
+- List all installed packages: `choco list`
+- Search for packages at https://community.chocolatey.org/packages
+- Install new package with `choco install <packagename>`
+- Install a GUI for chocolatey with `choco install chocolateygui`
+- Search for updates of installed packages with `choco upgrade all --noop`
+
+# Installed packages
+
+The packages I use:
+
+- chocolateygui
+- everything
+- extractnow
+- jdownloader
+- treesizefree
+- wiztree
+- git.install
+- github-desktop
