@@ -2,7 +2,7 @@
 title: 
 date: 2024-06-01
 publishDate: 2024-06-01
-updated: 2024-06-01
+updated: 2024-06-02
 draft: false
 tags:
   - note
@@ -29,6 +29,7 @@ tags:
 
 - List all installed packages: `choco list`
 - Search for packages at https://community.chocolatey.org/packages
+- List of CLI commands: https://docs.chocolatey.org/en-us/choco/commands/
 - Install new package with `choco install <packagename>`
 - Install a GUI for chocolatey with `choco install chocolateygui`
 - Search for updates of installed packages with `choco upgrade all --noop`
@@ -41,7 +42,15 @@ The packages I use:
 - everything
 - extractnow
 - jdownloader
-- treesizefree
 - wiztree
 - git.install
 - github-desktop
+- 
+- kopiaui
+- synctrayzor
+- treesizefree
+
+Install all at once:
+```shell
+...
+```
