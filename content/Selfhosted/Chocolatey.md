@@ -33,6 +33,7 @@ tags:
 - Install new package with `choco install <packagename>`
 - Install a GUI for chocolatey with `choco install chocolateygui`
 - Search for updates of installed packages with `choco upgrade all --noop`
+- Upgrade all installed packages with `choco upgrade all -y`
 
 # Installed packages
 
@@ -49,6 +50,8 @@ The packages I use:
 - kopiaui
 - synctrayzor
 - treesizefree
+- anydesk
+- 
 
 Install all at once:
 ```shell
