@@ -50,6 +50,7 @@ The packages I use:
 - paint.net
 - vscode
 - pdf24
+- calibre
 
 Install all at once:
   ```shell
