@@ -48,6 +48,7 @@ The packages I use:
 - github-desktop
 - treesizefree
 - kopiaui
+- paint.net
 
 Manually installed but available on Chocolatey:
 
@@ -61,6 +62,8 @@ Manually installed but available on Chocolatey:
 - bitwarden
 - teamspeak
 - steam
+- brave
+- notepadplusplus
 
 Install all at once:
   ```shell
