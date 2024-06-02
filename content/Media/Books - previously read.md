@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-01
+updated: 2024-06-02
 draft: false
 tags:
   - note
@@ -33,13 +33,13 @@ tags:
 - **Making Money** by Terry Pratchett (german, abridged audiobook)
 - **Thud!** by Terry Pratchett (german, abridged audiobook)
 - **Six Wakes** by Mur Lafferty (english)
-- - **72 Minuten bis zur Vernichtung** by Annie Jacobsen (german)
+- **Nuclear War: A Scenario** by Annie Jacobsen (german)
 
 ## 2023
 
 - **This Is How You Lose the Time War** by Amal El-Mohtar & Max Gladstone (german & english)
 - **Far from the Light of Heaven** by Tade Thompson (german)
-- **Signus Daemonicus** by James Swallow (german, audiobook)
+- **HH 21 - Signus Daemonicus** by James Swallow (german, audiobook)
 - **The End and the Death: Volume II** by Dan Abnett (english)
 
 ## Noteworthy Books From Before 2023
