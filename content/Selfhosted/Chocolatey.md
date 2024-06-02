@@ -31,7 +31,7 @@ tags:
 - Search for packages at https://community.chocolatey.org/packages
 - List of CLI commands: https://docs.chocolatey.org/en-us/choco/commands/
 - Install new package with `choco install <packagename>`
-  - Install a GUI for chocolatey with `choco install chocolateygui`
+  - Install a GUI for Chocolatey with `choco install chocolateygui`
 - Search for updates of installed packages with `choco upgrade all --noop`
 - Upgrade all installed packages with `choco upgrade all -y`
 
