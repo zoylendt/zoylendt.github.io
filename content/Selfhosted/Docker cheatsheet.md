@@ -2,7 +2,7 @@
 title: Docker Cheatsheet
 date: 2024-05-28
 publishDate: 2024-05-28
-updated: 2024-05-29
+updated: 2024-06-02
 draft: false
 tags:
   - note
@@ -44,6 +44,16 @@ tags:
 - Enter the shell of the container `$CONTAINERNAME` (must be running)
   ```shell
   docker exec -it $CONTAINERNAME sh
+  ```
+- Stop all running containers, run something, then start them up again
+  ```shell
+  CONTRUN2=$(docker ps -q)
+  
+  docker stop $CONTRUN2
+  
+  ...
+  
+  docker start $CONTRUN2
   ```
 - ...
 

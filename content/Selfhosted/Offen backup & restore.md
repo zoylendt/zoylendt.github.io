@@ -2,7 +2,7 @@
 title: Backup & restore Docker volumes with Offen
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-30
+updated: 2024-06-02
 draft: false
 tags:
   - note
@@ -16,6 +16,14 @@ This note is about how to use **offen/docker-volume-backup** ([GitHub](https://g
 
 >[!info] Useful docker commands
 > I have compiled a [[Docker cheatsheet|list of useful docker commands]].
+
+> [!warning]-
+> I encountered once that the Offen container had no read access:
+> ```shell
+> level=INFO msg="Removed tar file `/tmp/valknut_containers-2024-05-30T15-14-49.tar.gz`."
+> level=ERROR msg="Fatal error running command: permission denied" error="main.(*command).runAsCommand: error running script: main.runScript.func4: error running script: main.(*script).createArchive: error walking filesystem tree: open /backup/valknut_containers: permission denied"
+> ```
+> I solved it by running the container with `--privileged`
 
 # Manual backup 
 
