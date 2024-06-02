@@ -38,10 +38,9 @@ tags:
 # Installed packages
 
 The packages I use:
-
+- [extractnow](https://extractnow.com/#/home) (no longer available in Chocolatey)
 - chocolateygui
 - everything
-- [extractnow](https://extractnow.com/#/home) (no longer managed by Chocolatey)
 - jdownloader
 - wiztree
 - git.install
@@ -49,14 +48,19 @@ The packages I use:
 - treesizefree
 - kopiaui
 - paint.net
+- vscode
+- pdf24
 
-Manually installed but available on Chocolatey:
+Install all at once:
+  ```shell
+  choco install -y 
+  ```
 
+Manually installed but also available on Chocolatey:
 - synctrayzor
 - anydesk
 - obsidian
 - spotify
-- pdf24
 - vlc
 - telegram
 - bitwarden
@@ -64,8 +68,10 @@ Manually installed but available on Chocolatey:
 - steam
 - brave
 - notepadplusplus
+- putty
+- tailscale
+- rpi-imager
+- win32diskimager
+- sonos-controller
+- alldup (outdated, last update: 29 Jun 2021)
 
-Install all at once:
-  ```shell
-  choco install -y 
-  ```
