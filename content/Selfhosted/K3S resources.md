@@ -10,6 +10,7 @@ tags:
   - unfinished
   - barebone
   - docker
+  - k3s
 ---
  
 Some resources about using K3S in a homelab environment, possibly on multiple locations, connected via Tailscale.

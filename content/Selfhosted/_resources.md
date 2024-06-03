@@ -1,5 +1,5 @@
 ---
-title: 
+title: Homelab related resources
 date: 2024-05-21
 publishDate: 2024-05-21
 updated: 2024-06-03
@@ -8,7 +8,6 @@ tags:
   - note
   - bookmarks
   - unfinished
-  - barebone
 ---
 
 
@@ -71,4 +70,5 @@ tags:
 - [Obsidian 101](https://www.reddit.com/r/ObsidianMD/s/4LsHCfeEjI)
 - [Docker vs Podman](https://www.fme.de/blog/docker-ist-tot-podman-eine-alternative/)
 - [About base docker images](https://iximiuz.com/en/posts/containers-making-images-better/)
-- 
+- [Strategies for Updating docker stacks](https://www.reddit.com/r/selfhosted/s/Ni8MmpfaLR)
+- [version control](https://www.reddit.com/r/selfhosted/s/QeoldaO0hd)
