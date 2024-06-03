@@ -62,4 +62,11 @@ tags:
 
 - [Installing HA on Proxmox 8](https://community.home-assistant.io/t/installing-home-assistant-os-using-proxmox-8/201835)
 - https://sequr.be/tags/home-assistant/
+
+
+# Individual topics
+
+- [Enable Easy-Anti-Cheat in Windows-VM under Proxmox](https://www.reddit.com/r/Proxmox/s/QEmNyfGzsv)
+- [Obsidian 101](https://www.reddit.com/r/ObsidianMD/s/4LsHCfeEjI)
+- [Docker vs Podman](https://www.fme.de/blog/docker-ist-tot-podman-eine-alternative/)
 - 
