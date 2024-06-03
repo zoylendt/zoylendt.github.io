@@ -124,6 +124,7 @@ tags:
 	- [ ] kopia
 	- [ ] imgbrd-grabber & szurubooru
 	- [ ] music -> navidrome (+ identifier)
+	- [ ] https://gchq.github.io/CyberChef/
 	- [ ] 
 - [ ] calendar
 - [ ] unraid sleep setup

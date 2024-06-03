@@ -66,6 +66,7 @@ tags:
 
 # Individual topics
 
+- Open ports on Synology NAS: [Scan](https://mariushosting.com/synology-show-currently-open-ports-and-their-status/), [List](https://kb.synology.com/en-global/DSM/tutorial/What_network_ports_are_used_by_Synology_services), [Forum](https://www.synology-forum.de/threads/offene-ports-vom-synology-nas.102302/)
 - [Enable Easy-Anti-Cheat in Windows-VM under Proxmox](https://www.reddit.com/r/Proxmox/s/QEmNyfGzsv)
 - [Obsidian 101](https://www.reddit.com/r/ObsidianMD/s/4LsHCfeEjI)
 - [Docker vs Podman](https://www.fme.de/blog/docker-ist-tot-podman-eine-alternative/)
