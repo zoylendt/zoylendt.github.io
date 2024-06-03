@@ -69,4 +69,5 @@ tags:
 - [Enable Easy-Anti-Cheat in Windows-VM under Proxmox](https://www.reddit.com/r/Proxmox/s/QEmNyfGzsv)
 - [Obsidian 101](https://www.reddit.com/r/ObsidianMD/s/4LsHCfeEjI)
 - [Docker vs Podman](https://www.fme.de/blog/docker-ist-tot-podman-eine-alternative/)
-- [About]
+- [About base docker images](https://iximiuz.com/en/posts/containers-making-images-better/)
+- 
