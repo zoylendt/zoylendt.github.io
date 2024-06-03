@@ -9,5 +9,14 @@ tags:
   - unfinished
 ---
  
-https://github.com/MakeMagazinDE/Zisternensensor/blob/main/Fuellstandsmesser/Fuellstandsmesser.ino
+- https://www.heise.de/select/make/2021/6/softlinks/x6mc?wt_mc=pred.red.make.make062021.074.softlink.softlink
+- https://github.com/MakeMagazinDE/Zisternensensor/blob/main/Fuellstandsmesser/Fuellstandsmesser.ino
+- https://github.com/sparkfun/SparkFun_MicroPressure_Arduino_Library/blob/main/examples/Example1_BasicReadings/Example1_BasicReadings.ino
+- https://github.com/esp8266/Arduino?tab=readme-ov-file#installing-with-boards-manager
+- https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads
+- https://www.electronicshub.org/nodemcu-pinout-esp-12e-pinout/
+- 
 
+
+
+![[https://www.electronicshub.org/wp-content/uploads/2021/02/NodeMCU-Pinout-Image.jpg]]
