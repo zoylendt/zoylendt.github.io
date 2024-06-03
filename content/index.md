@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-06-02
+updated: 2024-06-03
 ---
 
 > [!warning]
@@ -15,8 +15,7 @@ By making my notes public I'm forcing myself to write with some coherence in min
 
 This blog runs on a [[Quartz starting page|slightly tweaked]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/) and backed up with Obsidian's git plugin. [[My obsidian git quartz workflow|Here]] I've documented my workflow.
 
-<!-- https://github.com/kittinan/spotify-github-profile -->
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=zoylendt&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=zoylendt&redirect=true)
+<img src="https://raw.githubusercontent.com/zoylendt/zoylendt/output/github-contribution-grid-snake-dark.svg" />
 
 ---
 
@@ -57,7 +56,7 @@ In this category I also deal with other food-related topics, like brewing [[tags
    - 📄 [[My current brewing setup]]
 - 📑 [[Coding|Coding, Programming & Note Taking]]  
 Here I write about my [[tags/obsidian|Obsidian]] setup and how I use it to deploy this website on [[tags/github|GitHub]], ...
-   - 📄 [[Quartz starting page|How this website was build]]
+   - 📄 [[Quartz starting page|About this website's setup]]
    - [[tags/markdown|Markdown]]
    - [[tags/latex|LaTEX]]
    - [[tags/obsidian|Obsidian]]
@@ -87,31 +86,5 @@ I've build myself a [homelab](https://linuxhandbook.com/homelab/) to tinker with
 
 ---
 
-## 🔧 Features
-
-- [[Obsidian compatibility]], [[full-text search]], [[graph view]], note transclusion, [[wikilinks]], [[backlinks]], [[Latex]], [[syntax highlighting]], [[popover previews]], [[Docker Support]], and [many more](./features) right out of the box
-- Hot-reload for both configuration and content
-- Simple JSX layouts and [[creating components|page components]]
-- [[SPA Routing|Ridiculously fast page loads]] and tiny bundle sizes
-- Fully-customizable parsing, filtering, and page generation through [[making plugins|plugins]]
-
-For a comprehensive list of features, visit the [features page](/features). You can read more about the _why_ behind these features on the [[philosophy]] page and a technical overview on the [[architecture]] page.
-
-### 🚧 Troubleshooting + Updating
-
-Having trouble with Quartz? Try searching for your issue using the search feature. If you haven't already, [[upgrading|upgrade]] to the newest version of Quartz to see if this fixes your issue.
-
-If you're still having trouble, feel free to [submit an issue](https://github.com/jackyzha0/quartz/issues) if you feel you found a bug or ask for help in our [Discord Community](https://discord.gg/cRFFHYye7t).
-
----
-
-```shell
-git clone https://github.com/jackyzha0/quartz.git
-cd quartz
-npm i
-npx quartz create
-```
-
----
-
-<img src="https://raw.githubusercontent.com/zoylendt/zoylendt/output/github-contribution-grid-snake-dark.svg" />
+<!-- https://github.com/kittinan/spotify-github-profile -->
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=zoylendt&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=zoylendt&redirect=true)
