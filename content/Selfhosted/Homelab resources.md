@@ -37,6 +37,8 @@ tags:
 - [ ] [Jellystat](https://github.com/CyferShepard/Jellystat) -> tag: unstable
 - [ ] Dashboards: [dashy](https://github.com/Lissy93/dashy) vs [homepage](https://github.com/gethomepage/homepage)
 - [ ] [Firefly III](https://github.com/firefly-iii/firefly-iii) & [Firefly-Pico](https://github.com/cioraneanu/firefly-pico)
+- [ ] [Dockerized Obsidian](https://www.reddit.com/r/ObsidianMD/s/PycngccSyU)
+- [ ] https://github.com/azukaar/Cosmos-Server
 - [ ] 
 
 

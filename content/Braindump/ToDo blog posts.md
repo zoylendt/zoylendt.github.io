@@ -124,7 +124,6 @@ tags:
 	- [ ] kopia
 	- [ ] imgbrd-grabber & szurubooru
 	- [ ] music -> navidrome (+ identifier)
-	- [ ] https://github.com/azukaar/Cosmos-Server
 	- [ ] 
 - [ ] calendar
 - [ ] unraid sleep setup
