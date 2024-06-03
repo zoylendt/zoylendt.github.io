@@ -2,7 +2,7 @@
 title: 
 date: 2024-06-01
 publishDate: 2024-06-01
-updated: 2024-06-02
+updated: 2024-06-03
 draft: false
 tags:
   - note
@@ -37,42 +37,52 @@ tags:
 
 # Installed packages
 
-The packages I use:
+A personal overview about which packages I use on which device:
+
+c = Chocolatey
+m = manually installed
+
+|                  | m700 | x1y3 | zalman2 | VM  |
+| ---------------- | ---- | ---- | ------- | --- |
+| extractnow       | c    |      |         |     |
+| chocolateygui    | c    |      |         |     |
+| everything       | c    |      |         |     |
+| jdownloader      | c    |      |         |     |
+| wiztree          | c    |      |         |     |
+| git.install      | c    |      |         |     |
+| github-desktop   | c    |      |         |     |
+| treesizefree     | c    |      |         |     |
+| kopiaui          | c    |      |         |     |
+| paint.net        | c    |      |         |     |
+| vscode           | c    |      |         |     |
+| pdf24            | c    |      |         |     |
+| calibre          | c    |      |         |     |
+| synctrayzor      | m    |      |         |     |
+| anydesk          | m    |      |         |     |
+| obsidian         | m    |      |         |     |
+| spotify          | m    |      |         |     |
+| vlc              | m    |      |         |     |
+| telegram         | m    |      |         |     |
+| bitwarden        | m    |      |         |     |
+| teamspeak        | m    |      |         |     |
+| steam            | m    |      |         |     |
+| brave            | m    |      |         |     |
+| notepadplusplus  | m    |      |         |     |
+| putty            | m    |      |         |     |
+| tailscale        | m    |      |         |     |
+| rpi-imager       | m    |      |         |     |
+| win32diskimager  | m    |      |         |     |
+| sonos-controller | m    |      |         |     |
+| alldup           | m    |      |         |     |
+
+Special notes:
 - [extractnow](https://extractnow.com/#/home) (no longer available in Chocolatey)
-- chocolateygui
-- everything
-- jdownloader
-- wiztree
-- git.install
-- github-desktop
-- treesizefree
-- kopiaui
-- paint.net
-- vscode
-- pdf24
-- calibre
+- alldup (outdated, last update: 29 Jun 2021)
 
 Install all at once:
   ```shell
   choco install -y 
   ```
 
-Manually installed but also available on Chocolatey:
-- synctrayzor
-- anydesk
-- obsidian
-- spotify
-- vlc
-- telegram
-- bitwarden
-- teamspeak
-- steam
-- brave
-- notepadplusplus
-- putty
-- tailscale
-- rpi-imager
-- win32diskimager
-- sonos-controller
-- alldup (outdated, last update: 29 Jun 2021)
+
 
