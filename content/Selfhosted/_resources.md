@@ -73,3 +73,5 @@ tags:
 - [About base docker images](https://iximiuz.com/en/posts/containers-making-images-better/)
 - [Strategies for Updating docker stacks](https://www.reddit.com/r/selfhosted/s/Ni8MmpfaLR)
 - [version control](https://www.reddit.com/r/selfhosted/s/QeoldaO0hd)
+- [Use Amazon dash button with HomeAssistant](https://github.com/danimtb/dasshio)
+- 

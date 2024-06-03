@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-24
+updated: 2024-06-03
 draft: true
 tags:
   - note
@@ -16,7 +16,9 @@ A compilation of handheld gaming devices I own and notes about their OS, softwar
 - SteamDeck
 - Miyoo-mini
 - Miyoo-mini +
-- Powkiddy RGB30
+- PowKiddy RGB30
+- PowKiddy Q90
+- Anbernic RG350
 
 # Online resources
 
