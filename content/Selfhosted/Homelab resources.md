@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-05-29
+updated: 2024-06-03
 draft: false
 tags:
   - note
@@ -47,6 +47,7 @@ tags:
 - https://blog.stefandroid.com/2021/03/03/mount-nfs-share-in-docker-compose.html
 - https://deployn.de/en/blog/
 - https://linux-nerds.org/
+- https://stc.sh/blog.d/2019-07-15-scidev.html
 - 
 
 
