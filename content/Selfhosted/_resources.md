@@ -38,6 +38,7 @@ tags:
 - [ ] [Firefly III](https://github.com/firefly-iii/firefly-iii) & [Firefly-Pico](https://github.com/cioraneanu/firefly-pico)
 - [ ] [Dockerized Obsidian](https://www.reddit.com/r/ObsidianMD/s/PycngccSyU)
 - [ ] https://github.com/azukaar/Cosmos-Server
+- [ ] https://github.com/gitpod-io/openvscode-server -> https://www.reddit.com/r/selfhosted/comments/1brp7nx/comment/kxavzpd/
 - [ ] 
 
 
