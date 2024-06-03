@@ -74,6 +74,7 @@ m = manually installed
 | win32diskimager  | m    |      |         |     |
 | sonos-controller | m    |      |         |     |
 | alldup           | m    |      |         |     |
+| arduino          | c    |      |         |     |
 
 Special notes:
 - [extractnow](https://extractnow.com/#/home) (no longer available in Chocolatey)
