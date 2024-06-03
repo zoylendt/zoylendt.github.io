@@ -13,7 +13,7 @@ Soon after realizing that my previous method, "digitale Zettelwirtschaft", an un
 
 By making my notes public I'm forcing myself to write with some coherence in mind, which should help my future self finding stuff. Hopefully it will also improve my english writing skills (most of this blog is in english, but some notes, mainly [[tags/recipe|recipes]], are in [[tags/german|german]]). As a final inspiration, I've come quite often across some tech blogs on the web after googling about how to implement something or resolve a specific, often [[Selfhosted/]] related problem, so I hope this pile of notes may be useful to somebody else someday :D
 
-This blog runs on a [[Quartz starting page|slightly tweaked]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/) and backed up with Obsidian's git plugin. [[My obsidian git quartz workflow|Here]] I've documented my workflow.
+This blog runs on a [[Quartz starting page|slightly tweaked]] version of the static-site generator [Quartz](https://quartz.jzhao.xyz/), hosted on [GitHub Pages](https://pages.github.com/). The content is written in [Markdown](https://www.markdownguide.org/) using [Obsidian](https://obsidian.md/) and backed up with Obsidian's git plugin. I've documented my workflow [[My obsidian git quartz workflow|here]].
 
 <img src="https://raw.githubusercontent.com/zoylendt/zoylendt/output/github-contribution-grid-snake-dark.svg" />
 
