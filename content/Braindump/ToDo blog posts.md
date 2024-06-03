@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-05-25
+updated: 2024-06-03
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -124,6 +124,7 @@ tags:
 	- [ ] kopia
 	- [ ] imgbrd-grabber & szurubooru
 	- [ ] music -> navidrome (+ identifier)
+	- [ ] https://github.com/azukaar/Cosmos-Server
 	- [ ] 
 - [ ] calendar
 - [ ] unraid sleep setup
