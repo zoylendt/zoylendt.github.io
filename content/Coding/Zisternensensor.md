@@ -7,6 +7,7 @@ draft: true
 tags:
   - note
   - unfinished
+  - german
 ---
  
 - https://www.heise.de/select/make/2021/6/softlinks/x6mc?wt_mc=pred.red.make.make062021.074.softlink.softlink
