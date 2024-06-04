@@ -2,7 +2,7 @@
 title: Homelab related resources
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-06-03
+updated: 2024-06-04
 draft: false
 tags:
   - note
@@ -39,6 +39,7 @@ tags:
 - [ ] [Dockerized Obsidian](https://www.reddit.com/r/ObsidianMD/s/PycngccSyU)
 - [ ] https://github.com/azukaar/Cosmos-Server
 - [ ] https://github.com/gitpod-io/openvscode-server -> https://www.reddit.com/r/selfhosted/comments/1brp7nx/comment/kxavzpd/
+- [ ] https://github.com/SamTV12345/PodFetch & https://github.com/madeofpendletonwool/PinePods
 - [ ] 
 
 
