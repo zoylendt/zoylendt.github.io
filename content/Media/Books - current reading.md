@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-01
+updated: 2024-06-04
 draft: false
 tags:
   - note
@@ -14,9 +14,10 @@ tags:
 
 ## Books & audiobooks
 
-- **Warboss** by Mike Brooks
-- **Python - Der Grundkurs** by Michael Kofler
+- **Warboss** by Mike Brooks (german)
+- **Python - Der Grundkurs** by Michael Kofler (german)
 - **Going Postal** by Terry Pratchett (audiobook)
+- **Station Eternity** by Mur Lafferty (english)
 
 ## Manga & Comics
 
