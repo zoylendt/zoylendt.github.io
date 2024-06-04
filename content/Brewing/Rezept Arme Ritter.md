@@ -2,7 +2,7 @@
 title: "Rezept: Arme Ritter"
 date: 2024-05-25
 publishDate: 2024-05-25
-updated: 2024-05-28
+updated: 2024-06-05
 draft: false
 tags:
   - note
@@ -22,7 +22,7 @@ Zutaten:
 
 Zubereitung:
 
-- Eier, Milch, Pfeffer und Salz vermischen
+- Eier, Milch, Pfeffer und salz vermischen
 - Brotscheiben gut einweichen
 - Von beiden Seiten einmal anbraten
 - Nach dem Umdrehen mit Käse belegen und Temperatur reduzieren

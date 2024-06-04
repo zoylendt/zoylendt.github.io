@@ -2,7 +2,7 @@
 title: Dockerized file indexer
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-06-03
+updated: 2024-06-05
 draft: true
 tags:
   - note
@@ -10,8 +10,6 @@ tags:
 ---
  
 I'm looking for a (dockerized) Setup that indexes files from multiple file storage systems at once.
-
--> [Some recommendations](https://www.reddit.com/r/selfhosted/s/YlDmTdasEn)
 
 # Featurelist
 

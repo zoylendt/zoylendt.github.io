@@ -1,7 +1,7 @@
 ---
 title: Obsidian Plugins
 date: 2024-05-10
-updated: 2024-05-25
+updated: 2024-06-05
 publishDate: 2024-05-10
 draft: false
 tags:

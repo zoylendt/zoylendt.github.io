@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-06-03
+updated: 2024-06-05
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -119,14 +119,11 @@ tags:
 - [ ] docker stacks
 	- [ ] paperless-ngx
 	- [ ] calibre & calibre-web
-	- [ ] servarr -> 
-		- [ ] https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/
-		- [ ] https://fmhy.net/torrentpiracyguide
+	- [ ] servarr -> https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/
 		- [ ] prowlarr
 	- [ ] kopia
 	- [ ] imgbrd-grabber & szurubooru
 	- [ ] music -> navidrome (+ identifier)
-	- [ ] https://gchq.github.io/CyberChef/
 	- [ ] 
 - [ ] calendar
 - [ ] unraid sleep setup
