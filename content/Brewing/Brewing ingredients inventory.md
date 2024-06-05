@@ -20,8 +20,8 @@ Last updated: 2024-06-04
 
 # Hopfen
 
-hdw = [hopfen-der-welt](https://www.hopfen-der-welt.de/)  
-hbv = [hobbybrauerversand](https://www.hobbybrauerversand.de/)
+hdw = [Hopfen-der-Welt.de](https://www.hopfen-der-welt.de/)  
+hbv = [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/)
 
 | Menge [g] | Sorte                 | Alpha [%] | Ernte   | MHD      | Bestellung | Händler   | geöffnet | zuletzt geöffnet |
 | --------- | --------------------- | --------- | ------- | -------- | ---------- | --------- | -------- | ---------------- |
