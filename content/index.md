@@ -53,7 +53,7 @@ A place for thoughts and stuff that doesn't fit the other categories. New ideas,
 A hobby of mine is [[tags/brewing|home brewing]] which I like for its combination of traditional techniques and modern experiments, its fusion of handcrafting and automation (I use a [[tags/raspi|RaspberryPi]] for this) - and of course it provides you with tasty [[tags/beer]] ;)  
 Documenting my suds (brewing processes, "Sud" in german) was a big motivation for creating this blog, besides my [[Selfhosted/]] hobby.  
 In this category I also deal with other food-related topics, like brewing [[tags/mead]], [[tags/fermenting]] kombucha, baking [[tags/bread]] and general cooking [[tags/recipe|recipes]].
-   - 📄 [[My current brewing setup]]
+   - 📄 [[My brewing setup]]
 - 📑 [[Coding|Coding, Programming & Note Taking]]  
 Here I write about my [[tags/obsidian|Obsidian]] setup and how I use it to deploy this website on [[tags/github|GitHub]], ...
    - 📄 [[Quartz starting page|About this website's setup]]
