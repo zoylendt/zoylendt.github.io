@@ -22,7 +22,7 @@ Books I use:
 - Klarstein Edelstahl-Gäreimer 30L (1.10.2021, [Amazon.de](https://www.amazon.de/gp/product/B07TYPN4RJ/), 180€)
 - Hop Spider (18.5.2020, [Amazon.de](https://www.amazon.de/gp/product/B07DP37CDH/), 24€)
 - 4x Plastik-Gäreimer 30L
-	- 2x ... (2.11.2018, [Amazon.de](https://www.amazon.de/gp/product/B005F9UONE/), each for 20€)
+	- 2x ... (2.11.2018, [Amazon.de](https://www.amazon.de/gp/product/B005F9UONE/), each for 20€) -> [ähnliches Modell](https://www.amazon.de/G%C3%A4reimer-G%C3%A4rr%C3%B6hrchen-Ablasshahn-G%C3%A4rbeh%C3%A4lter-Verg%C3%A4rung/dp/B0BRZZXLWM/)
 	- 2x lilawelt24 (24.8.2020, [Amazon.de](https://www.amazon.de/gp/product/B01HN81FEG/), each for 16€)
 - Einkochautomat
 - MatMill Rührhexe (Mash Mix) MMRH (18.5.2019, [hobbybrauerversand.de](https://www.hobbybrauerversand.de/MattMill-Ruehrhexe-Komplettset), 149€)
@@ -36,6 +36,14 @@ Additional equipment to modify the Brauheld:
 Miscellaneous items:
 - Bindfaden (30.3.2023, [Amazon.de](https://www.amazon.de/gp/product/B072B81S36/), 8€)
 - Luftschleusen (22.6.2021, [Amazon.de](https://www.amazon.de/gp/product/B08CD9W8SZ/), 13€)
+- 2x 120 Silikon-Flaschendichtungen (17.1.2021, [Amazon.de](https://www.amazon.de/gp/product/B08BXFTJZN/), je 10€)
+- Filterbeutel 150µm (18.5.2020, [Amazon.de](https://www.amazon.de/gp/product/B014GD9JGC/), 15€)
+- Chemipro OXI Reinigungsmittel (18.5.2020 [Amazon.de](https://www.amazon.de/gp/product/B01GG86U0I/), 15€)
+
+Brewing kits:
+- Brewferm - Bierkit Belgian Tripel (4.1.2024, [Amazon.de](https://www.amazon.de/gp/product/B07VPWKJPQ/), 16€) -> Sud 36
+- Brewferm - Bierkit Barley Wine (4.1.2024, [Amazon.de](https://www.amazon.de/gp/product/B07T34SN3T/), 18€) -> Sud 38
+- 
 
 # Plan to buy
 
