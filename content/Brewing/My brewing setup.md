@@ -22,7 +22,7 @@ Books I use:
 - Klarstein Edelstahl-Gäreimer 30L (1.10.2021, [Amazon.de](https://www.amazon.de/gp/product/B07TYPN4RJ/), 180€)
 - Hop Spider (18.5.2020, [Amazon.de](https://www.amazon.de/gp/product/B07DP37CDH/), 24€)
 - 4x Plastik-Gäreimer 30L
-	- 2x ... (2.11.2018, [Amazon.de](https://www.amazon.de/gp/product/B005F9UONE/), each for 20€) -> [ähnliches Modell](https://www.amazon.de/G%C3%A4reimer-G%C3%A4rr%C3%B6hrchen-Ablasshahn-G%C3%A4rbeh%C3%A4lter-Verg%C3%A4rung/dp/B0BRZZXLWM/)
+	- 2x no-name (2.11.2018, [Amazon.de](https://www.amazon.de/gp/product/B005F9UONE/), each for 20€) -> [ähnliches Modell](https://www.amazon.de/G%C3%A4reimer-G%C3%A4rr%C3%B6hrchen-Ablasshahn-G%C3%A4rbeh%C3%A4lter-Verg%C3%A4rung/dp/B0BRZZXLWM/)
 	- 2x lilawelt24 (24.8.2020, [Amazon.de](https://www.amazon.de/gp/product/B01HN81FEG/), each for 16€)
 - Einkochautomat
 - MatMill Rührhexe (Mash Mix) MMRH (18.5.2019, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/MattMill-Ruehrhexe-Komplettset), 149€)
@@ -33,15 +33,17 @@ Additional equipment to modify the Brauheld:
 - [Filter](https://www.amazon.de/gp/product/B07CPT3JXF/), 26.11.2021, 13€
 - 
 
-Miscellaneous items:
+Diverses Zubehör:
 - Bindfaden (30.3.2023, [Amazon.de](https://www.amazon.de/gp/product/B072B81S36/), 8€)
-- Luftschleusen (22.6.2021, [Amazon.de](https://www.amazon.de/gp/product/B08CD9W8SZ/), 13€)
-- 100 Hütchendichtung für Bügelverschluss (18.5.2019, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/Huetchendichtung-fuer-Buegelverschluss-100-Stueck), je 12€)
+- 8 Gärröhrchen (22.6.2021, [Amazon.de](https://www.amazon.de/gp/product/B08CD9W8SZ/), 13€)
+- 100 Hütchendichtung für Bügelverschluss (18.5.2019, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/Huetchendichtung-fuer-Buegelverschluss-100-Stueck), 12€)
 - 2x 120 Hütchendichtung für Bügelverschluss (17.1.2021, [Amazon.de](https://www.amazon.de/gp/product/B08BXFTJZN/), je 10€)
 - Filterbeutel 150µm (18.5.2020, [Amazon.de](https://www.amazon.de/gp/product/B014GD9JGC/), 15€)
 - Chemipro OXI Reinigungsmittel (16.5.2018, [Amazon.de](https://www.amazon.de/gp/product/B01GG86U0I/), 13€)
-- 
-
+- 10 Hopfensäckchen (23.8.2023, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/Hopfensaeckchen-10-Stueck), 6€)
+- Abfüllröhrchen (23.8.2023, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/Abfuellroehrchen), 3€)
+- PVC-Schlauch 12x15mm, 1m (23.8.2023, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/PVC-Schlauch-12-x-15-mm), 2€)
+- Silikon-Schlauch 10x1.5mm, 1m (23.8.2023, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/Silikonschlauch-10-x-15-mm), 3€)
 
 Bierbrausets:
 - Braubox® Pale Ale (20.1.2018, [Amazon.de](https://www.amazon.de/gp/product/B01BFHWO9G/), 75€) -> Sud 01
