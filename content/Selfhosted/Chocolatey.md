@@ -45,14 +45,14 @@ m = manually installed
 |                  | m700 | x1y3 | zalman2 | prod400g5 | VM  |
 | ---------------- | ---- | ---- | ------- | --------- | --- |
 | extractnow       | c    |      |         |           |     |
-| chocolateygui    | c    |      |         |           |     |
-| everything       | c    |      |         |           |     |
+| chocolateygui    | c    |      | c       |           |     |
+| everything       | c    |      | m       |           |     |
 | jdownloader      | c    |      |         |           |     |
 | wiztree          | c    |      |         |           |     |
-| git.install      | c    |      |         |           |     |
-| github-desktop   | c    |      |         |           |     |
-| treesizefree     | c    |      |         |           |     |
-| kopiaui          | c    |      |         |           |     |
+| git.install      | c    |      | m       |           |     |
+| github-desktop   | c    |      | m       |           |     |
+| treesizefree     | c    |      | c       |           |     |
+| kopiaui          | c    |      | c       |           |     |
 | paint.net        | c    |      |         |           |     |
 | vscode           | c    |      |         |           |     |
 | pdf24            | c    |      |         |           |     |

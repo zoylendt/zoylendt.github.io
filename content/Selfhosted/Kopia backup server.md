@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-30
 publishDate: 2024-05-30
-updated: 2024-05-30
+updated: 2024-06-05
 draft: false
 tags:
   - note
@@ -167,7 +167,7 @@ Drawback of Docker approach: "Mount as Local Filesystem" does not work!
 
 -> https://kopia.io/docs/reference/command-line/common/
 
-## inside the `kopia-server` (repository) container
+## Inside the `kopia-server` (repository) container
 
 - List all snapshots by all users ([Source](https://kopia.io/docs/reference/command-line/common/snapshot-list/))
   ```shell
