@@ -11,6 +11,8 @@ tags:
  
 I'm looking for a (dockerized) Setup that indexes files from multiple file storage systems at once.
 
+-> [Some recommendations](https://www.reddit.com/r/selfhosted/s/YlDmTdasEn)|
+
 # Featurelist
 
 ...

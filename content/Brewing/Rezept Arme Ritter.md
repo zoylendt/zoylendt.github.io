@@ -22,7 +22,7 @@ Zutaten:
 
 Zubereitung:
 
-- Eier, Milch, Pfeffer und salz vermischen
+- Eier, Milch, Pfeffer und Salz vermischen
 - Brotscheiben gut einweichen
 - Von beiden Seiten einmal anbraten
 - Nach dem Umdrehen mit Käse belegen und Temperatur reduzieren
