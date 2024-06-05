@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-04
+updated: 2024-06-05
 draft: false
 tags:
   - note
@@ -16,7 +16,7 @@ tags:
 
 - **Warboss** by Mike Brooks (german)
 - **Python - Der Grundkurs** by Michael Kofler (german)
-- **Going Postal** by Terry Pratchett (audiobook)
+- **Full Steam Ahead** by Terry Pratchett (german, audiobook)
 - **Station Eternity** by Mur Lafferty (english)
 
 ## Manga & Comics

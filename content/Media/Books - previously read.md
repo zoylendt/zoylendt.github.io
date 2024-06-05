@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-02
+updated: 2024-06-05
 draft: false
 tags:
   - note
@@ -34,6 +34,7 @@ tags:
 - **Thud!** by Terry Pratchett (german, abridged audiobook)
 - **Six Wakes** by Mur Lafferty (english)
 - **Nuclear War: A Scenario** by Annie Jacobsen (german)
+- **Going Postal** by Terry Pratchett (german, audiobook)
 
 ## 2023
 
