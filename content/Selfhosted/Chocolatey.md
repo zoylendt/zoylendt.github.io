@@ -41,10 +41,11 @@ A personal overview about which packages I use on which device:
 
 c = Chocolatey
 m = manually installed
+\- = not installed
 
 |                  | m700 | x1y3 | zalman2 | prod400g5 | VM  |
 | ---------------- | ---- | ---- | ------- | --------- | --- |
-| extractnow       | c    |      |         |           |     |
+| extractnow       | c    |      | -       |           |     |
 | chocolateygui    | c    |      | c       |           |     |
 | everything       | c    |      | m       |           |     |
 | jdownloader      | c    |      |         |           |     |
@@ -55,26 +56,26 @@ m = manually installed
 | kopiaui          | c    |      | c       |           |     |
 | paint.net        | c    |      |         |           |     |
 | vscode           | c    |      |         |           |     |
-| pdf24            | c    |      |         |           |     |
-| calibre          | c    |      |         |           |     |
-| synctrayzor      | m    |      |         |           |     |
-| anydesk          | m    |      |         |           |     |
+| pdf24            | c    |      | -       |           |     |
+| calibre          | c    |      | m       |           |     |
+| synctrayzor      | m    |      | m       |           |     |
+| anydesk          | m    |      | m       |           |     |
 | obsidian         | m    |      |         |           |     |
-| spotify          | m    |      |         |           |     |
+| spotify          | m    |      | m       |           |     |
 | vlc              | m    |      |         |           |     |
-| telegram         | m    |      |         |           |     |
-| bitwarden        | m    |      |         |           |     |
-| teamspeak        | m    |      |         |           |     |
-| steam            | m    |      |         |           |     |
-| brave            | m    |      |         |           |     |
+| telegram         | m    |      | m       |           |     |
+| bitwarden        | m    |      | m       |           |     |
+| teamspeak        | m    |      | m       |           |     |
+| steam            | m    |      | m       |           |     |
+| brave            | m    |      | m       |           |     |
 | notepadplusplus  | m    |      |         |           |     |
 | putty            | m    |      |         |           |     |
-| tailscale        | m    |      |         |           |     |
-| rpi-imager       | m    |      |         |           |     |
-| win32diskimager  | m    |      |         |           |     |
-| sonos-controller | m    |      |         |           |     |
-| alldup           | m    |      |         |           |     |
-| arduino          | c    |      |         |           |     |
+| tailscale        | m    |      | m       |           |     |
+| rpi-imager       | m    |      | m       |           |     |
+| win32diskimager  | m    |      | m       |           |     |
+| sonos-controller | m    |      | -       |           |     |
+| alldup           | m    |      | -       |           |     |
+| arduino          | c    |      | -       |           |     |
 
 Special notes:
 - [extractnow](https://extractnow.com/#/home) (no longer available in Chocolatey)
