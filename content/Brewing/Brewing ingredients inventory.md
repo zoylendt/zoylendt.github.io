@@ -42,8 +42,8 @@ hbv = [hobbybrauerversand](https://www.hobbybrauerversand.de/)
 | ~13       | Saazer                | 4,3       | ?       | -        | ? (150g)   | ?         | j        | ?                |
 |           |                       |           |         |          |            |           |          |                  |
 
-- 10ml Aromahopfen-Extrakt "mein Bier Kwik" "Herbal" (Wasser, Alkohol <1%, Hopfenöl) Art-NR: BK-01-52-P 
-- 100ml Hopfenextrakt isomerisiert 6% Alpha "mein Bier Kwik" Art-Nr: HE-1000-2 -> nach der Gärung, 1ml auf 10L Bier erhöht um 6 IBU
+- 10ml "mein Bier Kwik" Aromahopfen-Extrakt "Herbal" (Wasser, Alkohol <1%, Hopfenöl) Art.-NR: BK-01-52-P 
+- 100ml "mein Bier Kwik" Hopfenextrakt isomerisiert 6% Alpha [Art.-Nr: HE-1000-2](https://www.hobbybrauerversand.de/Hopfenextrakt-isomerisiert-6-Alpha-100-ml) -> nach der Gärung, 1ml auf 10L Bier erhöht Bitterkeit um 6 IBU
 
 # Hefe
 
