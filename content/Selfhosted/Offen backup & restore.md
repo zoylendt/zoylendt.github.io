@@ -13,26 +13,16 @@ tags:
  
 This note is about how to use **offen/docker-volume-backup** ([GitHub](https://github.com/offen/docker-volume-backup), [Documentation](https://offen.github.io/docker-volume-backup/)) to back up (and restore) docker volumes. Offen works with mounted folders as well as docker volumes and offers many backup targets.
 
->[!info]- Useful docker commands
-> 1. List all docker volumes
+>[!info] Useful docker commands
+> I have compiled a [[Docker cheatsheet|list of useful docker commands]].
+
+> [!warning]-
+> I encountered once that the Offen container had no read access:
 > ```shell
-> docker volume ls
->```
->
-> 2. Enter the container `containername`
-> ```shell
-> docker exec -it containername sh
->```
->
->3. List contents of a volume (works with alpine and ubuntu)
->```shell
->docker run --rm -v $DVAR:/data/ alpine ls -la /data
->```
->
->4. Remove contents of a volume (works with alpine and ubuntu)
->```shell
->docker run --rm -v $DVAR:/data/ alpine /bin/sh -c "rm -rf /data/*"
->```
+> level=INFO msg="Removed tar file `/tmp/valknut_containers-2024-05-30T15-14-49.tar.gz`."
+> level=ERROR msg="Fatal error running command: permission denied" error="main.(*command).runAsCommand: error running script: main.runScript.func4: error running script: main.(*script).createArchive: error walking filesystem tree: open /backup/valknut_containers: permission denied"
+> ```
+> I solved it by running the container with `--privileged`
 
 # Manual backup 
 
@@ -109,6 +99,82 @@ docker run --rm \
 4. Restart the previously stopped containers.
 
 Of course Syncthing has to be configured properly to sync the backup archives to remote locations.
+
+## Add container information to volume before backup
+
+My idea here is to add some information about the container that's using the target volume to said volume before the backup.
+
+1. Get the `RepoDigest` corresponding to the volume `$VOLUMENAME` that is to be backed up:
+
+> [!warning]
+> The command fails if the volume `$VOLUMENAME` is mounted into multiple containers simultaneously, even if they're stopped!
+
+```shell
+docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}')
+```
+
+  >[!info]- The components of this command
+  >This command consists of four parts:
+  >1. Get `ContainerID` of container(s) that use the volume `$VOLUMENAME`
+  >```shell
+  >docker ps -aq --filter volume=$VOLUMENAME
+  >```
+  >2. Get `ContainerID`, `ContainerName` & `ImageID` of the container `$CONTAINERID`. 
+  >```shell
+  >docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $CONTAINERID
+  >```
+  >3. We only need the `ImageID`, so we add
+  >```shell
+  > | awk '{print $3}'
+  >```
+  >4. List image (and `RepoDigest`) of the local image `$IMAGEID` (also works with `$IMAGENAME`)
+  >```shell
+  >docker image inspect --format '{{index .RepoDigests 0}}' $IMAGEID
+  >```
+
+We write that information into a new file:
+
+```shell
+mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt
+```
+
+2. With two different methods we reconstruct the `docker run` command that created the container and save those as well.
+
+```shell
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt
+```
+
+```shell
+docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt
+```
+
+3. We save the output of `docker volume inspect` & `docker inspect` as well.
+
+```shell
+docker volume inspect $VOLUMENAME >> ./Offen-Backup-Info/docker_inspect_volume.txt
+```
+
+```shell
+docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt
+```
+
+4. We copy the folder `./Offen-Backup-Info` into the volume
+  (works with busybox and alpine)
+
+```shell
+docker run --rm -v .:/src -v $VOLUMENAME:/data alpine cp -r /src/Offen-Backup-Info /data
+```
+
+5. Run the desired backup.
+6. Cleanup
+
+```shell
+docker run --rm -v $VOLUMENAME:/data/ alpine /bin/sh -c "rm -rf /data/Offen-Backup-Info"
+```
+
+```shell
+rm -r Offen-Backup-Info
+```
 
 # Inspect or extract backup archives
 
@@ -218,6 +284,98 @@ docker run --rm -v $DVAR:/target -v ./backup.tar.gz:/archive/backup.tar.gz:ro al
 rm backup.tar.gz
 ```
 
+# Personal backup scripts
+
+This section is about my personal backup scripts, adapted to the layout of my systems.
+
+## Unraid
+
+```
+/mnt/user/appdata/Jellyfin-AMD-Intel-Nvidia
+/mnt/user/appdata/tailscale
+/mnt/user/appdata/scrutiny2/config
+/mnt/user/appdata/stash2
+  config
+  metadata
+  cache
+```
+
+### stash
+
+```shell title="Stop container"
+docker stop stash
+```
+
+```
+VOLUMENAME='/mnt/user/appdata/stash/config'
+```
+
+```
+mkdir /mnt/user/medien/offen-backup && cd /mnt/user/medien/offen-backup
+```
+
+```shell title="Prepare additional info"
+mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt && docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt && docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt && docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt && mv ./Offen-Backup-Info /mnt/user/appdata/stash
+```
+
+```shell title="Create backup archive"
+docker run --rm \
+  -v /mnt/user/appdata/stash:/backup/stash:ro \
+  -v `pwd`:/archive \
+  --env BACKUP_ARCHIVE="/archive" \
+  --env BACKUP_COMPRESSION="gz" \
+  --env BACKUP_FILENAME="stash-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
+  --env BACKUP_FILENAME_EXPAND="true" \
+  --entrypoint backup \
+  offen/docker-volume-backup:v2
+```
+
+```shell title="delete Offen-Backup-Info"
+rm -r /mnt/user/appdata/stash/Offen-Backup-Info
+```
+
+```shell title="Start container"
+docker start stash
+```
+
+### jellyfin
+
+```shell title="Stop container"
+docker stop jellyfin
+```
+
+```
+VOLUMENAME='/mnt/user/appdata/jellyfin'
+```
+
+```
+mkdir /mnt/user/medien/offen-backup && cd /mnt/user/medien/offen-backup
+```
+
+```shell title="Prepare additional info"
+mkdir Offen-Backup-Info && docker image inspect --format '{{index .RepoDigests 0}}' $(docker inspect --format='{{.Id}} {{.Name}} {{.Image}}' $(docker ps -aq) | grep $(docker ps -aq --filter volume=$VOLUMENAME) | awk '{print $3}') >> ./Offen-Backup-Info/repodigest.txt && docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro assaflavie/runlike $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_runlike.txt && docker inspect --format "$(curl -s https://gist.githubusercontent.com/efrecon/8ce9c75d518b6eb863f667442d7bc679/raw/run.tpl)" $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_run_inspect.txt && docker inspect $(docker ps -aq --filter volume=$VOLUMENAME) >> ./Offen-Backup-Info/docker_inspect_container.txt && mv ./Offen-Backup-Info $VOLUMENAME
+```
+
+```shell title="Create backup archive"
+docker run --rm \
+  -v $VOLUMENAME:/backup/jellyfin:ro \
+  -v `pwd`:/archive \
+  --env BACKUP_ARCHIVE="/archive" \
+  --env BACKUP_COMPRESSION="gz" \
+  --env BACKUP_FILENAME="jellyfin-%Y-%m-%dT%H-%M-%S.{{ .Extension }}" \
+  --env BACKUP_FILENAME_EXPAND="true" \
+  --entrypoint backup \
+  offen/docker-volume-backup:v2
+```
+
+```shell title="delete Offen-Backup-Info"
+rm -r /mnt/user/appdata/jellyfin/Offen-Backup-Info
+```
+
+```shell title="Start container"
+docker start jellyfin
+```
+
 ---
 
 >[!example] Missing topics -> https://offen.github.io/docker-volume-backup/how-tos/
@@ -226,3 +384,9 @@ rm backup.tar.gz
 >- [ ] backups to remote locations -> pcloud.com
 >- [ ] encrypting backups
 >- [ ] run custom commands during backup/restore
+
+>[!example] Steps to improve this guide
+>- [ ] Make stuff like `$VOLUMENAME` & `ContainerID` consistent
+>- [ ] write consistently 'we' or 'you'
+>- [ ] add unraid section
+>- [ ] add synology section

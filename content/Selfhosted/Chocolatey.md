@@ -2,7 +2,7 @@
 title: 
 date: 2024-06-01
 publishDate: 2024-06-01
-updated: 2024-06-03
+updated: 2024-06-05
 draft: false
 tags:
   - note
@@ -42,39 +42,39 @@ A personal overview about which packages I use on which device:
 c = Chocolatey
 m = manually installed
 
-|                  | m700 | x1y3 | zalman2 | VM  |
-| ---------------- | ---- | ---- | ------- | --- |
-| extractnow       | c    |      |         |     |
-| chocolateygui    | c    |      |         |     |
-| everything       | c    |      |         |     |
-| jdownloader      | c    |      |         |     |
-| wiztree          | c    |      |         |     |
-| git.install      | c    |      |         |     |
-| github-desktop   | c    |      |         |     |
-| treesizefree     | c    |      |         |     |
-| kopiaui          | c    |      |         |     |
-| paint.net        | c    |      |         |     |
-| vscode           | c    |      |         |     |
-| pdf24            | c    |      |         |     |
-| calibre          | c    |      |         |     |
-| synctrayzor      | m    |      |         |     |
-| anydesk          | m    |      |         |     |
-| obsidian         | m    |      |         |     |
-| spotify          | m    |      |         |     |
-| vlc              | m    |      |         |     |
-| telegram         | m    |      |         |     |
-| bitwarden        | m    |      |         |     |
-| teamspeak        | m    |      |         |     |
-| steam            | m    |      |         |     |
-| brave            | m    |      |         |     |
-| notepadplusplus  | m    |      |         |     |
-| putty            | m    |      |         |     |
-| tailscale        | m    |      |         |     |
-| rpi-imager       | m    |      |         |     |
-| win32diskimager  | m    |      |         |     |
-| sonos-controller | m    |      |         |     |
-| alldup           | m    |      |         |     |
-| arduino          | c    |      |         |     |
+|                  | m700 | x1y3 | zalman2 | prod400g5 | VM  |
+| ---------------- | ---- | ---- | ------- | --------- | --- |
+| extractnow       | c    |      |         |           |     |
+| chocolateygui    | c    |      |         |           |     |
+| everything       | c    |      |         |           |     |
+| jdownloader      | c    |      |         |           |     |
+| wiztree          | c    |      |         |           |     |
+| git.install      | c    |      |         |           |     |
+| github-desktop   | c    |      |         |           |     |
+| treesizefree     | c    |      |         |           |     |
+| kopiaui          | c    |      |         |           |     |
+| paint.net        | c    |      |         |           |     |
+| vscode           | c    |      |         |           |     |
+| pdf24            | c    |      |         |           |     |
+| calibre          | c    |      |         |           |     |
+| synctrayzor      | m    |      |         |           |     |
+| anydesk          | m    |      |         |           |     |
+| obsidian         | m    |      |         |           |     |
+| spotify          | m    |      |         |           |     |
+| vlc              | m    |      |         |           |     |
+| telegram         | m    |      |         |           |     |
+| bitwarden        | m    |      |         |           |     |
+| teamspeak        | m    |      |         |           |     |
+| steam            | m    |      |         |           |     |
+| brave            | m    |      |         |           |     |
+| notepadplusplus  | m    |      |         |           |     |
+| putty            | m    |      |         |           |     |
+| tailscale        | m    |      |         |           |     |
+| rpi-imager       | m    |      |         |           |     |
+| win32diskimager  | m    |      |         |           |     |
+| sonos-controller | m    |      |         |           |     |
+| alldup           | m    |      |         |           |     |
+| arduino          | c    |      |         |           |     |
 
 Special notes:
 - [extractnow](https://extractnow.com/#/home) (no longer available in Chocolatey)
