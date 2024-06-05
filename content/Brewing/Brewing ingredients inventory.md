@@ -14,29 +14,33 @@ tags:
 
 Last updated: 2024-06-04
 
+# Malz
+
+...
+
 # Hopfen
 
 hdw = hopfen-der-welt.de
 hbv = hobbybrauerversand
 
-| Menge/g | Sorte                 | Bestellung | Quelle    | MHD        | geöffnet | Ernte   | Alpha/% | zuletzt geöffnet |
-| ------- | --------------------- | ---------- | --------- | ---------- | -------- | ------- | ------- | ---------------- |
-| 50      | Columbus / USA        | 2          | hdw       | -          | n        | 2016    | 14,6    | -                |
-| 52      | Saazer Typ 90         | 23.8.23    | hbv       | 30.11.2027 | j        | 2022    | 4,7     | 6.9.2023         |
-| 50      | Polaris / DE          | 1          | hdw       | -          | n        | 2017    | 19,2    | -                |
-| 25      | Polaris / DE          | 1          | hdw       | -          | j        | 2017    | 19,2    | ?                |
-| 50      | Centennial / USA      | 2          | hdw       | -          | n        | 2016    | 8,1     | -                |
-| 50      | Simcoe / USA          | 2          | hdw       | -          | n        | 2017    | 11,5    | -                |
-| 19      | Simcoe / USA          | 2          | hdw       | -          | j        | 2017    | 11,5    | ?                |
-| 15      | Tettnanger            | 23.8.23    | hbv       | 31.12.2025 | j        | 2022    | 2,4     | 30.8.2023        |
-| 100     | Citra Typ 90          | 23.8.23    | hbv       | 31.3.2024  | n        | 2021    | 12      | -                |
-| 13      | Saazer                | ? (150g)   | ?         | -          | j        | ?       | 4,3     | ?                |
-| 100     | Amarillo              | 23.8.23    | hbv       | 31.12.2025 | n        | 2022    | 7,4     | -                |
-| 38      | Hallertauer Tradition | 23.8.23    | hbv       | 31.12.2025 | j        | 2022    | 5,5     | 1.9.2023         |
-| 36      | Northern Brewer / DE  | 2          | hdw       | -          | j        | 2017    | 8,6     | 16.3.23          |
-| 100     | BIO Cascade Typ 90    | ?          | candirect | 12.2023    | n        | 12.2018 | 5,1     | -                |
-| 100     | Topaz Typ 90          | ?          | candirect | 12.2022    | n        | 12.2017 | 17      | -                |
-|         |                       |            |           |            |          |         |         |                  |
+| Menge [g] | Sorte                 | Alpha [%] | Ernte   | MHD      | Bestellung | Händler   | geöffnet | zuletzt geöffnet |
+| --------- | --------------------- | --------- | ------- | -------- | ---------- | --------- | -------- | ---------------- |
+| 50        | Polaris / DE          | 19,2      | 2017    | -        | 1          | hdw       | n        | -                |
+| ~25       | Polaris / DE          | 19,2      | 2017    | -        | 1          | hdw       | j        | ?                |
+| 50        | Simcoe / USA          | 11,5      | 2017    | -        | 2          | hdw       | n        | -                |
+| ~19       | Simcoe / USA          | 11,5      | 2017    | -        | 2          | hdw       | j        | ?                |
+| 50        | Columbus / USA        | 14,6      | 2016    | -        | 2          | hdw       | n        | -                |
+| 50        | Centennial / USA      | 8,1       | 2016    | -        | 2          | hdw       | n        | -                |
+| 100       | Citra Typ 90          | 12        | 2021    | 31.3.24  | 23.8.23    | hbv       | n        | -                |
+| 100       | Amarillo              | 7,4       | 2022    | 31.12.25 | 23.8.23    | hbv       | n        | -                |
+| 100       | BIO Cascade Typ 90    | 5,1       | 12.2018 | 12.23    | ?          | candirect | n        | -                |
+| 100       | Topaz Typ 90          | 17        | 12.2017 | 12.22    | ?          | candirect | n        | -                |
+| ~52       | Saazer Typ 90         | 4,7       | 2022    | 30.11.27 | 23.8.23    | hbv       | j        | 6.9.23           |
+| ~15       | Tettnanger            | 2,4       | 2022    | 31.12.25 | 23.8.23    | hbv       | j        | 30.8.23          |
+| ~13       | Saazer                | 4,3       | ?       | -        | ? (150g)   | ?         | j        | ?                |
+| ~38       | Hallertauer Tradition | 5,5       | 2022    | 31.12.25 | 23.8.23    | hbv       | j        | 1.9.23           |
+| ~36       | Northern Brewer / DE  | 8,6       | 2017    | -        | 2          | hdw       | j        | 16.3.23          |
+|           |                       |           |         |          |            |           |          |                  |
 
 - 10ml Aromahopfen-Extrakt "mein Bier Kwik" "Herbal" (Wasser, Alkohol <1%, Hopfenöl) Art-NR: BK-01-52-P 
 - 100ml Hopfenextrakt isomerisiert 6% Alpha "mein Bier Kwik" Art-Nr: HE-1000-2 -> nach der Gärung, 1ml auf 10L Bier erhöht um 6 IBU
@@ -46,3 +50,5 @@ hbv = hobbybrauerversand
 | Firma       | Sorte               | Menge/g | Kommentar |
 | ----------- | ------------------- | ------- | --------- |
 | Omega Yeast | OYL-071 LUTRA KVEIK | 11      |           |
+
+
