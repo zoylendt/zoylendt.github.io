@@ -20,8 +20,8 @@ Last updated: 2024-06-04
 
 # Hopfen
 
-hdw = hopfen-der-welt.de  
-hbv = hobbybrauerversand
+hdw = [hopfen-der-welt](https://www.hopfen-der-welt.de/)  
+hbv = [hobbybrauerversand](https://www.hobbybrauerversand.de/)
 
 | Menge [g] | Sorte                 | Alpha [%] | Ernte   | MHD      | Bestellung | Händler   | geöffnet | zuletzt geöffnet |
 | --------- | --------------------- | --------- | ------- | -------- | ---------- | --------- | -------- | ---------------- |
@@ -36,10 +36,10 @@ hbv = hobbybrauerversand
 | 100       | BIO Cascade Typ 90    | 5,1       | 12.2018 | 12.23    | ?          | candirect | n        | -                |
 | 100       | Topaz Typ 90          | 17        | 12.2017 | 12.22    | ?          | candirect | n        | -                |
 | ~52       | Saazer Typ 90         | 4,7       | 2022    | 30.11.27 | 23.8.23    | hbv       | j        | 6.9.23           |
-| ~15       | Tettnanger            | 2,4       | 2022    | 31.12.25 | 23.8.23    | hbv       | j        | 30.8.23          |
-| ~13       | Saazer                | 4,3       | ?       | -        | ? (150g)   | ?         | j        | ?                |
 | ~38       | Hallertauer Tradition | 5,5       | 2022    | 31.12.25 | 23.8.23    | hbv       | j        | 1.9.23           |
 | ~36       | Northern Brewer / DE  | 8,6       | 2017    | -        | 2          | hdw       | j        | 16.3.23          |
+| ~15       | Tettnanger            | 2,4       | 2022    | 31.12.25 | 23.8.23    | hbv       | j        | 30.8.23          |
+| ~13       | Saazer                | 4,3       | ?       | -        | ? (150g)   | ?         | j        | ?                |
 |           |                       |           |         |          |            |           |          |                  |
 
 - 10ml Aromahopfen-Extrakt "mein Bier Kwik" "Herbal" (Wasser, Alkohol <1%, Hopfenöl) Art-NR: BK-01-52-P 
