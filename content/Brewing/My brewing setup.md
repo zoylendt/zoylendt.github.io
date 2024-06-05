@@ -14,16 +14,17 @@ tags:
 
 I started sometime around early 2018 with [this brewing starter set](https://www.amazon.de/gp/product/B01BFHWO9G/) for 75€. Today I still occasionally use the 5L fermentation bottle to make mead (with [this yeast](https://www.amazon.de/gp/product/B087PQ8ZKM/)).
 
-Books I use: 
-- [**Craft-Bier einfach selber brauen** by Ferdinand Laudage](https://www.amazon.de/Craft-Bier-einfach-selber-brauen-yourself/dp/3818600058/), bought 31.1.2018 for 16€
-- [**Bier selbst gebraut** by Klaus Kling](https://www.amazon.de/gp/product/3895335509/), bought 13.5.2018 for 17€
+Bücher:
+- [**Craft-Bier einfach selber brauen** von Ferdinand Laudage](https://www.amazon.de/Craft-Bier-einfach-selber-brauen-yourself/dp/3818600058/), 31.1.2018, 16€
+- [**Bier selbst gebraut** von Klaus Kling](https://www.amazon.de/gp/product/3895335509/), 13.5.2018, 17€
 
+Wichtige Geräte:
 - Klarstein Brauheld 45L
 - Klarstein Edelstahl-Gäreimer 30L (1.10.2021, [Amazon.de](https://www.amazon.de/gp/product/B07TYPN4RJ/), 180€)
 - Hop Spider (18.5.2020, [Amazon.de](https://www.amazon.de/gp/product/B07DP37CDH/), 24€)
 - 4x Plastik-Gäreimer 30L
-	- 2x no-name (2.11.2018, [Amazon.de](https://www.amazon.de/gp/product/B005F9UONE/), each for 20€) -> [ähnliches Modell](https://www.amazon.de/G%C3%A4reimer-G%C3%A4rr%C3%B6hrchen-Ablasshahn-G%C3%A4rbeh%C3%A4lter-Verg%C3%A4rung/dp/B0BRZZXLWM/)
-	- 2x lilawelt24 (24.8.2020, [Amazon.de](https://www.amazon.de/gp/product/B01HN81FEG/), each for 16€)
+	- 2x no-name (2.11.2018, [Amazon.de](https://www.amazon.de/gp/product/B005F9UONE/), je20€) -> [ähnliches Modell](https://www.amazon.de/G%C3%A4reimer-G%C3%A4rr%C3%B6hrchen-Ablasshahn-G%C3%A4rbeh%C3%A4lter-Verg%C3%A4rung/dp/B0BRZZXLWM/)
+	- 2x lilawelt24 (24.8.2020, [Amazon.de](https://www.amazon.de/gp/product/B01HN81FEG/), je 16€)
 - Einkochautomat
 - MatMill Rührhexe (Mash Mix) MMRH (18.5.2019, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/MattMill-Ruehrhexe-Komplettset), 149€)
 - Brewferm Chill'in 20 Würzekühler Edelstahl (18.5.2019, [HobbyBrauerVersand.de](https://www.hobbybrauerversand.de/Brewferm-Chillin-20-Wuerzekuehler-Edelstahl), 65€)
