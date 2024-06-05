@@ -20,7 +20,7 @@ Last updated: 2024-06-04
 
 # Hopfen
 
-hdw = hopfen-der-welt.de
+hdw = hopfen-der-welt.de  
 hbv = hobbybrauerversand
 
 | Menge [g] | Sorte                 | Alpha [%] | Ernte   | MHD      | Bestellung | Händler   | geöffnet | zuletzt geöffnet |
