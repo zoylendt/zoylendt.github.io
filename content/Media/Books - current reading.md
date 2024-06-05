@@ -21,7 +21,7 @@ tags:
 
 ## Manga & Comics
 
-- Ruri Dragon (finished chapters 1-13)
+- Ruri Dragon (finished chapters 1-14)
 - Chainsaw Man (finished chapters 1-165)
 - Goodnight Punpun (finished chapters 1-23)
 - Blame! (finished chapters ("Log.") 1-37)
@@ -31,10 +31,10 @@ tags:
 
 ## Books & audiobooks
 
-- **Dark Imperium 1-3 (anthology)** by Guy Haley
+- **Dark Imperium 1-3 (anthology)** by Guy Haley (german)
 - **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
-- **Inquisitor 1-3** by Ian Watson
-- **Red Moon** by Kim Stanley Robinson
+- **Inquisitor 1-3** by Ian Watson (german)
+- **Red Moon** by Kim Stanley Robinson (german)
 
 ## Manga & Comics
 
