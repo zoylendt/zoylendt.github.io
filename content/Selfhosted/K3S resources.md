@@ -51,3 +51,11 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 - https://tailscale.com/blog/kubecon-21
 - https://blog.dsb.dev/posts/accessing-my-k3s-cluster-from-anywhere-with-tailscale/
 - 
+
+# Proxmox with Ansible and Terraform
+
+- https://www.thomas-krenn.com/de/wiki/Terraform_mit_Proxmox_VE_Tutorial
+- https://vanmieghem.io/automating-proxmox-with-terraform-ansible/
+- https://totaldebug.uk/posts/automating-proxmox-with-terraform-ansible/
+- https://github.com/parithosh/proxmox-terraform-ansible
+- 
