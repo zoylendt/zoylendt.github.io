@@ -31,4 +31,11 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 
 # K3S + Tailscale
 
-...
+- [GH issue at K3S](https://github.com/k3s-io/k3s/issues/7353)
+- https://tailscale.com/kb/1236/kubernetes-operator
+- https://docs.k3s.io/networking/distributed-multicloud#integration-with-the-tailscale-vpn-provider-experimental
+- [Guide: Use Tailscale to connect to K3S cluster](https://haseebmajid.dev/posts/2023-12-20-til-how-to-use-tailscale-to-connect-to-k3s-pi-cluster/)
+- [Guide from 2020](https://weberc2.github.io/posts/k3s-tailscale.html)
+- [Tailscale on Kubernetes](https://tailscale.com/kb/1185/kubernetes)
+- [K8S Ingress controller for Tailscale](https://github.com/valentinalexeev/tailscale-ingress-controller)
+- 
