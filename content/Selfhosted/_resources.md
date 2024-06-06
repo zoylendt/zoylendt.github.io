@@ -53,6 +53,7 @@ tags:
 - https://linux-nerds.org/
 - https://stc.sh/blog.d/2019-07-15-scidev.html
 - https://haseebmajid.dev/posts/
+- https://zyi.io/en
 - 
 
 

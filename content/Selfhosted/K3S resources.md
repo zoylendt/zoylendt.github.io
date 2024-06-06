@@ -23,14 +23,19 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 
 # General K3S guides
 
-...
+- [YT: K3S + Ansible](https://www.youtube.com/watch?v=CbkEWcUZ7zM&pp=ygUNazNzIHRhaWxzY2FsZQ%3D%3D)
+- [YT: K3S introduction](https://www.youtube.com/watch?v=UoOcLXfa8EU&pp=ygUNazNzIHRhaWxzY2FsZQ%3D%3D)
+- [YT: K3S introduction](https://www.youtube.com/watch?v=UdjhFLV1yt8&pp=ygUNazNzIHRhaWxzY2FsZQ%3D%3D)
+- 
 
 # K3S + Proxmox
 
-...
+- [Proxmox + Synology + K3S](https://community.veeam.com/kubernetes-korner-90/creating-a-pks-home-lab-proxmox-synology-k3s-6706)
+- [Install K3s on Proxmox Using Ansible]()
 
 # K3S + Tailscale
 
+- [YT: Tailscale in Docker](https://www.youtube.com/watch?v=tqvvZhGrciQ&pp=ygUNazNzIHRhaWxzY2FsZQ%3D%3D)
 - [GH issue at K3S](https://github.com/k3s-io/k3s/issues/7353)
 - https://tailscale.com/kb/1236/kubernetes-operator
 - https://docs.k3s.io/networking/distributed-multicloud#integration-with-the-tailscale-vpn-provider-experimental
@@ -38,4 +43,5 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 - [Guide from 2020](https://weberc2.github.io/posts/k3s-tailscale.html)
 - [Tailscale on Kubernetes](https://tailscale.com/kb/1185/kubernetes)
 - [K8S Ingress controller for Tailscale](https://github.com/valentinalexeev/tailscale-ingress-controller)
+- https://tailscale.com/blog/kubecon-21
 - 
