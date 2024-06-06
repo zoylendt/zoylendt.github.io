@@ -54,6 +54,8 @@ tags:
 - https://stc.sh/blog.d/2019-07-15-scidev.html
 - https://haseebmajid.dev/posts/
 - https://zyi.io/en
+- https://tinfoil-hat.net/index.html -> https://pr0gramm.com/user/tinfoilhat
+- https://blog.rymcg.tech/
 - 
 
 

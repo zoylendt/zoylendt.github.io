@@ -31,7 +31,13 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 # K3S + Proxmox
 
 - [Proxmox + Synology + K3S](https://community.veeam.com/kubernetes-korner-90/creating-a-pks-home-lab-proxmox-synology-k3s-6706)
-- [Install K3s on Proxmox Using Ansible]()
+- [Install K3s on Proxmox Using Ansible](https://dev.to/algo7/install-k3s-on-proxmox-using-ansible-20j1)
+- [K3S in LXC](https://betterprogramming.pub/rancher-k3s-kubernetes-on-proxmox-containers-2228100e2d13)
+- [K3S in LXC, 2020](https://gist.github.com/triangletodd/02f595cd4c0dc9aac5f7763ca2264185)
+- https://blog.rymcg.tech/blog/virtual-proxmox/01-virtual-proxmox/
+- https://canthonyscott.com/setting-up-a-k3s-kubernetes-cluster-within-proxmox/
+- K8S in LXC: [Part 1](https://kevingoos.medium.com/kubernetes-inside-proxmox-lxc-cce5c9927942), [Part 2](https://kevingoos.medium.com/installing-k3s-in-an-lxc-container-2fc24b655b93)
+- 
 
 # K3S + Tailscale
 
