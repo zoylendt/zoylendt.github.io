@@ -58,4 +58,7 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 - https://vanmieghem.io/automating-proxmox-with-terraform-ansible/
 - https://totaldebug.uk/posts/automating-proxmox-with-terraform-ansible/
 - https://github.com/parithosh/proxmox-terraform-ansible
+- https://lachlanlife.net/posts/2022-09-provisioning-vms/
+- https://inherently.xyz/blog/ansible-terraform-and-proxmox/
+- https://www.45drives.co.uk/blog/Proxmox/guide-for-automating-deployments-of-virtual-machines-in-proxmox/
 - 
