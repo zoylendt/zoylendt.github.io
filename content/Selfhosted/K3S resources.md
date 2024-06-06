@@ -49,4 +49,5 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 - [Tailscale on Kubernetes](https://tailscale.com/kb/1185/kubernetes)
 - [K8S Ingress controller for Tailscale](https://github.com/valentinalexeev/tailscale-ingress-controller)
 - https://tailscale.com/blog/kubecon-21
+- https://blog.dsb.dev/posts/accessing-my-k3s-cluster-from-anywhere-with-tailscale/
 - 
