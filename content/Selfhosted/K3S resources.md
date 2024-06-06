@@ -8,7 +8,6 @@ tags:
   - note
   - untested
   - unfinished
-  - barebone
   - docker
   - k3s
 ---
