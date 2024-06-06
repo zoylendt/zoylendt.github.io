@@ -29,5 +29,5 @@ tags:
 | ceres     | Strato VPS vc6-16-01                                                             |               |         |                                |                 |
 
 
-## Detailed inforamtion
+## Detailed information
 
