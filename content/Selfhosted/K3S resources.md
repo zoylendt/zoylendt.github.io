@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-20
 publishDate: 2024-05-20
-updated: 2024-06-03
+updated: 2024-06-06
 draft: false
 tags:
   - note
@@ -20,4 +20,15 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 - [K3S on Oracle ARM VM](https://medium.com/@danbowden/deploying-kubernetes-k3s-to-an-arm-based-vm-on-oracle-with-argocd-cert-manager-gitlabs-ci-and-2ff7e01cbbeb)
 - [K8S/K3S introduction tips](https://www.reddit.com/r/kubernetes/s/hCaFyqwCXA)
 - 
-- 
+
+# General K3S guides
+
+...
+
+# K3S + Proxmox
+
+...
+
+# K3S + Tailscale
+
+...
