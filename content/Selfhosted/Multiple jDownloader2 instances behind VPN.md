@@ -249,7 +249,7 @@ Enter your credentials in `.env`, then run `docker compose pull` and `docker com
 
 # Config
 
-# - Configuration of each jd2 instance
+## - jD2 configuration
 
 ...
 
@@ -263,14 +263,16 @@ Enter your credentials in `.env`, then run `docker compose pull` and `docker com
 	- (optional) Set speed limit. I noticed that all containers connected to vpn containers might become unresponsive if all download simultaneously with a very high rate.
 - Settings -> Plugins
 	- ...
+- Settings -> Extension Manager
+	- Install "Folder Watch" and enable it.
 - Settings -> Archive Extractor
-	- ...
+	- Disable the extension.
 - Settings -> Professional settings
 	- ...
 - Click "JD restart" (under Settings -> General) to make sure your settings got saved. Recent setting changes might get lost if a container is stopped/restarted through the docker cli.
 - Proceed the same way with your other new instances.
 
-# - Olivetin configuration
+## - Olivetin configuration
 
 Open the `vscode` container's WebUI, navigate the explorer to `/mnt/olivetin_config`, create a new file called `config.yaml` (next to `installation-id.txt`) with the content
 
@@ -289,7 +291,7 @@ actions:
 
 See the [documentation](https://docs.olivetin.app/) for more options. The container `vscode` can (and should) be stopped now.
 
-# - Syncthing configuration
+## - Syncthing configuration
 
 ...
 
@@ -312,23 +314,19 @@ jd_accessCheck_*
 
 -> folder structure for `.dlc` files
 
-# - Browser setup, useful Windows software
+# Additional topics
+
+## - Browser setup, useful Windows software
 
 ...
 
-# - Solve captcha with 9kw.eu integration
+## - Solve captcha with 9kw.eu integration
 
 ...
 
-# - Download workflow
+## - Download workflow
 
 ...
-
-## - type 2 header with a very very long title 
-
-...
-
-### - type 3 header with a very very long title 4353453245
 
 # - Improvement ideas
 
