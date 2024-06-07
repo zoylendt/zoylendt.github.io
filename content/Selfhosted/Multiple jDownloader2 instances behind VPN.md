@@ -312,7 +312,7 @@ See the [documentation](https://docs.olivetin.app/) for more options. The contai
 	- `No File Versioning`
 - Ignore Patterns
 	- set as follows:
-    ``` title="Ignore Patterns"
+    ```
     *.part
     jd_accessCheck_*
     <jd:default>
@@ -323,17 +323,16 @@ See the [documentation](https://docs.olivetin.app/) for more options. The contai
 -> folder structure for `.dlc` files
 
 ```
-volume1
- └── .stfolder
-     ├── D
-     └── watch
-         ├── 0
-         ├── 1
-         ├── 2
-         └── all
+/data1
+ ├── .stfolder
+ ├── D
+ └── watch
+     ├── 0
+     ├── 1
+     ├── 2
+     └── all
+         └── added
              └── added
-                 └── added
-                     └── added
 ```
 
 # Additional topics
