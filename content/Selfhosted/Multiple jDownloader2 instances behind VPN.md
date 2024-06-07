@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-19
 publishDate: 2024-05-19
-updated: 2024-05-30
+updated: 2024-06-07
 draft: false
 tags:
   - note
@@ -250,6 +250,11 @@ Enter your credentials in `.env`, then run `docker compose pull` and `docker com
 # - Configuration of each jd2 instance
 
 ...
+
+- Open "https://my.jdownloader.org/" and login with your credentials.
+- Stop all instances of `jdownloader2-headless` but the one you want to configure.  
+  All fresh instances have the same name so you can't identify them otherwise.
+  - 
 
 # - Olivetin configuration
 
