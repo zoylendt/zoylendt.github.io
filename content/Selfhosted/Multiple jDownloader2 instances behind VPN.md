@@ -262,13 +262,21 @@ Enter your credentials in `.env`, then run `docker compose pull` and `docker com
 	- Disable "Automatic reconnect"
 	- (optional) Set speed limit. I noticed that all containers connected to vpn containers might become unresponsive if all download simultaneously with a very high rate.
 - Settings -> Plugins
-	- ...
+	- (optional) Change settings for different hosters.
 - Settings -> Extension Manager
 	- Install "Folder Watch" and enable it.
+	- Enter the value for "FolderWatch: Folders", depending on the jd2 instance:
+		- jd2_0 -> `["/opt/JDownloader/Downloads/watch/all","/opt/JDownloader/Downloads/watch/0"]`
+		- jd2_1 -> `["/opt/JDownloader/Downloads/watch/all/added","/opt/JDownloader/Downloads/watch/1"]`
+		- jd2_2 -> `["/opt/JDownloader/Downloads/watch/all/added/added","/opt/JDownloader/Downloads/watch/2"]`
+		- jd2_3 -> `["/opt/JDownloader/Downloads/watch/all/added/added/added","/opt/JDownloader/Downloads/watch/3"]`
 - Settings -> Archive Extractor
 	- Disable the extension.
 - Settings -> Professional settings
-	- ...
+	- `GeneralSettings: If File Exists Action` -> `Skip the file`
+	- `GeneralSettings: Auto Start Download Option` -> `Always`
+	- `GeneralSettings: Auto Start Countdown Seconds` -> `0`
+	- 
 - Click "JD restart" (under Settings -> General) to make sure your settings got saved. Recent setting changes might get lost if a container is stopped/restarted through the docker cli.
 - Proceed the same way with your other new instances.
 
