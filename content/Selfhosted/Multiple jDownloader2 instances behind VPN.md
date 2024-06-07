@@ -322,6 +322,20 @@ See the [documentation](https://docs.olivetin.app/) for more options. The contai
 
 -> folder structure for `.dlc` files
 
+```
+volume1
+ └── .stfolder
+     ├── D
+     └── watch
+         ├── 0
+         ├── 1
+         ├── 2
+         └── all
+             └── added
+                 └── added
+                     └── added
+```
+
 # Additional topics
 
 ## - Browser setup, useful Windows software
