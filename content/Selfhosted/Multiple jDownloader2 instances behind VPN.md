@@ -247,6 +247,8 @@ volumes:
 
 Enter your credentials in `.env`, then run `docker compose pull` and `docker compose up -d`.
 
+# Config
+
 # - Configuration of each jd2 instance
 
 ...
