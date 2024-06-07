@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-23
+updated: 2024-06-07
 draft: false
 tags:
   - note
@@ -11,11 +11,11 @@ tags:
   - synology
 ---
  
-A quick note about how to run MakeMKV in Docker on Synology (not needed).
+A quick note about how to run MakeMKV in Docker on Synology (works on other platforms aswell).
 
-Used to convert .VOB into .MKV.
+I use this to convert .VOB into .MKV files.
 
-1. Create folders in Synology webUI (or terminal):
+1. Create folders in the Synology WebUI (or terminal):
 
 ```
 mkdir /volume1/temp/input && mkdir /volume1/temp/output
@@ -27,8 +27,8 @@ mkdir /volume1/temp/input && mkdir /volume1/temp/output
 docker run --rm -d --name=makemkv -p 9400:5800 -v /volume1/temp/input:/storage:ro -v /volume1/temp/output:/output:rw -e USER_ID=0 -e GROUP_ID=0 jlesage/makemkv
 ```
 
-3. Connect browser to port 9400
-4. Cleanup
+3. Connect browser to port 9400 and convert the files.
+4. Cleanup.
 
 ```
 docker stop makemkv

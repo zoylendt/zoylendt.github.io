@@ -49,7 +49,7 @@ The following `docker-compose.yaml` and `.env` files create three jD2 instances:
 - `jd2_1` connects through the container `vpn_1` 
 - `jd2_2` connects through the container `vpn_2` 
 
-The downloaded files (.temp and finished) are placed in the volume `jd2_downloads`, which is mounted into the Syncthing container at `/data1`.
+The downloaded files (partial and finished files) are placed in the volume `jd2_downloads`, which is mounted into the Syncthing container at `/data1`.
 
 ```yaml title=".env"
 SYNCTHING_HOSTNAME=host
