@@ -254,7 +254,19 @@ Enter your credentials in `.env`, then run `docker compose pull` and `docker com
 - Open "https://my.jdownloader.org/" and login with your credentials.
 - Stop all instances of `jdownloader2-headless` but the one you want to configure.  
   All fresh instances have the same name so you can't identify them otherwise.
-  - 
+- Select your new instance
+- Settings -> General
+	- Set "Default Download Folder" to `/opt/JDownloader/Downloads/D/<jd:packagename>` (tick "subfolder as package name")
+	- Disable "Automatic reconnect"
+	- (optional) Set speed limit. I noticed that all containers connected to vpn containers might become unresponsive if all download simultaneously with a very high rate.
+- Settings -> Plugins
+	- ...
+- Settings -> Archive Extractor
+	- ...
+- Settings -> Professional settings
+	- ...
+- Click "JD restart" (under Settings -> General) to make sure your settings got saved. Recent setting changes might get lost if a container is stopped/restarted through the docker cli.
+- Proceed the same way with your other new instances.
 
 # - Olivetin configuration
 
