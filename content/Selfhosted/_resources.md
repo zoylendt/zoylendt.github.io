@@ -2,7 +2,7 @@
 title: Homelab related resources
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-06-06
+updated: 2024-06-07
 draft: false
 tags:
   - note
@@ -80,3 +80,5 @@ tags:
 - [Strategies for Updating docker stacks](https://www.reddit.com/r/selfhosted/s/Ni8MmpfaLR)
 - [version control](https://www.reddit.com/r/selfhosted/s/QeoldaO0hd)
 - [Use Amazon dash button with HomeAssistant](https://github.com/danimtb/dasshio)
+- [Startup order in Docker containers](https://www.michelebologna.net/2019/startup-order-in-docker-containers/)
+- 

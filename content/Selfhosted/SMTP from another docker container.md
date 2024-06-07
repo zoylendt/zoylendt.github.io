@@ -24,3 +24,12 @@ Kopia has no notification integration, but before and after backups a script can
 # general info
 
 - https://stackoverflow.com/questions/58644761/docker-smtp-container-to-use-in-jenkins-docker-container
+- https://www.reddit.com/r/docker/comments/13avldw/whats_the_simplest_possible_dockerized_smtp_email/
+
+
+# projects
+
+- https://hub.docker.com/r/bytemark/smtp/
+- https://github.com/containrrr/shoutrrr
+- https://github.com/ix-ai/smtp
+- 
