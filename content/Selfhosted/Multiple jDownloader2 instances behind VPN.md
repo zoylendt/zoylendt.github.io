@@ -260,7 +260,7 @@ Enter your credentials in `.env`, then run `docker compose pull` and `docker com
 - Settings -> General
 	- Set "Default Download Folder" to `/opt/JDownloader/Downloads/D/<jd:packagename>` (tick "subfolder as package name")
 	- Disable "Automatic reconnect"
-	- (optional) Set speed limit. I noticed that all containers connected to vpn containers might become unresponsive if all download simultaneously with a very high rate.
+	- (optional) Set speed limit. I noticed that all containers connected to VPN containers might crash if all download simultaneously with a very high rate.
 - Settings -> Plugins
 	- (optional) Change settings for different hosters.
 - Settings -> Extension Manager
@@ -276,7 +276,7 @@ Enter your credentials in `.env`, then run `docker compose pull` and `docker com
 	- `GeneralSettings: If File Exists Action` -> `Skip the file`
 	- `GeneralSettings: Auto Start Download Option` -> `Always`
 	- `GeneralSettings: Auto Start Countdown Seconds` -> `0`
-	- 
+	- `MyJDownloaderSettings: Device Name` -> enter an individual name
 - Click "JD restart" (under Settings -> General) to make sure your settings got saved. Recent setting changes might get lost if a container is stopped/restarted through the docker cli.
 - Proceed the same way with your other new instances.
 
@@ -312,11 +312,11 @@ See the [documentation](https://docs.olivetin.app/) for more options. The contai
 	- `No File Versioning`
 - Ignore Patterns
 	- set as follows:
-```title="Ignore Patterns"
-*.part
-jd_accessCheck_*
-<jd:default>
-```
+    ``` title="Ignore Patterns"
+    *.part
+    jd_accessCheck_*
+    <jd:default>
+    ```
 - Advanced
 	- ...
 
