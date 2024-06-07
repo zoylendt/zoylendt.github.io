@@ -81,4 +81,5 @@ tags:
 - [version control](https://www.reddit.com/r/selfhosted/s/QeoldaO0hd)
 - [Use Amazon dash button with HomeAssistant](https://github.com/danimtb/dasshio)
 - [Startup order in Docker containers](https://www.michelebologna.net/2019/startup-order-in-docker-containers/)
+- [Automatic (or unattended) upgrades in Linux](https://www.michelebologna.net/2019/automatic-or-unattended-upgrades-in-opensuse-centos-and-fedora-debian-and-ubuntu/)
 - 
