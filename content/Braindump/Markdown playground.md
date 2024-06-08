@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-06-05
+updated: 2024-06-08
 draft: false
 tags:
   - note
@@ -443,3 +443,7 @@ ls -alh
 <div class="description">All patchnotes since the game became purchasable.</div>
 </a>
 </div>
+
+---
+
+![[https://vid.pr0gramm.com/2023/08/31/78a26ec28455bd0d.mp4]]
