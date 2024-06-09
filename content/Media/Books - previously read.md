@@ -2,13 +2,15 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-05
+updated: 2024-06-10
 draft: false
 tags:
   - note
   - books
   - reading
 ---
+
+https://www.goodreads.com/review/list/54071762?shelf=read
  
 # Previously Read Books
 
