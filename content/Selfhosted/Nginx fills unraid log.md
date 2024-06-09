@@ -23,7 +23,7 @@ tags:
   ```shell
   du -sm /var/log/* | sort -hr | head
   ```
-- Search for 10 biggest directories (including subdirectories) in `/var/log/`
+- Search for 10 biggest files and directories (including subdirectories) in `/var/log/`
   ```shell
   du -ahx /var/log | sort -hr | head
   ```
