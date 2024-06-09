@@ -11,6 +11,14 @@ tags:
  
 ...
 
+# Resources
+
+- https://forums.unraid.net/topic/41848-solved-my-log-is-full-how-to-clear-it/
+- https://forums.unraid.net/topic/90727-nginx-errors-filling-logs/
+- 
+
+# Investigate the problem
+
 - Check size of `/var/log/`
   ```shell
   df -h /var/log/
@@ -27,3 +35,22 @@ tags:
   ```shell
   du -ahx /var/log | sort -hr | head
   ```
+
+# My situation
+
+```shell
+root@Datengrab:~# df -h /var/log/
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           128M  128M     0 100% /var/log
+```
+
+
+
+
+# Solutions
+
+## Increase the size of `/var/log/`
+
+```shell
+mount -o remount,size=384m /var/log
+```
