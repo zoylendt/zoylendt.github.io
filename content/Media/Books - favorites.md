@@ -2,7 +2,7 @@
 title: Favorite books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-04
+updated: 2024-06-09
 draft: false
 tags:
   - note
@@ -27,4 +27,4 @@ A list of my all time favorite books :)
 - **The Zombie Survival Guide** by Max Brooks
 - **World War Z** by Max Brooks
 - **Travis Chase (series)** by Patrick Lee
-- 
+- **Thunderstrike!** by Michael McCollum
