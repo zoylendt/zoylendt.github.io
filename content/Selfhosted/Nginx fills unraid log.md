@@ -67,7 +67,11 @@ drwxr-xr-x 11 root   root  720 Jun  4 04:40 ../
 -rw-r--r--  1 root   root  33M May 31 04:40 error.log.1
 ```
 
-->
+-> https://forums.unraid.net/topic/120823-varlog-is-getting-full-nchan-out-of-shared-memory-while-allocating-message-of-size/
+
+-> https://forums.unraid.net/topic/120823-varlog-is-getting-full-nchan-out-of-shared-memory-while-allocating-message-of-size/?do=findComment&comment=1313726
+
+-> https://forums.unraid.net/topic/86114-nginx-running-out-of-shared-memory/?do=findComment&comment=1340848
 
 ```shell
 root@Datengrab:~# tail -4 /var/log/nginx/error.log
