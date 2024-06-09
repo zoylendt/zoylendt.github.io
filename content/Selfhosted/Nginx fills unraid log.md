@@ -9,4 +9,21 @@ tags:
   - unfinished
 ---
  
-markdown content :)
+...
+
+- Check size of `/var/log/`
+  ```shell
+  df -h /var/log/
+  ```
+- List size (in mb) of all top-level files/directories in `/var/log/`
+  ```shell
+  du -sm /var/log/*
+  ```
+- Search for 10 biggest directories (top-level directories only) in `/var/log/`
+  ```shell
+  du -sm /var/log/* | sort -hr | head
+  ```
+- Search for 10 biggest directories (including subdirectories) in `/var/log/`
+  ```shell
+  du -ahx /var/log | sort -hr | head
+  ```
