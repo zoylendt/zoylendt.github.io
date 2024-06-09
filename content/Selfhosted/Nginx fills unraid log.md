@@ -15,9 +15,9 @@ tags:
   ```shell
   df -h /var/log/
   ```
-- List size (in mb) of all top-level files/directories in `/var/log/`
+- List size of all top-level files/directories in `/var/log/`
   ```shell
-  du -sm /var/log/*
+  du -sh /var/log/*
   ```
 - Search for 10 biggest directories (top-level directories only) in `/var/log/`
   ```shell
