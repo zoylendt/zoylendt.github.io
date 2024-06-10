@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-06-03
+updated: 2024-06-10
 ---
 
 > [!warning]
@@ -44,7 +44,7 @@ This blog runs on a [[Quartz starting page|slightly tweaked]] version of the sta
 
 ## My interests
 
-I want to write about many different topics, but they can (hopefully) be categorized in some way. There are also overviews of all 📄 [[tags/note|notes]] and all 🏷[[tags]].
+I want to write about many different topics, but they can (hopefully) be categorized in some way. Here are overviews of [[tags/note|all 📄 notes]] and [[tags|all 🏷 tags]].
 
 - 🧠 [[Braindump]]  
 A place for thoughts and stuff that doesn't fit the other categories. New ideas, unfinished thoughts, plans, things I stumbled upon the net, stuff like that ;)
