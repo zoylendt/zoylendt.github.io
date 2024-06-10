@@ -12,17 +12,13 @@ tags:
 > [!warning]
 > This note is subject to frequent changes!
  
-# Some topics I want to write about:
-
-- [ ] rename .md files, same naming scheme (upper-/lowercase)
-
-## index.md
+# index.md
 
 - [ ] write something about me
 - [x] remove last parts from documentation
 - [ ] add contact information
 
-## Braindump
+# Braindump
 
 - [ ] Game keys
 	- [ ] add keys from before 2022
@@ -33,7 +29,7 @@ tags:
 - [ ] (automatic) check spelling and suggest improved sentences
 - [ ] 
 
-## Brewing
+# Brewing
 
 - 30XX-35XX
 - Brewing Setup
@@ -43,7 +39,7 @@ tags:
 - [ ] https://www.amazon.de/s?k=eichelmehl
 - [ ] 36XX & 37XX -> Extraktbrauen
 
-## Coding
+# Coding
 
 - [ ] Markdown Guides
 	- [ ] GitHub flavored markdown
@@ -61,10 +57,10 @@ tags:
 	- [ ] allowed frontmatter
 - [ ] 
 
-### This website
+## This website
 
 - [ ] define [poetry code](https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code)
-- [ ] 
+- [ ] rename .md files, same naming scheme (upper-/lowercase)
 - [ ] Restructure Guide:
 	- [ ] my workflow (Obsidian -> git -> GitHub -> sync action) -> [[My obsidian git quartz workflow]]
 	- [ ] basic setup (without custom layout) -> [[Quartz basic setup]]
@@ -74,11 +70,11 @@ tags:
 	- [ ] my obsidian folder structure [[My obsidian folder structure]]
 	- [ ] how to continue on another PC [[Quartz on multiple PCs]]
 
-## Physics
+# Physics
 
 ...
 
-## Media
+# Media
 
 - [ ] Handhelds
 - [ ] videogames
@@ -98,7 +94,7 @@ tags:
 	- [ ] translate german titles
 	- [ ] Warhammer40K books
 
-## Selfhosted
+# Selfhosted
 
 - list of unused hardware
 - list of RasPi stuff
@@ -151,7 +147,7 @@ tags:
 
 
 
-### Proxmox-related
+## Proxmox-related
 
 - [ ] VMs
 	- [ ] virtualize MacOS, without  a real Mac and without a GPU

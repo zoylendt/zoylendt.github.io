@@ -35,13 +35,16 @@ tags:
 
 - [ ] https://github.com/YuukanOO/seelf
 - [ ] [Jellystat](https://github.com/CyferShepard/Jellystat) -> tag: unstable
-- [ ] Dashboards: [dashy](https://github.com/Lissy93/dashy) vs [homepage](https://github.com/gethomepage/homepage)
+- [ ] Dashboards 
+	- [ ] [dashy](https://github.com/Lissy93/dashy)
+	- [ ] [homepage](https://github.com/gethomepage/homepage)
+	- [ ] https://github.com/glanceapp/glance
 - [ ] [Firefly III](https://github.com/firefly-iii/firefly-iii) & [Firefly-Pico](https://github.com/cioraneanu/firefly-pico)
 - [ ] [Dockerized Obsidian](https://www.reddit.com/r/ObsidianMD/s/PycngccSyU)
 - [ ] https://github.com/azukaar/Cosmos-Server
 - [ ] https://github.com/gitpod-io/openvscode-server -> https://www.reddit.com/r/selfhosted/comments/1brp7nx/comment/kxavzpd/
 - [ ] https://github.com/SamTV12345/PodFetch & https://github.com/madeofpendletonwool/PinePods
-- [ ] https://github.com/glanceapp/glance
+- [ ] 
 - [ ] https://docs.imgproxy.net/getting_started
 - [ ] 
 
