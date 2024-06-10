@@ -64,6 +64,7 @@ tags:
 ### This website
 
 - [ ] define [poetry code](https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code)
+- [ ] 
 - [ ] Restructure Guide:
 	- [ ] my workflow (Obsidian -> git -> GitHub -> sync action) -> [[My obsidian git quartz workflow]]
 	- [ ] basic setup (without custom layout) -> [[Quartz basic setup]]
