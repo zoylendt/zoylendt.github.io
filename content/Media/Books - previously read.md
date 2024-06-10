@@ -96,3 +96,10 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Titanensturm** by Dan Abnett
 - **Gaunt's Ghosts (all books untill Der Anarch)** by Dan Abnett
 - **Requiem Infernale** by Peter Fehervari
+
+---
+
+<iframe
+  src="https://www.goodreads.com/review/list/54071762?shelf=read"
+  style="width:100%; height:600px;"
+></iframe>

@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-06-08
+updated: 2024-06-10
 draft: false
 tags:
   - note
@@ -171,12 +171,6 @@ _All my music listening is recorded on [last.fm](https://www.last.fm/user/metruz
 
 ---
 
----
-
-
----
-
-<iframe width="560" height="315" src="[https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f](https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 >[!example] Subreddits
 >
