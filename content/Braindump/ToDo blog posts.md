@@ -110,6 +110,10 @@ tags:
 	- [ ] µController stuff
 - [ ] Docker projects I want to document
 	- [ ] calibre & calibre-web
+	- [ ] monitoring
+		- [ ] my current stack
+		- [ ] docker api proxy
+		- [ ] overview of other options
 	- [ ] paperless-ngx
 	- [ ] servarr
 		- [ ] https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/
@@ -128,12 +132,33 @@ tags:
 		- [ ] ...
 	- [ ] calendar
 - [ ] Docker tools I want to check out
-	- [ ] - [ ] https://gchq.github.io/CyberChef/
-	- [ ] 
+	- [ ] https://gchq.github.io/CyberChef/
+	- [ ] https://github.com/YuukanOO/seelf
+	- [ ] [Jellystat](https://github.com/CyferShepard/Jellystat) -> tag: unstable
+	- [ ] Dashboards 
+		- [ ] [dashy](https://github.com/Lissy93/dashy)
+		- [ ] [homepage](https://github.com/gethomepage/homepage)
+		- [ ] https://github.com/glanceapp/glance
+	- [ ] [Firefly III](https://github.com/firefly-iii/firefly-iii) & [Firefly-Pico](https://github.com/cioraneanu/firefly-pico)
+	- [ ] [Dockerized Obsidian](https://www.reddit.com/r/ObsidianMD/s/PycngccSyU)
+	- [ ] https://github.com/azukaar/Cosmos-Server
+	- [ ] https://github.com/gitpod-io/openvscode-server -> https://www.reddit.com/r/selfhosted/comments/1brp7nx/comment/kxavzpd/
+	- [ ] https://github.com/SamTV12345/PodFetch & https://github.com/madeofpendletonwool/PinePods
+	- [ ] https://docs.imgproxy.net/getting_started
 - [ ] Synology
 	- [ ] abcnas
 		- [ ] snapshot setup
 		- [ ] backup via business
+- [ ] HomeAssistant
+	- [ ] connect multiple instances
+- [ ] Proxmox VMs
+	- [ ] virtualize MacOS, without  a real Mac and without a GPU
+	- [ ] RancherOS
+	- [ ] OPNsense VM
+	- [ ] HomeAssistant
+	- [ ] ChromeOS
+	- [ ] TrueNAS
+	- [ ] install tailscale on proxmox
 
 ---
 
@@ -145,21 +170,9 @@ tags:
 - [ ] Brave browser setup, multiple profiles
 - [ ] bookmark manager
 - [ ] Traefik guide
-- [ ] HomeAssistant
-	- [ ] connect multiple instances
 - [ ] FreshRSS
 - [ ] Podgrab
 
 
 
-## Proxmox-related
-
-- [ ] VMs
-	- [ ] virtualize MacOS, without  a real Mac and without a GPU
-	- [ ] RancherOS
-	- [ ] OPNsense VM
-	- [ ] HomeAssistant
-	- [ ] ChromeOS
-	- [ ] TrueNAS
-	- [ ] install tailscale on proxmox
 
