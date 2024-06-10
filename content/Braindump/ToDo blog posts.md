@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-06-05
+updated: 2024-06-10
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -19,14 +19,14 @@ tags:
 ## index.md
 
 - [ ] write something about me
-- [ ] remove last parts from documentation
-- [ ] 
+- [x] remove last parts from documentation
+- [ ] add contact information
 
 ## Braindump
 
-- [x] Game keys
-	- [ ] add recent keys
-	- [ ] add older keys
+- [ ] Game keys
+	- [ ] add keys from before 2022
+	- [ ] add keys from excel
 - [ ] pr0gramm tampermonkey setup
 - [ ] tag: bookmark -> 
 - [ ] list of other blogs -> https://www.vibrio.eu/blog/50-wichtige-deutschsprachige-it-blogs-die-enrico-liste/
