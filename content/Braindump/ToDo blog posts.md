@@ -42,7 +42,11 @@ tags:
 	- [ ] Sude
 		- [ ]  list of all previously brewed beers
 		- [ ] -> Extraktbrauen
-		
+	- [ ] Brewing Setup
+		- [ ] Einkochautomat setup
+		- [ ] Brauheld modifications
+		- [ ] iSpindel Setup
+
 # Coding
 
 - [ ] Markdown Guides
@@ -59,20 +63,17 @@ tags:
 	- [ ] Mermaid Diagrams -> https://mermaid.live/
 	- [ ] about digital gardening -> https://mwalton.me/thoughts/digital-forests
 	- [ ] allowed frontmatter
-- [ ] 
-
-## This website
-
-- [ ] define [poetry code](https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code)
-- [ ] rename .md files, same naming scheme (upper-/lowercase)
-- [ ] Restructure Guide:
-	- [ ] my workflow (Obsidian -> git -> GitHub -> sync action) -> [[My obsidian git quartz workflow]]
-	- [ ] basic setup (without custom layout) -> [[Quartz basic setup]]
-	- [ ] personalisations (used by me and not used by me) [[Quartz customizations]]
-	- [ ] my config files -> only link to github [[My quartz config files]]
-	- [ ] how to incorporate upstream changes [[Quartz sync fork]]
-	- [ ] my obsidian folder structure [[My obsidian folder structure]]
-	- [ ] how to continue on another PC [[Quartz on multiple PCs]]
+- [ ] This website
+	- [ ] define [poetry code](https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code)
+	- [ ] rename .md files, same naming scheme (upper-/lowercase)
+	- [ ] Restructure Guide:
+		- [ ] my workflow (Obsidian -> git -> GitHub -> sync action) -> [[My obsidian git quartz workflow]]
+		- [ ] basic setup (without custom layout) -> [[Quartz basic setup]]
+		- [ ] personalisations (used by me and not used by me) [[Quartz customizations]]
+		- [ ] my config files -> only link to github [[My quartz config files]]
+		- [ ] how to incorporate upstream changes [[Quartz sync fork]]
+		- [ ] my obsidian folder structure [[My obsidian folder structure]]
+		- [ ] how to continue on another PC [[Quartz on multiple PCs]]
 
 # Physics
 
@@ -81,7 +82,9 @@ tags:
 # Media
 
 - [ ] Handhelds
+	- [ ] Software setup
 - [ ] videogames
+	- [ ] favorites
 - [ ] webcomics
 - [ ] quotes
 - [ ] iPhone apps I use
@@ -100,9 +103,11 @@ tags:
 
 # Selfhosted
 
-- list of unused hardware
-- list of RasPi stuff
-- list of µController stuff
+- [ ] list of hardware
+	- [ ] active PCs
+	- [ ] unused PCs
+	- [ ] list of RasPi stuff
+	- [ ] µController stuff
 
 
    - 
