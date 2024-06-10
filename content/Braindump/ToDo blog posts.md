@@ -31,17 +31,18 @@ tags:
 
 # Brewing
 
-- 30XX-35XX
-- Brewing Setup
-- [ ] Inventur
-	- [ ] Malz
-	- [x] Hopfen
-	- [ ] Hefe
-- [ ] list of all previously brewed beers
-- [ ] https://de.wikipedia.org/wiki/Dinnete
-- [ ] https://www.amazon.de/s?k=eichelmehl
-- [ ] 36-38 -> Extraktbrauen
-
+- [ ] Bread
+	- [ ] https://de.wikipedia.org/wiki/Dinnete
+	- [ ] https://www.amazon.de/s?k=eichelmehl
+- [ ] Beer
+	- [ ] Inventur
+		- [ ] Malz
+		- [x] Hopfen
+		- [ ] Hefe
+	- [ ] Sude
+		- [ ]  list of all previously brewed beers
+		- [ ] -> Extraktbrauen
+		
 # Coding
 
 - [ ] Markdown Guides
