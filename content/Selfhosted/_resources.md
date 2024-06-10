@@ -44,13 +44,13 @@ tags:
 - [ ] https://github.com/azukaar/Cosmos-Server
 - [ ] https://github.com/gitpod-io/openvscode-server -> https://www.reddit.com/r/selfhosted/comments/1brp7nx/comment/kxavzpd/
 - [ ] https://github.com/SamTV12345/PodFetch & https://github.com/madeofpendletonwool/PinePods
-- [ ] 
 - [ ] https://docs.imgproxy.net/getting_started
 - [ ] 
 
 
 # Blogs
 
+- -> https://www.vibrio.eu/blog/50-wichtige-deutschsprachige-it-blogs-die-enrico-liste/
 - https://blog.gurucomputing.com.au/Offsite%20Docker%20Backups%20with%20Kopia/Offsite%20Docker%20Backups%20with%20Kopia/
 - https://sequr.be/blog/
 - https://blog.stefandroid.com/2021/03/03/mount-nfs-share-in-docker-compose.html
@@ -63,7 +63,6 @@ tags:
 - https://blog.rymcg.tech/
 - https://brainbaking.com/
 - 
-
 
 # Proxmox
 

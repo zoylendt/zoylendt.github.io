@@ -14,7 +14,7 @@ tags:
  
 # index.md
 
-- [ ] write something about me
+- [ ] write something about myself
 - [x] remove last parts from documentation
 - [ ] add contact information
 
@@ -23,21 +23,24 @@ tags:
 - [ ] Game keys
 	- [ ] add keys from before 2022
 	- [ ] add keys from excel
-- [ ] pr0gramm tampermonkey setup
-- [ ] tag: bookmark -> 
-- [ ] list of other blogs -> https://www.vibrio.eu/blog/50-wichtige-deutschsprachige-it-blogs-die-enrico-liste/
+- [ ] Document my browser setup
+	- [ ] pr0gramm tampermonkey plugin
+	- [ ] multiple profiles
+- [ ] create the tag "bookmark"
 - [ ] (automatic) check spelling and suggest improved sentences
-- [ ] 
 
 # Brewing
 
 - 30XX-35XX
 - Brewing Setup
 - [ ] Inventur
+	- [ ] Malz
+	- [x] Hopfen
+	- [ ] Hefe
 - [ ] list of all previously brewed beers
 - [ ] https://de.wikipedia.org/wiki/Dinnete
 - [ ] https://www.amazon.de/s?k=eichelmehl
-- [ ] 36XX & 37XX -> Extraktbrauen
+- [ ] 36-38 -> Extraktbrauen
 
 # Coding
 
