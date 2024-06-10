@@ -53,7 +53,9 @@ Bierbrausets:
 - Brewferm - Bierkit Barley Wine (4.1.2024, [Amazon.de](https://www.amazon.de/gp/product/B07T34SN3T/), 18€) -> Sud 38
 - 
 
-# Plan to buy
+# Einkaufsliste
 
-- https://www.braupartner.de/Huetchendichtung-STANDARD oder https://www.hobbybrauerversand.de/Huetchendichtung-fuer-Buegelverschluss-100-Stueck (schonmal gekauft)
+- https://www.hobbybrauerversand.de/Huetchendichtung-fuer-Buegelverschluss-100-Stueck (schonmal gekauft)
+	- Alternative: https://www.braupartner.de/Huetchendichtung-STANDARD
+- https://www.amazon.de/Heimbrauen-f%C3%BCr-Fortgeschrittene-Bierfreunde-Genie%C3%9Fer/dp/3418007899/
 - 
