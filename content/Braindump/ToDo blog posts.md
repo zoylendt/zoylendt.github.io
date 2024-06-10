@@ -109,48 +109,42 @@ tags:
 	- [ ] RasPi stuff
 	- [ ] µController stuff
 - [ ] Docker projects I want to document
-	- [ ] calibre + calibre-web
+	- [ ] calibre & calibre-web
 	- [ ] paperless-ngx
 	- [ ] servarr
+		- [ ] https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/
+		- [ ] https://fmhy.net/torrentpiracyguide
+		- [ ] prowlarr
+	- [ ] imgbrd-grabber & szurubooru
+	- [ ] wallabag
+	- [x] kopia
+	- [ ] youtube
+		- [ ] frontend
+		- [ ] archive
+	- [ ] music
+		- [ ] navidrome
+		- [ ] identifier
+	- [ ] photos
+		- [ ] ...
+	- [ ] calendar
+- [ ] Docker tools I want to check out
+	- [ ] - [ ] https://gchq.github.io/CyberChef/
 	- [ ] 
-
-- ExHex
-- imgbrd-grabber & szurubooru
-- Docker stacks todo
-   - wallabag
-   - photos
-   - youtube
-
-
 - [ ] Synology
 	- [ ] abcnas
 		- [ ] snapshot setup
 		- [ ] backup via business
 
-- [ ] servarr -> 
-		- [ ] https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/
-		- [ ] https://fmhy.net/torrentpiracyguide
-		- [ ] prowlarr
-	- [ ] kopia
-	- [ ] imgbrd-grabber & szurubooru
-	- [ ] music -> navidrome (+ identifier)
-	- [ ] https://gchq.github.io/CyberChef/
-	- [ ] 
-- [ ] calendar
+---
+
 - [ ] unraid sleep setup
 - [ ] pr0gramm backup
 - [ ] matrix messenger
 - [ ] nextcloud
-- [ ] makemkv guide
-
 - [ ] different monitoring options
 - [ ] Brave browser setup, multiple profiles
 - [ ] bookmark manager
 - [ ] Traefik guide
-- [ ] Hardware
-	- [ ] Zisternensensor
-- [ ] YT frontende
-- [ ] YT playlist -> archivist
 - [ ] HomeAssistant
 	- [ ] connect multiple instances
 - [ ] FreshRSS
