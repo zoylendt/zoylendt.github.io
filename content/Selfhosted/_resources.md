@@ -41,7 +41,9 @@ tags:
 - [ ] https://github.com/azukaar/Cosmos-Server
 - [ ] https://github.com/gitpod-io/openvscode-server -> https://www.reddit.com/r/selfhosted/comments/1brp7nx/comment/kxavzpd/
 - [ ] https://github.com/SamTV12345/PodFetch & https://github.com/madeofpendletonwool/PinePods
-- [ ]
+- [ ] https://github.com/glanceapp/glance
+- [ ] https://docs.imgproxy.net/getting_started
+- [ ] 
 
 
 # Blogs
