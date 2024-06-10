@@ -106,9 +106,13 @@ tags:
 - [ ] list of hardware
 	- [ ] active PCs
 	- [ ] unused PCs
-	- [ ] list of RasPi stuff
+	- [ ] RasPi stuff
 	- [ ] µController stuff
-
+- [ ] Docker projects I want to document
+	- [ ] calibre + calibre-web
+	- [ ] paperless-ngx
+	- [ ] servarr
+	- [ ] 
 
 - ExHex
 - imgbrd-grabber & szurubooru
@@ -118,12 +122,11 @@ tags:
    - youtube
 
 
-- [ ] abcnas
-	- [ ] snapshot setup
-	- [ ] backup via business
-- [ ] docker stacks
-	- [ ] paperless-ngx
-	- [ ] calibre & calibre-web
+- [ ] Synology
+	- [ ] abcnas
+		- [ ] snapshot setup
+		- [ ] backup via business
+
 - [ ] servarr -> 
 		- [ ] https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/
 		- [ ] https://fmhy.net/torrentpiracyguide
