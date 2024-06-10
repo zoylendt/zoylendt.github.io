@@ -2,14 +2,14 @@
 title: 
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-06-05
+updated: 2024-06-10
 draft: false
 tags:
   - note
   - beer
   - brewing
   - unfinished
-  - barebone
+  - german
 ---
 
 I started sometime around early 2018 with [this brewing starter set](https://www.amazon.de/gp/product/B01BFHWO9G/) for 75€. Today I still occasionally use the 5L fermentation bottle to make mead (with [this yeast](https://www.amazon.de/gp/product/B087PQ8ZKM/)).
