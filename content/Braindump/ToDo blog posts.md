@@ -1,7 +1,7 @@
 ---
 title: Some Topics I Want to Write About
 date: 2024-02-11
-updated: 2024-06-10
+updated: 2024-06-11
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -119,7 +119,7 @@ tags:
 		- [ ] https://www.reddit.com/r/Piracy/comments/pqsomd/the_complete_guide_to_building_your_personal_self/
 		- [ ] https://fmhy.net/torrentpiracyguide
 		- [ ] prowlarr
-	- [ ] imgbrd-grabber & szurubooru
+	- [ ] [imgbrd-grabber](https://github.com/Bionus/imgbrd-grabber) & [szurubooru](https://github.com/rr-/szurubooru)
 	- [ ] wallabag
 	- [x] kopia
 	- [ ] youtube
@@ -145,6 +145,7 @@ tags:
 	- [ ] https://github.com/gitpod-io/openvscode-server -> https://www.reddit.com/r/selfhosted/comments/1brp7nx/comment/kxavzpd/
 	- [ ] https://github.com/SamTV12345/PodFetch & https://github.com/madeofpendletonwool/PinePods
 	- [ ] https://docs.imgproxy.net/getting_started
+	- [ ] https://github.com/destilabs/webtric
 - [ ] Synology
 	- [ ] abcnas
 		- [ ] snapshot setup
