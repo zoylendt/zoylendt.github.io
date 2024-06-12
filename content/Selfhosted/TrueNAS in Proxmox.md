@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-22
 publishDate: 2024-05-22
-updated: 2024-05-23
+updated: 2024-06-12
 draft: false
 tags:
   - note
@@ -50,9 +50,9 @@ Open console, wait, select "1 Install/Upgrade", select 64GB sda with [space], Ye
 
 edit it -> disable backup
 
-# Pool & NFS share setup
+# Creating shares
 
-start vm, connect browser to IP
+## Create Pool & Dataset
 
 Storage -> Create Pool 
 - General Info
@@ -64,4 +64,16 @@ Storage -> Create Pool
 - Create Pool
 - Download encryption key
 
+## Create Dataset
+
+Dataset -> select
+
 Create Dataset "downloads" as Multiprotocol (only NFS)
+
+## NFS setup
+
+...
+
+## CIFS setup
+
+...
