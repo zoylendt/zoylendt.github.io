@@ -64,16 +64,31 @@ Storage -> Create Pool
 - Create Pool
 - Download encryption key
 
-## Create Dataset
+## NFS shares
 
-Dataset -> select
+### Create Dataset for NFS share
 
-Create Dataset "downloads" as Multiprotocol (only NFS)
+Dataset -> select previously created Pool -> Add Dataset
 
-## NFS setup
+- Name: ...
+- Dataset Preset: Multiprotocol -> select only "Create NFS share"
+
+### Additional NFS setup
 
 ...
 
-## CIFS setup
+## CIFS shares
+
+### Create user/users 
+
+Credentials -> Local Users -> Add
+
+Example: testuser | g43fpgo9fauedb2c
+
+### Create Dataset for CIFS share
+
+...
+
+### Additional CIFS setup
 
 ...
