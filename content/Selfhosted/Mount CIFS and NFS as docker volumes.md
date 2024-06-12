@@ -42,9 +42,14 @@ volumes:
       o: "username=<USERNAME>,password=<PASSWORD>,vers=3.0,uid=<PUID>,gid=<PGID>"
 ```
 
-Additional `o:` options: `rw,addr=IP_HERE,nolock,soft,file_mode=0777,dir_mode=0777`
-
-- The `addr` option is required if you specify a hostname instead of an IP [Source](https://docs.docker.com/storage/volumes/#create-cifssamba-volumes).
+Additional `o:` options: 
+- `addr=IP_HERE`: is required if you specify a hostname instead of an IP [Source](https://docs.docker.com/storage/volumes/#create-cifssamba-volumes).
+- `rw`
+- `nolock`
+- `soft`
+- `file_mode=0777`
+- `dir_mode=0777`
+- `nounix`
 - 
 
 ## Docker CLI
