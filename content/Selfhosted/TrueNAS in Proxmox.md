@@ -87,8 +87,13 @@ Example: testuser | g43fpgo9fauedb2c
 
 ### Create Dataset for CIFS share
 
-...
+Datasets -> select previously created Pool -> Add Dataset
+
+- Name: ...
+- Dataset Preset: Multiprotocol -> select both NFS and CIFS
 
 ### Additional CIFS setup
 
-...
+Datasets -> Select CIFS dataset -> Permissions -> Edit -> Set ACL -> Create a custom ACL -> Continue
+
+Add item -> "User* = testuser", "Permissions* = Full Control"
