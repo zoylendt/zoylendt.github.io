@@ -23,27 +23,46 @@ To access or save files not on the docker host but on a NAS it's possible to mou
 
 ...
 
+```yaml
+PUID=$(id -u)
+PGID=$(id -g)
+
+# CIFS Mount params
+REMOTE_IP=192.168.0.20
+PATH_TO_LIBRARY=/library
+USERNAME=user
+PASSWORD=password
+
+# First create the docker volume mounting the CIFS remote share
+docker volume create \
+    --driver local \
+    --opt type=cifs \
+    --opt device=//${REMOTE_IP}${PATH_TO_LIBRARY} \
+    --opt o=username=${USERNAME},password=${PASSWORD},vers=3.0,uid=${PUID},gid=${PGID} \
+    --name cifs_mount
+```
+
 ## Docker Compose
 
-```yaml
-  services:
-    example:
-      ...
-      environment:
-        - PUID=<PUID>
-        - PGID=<PGID>
-      volumes:
-        - <PATH_TO_CONFIG>:/config
-        - cifs_mount:/library
-        - <PATH_TO_ENCODE_CACHE>:/tmp/unmanic
+[Source](https://docs.unmanic.app/docs/advanced/docker_compose_cifs_mounts/)
 
-  volumes:
-    cifs_mount:
-      driver: local
-      driver_opts:
-        type: cifs    
-        device: //<REMOTE_IP>/<PATH_TO_LIBRARY>
-        o: "username=<USERNAME>,password=<PASSWORD>,vers=3.0,uid=<PUID>,gid=<PGID>"
+```yaml
+services:
+  example:
+    ...
+    environment:
+      - PUID=<PUID>
+      - PGID=<PGID>
+    volumes:
+    - cifs_mount:/library
+
+volumes:
+  cifs_mount:
+    driver: local
+    driver_opts:
+      type: cifs    
+      device: //<REMOTE_IP>/<SHARE>/<SUBFOLDER>
+      o: "username=<USERNAME>,password=<PASSWORD>,vers=3.0,uid=<PUID>,gid=<PGID>"
 ```
 
 # NFS
