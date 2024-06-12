@@ -9,4 +9,7 @@ tags:
   - unfinished
 ---
  
-Some dockerized applications require a single config file to be mounted instead of a whole directory
+Some dockerized applications require a single config file to be mounted instead of a whole directory.
+
+(Example)
+
