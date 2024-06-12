@@ -42,9 +42,9 @@ volumes:
       o: "username=<USERNAME>,password=<PASSWORD>,vers=3.0,uid=<PUID>,gid=<PGID>"
 ```
 
-Additional `o:` options: 
+Additional `o:` options: [CIFS doc samba.org](https://www.samba.org/~ab/output/htmldocs/manpages-3/mount.cifs.8.html), [Cifs doc die.net](https://linux.die.net/man/8/mount.cifs)
 - `addr=IP_HERE`: is required if you specify a hostname instead of an IP [Source](https://docs.docker.com/storage/volumes/#create-cifssamba-volumes).
-- `rw`
+- `ro`: mount read-only
 - `nolock`
 - `soft`
 - `file_mode=0777`
