@@ -13,3 +13,7 @@ Some dockerized applications require a single config file to be mounted instead 
 
 (Example)
 
+While it is possible to create a single-file volume, it has some [big limitations](https://github.com/moby/moby/issues/30310#issue-202111327)
+
+
+Apparently the "subpath mount" feature has 
