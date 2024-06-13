@@ -39,4 +39,9 @@ List of different monitoring tools:
 - VM on PVE titan as InfluxDB target for all three PVE hosts
 	- run dashy and grafana there too
 	- save DB backups to VM on PVE neodym
-- -> prometheus + grafana + [loki ]
+- -> prometheus + grafana + [loki](https://github.com/grafana/loki)
+
+- [Grafana Promtail + Loki](https://github.com/grafana/loki) or [Grafana Alloy](https://github.com/grafana/alloy) to collect logs
+- -> Alloy vs Prometheus
+	- https://grafana.com/blog/2024/04/09/grafana-alloy-opentelemetry-collector-with-prometheus-pipelines/
+	- 
