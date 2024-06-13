@@ -11,8 +11,6 @@ tags:
   - barebone
 ---
 
-
-
 # Compilations of selfhostable apps
 
 - https://selfh.st/apps/
