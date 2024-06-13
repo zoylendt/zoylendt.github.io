@@ -2,7 +2,7 @@
 title: 
 date: 2024-06-12
 publishDate: 2024-06-12
-updated: 2024-06-12
+updated: 2024-06-13
 draft: true
 tags:
   - note
@@ -36,6 +36,7 @@ services:
 volumes:
   cifs_mount:
     driver: local
+    name: cifs_mount
     driver_opts:
       type: cifs    
       device: //<REMOTE_IP>/<SHARE>/<SUBFOLDER>
