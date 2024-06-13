@@ -80,7 +80,8 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Rainbow's End** by Vernor Vinge
 - **Ilium** by Dan Simmons
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
-
+- **Dark Side (Sam Dryden #3)** by Patrick Lee
+- 
 
 ## Not yet released
 
@@ -105,8 +106,8 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 
 ## Warhammer 40K
 
-- **Grey Knights (series)** by ...
-- ...
+- **Grey Knights (series)** by Ben Counter
+- **The Beast Arises (series)** by Dan Abnett
 
 A list of physical books I own but haven't read yet:
 
