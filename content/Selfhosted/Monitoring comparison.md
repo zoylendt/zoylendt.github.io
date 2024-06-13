@@ -16,7 +16,8 @@ Here I want to compare some monitoring tools to centrally monitor my [[Selfhoste
 
 - Monitor Linux and Windows hosts
 - Monitor unraid and Synology HDD health (with Scrutiny?)
-- Monitor docker hosts and Proxmox
+- Monitor docker hosts
+- Monitor Proxmox (PVE has support for InfluxDB and Graphite) -> [Guide](https://medium.com/@nykogabriel/how-to-monitor-proxmox-with-grafana-and-influxdb-e55116081867)
 - Save to InfluxDB (or similar) with backup
 - View stats through WebUI (like netdata or grafana)
 - Export information to dashboard (like dashy or homepage)
@@ -29,3 +30,7 @@ Here I want to compare some monitoring tools to centrally monitor my [[Selfhoste
 - https://github.com/awesome-foss/awesome-sysadmin#monitoring
 - https://github.com/awesome-foss/awesome-sysadmin#metrics--metric-collection
 - https://github.com/wmariuss/awesome-devops?tab=readme-ov-file#observability--monitoring
+
+# Setup idea
+
+- VM on PVE titan as InfluxDB target for all three PVE hosts
