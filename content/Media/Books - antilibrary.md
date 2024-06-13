@@ -85,6 +85,11 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 ## Not yet released
 
 - **Ghost Station** by S. A. Barnes (~Feb 2025)
+- **Not Till We Are Lost (Bobiverse #5)** by Dennis E. Taylor (~Sep 2024)
+- **(no title yet)** by John Scalzi (~Feb 2025)
+- **Old Man’s War #7** by John Scalzi (late 2025)
+- **Pandemonium (Bequin #3)** by Dan Abnett (TBA)
+- **Folly** by Naomi Novik (TBA)
 - 
 
 ## Recommendations from friends
