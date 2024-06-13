@@ -35,5 +35,6 @@ List of different monitoring tools:
 # Setup idea
 
 - VM on PVE titan as InfluxDB target for all three PVE hosts
+	- run dashy and grafana there too
 	- save DB backups to VM on PVE neodym
 - ...
