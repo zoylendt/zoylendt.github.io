@@ -80,3 +80,27 @@ docker volume create \
 # NFS
 
 ...
+
+```yaml
+services:
+  example:
+    ...
+    environment:
+      - PUID=<PUID>
+      - PGID=<PGID>
+    volumes:
+    - nfs_mount:/library
+
+volumes:
+  nfs_mount:
+    driver: local
+    name: nfs_mount
+    driver_opts:
+      type: nfs    
+      device: ":<REMOTE_PATH>" # example path: /mnt/crucialssd/downloads_nfs
+      o: "nfsvers=4,addr=<REMOTE_IP>,rw"
+```
+
+> [!warning]
+> For some reason after enabling the "Allowed Hosts" option for the NFS share no connection was possible.  
+> After investigating the issue I noticed that from the three hosts (Proxmox Hypervisor, TrueNAS VM & the Debian VM) all could reach (ping) each other, except the Debian VM was **not** reachable from the TrueNAS VM. 
