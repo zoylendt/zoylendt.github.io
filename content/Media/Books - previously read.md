@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-10
+updated: 2024-06-13
 draft: false
 tags:
   - note
@@ -37,6 +37,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Six Wakes** by Mur Lafferty (english)
 - **Nuclear War: A Scenario** by Annie Jacobsen (german)
 - **Going Postal** by Terry Pratchett (german, audiobook)
+- **Dead Silence** by S. A. Barnes (german)
 
 ## 2023
 
