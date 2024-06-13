@@ -19,6 +19,7 @@ tags:
 - r/selfhosted -> [Reddit](https://www.reddit.com/r/selfhosted/), [Wiki](https://wiki.r-selfhosted.com/)
 - Unraid Community Apps -> [alphabetical list](https://unraid.net/community/apps)
 - [Dockerholics GH repo](https://github.com/petersem/dockerholics)
+- [Awesome DevOps](https://github.com/wmariuss/awesome-devops) -> [Website](https://awesome-devops.xyz/)
 
 # Docker
 

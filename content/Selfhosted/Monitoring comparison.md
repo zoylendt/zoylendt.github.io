@@ -20,6 +20,12 @@ Here I want to compare some monitoring tools to centrally monitor my [[Selfhoste
 - Save to InfluxDB (or similar) with backup
 - View stats through WebUI (like netdata or grafana)
 - Export information to dashboard (like dashy or homepage)
+- Collect logs
 
 # App candidates
 
+- https://github.com/petersem/dockerholics?tab=readme-ov-file#monitoring-and-management
+- https://github.com/veggiemonk/awesome-docker?tab=readme-ov-file#monitoring
+- https://github.com/awesome-foss/awesome-sysadmin#monitoring
+- https://github.com/awesome-foss/awesome-sysadmin#metrics--metric-collection
+- https://github.com/wmariuss/awesome-devops?tab=readme-ov-file#observability--monitoring
