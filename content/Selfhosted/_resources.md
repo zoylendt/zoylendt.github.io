@@ -20,11 +20,7 @@ tags:
 - Awesome-SysAdmin -> [GitHub](https://github.com/awesome-foss/awesome-sysadmin)
 - r/selfhosted -> [Reddit](https://www.reddit.com/r/selfhosted/), [Wiki](https://wiki.r-selfhosted.com/)
 - Unraid Community Apps -> [alphabetical list](https://unraid.net/community/apps)
-
-# Podcasts
-
-- [selfhosted](https://selfhosted.show/)
-
+- [Dockerholics GH repo](https://github.com/petersem/dockerholics)
 
 # Docker
 
@@ -32,10 +28,12 @@ tags:
 - Cheatsheets:
 	- [@eon01](https://github.com/eon01/DockerCheatSheet)
 	- [@dimonomid](https://github.com/dimonomid/docker-quick-ref) (PDF)
-	- [@JensPiegsa](https://github.com/JensPiegsa/docker-cheat-sheet)
+	- [@JensPiegsa](https://github.com/JensPiegsa/docker-cheat-sheet) -> [Website](https://docker.jens-piegsa.com/)
 	- [@wsargent](https://github.com/wsargent/docker-cheat-sheet) (Most popular)
-- https://github.com/petersem/dockerholics
 
+# Podcasts
+
+- [selfhosted](https://selfhosted.show/)
 
 # Blogs
 
