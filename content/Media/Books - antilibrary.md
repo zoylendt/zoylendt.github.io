@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-01
+updated: 2024-06-13
 draft: false
 tags:
   - note
@@ -54,16 +54,22 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Anathem**
 	- **The Baroque Cycle (series)**
 	- **Cryptonomicon**
-- Mur Lafferty
-	- **Six Wakes**
-	- **Station Eternity (The Midsolar Murders #1)**
 - Ann Leckie
 	- **Imperial Radch (series)**
 	- **Translation State**
+- qntm
+	- **Valuable Humans in Transit and Other Stories**
+	- **There Is No Antimemetics Division**
+	- **Ra**
+	- **Fine Structure**
+	- **Ed**
+- Adrian Tchaikovsky
+	- **Children of Time** 
+	- **Shards of Earth**
 - **Cat's Cradle** by Kurt Vonnegut
 - **In the Lives of Puppets** by T. J. Klune
 - **The Last Emperox (The Interdependency #3)** by John Scalzi
-- **Ex-Heroes 2+** by Peter Clines
+- **Ex-Heroes #2** by Peter Clines
 - **Babel** by R. F. Kuang
 - **The City in the Middle of the Night** by Charlie Jane Anders
 - **The Calculating Stars** by Mary Robinette Kowal
@@ -72,10 +78,14 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Boneshaker** by Cherie Priest
 - **The Yiddish Policemen’s Union** by Michael Chabon
 - **Rainbow's End** by Vernor Vinge
-- Dan Simmons
-	- **Ilium**
+- **Ilium** by Dan Simmons
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
-- ...
+
+
+## Not yet released
+
+- **Ghost Station** by S. A. Barnes (~Feb 2025)
+- 
 
 ## Recommendations from friends
 
