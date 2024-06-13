@@ -66,10 +66,14 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - Adrian Tchaikovsky
 	- **Children of Time** 
 	- **Shards of Earth**
+- Peter Clines
+	- **Ex-Patriots (Ex-Heroes #2)**
+	- **Terminus (Threshold #4)**
+	- **Paradox Bound**
+	- **The Broken Room**
 - **Cat's Cradle** by Kurt Vonnegut
 - **In the Lives of Puppets** by T. J. Klune
 - **The Last Emperox (The Interdependency #3)** by John Scalzi
-- **Ex-Heroes #2** by Peter Clines
 - **Babel** by R. F. Kuang
 - **The City in the Middle of the Night** by Charlie Jane Anders
 - **The Calculating Stars** by Mary Robinette Kowal
@@ -81,7 +85,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Ilium** by Dan Simmons
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
 - **Dark Side (Sam Dryden #3)** by Patrick Lee
-- 
+
 
 ## Not yet released
 
@@ -95,19 +99,24 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 
 ## Recommendations from friends
 
-- **Rivers of London (series)** by Ben Aaronovitch
-- [**The Perfect Run** by Maxime J. Durand](https://www.royalroad.com/fiction/36735/the-perfect-run)
-- [**Mother of Learning** by nobody103](https://www.royalroad.com/fiction/21220/mother-of-learning)
+
+### Books
+
 - [**Cradle (series)** by Will Wight](https://www.goodreads.com/series/192821-cradle)
-- [**Worm** by Wildbow](https://parahumans.wordpress.com/)
-- [**Super Supportive (ongoing)** by Sleyca](https://www.royalroad.com/fiction/63759/super-supportive)
+- **Rivers of London (series)** by Ben Aaronovitch
 - **Black Bird Academy** by Stella Tack
 - **Book of Night** Holly Black
+
+### Webseries
+
+- [**The Perfect Run** by Maxime J. Durand](https://www.royalroad.com/fiction/36735/the-perfect-run)
+- [**Mother of Learning** by nobody103](https://www.royalroad.com/fiction/21220/mother-of-learning)
+- [**Worm** by Wildbow](https://parahumans.wordpress.com/)
+- [**Super Supportive** by Sleyca (ongoing series)](https://www.royalroad.com/fiction/63759/super-supportive)
 
 ## Warhammer 40K
 
 - **Grey Knights (series)** by Ben Counter
-- **The Beast Arises (series)** by Dan Abnett
 
 A list of physical books I own but haven't read yet:
 
