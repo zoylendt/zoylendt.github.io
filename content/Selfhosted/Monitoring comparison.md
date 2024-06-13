@@ -2,7 +2,7 @@
 title: 
 date: 2024-06-13
 publishDate: 2024-06-13
-updated: 2024-06-13
+updated: 2024-06-14
 draft: true
 tags:
   - note
@@ -15,13 +15,15 @@ Here I want to compare some monitoring tools to centrally monitor my [[Selfhoste
 # Requirements
 
 - Monitor Linux and Windows hosts, arm64 possibly too
+	- Windows: https://github.com/prometheus-community/windows_exporter
 - Monitor unraid and Synology HDD health (with Scrutiny?)
 - Monitor docker hosts (custom, unraid and synology)
 - Monitor Proxmox (PVE has support for InfluxDB and Graphite) -> [Guide](https://medium.com/@nykogabriel/how-to-monitor-proxmox-with-grafana-and-influxdb-e55116081867)
-- Save to InfluxDB (or similar) with backup
+- Save to InfluxDB (or similar) -> https://docs.influxdata.com/influxdb/v2/write-data/developer-tools/scrape-prometheus-metrics/
 - View stats through WebUI (like netdata or grafana)
 - Export information to dashboard (like dashy or homepage)
 - Collect logs -> https://github.com/awesome-foss/awesome-sysadmin#log-management
+- Collect fritzbox data -> https://github.com/pdreker/fritz_exporter
 
 # App candidates
 
@@ -37,4 +39,4 @@ List of different monitoring tools:
 - VM on PVE titan as InfluxDB target for all three PVE hosts
 	- run dashy and grafana there too
 	- save DB backups to VM on PVE neodym
-- ...
+- -> prometheus + grafana + [loki ]
