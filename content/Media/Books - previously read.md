@@ -89,7 +89,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Cadias Blut** by Aaron Dembski-Bowden
 - **Legion der Sühne** by Gav Thorpe (?)
 - **Nexus** by VA
-- **Der Schild der Heiligen** by Rachel Harrison
+- **Der Schild der Heiligen** by Rachel Harrison (?)
 - **In Treue und Glauben** by Rachel Harrison
 - **Volpones Ruhm** by Nick Kyme
 - **Mensch und Maschine** by Guy Haley

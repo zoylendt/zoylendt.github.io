@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-13
+updated: 2024-06-14
 draft: false
 tags:
   - note
@@ -95,7 +95,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Old Man’s War #7** by John Scalzi (late 2025)
 - **Pandemonium (Bequin #3)** by Dan Abnett (TBA)
 - **Folly** by Naomi Novik (TBA)
-- 
+- **The Horusian Wars #3** by John French (maybe [cancelled](https://www.reddit.com/r/40kLore/comments/tr0lnr/is_there_word_on_whether_french_is_going_to/)?)
 
 ## Recommendations from friends
 

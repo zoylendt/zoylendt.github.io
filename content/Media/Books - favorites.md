@@ -2,7 +2,7 @@
 title: Favorite books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-09
+updated: 2024-06-14
 draft: false
 tags:
   - note
@@ -28,3 +28,5 @@ A list of my all time favorite books :)
 - **World War Z** by Max Brooks
 - **Travis Chase (series)** by Patrick Lee
 - **Thunderstrike!** by Michael McCollum
+- **Honourbound** by Rachel Harrison
+- **Divination (anthology)** by John French
