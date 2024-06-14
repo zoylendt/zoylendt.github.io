@@ -39,6 +39,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Going Postal** by Terry Pratchett (german, audiobook)
 - **Dead Silence** by S. A. Barnes (german)
 - **Mirror** by Liu Cixin (german)
+- **Singularity Trap* by Dennis E. Taylor (german)
 
 ## 2023
 
