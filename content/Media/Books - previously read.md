@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-13
+updated: 2024-06-14
 draft: false
 tags:
   - note
@@ -38,6 +38,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Nuclear War: A Scenario** by Annie Jacobsen (german)
 - **Going Postal** by Terry Pratchett (german, audiobook)
 - **Dead Silence** by S. A. Barnes (german)
+- **Mirror** by Liu Cixin (german)
 
 ## 2023
 
@@ -66,7 +67,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **American Gods** by Neil Gaiman
 - 
 
-## Previously read Warhammer 40K Books
+### Previously read Warhammer 40K Books
 
 - **Inkarnation, Wiederkehr & Divination** by John French
 - **Urdesh 2+3** by Matthew Farrer
