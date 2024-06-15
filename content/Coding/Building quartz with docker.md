@@ -1,7 +1,7 @@
 ---
 title: Building Quartz With Docker
 date: 2024-02-05
-updated: 2024-05-22
+updated: 2024-06-15
 publishDate: 2024-02-05
 draft: false
 enableToc: true
@@ -13,6 +13,10 @@ tags:
   - powershell
   - unfinished
 ---
+
+> [!tip] Associated notes
+> This note is part of a series about how this blog is set up.
+> See [[Quartz starting page|here]] for an overview.
  
 You want to locally build a preview of your Quartz website or want to locally host your notes without exposing them to the general web, but installing the required versions of `node` and `npm` is to bothersome?
 

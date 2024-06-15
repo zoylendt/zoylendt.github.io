@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-22
 publishDate: 2024-05-22
-updated: 2024-05-22
+updated: 2024-06-15
 draft: false
 tags:
   - note
@@ -16,7 +16,7 @@ This page is intended to be a starting point if you want to know how to build yo
 
 I've also documented my [[My obsidian git quartz workflow|workflow for new blog entries]], using Obsidian and its git plugin (among [[Obsidian plugins|other plugins I use]]). My [[My obsidian folder structure|folder structure in Obsidian]] has also relevance for this, and maybe also my notes about the [[Quartz frontmatter]] structure. You can also read about [[Obsidian on multiple PCs|how to use Obsidian on multiple PCs simultaneously]].
 
-If you're now starting with Quartz and/or Obsidian, you might want to read my notes on [[tags/markdown]] or all notes about [[tags/obsidian]], [[tags/quartz]] and [[tags/github]].
+If you're now starting with Quartz and/or Obsidian, you might want to read my notes on [[tags/markdown]] or all notes about [[tags/obsidian]], [[tags/quartz]] and [[tags/github]]. I have also written a guide for a local test setup using Docker on Windows, 
 
 >[!example] Finished notes referenced
 >- [x] [[Quartz basic setup]]
