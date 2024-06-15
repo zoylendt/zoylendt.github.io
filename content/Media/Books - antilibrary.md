@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-14
+updated: 2024-06-15
 draft: false
 tags:
   - note
@@ -73,7 +73,6 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **The Broken Room**
 - **Cat's Cradle** by Kurt Vonnegut
 - **In the Lives of Puppets** by T. J. Klune
-- **The Last Emperox (The Interdependency #3)** by John Scalzi
 - **Babel** by R. F. Kuang
 - **The City in the Middle of the Night** by Charlie Jane Anders
 - **The Calculating Stars** by Mary Robinette Kowal
