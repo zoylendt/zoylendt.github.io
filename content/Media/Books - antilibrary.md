@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-15
+updated: 2024-06-16
 draft: false
 tags:
   - note
@@ -84,6 +84,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Ilium** by Dan Simmons
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
 - **Dark Side (Sam Dryden #3)** by Patrick Lee
+- **Heart-Shaped Box** by Joe Hill
 
 
 ## Not yet released
