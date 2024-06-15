@@ -2,7 +2,7 @@
 title: Favorite books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-14
+updated: 2024-06-16
 draft: false
 tags:
   - note
@@ -30,3 +30,5 @@ A list of my all time favorite books :)
 - **Thunderstrike!** by Michael McCollum
 - **Honourbound** by Rachel Harrison
 - **Divination (anthology)** by John French
+- **Horns** by Joe Hill
+- 
