@@ -2,7 +2,7 @@
 title: 
 date: 2024-06-01
 publishDate: 2024-06-01
-updated: 2024-06-05
+updated: 2024-06-15
 draft: false
 tags:
   - note
@@ -56,7 +56,7 @@ m = manually installed
 | kopiaui          | c    |      | c       |           |     |
 | paint.net        | c    |      |         |           |     |
 | vscode           | c    |      |         |           |     |
-| pdf24            | c    |      | -       |           |     |
+| pdf24            | c    |      | c       |           |     |
 | calibre          | c    |      | m       |           |     |
 | synctrayzor      | m    |      | m       |           |     |
 | anydesk          | m    |      | m       |           |     |
