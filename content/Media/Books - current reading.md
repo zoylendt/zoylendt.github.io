@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-15
+updated: 2024-06-18
 draft: false
 tags:
   - note
@@ -18,7 +18,6 @@ tags:
 - **Python - Der Grundkurs** by Michael Kofler (german)
 - **Full Steam Ahead** by Terry Pratchett (german, audiobook)
 - **Station Eternity** by Mur Lafferty (english)
-- **The Last Emperox (The Interdependency #3)** by John  (german)
 
 ## Manga & Comics
 

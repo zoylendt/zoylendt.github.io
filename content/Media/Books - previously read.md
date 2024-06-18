@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-14
+updated: 2024-06-18
 draft: false
 tags:
   - note
@@ -39,7 +39,8 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Going Postal** by Terry Pratchett (german, audiobook)
 - **Dead Silence** by S. A. Barnes (german)
 - **Mirror** by Liu Cixin (german)
-- **Singularity Trap* by Dennis E. Taylor (german)
+- **Singularity Trap** by Dennis E. Taylor (german)
+- **The Last Emperox (The Interdependency #3)** by John Scalzi (german)
 
 ## 2023
 
@@ -99,10 +100,3 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Titanensturm** by Dan Abnett
 - **Gaunt's Ghosts (all books untill Der Anarch)** by Dan Abnett
 - **Requiem Infernale** by Peter Fehervari
-
----
-
-<iframe
-  src="https://www.goodreads.com/review/list/54071762?shelf=read"
-  style="width:100%; height:600px;"
-></iframe>
