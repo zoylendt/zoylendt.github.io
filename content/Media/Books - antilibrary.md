@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-16
+updated: 2024-06-19
 draft: false
 tags:
   - note
@@ -39,9 +39,6 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Halting State (Halting State #1)**
 	- **The Atrocity Archives (The Laundry Files #1)**
 	- **Saturn’s Children (Saturn’s Children #1)**
-- Naomi Novik
-	- **Uprooted**
-	- **Spinning Silver**
 - Kim Stanley Robinson
 	- **The Ministry for the Future**
 	- **The Years of Rice and Salt**
@@ -71,6 +68,9 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Terminus (Threshold #4)**
 	- **Paradox Bound**
 	- **The Broken Room**
+- Neal Asher
+	- **Gridlinked ()**
+- **Spinning Silver** by Naomi Novik
 - **Cat's Cradle** by Kurt Vonnegut
 - **In the Lives of Puppets** by T. J. Klune
 - **Babel** by R. F. Kuang

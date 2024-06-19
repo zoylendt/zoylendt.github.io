@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-18
+updated: 2024-06-19
 draft: false
 tags:
   - note
@@ -41,6 +41,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Mirror** by Liu Cixin (german)
 - **Singularity Trap** by Dennis E. Taylor (german)
 - **The Last Emperox (The Interdependency #3)** by John Scalzi (german)
+- **Uprooted** by Naomi Novik (german)
 
 ## 2023
 
