@@ -69,7 +69,8 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Paradox Bound**
 	- **The Broken Room**
 - Neal Asher
-	- **Gridlinked ()**
+	- **Gridlinked (Agent Cormac #1)**
+	- ...
 - **Spinning Silver** by Naomi Novik
 - **Cat's Cradle** by Kurt Vonnegut
 - **In the Lives of Puppets** by T. J. Klune
