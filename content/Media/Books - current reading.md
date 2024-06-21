@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-18
+updated: 2024-06-22
 draft: false
 tags:
   - note
@@ -18,6 +18,7 @@ tags:
 - **Python - Der Grundkurs** by Michael Kofler (german)
 - **Full Steam Ahead** by Terry Pratchett (german, audiobook)
 - **Station Eternity** by Mur Lafferty (english)
+- **Ancillary Justice (Imperial Radch #1)** by Ann Leckie (german)
 
 ## Manga & Comics
 
