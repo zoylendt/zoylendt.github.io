@@ -42,7 +42,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Singularity Trap** by Dennis E. Taylor (german)
 - **The Last Emperox (The Interdependency #3)** by John Scalzi (german)
 - **Uprooted** by Naomi Novik (german)
-- **Night's Slow Poison** by Ann Leckie (german)
+- **Night's Slow Poison (Imperial Radch #0.5)** by Ann Leckie (german)
 - **Full Steam Ahead** by Terry Pratchett (german, audiobook)
 
 ## 2023
