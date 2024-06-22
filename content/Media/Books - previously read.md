@@ -43,6 +43,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **The Last Emperox (The Interdependency #3)** by John Scalzi (german)
 - **Uprooted** by Naomi Novik (german)
 - **Night's Slow Poison** by Ann Leckie (german)
+- **Full Steam Ahead** by Terry Pratchett (german, audiobook)
 
 ## 2023
 

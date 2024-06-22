@@ -16,7 +16,6 @@ tags:
 
 - **Warboss** by Mike Brooks (german)
 - **Python - Der Grundkurs** by Michael Kofler (german)
-- **Full Steam Ahead** by Terry Pratchett (german, audiobook)
 - **Station Eternity** by Mur Lafferty (english)
 - **Ancillary Justice (Imperial Radch #1)** by Ann Leckie (german)
 
