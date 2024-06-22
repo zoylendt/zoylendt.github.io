@@ -2,7 +2,7 @@
 title: Homelab related resources
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-06-13
+updated: 2024-06-22
 draft: false
 tags:
   - note
@@ -49,7 +49,7 @@ tags:
 - https://blog.rymcg.tech/
 - https://brainbaking.com/
 - https://www.thushanfernando.com/
-- 
+- https://note.nkmk.me/en/
 
 # Proxmox
 
