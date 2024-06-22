@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-22
+updated: 2024-06-23
 draft: false
 tags:
   - note
@@ -44,6 +44,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Uprooted** by Naomi Novik (german)
 - **Night's Slow Poison (Imperial Radch #0.5)** by Ann Leckie (german)
 - **Full Steam Ahead** by Terry Pratchett (german, audiobook)
+- **Ancillary Justice (Imperial Radch #1)** by Ann Leckie (german)
 
 ## 2023
 

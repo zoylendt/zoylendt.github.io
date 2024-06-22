@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-22
+updated: 2024-06-23
 draft: false
 tags:
   - note
@@ -17,7 +17,7 @@ tags:
 - **Warboss** by Mike Brooks (german)
 - **Python - Der Grundkurs** by Michael Kofler (german)
 - **Station Eternity** by Mur Lafferty (english)
-- **Ancillary Justice (Imperial Radch #1)** by Ann Leckie (german)
+- **Ancillary Sword (Imperial Radch #2)** by Ann Leckie (german)
 
 ## Manga & Comics
 
