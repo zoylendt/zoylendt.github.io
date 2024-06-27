@@ -3,10 +3,9 @@ title: How to remove specific rows from a CSV file in Python
 date: 2024-06-27
 publishDate: 2024-06-27
 updated: 2024-06-27
-draft: true
+draft: false
 tags:
   - note
-  - unfinished
   - python
 ---
  
@@ -27,13 +26,13 @@ shutil.copy2(input_csv_file,str(input_csv_file + '_backup'))   # optional
 
 # convert delete_lines_file to list
 with open(delete_lines_file) as file0:
-    lines = [line.rstrip() for line in file0]
+    delete_lines_list = [line.rstrip() for line in file0]
     
 with open(input_csv_file ,"r") as inp, open(output_csv_file,"w") as out:
     reader = csv.reader(inp)
     writer = csv.writer(out)
     for row in reader:
-        name = row[column_to_check]
-        if name not in lines:
+        cell = row[column_to_check]
+        if cell not in delete_lines_list:
             writer.writerow(row)
 ```
