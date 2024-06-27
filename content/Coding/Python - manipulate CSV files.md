@@ -1,5 +1,5 @@
 ---
-title: How to remove specific rows from a CSV file in Python
+title: How to manipulate a CSV file with Python
 date: 2024-06-27
 publishDate: 2024-06-27
 updated: 2024-06-27
@@ -8,7 +8,9 @@ tags:
   - note
   - python
 ---
- 
+
+# Deleting specific rows
+
 Let's say you have a CSV file, `data.csv`, and a file `unwanted.txt` where each line contains a string. Now you want to remove each row from `data.csv` where a string from `unwanted.txt` appears in a specific column.
 
 ```python
@@ -35,4 +37,30 @@ with open(input_csv_file ,"r") as inp, open(output_csv_file,"w") as out:
         cell = row[column_to_check]
         if cell not in delete_lines_list:
             writer.writerow(row)
+```
+
+# Replacing specific content
+
+Replace all cells in the row `parent_url` that only contain `[]` with `''` (= empty)
+
+```python
+import pandas as pd  
+
+# variables
+input_csv_file = 'data.csv'
+output_csv_file = 'data_out.csv'
+column_to_check = 'parent_url'
+correctiondict= {
+                  '[]': '',
+                  'A': 'B'
+                 }
+
+# create dataframe from csv file
+df = pd.read_csv(input_csv_file) 
+
+df[column_to_check]=df[column_to_check].replace(correctiondict)
+
+
+# writing the dataframe to another csv file 
+df.to_csv(output_csv_file, index = False)
 ```
