@@ -190,3 +190,27 @@ df.loc[result_row_index, target_col] = target_value
 # save as new csv
 df.to_csv(csv_file_output, index = False)
 ```
+
+# Create empty CSV with set header names
+
+```python
+from pathlib import Path
+import csv
+import numpy as np
+import pandas as pd
+
+#variables
+csv_header = ['header_0', 'header_1', 'header_2']
+csv_file = 'empty_data.csv'
+
+# prepare provided variables
+csv_file_path = Path(csv_file)
+csv_headers_list = np.asarray([csv_header])
+
+# create CSV if it doesn't exist yet
+if csv_file_path.is_file():
+	pass
+else:
+	df = pd.DataFrame(csv_headers_list)
+	df.to_csv(csv_file, header=False, index=False)
+```
