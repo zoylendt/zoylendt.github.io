@@ -191,7 +191,7 @@ df.loc[result_row_index, target_col] = target_value
 df.to_csv(csv_file_output, index = False)
 ```
 
-# Create empty CSV with set header names
+# Create empty CSV with set column names
 
 ```python
 from pathlib import Path
