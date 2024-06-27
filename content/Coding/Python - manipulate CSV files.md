@@ -105,3 +105,26 @@ Error message while reading a CSV into a df with `df = pd.read_csv(csv_file)`:
 ```
 
 Solution: `df = pd.read_csv(csv_file, sep = ",", dtype={"favorites_category_number": 'unicode'})`
+
+# Extract specific cells from csv
+
+Extract from `data.csv` the content of the column `target_col` in the row where the column `search_col` has the value `search_value`.
+
+Warning: only works if there is **exactly one match** of `search_col` and `search_value`!
+
+```python
+import pandas as pd
+
+#variables
+csv_file = 'data.csv'
+search_value = 2866006
+search_col = 'gallery_id'
+target_col = 'gallery_token'
+
+# read csv into df. define all c
+df = pd.read_csv(csv_file, sep = ",", dtype='unicode')
+
+result_row = df[df[search_col] == str(search_value)]
+
+result_row.iloc[0][target_col]
+```
