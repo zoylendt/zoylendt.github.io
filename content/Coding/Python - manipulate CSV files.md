@@ -130,3 +130,27 @@ result_row = df[df[search_col] == str(search_value)]
 # Get `target_col` cell of the row.
 result_row.iloc[0][target_col]
 ```
+
+# Compare CSV files for missing elements
+
+```python
+import pandas as pd
+
+#variables
+csv_file_a = 'data_a.csv'
+csv_file_b = 'data_b.csv'
+column = 'id'
+
+# load both CSV files into dataframes
+df_a = pd.read_csv('nonexistent_galleries.csv')
+df_b = pd.read_csv('v2_nonexistent_galleries.csv')
+
+# create lists from the 
+list_v1 = df_a[column]
+list_v2 = df_b[column]
+
+set1 = set(list_v1)
+set2 = set(list_v2)
+missing_in_b = list(sorted(set1 - set2))
+added = list(sorted(set2 - set1))
+```
