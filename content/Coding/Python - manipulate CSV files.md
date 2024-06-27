@@ -159,3 +159,32 @@ set_b = set(list_b)
 missing_in_b = list(sorted(set_a - set_b))
 added_to_b = list(sorted(set_b - set_a))
 ```
+
+# Modify a single CSV cell
+
+Search in the file `csv_file_input` for the row where the column `search_col` has the value `search_value`. Write in this row to the column `target_col` the value `target_value` and save as a new csv file `csv_file_output`.
+
+Warning: dtype
+
+```python
+import pandas as pd
+
+#variables
+csv_file_input = 'v3_nonexistent_galleries.csv'
+search_col = 'gallery_url'
+search_value = 'https://g/2094807/0defe75e2b/'
+target_col = 'gallery_unavailable_message'
+target_value = 'This gallery is unavailable due to a copyright claim by Irodori Comics'
+
+df = pd.read_csv(csv_file_input)
+
+result_row = df[df[search_col] == str(search_value)]
+result_row_index = result_row.index.values[0]
+
+df.loc[result_row_index, target_col] = target_value
+
+#df[df[search_col] == str(search_value)]
+
+# save as new csv
+df.to_csv(csv_file_output, index = False)
+```
