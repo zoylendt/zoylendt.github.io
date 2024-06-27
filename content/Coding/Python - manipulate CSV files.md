@@ -39,9 +39,36 @@ with open(input_csv_file ,"r") as inp, open(output_csv_file,"w") as out:
             writer.writerow(row)
 ```
 
-# Replacing specific content
+## Print the rows before deletion
 
-Replace all cells in the row `parent_url` that only contain `[]` with `''` (= empty)
+```python
+import csv
+
+# variables
+input_csv_file = 'data.csv'
+output_csv_file = 'data_out.csv'
+column_to_check = 2                     # which column of input_csv_file should be checked
+delete_lines_file = 'unwanted.txt'
+
+# open delete_lines_file
+with open(delete_lines_file) as file0:
+    lines = [line.rstrip() for line in file0]
+    
+with open(input_csv_file ,"r") as inp, open(output_csv_file,"w") as out:
+    reader = csv.reader(inp)
+    for row in reader:
+        name = row[column_to_check]
+        if name not in lines:
+            continue
+#            out.write(row)
+        else:
+            print(row)
+#            continue
+```
+
+# Replacing specific content of a column
+
+Replace all cells in the row `parent_url` that only contain `[]` with `''` (= empty) and all cells containing only `A` with `B`.
 
 ```python
 import pandas as pd  
@@ -58,9 +85,15 @@ correctiondict= {
 # create dataframe from csv file
 df = pd.read_csv(input_csv_file) 
 
+# modify dataframe
 df[column_to_check]=df[column_to_check].replace(correctiondict)
 
-
-# writing the dataframe to another csv file 
+# write the dataframe to another csv file
 df.to_csv(output_csv_file, index = False)
 ```
+
+# Convert datatypes of columns
+
+- https://sentry.io/answers/change-a-column-type-in-a-dataframe-in-python-pandas/
+- https://stackoverflow.com/questions/52369572/python-how-to-get-data-types-for-all-columns-in-csv-file
+
