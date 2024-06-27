@@ -133,6 +133,8 @@ result_row.iloc[0][target_col]
 
 # Compare CSV files for missing elements
 
+[Source](https://stackoverflow.com/questions/43859804/compare-two-list-and-output-missing-and-extra-element-python)
+
 ```python
 import pandas as pd
 
@@ -145,12 +147,15 @@ column = 'id'
 df_a = pd.read_csv('nonexistent_galleries.csv')
 df_b = pd.read_csv('v2_nonexistent_galleries.csv')
 
-# create lists from the 
-list_v1 = df_a[column]
-list_v2 = df_b[column]
+# create lists from the column you want to compare
+list_a = df_a[column]
+list_b = df_b[column]
 
-set1 = set(list_v1)
-set2 = set(list_v2)
-missing_in_b = list(sorted(set1 - set2))
-added = list(sorted(set2 - set1))
+# turn lists to sets (removing duplicates)
+set_a = set(list_a)
+set_b = set(list_b)
+
+# extract information
+missing_in_b = list(sorted(set_a - set_b))
+added_to_b = list(sorted(set_b - set_a))
 ```
