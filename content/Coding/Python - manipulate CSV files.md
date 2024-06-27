@@ -50,20 +50,18 @@ output_csv_file = 'data_out.csv'
 column_to_check = 2                     # which column of input_csv_file should be checked
 delete_lines_file = 'unwanted.txt'
 
-# open delete_lines_file
+# convert delete_lines_file to list
 with open(delete_lines_file) as file0:
-    lines = [line.rstrip() for line in file0]
+    delete_lines_list = [line.rstrip() for line in file0]
     
 with open(input_csv_file ,"r") as inp, open(output_csv_file,"w") as out:
     reader = csv.reader(inp)
     for row in reader:
         name = row[column_to_check]
-        if name not in lines:
+        if name not in delete_lines_list:
             continue
-#            out.write(row)
         else:
             print(row)
-#            continue
 ```
 
 # Replacing specific content of a column
@@ -97,3 +95,13 @@ df.to_csv(output_csv_file, index = False)
 - https://sentry.io/answers/change-a-column-type-in-a-dataframe-in-python-pandas/
 - https://stackoverflow.com/questions/52369572/python-how-to-get-data-types-for-all-columns-in-csv-file
 
+## 'Handling' dtype errors
+
+Error message while reading a CSV into a df with `df = pd.read_csv(csv_file)`:
+
+```
+/tmp/ipykernel_39709/1197580658.py:4: DtypeWarning: Columns (30) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv("galleries_out_2.csv")
+```
+
+Solution: `df = pd.read_csv(csv_file, sep = ",", dtype={"favorites_category_number": 'unicode'})`
