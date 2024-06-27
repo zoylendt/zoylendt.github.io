@@ -121,10 +121,12 @@ search_value = 2866006
 search_col = 'gallery_id'
 target_col = 'gallery_token'
 
-# read csv into df. define all c
+# Read csv into df. Define dtype for all cells as unicode so we don't have to worry about the dtype of `search_value`.
 df = pd.read_csv(csv_file, sep = ",", dtype='unicode')
 
+# Find row with combination of `search_col` and `search_value`.
 result_row = df[df[search_col] == str(search_value)]
 
+# Get `target_col` cell of the row.
 result_row.iloc[0][target_col]
 ```
