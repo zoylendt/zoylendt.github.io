@@ -2,7 +2,7 @@
 title: How to manipulate a CSV file with Python
 date: 2024-06-27
 publishDate: 2024-06-27
-updated: 2024-06-27
+updated: 2024-06-29
 draft: false
 tags:
   - note
@@ -213,4 +213,38 @@ if csv_file_path.is_file():
 else:
 	df = pd.DataFrame(csv_headers_list)
 	df.to_csv(csv_file, header=False, index=False)
+```
+
+# Find duplicate fields within same column 
+
+```python
+# find duplicates in csv file
+
+import pandas as pd  
+
+#variables
+input_csv_file = 'move_local_files_cbr.csv'
+column_to_check = 'file_md5sum'
+
+# create dataframe from csv file
+df = pd.read_csv(input_csv_file)
+
+# create list from column 'column_to_check'
+list = df[column_to_check].tolist()
+
+# find duplicates -> https://stackoverflow.com/questions/9835762/how-do-i-find-the-duplicates-in-a-list-and-create-another-list-with-them
+seen = set()
+dupes = []
+for x in list:
+    if x in seen:
+        dupes.append(x)
+    else:
+        seen.add(x)
+
+# create dataframe based on dupes list -> https://saturncloud.io/blog/how-to-select-rows-from-a-dataframe-based-on-list-values-in-a-column-in-pandas
+mask = df[column_to_check].isin(dupes)
+dupes_dataframe = df[mask]
+
+# print result dataframe, sorted by the vaules of 'column_to_check'
+dupes_dataframe.sort_values(column_to_check)
 ```
