@@ -2,7 +2,7 @@
 title: How to manipulate a CSV file with Python
 date: 2024-06-27
 publishDate: 2024-06-27
-updated: 2024-06-29
+updated: 2024-07-02
 draft: false
 tags:
   - note
@@ -95,6 +95,15 @@ df.to_csv(output_csv_file, index = False)
 - https://sentry.io/answers/change-a-column-type-in-a-dataframe-in-python-pandas/
 - https://stackoverflow.com/questions/52369572/python-how-to-get-data-types-for-all-columns-in-csv-file
 
+## check dtypes of each column
+
+[Source](https://www.geeksforgeeks.org/pandas-detect-mixed-data-types-and-fix-it/)
+
+```python
+for column in df.columns:
+    print(column,':',pd.api.types.infer_dtype(df[column]))
+```
+
 ## 'Handling' dtype errors
 
 Error message while reading a CSV into a df with `df = pd.read_csv(csv_file)`:
@@ -105,6 +114,12 @@ Error message while reading a CSV into a df with `df = pd.read_csv(csv_file)`:
 ```
 
 Solution: `df = pd.read_csv(csv_file, sep = ",", dtype={"favorites_category_number": 'unicode'})`
+
+# List all unique elements of a column
+
+```python
+
+```
 
 # Extract specific cells from csv
 
