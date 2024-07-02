@@ -118,7 +118,8 @@ Solution: `df = pd.read_csv(csv_file, sep = ",", dtype={"favorites_category_numb
 # List all unique elements of a column
 
 ```python
-
+a = df['column_name'].unique()
+print(sorted(a))
 ```
 
 # Extract specific cells from csv
