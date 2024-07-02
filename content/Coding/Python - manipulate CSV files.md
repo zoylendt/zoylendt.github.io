@@ -103,6 +103,18 @@ df.to_csv(output_csv_file, index = False)
 for column in df.columns:
     print(column,':',pd.api.types.infer_dtype(df[column]))
 ```
+or:
+```python
+display(df.dtypes)
+```
+
+## convert dtype of single column
+
+[Source](https://www.geeksforgeeks.org/convert-floats-to-integers-in-a-pandas-dataframe/)
+
+```python
+df['Weight'] = df['Weight'].astype(int)
+```
 
 ## 'Handling' dtype errors
 
