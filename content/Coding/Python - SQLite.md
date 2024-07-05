@@ -35,14 +35,41 @@ db_file = 'example.db'
 conn = sqlite3.connect(db_file)
 cursor = conn.cursor()
 
-# create table '' with headers (can be different from headers in CSV)
-cursor.execute("CREATE TABLE imported (exhex_archive_id, original_archive_type, original_archive_name, original_archive_path, original_archive_size_bytes, original_archive_md5sum, new_archive_name);")
+# create table 'table_name' with headers (can be different from headers in CSV)
+cursor.execute("CREATE TABLE table_name (db_header_1, db_header_2, db_header_3);")
 
 with open(csv_file,'r') as fin:
     dr = csv.DictReader(fin) # csv.DictReader uses first line in file for column headings by default, comma is default delimiter
-    to_db = [(i['exhex_id'], i['original_archive_type'], i['original_archive_name'], i['original_archive_path'], i['original_archive_size_bytes'], i['original_archive_md5sum'], i['new_archive_name']) for i in dr]
+    to_db = [(i['csv_header_1'], i['csv_header_2'], i['csv_header_3']) for i in dr]
 
-cursor.executemany("INSERT INTO imported (exhex_archive_id, original_archive_type, original_archive_name, original_archive_path, original_archive_size_bytes, original_archive_md5sum, new_archive_name) VALUES (?, ?, ?, ?, ?, ?, ?);", to_db)
+cursor.executemany("INSERT INTO table_name (db_header_1, db_header_2, db_header_3) VALUES (?, ?, ?);", to_db)
 conn.commit()
 conn.close()
+```
+
+# Extract data from DB
+
+## Return a row as dictionary
+
+[Source](https://stackoverflow.com/a/3300514)
+```python
+import sqlite3
+
+#variables
+db_file = 'example.db'
+
+def dict_factory(cursor, row):
+    d = {}
+    for idx, col in enumerate(cursor.description):
+        d[col[0]] = row[idx]
+    return d
+
+con = sqlite3.connect(db_file)
+con.row_factory = dict_factory
+cur = con.cursor()
+
+cur.execute("select * from table_name")    #  -> get all rows from table 'table_name'
+
+dictionary_one = cur.fetchone() # return first row mathing the query
+dictionary_all = cur.fetchall() # return complete table mathing the query
 ```
