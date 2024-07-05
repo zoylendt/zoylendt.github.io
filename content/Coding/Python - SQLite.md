@@ -2,7 +2,7 @@
 title: 
 date: 2024-07-05
 publishDate: 2024-07-05
-updated: 2024-07-05
+updated: 2024-07-06
 draft: true
 tags:
   - note
@@ -72,4 +72,38 @@ cur.execute("select * from table_name")    #  -> get all rows from table 'table_
 
 dictionary_one = cur.fetchone() # return first row mathing the query
 dictionary_all = cur.fetchall() # return complete table mathing the query
+```
+
+improved version:
+
+```python
+import sqlite3
+
+def search_sql_for_string(table,column,search_string):
+    """Query a SQLite DB for an exact match, return a list of dictionaries.
+    Doesn't work with 'search_string' = '*' to return all rows.
+    """
+
+    def dict_factory(cursor, row):   # return dict -> https://stackoverflow.com/a/3300514
+        d = {}
+        for idx, col in enumerate(cursor.description):
+            d[col[0]] = row[idx]
+        return d
+        
+    # construct sql query. Not pretty but worksTM
+    a = 'select * from '
+    b = ' where '
+    c = ' = ?'
+    sql = a + str(table) + b + str(column) + c    # "select * from table where column = ?"
+    args = (search_string,)
+    
+    try:
+        with sqlite3.connect('example.db') as con:
+            con.row_factory = dict_factory
+            cur = con.cursor()
+            cur.execute(sql,args)
+            return_list = cur.fetchall()
+    except sqlite3.Error as e:
+        print(e)
+    return return_list
 ```
