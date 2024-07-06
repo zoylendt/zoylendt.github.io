@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-06-23
+updated: 2024-07-06
 draft: false
 tags:
   - note
@@ -17,7 +17,7 @@ tags:
 - **Warboss** by Mike Brooks (german)
 - **Python - Der Grundkurs** by Michael Kofler (german)
 - **Station Eternity** by Mur Lafferty (english)
-- **Ancillary Sword (Imperial Radch #2)** by Ann Leckie (german)
+- **... (Imperial Radch #3)** by Ann Leckie (german)
 
 ## Manga & Comics
 
