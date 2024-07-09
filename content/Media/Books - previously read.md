@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-06
+updated: 2024-07-09
 draft: false
 tags:
   - note
@@ -48,6 +48,8 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Dead Moon** by Peter Clines (german, audiobook)
 - **Ancillary Sword (Imperial Radch #2)** by Ann Leckie (german)
 - **Artemis** by Andy Weir (german)
+- **Project Hail Mary** by Andy Weir (german)
+- **Antimatter Blues (Mickey 7 #2)** by Edward Ashton (german)
 
 ## 2023
 
