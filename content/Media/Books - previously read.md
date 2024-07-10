@@ -79,9 +79,9 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **American Gods** by Neil Gaiman
 - 
 
-### Previously read Warhammer 40K Books
+### Previously read Warhammer 40K Books (and Audiobooks)
 
-All consumed in german, unle
+All consumed in german, unless noted otherwise.
 
 - **Inkarnation, Wiederkehr & Divination** by John French
 - **Urdesh 2+3** by Matthew Farrer
@@ -97,13 +97,11 @@ All consumed in german, unle
 	- **HH 48 - The Burden of Loyalty (anthology)** by Laurie Goulding (editor)
 	- **HH 39 - Praetorian of Dorn** by John French
 	- **HH 43 - Shattered Legions (anthology)** by Laurie Goulding (editor)
-	- Vorboten des Untergangs
+	- **HH 62 - Heralds of the Siege (anthology)** by Nick Kyme & Laurie Goulding (editors)
 	- **HH 13 - Nemesis** by James Swallow
 - **Der Weg der Orks** by Mike Brooks
 - **Cadias Blut** by Aaron Dembski-Bowden
-- **Legion der Sühne** by Gav Thorpe (?)
 - **Nexus** by VA
-- **Der Schild der Heiligen** by Rachel Harrison (?)
 - **In Treue und Glauben** by Rachel Harrison
 - **Volpones Ruhm** by Nick Kyme
 - **Mensch und Maschine** by Guy Haley
@@ -111,4 +109,9 @@ All consumed in german, unle
 - **Ultramarines 1-3** by Graham McNeill
 - **Titanensturm** by Dan Abnett
 - **Gaunt's Ghosts (all books untill Der Anarch)** by Dan Abnett
+
+Books I'm unsure if I've read them already:
+
 - **Requiem Infernale** by Peter Fehervari
+- **Der Schild der Heiligen** by Rachel Harrison (?)
+- **Legion der Sühne** by Gav Thorpe (?)
