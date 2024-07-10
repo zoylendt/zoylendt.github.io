@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-09
+updated: 2024-07-10
 draft: false
 tags:
   - note
@@ -50,6 +50,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Artemis** by Andy Weir (german)
 - **Project Hail Mary** by Andy Weir (german)
 - **Antimatter Blues (Mickey 7 #2)** by Edward Ashton (german)
+- **Gideon the Ninth (The Locked Tomb #1)** by Tamsyn Muir (german)
 
 ## 2023
 
@@ -80,6 +81,8 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 
 ### Previously read Warhammer 40K Books
 
+All consumed in german, unle
+
 - **Inkarnation, Wiederkehr & Divination** by John French
 - **Urdesh 2+3** by Matthew Farrer
 - **Der Sabbatkrieg** by Dan Abnett
@@ -89,13 +92,13 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Das Helwinter-Tor, Blut von Asaheim** by Chris Wraight
 - **Eisenhorn, Ravenor, Magos & Bequin** by Dan Abnett
 - **Horus Heresy**
-	- Prospero brennt
-	- Tallarn
-	- Die Bürde der Loyalität
-	- Prätorianer des Dorn
-	- Die zerschlagenen Legionen
+	- **HH 15 - Prospero Burns** by Dan Abnett
+	- **HH 45 - Tallarn** by John French
+	- **HH 48 - The Burden of Loyalty (anthology)** by Laurie Goulding (editor)
+	- **HH 39 - Praetorian of Dorn** by John French
+	- **HH 43 - Shattered Legions (anthology)** by Laurie Goulding (editor)
 	- Vorboten des Untergangs
-	- Nemesis
+	- **HH 13 - Nemesis** by James Swallow
 - **Der Weg der Orks** by Mike Brooks
 - **Cadias Blut** by Aaron Dembski-Bowden
 - **Legion der Sühne** by Gav Thorpe (?)
