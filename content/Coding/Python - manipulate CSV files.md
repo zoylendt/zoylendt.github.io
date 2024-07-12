@@ -2,7 +2,7 @@
 title: How to manipulate a CSV file with Python
 date: 2024-06-27
 publishDate: 2024-06-27
-updated: 2024-07-02
+updated: 2024-07-12
 draft: false
 tags:
   - note
