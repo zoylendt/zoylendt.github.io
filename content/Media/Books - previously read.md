@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-10
+updated: 2024-07-14
 draft: false
 tags:
   - note
@@ -17,9 +17,9 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 ## 2024
 
 - **The End and the Death: Volume III** by Dan Abnett (english)
-- **Time Salvager** by Wesley Chu (german)
-- **A Memory Called Empire** by Arkady Martine (german)
-- **A Desolation Called Peace** by Arkady Martine (german)
+- **Time Salvager (Time Salvager #1)** by Wesley Chu (german)
+- **A Memory Called Empire (Teixcalaan #1)** by Arkady Martine (german)
+- **A Desolation Called Peace (Teixcalaan #2)** by Arkady Martine (german)
 - **The Murderbot Diaries 1-7** by Martha Wells (german & english)
 - **Bobiverse 1-4** by Dennis E. Taylor (german)
 - **Git - kurz & gut** by Nina Siessegger (german)
@@ -30,7 +30,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Scholomance 1-3** by Naomi Novik (german)
 - **Three Parts Dead** by Max Gladstone (german)
 - **Ascension** by Nicholas Binge (german)
-- **Mickey 7** by Edward Ashton (german)
+- **Mickey 7 (Mickey 7 #1)** by Edward Ashton (german)
 - **Starter Villain** by John Scalzi (english)
 - **Making Money** by Terry Pratchett (german, abridged audiobook)
 - **Thud!** by Terry Pratchett (german, abridged audiobook)
@@ -51,6 +51,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Project Hail Mary** by Andy Weir (german)
 - **Antimatter Blues (Mickey 7 #2)** by Edward Ashton (german)
 - **Gideon the Ninth (The Locked Tomb #1)** by Tamsyn Muir (german)
+- **Harrow the Ninth (The Locked Tomb #2)** by Tamsyn Muir (german)
 
 ## 2023
 

@@ -2,7 +2,7 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-10
+updated: 2024-07-14
 draft: false
 tags:
   - note
@@ -18,7 +18,7 @@ tags:
 - **Python - Der Grundkurs** by Michael Kofler (german)
 - **Station Eternity** by Mur Lafferty (english)
 - **Ancillary Mercy (Imperial Radch #3)** by Ann Leckie (german)
-- **Harrow the Ninth (The Locked Tomb #2)** by Tamsyn Muir (german)
+
 
 ## Manga & Comics
 
