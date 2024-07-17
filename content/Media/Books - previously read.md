@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-14
+updated: 2024-07-17
 draft: false
 tags:
   - note
@@ -52,6 +52,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Antimatter Blues (Mickey 7 #2)** by Edward Ashton (german)
 - **Gideon the Ninth (The Locked Tomb #1)** by Tamsyn Muir (german)
 - **Harrow the Ninth (The Locked Tomb #2)** by Tamsyn Muir (german)
+- **House of Suns**  by Alastair Reynolds (german)
 
 ## 2023
 
