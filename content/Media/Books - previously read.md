@@ -2,13 +2,20 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-17
+updated: 2024-07-24
 draft: false
 tags:
   - note
   - books
   - reading
 ---
+
+> [!tip] Associated notes
+> The other meta notes about my reading habbits are:
+> - [[Books - antilibrary]]
+> - [[Books - current reading]]
+> - [[Books - favorites]]
+> - [[Books - quotes]]
 
 https://www.goodreads.com/review/list/54071762?shelf=read
  

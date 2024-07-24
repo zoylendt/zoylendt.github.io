@@ -2,14 +2,21 @@
 title: Current Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-17
+updated: 2024-07-24
 draft: false
 tags:
   - note
   - books
   - reading
 ---
- 
+
+> [!tip] Associated notes
+> The other meta notes about my reading habbits are:
+> - [[Books - antilibrary]]
+> - [[Books - favorites]]
+> - [[Books - previously read]]
+> - [[Books - quotes]]
+
 # Current Reading
 
 ## Books & audiobooks
