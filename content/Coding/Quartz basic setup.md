@@ -8,6 +8,7 @@ tags:
   - note
   - quartz
   - github
+  - unfinished
 ---
 
 > [!tip] Associated notes

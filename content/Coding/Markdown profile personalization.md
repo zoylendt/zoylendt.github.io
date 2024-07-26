@@ -2,11 +2,12 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-05-25
+updated: 2024-07-26
 draft: false
 tags:
   - note
   - markdown
+  - unfinished
 ---
 
 Some thoughts about how a markdown profile can be personalized. -> https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme
