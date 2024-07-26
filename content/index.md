@@ -1,7 +1,7 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2024-06-10
+updated: 2024-07-26
 ---
 
 > [!warning]
@@ -9,7 +9,7 @@ updated: 2024-06-10
 
 Hi, welcome to my notes and thoughts :D
 
-Soon after realizing that my previous method, "digitale Zettelwirtschaft", an unsustainable way of organizing my thoughts was, was I searching for an alternative, something with more structure. I chose Quartz for its [native integration](https://quartz.jzhao.xyz/features/Obsidian-compatibility) with Obsidian and its other great [features](https://quartz.jzhao.xyz/#-features), like the incredible fast [search](https://quartz.jzhao.xyz/features/full-text-search) (try `[ctrl]+[k]`), the [popover previews](https://quartz.jzhao.xyz/features/popover-previews) (hover over an [[Booklist|internal link]]) and the [graph view](https://quartz.jzhao.xyz/features/graph-view) (klick the little graph symbol in the Graph View's top right corner). These features make Quartz an ideal choice as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system, a [second brain](https://www.ssp.sh/brain/second-brain) or a ["digital garden"](https://mwalton.me/thoughts/digital-forests), a topic which I haven't explored myself yet.
+Soon after realizing that my previous method, "digitale Zettelwirtschaft", an unsustainable way of organizing my thoughts was, was I searching for an alternative, something with more structure. I chose Quartz for its [native integration](https://quartz.jzhao.xyz/features/Obsidian-compatibility) with Obsidian and its other great [features](https://quartz.jzhao.xyz/#-features), like the incredible fast [search](https://quartz.jzhao.xyz/features/full-text-search) (try `[ctrl]+[k]`), the [popover previews](https://quartz.jzhao.xyz/features/popover-previews) (hover over an [[Books - antilibrary|internal link]]) and the [graph view](https://quartz.jzhao.xyz/features/graph-view) (klick the little graph symbol in the Graph View's top right corner). These features make Quartz an ideal choice as a [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) system, a [second brain](https://www.ssp.sh/brain/second-brain) or a ["digital garden"](https://mwalton.me/thoughts/digital-forests), a topic which I haven't explored myself yet.
 
 By making my notes public I'm forcing myself to write with some coherence in mind, which should help my future self finding stuff. Hopefully it will also improve my english writing skills (most of this blog is in english, but some notes, mainly [[tags/recipe|recipes]], are in [[tags/german|german]]). As a final inspiration, I've come quite often across some tech blogs on the web after googling about how to implement something or resolve a specific, often [[Selfhosted/]] related problem, so I hope this pile of notes may be useful to somebody else someday :D
 
@@ -66,7 +66,7 @@ Here I write about my [[tags/obsidian|Obsidian]] setup and how I use it to deplo
    - [[tags/data_science|Data Science]]
 - 📖 [[Media]]  
 ...
-   - 📄[[Booklist]]
+   - 📄[[Books - favorites|Favorite books]]
    - [[tags/review|Book Reviews]]
    - [[tags/scifi|SciFi]]
 - ⚛ [[Physics]]  

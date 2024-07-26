@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-24
+updated: 2024-07-26
 draft: false
 tags:
   - note
@@ -11,11 +11,11 @@ tags:
 ---
 
 > [!tip] Associated notes
-> The other meta notes about my reading habbits are:
-> - [[Books - current reading]]
-> - [[Books - favorites]]
-> - [[Books - previously read]]
-> - [[Books - quotes]]
+> The other meta notes about my reading habits are:
+> - [[Books - currently reading|Currently reading]]
+> - [[Books - favorites|Favorite books]]
+> - [[Books - previously read|Previously read books]]
+> - [[Books - quotes|Book quotes]]
 
 > What is an [antilibrary](https://nesslabs.com/antilibrary)? To put it simply, an antilibrary is a private collection of unread books. Instead of a celebration of everything you know, an antilibrary is an ode to everything you want to explore.  
 > Inspired by [this page](https://jzhao.zyx/books).

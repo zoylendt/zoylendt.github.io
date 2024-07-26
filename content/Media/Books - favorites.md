@@ -2,7 +2,7 @@
 title: Favorite books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-24
+updated: 2024-07-26
 draft: false
 tags:
   - note
@@ -13,11 +13,11 @@ tags:
 ![[Chatterton.jpg]]
 
 > [!tip] Associated notes
-> The other meta notes about my reading habbits are:
-> - [[Books - antilibrary]]
-> - [[Books - current reading]]
-> - [[Books - previously read]]
-> - [[Books - quotes]]
+> The other meta notes about my reading habits are:
+> - [[Books - antilibrary|Antilibrary]]
+> - [[Books - currently reading|Currently reading]]
+> - [[Books - previously read|Previously read books]]
+> - [[Books - quotes|Book quotes]]
 
 A list of my all time favorite books :)
 
