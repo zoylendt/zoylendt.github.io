@@ -2,12 +2,12 @@
 title: 
 date: 2024-05-22
 publishDate: 2024-05-22
-updated: 2024-06-02
+updated: 2024-07-26
 draft: false
 tags:
   - note
   - obsidian
-  - github
+  - git
   - unfinished
 ---
  

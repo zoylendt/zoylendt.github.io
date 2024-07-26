@@ -2,11 +2,11 @@
 title: 
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-05-21
+updated: 2024-07-26
 draft: false
 tags:
   - note
-  - github
+  - git
 ---
 
 ![[Pasted image 20240521181601.png]]

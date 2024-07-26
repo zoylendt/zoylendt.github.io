@@ -3,13 +3,12 @@ title: My Own Quartz Config Files
 description: 
 date: 2024-05-12
 publishDate: 2024-05-12
-updated: 2024-05-22
+updated: 2024-07-26
 draft: false
 tags:
   - note
   - quartz
   - git
-  - github
 ---
 
 > [!tip] Associated notes
