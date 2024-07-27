@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-26
+updated: 2024-07-27
 draft: false
 tags:
   - note
@@ -132,6 +132,15 @@ A list of physical books I own but haven't read yet:
 - **Fürchte den Xenos** by Christian Dunn 
 - **Lupercal's War** by VA
 - ...
+- **Flesh and Iron** by Henry Zou (german)
+- **Salamander** by Nick Kyme (german)
+- **Crusade & Other Stories** by VA (german)
+- **Ragnar BBlackmane, Arjac Rockfist** by Aaron Dembski-Bowden & Ben Counter (german)
+- **Grim Repast** by Marc Collins (german)
+- **Blackstone Fortress** by Darius Hinks (german)
+- **Traitor Rock** by Justin D Hill (german)
+- **The Wicked and the Damned** by Josh Reynolds, Phil Kelly & David Annandale (german)
+- 
 
 # Comic & Manga
 
