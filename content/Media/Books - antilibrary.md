@@ -128,10 +128,9 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 
 A list of physical books I own but haven't read yet:
 
-- **Assasinorum** by Robert Rath
-- **Fürchte den Xenos** by Christian Dunn 
+- **Assasinorum** by Robert Rath (german)
+- **Fear the Alien** by Christian Dunn & VA (german)
 - **Lupercal's War** by VA
-- ...
 - **Flesh and Iron** by Henry Zou (german)
 - **Salamander** by Nick Kyme (german)
 - **Crusade & Other Stories** by VA (german)
@@ -140,7 +139,10 @@ A list of physical books I own but haven't read yet:
 - **Blackstone Fortress** by Darius Hinks (german)
 - **Traitor Rock** by Justin D Hill (german)
 - **The Wicked and the Damned** by Josh Reynolds, Phil Kelly & David Annandale (german)
-- 
+- **Born of Flame** by Nick Kyme (german)
+- **Valdor: Birth of the Imperium** by Chris Wraight (german)
+- **Hunt for Voldorius** by Andy Hoare (german)
+- **The Purge of Kadillus** by Gav Thorpe (german)
 
 # Comic & Manga
 
