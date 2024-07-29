@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-28
+updated: 2024-07-29
 draft: false
 tags:
   - note
@@ -93,6 +93,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
 - **Dark Side (Sam Dryden #3)** by Patrick Lee
 - **Heart-Shaped Box** by Joe Hill
+- https://www.reddit.com/r/printSF/comments/a0248u/sci_fi_short_stories_or_short_story_collections/
 
 
 ## Not yet released
@@ -149,7 +150,7 @@ A list of physical books I own but haven't read yet:
 - Junji Ito
 - Comic books by Simon Stålenhag
 	- **Tales from the Loop**
-	  **Things from the Flood**
+	- **Things from the Flood**
 	- **The Electric State**
 - ...
 
