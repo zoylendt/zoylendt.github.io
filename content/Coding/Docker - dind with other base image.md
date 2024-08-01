@@ -28,6 +28,7 @@ The 'docker:dind' image needs to be run privileged to run containers within it
 - general guides: 
 	- [...](https://shisho.dev/blog/posts/docker-in-docker/)
 	- [...](https://devopscube.com/run-docker-in-docker/)
+	- [socket/dind/sysbox](https://kodekloud.com/blog/run-docker-in-docker-container/#3-using-nestybox-sysbox-runtime)
 	- 
 - [...](https://engineering.99x.io/docker-in-docker-dind-41df61550b6f)
 
@@ -39,4 +40,11 @@ The 'docker:dind' image needs to be run privileged to run containers within it
 	- [pre-pull image into main image while building it](https://stackoverflow.com/questions/58749344/pre-pull-images-in-docker-in-docker-dind)
 	- [ubuntu-based image](https://github.com/cruizba/ubuntu-dind) (up-to-date, informative, with notes about running with sysbox instead of privileged)
 	- [notes about composer integration](https://forum.gitlab.com/t/how-can-i-use-dind-inside-an-image-that-im-building/51830)
-	- 
+	- [questionable, short Medium guide](https://engineering.99x.io/docker-in-docker-dind-41df61550b6f)
+
+# General docker notes
+
+- devopscycle.com
+	- [Cheat Sheet](https://devopscycle.com/blog/the-ultimate-docker-cheat-sheet/) incl. Dockerfile guide
+	- [Docker Compose cheat sheet](https://devopscycle.com/blog/the-ultimate-docker-compose-cheat-sheet/) incl YAML guide
+	- [Base image considerations](https://devopscycle.com/blog/how-do-you-choose-a-docker-base-image/)
