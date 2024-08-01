@@ -13,6 +13,10 @@ tags:
 The goal of this guide is to show how to run DockerInDocker ("dind) within another base image. 
 I've run into this problem because I've wanted to run docker images within a container controlled by [python](https://github.com/docker/docker-py).
 
+Alternative Ideas:
+- 
+- run 'docker:dind' alongside the main container and send commands to it
+
 # Notes about default dind image
 
 The 'docker:dind' image needs to be run privileged to run containers within it
