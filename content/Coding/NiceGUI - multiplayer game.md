@@ -55,5 +55,5 @@ Desired functions:
 # Ideas 
 
 - save data in feather files -> https://pandas.pydata.org/docs/reference/api/pandas.read_feather.html
-- [STARTING POINT](https://www.reddit.com/r/nicegui/comments/1cu56j4/comment/l4hvww3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [STARTING POINT](https://www.reddit.com/r/nicegui/comments/1cu56j4/comment/l4hvww3/)
 - 
