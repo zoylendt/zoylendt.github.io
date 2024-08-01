@@ -47,6 +47,10 @@ Desired functions:
 		- [pinger](https://github.com/dyipon/pinger/blob/main/Dockerfile)
 		- [beaverhabits](https://github.com/daya0576/beaverhabits/blob/main/Dockerfile) (uses uvicorn server instead of NiceGUI directly)
 
+# NiceGUI tips
+- import & reference local files: [GH issue](https://github.com/zauberzeug/nicegui/issues/869#issuecomment-1529608750)
+- manage game logic: [reddit](https://www.reddit.com/r/nicegui/comments/1cu56j4/state_management/)
+
 # Ideas 
 
 - save data in feather files -> https://pandas.pydata.org/docs/reference/api/pandas.read_feather.html
