@@ -14,8 +14,11 @@ tags:
 
 Create a (dockerized) implementation of the 'Dominion' base game with NiceGUI.
 Desired functions:
-	- [ ] single page
-	- [ ] no login requir
+	- [ ] single page (to simplify)
+	- [ ] no login required, dynamic player assignment
+	- [ ] text chat
+	- [ ] music
+	- [ ] 
 
 # Resources
 
