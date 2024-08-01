@@ -12,7 +12,10 @@ tags:
  
 # Goal
 
-...
+Create a (dockerized) implementation of the 'Dominion' base game with NiceGUI.
+Desired functions:
+	- [ ] single page
+	- [ ] no login requir
 
 # Resources
 
