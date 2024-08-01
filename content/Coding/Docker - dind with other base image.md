@@ -17,7 +17,7 @@ Alternative Ideas:
 - access the host docker installation from within the main container (by bind-mounting the host docker socket into the main container)
 - run 'docker:dind' alongside the main container and send commands to it -> makes setup more complicated compared to monolithic approach
 	- [reddit](https://www.reddit.com/r/docker/comments/12vsf4a/what_is_the_preferred_way_to_send_a_command_from/)
-- 
+- only run the 'docker:dind' image and load
 
 # Notes about default dind image
 
