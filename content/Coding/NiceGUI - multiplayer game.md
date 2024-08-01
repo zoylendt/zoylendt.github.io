@@ -12,12 +12,13 @@ tags:
  
 # Goal
 
-Create a (dockerized) implementation of the 'Dominion' base game with NiceGUI.
+Create a (dockerized) implementation of the '[Dominion](https://cdn.1j1ju.com/medias/59/e6/c2-dominion-rulebook.pdf)' base game with NiceGUI.
 Desired functions:
 	- [ ] single page (to simplify) - > maybe like [this](https://github.com/zauberzeug/nicegui/tree/main/examples/single_page_app)?
 	- [ ] no login required, dynamic player assignment based on ip
 	- [ ] text chat
 	- [ ] background music
+	- [ ] use [fastAPI websockets](https://fastapi.tiangolo.com/advanced/websockets/)?
 
 # Resources
 
@@ -28,12 +29,13 @@ Desired functions:
 	- [Audio](https://nicegui.io/documentation/audio)
 - SQLite: 
 	- GitHub: 
-		- [Sqlite for AsyncIO](https://github.com/omnilib/aiosqlite)
+		- [Sqlite for AsyncIO](https://github.com/omnilib/aiosqlite) -> [Documentation](https://aiosqlite.omnilib.dev/en/stable/)
 		- [sqlitedict](https://github.com/piskvorky/sqlitedict)
 	- YouTube: [NiceGUI Tutorial - Create CRUD Sqlite Database](https://www.youtube.com/watch?v=n2Z0pflkZQU)
 	- Reddit: [database connectors for NiceGUI](https://www.reddit.com/r/nicegui/comments/11roz3a/database_connectors_for_nicegui/) -> [App](https://github.com/LucasCarman/ShoppingList/blob/main/main.py)
+	- [Medium: Store RealTime Data into SQLite3, using Python / Asyncio and Binance Websocket](https://medium.com/@euricopaes/store-realtime-data-into-sqlite3-using-python-asyncio-and-binance-websocket-c2ea8d3f11f8)
 - Other NiceGUI apps/examples:
-	- [Multi-User Chat App](https://gist.github.com/rodja/2e891556a1a2c2af4ee542e03003ea1a)
+	- [Multi-User Chat App](https://gist.github.com/rodja/2e891556a1a2c2af4ee542e03003ea1a) -> possible starting point
 	- List: [Community Projects](https://github.com/zauberzeug/nicegui/wiki#community-projects)
 	- List: Official examples [GitHub](https://github.com/zauberzeug/nicegui/tree/main/examples), [Website](https://nicegui.io/#examples)
 	- [Scoreborad](https://github.com/bdaene/Scoreboard) (with tortoise)
