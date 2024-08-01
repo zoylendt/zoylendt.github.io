@@ -32,4 +32,5 @@ The 'docker:dind' image needs to be run privileged to run containers within it
 	- [...](https://stackoverflow.com/questions/76667955/how-to-add-docker-dind-to-an-image-with-a-base)
 	- [...](https://stackoverflow.com/questions/38602212/non-alpine-dind-docker-image)
 	- [pre-pull image into main image while building it](https://stackoverflow.com/questions/58749344/pre-pull-images-in-docker-in-docker-dind)
+	- [ubuntu-based image](https://github.com/cruizba/ubuntu-dind) (up-to-date, informative, with notes about running with sysbox instead of privileged)
 	- 
