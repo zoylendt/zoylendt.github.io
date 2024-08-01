@@ -19,6 +19,7 @@ Desired functions:
 	- [ ] text chat
 	- [ ] background music
 	- [ ] use [fastAPI websockets](https://fastapi.tiangolo.com/advanced/websockets/)?
+	- [ ] deploy on [fly.io](https://github.com/zauberzeug/nicegui/wiki/fly.io-Deployment)
 
 # Resources
 
@@ -40,7 +41,7 @@ Desired functions:
 	- List: Official examples [GitHub](https://github.com/zauberzeug/nicegui/tree/main/examples), [Website](https://nicegui.io/#examples)
 	- [Scoreborad](https://github.com/bdaene/Scoreboard) (with tortoise)
 - Dockerize a NiceGUI app:
-	- [simple example](https://github.com/zauberzeug/nicegui/wiki/Cloud-Run-Deployment#step-2-dockerize-app) (run on CloudRun)
+	- [simple example](https://github.com/zauberzeug/nicegui/wiki/Cloud-Run-Deployment#step-2-dockerize-app) (run on CloudRun, alternative:[fly.io](https://github.com/zauberzeug/nicegui/wiki/fly.io-Deployment))
 	- Example dockerized apps:
 		- [Slaanesh](https://github.com/h-quer/Slaanesh/blob/main/Dockerfile) (interesting python structure, stores data in [feather](https://arrow.apache.org/docs/python/feather.html) files)
 		- [hush](https://github.com/natankeddem/hush/blob/main/Dockerfile)
@@ -54,4 +55,5 @@ Desired functions:
 # Ideas 
 
 - save data in feather files -> https://pandas.pydata.org/docs/reference/api/pandas.read_feather.html
+- [STARTING POINT](https://www.reddit.com/r/nicegui/comments/1cu56j4/comment/l4hvww3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - 
