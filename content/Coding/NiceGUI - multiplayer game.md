@@ -28,6 +28,9 @@ tags:
 		- [sqlitedict](https://github.com/piskvorky/sqlitedict)
 	- YouTube: [NiceGUI Tutorial - Create CRUD Sqlite Database](https://www.youtube.com/watch?v=n2Z0pflkZQU)
 	- Reddit: [database connectors for NiceGUI](https://www.reddit.com/r/nicegui/comments/11roz3a/database_connectors_for_nicegui/) -> [App](https://github.com/LucasCarman/ShoppingList/blob/main/main.py)
-- Other NiceGUI apps:
+- Other NiceGUI apps/examples:
 	- List: [Community Projects](https://github.com/zauberzeug/nicegui/wiki#community-projects)
+	- List: Official examples [GitHub](https://github.com/zauberzeug/nicegui/tree/main/examples), [Website](https://nicegui.io/#examples)
 	- [Scoreborad](https://github.com/bdaene/Scoreboard) (with tortoise)
+- Dockerize a NiceGUI app:
+	- [simple example](https://github.com/zauberzeug/nicegui/wiki/Cloud-Run-Deployment#step-2-dockerize-app) (run on CloudRun)
