@@ -34,3 +34,8 @@ tags:
 	- [Scoreborad](https://github.com/bdaene/Scoreboard) (with tortoise)
 - Dockerize a NiceGUI app:
 	- [simple example](https://github.com/zauberzeug/nicegui/wiki/Cloud-Run-Deployment#step-2-dockerize-app) (run on CloudRun)
+	- Example Apps:
+		- [Slaanesh](https://github.com/h-quer/Slaanesh/blob/main/Dockerfile)
+		- [hush](https://github.com/natankeddem/hush/blob/main/Dockerfile)
+		- [pinger](https://github.com/dyipon/pinger/blob/main/Dockerfile)
+		- [beaverhabits](https://github.com/daya0576/beaverhabits/blob/main/Dockerfile) (uses uvicorn server )
