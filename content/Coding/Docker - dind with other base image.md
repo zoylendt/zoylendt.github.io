@@ -10,4 +10,8 @@ tags:
   - docker
 ---
  
-markdown content :)
+The goal of this guide is to show how to run DockerInDocker ("dind) within another base image. 
+
+# Notes about default dind image
+
+- 
