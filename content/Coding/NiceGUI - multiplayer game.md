@@ -14,14 +14,13 @@ tags:
 
 Create a (dockerized) implementation of the 'Dominion' base game with NiceGUI.
 Desired functions:
-	- [ ] single page (to simplify)
+	- [ ] single page (to simplify) - > maybe like [this](https://github.com/zauberzeug/nicegui/tree/main/examples/single_page_app)?
 	- [ ] no login required, dynamic player assignment based on ip
 	- [ ] text chat
 	- [ ] background music
 
 # Resources
 
-- [Multi-User Chat App](https://gist.github.com/rodja/2e891556a1a2c2af4ee542e03003ea1a)
 - NiceGUI Documentation: 
 	- [Pages & Routing](https://nicegui.io/documentation/section_pages_routing)
 	- [Storage](https://nicegui.io/documentation/storage)
@@ -34,12 +33,13 @@ Desired functions:
 	- YouTube: [NiceGUI Tutorial - Create CRUD Sqlite Database](https://www.youtube.com/watch?v=n2Z0pflkZQU)
 	- Reddit: [database connectors for NiceGUI](https://www.reddit.com/r/nicegui/comments/11roz3a/database_connectors_for_nicegui/) -> [App](https://github.com/LucasCarman/ShoppingList/blob/main/main.py)
 - Other NiceGUI apps/examples:
+	- [Multi-User Chat App](https://gist.github.com/rodja/2e891556a1a2c2af4ee542e03003ea1a)
 	- List: [Community Projects](https://github.com/zauberzeug/nicegui/wiki#community-projects)
 	- List: Official examples [GitHub](https://github.com/zauberzeug/nicegui/tree/main/examples), [Website](https://nicegui.io/#examples)
 	- [Scoreborad](https://github.com/bdaene/Scoreboard) (with tortoise)
 - Dockerize a NiceGUI app:
 	- [simple example](https://github.com/zauberzeug/nicegui/wiki/Cloud-Run-Deployment#step-2-dockerize-app) (run on CloudRun)
-	- Example Apps:
+	- Example dockerized apps:
 		- [Slaanesh](https://github.com/h-quer/Slaanesh/blob/main/Dockerfile) (interesting python structure, stores data in [feather](https://arrow.apache.org/docs/python/feather.html) files)
 		- [hush](https://github.com/natankeddem/hush/blob/main/Dockerfile)
 		- [pinger](https://github.com/dyipon/pinger/blob/main/Dockerfile)
