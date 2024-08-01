@@ -2,7 +2,7 @@
 title: Building a multiplayer game with NiceGUI
 date: 2024-08-01
 publishDate: 2024-08-01
-updated: 2024-08-01
+updated: 2024-08-02
 draft: true
 tags:
   - note
@@ -13,6 +13,11 @@ tags:
 # Goal
 
 Create a (dockerized) implementation of the '[Dominion](https://cdn.1j1ju.com/medias/59/e6/c2-dominion-rulebook.pdf)' base game with NiceGUI.
+
+
+The game logic can be managed by [pyminion](https://github.com/evanofslack/pyminion):
+	- API is mentioned on 
+
 Desired functions:
 	- [ ] single page (to simplify) - > maybe like [this](https://github.com/zauberzeug/nicegui/tree/main/examples/single_page_app)?
 	- [ ] no login required, dynamic player assignment based on ip
