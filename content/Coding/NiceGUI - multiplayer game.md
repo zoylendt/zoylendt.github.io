@@ -23,9 +23,9 @@ Desired functions:
 
 - NiceGUI Documentation: 
 	- [Pages & Routing](https://nicegui.io/documentation/section_pages_routing)
+		- Very important: [ui.page](https://nicegui.io/documentation/page#page)
 	- [Storage](https://nicegui.io/documentation/storage)
 	- [Audio](https://nicegui.io/documentation/audio)
-	- Very important: [ui.page](https://nicegui.io/documentation/page#page)
 - SQLite: 
 	- GitHub: 
 		- [Sqlite for AsyncIO](https://github.com/omnilib/aiosqlite)
