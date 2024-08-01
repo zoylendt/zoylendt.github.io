@@ -35,7 +35,7 @@ tags:
 - Dockerize a NiceGUI app:
 	- [simple example](https://github.com/zauberzeug/nicegui/wiki/Cloud-Run-Deployment#step-2-dockerize-app) (run on CloudRun)
 	- Example Apps:
-		- [Slaanesh](https://github.com/h-quer/Slaanesh/blob/main/Dockerfile)
+		- [Slaanesh](https://github.com/h-quer/Slaanesh/blob/main/Dockerfile) (interesting python structure)
 		- [hush](https://github.com/natankeddem/hush/blob/main/Dockerfile)
 		- [pinger](https://github.com/dyipon/pinger/blob/main/Dockerfile)
 		- [beaverhabits](https://github.com/daya0576/beaverhabits/blob/main/Dockerfile) (uses uvicorn server instead of NiceGUI directly)
