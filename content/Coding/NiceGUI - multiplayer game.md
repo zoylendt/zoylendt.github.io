@@ -16,7 +16,8 @@ Create a (dockerized) implementation of the '[Dominion](https://cdn.1j1ju.com/me
 
 
 The game logic can be managed by [pyminion](https://github.com/evanofslack/pyminion):
-	- API is mentioned on 
+	- API is mentioned in README.md, but without documentation
+	- maybe run the game in a separate thread (with 'import threading')?
 
 Desired functions:
 	- [ ] single page (to simplify) - > maybe like [this](https://github.com/zauberzeug/nicegui/tree/main/examples/single_page_app)?
