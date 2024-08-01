@@ -24,7 +24,11 @@ The 'docker:dind' image needs to be run privileged to run containers within it
 
 - [Medium-Guide](https://medium.com/@gopesh3652/running-docker-in-docker-dind-a-comprehensive-guide-1fe2e328020)
 - [6y-old blog post](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/) -> [image](https://hub.docker.com/r/jpetazzo/dind)
-- 
+- general guides: 
+	- [...](https://shisho.dev/blog/posts/docker-in-docker/)
+	- [...](https://devopscube.com/run-docker-in-docker/)
+	- 
+- [...](https://engineering.99x.io/docker-in-docker-dind-41df61550b6f)
 
 # Notes about adding dind to another base image
 
@@ -33,4 +37,5 @@ The 'docker:dind' image needs to be run privileged to run containers within it
 	- [...](https://stackoverflow.com/questions/38602212/non-alpine-dind-docker-image)
 	- [pre-pull image into main image while building it](https://stackoverflow.com/questions/58749344/pre-pull-images-in-docker-in-docker-dind)
 	- [ubuntu-based image](https://github.com/cruizba/ubuntu-dind) (up-to-date, informative, with notes about running with sysbox instead of privileged)
+	- [notes about composer integration](https://forum.gitlab.com/t/how-can-i-use-dind-inside-an-image-that-im-building/51830)
 	- 
