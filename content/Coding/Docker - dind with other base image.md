@@ -2,7 +2,7 @@
 title: Run DockerInDocker within another base image
 date: 2024-08-01
 publishDate: 2024-08-01
-updated: 2024-08-01
+updated: 2024-08-02
 draft: true
 tags:
   - note
@@ -24,7 +24,7 @@ Alternative Ideas:
 The 'docker:dind' image needs to be run privileged to run containers within it
 
 - [Medium-Guide](https://medium.com/@gopesh3652/running-docker-in-docker-dind-a-comprehensive-guide-1fe2e328020)
-- [6y-old blog post](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/) -> [image](https://hub.docker.com/r/jpetazzo/dind)
+- [important!](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/) -> [image](https://hub.docker.com/r/jpetazzo/dind)
 - general guides: 
 	- [...](https://shisho.dev/blog/posts/docker-in-docker/)
 	- [...](https://devopscube.com/run-docker-in-docker/)
