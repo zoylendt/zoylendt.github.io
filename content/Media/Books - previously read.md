@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-26
+updated: 2024-08-05
 draft: false
 tags:
   - note
@@ -60,6 +60,8 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Gideon the Ninth (The Locked Tomb #1)** by Tamsyn Muir (german)
 - **Harrow the Ninth (The Locked Tomb #2)** by Tamsyn Muir (german)
 - **House of Suns**  by Alastair Reynolds (german)
+- **Nona the Ninth (The Locked Tomb #3)** by Tamsyn Muir (english)
+- **Warboss** by Mike Brooks (german)
 
 ## 2023
 

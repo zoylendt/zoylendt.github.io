@@ -2,7 +2,7 @@
 title: Currently Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-26
+updated: 2024-08-05
 draft: false
 tags:
   - note
@@ -21,11 +21,10 @@ tags:
 
 ## Books & audiobooks
 
-- **Warboss** by Mike Brooks (german)
 - **Python - Der Grundkurs** by Michael Kofler (german)
 - **Station Eternity** by Mur Lafferty (english)
 - **Ancillary Mercy (Imperial Radch #3)** by Ann Leckie (german)
-- **Nona the Ninth (The Locked Tomb #3)** by Tamsyn Muir (english)
+
 
 ## Manga & Comics
 
