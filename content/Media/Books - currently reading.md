@@ -24,6 +24,7 @@ tags:
 - **Python - Der Grundkurs** by Michael Kofler (german)
 - **Station Eternity** by Mur Lafferty (english)
 - **Ancillary Mercy (Imperial Radch #3)** by Ann Leckie (german)
+- **Spinning Silver** by Naomi Novik (german)
 
 
 ## Manga & Comics
