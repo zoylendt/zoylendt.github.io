@@ -1,0 +1,16 @@
+---
+title: 
+date: 2024-08-06
+publishDate: 2024-08-06
+updated: 2024-08-06
+draft: true
+tags:
+  - note
+  - unfinished
+---
+ 
+Notes about building a Nixie clock.
+
+# My equipment
+
+- 
