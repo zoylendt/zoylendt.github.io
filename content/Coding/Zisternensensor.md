@@ -27,7 +27,9 @@ tags:
 
 # Introduction
 
-...
+(Motivation)
+
+This project follows 
 
 # Required hardware (example)
 
@@ -43,8 +45,13 @@ tags:
 
 # Code
 
-Line 59 & 60: Enter your WiFi credentials
-Line 63 & 64: 
+I have adapted the [original code](https://github.com/MakeMagazinDE/Zisternensensor/blob/main/Fuellstandsmesser/Fuellstandsmesser.ino) to my needs:
+	Line 59 & 60: Enter your WiFi credentials
+	Line 63 & 64: Enter base area (in cm^2) and maximum fill level (in mm) of your cistern.
+	Line 263-274: 
+		- switched from `client.print()` to `client.println()`
+		- added lines 263-265 to add a proper html code (-> explain!)
+		- added custom HTML tags (`<zs-h>, <zs-v>, <zs-p>`) to lines 271-273 to make web scraping the results easier
 
 ```ts {59,60,63,64,263-274} title="Arduino code"
 /*
