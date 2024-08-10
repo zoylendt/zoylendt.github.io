@@ -1,13 +1,13 @@
 ---
-title: 
+title: Cistern level sensor
 date: 2024-06-04
 publishDate: 2024-06-04
-updated: 2024-06-04
+updated: 2024-08-10
 draft: true
 tags:
   - note
   - unfinished
-  - german
+  - arduino
 ---
  
 - https://www.heise.de/select/make/2021/6/softlinks/x6mc?wt_mc=pred.red.make.make062021.074.softlink.softlink
