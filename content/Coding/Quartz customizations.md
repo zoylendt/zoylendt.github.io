@@ -1,7 +1,7 @@
 ---
 title: Customize your Quartz instance
 date: 2024-02-07
-updated: 2024-05-22
+updated: 2024-08-10
 publishDate: 2024-02-07
 draft: false
 tags:

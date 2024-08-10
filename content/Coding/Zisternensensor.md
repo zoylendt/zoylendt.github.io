@@ -8,6 +8,7 @@ tags:
   - note
   - unfinished
   - arduino
+  - homeassistant
 ---
  
 - https://www.heise.de/select/make/2021/6/softlinks/x6mc?wt_mc=pred.red.make.make062021.074.softlink.softlink
@@ -41,6 +42,19 @@ tags:
 ...
 
 # Code
+
+```ts {5-7} title="quartz.config.ts"
+  theme: {
+    fontOrigin: "googleFonts",
+    cdnCaching: true,
+    typography: {
+      header: "Sedan SC",
+      body: "Lexend",
+      code: "JetBrains Mono",
+    },
+```
+
+# HomeAssistant integration
 
 ...
 
