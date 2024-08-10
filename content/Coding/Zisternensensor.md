@@ -27,9 +27,9 @@ tags:
 
 # Introduction
 
-(Motivation)
+(motivation)
 
-This project follows 
+This project follows mainly [this guide from the german MAKE magazine](https://www.heise.de/select/make/2021/6/2125307172628359231) (see [here](https://github.com/MakeMagazinDE/Zisternensensor/tree/main) for the projects GitHub repo), with some software tweaks to simplify the HomeAssistant integration.
 
 # Required hardware (example)
 
@@ -45,13 +45,20 @@ This project follows
 
 # Code
 
-I have adapted the [original code](https://github.com/MakeMagazinDE/Zisternensensor/blob/main/Fuellstandsmesser/Fuellstandsmesser.ino) to my needs:
-	Line 59 & 60: Enter your WiFi credentials
-	Line 63 & 64: Enter base area (in cm^2) and maximum fill level (in mm) of your cistern.
-	Line 263-274: 
-		- switched from `client.print()` to `client.println()`
-		- added lines 263-265 to add a proper html code (-> explain!)
-		- added custom HTML tags (`<zs-h>, <zs-v>, <zs-p>`) to lines 271-273 to make web scraping the results easier
+The [original code](https://github.com/MakeMagazinDE/Zisternensensor/blob/main/Fuellstandsmesser/Fuellstandsmesser.ino) is hosted on GitHub.
+
+## Problems with original code
+
+...
+
+## My code
+
+Line 59 & 60: Enter your WiFi credentials
+Line 63 & 64: Enter base area (in cm^2) and maximum fill level (in mm) of your cistern.
+Line 263-274: 
+	- switched from `client.print()` to `client.println()`
+	- added lines 263-265 to add a proper html code (-> explain!)
+	- added custom HTML tags (`<zs-h>, <zs-v>, <zs-p>`) to lines 271-273 to make web scraping the results easier
 
 ```ts {59,60,63,64,263-274} title="Arduino code"
 /*
