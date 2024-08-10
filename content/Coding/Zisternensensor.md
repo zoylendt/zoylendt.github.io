@@ -24,6 +24,10 @@ tags:
 
 ---
 
+# Introduction
+
+...
+
 # Required hardware (example)
 
 - blood pressure monitor [Amazon.de, ~25€](https://www.amazon.de/gp/product/B008KWO3Q2/)
@@ -31,3 +35,15 @@ tags:
 - NodeMCU DevKit [Amazon.de, ~10€](https://www.amazon.de/gp/product/B07ZCMZW9Q/)
 - housing shell, similar to [this](https://www.amazon.de/FAMATEL-Wasserdichte-Abzweigdose-Hologenfrei-Schlagfestigkeit/dp/B00KB92314/)
 - a tube that connects the cistern's lowest point to the cellar where the device is placed
+
+# Wiring
+
+...
+
+# Code
+
+...
+
+# Resources
+
+...
