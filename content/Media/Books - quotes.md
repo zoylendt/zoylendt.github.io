@@ -2,7 +2,7 @@
 title: Book quotes
 date: 2024-07-26
 publishDate: 2024-07-26
-updated: 2024-07-26
+updated: 2024-08-10
 draft: true
 tags:
   - note
@@ -18,4 +18,7 @@ tags:
 > - [[Books - favorites|Favorite books]]
 > - [[Books - previously read|Previously read books]]
 
-markdown content :)
+---
+
+> [!quote] Associated notes
+> The ot

@@ -21,3 +21,11 @@ tags:
 
 
 ![[https://www.electronicshub.org/wp-content/uploads/2021/02/NodeMCU-Pinout-Image.jpg]]
+
+---
+
+# Required hardware (example)
+
+- blood pressure monitor [Amazon.de, ~25€](https://www.amazon.de/gp/product/B008KWO3Q2/)
+- SparkFun MicroPressure sensor [Amazon.de, ~23€](https://www.amazon.de/gp/product/B08DG8Q18H/)
+- 
