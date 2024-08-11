@@ -43,6 +43,9 @@ This project follows mainly [this guide from the german MAKE magazine](https://w
 
 ...
 
+> [!warning]
+> The "Doit L293D WiFi Motor Drive Board" might have switched §V§ and GND rows in some revisions
+
 # Code
 
 The [original code](https://github.com/MakeMagazinDE/Zisternensensor/blob/main/Fuellstandsmesser/Fuellstandsmesser.ino) is available on GitHub.
