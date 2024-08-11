@@ -43,7 +43,8 @@ This project follows mainly [this guide from the german MAKE magazine](https://w
 
 I followed the suggested wiring:
 
-...
+![[zisterne_wiring.png]]
+_Take note how the pressure sensor is connected! Best: check with a continuity tester to verify that GND is actually GND._
 
 > [!warning]
 > The "Doit L293D WiFi Motor Drive Board" might have switched 3V3 and GND rows in some revisions, take care while wiring or you might destroy your pressure sensor!
@@ -59,7 +60,7 @@ I noticed that I could only connect to the Arduino's webserver with a desktop PC
 ```python
 ConnectionError: ('Connection aborted.', BadStatusLine("'...'",))
 ```
-where `...` was the HTML content of the URL. After some tinkering I deducted that a missing HTML status code was the culprit.
+where `...` was the HTML content of the URL. After some tinkering I concluded that a missing HTML status code was the culprit.
 
 ## My code
 
