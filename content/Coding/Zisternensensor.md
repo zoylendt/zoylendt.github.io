@@ -62,6 +62,8 @@ ConnectionError: ('Connection aborted.', BadStatusLine("'...'",))
 ```
 where `...` was the HTML content of the URL. After some tinkering I concluded that a missing HTML status code was the culprit.
 
+Also, the OTA update never worked for me, it always failed with the message `[ERROR]: No response from device`.
+
 ## My code
 
 Line 59 & 60: Enter your WiFi credentials.
