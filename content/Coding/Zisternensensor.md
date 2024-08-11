@@ -36,7 +36,7 @@ This project follows mainly [this guide from the german MAKE magazine](https://w
 - blood pressure monitor [Amazon.de, ~25€](https://www.amazon.de/gp/product/B008KWO3Q2/)
 - SparkFun MicroPressure sensor [Amazon.de, ~23€](https://www.amazon.de/gp/product/B08DG8Q18H/)
 - NodeMCU DevKit with "Doit L293D WiFi Motor Drive Board" and ESP8266 [Amazon.de, ~10€](https://www.amazon.de/gp/product/B07ZCMZW9Q/)
-- housing shell, similar to [this](https://www.amazon.de/FAMATEL-Wasserdichte-Abzweigdose-Hologenfrei-Schlagfestigkeit/dp/B00KB92314/)
+- housing shell, similar to [this](https://www.amazon.de/FAMATEL-Wasserdichte-Abzweigdose-Hologenfrei-Schlagfestigkeit/dp/B00KB92314/) (or the shell of the blood pressure monitor)
 - a tube that connects the cistern's lowest point to the cellar where the device is placed
 
 # Wiring
@@ -46,7 +46,7 @@ I followed the suggested wiring:
 ...
 
 > [!warning]
-> The "Doit L293D WiFi Motor Drive Board" might have switched 3V3 and GND rows in some revisions.
+> The "Doit L293D WiFi Motor Drive Board" might have switched 3V3 and GND rows in some revisions, take care while wiring or you might destroy your pressure sensor!
 > [Here](https://www.studiopieters.nl/nodemcu-v3-l293d-motor-shield/) is a good resource abut its pinout.
 
 # Code
