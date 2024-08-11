@@ -41,6 +41,8 @@ This project follows mainly [this guide from the german MAKE magazine](https://w
 
 # Wiring
 
+I followed the suggested wiring:
+
 ...
 
 > [!warning]
@@ -53,15 +55,19 @@ The [original code](https://github.com/MakeMagazinDE/Zisternensensor/blob/main/F
 
 ## Problems with original code
 
-...
+I noticed that I could only connect to the Arduino's webserver with a desktop PC, not by phone (iOS or Android). In addition it was not possible to scrape information from the webserver, tried it with Python/beautifulsoup and the 'Scraper'-plugin of HomeAssistant. Both methods returned an error while requesting the URL: 
+```python
+ConnectionError: ('Connection aborted.', BadStatusLine("'...'",))
+```
+where `...` was the HTML content of the URL. After some tinkering I deducted that a missing HTML status code was the culprit.
 
 ## My code
 
 Line 59 & 60: Enter your WiFi credentials.
 Line 63 & 64: Enter base area (in cm^2) and maximum fill level (in mm) of your cistern.
 Line 263-274: 
-	- switched from `client.print()` to `client.println()`
-	- added lines 263-265 to return a proper html status code (-> explain!)
+	- switched from `client.print()` to `client.println()` (maybe not necessary)
+	- added lines 263-265 to return a proper HTML status code
 	- added custom HTML tags (`<zs-h>, <zs-v>, <zs-p>`) to lines 271-273 to make web scraping the results easier
 
 ```ts {59,60,63,64,263-274} title="Arduino code"
