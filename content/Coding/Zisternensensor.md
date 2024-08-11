@@ -2,7 +2,7 @@
 title: Cistern level sensor
 date: 2024-06-04
 publishDate: 2024-06-04
-updated: 2024-08-10
+updated: 2024-08-11
 draft: true
 tags:
   - note
@@ -35,7 +35,7 @@ This project follows mainly [this guide from the german MAKE magazine](https://w
 
 - blood pressure monitor [Amazon.de, ~25€](https://www.amazon.de/gp/product/B008KWO3Q2/)
 - SparkFun MicroPressure sensor [Amazon.de, ~23€](https://www.amazon.de/gp/product/B08DG8Q18H/)
-- NodeMCU DevKit [Amazon.de, ~10€](https://www.amazon.de/gp/product/B07ZCMZW9Q/)
+- NodeMCU DevKit with "Doit L293D WiFi Motor Drive Board" and ESP8266 [Amazon.de, ~10€](https://www.amazon.de/gp/product/B07ZCMZW9Q/)
 - housing shell, similar to [this](https://www.amazon.de/FAMATEL-Wasserdichte-Abzweigdose-Hologenfrei-Schlagfestigkeit/dp/B00KB92314/)
 - a tube that connects the cistern's lowest point to the cellar where the device is placed
 
@@ -45,7 +45,7 @@ This project follows mainly [this guide from the german MAKE magazine](https://w
 
 # Code
 
-The [original code](https://github.com/MakeMagazinDE/Zisternensensor/blob/main/Fuellstandsmesser/Fuellstandsmesser.ino) is hosted on GitHub.
+The [original code](https://github.com/MakeMagazinDE/Zisternensensor/blob/main/Fuellstandsmesser/Fuellstandsmesser.ino) is available on GitHub.
 
 ## Problems with original code
 
@@ -53,11 +53,11 @@ The [original code](https://github.com/MakeMagazinDE/Zisternensensor/blob/main/F
 
 ## My code
 
-Line 59 & 60: Enter your WiFi credentials
+Line 59 & 60: Enter your WiFi credentials.
 Line 63 & 64: Enter base area (in cm^2) and maximum fill level (in mm) of your cistern.
 Line 263-274: 
 	- switched from `client.print()` to `client.println()`
-	- added lines 263-265 to add a proper html code (-> explain!)
+	- added lines 263-265 to return a proper html status code (-> explain!)
 	- added custom HTML tags (`<zs-h>, <zs-v>, <zs-p>`) to lines 271-273 to make web scraping the results easier
 
 ```ts {59,60,63,64,263-274} title="Arduino code"
