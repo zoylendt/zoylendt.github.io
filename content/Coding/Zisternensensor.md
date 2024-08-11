@@ -44,7 +44,8 @@ This project follows mainly [this guide from the german MAKE magazine](https://w
 ...
 
 > [!warning]
-> The "Doit L293D WiFi Motor Drive Board" might have switched §V§ and GND rows in some revisions
+> The "Doit L293D WiFi Motor Drive Board" might have switched 3V3 and GND rows in some revisions.
+> [Here](https://www.studiopieters.nl/nodemcu-v3-l293d-motor-shield/) is a good resource abut its pinout.
 
 # Code
 
