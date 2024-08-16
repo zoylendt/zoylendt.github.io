@@ -62,6 +62,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **House of Suns**  by Alastair Reynolds (german)
 - **Nona the Ninth (The Locked Tomb #3)** by Tamsyn Muir (english)
 - **Warboss** by Mike Brooks (german)
+- **Ilium** by Dan Simmons (german)
 
 ## 2023
 
