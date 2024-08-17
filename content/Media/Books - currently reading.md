@@ -2,7 +2,7 @@
 title: Currently Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-08-05
+updated: 2024-08-17
 draft: false
 tags:
   - note
@@ -25,7 +25,8 @@ tags:
 - **Station Eternity** by Mur Lafferty (english)
 - **Ancillary Mercy (Imperial Radch #3)** by Ann Leckie (german)
 - **Spinning Silver** by Naomi Novik (german)
-
+- **Echopraxia** by Peter Watts (german)
+- **Paradise One** by David Wellington (german)
 
 ## Manga & Comics
 
