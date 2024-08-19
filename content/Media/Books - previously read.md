@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-08-18
+updated: 2024-08-19
 draft: false
 tags:
   - note
@@ -62,8 +62,8 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **House of Suns**  by Alastair Reynolds (german)
 - **Nona the Ninth (The Locked Tomb #3)** by Tamsyn Muir (english)
 - **Warboss** by Mike Brooks (german)
-- **Ilium** by Dan Simmons (german)
-- **Paradise One** by David Wellington (german)
+- **Ilium (Ilium/Olympos #1)** by Dan Simmons (german)
+- **Paradise-1 (Red Space #1)** by David Wellington (german)
 
 ## 2023
 

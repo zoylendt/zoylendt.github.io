@@ -78,6 +78,8 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - Neal Asher
 	- **Gridlinked (Agent Cormac #1)**
 	- ...
+- Vernor Vinge
+	- ****
 - **Spinning Silver** by Naomi Novik
 - **Cat's Cradle** by Kurt Vonnegut
 - **In the Lives of Puppets** by T. J. Klune
@@ -89,10 +91,11 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Boneshaker** by Cherie Priest
 - **The Yiddish Policemen’s Union** by Michael Chabon
 - **Rainbow's End** by Vernor Vinge
-- **Ilium** by Dan Simmons
+- **Ilium (Ilium/Olympos #2)** by Dan Simmons
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
 - **Dark Side (Sam Dryden #3)** by Patrick Lee
 - **Heart-Shaped Box** by Joe Hill
+- **The Last Astronaut** by David Wellington
 - https://www.reddit.com/r/printSF/comments/a0248u/sci_fi_short_stories_or_short_story_collections/
 
 
@@ -104,7 +107,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Old Man’s War #7** by John Scalzi (late 2025)
 - **Pandemonium (Bequin #3)** by Dan Abnett (TBA)
 - **Folly** by Naomi Novik (TBA)
-- **Revenant-X** by David Wellington (5th Nov 2024)
+- **Revenant-X (Red Space #2)** by David Wellington (5th Nov 2024)
 - **The Horusian Wars #3** by John French (maybe [cancelled](https://www.reddit.com/r/40kLore/comments/tr0lnr/is_there_word_on_whether_french_is_going_to/)?)
 
 ## Recommendations from friends
