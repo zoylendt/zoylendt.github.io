@@ -32,9 +32,11 @@ tags:
 
 # Fiction
 
-## Award-winning books
+## My list
 
-Books awarded with the [Hugo](https://de.wikipedia.org/wiki/Hugo_Award), [Nebula](https://de.wikipedia.org/wiki/Nebula_Award), their [joint winners](https://en.wikipedia.org/wiki/List_of_joint_winners_of_the_Hugo_and_Nebula_awards), or [Locus Award](https://de.wikipedia.org/wiki/Locus_Award), and possibly [other awards](https://en.wikipedia.org/wiki/List_of_science_fiction_and_fantasy_literary_awards).
+This section contains books I want to read, partially because they received some kind of award.
+
+Notable awards and lists include [Hugo](https://de.wikipedia.org/wiki/Hugo_Award), [Nebula](https://de.wikipedia.org/wiki/Nebula_Award), their [joint winners](https://en.wikipedia.org/wiki/List_of_joint_winners_of_the_Hugo_and_Nebula_awards), or [Locus Award](https://de.wikipedia.org/wiki/Locus_Award), and possibly [other awards](https://en.wikipedia.org/wiki/List_of_science_fiction_and_fantasy_literary_awards).
 
 Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choiceawards/), mainly for ScienceFiction in [2023](https://www.goodreads.com/choiceawards/best-science-fiction-books-2023) and earlier.
 
@@ -79,8 +81,8 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 	- **Gridlinked (Agent Cormac #1)**
 	- ...
 - Vernor Vinge
-	- ****
-- **Spinning Silver** by Naomi Novik
+	- **Rainbow's End**
+	- **A Deepness in the Sky (Zones of Thought #2)**
 - **Cat's Cradle** by Kurt Vonnegut
 - **In the Lives of Puppets** by T. J. Klune
 - **Babel** by R. F. Kuang
@@ -90,24 +92,24 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Blackout/All Clear** by Connie Willis
 - **Boneshaker** by Cherie Priest
 - **The Yiddish Policemen’s Union** by Michael Chabon
-- **Rainbow's End** by Vernor Vinge
 - **Ilium (Ilium/Olympos #2)** by Dan Simmons
 - **The Atlas Six (The Atlas #1)** by Olivie Blake
 - **Dark Side (Sam Dryden #3)** by Patrick Lee
 - **Heart-Shaped Box** by Joe Hill
 - **The Last Astronaut** by David Wellington
+- **Ghost Station** by S. A. Barnes
 - https://www.reddit.com/r/printSF/comments/a0248u/sci_fi_short_stories_or_short_story_collections/
 
 
 ## Not yet released
 
-- **Ghost Station** by S. A. Barnes (~Feb 2025)
 - **Not Till We Are Lost (Bobiverse #5)** by Dennis E. Taylor (~Sep 2024)
 - **When the Moon Hits Your Eye** by John Scalzi (25th Mar 2025)
 - **Old Man’s War #7** by John Scalzi (late 2025)
 - **Pandemonium (Bequin #3)** by Dan Abnett (TBA)
 - **Folly** by Naomi Novik (TBA)
 - **Revenant-X (Red Space #2)** by David Wellington (5th Nov 2024)
+- **Cold Eternity** by S. A. Barnes (8th Apr 2025)
 - **The Horusian Wars #3** by John French (maybe [cancelled](https://www.reddit.com/r/40kLore/comments/tr0lnr/is_there_word_on_whether_french_is_going_to/)?)
 
 ## Recommendations from friends
