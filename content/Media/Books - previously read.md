@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-08-17
+updated: 2024-08-18
 draft: false
 tags:
   - note
@@ -63,6 +63,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Nona the Ninth (The Locked Tomb #3)** by Tamsyn Muir (english)
 - **Warboss** by Mike Brooks (german)
 - **Ilium** by Dan Simmons (german)
+- **Paradise One** by David Wellington (german)
 
 ## 2023
 
