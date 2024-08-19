@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-08-10
+updated: 2024-08-19
 draft: false
 tags:
   - note
@@ -100,10 +100,11 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 
 - **Ghost Station** by S. A. Barnes (~Feb 2025)
 - **Not Till We Are Lost (Bobiverse #5)** by Dennis E. Taylor (~Sep 2024)
-- **(no title yet)** by John Scalzi (~Feb 2025)
+- **When the Moon Hits Your Eye** by John Scalzi (25th Mar 2025)
 - **Old Man’s War #7** by John Scalzi (late 2025)
 - **Pandemonium (Bequin #3)** by Dan Abnett (TBA)
 - **Folly** by Naomi Novik (TBA)
+- **Revenant-X** by David Wellington (5th Nov 2024)
 - **The Horusian Wars #3** by John French (maybe [cancelled](https://www.reddit.com/r/40kLore/comments/tr0lnr/is_there_word_on_whether_french_is_going_to/)?)
 
 ## Recommendations from friends
