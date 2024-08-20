@@ -19,6 +19,9 @@ https://jbetzen.net/posts/esp32-cam/
 # My devices
 
 
-| HW-ID | ESP Type | Name |     |
-| ----- | -------- | ---- | --- |
-|       |          |      |     |
+| HW-ID | ESP Type | Name     |     |
+| ----- | -------- | -------- | --- |
+| 001   |          | Zisterne |     |
+|       |          |          |     |
+|       |          |          |     |
+|       |          |          |     |
