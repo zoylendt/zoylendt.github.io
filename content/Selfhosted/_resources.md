@@ -61,6 +61,7 @@ tags:
 
 - [Installing HA on Proxmox 8](https://community.home-assistant.io/t/installing-home-assistant-os-using-proxmox-8/201835)
 - https://sequr.be/tags/home-assistant/
+- https://jbetzen.net/posts/esp32-cam/
 
   
 # Individual topics
