@@ -12,3 +12,4 @@ tags:
 ---
  
 https://jbetzen.net/posts/esp32-cam/
+[Web - ESPHome](https://web.esphome.io/)
