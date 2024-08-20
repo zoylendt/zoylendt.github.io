@@ -2,7 +2,7 @@
 title: Homelab related resources
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-06-22
+updated: 2024-08-20
 draft: false
 tags:
   - note
@@ -20,6 +20,7 @@ tags:
 - Unraid Community Apps -> [alphabetical list](https://unraid.net/community/apps)
 - [Dockerholics GH repo](https://github.com/petersem/dockerholics)
 - [Awesome DevOps](https://github.com/wmariuss/awesome-devops) -> [Website](https://awesome-devops.xyz/)
+- https://github.com/mikeroyal/Self-Hosting-Guide
 
 # Docker
 
