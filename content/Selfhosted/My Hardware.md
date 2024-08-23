@@ -35,6 +35,11 @@ tags:
 
 ### datengrab
 - [12x SATA to PCIe x1 card](https://www.amazon.de/gp/product/B0BNF3XD96/)
+- [NVIDIA Quadro T400 2GB](https://www.amazon.de/gp/product/B0988WSB5V/)
+- ASRock J4105M motherboard
+- 10x HDD
+- 2x 2.5'' SATA SSD
+- 1x 16GB DDR4 Dimm
 
 ## Unused systems
 
