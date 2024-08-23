@@ -33,6 +33,9 @@ tags:
 
 ...
 
+### datengrab
+- [12x SATA to PCIe x1 card](https://www.amazon.de/gp/product/B0BNF3XD96/)
+
 ## Unused systems
 
 ...
@@ -46,5 +49,7 @@ tags:
 
 # Unused hardware
 
-- [6x SATA to PCIe X1 card](https://www.amazon.de/gp/product/B07Z89J2M5/)
+- [8x SATA to PCIe x1 card](https://www.amazon.de/gp/product/B07Z89J2M5/) (link refers to 6 port version)
+- [6x SATA to M.2 NVMe card](https://www.amazon.de/gp/product/B0BWYXLNFT/)
+- [N5105 NAS motherboard](https://www.amazon.de/gp/product/B0BYVMNMR9/)
 - 
