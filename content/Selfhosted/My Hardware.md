@@ -26,14 +26,14 @@ tags:
 | ds918zoy  | Synology DS918+                                                                  | Celeron J3455 | 8GB     | 20TB (32TB)              | NAS (private)   |
 | bernstein | [Synology DS218J](https://www.amazon.de/gp/product/B076S8NSCD/)                  | ARM CPU       | 0.5GB   | 4TB (8TB)                | NAS (backup)    |
 | abcnas    | Synology                                                                         |               |         |                          | NAS (business)  |
-| ceres     | Strato VPS vc6-16-01                                                             |               |         |                          |                 |
-
+| ceres     | Strato VPS vc6-16-01                                                             |               |         |                          | VPS             |
 
 ## Detailed information
 
 ...
 
 ### datengrab
+
 - [12x SATA to PCIe x1 card](https://www.amazon.de/gp/product/B0BNF3XD96/)
 - [NVIDIA Quadro T400 2GB](https://www.amazon.de/gp/product/B0988WSB5V/)
 - ASRock J4105M motherboard
@@ -41,9 +41,7 @@ tags:
 - 2x 2.5'' SATA SSD
 - 1x 16GB DDR4 Dimm
 
-## Unused systems
 
-...
 
 # Other homelab devices
 
@@ -54,7 +52,20 @@ tags:
 
 # Unused hardware
 
+## Complete PC systems
+
+...
+
+## PC parts
+
 - [8x SATA to PCIe x1 card](https://www.amazon.de/gp/product/B07Z89J2M5/) (link refers to 6 port version)
 - [6x SATA to M.2 NVMe card](https://www.amazon.de/gp/product/B0BWYXLNFT/)
 - [N5105 NAS motherboard](https://www.amazon.de/gp/product/B0BYVMNMR9/)
-- 
+
+## RasPi & accessories
+
+...
+
+## µController & accessories
+
+...
