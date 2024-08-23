@@ -3,7 +3,7 @@ title:
 description: <Description of the page used for link previews>
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-08-22
+updated: 2024-08-23
 draft: false
 tags:
   - note
@@ -43,3 +43,8 @@ tags:
 | -------------- | --------------- | --------- |
 | FRITZ!Box 7490 |                 | Router    |
 |                |                 |           |
+
+# Unused hardware
+
+- [6x SATA to PCIe X1 card](https://www.amazon.de/gp/product/B07Z89J2M5/)
+- 
