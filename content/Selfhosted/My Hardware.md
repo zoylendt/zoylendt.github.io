@@ -3,7 +3,7 @@ title:
 description: <Description of the page used for link previews>
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-08-23
+updated: 2024-08-24
 draft: false
 tags:
   - note
@@ -54,7 +54,12 @@ tags:
 
 ## Complete PC systems
 
-...
+- MINIS Forum GK41
+	- ...
+- troniconet APU4c4
+	- ...
+- Compulab fitlet2
+	- ...
 
 ## PC parts
 
