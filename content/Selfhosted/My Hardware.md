@@ -3,7 +3,7 @@ title:
 description: <Description of the page used for link previews>
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-08-24
+updated: 2024-09-28
 draft: false
 tags:
   - note
@@ -40,6 +40,23 @@ tags:
 - 10x HDD
 - 2x 2.5'' SATA SSD
 - 1x 16GB DDR4 Dimm
+
+
+| Position | Size | ID (short) | SN           | ID  | SATA Cable | Comment |
+| -------- | ---- | ---------- | ------------ | --- | ---------- | ------- |
+| 1        | 12TB |            | Z1S0A0V1F95G |     | #1         |         |
+| 2        |      |            |              |     | #2         |         |
+| 3        |      |            |              |     | #3         |         |
+| 4        | 12TB | WD120EDBZ  | 5QH17XNF     |     | #4         |         |
+| 5        |      |            |              |     |            |         |
+| 6        |      |            |              |     |            |         |
+| 7        |      |            |              |     |            |         |
+| 8        | 12TB | WD120EMFZ  | Z2K7EBET     |     | white      |         |
+| 9        |      |            |              |     |            |         |
+| 10       |      |            |              |     |            |         |
+| 11       |      |            |              |     |            |         |
+| 12       |      |            |              |     |            |         |
+
 
 
 
