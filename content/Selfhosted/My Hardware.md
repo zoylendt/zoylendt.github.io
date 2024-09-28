@@ -39,23 +39,24 @@ tags:
 - ASRock J4105M motherboard
 - 10x HDD
 - 2x 2.5'' SATA SSD
-- 1x 16GB DDR4 Dimm
+- 1x 16GB DDR4 DIMM
 
 
-| Position | Size | ID (short) | SN           | ID  | SATA Cable | Comment |
-| -------- | ---- | ---------- | ------------ | --- | ---------- | ------- |
-| 1        | 12TB |            | Z1S0A0V1F95G |     | #1         |         |
-| 2        |      |            |              |     | #2         |         |
-| 3        |      |            |              |     | #3         |         |
-| 4        | 12TB | WD120EDBZ  | 5QH17XNF     |     | #4         |         |
-| 5        |      |            |              |     |            |         |
-| 6        |      |            |              |     |            |         |
-| 7        |      |            |              |     |            |         |
-| 8        | 12TB | WD120EMFZ  | Z2K7EBET     |     | white      |         |
-| 9        |      |            |              |     |            |         |
-| 10       |      |            |              |     |            |         |
-| 11       |      |            |              |     |            |         |
-| 12       |      |            |              |     |            |         |
+| Position | Size | ID (short)    | SN           | ID  | SATA Cable | Manufacturer, Model           | Comment            |
+| -------- | ---- | ------------- | ------------ | --- | ---------- | ----------------------------- | ------------------ |
+| 1        | 12TB | MG07ACA12TE   | Z1S0A0V1F95G |     | #1         | Toshiba                       |                    |
+| 2        | 12TB | ST12000VN0007 | ZJV0P4MY     |     | #2         | Seagate, IronWolf receritfied | new, only 2 screws |
+| 3        | 12TB | WD120EDAZ     | 5PK8UN0F     |     | #3         | Western Digital               |                    |
+| 4        | 12TB | WD120EDBZ     | 5QH17XNF     |     | #4         | Western Digital               |                    |
+| 5        |      |               |              |     | blue       |                               |                    |
+| 6        |      |               |              |     | red        | Western Digital               |                    |
+| 7        |      | WD120EMFZ     |              |     | yellow     | Western Digital               | only 2 screws      |
+| 8        | 12TB | WD120EMFZ     | Z2K7EBET     |     | white      | Western Digital               | only 2 screws      |
+| 9        | 4TB  |               |              |     |            |                               |                    |
+| 10       | 4TB  |               |              |     |            |                               |                    |
+| 11       |      |               |              |     |            |                               | SATA-SSD           |
+| 12       |      |               |              |     |            |                               | SATA-SSD           |
+
 
 
 
