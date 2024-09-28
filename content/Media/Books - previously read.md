@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-08-28
+updated: 2024-09-28
 draft: false
 tags:
   - note
