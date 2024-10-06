@@ -2,7 +2,7 @@
 title: Currently Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-09-28
+updated: 2024-10-07
 draft: false
 tags:
   - note
@@ -26,7 +26,8 @@ tags:
 - **Ancillary Mercy (Imperial Radch #3)** by Ann Leckie (german)
 - **Spinning Silver** by Naomi Novik (german)
 - **Echopraxia** by Peter Watts (german)
-- **Gridlinked (Polis #1)** by Neal Asher
+- **Gridlinked (Polis #1)** by Neal Asher (german)
+- [**Der Riss** by Andreas Brandhorst (german)](https://www.goodreads.com/book/show/210491447-der-riss)
 
 ## Manga & Comics
 

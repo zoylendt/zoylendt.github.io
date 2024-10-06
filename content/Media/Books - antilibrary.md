@@ -2,7 +2,7 @@
 title: Antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-08-19
+updated: 2024-10-07
 draft: false
 tags:
   - note
@@ -98,6 +98,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Heart-Shaped Box** by Joe Hill
 - **The Last Astronaut** by David Wellington
 - **Ghost Station** by S. A. Barnes
+- [**All Tomorrows** by Nemo Ramjet](https://www.goodreads.com/de/book/show/16143402-all-tomorrows)
 - https://www.reddit.com/r/printSF/comments/a0248u/sci_fi_short_stories_or_short_story_collections/
 
 
@@ -121,6 +122,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Rivers of London (series)** by Ben Aaronovitch
 - **Black Bird Academy** by Stella Tack
 - **Book of Night** Holly Black
+- **Legends & Lattes** by Travis Baldree
 
 ### Webseries
 
