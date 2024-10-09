@@ -35,27 +35,29 @@ tags:
 ### datengrab
 
 - [12x SATA to PCIe x1 card](https://www.amazon.de/gp/product/B0BNF3XD96/)
+	- all HDD are connected through this card
 - [NVIDIA Quadro T400 2GB](https://www.amazon.de/gp/product/B0988WSB5V/)
 - [ASRock J4105M motherboard](https://www.asrock.com/mb/Intel/J4105M/index.asp)
 - 10x HDD
 - 2x 2.5'' SATA SSD
-- 1x 16GB DDR4 DIMM
+- 2x 16GB DDR4 DIMM
 
 
-| Position | Size  | Model-ID      | SN           | ID  | SATA Cable | Manufacturer, Model           | Comment                     |
-| -------- | ----- | ------------- | ------------ | --- | ---------- | ----------------------------- | --------------------------- |
-| 1        | 12TB  | MG07ACA12TE   | Z1S0A0V1F95G |     | P1         | Toshiba                       |                             |
-| 2        | 12TB  | ST12000VN0007 | ZJV0P4MY     |     | P2         | Seagate, IronWolf receritfied | new, only 2 screws          |
-| 3        | 12TB  | WD120EDAZ     | 5PK8UN0F     |     | P3         | Western Digital               |                             |
-| 4        | 12TB  | WD120EDBZ     | 5QH17XNF     |     | P4         | Western Digital               |                             |
-| 5        | 8TB   | WD80EDBZ      | VR1UU1EK     |     | blue       | Western Digital               |                             |
-| 6        | 12TB  | WD120EDBZ     | 5QGY3KYF     |     | red        | Western Digital               |                             |
-| 7        | 12TB  | WD120EMFZ     | QBK1R0ST     |     | yellow     | Western Digital               | only 2 screws               |
-| 8        | 12TB  | WD120EMFZ     | Z2K7EBET     |     | white      | Western Digital               | only 2 screws, Parity Drive |
-| 9 x      | 4TB   | WD40EZRZ      | WCC7K0CA1EJ6 |     |            | Western Digital               | WD_Charlie                  |
-| 10 y     | 4TB   | WD40EZRZ      | WCC7K0YNADYX |     |            | Western Digital               | WD_Bravo                    |
-| 11       | 240GB |               |              |     |            | Kingston                      | SATA-SSD                    |
-| 12       | 240GB |               |              |     |            | Intenso                       | SATA-SSD                    |
+| Position | Size  | Model-ID      | SN           | Unraid ID    | ID  | SATA cable | Manufacturer, Model           | Comment            |
+| -------- | ----- | ------------- | ------------ | ------------ | --- | ---------- | ----------------------------- | ------------------ |
+| 1        | 12TB  | MG07ACA12TE   | Z1S0A0V1F95G | Disk 3, sdf  |     | P1         | Toshiba                       |                    |
+| 2        | 12TB  | ST12000VN0007 | ZJV0P4MY     | Disk 4, sdi  |     | P2         | Seagate, IronWolf receritfied | only 2 screws, new |
+| 3        | 12TB  | WD120EDAZ     | 5PK8UN0F     | Disk 6, sdg  |     | P3         | Western Digital               |                    |
+| 4        | 12TB  | WD120EDBZ     | 5QH17XNF     | Disk 7, sdk  |     | P4         | Western Digital               |                    |
+| 5        | 8TB   | WD80EDBZ      | VR1UU1EK     | Disk 9, sdh  |     | blue       | Western Digital               |                    |
+| 6        | 12TB  | WD120EDBZ     | 5QGY3KYF     | Disk 8, sdj  |     | red        | Western Digital               |                    |
+| 7        | 12TB  | WD120EMFZ     | QBK1R0ST     | Disk 5, sdm  |     | yellow     | Western Digital               | only 2 screws      |
+| 8        | 12TB  | WD120EMFZ     | Z2K7EBET     | Parity, sdl  |     | white      | Western Digital               | only 2 screws      |
+| 9 x      | 4TB   | WD40EZRZ      | WCC7K0CA1EJ6 | Disk 2, sde  |     | black      | Western Digital               | 'WD_Charlie'       |
+| 10 y     | 4TB   | WD40EZRZ      | WCC7K0YNADYX | Disk 1, sdd  |     | black      | Western Digital               | 'WD_Bravo'         |
+| 11       | 240GB |               |              | Cache, sdb   |     |            | Kingston                      | SATA-SSD           |
+| 12       | 240GB |               |              | Cache 2, sdc |     |            | Intenso                       | SATA-SSD           |
+| -        | 32GB  | Cruzer Blade  |              | Boot, sda    |     |            | SanDisk                       | Boot USB           |
 
 
 
