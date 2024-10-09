@@ -22,9 +22,9 @@ tags:
 | vanadium  | Lenovo ThinkCentre M720q Tiny                                                    | i5-8400T      | 32GB    | 2.5TB                    | PVE (test)      |
 | titan     | [Zotac Zbox CI329](https://www.amazon.de/gp/product/B07H569HM2/)                 | Celeron N4100 | 32GB    | 1TB                      | PVE (always-on) |
 | neodym    | [HP EliteDesk 800 G1 USDT](https://www.amazon.de/gp/product/B07F1S9GXS/)         | i5-4570S      | 16GB    | 2.75TB                   | PVE (offsite)   |
-| datengrab | [KingnovyPC NAS Motherboard N5105](https://www.amazon.de/gp/product/B0BYVMNMR9/) | Celeron N5105 | 32GB    | 85TB (96.5TB)            | unraid          |
+| datengrab | [KingnovyPC NAS Motherboard N5105](https://www.amazon.de/gp/product/B0BYVMNMR9/) | Celeron J4105 | 32GB    | 88TB (99.5TB)            | unraid          |
 | ds918zoy  | Synology DS918+                                                                  | Celeron J3455 | 8GB     | 20TB (32TB)              | NAS (private)   |
-| bernstein | [Synology DS218J](https://www.amazon.de/gp/product/B076S8NSCD/)                  | ARM CPU       | 0.5GB   | 4TB (8TB)                | NAS (backup)    |
+| bernstein | [Synology DS218J](https://www.amazon.de/gp/product/B076S8NSCD/)                  | ? (ARM)       | 0.5GB   | 4TB (8TB)                | NAS (backup)    |
 | abcnas    | Synology                                                                         |               |         |                          | NAS (business)  |
 | ceres     | Strato VPS vc6-16-01                                                             |               |         |                          | VPS             |
 
@@ -43,7 +43,7 @@ tags:
 - 2x 2.5'' SATA SSD
 - 2x 16GB DDR4 DIMM
 
-| Position | Size  | Model ID              | Serial number        | Unraid ID    | SATA cable | Manufacturer, Model                                                  | Comment                                                                                                                                                                |
+| ==Position== | ==Size==  | ==Model ID==              | ==Serial number==        | ==Unraid ID==    | ==SATA cable== | ==Manufacturer, Model==                                                  | ==Comment==                                                                                                                                                                |
 | -------- | ----- | --------------------- | -------------------- | ------------ | ---------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1        | 12TB  | TOSHIBA_MG07ACA12TE   | Z1S0A0V1F95G         | Disk 3, sdf  | P1         | Toshiba                                                              |                                                                                                                                                                        |
 | 2        | 12TB  | ST12000VN0007         | ZJV0P4MY             | Disk 4, sdi  | P2         | [Seagate IronWolf receritfied](https://www.amazon.de/dp/B084WLXWXD/) | only 2 screws, [insurance until 2028-09-26](https://www.amazon.de/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o01?ie=UTF8&orderID=028-1706085-5276362) |
@@ -53,18 +53,18 @@ tags:
 | 6        | 12TB  | WDC_WD120EDBZ         | 5QGY3KYF             | Disk 8, sdj  | red        | Western Digital                                                      |                                                                                                                                                                        |
 | 7        | 12TB  | WDC_WD120EMFZ         | QBK1R0ST             | Disk 5, sdm  | yellow     | Western Digital                                                      | only 2 screws                                                                                                                                                          |
 | 8        | 12TB  | WDC_WD120EMFZ         | Z2K7EBET             | Parity, sdl  | white      | Western Digital                                                      | only 2 screws                                                                                                                                                          |
-| 9 (x)    | 4TB   | WDC_WD40EZRZ          | WCC7K0CA1EJ6         | Disk 2, sde  | black      | Western Digital                                                      | 'WD_Charlie'                                                                                                                                                           |
-| 10 (y)   | 4TB   | WDC_WD40EZRZ          | WCC7K0YNADYX         | Disk 1, sdd  | black      | Western Digital                                                      | 'WD_Bravo'                                                                                                                                                             |
+| 9 (x)    | 4TB   | WDC_WD40EZRZ          | WCC7K0CA1EJ6         | Disk 2, sde  | black      | Western Digital                                                      | 'WD_Charlie', very old                                                                                                                                                 |
+| 10 (y)   | 4TB   | WDC_WD40EZRZ          | WCC7K0YNADYX         | Disk 1, sdd  | black      | Western Digital                                                      | 'WD_Bravo', very old                                                                                                                                                   |
 | -        | 240GB | KINGSTON_SA400S37240G | 50026B778237DDA0     | Cache, sdb   | black      | [Kingston A400](https://www.amazon.de/gp/product/B01N5IB20Q/)        | SATA-SSD                                                                                                                                                               |
 | -        | 240GB | Intenso_SSD_Sata_III  | AA000000000000057135 | Cache 2, sdc | black      | [Intenso](https://www.amazon.de/gp/product/B01D3ACIR6/)              | SATA-SSD                                                                                                                                                               |
 | -        | 32GB  | -                     | -                    | Boot, sda    | -          | [SanDisk Cruzer Blade](https://www.amazon.de/gp/product/B005FYNT3G/) | Boot USB                                                                                                                                                               |
 
 # Other homelab devices
 
-| ==ID==         | ==Description== | ==Usage== |
-| -------------- | --------------- | --------- |
-| FRITZ!Box 7490 |                 | Router    |
-|                |                 |           |
+| ==ID==         | ==Description==                 | ==Usage== | ==Purchased==                                                                                                                                                    |
+| -------------- | ------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FRITZ!Box 7490 |                                 | Router    | ?                                                                                                                                                                |
+| Nous A5T       | smart powerline with monitoring |           | [Mediarath.de, 2023-08-26](https://mediarath.de/products/nous-a5t-3-fach-wifi-steckerleiste-usb-verbrauchsmessung-tasmota-opt-calibrated?variant=43730944229644) |
 
 # Unused hardware
 
