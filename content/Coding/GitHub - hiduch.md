@@ -10,3 +10,5 @@ tags:
 ---
  
 markdown content :)
+
+-> https://github.com/marketplace/actions/push-to-ghcr
