@@ -42,25 +42,21 @@ tags:
 - 2x 2.5'' SATA SSD
 - 2x 16GB DDR4 DIMM
 
-| Position | Size  | Model-ID              | SN                   | Unraid ID    | SATA cable | Manufacturer, Model                                                  | Comment               |
-| -------- | ----- | --------------------- | -------------------- | ------------ | ---------- | -------------------------------------------------------------------- | --------------------- |
-| 1        | 12TB  | TOSHIBA_MG07ACA12TE   | Z1S0A0V1F95G         | Disk 3, sdf  | P1         | Toshiba                                                              |                       |
-| 2        | 12TB  | ST12000VN0007         | ZJV0P4MY             | Disk 4, sdi  | P2         | [Seagate IronWolf receritfied](https://www.amazon.de/dp/B084WLXWXD/) | only 2 screws, newest |
-| 3        | 12TB  | WDC_WD120EDAZ         | 5PK8UN0F             | Disk 6, sdg  | P3         | Western Digital                                                      |                       |
-| 4        | 12TB  | WDC_WD120EDBZ         | 5QH17XNF             | Disk 7, sdk  | P4         | Western Digital                                                      |                       |
-| 5        | 8TB   | WDC_WD80EDBZ          | VR1UU1EK             | Disk 9, sdh  | blue       | Western Digital                                                      |                       |
-| 6        | 12TB  | WDC_WD120EDBZ         | 5QGY3KYF             | Disk 8, sdj  | red        | Western Digital                                                      |                       |
-| 7        | 12TB  | WDC_WD120EMFZ         | QBK1R0ST             | Disk 5, sdm  | yellow     | Western Digital                                                      | only 2 screws         |
-| 8        | 12TB  | WDC_WD120EMFZ         | Z2K7EBET             | Parity, sdl  | white      | Western Digital                                                      | only 2 screws         |
-| 9 x      | 4TB   | WDC_WD40EZRZ          | WCC7K0CA1EJ6         | Disk 2, sde  | black      | Western Digital                                                      | 'WD_Charlie'          |
-| 10 y     | 4TB   | WDC_WD40EZRZ          | WCC7K0YNADYX         | Disk 1, sdd  | black      | Western Digital                                                      | 'WD_Bravo'            |
-| 11       | 240GB | KINGSTON_SA400S37240G | 50026B778237DDA0     | Cache, sdb   | black      | Kingston                                                             | SATA-SSD              |
-| 12       | 240GB | Intenso_SSD_Sata_III  | AA000000000000057135 | Cache 2, sdc | black      | [Intenso](https://www.amazon.de/gp/product/B01D3ACIR6/)              | SATA-SSD              |
-| -        | 32GB  | Cruzer Blade          | -                    | Boot, sda    | -          | [SanDisk Cruzer Blade](https://www.amazon.de/gp/product/B005FYNT3G/) | Boot USB              |
-
-
-
-
+| Position | Size  | Model ID              | Serial number        | Unraid ID    | SATA cable | Manufacturer, Model                                                  | Comment                                                                                                                                                                |
+| -------- | ----- | --------------------- | -------------------- | ------------ | ---------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1        | 12TB  | TOSHIBA_MG07ACA12TE   | Z1S0A0V1F95G         | Disk 3, sdf  | P1         | Toshiba                                                              |                                                                                                                                                                        |
+| 2        | 12TB  | ST12000VN0007         | ZJV0P4MY             | Disk 4, sdi  | P2         | [Seagate IronWolf receritfied](https://www.amazon.de/dp/B084WLXWXD/) | only 2 screws, [insurance until 2028-09-26](https://www.amazon.de/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o01?ie=UTF8&orderID=028-1706085-5276362) |
+| 3        | 12TB  | WDC_WD120EDAZ         | 5PK8UN0F             | Disk 6, sdg  | P3         | Western Digital                                                      |                                                                                                                                                                        |
+| 4        | 12TB  | WDC_WD120EDBZ         | 5QH17XNF             | Disk 7, sdk  | P4         | Western Digital                                                      |                                                                                                                                                                        |
+| 5        | 8TB   | WDC_WD80EDBZ          | VR1UU1EK             | Disk 9, sdh  | blue       | Western Digital                                                      |                                                                                                                                                                        |
+| 6        | 12TB  | WDC_WD120EDBZ         | 5QGY3KYF             | Disk 8, sdj  | red        | Western Digital                                                      |                                                                                                                                                                        |
+| 7        | 12TB  | WDC_WD120EMFZ         | QBK1R0ST             | Disk 5, sdm  | yellow     | Western Digital                                                      | only 2 screws                                                                                                                                                          |
+| 8        | 12TB  | WDC_WD120EMFZ         | Z2K7EBET             | Parity, sdl  | white      | Western Digital                                                      | only 2 screws                                                                                                                                                          |
+| 9 (x)    | 4TB   | WDC_WD40EZRZ          | WCC7K0CA1EJ6         | Disk 2, sde  | black      | Western Digital                                                      | 'WD_Charlie'                                                                                                                                                           |
+| 10 (y)   | 4TB   | WDC_WD40EZRZ          | WCC7K0YNADYX         | Disk 1, sdd  | black      | Western Digital                                                      | 'WD_Bravo'                                                                                                                                                             |
+| -        | 240GB | KINGSTON_SA400S37240G | 50026B778237DDA0     | Cache, sdb   | black      | [Kingston A400](https://www.amazon.de/gp/product/B01N5IB20Q/)        | SATA-SSD                                                                                                                                                               |
+| -        | 240GB | Intenso_SSD_Sata_III  | AA000000000000057135 | Cache 2, sdc | black      | [Intenso](https://www.amazon.de/gp/product/B01D3ACIR6/)              | SATA-SSD                                                                                                                                                               |
+| -        | 32GB  | -                     | -                    | Boot, sda    | -          | [SanDisk Cruzer Blade](https://www.amazon.de/gp/product/B005FYNT3G/) | Boot USB                                                                                                                                                               |
 
 # Other homelab devices
 
