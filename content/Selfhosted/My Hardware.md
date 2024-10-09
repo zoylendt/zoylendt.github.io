@@ -3,7 +3,7 @@ title:
 description: <Description of the page used for link previews>
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-09-28
+updated: 2024-10-09
 draft: false
 tags:
   - note
@@ -36,7 +36,7 @@ tags:
 
 - [12x SATA to PCIe x1 card](https://www.amazon.de/gp/product/B0BNF3XD96/)
 - [NVIDIA Quadro T400 2GB](https://www.amazon.de/gp/product/B0988WSB5V/)
-- ASRock J4105M motherboard
+- [ASRock J4105M motherboard](https://www.asrock.com/mb/Intel/J4105M/index.asp)
 - 10x HDD
 - 2x 2.5'' SATA SSD
 - 1x 16GB DDR4 DIMM
