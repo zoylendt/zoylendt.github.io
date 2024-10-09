@@ -34,10 +34,11 @@ tags:
 
 ### datengrab
 
+- [Case: Fractal Node 804](https://www.fractal-design.com/de/products/cases/node/node-804/black/)
+- [Motherboard: ASRock J4105M](https://www.asrock.com/mb/Intel/J4105M/index.asp)
 - [12x SATA to PCIe x1 card](https://www.amazon.de/gp/product/B0BNF3XD96/)
 	- all HDD are connected through this card
 - [NVIDIA Quadro T400 2GB](https://www.amazon.de/gp/product/B0988WSB5V/)
-- [ASRock J4105M motherboard](https://www.asrock.com/mb/Intel/J4105M/index.asp)
 - 10x HDD
 - 2x 2.5'' SATA SSD
 - 2x 16GB DDR4 DIMM
