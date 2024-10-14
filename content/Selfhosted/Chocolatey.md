@@ -43,45 +43,49 @@ c = Chocolatey
 m = manually installed  
 \- = not installed  
 
-|                   | m700 | x1y3-2 | zalman2 | prod400g5 | VM  |
-| ----------------- | ---- | ------ | ------- | --------- | --- |
-| alldup            | m    | c      | -       |           |     |
-| anydesk.install   | m    | c      | m       |           |     |
-| arduino           | c    |        | -       |           |     |
-| bitwarden         | m    | c      | m       |           |     |
-| brave             | m    | c      | m       |           |     |
-| calibre           | c    |        | m       |           |     |
-| chocolateygui     | c    |        | c       |           |     |
-| docker-desktop    |      | c      |         |           |     |
-| everything        | c    | c      | m       |           |     |
-| extractnow        | c    |        | -       |           |     |
-| fastcopy          |      | c      |         |           |     |
-| foxitreader       |      | c      |         |           |     |
-| git.install       | c    | c      | m       |           |     |
-| github-desktop    | c    | c      | m       |           |     |
-| handbrake         |      | c      |         |           |     |
-| jdownloader       | c    | c      |         |           |     |
-| kopiaui           | c    | c      | c       |           |     |
-| notepadplusplus   | m    | c      |         |           |     |
-| obsidian          | m    | c      |         |           |     |
-| paint.net         | c    |        |         |           |     |
-| pdf24             | c    | c      | c       |           |     |
-| putty             | m    | c      |         |           |     |
-| pycharm-community |      | c      |         |           |     |
-| rpi-imager        | m    |        | m       |           |     |
-| sonos-controller  | m    |        | -       |           |     |
-| spotify           | m    | c      | m       |           |     |
-| steam             | m    | m      | m       |           |     |
-| synctrayzor       | m    | c      | m       |           |     |
-| tailscale         | m    | c      | m       |           |     |
-| teamspeak         | m    | c      | m       |           |     |
-| telegram          | m    | c      | m       |           |     |
-| treesizefree      | c    | c      | c       |           |     |
-| vlc               | m    | c      |         |           |     |
-| vscode            | c    |        |         |           |     |
-| vscodium          |      | c      |         |           |     |
-| win32diskimager   | m    |        | m       |           |     |
-| wiztree           | c    |        |         |           |     |
+|                                     | m700 | x1y3-2 | zalman2 | prod400g5 | VM  |
+| ----------------------------------- | ---- | ------ | ------- | --------- | --- |
+| 7zip.install                        |      | c      |         |           |     |
+| alldup                              | m    | c      | -       |           |     |
+| anydesk.install                     | m    | c      | m       |           |     |
+| arduino                             | c    |        | -       |           |     |
+| bitwarden                           | m    | c      | m       |           |     |
+| brave                               | m    | c      | m       |           |     |
+| calibre                             | c    |        | m       |           |     |
+| chocolateygui                       | c    |        | c       |           |     |
+| docker-desktop                      |      | c      |         |           |     |
+| everything                          | c    | c      | m       |           |     |
+| extractnow                          | c    |        | -       |           |     |
+| fastcopy                            |      | c      |         |           |     |
+| filebeat                            |      | c      |         |           |     |
+| foxitreader                         |      | c      |         |           |     |
+| git.install                         | c    | c      | m       |           |     |
+| github-desktop                      | c    | c      | m       |           |     |
+| handbrake                           |      | c      |         |           |     |
+| jdownloader                         | c    | c      |         |           |     |
+| kopiaui                             | c    | c      | c       |           |     |
+| metricbeat                          |      | c      |         |           |     |
+| notepadplusplus                     | m    | c      |         |           |     |
+| obsidian                            | m    | c      |         |           |     |
+| paint.net                           | c    | c      |         |           |     |
+| pdf24                               | c    | c      | c       |           |     |
+| prometheus-windows-exporter.install |      | c      |         |           |     |
+| putty                               | m    | c      |         |           |     |
+| pycharm-community                   |      | c      |         |           |     |
+| rpi-imager                          | m    |        | m       |           |     |
+| sonos-controller                    | m    |        | -       |           |     |
+| spotify                             | m    | c      | m       |           |     |
+| steam                               | m    | m      | m       |           |     |
+| synctrayzor                         | m    | c      | m       |           |     |
+| tailscale                           | m    | c      | m       |           |     |
+| teamspeak                           | m    | c      | m       |           |     |
+| telegram                            | m    | c      | m       |           |     |
+| treesizefree                        | c    | c      | c       |           |     |
+| vlc                                 | m    | c      |         |           |     |
+| vscode                              | c    | -      |         |           |     |
+| vscodium                            |      | c      |         |           |     |
+| win32diskimager                     | m    |        | m       |           |     |
+| wiztree                             | c    |        |         |           |     |
 
 
 Special notes:
