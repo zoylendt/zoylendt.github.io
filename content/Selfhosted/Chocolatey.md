@@ -2,7 +2,7 @@
 title: 
 date: 2024-06-01
 publishDate: 2024-06-01
-updated: 2024-06-15
+updated: 2024-10-14
 draft: false
 tags:
   - note
@@ -39,43 +39,49 @@ tags:
 
 A personal overview about which packages I use on which device:
 
-c = Chocolatey
-m = manually installed
-\- = not installed
+c = Chocolatey  
+m = manually installed  
+\- = not installed  
 
-|                  | m700 | x1y3 | zalman2 | prod400g5 | VM  |
-| ---------------- | ---- | ---- | ------- | --------- | --- |
-| extractnow       | c    |      | -       |           |     |
-| chocolateygui    | c    |      | c       |           |     |
-| everything       | c    |      | m       |           |     |
-| jdownloader      | c    |      |         |           |     |
-| wiztree          | c    |      |         |           |     |
-| git.install      | c    |      | m       |           |     |
-| github-desktop   | c    |      | m       |           |     |
-| treesizefree     | c    |      | c       |           |     |
-| kopiaui          | c    |      | c       |           |     |
-| paint.net        | c    |      |         |           |     |
-| vscode           | c    |      |         |           |     |
-| pdf24            | c    |      | c       |           |     |
-| calibre          | c    |      | m       |           |     |
-| synctrayzor      | m    |      | m       |           |     |
-| anydesk          | m    |      | m       |           |     |
-| obsidian         | m    |      |         |           |     |
-| spotify          | m    |      | m       |           |     |
-| vlc              | m    |      |         |           |     |
-| telegram         | m    |      | m       |           |     |
-| bitwarden        | m    |      | m       |           |     |
-| teamspeak        | m    |      | m       |           |     |
-| steam            | m    |      | m       |           |     |
-| brave            | m    |      | m       |           |     |
-| notepadplusplus  | m    |      |         |           |     |
-| putty            | m    |      |         |           |     |
-| tailscale        | m    |      | m       |           |     |
-| rpi-imager       | m    |      | m       |           |     |
-| win32diskimager  | m    |      | m       |           |     |
-| sonos-controller | m    |      | -       |           |     |
-| alldup           | m    |      | -       |           |     |
-| arduino          | c    |      | -       |           |     |
+|                   | m700 | x1y3-2 | zalman2 | prod400g5 | VM  |
+| ----------------- | ---- | ------ | ------- | --------- | --- |
+| alldup            | m    | c      | -       |           |     |
+| anydesk           | m    |        | m       |           |     |
+| arduino           | c    |        | -       |           |     |
+| bitwarden         | m    | c      | m       |           |     |
+| brave             | m    | c      | m       |           |     |
+| calibre           | c    |        | m       |           |     |
+| chocolateygui     | c    |        | c       |           |     |
+| docker-desktop    |      | c      |         |           |     |
+| everything        | c    | c      | m       |           |     |
+| extractnow        | c    |        | -       |           |     |
+| fastcopy          |      | c      |         |           |     |
+| foxitreader       |      | c      |         |           |     |
+| git.install       | c    | c      | m       |           |     |
+| github-desktop    | c    | c      | m       |           |     |
+| handbrake         |      | c      |         |           |     |
+| jdownloader       | c    |        |         |           |     |
+| kopiaui           | c    | c      | c       |           |     |
+| notepadplusplus   | m    | c      |         |           |     |
+| obsidian          | m    | c      |         |           |     |
+| paint.net         | c    |        |         |           |     |
+| pdf24             | c    | c      | c       |           |     |
+| putty             | m    | c      |         |           |     |
+| pycharm-community |      | c      |         |           |     |
+| rpi-imager        | m    |        | m       |           |     |
+| sonos-controller  | m    |        | -       |           |     |
+| spotify           | m    | c      | m       |           |     |
+| steam             | m    | m      | m       |           |     |
+| synctrayzor       | m    | c      | m       |           |     |
+| tailscale         | m    | c      | m       |           |     |
+| teamspeak         | m    | c      | m       |           |     |
+| telegram          | m    | c      | m       |           |     |
+| treesizefree      | c    | c      | c       |           |     |
+| vlc               | m    | c      |         |           |     |
+| vscode            | c    |        |         |           |     |
+| win32diskimager   | m    |        | m       |           |     |
+| wiztree           | c    |        |         |           |     |
+
 
 Special notes:
 - [extractnow](https://extractnow.com/#/home) (no longer available in Chocolatey)
