@@ -46,7 +46,7 @@ m = manually installed
 |                   | m700 | x1y3-2 | zalman2 | prod400g5 | VM  |
 | ----------------- | ---- | ------ | ------- | --------- | --- |
 | alldup            | m    | c      | -       |           |     |
-| anydesk           | m    |        | m       |           |     |
+| anydesk.install   | m    | c      | m       |           |     |
 | arduino           | c    |        | -       |           |     |
 | bitwarden         | m    | c      | m       |           |     |
 | brave             | m    | c      | m       |           |     |
@@ -60,7 +60,7 @@ m = manually installed
 | git.install       | c    | c      | m       |           |     |
 | github-desktop    | c    | c      | m       |           |     |
 | handbrake         |      | c      |         |           |     |
-| jdownloader       | c    |        |         |           |     |
+| jdownloader       | c    | c      |         |           |     |
 | kopiaui           | c    | c      | c       |           |     |
 | notepadplusplus   | m    | c      |         |           |     |
 | obsidian          | m    | c      |         |           |     |
@@ -79,6 +79,7 @@ m = manually installed
 | treesizefree      | c    | c      | c       |           |     |
 | vlc               | m    | c      |         |           |     |
 | vscode            | c    |        |         |           |     |
+| vscodium          |      | c      |         |           |     |
 | win32diskimager   | m    |        | m       |           |     |
 | wiztree           | c    |        |         |           |     |
 
