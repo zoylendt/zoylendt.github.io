@@ -39,54 +39,53 @@ tags:
 
 A personal overview about which packages I use on which device:
 
-c = Chocolatey  
+c = installed through chocolatey  
 m = manually installed  
 \- = not installed  
 
 |                                     | m700 | x1y3-2 | zalman2 | prod400g5 | VM  |
 | ----------------------------------- | ---- | ------ | ------- | --------- | --- |
-| 7zip.install                        |      | c      |         |           |     |
-| alldup                              | m    | c      | -       |           |     |
-| anydesk.install                     | m    | c      | m       |           |     |
-| arduino                             | c    |        | -       |           |     |
-| bitwarden                           | m    | c      | m       |           |     |
-| brave                               | m    | c      | m       |           |     |
-| calibre                             | c    |        | m       |           |     |
-| chocolateygui                       | c    |        | c       |           |     |
-| docker-desktop                      |      | c      |         |           |     |
-| everything                          | c    | c      | m       |           |     |
-| extractnow                          | c    |        | -       |           |     |
-| fastcopy                            |      | c      |         |           |     |
-| filebeat                            |      | c      |         |           |     |
-| foxitreader                         |      | c      |         |           |     |
-| git.install                         | c    | c      | m       |           |     |
-| github-desktop                      | c    | c      | m       |           |     |
-| handbrake                           |      | c      |         |           |     |
-| jdownloader                         | c    | c      |         |           |     |
-| kopiaui                             | c    | c      | c       |           |     |
-| metricbeat                          |      | c      |         |           |     |
-| notepadplusplus                     | m    | c      |         |           |     |
-| obsidian                            | m    | c      |         |           |     |
-| paint.net                           | c    | c      |         |           |     |
-| pdf24                               | c    | c      | c       |           |     |
-| prometheus-windows-exporter.install |      | c      |         |           |     |
-| putty                               | m    | c      |         |           |     |
-| pycharm-community                   |      | c      |         |           |     |
-| rpi-imager                          | m    |        | m       |           |     |
-| sonos-controller                    | m    |        | -       |           |     |
-| spotify                             | m    | c      | m       |           |     |
-| steam                               | m    | m      | m       |           |     |
-| synctrayzor                         | m    | c      | m       |           |     |
-| tailscale                           | m    | c      | m       |           |     |
-| teamspeak                           | m    | c      | m       |           |     |
-| telegram                            | m    | c      | m       |           |     |
-| treesizefree                        | c    | c      | c       |           |     |
-| vlc                                 | m    | c      |         |           |     |
-| vscode                              | c    | -      |         |           |     |
-| vscodium                            |      | c      |         |           |     |
-| win32diskimager                     | m    |        | m       |           |     |
-| wiztree                             | c    |        |         |           |     |
-
+| 7zip.install                        |      | c      |         | c         |     |
+| alldup                              | m    | c      | -       | -         |     |
+| anydesk.install                     | m    | c      | m       | m         |     |
+| arduino                             | c    |        | -       | -         |     |
+| bitwarden                           | m    | c      | m       | m         |     |
+| brave                               | m    | c      | m       | m         |     |
+| calibre                             | c    |        | m       | -         |     |
+| chocolateygui                       | c    |        | c       | -         |     |
+| docker-desktop                      |      | c      |         | m         |     |
+| everything                          | c    | c      | m       | c         |     |
+| extractnow                          | c    |        | -       | -         |     |
+| fastcopy                            |      | c      |         | c         |     |
+| filebeat                            |      | c      |         | -         |     |
+| foxitreader                         |      | c      |         | c         |     |
+| git.install                         | c    | c      | m       | c         |     |
+| github-desktop                      | c    | c      | m       | c         |     |
+| handbrake                           |      | c      |         | c         |     |
+| jdownloader                         | c    | c      |         | c         |     |
+| kopiaui                             | c    | c      | c       | c         |     |
+| metricbeat                          |      | c      |         | -         |     |
+| notepadplusplus                     | m    | c      |         | c         |     |
+| obsidian                            | m    | c      |         | c         |     |
+| paint.net                           | c    | c      |         | -         |     |
+| pdf24                               | c    | c      | c       | c         |     |
+| prometheus-windows-exporter.install |      | c      |         | -         |     |
+| putty                               | m    | c      |         | c         |     |
+| pycharm-community                   |      | c      |         | c         |     |
+| rpi-imager                          | m    |        | m       | -         |     |
+| sonos-controller                    | m    |        | -       | c         |     |
+| spotify                             | m    | c      | m       | c         |     |
+| steam                               | m    | m      | m       | m         |     |
+| synctrayzor                         | m    | c      | m       | m         |     |
+| tailscale                           | m    | c      | m       | m         |     |
+| teamspeak                           | m    | c      | m       | m         |     |
+| telegram                            | m    | c      | m       | m         |     |
+| treesizefree                        | c    | c      | c       | c         |     |
+| vlc                                 | m    | c      |         | c         |     |
+| vscode                              | c    | -      |         | -         |     |
+| vscodium                            |      | c      |         | c         |     |
+| win32diskimager                     | m    |        | m       | -         |     |
+| wiztree                             | c    |        |         | -         |     |
 
 Special notes:
 - [extractnow](https://extractnow.com/#/home) (no longer available in Chocolatey)
