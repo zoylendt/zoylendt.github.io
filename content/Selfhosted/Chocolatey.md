@@ -79,7 +79,7 @@ m = manually installed
 | synctrayzor                         | m    | c      | m       | m         |     |
 | tailscale                           | m    | c      | m       | m         |     |
 | teamspeak                           | m    | c      | m       | m         |     |
-| telegram                            | m    | c      | m       | m         |     |
+| telegram                            | m    | c      | m       | c         |     |
 | treesizefree                        | c    | c      | c       | c         |     |
 | vlc                                 | m    | c      |         | c         |     |
 | vscode                              | c    | -      |         | -         |     |
