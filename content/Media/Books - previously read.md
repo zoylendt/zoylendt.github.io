@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-09-28
+updated: 2024-10-20
 draft: false
 tags:
   - note
@@ -64,6 +64,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Warboss** by Mike Brooks (german)
 - **Ilium (Ilium/Olympos #1)** by Dan Simmons (german)
 - **Paradise-1 (Red Space #1)** by David Wellington (german)
+- [**Der Riss** by Andreas Brandhorst (german)](https://www.goodreads.com/book/show/210491447-der-riss)
 
 ## 2023
 

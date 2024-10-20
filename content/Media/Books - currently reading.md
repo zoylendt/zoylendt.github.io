@@ -2,7 +2,7 @@
 title: Currently Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-10-07
+updated: 2024-10-20
 draft: false
 tags:
   - note
@@ -27,7 +27,7 @@ tags:
 - **Spinning Silver** by Naomi Novik (german)
 - **Echopraxia** by Peter Watts (german)
 - **Gridlinked (Polis #1)** by Neal Asher (german)
-- [**Der Riss** by Andreas Brandhorst (german)](https://www.goodreads.com/book/show/210491447-der-riss)
+- 
 
 ## Manga & Comics
 
