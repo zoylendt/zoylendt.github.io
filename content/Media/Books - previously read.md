@@ -66,7 +66,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Paradise-1 (Red Space #1)** by David Wellington (german)
 - [**Der Riss** by Andreas Brandhorst (german)](https://www.goodreads.com/book/show/210491447-der-riss)
 - **Jerusalem's Lot** by Stephen King (german, audiobook)
-- 
+- **The Fall of Cadia - Part 1** by Robert Rath (german, audiobook)
 - **HH 33 - War Without End: Heresy begets retribution** by VA (german, audiobook)
 - 
 
