@@ -2,7 +2,7 @@
 title: Previously read books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-10-29
+updated: 2024-11-05
 draft: false
 tags:
   - note
@@ -68,7 +68,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Jerusalem's Lot** by Stephen King (german, audiobook)
 - **The Fall of Cadia - Part 1** by Robert Rath (german, audiobook)
 - **HH 33 - War Without End: Heresy begets retribution** by VA (german, audiobook)
-- 
+- **Die Abschaffung des Todes** by Andreas Eschbach (german)
 
 ## 2023
 
