@@ -32,6 +32,6 @@ Dockerized Services:
 	- Media Services (must run on a specific server, for fast local file access)
 		- Jellyfin (movies & series, @datengrab)
 		- Stash (other movies, @datengrab)
-		- Audiobookshelf (audiobooks, )
-		- Navidrome or [similar service](https://github.com/basings/selfhosted-music-overview)
-		- 
+		- Audiobookshelf (audiobooks, @ds918zoy)
+		- Navidrome or [similar service](https://github.com/basings/selfhosted-music-overview) (music, @ds918zoy)
+		- Calibre-web
