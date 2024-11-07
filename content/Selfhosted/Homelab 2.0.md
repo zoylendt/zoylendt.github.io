@@ -29,6 +29,9 @@ VMs & Services (not containerized):
   - TrueNAS Scale 24.10+ with 2TB SSD (2x, on vanadium & neodym)
 
 Dockerized Services:
-  - Media Services (must run on a specific server, for fast local file access)
+	- Media Services (must run on a specific server, for fast local file access)
 		- Jellyfin (movies & series, @datengrab)
-		- Stas
+		- Stash (other movies, @datengrab)
+		- Audiobookshelf (audiobooks, )
+		- Navidrome or [similar service](https://github.com/basings/selfhosted-music-overview)
+		- 
