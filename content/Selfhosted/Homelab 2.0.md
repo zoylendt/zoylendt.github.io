@@ -41,5 +41,5 @@ Dockerized Services:
 			- PDF-Magazines 
 				- -> [Komga](https://komga.org/) -> use for everything except ebooks
 				- or maybe [Inkheart](https://gitlab.com/Nystik/inkheart) (poor performance for big libraries?)
-				- CMS like [Teedy](https://github.com/sismics/docs), [Papermerge](https://github.com/ciur/papermerge) or [Docspell](https://github.com/eikek/docspell)
+				- DMS like [Teedy](https://github.com/sismics/docs), [Papermerge](https://github.com/ciur/papermerge) or [Docspell](https://github.com/eikek/docspell)
 			- exhex
