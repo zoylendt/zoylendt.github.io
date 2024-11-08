@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-11-07
+updated: 2024-11-08
 draft: true
 tags:
   - note
@@ -34,7 +34,7 @@ Dockerized Services:
 		- Stash (other movies, @datengrab)
 		- Audiobookshelf (audiobooks, @ds918zoy)
 		- Navidrome or [similar service](https://github.com/basings/selfhosted-music-overview) (music, @ds918zoy)
-		- (multiple?) eBook/Comic/Manga server
+		- (multiple?) eBook/Comic/Manga server -> Possible services: [1](https://github.com/awesome-selfhosted/awesome-selfhosted?tab=readme-ov-file#document-management---e-books)
 			- ebooks
 			- Comics
 			- Manga

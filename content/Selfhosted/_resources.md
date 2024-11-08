@@ -2,7 +2,7 @@
 title: Homelab related resources
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-08-20
+updated: 2024-11-08
 draft: false
 tags:
   - note
@@ -51,6 +51,7 @@ tags:
 - https://brainbaking.com/
 - https://www.thushanfernando.com/
 - https://note.nkmk.me/en/
+- https://drfrankenstein.co.uk/arrs-media-project/
 
 # Proxmox
 
