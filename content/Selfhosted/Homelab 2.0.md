@@ -35,8 +35,8 @@ Dockerized Services:
 		- Audiobookshelf (audiobooks, @ds918zoy)
 		- Navidrome or [similar service](https://github.com/basings/selfhosted-music-overview) (music, @ds918zoy)
 		- (multiple?) eBook/Comic/Manga server -> Possible services: [1](https://github.com/awesome-selfhosted/awesome-selfhosted?tab=readme-ov-file#document-management---e-books)
-			- ebooks
+			- ebooks -> Calibre & Calibre-web
 			- Comics
 			- Manga
-			- PDF-Magazines
+			- PDF-Magazines -> [Komga](https://komga.org/) -> use for everything except ebooks
 			- exhex
