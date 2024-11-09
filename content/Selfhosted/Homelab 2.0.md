@@ -11,6 +11,10 @@ tags:
  
 Plans for new homelab structure (server & software).
 
+# Inspirations
+
+- [Khue's Homelab](https://github.com/khuedoan/homelab)
+
 Sites/Locations:
   - KV (main)
   - KD (office -> neodym & abcnas)
@@ -43,7 +47,7 @@ Dockerized Services:
 				- or maybe [Inkheart](https://gitlab.com/Nystik/inkheart) (poor performance for big libraries?)
 				- DMS like [Teedy](https://github.com/sismics/docs), [Papermerge](https://github.com/ciur/papermerge) or [Docspell](https://github.com/eikek/docspell)
 			- exhex
-		- File Indexing
+		- File Indexing -> aggregate to central instance
 	- Monitoring
 	- ...
 
