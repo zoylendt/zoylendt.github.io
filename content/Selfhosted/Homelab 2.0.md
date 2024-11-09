@@ -9,7 +9,7 @@ tags:
   - unfinished
 ---
  
-Plans for new homelab structure (server & software)
+Plans for new homelab structure (server & software).
 
 Sites/Locations:
   - KV (main)
@@ -45,4 +45,15 @@ Dockerized Services:
 			- exhex
 		- File Indexing
 	- Monitoring
-	- 
+	- ...
+
+# Software
+
+Plan: IaC -> pull from private GitHub Repo (or public Repo + private secrets?)
+
+Tools:
+	- Ansible and/or Terraform (or OpenTofu)
+	- K3S
+	- standalone Docker on some hosts?
+	- ArgoCD
+	- Linux VMs under Proxmox (with NixOS?)
