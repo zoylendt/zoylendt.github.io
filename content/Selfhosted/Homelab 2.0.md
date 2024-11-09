@@ -18,15 +18,15 @@ Sites/Locations:
   - CD (Cloud -> ceres)
 
 Server:
-  - 3x PVE hosts (titan, vanadium, neodym)
-  - 1x unraid NAS (datengrab)
-  - 3x Synology NAS (ds918zoy, bernstein218, abcnas)
-  - 1x VPS (ceres)
-  - 2x RasPi
+	- 3x PVE hosts (titan, vanadium, neodym)
+	- 1x unraid NAS (datengrab)
+	- 3x Synology NAS (ds918zoy, bernstein218, abcnas)
+	- 1x VPS (ceres)
+	- 2x RasPi
 
 VMs & Services (not containerized):
-  - HomeAssistantOS VM (on titan)
-  - TrueNAS Scale 24.10+ with 2TB SSD (2x, on vanadium & neodym)
+	- HomeAssistantOS VM (on titan)
+	- TrueNAS Scale 24.10+ with 2TB SSD (2x, on vanadium & neodym)
 
 Dockerized Services:
 	- Media Services (should run on a specific server, for fast local file access)
