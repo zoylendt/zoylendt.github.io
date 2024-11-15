@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-11-09
+updated: 2024-11-15
 draft: true
 tags:
   - note
@@ -49,7 +49,9 @@ Dockerized Services:
 			- exhex
 		- File Indexing -> aggregate to central instance
 	- Monitoring
-	- ...
+		- ...
+	- Homepage
+		- ...
 
 # Software
 
