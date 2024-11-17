@@ -13,15 +13,18 @@ Plans for new homelab structure (server & software).
 
 # Inspirations
 
-| ID                         | Links                                                                                                                                            | Topics                                                            | Note                          |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ----------------------------- |
-| Khue's Homelab             | [GH](https://github.com/khuedoan/homelab)                                                                                                        |                                                                   | +                             |
-| Vinetos' Infrastructure    | [GH](https://github.com/Vinetos/infrastructure)                                                                                                  | Proxmox, OPNsense, OpenTofu, Ansible                              | +                             |
-| Lordthorzonus' homelab     | [GH](https://github.com/lordthorzonus/homelab-provisioning)                                                                                      | Ansible, Terraform, K8S                                           | Not a detailed guide          |
-| Dan Manners' Homelab       | [GH](https://github.com/danmanners/homelab-kube-cluster)                                                                                         | K8S, Kustomize, ArgoCD                                            | Not a detailed guide          |
-| Luis' IaC & K8S homelab    | [Blog](https://luislogs.com/posts/re-engineering-the-homelab-with-iac-and-kubernetes-an-overview/), [GH](https://github.com/luifrancisco/k3s-ha) | Proxmox, Terraform, Ansible, K3S, Longhorn, Traefik, Cert-manager | +                             |
-| Ansible-Proxmox-Automation | [GH](https://github.com/Dilden/Ansible-Proxmox-Automation)                                                                                       | Proxmox, Ansible                                                  | Ansible-playbooks for Proxmox |
-|                            |                                                                                                                                                  |                                                                   |                               |
+| ID                          | Links                                                                                                                                            | Topics                                                            | Note                                                                                                                                |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Khue's Homelab              | [GH](https://github.com/khuedoan/homelab)                                                                                                        |                                                                   | +                                                                                                                                   |
+| Vinetos' Infrastructure     | [GH](https://github.com/Vinetos/infrastructure)                                                                                                  | Proxmox, OPNsense, OpenTofu, Ansible                              | +                                                                                                                                   |
+| Lordthorzonus' homelab      | [GH](https://github.com/lordthorzonus/homelab-provisioning)                                                                                      | Ansible, Terraform, K8S                                           | Not a detailed guide                                                                                                                |
+| Dan Manners' Homelab        | [GH](https://github.com/danmanners/homelab-kube-cluster)                                                                                         | K8S, Kustomize, ArgoCD                                            | Not a detailed guide                                                                                                                |
+| Luis' IaC & K8S homelab     | [Blog](https://luislogs.com/posts/re-engineering-the-homelab-with-iac-and-kubernetes-an-overview/), [GH](https://github.com/luifrancisco/k3s-ha) | Proxmox, Terraform, Ansible, K3S, Longhorn, Traefik, Cert-manager | +                                                                                                                                   |
+| Ansible-Proxmox-Automation  | [GH](https://github.com/Dilden/Ansible-Proxmox-Automation)                                                                                       | Proxmox, Ansible                                                  | Ansible-playbooks for Proxmox                                                                                                       |
+| ansible-k3s-argocd-renovate | [GH](https://github.com/reefland/ansible-k3s-argocd-renovate)                                                                                    | K3S, ArgoCD, Ansible, ZFS, Renovate                               | -> Uptime-Labels on GH-pages                                                                                                        |
+| ChristianLempa's homelab    | [GH](https://github.com/ChristianLempa/homelab), [YT](https://www.youtube.com/@christianlempa)                                                   |                                                                   | also: [Boilerplate](https://github.com/christianlempa/boilerplates) & [Cheat Sheet](https://github.com/christianlempa/cheat-sheets) |
+| pezhore Proxmox-Home-Lab    | [GH](https://github.com/pezhore/Proxmox-Home-Lab)                                                                                                | Proxmox, Terraform, Ansible, Vault, Packer                        | Ansible vs Terraform                                                                                                                |
+|                             |                                                                                                                                                  |                                                                   |                                                                                                                                     |
 https://luislogs.com/
 
 
@@ -46,7 +49,8 @@ Server:
 VMs & Services (not containerized):
 	- ControlVM (run Ansible/Terraform/etc from here)
 	- HomeAssistantOS VM (on titan)
-	- TrueNAS Scale 24.10+ with 2TB SSD (2x, on vanadium & neodym) -> not planned anymore
+	- TrueNAS Scale 24.10+ with 2TB SSD (2x, on vanadium & neodym) 
+		- -> not planned anymore, use instead for CEPH or as additional LVM
 
 Dockerized Services:
 	- Media Services (should run on a specific server, for fast local file access)
@@ -96,7 +100,7 @@ Tools:
 Steps required to implement Homelab 2.0
 
 - [ ] Proxmox
-	- [ ] mount 2TB SSDs as additional storage (LVM or LVM-thin) (vanadium & neodym)
+	- [ ] mount 2TB SSDs as additional storage (LVM or LVM-thin - or CEPH?) (vanadium & neodym)
 - [ ] HomeAssistant
 	- [ ] InfluxDB (on separate partition?)
 	- [ ] monitor  power usage
