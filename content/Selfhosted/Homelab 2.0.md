@@ -77,6 +77,8 @@ Tools:
 
 Steps required to implement Homelab 2.0
 
+- [ ] Proxmox
+	- [ ] mount 2TB SSDs as additional LVM (vanadium & neodym)
 - [ ] HomeAssistant
 	- [ ] InfluxDB (on separate partition?)
 	- [ ] monitor  power usage
