@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-11-17
+updated: 2024-11-18
 draft: true
 tags:
   - note
@@ -31,6 +31,9 @@ Sites/Locations:
 
 Server:
 	- 3x PVE hosts (titan, vanadium, neodym)
+		- titan -> always-on, for critical services
+		- vanadium -> main place for worker nodes
+		- neodym -> off-site backup
 	- 1x unraid NAS (datengrab)
 	- 3x Synology NAS (ds918zoy, bernstein218, abcnas)
 	- 1x VPS (ceres)
