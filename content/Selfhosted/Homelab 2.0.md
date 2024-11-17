@@ -29,8 +29,9 @@ Server:
 	- 2x RasPi
 
 VMs & Services (not containerized):
+	- ControlVM (run Ansible/Terraform/etc from here)
 	- HomeAssistantOS VM (on titan)
-	- TrueNAS Scale 24.10+ with 2TB SSD (2x, on vanadium & neodym)
+	- TrueNAS Scale 24.10+ with 2TB SSD (2x, on vanadium & neodym) -> not planned anymore
 
 Dockerized Services:
 	- Media Services (should run on a specific server, for fast local file access)
