@@ -13,13 +13,14 @@ Plans for new homelab structure (server & software).
 
 # Inspirations
 
-- [Khue's Homelab](https://github.com/khuedoan/homelab)
+| ID                      | Links                                                       | Topics                               | Note                 |
+| ----------------------- | ----------------------------------------------------------- | ------------------------------------ | -------------------- |
+| Khue's Homelab          | [GH](https://github.com/khuedoan/homelab)                   |                                      |                      |
+| Vinetos' Infrastructure | [GH](https://github.com/Vinetos/infrastructure)             | Proxmox, OPNsense, OpenTofu, Ansible | +                    |
+| Lordthorzonus' homelab  | [GH](https://github.com/lordthorzonus/homelab-provisioning) | Ansible, Terraform, K8S              | Not a detailed guide |
+| Dan Manners' Homelab    |                                                             |                                      |                      |
 
-
-|     |     |
-| --- | --- |
-|     |     |
-
+# Planned Setup
 
 Sites/Locations:
   - KV (main)
@@ -73,7 +74,7 @@ Dockerized Services:
 
 # Software
 
-Plan: IaC -> pull from private GitHub Repo (or public Repo + private secrets?)
+GOAL: IaC -> pull from private GitHub Repo (or public Repo + private secrets?)
 
 Tools:
 	- Ansible and/or Terraform (or OpenTofu)
@@ -87,7 +88,7 @@ Tools:
 Steps required to implement Homelab 2.0
 
 - [ ] Proxmox
-	- [ ] mount 2TB SSDs as additional LVM (vanadium & neodym)
+	- [ ] mount 2TB SSDs as additional storage (LVM or LVM-thin) (vanadium & neodym)
 - [ ] HomeAssistant
 	- [ ] InfluxDB (on separate partition?)
 	- [ ] monitor  power usage
