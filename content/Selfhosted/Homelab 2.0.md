@@ -71,4 +71,8 @@ Steps required to implement Homelab 2.0
 - [ ] HomeAssistant
 	- [ ] InfluxDB (on separate partition?)
 	- [ ] monitor  power usage
-	- [ ] 
+	- [ ] ...
+- [ ] iPhone
+	- [ ] Sync Obsidioan-git with iPhone [with iSh](https://forum.obsidian.md/t/mobile-sync-with-git-on-ios-for-free-using-ish/20861)
+	- [ ] ...
+- [ ] 
