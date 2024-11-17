@@ -15,6 +15,12 @@ Plans for new homelab structure (server & software).
 
 - [Khue's Homelab](https://github.com/khuedoan/homelab)
 
+
+|     |     |
+| --- | --- |
+|     |     |
+
+
 Sites/Locations:
   - KV (main)
   - KD (office -> neodym & abcnas)
