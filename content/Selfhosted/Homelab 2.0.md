@@ -55,6 +55,8 @@ Dockerized Services:
 		- HDD-monitoring with scrutiny
 		- monitor performance with Prometheus
 		- monitor logs with Loki or ELK
+	- Backup
+		- Use Offen/docker-volume-backup to pCloud (?)
 	- Homepage
 		- ...
 	- other services
