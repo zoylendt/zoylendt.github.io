@@ -48,10 +48,19 @@ Dockerized Services:
 				- DMS like [Teedy](https://github.com/sismics/docs), [Papermerge](https://github.com/ciur/papermerge) or [Docspell](https://github.com/eikek/docspell)
 			- exhex
 		- File Indexing -> aggregate to central instance
+		- File manager
+			- FileBrowser
+			- 
 	- Monitoring
-		- ...
+		- HDD-monitoring with scrutiny
+		- monitor performance with Prometheus
+		- monitor logs with Loki or ELK
 	- Homepage
 		- ...
+	- other services
+		- Tailscale
+		- FactorioServerManager
+		- 
 
 # Software
 
