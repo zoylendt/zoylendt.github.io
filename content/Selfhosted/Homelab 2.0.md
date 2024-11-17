@@ -15,10 +15,11 @@ Plans for new homelab structure (server & software).
 
 | ID                      | Links                                                       | Topics                               | Note                 |
 | ----------------------- | ----------------------------------------------------------- | ------------------------------------ | -------------------- |
-| Khue's Homelab          | [GH](https://github.com/khuedoan/homelab)                   |                                      |                      |
+| Khue's Homelab          | [GH](https://github.com/khuedoan/homelab)                   |                                      | +                    |
 | Vinetos' Infrastructure | [GH](https://github.com/Vinetos/infrastructure)             | Proxmox, OPNsense, OpenTofu, Ansible | +                    |
 | Lordthorzonus' homelab  | [GH](https://github.com/lordthorzonus/homelab-provisioning) | Ansible, Terraform, K8S              | Not a detailed guide |
-| Dan Manners' Homelab    |                                                             |                                      |                      |
+| Dan Manners' Homelab    | [GH](https://github.com/danmanners/homelab-kube-cluster)    | K8S, Kustomize, ArgoCD               | Not a detailed guide |
+|                         |                                                             |                                      |                      |
 
 # Planned Setup
 
