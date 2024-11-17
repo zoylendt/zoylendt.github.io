@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-11-15
+updated: 2024-11-17
 draft: true
 tags:
   - note
@@ -63,3 +63,12 @@ Tools:
 	- standalone Docker on some hosts?
 	- ArgoCD
 	- Linux VMs under Proxmox (with NixOS?)
+
+# Planned Projects
+
+Steps required to implement Homelab 2.0
+
+- [ ] HomeAssistant
+	- [ ] InfluxDB (on separate partition?)
+	- [ ] monitor  power usage
+	- [ ] 
