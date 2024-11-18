@@ -11,6 +11,10 @@ tags:
  
 Plans for new homelab structure (server & software).
 
+# Target
+
+My goal is to implement IaC & GitOps in order to create a reproducible setup.
+
 # Inspirations
 
 | **ID**                      | **Links**                                                                                                                                                                                             | **Topics**                                                        | **Note**                                                                                                                            |
@@ -104,7 +108,7 @@ Steps required to implement Homelab 2.0
 
 - [ ] Proxmox
 	- [ ] mount 2TB SSDs as additional storage (LVM or LVM-thin - or CEPH?) (vanadium & neodym)
-- [ ] HomeAssistant
+- [ ] HomeAssistant -> intended as connection point between physical sensors and IaC-monitoring-stack
 	- [ ] InfluxDB (on separate partition?)
 	- [ ] monitor  power usage
 	- [ ] ...
