@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-11-20
+updated: 2024-11-21
 draft: true
 tags:
   - note
@@ -29,7 +29,7 @@ My goal is to implement IaC & GitOps in order to create a reproducible setup.
 | ChristianLempa's homelab    | [GH](https://github.com/ChristianLempa/homelab), [YT](https://www.youtube.com/@christianlempa)                                                                                                        |                                                                   | also: [Boilerplate](https://github.com/christianlempa/boilerplates) & [Cheat Sheet](https://github.com/christianlempa/cheat-sheets) |
 | pezhore Proxmox-Home-Lab    | [GH](https://github.com/pezhore/Proxmox-Home-Lab)                                                                                                                                                     | Proxmox, Terraform, Ansible, Vault, Packer                        | Ansible vs Terraform                                                                                                                |
 | Lisenet kubernetes-homelab  | [GH](https://github.com/lisenet/kubernetes-homelab), [Blog](https://www.lisenet.com/2021/install-and-configure-a-multi-master-ha-kubernetes-cluster-with-kubeadm-haproxy-and-keepalived-on-centos-7/) | Istio, TrueNAS, K8S, Ansible, Terraform, ...                      | +, Very extensive                                                                                                                   |
-| Gruberdev's Homelab         | [GH](https://github.com/gruberdev/homelab)                                                                                                                                                            | ArgoCD, K8S, Terraform                                            |                                                                                                                                     |
+| Gruberdev's Homelab         | [GH](https://github.com/gruberdev/homelab)                                                                                                                                                            | ArgoCD, K8S, Terraform, Tailscale                                 | Not a detailed guide, interesting cluster utilities, see also [local-gitops](https://github.com/gruberdev/local-gitops)             |
 |                             |                                                                                                                                                                                                       |                                                                   |                                                                                                                                     |
 https://luislogs.com/
 https://www.lisenet.com/
