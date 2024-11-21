@@ -45,6 +45,7 @@ https://thedatabaseme.de/
 https://datastrophic.io/
 https://homelab.blog/
 https://fredrickb.com/
+https://aviitala.com/posts/
 
 # Planned Setup
 
