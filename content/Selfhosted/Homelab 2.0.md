@@ -37,11 +37,14 @@ My goal is to implement IaC & GitOps in order to create a reproducible setup.
 | Gruberdev's Homelab                        | [GH](https://github.com/gruberdev/homelab)                                                                                                                                                            | ArgoCD, K8S, Terraform, Tailscale                                 | Not a detailed guide, interesting cluster utilities, see also [local-gitops](https://github.com/gruberdev/local-gitops)             |
 | Ultimate Kubernetes Homelab Guide          | [Blog](https://datastrophic.io/kubernetes-homelab-with-proxmox-kubeadm-calico-openebs-and-metallb/), [GH](https://github.com/datastrophic/kubernetes-deployment)                                      | Proxmox, K8S, Ansible, Istio                                      | 2021                                                                                                                                |
 | Configuring Istio with OIDC authentication | [Blog](https://homelab.blog/blog/devops/Istio-OIDC-Config/)                                                                                                                                           | Istio                                                             | only about Istio, 2020                                                                                                              |
+| Provisioning with GitHub Runners           | [Blog](https://fredrickb.com/2024/10/14/using-terraform-ansible-and-github-actions-to-automate-provisioning-and-configuration-of-workloads-in-the-homelab/)                                           | Terraform, Ansible, GitHub  Actions, Proxmox, K3S                 | many other good posts in blog                                                                                                       |
+|                                            |                                                                                                                                                                                                       |                                                                   |                                                                                                                                     |
 https://luislogs.com/
 https://www.lisenet.com/
 https://thedatabaseme.de/
 https://datastrophic.io/
 https://homelab.blog/
+https://fredrickb.com/
 
 # Planned Setup
 
