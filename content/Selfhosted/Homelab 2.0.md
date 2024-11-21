@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-11-21
+updated: 2024-11-22
 draft: true
 tags:
   - note
@@ -15,7 +15,10 @@ Plans for new homelab structure (server & software).
 
 My goal is to implement IaC & GitOps in order to create a reproducible setup.
 
-- 
+- [ ] **IaC & GitOps** 
+      Control/Update the stack through a git repo
+- [ ] **FQDN**
+      Each service' subdomain should be externally accessible through a reverse proxy
 
 # Inspirations
 
