@@ -15,6 +15,8 @@ Plans for new homelab structure (server & software).
 
 My goal is to implement IaC & GitOps in order to create a reproducible setup.
 
+- 
+
 # Inspirations
 
 | **ID**                                     | **Links**                                                                                                                                                                                             | **Topics**                                                        | **Note**                                                                                                                            |
