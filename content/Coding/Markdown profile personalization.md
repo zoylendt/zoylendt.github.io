@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-07-26
+updated: 2024-11-23
 draft: false
 tags:
   - note
@@ -10,11 +10,25 @@ tags:
   - unfinished
 ---
 
-Some thoughts about how a markdown profile can be personalized. -> https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme
+# Introduction
 
-- https://github.com/kittinan/spotify-github-profile
-- https://github.com/Platane/snk
-- 
+This note is a list of ways to embed external/dynamic information on a markdown page, like this blog or a GitHub Readme.
+
+https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme
+
+# Spotify widget
+
+https://github.com/kittinan/spotify-github-profile
+
+# GitHub commits as an animated Snake game
+
+https://github.com/Platane/snk
+
+# Dynamic widgets with custom data
+
+
+
+---
 
 
 ```
