@@ -6,6 +6,7 @@ import { SimpleSlug } from "./quartz/util/path"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.LinksHeader()],
+  afterBody: [],
   footer: Component.Footer({
     links: {
       "This site's GitHub repo": "https://github.com/zoylendt/zoylendt.github.io",
