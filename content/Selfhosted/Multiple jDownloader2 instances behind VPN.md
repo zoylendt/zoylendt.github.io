@@ -26,7 +26,7 @@ tags:
 > 		- According to [this issue](https://github.com/qdm12/gluetun/issues/231) it should support random exit servers.
 > 		- This might be possible through the [optional environment variables](https://github.com/qdm12/gluetun-wiki/blob/main/setup/providers/protonvpn.md#optional-environment-variables)
 > 
-> Since I'm anyway planning to migrate to a [[Homelab 2.0 | K3S based homelab setup]] soon I'm going to create a similar setup within K3S.
+> Since I'm anyway planning to migrate to a [[Homelab 2.0 | K3S based homelab setup]] soon I'm going to create a similar setup within K3S. [Here](https://github.com/qdm12/gluetun-wiki/pull/7) is the sidecar documentation for [qdm12/gluetun](https://github.com/qdm12/gluetun)
  
 Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads).
 
