@@ -20,6 +20,7 @@ tags:
 > 	- The development on [walterl/proton-privoxy](https://github.com/walterl/proton-privoxy/) seems to be stale too - neither an [experimental killswitch feature](https://github.com/walterl/proton-privoxy/pull/41) nor an [ip6tables fix](https://github.com/walterl/proton-privoxy/pull/64) have been merged.
 > 	- Wireguard instead of OpenVPN is probably not a good option for this random server selection because with ProtonVPN each Wireguard exit server uses its own private key and/or peer address (see [here](https://github.com/qdm12/gluetun-wiki/blob/main/setup/providers/protonvpn.md#tldr)). 
 > 		- This also impacts [tprasadtp/protonvpn-docker](https://github.com/tprasadtp/protonvpn-docker), a Wireguard ProtonVPN implementation thus only suitable for a single exit server.
+> 		- [ingestbot/randomizer](https://github.com/ingestbot/randomizer) also has currently only Wireguard support. (**Very interesting python project!**)
 > 		- [bubuntux/protorrent](https://github.com/bubuntux/protorrent), a qBtittorrent client with ProtonVPN's Wireguard built in.
 > 	- It might be possible to replace [walterl/proton-privoxy](https://github.com/walterl/proton-privoxy/) with [qdm12/gluetun](https://github.com/qdm12/gluetun)
 > 		- ...
