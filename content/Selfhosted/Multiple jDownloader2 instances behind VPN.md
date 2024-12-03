@@ -12,7 +12,7 @@ tags:
   - guide
 ---
 
-> [!warning]- **This setup currently doesn't work with ProtonVPN**
+> [!warning]- **This setup doesn't work with ProtonVPN anymore as of 2024-12-03**
 > ...
  
 Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads).
