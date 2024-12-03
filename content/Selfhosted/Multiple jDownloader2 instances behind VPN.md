@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-19
 publishDate: 2024-05-19
-updated: 2024-06-07
+updated: 2024-12-03
 draft: false
 tags:
   - note
@@ -11,6 +11,9 @@ tags:
   - syncthing
   - guide
 ---
+
+> [!warning]- **This setup currently doesn't work with ProtonVPN**
+> ...
  
 Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads).
 
@@ -24,9 +27,9 @@ Currently I use five parallel jd2 instances, each behind its own VPN container. 
 The following different containers are part of this setup:
 
 - `walt3rl/proton-privoxy` ([GitHub](https://github.com/walterl/proton-privoxy), [DockerHub](https://hub.docker.com/r/walt3rl/proton-privoxy)) -> I use this since my VPN provider is ProtonVPN, however they plan to [sunset the method used here soon(ish)](https://github.com/Rafficer/linux-cli-community/issues/365#issuecomment-1994194066), as discussed [here](https://github.com/walterl/proton-privoxy/issues/46) for `walt3rl/proton-privoxy`, including a [fix](https://github.com/walterl/proton-privoxy/pull/47). In the future some other container might be required, maybe [gluetun](https://github.com/qdm12/gluetun). In order to work best, this setup requires a VPN container that selects an exit server at random upon restart.
-- `plusminus/jdownloader2-headless` ([GitHub](https://github.com/PlusMinus0/headless-jd2-docker), [DockerHub](https://hub.docker.com/r/plusminus/jdownloader2-headless)) -> Despite not been updated in a long time, this container worked best for me. The regular updates of jD2 are installed upon container restart. **This image is not available for `linux/arm64`!**
+- `plusminus/jdownloader2-headless` ([GitHub](https://github.com/PlusMinus0/headless-jd2-docker), [DockerHub](https://hub.docker.com/r/plusminus/jdownloader2-headless)) -> Despite not been updated in a long time, this container worked best for me. The regular updates of jD2 are installed upon container restart.
 
-  >[!info]- Build `jdownloader2-headless` on RasPi
+  >[!info]- **This image is not available for `linux/arm64`!** -> build `jdownloader2-headless` on RasPi
   > ```shell 
   > git clone https://github.com/PlusMinus0/headless-jd2-docker
   > cd headless-jd2-docker/
