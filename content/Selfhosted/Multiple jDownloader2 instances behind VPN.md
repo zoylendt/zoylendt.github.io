@@ -13,7 +13,7 @@ tags:
 ---
 
 > [!warning]- **This setup doesn't work with ProtonVPN anymore as of 2024-12-03**
-> ...
+> This setup depends on a 'company' VPN container for each jD2 container. For this I chose [walterl/proton-privoxy](https://github.com/walterl/proton-privoxy/) since it has a feature to randomly select an exit server. This container depends on the [community implementation]() of the 
  
 Here I describe the setup I came up with in order to use multiple jDownloader2 instances in parallel on the same machine. With it you can bypass the by many [One-click hosters](https://en.wikipedia.org/wiki/File-hosting_service#One-click_hosting) enforced limit that prevents multiple simultaneous downloads (or enforces a waiting period between downloads).
 
