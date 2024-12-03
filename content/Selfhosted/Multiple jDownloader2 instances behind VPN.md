@@ -16,11 +16,14 @@ tags:
 > This setup depends on a 'company' VPN container for each jD2 container. For this I chose [walterl/proton-privoxy](https://github.com/walterl/proton-privoxy/) since it has a feature to randomly select an exit server. This container depends on the [(stale) community CLI implementation](https://github.com/Rafficer/linux-cli-community/) of the ProtonVPN API to work. Since March 2024 the issues with this tool have been increasing (for reasons explained [here](https://github.com/Rafficer/linux-cli-community/issues/365#issuecomment-2003323442)) and it's going to stop working soon due to [dropped support from ProtonVPN](https://github.com/Rafficer/linux-cli-community/issues/365#issuecomment-1993906815). The Implications of this for [walterl/proton-privoxy](https://github.com/walterl/proton-privoxy/) are discussed [here](https://github.com/walterl/proton-privoxy/issues/46#issuecomment-1997361231) and below.
 > 
 > Some notes about replacing/fixing these issues:
-> 	- Instead of using the community CLI it's possible to pull the required data from the [public ProtonVPN API](https://api.protonmail.ch/vpn/logicals) as suggested [here](https://github.com/walterl/proton-privoxy/issues/46#issuecomment-1997923319).
+> 	- Instead of using the community CLI it's possible to get the required exit server information from the [public ProtonVPN API](https://api.protonmail.ch/vpn/logicals) as suggested [here](https://github.com/walterl/proton-privoxy/issues/46#issuecomment-1997923319).
 > 	- The development on [walterl/proton-privoxy](https://github.com/walterl/proton-privoxy/) seems to be stale too - neither an [experimental killswitch](https://github.com/walterl/proton-privoxy/pull/41) nor an [ip6tables fix](https://github.com/walterl/proton-privoxy/pull/64) feature have been merged.
+> 	- Wireguard instead of OpenVPN is probably not a good option for this random server selection because with ProtonVPN each Wireguard exit server uses its own private key and/or peer address (see [here](https://github.com/qdm12/gluetun-wiki/blob/main/setup/providers/protonvpn.md#tldr)). 
+> 		- This also impacts [tprasadtp/protonvpn-docker](https://github.com/tprasadtp/protonvpn-docker), a Wireguard ProtonVPN implementation thus only suitable for a single exit server.
+> 		- [bubuntux/protorrent](https://github.com/bubuntux/protorrent), a qBtittorrent client with ProtonVPN's Wireguard built in.
 > 	- It might be possible to replace [walterl/proton-privoxy](https://github.com/walterl/proton-privoxy/) with [qdm12/gluetun](https://github.com/qdm12/gluetun)
 > 		- ...
-> 		- Wireguard instead of OpenVPN is probably not an option for this 
+> 		- ...
 > 
 > Since I'm anyway planning to migrate to a [[Homelab 2.0 | K3S based homelab setup]] soon I'm going to create a similar setup within K3S.
  
