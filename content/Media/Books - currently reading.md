@@ -2,7 +2,7 @@
 title: Currently Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-10-20
+updated: 2024-12-04
 draft: false
 tags:
   - note
@@ -23,11 +23,9 @@ tags:
 
 - **Python - Der Grundkurs** by Michael Kofler (german)
 - **Station Eternity** by Mur Lafferty (english)
-- **Ancillary Mercy (Imperial Radch #3)** by Ann Leckie (german)
 - **Spinning Silver** by Naomi Novik (german)
-- **Echopraxia** by Peter Watts (german)
 - **Gridlinked (Polis #1)** by Neal Asher (german)
-- 
+- **Blindsight (Firefall #1)** by Peter Watts (german)
 
 ## Manga & Comics
 
@@ -42,9 +40,11 @@ tags:
 ## Books & audiobooks
 
 - **Dark Imperium 1-3 (anthology)** by Guy Haley (german)
-- **Soul Hunter** by Aaron Dembski-Bowden (audiobook)
+- **Soul Hunter** by Aaron Dembski-Bowden (german, audiobook)
 - **Inquisitor 1-3** by Ian Watson (german)
 - **Red Moon** by Kim Stanley Robinson (german)
+- **Echopraxia (Firefall #2)** by Peter Watts (german)
+- **Ancillary Mercy (Imperial Radch #3)** by Ann Leckie (german)
 
 ## Manga & Comics
 
