@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "This site's GitHub repo": "https://github.com/zoylendt/zoylendt.github.io",
-//      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "eMail (base64): em95bGVuZHRAcHJvdG9uLm1l": "https://www.base64decode.org/",
     },
   }),
 }
