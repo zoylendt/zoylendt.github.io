@@ -54,6 +54,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
           minutes: Math.ceil(minutes),
         })
         segments.push(<span>{displayedTime}</span>)
+        readingTimeStr = `${_words} words, ${displayedTime}`
       }
 
       return (
