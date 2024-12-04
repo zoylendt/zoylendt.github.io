@@ -30,24 +30,12 @@ The main drawback of changing core components of Quartz is, that upstream change
 
 The inspirations for most changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase). See the [commit history](https://github.com/jackyzha0/quartz/commits/v4/docs/showcase.md) for recent additions.
 
-| Site                                     | Feature     | Code available                                        | Added to this site | Details |
-| ---------------------------------------- | ----------- | ----------------------------------------------------- | ------------------ | ------- |
-| [Notesko](https://notes.camargomau.com/) | LinksHeader | [GitHub](https://github.com/camargomau/notkesto-site) | not anymore        |         |
-|                                          |             |                                                       |                    |         |
-|                                          |             |                                                       |                    |         |
+| Feature                    | Site                                                | Code available                                                                                 | Added to this site | Details                       |
+| -------------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------ | ----------------------------- |
+| LinksHeader                | [Notesko](https://notes.camargomau.com/)            | [GitHub](https://github.com/camargomau/notkesto-site)                                          | not anymore        | used too much space on mobile |
+| Animated image (mouseover) | [Topo Damente](https://www.pmcf.xyz/topo-da-mente/) | [GitHub](https://github.com/search?q=repo%3Afreenandes%2Ftopo-da-mente%20gate%20svg&type=code) | no                 | very complicated              |
+|                            |                                                     |                                                                                                |                    |                               |
 
-
-
-
-I have incorporated these changes into my instance:
-
-- ...
-- ...
-
-Some other modifications that caught my interest, but which I did not include in my instance:
-
-- ...
-- ...
 
 ---
 
