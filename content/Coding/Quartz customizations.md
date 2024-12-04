@@ -32,30 +32,34 @@ The inspirations for most changes come from the [Quartz Showcases](https://quart
 
 It's also useful to check out how features look on mobile before implementing them.
 
+More helpful resources:
+	- https://quartz.eilleeenz.com/Quartz-Snippets
+
 ## Config Changes (little to none code changes necessary)
 
 These 'features' require (almost) no new code, only intended config changes. It is likely that these changes will keep working after merging newer Quartz commits from upstream.
 
-| 'Feature'                    |     |     |     |     |
-| ---------------------------- | --- | --- | --- | --- |
-| Custom blog title & base URL |     |     |     |     |
-| Custom footer                |     |     |     |     |
-|                              |     |     |     |     |
+| 'Feature'                    | Site | Code available |     |     |
+| ---------------------------- | ---- | -------------- | --- | --- |
+| Custom blog title & base URL |      |                |     |     |
+| Custom footer                |      |                |     |     |
+|                              |      |                |     |     |
 
 ## New Features (more code changes necessary)
 
 These features require relatively much new code and might break when updating to a newer Quartz version (by merging newer commits).
 
-| Feature                                    | Site(s)                                             | Code available                                                                                 | Added to this site | Details                       |
-| ------------------------------------------ | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------ | ----------------------------- |
-| LinksHeader                                | [Notesko](https://notes.camargomau.com/)            | [GitHub](https://github.com/camargomau/notkesto-site)                                          | not anymore        | used too much space on mobile |
-| Animated image (mouseover)                 | [Topo Damente](https://www.pmcf.xyz/topo-da-mente/) | [GitHub](https://github.com/search?q=repo%3Afreenandes%2Ftopo-da-mente%20gate%20svg&type=code) | no                 | very complicated              |
-| Tags in right column                       | [Topo Damente](https://www.pmcf.xyz/topo-da-mente/) | [GitHub](https://github.com/freenandes/topo-da-mente)                                          | yes                |                               |
-| Update Date (next to Publish Date)         |                                                     |                                                                                                | yes                |                               |
-| Site-specific git links below Publish Date |                                                     |                                                                                                | yes                |                               |
-| Dark Mode toggle in right column           |                                                     |                                                                                                |                    |                               |
-| Navbar (and mobile hamurger menu)          | [The Pond](https://turntrout.com/design)            | [GitHub](https://github.com/search?q=repo%3Aalexander-turner%2FTurnTrout.com+navbar&type=code) | no                 |                               |
-|                                            |                                                     |                                                                                                |                    |                               |
+| Feature                                      | Site                                                                                                        | Code available                                                                                                                                                                                                | Added to this site | Details                       |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ----------------------------- |
+| LinksHeader                                  | [Notesko](https://notes.camargomau.com/)                                                                    | [GitHub](https://github.com/camargomau/notkesto-site)                                                                                                                                                         | not anymore        | used too much space on mobile |
+| Animated image (mouseover)                   | [Topo Damente](https://www.pmcf.xyz/topo-da-mente/)                                                         | [GitHub](https://github.com/search?q=repo%3Afreenandes%2Ftopo-da-mente%20gate%20svg&type=code)                                                                                                                | no                 | very complicated              |
+| Tags in right column                         | [Topo Damente](https://www.pmcf.xyz/topo-da-mente/)                                                         | [GitHub](https://github.com/freenandes/topo-da-mente)                                                                                                                                                         | yes                |                               |
+| Update Date (next to Publish Date)           |                                                                                                             |                                                                                                                                                                                                               | yes                |                               |
+| Site-specific git links below Publish Date   |                                                                                                             |                                                                                                                                                                                                               | yes                |                               |
+| Dark Mode toggle in right column             |                                                                                                             |                                                                                                                                                                                                               |                    |                               |
+| Navbar (and mobile hamurger menu)            | [The Pond](https://turntrout.com/design)                                                                    | [GitHub](https://github.com/search?q=repo%3Aalexander-turner%2FTurnTrout.com+navbar&type=code)                                                                                                                | no                 |                               |
+| Link to random page & scroll to top (footer) | [Morrowind Modding Wiki](https://morrowind-modding.github.io/) & [eilleeenz](https://quartz.eilleeenz.com/) | [GitHub](https://github.com/morrowind-modding/morrowind-modding.github.io/blob/main/quartz/components/Footer.tsx) & [GitHub](https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/Footer.tsx) |                    |                               |
+|                                              |                                                                                                             |                                                                                                                                                                                                               |                    |                               |
 
 
 ---
