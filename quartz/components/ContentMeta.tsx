@@ -37,12 +37,12 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
         if (fileData.dates.created) {
           cfg.defaultDateType = "created"
-          createdSegment = formatDate(getDate(cfg, fileData)!)
+          createdSegment = Date(getDate(cfg, fileData)!)
         }
 
         if (fileData.dates.modified) {
           cfg.defaultDateType = "modified"
-          modifiedSegment = formatDate(getDate(cfg, fileData)!)
+          modifiedSegment = Date(getDate(cfg, fileData)!)
         }
       }
 
