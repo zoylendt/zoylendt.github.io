@@ -54,7 +54,7 @@ These features require relatively much new code and might break when updating to
 | Update Date (next to Publish Date)         |                                                     |                                                                                                | yes                |                               |
 | Site-specific git links below Publish Date |                                                     |                                                                                                | yes                |                               |
 | Dark Mode toggle in right column           |                                                     |                                                                                                |                    |                               |
-|                                            |                                                     |                                                                                                |                    |                               |
+| Navbar (and mobile hamurger menu)          | [The Pond](https://turntrout.com/design)            | [GitHub](https://github.com/search?q=repo%3Aalexander-turner%2FTurnTrout.com+navbar&type=code) | no                 |                               |
 |                                            |                                                     |                                                                                                |                    |                               |
 
 
