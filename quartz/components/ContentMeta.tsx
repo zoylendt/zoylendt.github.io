@@ -27,63 +27,26 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     const text = fileData.text
 
     if (text) {
-      var modifiedSegment: string = ""
-      var createdSegment: string = ""
-      const fileRelativePath = fileData.filePath
-      //const segments: (string | JSX.Element)[] = []
+      const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
-        //const cfgDefaultDataType = cfg.defaultDateType // For backward compatibility, just in case this is used somewhere else by the original author
-
-        if (fileData.dates.created) {
-          cfg.defaultDateType = "created"
-          createdSegment = formatDate(getDate(cfg, fileData)!)
-        }
-
-        if (fileData.dates.modified) {
-          cfg.defaultDateType = "modified"
-          modifiedSegment = formatDate(getDate(cfg, fileData)!)
-        }
-
-        cfg.defaultDateType = cfgDefaultDataType
       }
 
-
       // Display reading time if enabled
-      var readingTimeStr: string = ""
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
-        // segments.push(<span>{displayedTime}</span>)
-        readingTimeStr = `${_words} words, ${displayedTime}`
+        segments.push(<span>{displayedTime}</span>)
       }
 
-      //Created: &nbsp;{createdSegment} <br /> 
-      return (
-        <p class={classNames(displayClass, "content-meta")}>
-          {readingTimeStr} <br />
-          Created {createdSegment} & updated {modifiedSegment} <br /> 
-          🌟 <a href={`https://github.com/zoylendt/zoylendt.github.io/blob/v4/${fileRelativePath}?plain=1`} class={classNames(displayClass, "external")} target={"_blank"} style={"font-weight:400"}>
-            Code<svg class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg>
-          </a> &nbsp;
-          📄 <a href={`https://github.com/zoylendt/zoylendt.github.io/raw/v4/${fileRelativePath}`} class={classNames(displayClass, "external")} target={"_blank"} style={"font-weight:400"}>
-            Raw.md<svg class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg>
-          </a> &nbsp;
-          🗓️ <a href={`https://github.com/zoylendt/zoylendt.github.io/commits/v4/${fileRelativePath}`} class={classNames(displayClass, "external")} target={"_blank"} style={"font-weight:400"}>
-            History<svg class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg>
-          </a>
-        </p>
-      )
-
-      /*const segmentsElements = segments.map((segment) => <span>{segment}</span>)
       return (
         <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
           {segments}
         </p>
-      )*/
+      )
     } else {
       return null
     }
