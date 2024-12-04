@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-06-10
+updated: 2024-12-04
 draft: false
 tags:
   - note
@@ -441,3 +441,15 @@ ls -alh
 ---
 
 ![[https://vid.pr0gramm.com/2023/08/31/78a26ec28455bd0d.mp4]]
+
+---
+
+# My recent posts
+
+![[recent#^recent-posts-listing]]
+
+If you want, [try going a little further back](/recent) to see all of my posts.
+
+# Explore by tag
+
+![[all-tags#^all-tags-listing]]

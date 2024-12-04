@@ -1,7 +1,7 @@
 ---
 title: Customize your Quartz instance
 date: 2024-02-07
-updated: 2024-08-10
+updated: 2024-12-04
 publishDate: 2024-02-07
 draft: false
 tags:
@@ -28,17 +28,35 @@ The main drawback of changing core components of Quartz is, that upstream change
 
 # Inspirations from other Quartz instances
 
-The inspirations for most changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase).
+The inspirations for most changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase). See the [commit history](https://github.com/jackyzha0/quartz/commits/v4/docs/showcase.md) for recent additions.
 
-I have incorporated these changes into my instance:
+It's also useful to check out how features look on mobile before implementing them.
 
-- ...
-- ...
+## Config Changes (little to none code changes necessary)
 
-Some other modifications that caught my interest, but which I did not include in my instance:
+These 'features' require (almost) no new code, only intended config changes. It is likely that these changes will keep working after merging newer Quartz commits from upstream.
 
-- ...
-- ...
+| 'Feature'                    |     |     |     |     |
+| ---------------------------- | --- | --- | --- | --- |
+| Custom blog title & base URL |     |     |     |     |
+| Custom footer                |     |     |     |     |
+|                              |     |     |     |     |
+
+## New Features (more code changes necessary)
+
+These features require relatively much new code and might break when updating to a newer Quartz version (by merging newer commits).
+
+| Feature                                    | Site(s)                                             | Code available                                                                                 | Added to this site | Details                       |
+| ------------------------------------------ | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------ | ----------------------------- |
+| LinksHeader                                | [Notesko](https://notes.camargomau.com/)            | [GitHub](https://github.com/camargomau/notkesto-site)                                          | not anymore        | used too much space on mobile |
+| Animated image (mouseover)                 | [Topo Damente](https://www.pmcf.xyz/topo-da-mente/) | [GitHub](https://github.com/search?q=repo%3Afreenandes%2Ftopo-da-mente%20gate%20svg&type=code) | no                 | very complicated              |
+| Tags in right column                       | [Topo Damente](https://www.pmcf.xyz/topo-da-mente/) | [GitHub](https://github.com/freenandes/topo-da-mente)                                          | yes                |                               |
+| Update Date (next to Publish Date)         |                                                     |                                                                                                | yes                |                               |
+| Site-specific git links below Publish Date |                                                     |                                                                                                | yes                |                               |
+| Dark Mode toggle in right column           |                                                     |                                                                                                |                    |                               |
+|                                            |                                                     |                                                                                                |                    |                               |
+|                                            |                                                     |                                                                                                |                    |                               |
+
 
 ---
 
@@ -59,18 +77,12 @@ Some other modifications that caught my interest, but which I did not include in
   - Have some links on the top of each page, like here: https://notes.camargomau.com/ -> [GitHub](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/LinksHeader.tsx#L15)
   - Change font (and make chapter titles all uppercase), like here: https://www.pmcf.xyz/topo-da-mente/ -> front name: [Lexend](https://www.lexend.com/)
   - Show `Most recent notes` in left layout part, like here: https://www.pmcf.xyz/topo-da-mente/
-  - Move Darkmode toggle to right layout part, like here: https://notes.yxy.ninja/
+  - Move Dark Mode toggle to right layout part, like here: https://notes.yxy.ninja/
   - remove only tag #note from global graph
   - move tags to right column
   - remove tags from 'Recent Notes'
   - remove specific tagged notes from recent notes: https://zanca.dev/blog/quartz#setting-up-quartz
   - ...
-
-Sadly, some Quartz blogs haven't documented their changes:
-
-  - Animated image when hovering over, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented) -> https://github.com/search?q=repo%3Afreenandes%2Ftopo-da-mente%20gate%20svg&type=code
-  - Move tags to right layout part, like here: https://www.pmcf.xyz/topo-da-mente/ (not documented)
-  - -> https://github.com/freenandes/topo-da-mente 
 
 missing:
   - graph- und explorer exclude
@@ -91,7 +103,6 @@ Finished:
   - Explorer customization
   - Graph customization
   - Desktop and mobile specific layout changes
-  - LinksHeader -> [GitHub](https://github.com/search?q=repo%3Acamargomau%2Fnotkesto-site%20linksheader&type=code)
   - 
 
 Missing:
