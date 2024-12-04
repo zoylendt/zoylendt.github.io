@@ -37,12 +37,12 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
         if (fileData.dates.created) {
           cfg.defaultDateType = "created"
-          createdSegment = Date(getDate(cfg, fileData)!)
+          createdSegment = segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
         }
 
         if (fileData.dates.modified) {
           cfg.defaultDateType = "modified"
-          modifiedSegment = Date(getDate(cfg, fileData)!)
+          modifiedSegment = segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
         }
       }
 
