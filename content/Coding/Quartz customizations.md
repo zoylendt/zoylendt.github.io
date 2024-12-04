@@ -36,11 +36,11 @@ It's also useful to check out how features look on mobile before implementing th
 
 These 'features' require (almost) no new code, only intended config changes. It is likely that these changes will keep working after merging newer Quartz commits from upstream.
 
-| 'Feature'         |     |     |     |     |
-| ----------------- | --- | --- | --- | --- |
-| Custom blog title |     |     |     |     |
-| Custom footer     |     |     |     |     |
-|                   |     |     |     |     |
+| 'Feature'                    |     |     |     |     |
+| ---------------------------- | --- | --- | --- | --- |
+| Custom blog title & base URL |     |     |     |     |
+| Custom footer                |     |     |     |     |
+|                              |     |     |     |     |
 
 ## New Features (more code changes necessary)
 
