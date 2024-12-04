@@ -1,7 +1,7 @@
 ---
 title: Customize your Quartz instance
 date: 2024-02-07
-updated: 2024-08-10
+updated: 2024-12-04
 publishDate: 2024-02-07
 draft: false
 tags:
@@ -28,7 +28,16 @@ The main drawback of changing core components of Quartz is, that upstream change
 
 # Inspirations from other Quartz instances
 
-The inspirations for most changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase).
+The inspirations for most changes come from the [Quartz Showcases](https://quartz.jzhao.xyz/showcase). See the [commit history](https://github.com/jackyzha0/quartz/commits/v4/docs/showcase.md) for recent additions.
+
+| Site                                     | Feature     | Code available                                        | Added to this site | Details |
+| ---------------------------------------- | ----------- | ----------------------------------------------------- | ------------------ | ------- |
+| [Notesko](https://notes.camargomau.com/) | LinksHeader | [GitHub](https://github.com/camargomau/notkesto-site) | not anymore        |         |
+|                                          |             |                                                       |                    |         |
+|                                          |             |                                                       |                    |         |
+
+
+
 
 I have incorporated these changes into my instance:
 
