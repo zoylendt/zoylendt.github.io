@@ -32,6 +32,20 @@ The inspirations for most changes come from the [Quartz Showcases](https://quart
 
 It's also useful to check out how features look on mobile before implementing them.
 
+## Config Changes (little to none code changes necessary)
+
+These 'features' require (almost) no new code, only intended config changes. It is likely that these changes will keep working after merging newer Quartz commits from upstream.
+
+| 'Feature'         |     |     |     |     |
+| ----------------- | --- | --- | --- | --- |
+| Custom blog title |     |     |     |     |
+| Custom footer     |     |     |     |     |
+|                   |     |     |     |     |
+
+## New Features (more code changes necessary)
+
+These features require relatively much new code and might break when updating to a newer Quartz version (by merging newer commits).
+
 | Feature                                    | Site(s)                                             | Code available                                                                                 | Added to this site | Details                       |
 | ------------------------------------------ | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------ | ----------------------------- |
 | LinksHeader                                | [Notesko](https://notes.camargomau.com/)            | [GitHub](https://github.com/camargomau/notkesto-site)                                          | not anymore        | used too much space on mobile |
