@@ -457,24 +457,24 @@ If you want, [try going a little further back](/recent) to see all of my posts.
 ---
 
 <details>
-  <summary>Click me</summary>
-	### Some Typescript
-	```ts {5-7} title="quartz.config.ts"
-	  theme: {
-	    fontOrigin: "googleFonts",
-	    cdnCaching: true,
-	    typography: {
-	      header: "Sedan SC",
-	      body: "Lexend",
-	      code: "JetBrains Mono",
-	    },
-	```
+  <summary>Click me 1</summary>
+  ### Some Typescript
+  ```ts {5-7} title="quartz.config.ts"
+    theme: {
+      fontOrigin: "googleFonts",
+      cdnCaching: true,
+      typography: {
+        header: "Sedan SC",
+        body: "Lexend",
+        code: "JetBrains Mono",
+      },
+  ```
 </details>
 
 ---
 
 <details>
-  <summary>Click me</summary>
+  <summary>Click me 2</summary>
   
   ### Heading
   1. Foo
@@ -487,5 +487,27 @@ If you want, [try going a little further back](/recent) to see all of my posts.
   function logSomething(something) {
     console.log('Something', something);
   }
+  ```
+</details>
+
+---
+
+<details>
+  <summary>Click me 3</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Javascript
+  ```ts {3-4} title="quartz.layout.ts"
+  footer: Component.Footer({
+    links: {
+      GitHub: "https://github.com/jackyzha0/quartz",
+      "Discord Community": "https://discord.gg/cRFFHYye7t",
+    },
+  }),
   ```
 </details>
