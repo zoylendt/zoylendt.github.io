@@ -39,6 +39,15 @@ A list of my all time favorite books :)
 - **Great North Road** by Peter F. Hamilton
 - **Otherland (series)** by Tad Williams
 - **The Zombie Survival Guide** by Max Brooks
+- **Scholomance (series)** by Naomi Novik
+- **Starter Villain** by John Scalzi
+- **Uprooted** by Naomi Novik
+- **The Murderbot Diaries (series)** by Martha Wells
+- **The Martian** by Andy Weir
+- **Artemis** by Andy Weir
+- **Project Hail Mary** by Andy Weir
+- **House of Suns** by Alastair Reynolds
+- **Snow Crash** by Neal Stephenson
 
 # Warhammer 40K
 

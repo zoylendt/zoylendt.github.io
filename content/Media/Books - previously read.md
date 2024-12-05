@@ -35,7 +35,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **HH 25 - Mark of Calth** by VA (german, audiobook)
 - **The Kaiju Preservation Society** by John Scalzi (german)
 - **Scholomance 1-3** by Naomi Novik (german)
-- **Three Parts Dead** by Max Gladstone (german)
+- **Three Parts Dead (The Craft Sequence #1)** by Max Gladstone (german)
 - **Ascension** by Nicholas Binge (german)
 - **Mickey 7 (Mickey 7 #1)** by Edward Ashton (german)
 - **Starter Villain** by John Scalzi (english)
@@ -59,7 +59,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **Antimatter Blues (Mickey 7 #2)** by Edward Ashton (german)
 - **Gideon the Ninth (The Locked Tomb #1)** by Tamsyn Muir (german)
 - **Harrow the Ninth (The Locked Tomb #2)** by Tamsyn Muir (german)
-- **House of Suns**  by Alastair Reynolds (german)
+- **House of Suns** by Alastair Reynolds (german)
 - **Nona the Ninth (The Locked Tomb #3)** by Tamsyn Muir (english)
 - **Warboss** by Mike Brooks (german)
 - **Ilium (Ilium/Olympos #1)** by Dan Simmons (german)
@@ -80,7 +80,6 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 
 ## Noteworthy Books From Before 2023
 
-- **Project Hail Mary** by Andy Weir
 - **Snow Crash** by Neal Stephenson
 - **Starship Troopers** by Robert A. Heinlein
 - **Forever War** by Joe Haldeman
