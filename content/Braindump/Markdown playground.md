@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-12-05
+updated: 2024-12-06
 draft: false
 tags:
   - note
@@ -458,6 +458,7 @@ If you want, [try going a little further back](/recent) to see all of my posts.
 
 <details>
   <summary>Click me 1</summary>
+  bla
   ### Some Typescript
   ```ts {5-7} title="quartz.config.ts"
     theme: {
@@ -469,6 +470,7 @@ If you want, [try going a little further back](/recent) to see all of my posts.
         code: "JetBrains Mono",
       },
   ```
+  blub
 </details>
 
 ---
