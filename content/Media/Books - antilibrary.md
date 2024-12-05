@@ -111,7 +111,7 @@ Some come also from the [Goodreads Choice Awards](https://www.goodreads.com/choi
 - **Folly** by Naomi Novik (TBA)
 - **Revenant-X (Red Space #2)** by David Wellington (5th Nov 2024)
 - **Cold Eternity** by S. A. Barnes (8th Apr 2025)
-- **The River Has Roots** by Amal El-Mohtar ()
+- **The River Has Roots** by Amal El-Mohtar (4th Mar 2025)
 - **The Horusian Wars #3** by John French (maybe [cancelled](https://www.reddit.com/r/40kLore/comments/tr0lnr/is_there_word_on_whether_french_is_going_to/)?)
 
 ## Recommendations from friends
