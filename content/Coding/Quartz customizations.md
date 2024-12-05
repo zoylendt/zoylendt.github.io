@@ -1,7 +1,7 @@
 ---
 title: Customize your Quartz instance
 date: 2024-02-07
-updated: 2024-12-05
+updated: 2024-12-06
 publishDate: 2024-02-07
 draft: false
 tags:
@@ -69,6 +69,10 @@ These features require relatively much new code and might break when updating to
 | 'Most Recent' only on start page                                 |                                                                                                                 |                                                                                                                                                                                                               |                    |                               |
 | Icon ('#') with link to all tags (next to search)                | [airbyte.com](https://glossary.airbyte.com/)                                                                    | [GitHub](https://github.com/airbytehq/glossary)                                                                                                                                                               |                    | old Quartz version            |
 
+# Current Issues
+
+- code block copy function doesn't work
+- Dark/light mode toggle doesn't function
 
 ---
 
