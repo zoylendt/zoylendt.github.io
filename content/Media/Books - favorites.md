@@ -2,7 +2,7 @@
 title: Favorite books
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-07-26
+updated: 2024-12-05
 draft: false
 tags:
   - note
@@ -28,7 +28,7 @@ A list of my all time favorite books :)
 - **Diaspora** by Greg Egan
 - **Hyperion Cantos (series)** by Dan Simmons
 - **Necropolis (and other 'Gaunts Ghosts' books)** by Dan Abnett
-- **Eisenhorn (series)** by Dan Abnett
+- **Eisenhorn, Ravenor & Bequin (series)** by Dan Abnett
 - **The Solar War (and other 'Siege of Terra' books)** by John French
 - **Mechanicum (Horus Heresy #9)** by Graham McNeill
 - **The Zombie Survival Guide** by Max Brooks
