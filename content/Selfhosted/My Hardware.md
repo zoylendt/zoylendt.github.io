@@ -38,6 +38,7 @@ tags:
 
 Used image: 
   Name: ClockworkPi-CM4-Bookworm-6.6.60.img.xz
+  Date: added 224-11-09 
   Size: 1138020624 Bytes : 1085 MiB
   SHA256: 74744a0720c0af38b64f22855da25c4ca2134c85c76ed95a7867069bded11fda
   Written to 64GB µSD with RPi-Imager v1.9.0, no custom options
