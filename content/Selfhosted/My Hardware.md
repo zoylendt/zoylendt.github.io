@@ -3,7 +3,7 @@ title:
 description: <Description of the page used for link previews>
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-12-05
+updated: 2024-12-06
 draft: false
 tags:
   - note
@@ -35,6 +35,13 @@ tags:
 ### uConsole
 
 [Custom Debian image](https://forum.clockworkpi.com/t/bookworm-6-6-y-for-the-uconsole-and-devterm/13235)
+
+Used image: 
+  Name: ClockworkPi-CM4-Bookworm-6.6.60.img.xz
+  Size: 1138020624 Bytes : 1085 MiB
+  SHA256: 74744a0720c0af38b64f22855da25c4ca2134c85c76ed95a7867069bded11fda
+  Written to 64GB µSD with RPi-Imager v1.9.0, no custom options
+
 
 ### datengrab
 
