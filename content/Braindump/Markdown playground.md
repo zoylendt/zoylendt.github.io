@@ -458,6 +458,7 @@ If you want, [try going a little further back](/recent) to see all of my posts.
 
 <details>
   <summary>Click me 1</summary>
+  
   bla
   ### Some Typescript
   ```ts {5-7} title="quartz.config.ts"
