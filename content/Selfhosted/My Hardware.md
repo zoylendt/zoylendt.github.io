@@ -3,7 +3,7 @@ title:
 description: <Description of the page used for link previews>
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-10-09
+updated: 2024-12-05
 draft: false
 tags:
   - note
@@ -31,6 +31,10 @@ tags:
 ## Detailed information
 
 ...
+
+### uConsole
+
+[Custom Debian image](https://forum.clockworkpi.com/t/bookworm-6-6-y-for-the-uconsole-and-devterm/13235)
 
 ### datengrab
 
