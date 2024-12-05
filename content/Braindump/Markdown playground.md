@@ -458,17 +458,15 @@ If you want, [try going a little further back](/recent) to see all of my posts.
 
 <details>
   <summary>Click me</summary>
-  <ul>
-### Some Typescript
-```ts {5-7} title="quartz.config.ts"
-  theme: {
-    fontOrigin: "googleFonts",
-    cdnCaching: true,
-    typography: {
-      header: "Sedan SC",
-      body: "Lexend",
-      code: "JetBrains Mono",
-    },
-```
-</ul>
+	### Some Typescript
+	```ts {5-7} title="quartz.config.ts"
+	  theme: {
+	    fontOrigin: "googleFonts",
+	    cdnCaching: true,
+	    typography: {
+	      header: "Sedan SC",
+	      body: "Lexend",
+	      code: "JetBrains Mono",
+	    },
+	```
 </details>
