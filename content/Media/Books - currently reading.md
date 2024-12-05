@@ -2,7 +2,7 @@
 title: Currently Reading
 date: 2024-05-24
 publishDate: 2024-05-24
-updated: 2024-12-04
+updated: 2024-12-05
 draft: false
 tags:
   - note
@@ -25,7 +25,6 @@ tags:
 - **Station Eternity** by Mur Lafferty (english)
 - **Spinning Silver** by Naomi Novik (german)
 - **Gridlinked (Polis #1)** by Neal Asher (german)
-- **Blindsight (Firefall #1)** by Peter Watts (german)
 
 ## Manga & Comics
 

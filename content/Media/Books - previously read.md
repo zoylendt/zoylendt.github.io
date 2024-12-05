@@ -69,6 +69,7 @@ https://www.goodreads.com/review/list/54071762?shelf=read
 - **The Fall of Cadia - Part 1** by Robert Rath (german, audiobook)
 - **HH 33 - War Without End: Heresy begets retribution** by VA (german, audiobook)
 - **Die Abschaffung des Todes** by Andreas Eschbach (german)
+- **Blindsight (Firefall #1)** by Peter Watts (german)
 
 ## 2023
 
