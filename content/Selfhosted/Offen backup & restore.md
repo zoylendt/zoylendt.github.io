@@ -2,7 +2,7 @@
 title: Backup & restore Docker volumes with Offen
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-06-05
+updated: 2024-12-04
 draft: false
 tags:
   - note
