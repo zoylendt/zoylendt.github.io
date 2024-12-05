@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-12-04
+updated: 2024-12-05
 draft: false
 tags:
   - note
@@ -453,3 +453,22 @@ If you want, [try going a little further back](/recent) to see all of my posts.
 # Explore by tag
 
 ![[all-tags#^all-tags-listing]]
+
+---
+
+<details>
+  <summary>Click me</summary>
+  <ul>
+### Some Typescript
+```ts {5-7} title="quartz.config.ts"
+  theme: {
+    fontOrigin: "googleFonts",
+    cdnCaching: true,
+    typography: {
+      header: "Sedan SC",
+      body: "Lexend",
+      code: "JetBrains Mono",
+    },
+```
+</ul>
+</details>
