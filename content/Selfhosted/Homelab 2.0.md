@@ -2,14 +2,14 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-11-22
+updated: 2024-12-06
 draft: true
 tags:
   - note
   - unfinished
 ---
  
-Plans for new homelab structure (server & software).
+Plans for my new homelab structure (server & software).
 
 # Target
 
