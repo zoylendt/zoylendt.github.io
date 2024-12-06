@@ -514,3 +514,16 @@ If you want, [try going a little further back](/recent) to see all of my posts.
   }),
   ```
 </details>
+
+---
+
+(with template)
+
+
+<details>
+  <summary>[Click me] default</summary>
+  
+  ```shell {3-4} title="quartz.layout.ts"
+  codeblock
+  ```
+</details>
