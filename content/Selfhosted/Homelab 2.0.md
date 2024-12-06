@@ -3,7 +3,7 @@ title:
 date: 2024-11-01
 publishDate: 2024-11-01
 updated: 2024-12-06
-draft: true
+draft: false
 tags:
   - note
   - unfinished
@@ -127,4 +127,23 @@ Steps required to implement Homelab 2.0
 - [ ] iPhone
 	- [ ] Sync Obsidioan-git with iPhone [with iSh](https://forum.obsidian.md/t/mobile-sync-with-git-on-ios-for-free-using-ish/20861)
 	- [ ] ...
-- [ ] 
+- [ ] .
+
+# Resources
+
+## K8S and Tailscale
+
+- https://tailscale.com/kb/1185/kubernetes
+- 
+
+## K3S and Tailscale
+
+- https://devops.stackexchange.com/questions/19394/how-to-setup-a-k3s-cluster-on-netbird-or-tailscale
+- https://www.reddit.com/r/k3s/comments/18x370t/cross_cloud_k3s_cluster/
+  - https://itnext.io/how-to-deploy-a-single-kubernetes-cluster-across-multiple-clouds-using-k3s-and-wireguard-a5ae176a6e81
+- https://angrydome.com/posts/k3s_tailscale/
+- 
+
+## General K3S resources
+
+- https://docs.k3s.io/architecture
