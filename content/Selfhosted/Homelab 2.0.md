@@ -144,6 +144,8 @@ Steps required to implement Homelab 2.0
 - https://angrydome.com/posts/k3s_tailscale/
 - https://docs.k3s.io/networking/distributed-multicloud#integration-with-the-tailscale-vpn-provider-experimental
 - https://blog.dsb.dev/posts/accessing-my-k3s-cluster-from-anywhere-with-tailscale/
+- https://jamhed.net/tech/self-hosting/k3s/
+- https://haseebmajid.dev/posts/2023-12-20-til-how-to-use-tailscale-to-connect-to-k3s-pi-cluster/
 
 ## General K3S resources
 
