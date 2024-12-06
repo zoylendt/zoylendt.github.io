@@ -534,3 +534,23 @@ If you want, [try going a little further back](/recent) to see all of my posts.
   ```
   text b
 </details>
+
+---
+
+(with template 2)
+
+
+<details>
+  <summary>[Click me] default</summary>
+  
+[guide](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
+text a
+```shell {3-4} title="quartz.layout.ts"
+line 1
+line 2
+line 3
+line 4
+line 5
+```
+text b
+</details>
