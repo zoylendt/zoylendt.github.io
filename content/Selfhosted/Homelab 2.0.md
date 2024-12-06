@@ -142,8 +142,13 @@ Steps required to implement Homelab 2.0
 - https://www.reddit.com/r/k3s/comments/18x370t/cross_cloud_k3s_cluster/
   - https://itnext.io/how-to-deploy-a-single-kubernetes-cluster-across-multiple-clouds-using-k3s-and-wireguard-a5ae176a6e81
 - https://angrydome.com/posts/k3s_tailscale/
-- 
+- https://docs.k3s.io/networking/distributed-multicloud#integration-with-the-tailscale-vpn-provider-experimental
+- https://blog.dsb.dev/posts/accessing-my-k3s-cluster-from-anywhere-with-tailscale/
 
 ## General K3S resources
 
 - https://docs.k3s.io/architecture
+
+## Other notes
+
+- https://github.com/tailscale/terraform-provider-tailscale
