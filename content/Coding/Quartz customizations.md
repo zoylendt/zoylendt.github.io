@@ -1,7 +1,7 @@
 ---
 title: Customize your Quartz instance
 date: 2024-02-07
-updated: 2024-12-06
+updated: 2024-12-11
 publishDate: 2024-02-07
 draft: false
 tags:
@@ -39,11 +39,13 @@ More helpful resources:
 
 These 'features' require almost no new code, only intended config changes. It is likely that these changes will keep working after merging newer Quartz commits from upstream.
 
-| 'Feature'                    | Site                                  | Code available                                                                                                              | Official Doc |     |
-| ---------------------------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------ | --- |
-| Custom blog title & base URL |                                       |                                                                                                                             |              |     |
-| Custom footer                | [yxy.ninja](https://notes.yxy.ninja/) | [GitHub](https://github.com/xy-241/CS-Notes/blob/413f1324e0b87b54800e80e3ae0c7489e970c63a/quartz/components/Footer.tsx#L22) |              |     |
-|                              |                                       |                                                                                                                             |              |     |
+| 'Feature'                      | Site                                  | Code available                                                                                                              | Official Doc |     |
+| ------------------------------ | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------ | --- |
+| Custom blog title & base URL   |                                       |                                                                                                                             |              |     |
+| Custom footer                  | [yxy.ninja](https://notes.yxy.ninja/) | [GitHub](https://github.com/xy-241/CS-Notes/blob/413f1324e0b87b54800e80e3ae0c7489e970c63a/quartz/components/Footer.tsx#L22) |              |     |
+| Change layout of starting page |                                       |                                                                                                                             |              |     |
+|                                |                                       |                                                                                                                             |              |     |
+|                                |                                       |                                                                                                                             |              |     |
 
 ## New Features (more code changes necessary)
 
