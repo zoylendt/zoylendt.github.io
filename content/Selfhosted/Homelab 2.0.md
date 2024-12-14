@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-12-06
+updated: 2024-12-14
 draft: false
 tags:
   - note
@@ -118,8 +118,21 @@ Tools:
 
 Steps required to implement Homelab 2.0
 
-- [ ] Proxmox
-	- [ ] mount 2TB SSDs as additional storage (LVM or LVM-thin - or CEPH?) (vanadium & neodym)
+- Stage 1: Proxmox
+  - [ ] Automate Proxmox bare metal node setup with Terraform/OpenTofu (optional since I already have them set up)
+  - [ ] Document 'ControlVM', from where commands are run
+  - [ ] Customize Proxmox installation (e.g. Tailscale)
+    - Tailscale
+    - mount 2TB SSDs as additional storage (LVM or LVM-thin - or CEPH?) (vanadium & neodym)
+  - [ ] Deploy VMs for K3S with Terraform/OpenTofu (or Ansible)
+- Stage 2: K3S
+  - [ ] ...
+- Stage 3: external Services (outside of K3S cluster)
+  - HomeAssistant (VM on PVE 'titan')
+    - [ ] InfluxDB (on separate partition?)
+	- [ ] monitor  power usage
+  - Synology NAS ''
+
 - [ ] HomeAssistant -> intended as connection point between physical sensors and IaC-monitoring-stack
 	- [ ] InfluxDB (on separate partition?)
 	- [ ] monitor  power usage
