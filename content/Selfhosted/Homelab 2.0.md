@@ -86,7 +86,7 @@ Dockerized Services:
 				- or maybe [Inkheart](https://gitlab.com/Nystik/inkheart) (poor performance for big libraries?)
 				- DMS like [Teedy](https://github.com/sismics/docs), [Papermerge](https://github.com/ciur/papermerge) or [Docspell](https://github.com/eikek/docspell)
 			- exhex
-		- File Indexing -> aggregate to central instance
+		- Diskover (File Indexing -> aggregate to central instance)
 		- File manager
 			- FileBrowser
 			- 
