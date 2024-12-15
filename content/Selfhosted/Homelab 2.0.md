@@ -108,11 +108,13 @@ Dockerized Services:
 GOAL: IaC -> pull from private GitHub Repo (or public Repo + private secrets?)
 
 Tools:
-	- Ansible and/or Terraform (or OpenTofu)
+	- Ansible
+	- Terraform (or OpenTofu)
 	- K3S
 	- standalone Docker on some hosts?
-	- ArgoCD
+	- ArgoCD with Hashicorp Vault
 	- Linux VMs under Proxmox (with NixOS?)
+	- Longhorn
 
 # Planned Project Steps
 
