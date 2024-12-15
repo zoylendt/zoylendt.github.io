@@ -131,12 +131,13 @@ Steps required to implement Homelab 2.0
   - HomeAssistant (VM on PVE 'titan')
     - [ ] InfluxDB (on separate partition?)
 	- [ ] monitor  power usage
-  - Synology NAS ''
+  - Synology NAS 'ds918oy'
+    - [ ] ...
+  - unraid NAS 'datengrab'
+    - [ ] ...
 
-- [ ] HomeAssistant -> intended as connection point between physical sensors and IaC-monitoring-stack
-	- [ ] InfluxDB (on separate partition?)
-	- [ ] monitor  power usage
-	- [ ] ...
+
+
 - [ ] iPhone
 	- [ ] Sync Obsidioan-git with iPhone [with iSh](https://forum.obsidian.md/t/mobile-sync-with-git-on-ios-for-free-using-ish/20861)
 	- [ ] ...
