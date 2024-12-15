@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-12-14
+updated: 2024-12-15
 draft: false
 tags:
   - note
@@ -130,11 +130,17 @@ Steps required to implement Homelab 2.0
 - Stage 3: external Services (outside of K3S cluster)
   - HomeAssistant (VM on PVE 'titan')
     - [ ] InfluxDB (on separate partition?)
-	- [ ] monitor  power usage
+	- [ ] monitor power usage of homelab
   - Synology NAS 'ds918oy'
     - [ ] ...
   - unraid NAS 'datengrab'
+    - [ ] Jellyfin
     - [ ] ...
+  - other devices & services
+    - [ ] WebUI's of PVE hosts
+    - [ ] Nous A5T WebUI
+    - [ ] Unifi Controller
+    - [ ] AdGuardHome-VM
 
 
 
