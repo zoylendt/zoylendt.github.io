@@ -10,6 +10,11 @@ tags:
   - synology
 ---
 
+# Introduction
+
+...
+
+# Docker-compose setup
 
 <details>
   <summary>[Click me] docker-compose.yaml</summary>
@@ -80,6 +85,9 @@ The default username is `diskover` with the password `darkdata`, a custom passwo
 
 
 ## Manually creating indices
+
+> [!warning]
+> With the Community Edition of diskover, only one index can be viewed/analyzed at given time.
 
 If the connection to the `elasticsearch` container works, the message `No completed indices found in Elasticsearch. Run a crawl and after it finishes reload select indices page.` should be displayed after login.
 
