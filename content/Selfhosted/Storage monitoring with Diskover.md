@@ -16,7 +16,7 @@ tags:
   
 [original docker-compose.yaml from linuxserver.io](https://docs.linuxserver.io/images/docker-diskover/#docker-compose-recommended-click-here-for-more-info)  
 text a  
-```yaml {6-8,12-14,16,29-31,37-39,4} title="docker-compose.yaml"
+```yaml {6-8,12-14,16,29-31,37-39,41} title="docker-compose.yaml"
 services:
   diskover:
     image: lscr.io/linuxserver/diskover
