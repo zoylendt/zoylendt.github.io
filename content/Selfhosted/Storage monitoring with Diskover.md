@@ -77,8 +77,12 @@ volumes:
 
 The default username is `diskover` with the password `darkdata`, a custom password must be set upon first login.
 
+## Manually creating indices
+
 After starting the stack, at least one index has to be created manually as described in the [Application Setup](https://docs.linuxserver.io/images/docker-diskover/#application-setup). In our case we create two indices by running the following commands from the host:
 ```shell
 docker exec -u abc -it diskover python3 /app/diskover/diskover.py -i diskover-index_share1 /data/share1
 docker exec -u abc -it diskover python3 /app/diskover/diskover.py -i diskover-index_share2 /data/share2
 ```
+
+## Update indices via cronjob
