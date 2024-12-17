@@ -77,7 +77,11 @@ volumes:
 
 The default username is `diskover` with the password `darkdata`, a custom password must be set upon first login.
 
+
+
 ## Manually creating indices
+
+If the connection to the `elasticsearch` container works, the message `No completed indices found in Elasticsearch. Run a crawl and after it finishes reload select indices page.` should be displayed after login.
 
 After starting the stack, at least one index has to be created manually as described in the [Application Setup](https://docs.linuxserver.io/images/docker-diskover/#application-setup). In our case we create two indices by running the following commands from the host:
 ```shell
