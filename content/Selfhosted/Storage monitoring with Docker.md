@@ -8,6 +8,7 @@ tags:
   - note
   - unfinished
   - synology
+  - docker
 ---
 
 # Introduction
@@ -18,6 +19,10 @@ A list of solutions I'll cover here:
 - [Diskover](https://github.com/diskoverdata/diskover-community)
 - [sist2](https://github.com/simon987/sist2)
 - [Doku](https://github.com/amerkurev/doku)
+
+Sadly [Voidtool's Everything](https://www.voidtools.com/) doesn't run in Linux ([yet](https://www.voidtools.com/forum/viewtopic.php?t=11820)).  
+Alternatively Everything offers a [WebUI](https://www.voidtools.com/support/everything/http/) -> Idea: mount shares to a minimal Windows VM and expose port.  
+And there are also [alternative tools](https://www.reddit.com/r/software/comments/t5n3cm/everything_for_linux/) for Linux.
 
 # Diskover
 
