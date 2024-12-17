@@ -14,7 +14,14 @@ tags:
 
 ...
 
-# Docker-compose setup
+A list of solutions I'll cover here:
+- [Diskover](https://github.com/diskoverdata/diskover-community)
+- [sist2](https://github.com/simon987/sist2)
+- [Doku](https://github.com/amerkurev/doku)
+
+# Diskover
+
+## Docker-compose setup
 
 <details>
   <summary>[Click me] docker-compose.yaml</summary>
@@ -78,13 +85,13 @@ volumes:
 ```
 </details>
 
-# First start
+## First start
 
 The default username is `diskover` with the password `darkdata`, a custom password must be set upon first login.
 
 
 
-## Manually creating indices
+### Manually creating indices
 
 > [!warning]
 > With the Community Edition of diskover, only one index can be viewed/analyzed at given time.
@@ -97,4 +104,4 @@ docker exec -u abc -it diskover python3 /app/diskover/diskover.py -i diskover-in
 docker exec -u abc -it diskover python3 /app/diskover/diskover.py -i diskover-index_share2 /data/share2
 ```
 
-## Update indices via cronjob
+### Update indices via cronjob
