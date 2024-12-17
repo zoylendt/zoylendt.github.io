@@ -14,7 +14,7 @@ tags:
 <details>
   <summary>[Click me] docker-compose.yaml</summary>
   
-[guide](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)  
+[original docker-compose.yaml from linuxserver.io](https://docs.linuxserver.io/images/docker-diskover/#docker-compose-recommended-click-here-for-more-info)  
 text a  
 ```yaml {6-8,12-14,16,29-31,37-39,4} title="docker-compose.yaml"
 services:
@@ -72,3 +72,9 @@ volumes:
     name: diskover_esdata
 ```
 </details>
+
+After starting the stack, at least one index has to be created manually as described in the [Application Setup](https://docs.linuxserver.io/images/docker-diskover/#application-setup). In our case we create two indices by running the following commands from the host:
+```shell
+docker exec -u abc -d diskover python3 /app/diskover/diskover.py -i index_share1 /data/share1
+docker exec -u abc -d diskover python3 /app/diskover/diskover.py -i index_share2 /data/share2
+```
