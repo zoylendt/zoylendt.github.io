@@ -22,7 +22,8 @@ A list of solutions I'll cover here:
 
 Sadly [Voidtool's Everything](https://www.voidtools.com/) doesn't run in Linux ([yet](https://www.voidtools.com/forum/viewtopic.php?t=11820)).  
 Alternatively Everything offers a [WebUI](https://www.voidtools.com/support/everything/http/) -> Idea: mount shares to a minimal Windows VM and expose port.  
-And there are also [alternative tools](https://www.reddit.com/r/software/comments/t5n3cm/everything_for_linux/) for Linux.
+Or with [this container](https://hub.docker.com/r/fensoft/everything-efu-gen) an EFU index file can be generated, that Everything can then ingest.  
+And there are also [alternative tools](https://www.reddit.com/r/software/comments/t5n3cm/everything_for_linux/) for Linux, like [FSearch](https://blog.benyamin.xyz/2023/04/15/fsearch-everything-voidtools-alternative-for-linux/).
 
 # Diskover
 
