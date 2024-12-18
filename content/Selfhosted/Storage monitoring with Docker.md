@@ -32,9 +32,9 @@ Only suitable for local files:
 # Diskover
 
 > [!warning]
-> [Most features](https://diskoverdata.com/solutions/) of Diskover are NOT available in the free Community Edition, noticeably Analytics functions (File Tree, Treemap, Heatmap, ...), tagging files, export to JSON/CSV, checksums etc.
-> However even the Community Edition has a nice dashboard, a (regex) search, many filet options (size, date, file type) and helps identifying large folders.
-> Also Disjover doesn't index the content of iles or does OCR
+> [Most features](https://diskoverdata.com/solutions/) of Diskover are NOT available in the free Community Edition, noticeably Analytics functions (File Tree, Treemap, Heatmap, ...), tagging files, export to JSON/CSV, checksums etc.  
+> However even the Community Edition has a nice dashboard, a (regex) search, many filet options (size, date, file type) and helps identifying large folders.  
+> Also Diskover doesn't index the content of files or does OCR on them.
 
 ...
 
