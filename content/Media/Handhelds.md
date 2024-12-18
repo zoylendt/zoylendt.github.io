@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-06-03
+updated: 2024-12-18
 draft: true
 tags:
   - note
@@ -11,12 +11,14 @@ tags:
 
 A compilation of handheld gaming devices I own and notes about their OS, software and configurations.
 
+Website to compare devices: [retrocatalog.com](https://retrocatalog.com/)
+
 # Overview
 
 - SteamDeck
-- Miyoo-mini
-- Miyoo-mini +
-- PowKiddy RGB30
+- [Miyoo Mini](https://retrocatalog.com/retro-handhelds/miyoo-mini)
+- [Miyoo Mini Plus](https://retrocatalog.com/retro-handhelds/miyoo-mini-plus)
+- [PowKiddy RGB30](https://retrocatalog.com/retro-handhelds/powkiddy-rgb30)
 - PowKiddy Q90
 - Anbernic RG350
 
