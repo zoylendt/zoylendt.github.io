@@ -2,7 +2,7 @@
 title: 
 date: 2024-12-16
 publishDate: 2024-12-16
-updated: 2024-12-17
+updated: 2024-12-18
 draft: false
 tags:
   - note
@@ -18,12 +18,16 @@ tags:
 A list of solutions I'll cover here:
 - [Diskover](https://github.com/diskoverdata/diskover-community)
 - [sist2](https://github.com/simon987/sist2)
-- [Doku](https://github.com/amerkurev/doku)
 
-Sadly [Voidtool's Everything](https://www.voidtools.com/) doesn't run in Linux ([yet](https://www.voidtools.com/forum/viewtopic.php?t=11820)).  
-Alternatively Everything offers a [WebUI](https://www.voidtools.com/support/everything/http/) -> Idea: mount shares to a minimal Windows VM and expose port.  
-Or with [this container](https://hub.docker.com/r/fensoft/everything-efu-gen) an EFU index file can be generated, that Everything can then ingest.  
-And there are also [alternative tools](https://www.reddit.com/r/software/comments/t5n3cm/everything_for_linux/) for Linux, like [FSearch](https://blog.benyamin.xyz/2023/04/15/fsearch-everything-voidtools-alternative-for-linux/).
+Only suitable for local files:
+- [Doku](https://github.com/amerkurev/doku)
+- [Glances](https://github.com/nicolargo/glances)
+
+> [!info] [Voidtool's Everything](https://www.voidtools.com/)
+> Sadly [Voidtool's Everything](https://www.voidtools.com/) doesn't run in Linux ([yet](https://www.voidtools.com/forum/viewtopic.php?t=11820)).  
+> Alternatively Everything offers a [WebUI](https://www.voidtools.com/support/everything/http/) -> Idea: mount shares to a minimal Windows VM and expose port.  
+> Or with [this container](https://hub.docker.com/r/fensoft/everything-efu-gen) an EFU index file can be generated, that Everything can then ingest.  
+> And there are also [alternative tools](https://www.reddit.com/r/software/comments/t5n3cm/everything_for_linux/) for Linux, like [FSearch](https://blog.benyamin.xyz/2023/04/15/fsearch-everything-voidtools-alternative-for-linux/).
 
 # Diskover
 
