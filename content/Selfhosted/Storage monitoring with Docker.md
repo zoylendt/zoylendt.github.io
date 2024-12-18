@@ -31,10 +31,15 @@ Only suitable for local files:
 
 # Diskover
 
+> [!warning]
+> [Most features](https://diskoverdata.com/solutions/) of Diskover are not available in the free Community Edition, noticeably Analytics functions (File Tree, Treemap, Heatmap, ...)
+
+...
+
 ## Docker-compose setup
 
 <details>
-  <summary>[Click me] docker-compose.yaml</summary>
+  <summary>[Click me] **docker-compose.yaml**</summary>
   
 [original docker-compose.yaml from linuxserver.io](https://docs.linuxserver.io/images/docker-diskover/#docker-compose-recommended-click-here-for-more-info)  
 text a  
@@ -104,7 +109,8 @@ The default username is `diskover` with the password `darkdata`, a custom passwo
 ### Manually creating indices
 
 > [!warning]
-> With the Community Edition of diskover, only one index can be viewed/analyzed at given time.
+> With the Community Edition of Diskover, only one index can be viewed/analyzed at given time.
+> It might be good to mount each share/folder that should be watched in a separate subfolder in `/data` and create a single index over `/data`
 
 If the connection to the `elasticsearch` container works, the message `No completed indices found in Elasticsearch. Run a crawl and after it finishes reload select indices page.` should be displayed after login.
 
