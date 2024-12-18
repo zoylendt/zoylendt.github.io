@@ -24,7 +24,7 @@ Only suitable for local files:
 - [Glances](https://github.com/nicolargo/glances)
 
 > [!info] [Voidtool's Everything](https://www.voidtools.com/)
-> Sadly [Voidtool's Everything](https://www.voidtools.com/) doesn't run in Linux ([yet](https://www.voidtools.com/forum/viewtopic.php?t=11820)).  
+> Sadly [Voidtool's Everything](https://www.voidtools.com/) doesn't run on Linux ([yet](https://www.voidtools.com/forum/viewtopic.php?t=11820)).  
 > Alternatively Everything offers a [WebUI](https://www.voidtools.com/support/everything/http/) -> Idea: mount shares to a minimal Windows VM and expose port.  
 > Or with [this container](https://hub.docker.com/r/fensoft/everything-efu-gen) an EFU index file can be generated, that Everything can then ingest.  
 > And there are also [alternative tools](https://www.reddit.com/r/software/comments/t5n3cm/everything_for_linux/) for Linux, like [FSearch](https://blog.benyamin.xyz/2023/04/15/fsearch-everything-voidtools-alternative-for-linux/).
@@ -32,7 +32,9 @@ Only suitable for local files:
 # Diskover
 
 > [!warning]
-> [Most features](https://diskoverdata.com/solutions/) of Diskover are not available in the free Community Edition, noticeably Analytics functions (File Tree, Treemap, Heatmap, ...)
+> [Most features](https://diskoverdata.com/solutions/) of Diskover are NOT available in the free Community Edition, noticeably Analytics functions (File Tree, Treemap, Heatmap, ...), tagging files, export to JSON/CSV, checksums etc.
+> However even the Community Edition has a nice dashboard, a (regex) search, many filet options (size, date, file type) and helps identifying large folders.
+> Also Disjover doesn't index the content of iles or does OCR
 
 ...
 
@@ -110,7 +112,10 @@ The default username is `diskover` with the password `darkdata`, a custom passwo
 
 > [!warning]
 > With the Community Edition of Diskover, only one index can be viewed/analyzed at given time.
-> It might be good to mount each share/folder that should be watched in a separate subfolder in `/data` and create a single index over `/data`
+> It might be good to mount each share/folder that should be watched in a separate subfolder in `/data` and create a single index over `/data` with
+> ```shell
+> docker exec -u abc -d diskover python3 /app/diskover/diskover.py -i diskover-hostname /data
+> ```
 
 If the connection to the `elasticsearch` container works, the message `No completed indices found in Elasticsearch. Run a crawl and after it finishes reload select indices page.` should be displayed after login.
 
