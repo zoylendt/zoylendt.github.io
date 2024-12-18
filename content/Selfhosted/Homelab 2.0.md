@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-12-15
+updated: 2024-12-18
 draft: false
 tags:
   - note
@@ -128,6 +128,7 @@ Steps required to implement Homelab 2.0
     - mount 2TB SSDs as additional storage (LVM or LVM-thin - or CEPH?) (vanadium & neodym)
   - [ ] Deploy VMs for K3S with Terraform/OpenTofu (or Ansible)
 - Stage 2: K3S
+  - [ ] (Idea) a K3S worker node as VM in unraid with mounted folders (& GPU?) for local actions
   - [ ] ...
 - Stage 3: external Services (outside of K3S cluster)
   - HomeAssistant (VM on PVE 'titan')
