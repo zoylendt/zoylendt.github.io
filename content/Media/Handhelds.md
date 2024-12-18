@@ -15,17 +15,20 @@ Website to compare devices: [retrocatalog.com](https://retrocatalog.com/)
 
 # Overview
 
-- SteamDeck
+- [SteamDeck](https://retrocatalog.com/retro-handhelds/steam-deck)
 - [Miyoo Mini](https://retrocatalog.com/retro-handhelds/miyoo-mini)
 - [Miyoo Mini Plus](https://retrocatalog.com/retro-handhelds/miyoo-mini-plus)
 - [PowKiddy RGB30](https://retrocatalog.com/retro-handhelds/powkiddy-rgb30)
-- PowKiddy Q90
-- Anbernic RG350
+- [Anbernic RG350](https://retrogamecorps.com/2020/08/18/rg35-buying-guide/#What)
+- [PowKiddy Q90](https://retrogamecorps.com/2021/02/27/review-powkiddy-q90/)
+
+Wishlist:  
+- [Anbernic RG-406H](https://retrocatalog.com/retro-handhelds/rg-406h)
 
 # Online resources
 
 - https://retrogamecorps.com/
-- ...
+- [retrocatalog.com](https://retrocatalog.com/)
 
 # Powkiddy RGB30
 
