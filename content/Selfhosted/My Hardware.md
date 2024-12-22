@@ -60,7 +60,7 @@ Setup Notes:
 
 | ==Position== | ==Size== | ==Model ID==          | ==Serial number==    | ==Unraid ID== | ==SATA cable== | ==Manufacturer, Model==                                              | ==Comment==                                                                                                                                                            |
 | ------------ | -------- | --------------------- | -------------------- | ------------- | -------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1            | 12TB     | ST12000VN0007         | ZJV1T2Q3             | Disk 3, sdf   | R1             | [Seagate IronWolf receritfied](https://www.amazon.de/dp/B084WLXWXD/) | only 2 screws, [insurance until 2028-xx](...)                                                                                                                          |
+| 1            | 12TB     | ST12000VN0007         | ZJV1T2Q3             | Disk 3, sdf   | R1             | [Seagate IronWolf receritfied](https://www.amazon.de/dp/B084WLXWXD/) | only 2 screws, [insurance until 2028-12-15](https://www.amazon.de/gp/your-account/order-details?ie=UTF8&orderID=305-1686162-1449121)                                   |
 | 2            | 12TB     | ST12000VN0007         | ZJV0P4MY             | Disk 4, sdi   | R2             | [Seagate IronWolf receritfied](https://www.amazon.de/dp/B084WLXWXD/) | only 2 screws, [insurance until 2028-09-26](https://www.amazon.de/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o01?ie=UTF8&orderID=028-1706085-5276362) |
 | 3            | 12TB     | WDC_WD120EDAZ         | 5PK8UN0F             | Disk 6, sdg   | R3             | Western Digital                                                      |                                                                                                                                                                        |
 | 4            | 12TB     | WDC_WD120EDBZ         | 5QH17XNF             | Disk 7, sdk   | R4             | Western Digital                                                      |                                                                                                                                                                        |
@@ -71,7 +71,7 @@ Setup Notes:
 | 9 (x)        | 4TB      | WDC_WD40EZRZ          | WCC7K0CA1EJ6         | Disk 2, sde   | black          | Western Digital                                                      | 'WD_Charlie', very old                                                                                                                                                 |
 | 10 (y)       | 4TB      | WDC_WD40EZRZ          | WCC7K0YNADYX         | Disk 1, sdd   | black          | Western Digital                                                      | 'WD_Bravo', very old                                                                                                                                                   |
 | -            | 240GB    | KINGSTON_SA400S37240G | 50026B778237DDA0     | Cache, sdb    | black          | [Kingston A400](https://www.amazon.de/gp/product/B01N5IB20Q/)        | SATA-SSD                                                                                                                                                               |
-| -            | 240GB    | Intenso_SSD_Sata_III  | AA000000000000057135 | Cache 2, sdc  | black          | [Intenso](https://www.amazon.de/gp/product/B01D3ACIR6/)              | SATA-SSD                                                                                                                                                               |
+| -            | 240GB    | Intenso_SSD_Sata_III  | AA000000000000057135 | Cache 2, sdc  | black          | [Intenso](https://www.amazon.de/gp/product/B01D3ACIR6/)              | SATA-SSD, always reports 0 °C                                                                                                                                          |
 | -            | 32GB     | -                     | -                    | Boot, sda     | -              | [SanDisk Cruzer Blade](https://www.amazon.de/gp/product/B005FYNT3G/) | Boot USB                                                                                                                                                               |
 
 replaced drives:
@@ -79,6 +79,8 @@ replaced drives:
 | ==former Unraid ID== | ==Size== | ==Model ID==        | ==Serial number== | ==Manufacturer, Model== | ==Comment==                            |
 | -------------------- | -------- | ------------------- | ----------------- | ----------------------- | -------------------------------------- |
 | Disk 3, sdf          | 12TB     | TOSHIBA_MG07ACA12TE | Z1S0A0V1F95G      | Toshiba                 | replaced on 2024-12-21 with `ZJV1T2Q3` |
+| ?                    | 8TB      | ST8000AS0003        | WCT0BRSD          | Seagate Exos 5E8        | -                                      |
+|                      |          |                     |                   |                         |                                        |
 
 
 
