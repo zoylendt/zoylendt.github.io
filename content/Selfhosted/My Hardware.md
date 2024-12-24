@@ -3,7 +3,7 @@ title:
 description: <Description of the page used for link previews>
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2024-12-22
+updated: 2024-12-24
 draft: false
 tags:
   - note
@@ -79,8 +79,15 @@ replaced drives:
 | ==former Unraid ID== | ==Size== | ==Model ID==        | ==Serial number== | ==Manufacturer, Model== | ==Comment==                            |
 | -------------------- | -------- | ------------------- | ----------------- | ----------------------- | -------------------------------------- |
 | Disk 3, sdf          | 12TB     | TOSHIBA_MG07ACA12TE | Z1S0A0V1F95G      | Toshiba                 | replaced on 2024-12-21 with `ZJV1T2Q3` |
-| ?                    | 8TB      | ST8000AS0003        | WCT0BRSD          | Seagate Exos 5E8        | -                                      |
+| Disk 4, sdi          | 8TB      | ST8000AS0003        | WCT0BRSD          | Seagate Exos 5E8        | replaced on 2024-10-01 with `ZJV0P4MY` |
 |                      |          |                     |                   |                         |                                        |
+
+Change log:
+
+| Date       | Action                                                                            |
+| ---------- | --------------------------------------------------------------------------------- |
+| 2024-12-21 | - replaced failed `Z1S0A0V1F95G` with `ZJV1T2Q3`<br>- replaced [old SATA cable]() |
+|            |                                                                                   |
 
 
 
