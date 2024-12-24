@@ -84,10 +84,12 @@ replaced drives:
 
 Change log:
 
-| Date       | Action                                                                            |
-| ---------- | --------------------------------------------------------------------------------- |
-| 2024-12-21 | - replaced failed `Z1S0A0V1F95G` with `ZJV1T2Q3`<br>- replaced [old SATA cable]() |
-|            |                                                                                   |
+| Date       | Action                                                                                                                                   | Comment                            |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| 2024-12-21 | replaced failed `Z1S0A0V1F95G` with `ZJV1T2Q3`                                                                                           | `Z1S0A0V1F95G` was disabled on ... |
+| 2024-12-21 | replaced 4 [old SATA cables](https://www.amazon.de/gp/product/B00V7NOJIS/?th=1) with [new](https://www.amazon.de/gp/product/B00KCS9254/) |                                    |
+|            |                                                                                                                                          |                                    |
+| 2023-09-14 | replaced failed                                                                                                                          |                                    |
 
 
 

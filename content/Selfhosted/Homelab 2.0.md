@@ -135,6 +135,7 @@ Steps required to implement Homelab 2.0
     - [ ] InfluxDB (on separate partition?)
     - [ ] (Idea) separate 'hassio-helper' VM as docker-host (InfluxDB, Unifi-Controller, AdGuardHome)
 	- [ ] monitor power usage of homelab
+	- [ ] monitor FritzBox
   - Synology NAS 'ds918oy'
     - [ ] ...
   - unraid NAS 'datengrab'
