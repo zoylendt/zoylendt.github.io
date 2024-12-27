@@ -122,7 +122,7 @@ Steps required to implement Homelab 2.0
 
 - Stage 1: Proxmox
   - [ ] Automate Proxmox bare metal node setup with Terraform/OpenTofu (optional since I already have them set up)
-    - [ ] Create a Debian VM template
+    - [ ] Create a Debian VM template with Ansible
     - [ ] 
   - [ ] Document 'ControlVM', from where commands are run
   - [ ] Customize Proxmox installation (e.g. Tailscale)
