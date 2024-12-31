@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-12-18
+updated: 2024-12-31
 draft: true
 tags:
   - note
@@ -21,6 +21,8 @@ Website to compare devices: [retrocatalog.com](https://retrocatalog.com/)
 - [PowKiddy RGB30](https://retrocatalog.com/retro-handhelds/powkiddy-rgb30)
 - [Anbernic RG350](https://retrogamecorps.com/2020/08/18/rg35-buying-guide/#What)
 - [PowKiddy Q90](https://retrogamecorps.com/2021/02/27/review-powkiddy-q90/)
+- Sony PSP
+- SNES Classic Mini
 
 Wishlist:  
 - [Anbernic RG-406H](https://retrocatalog.com/retro-handhelds/rg-406h)
