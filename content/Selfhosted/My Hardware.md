@@ -82,20 +82,21 @@ Previously installed drives:
 | -------------------- | -------- | ------------------- | ----------------- | ----------------------- | ------------------------------------ | -------------------------------------- |
 | Disk 3, sdf          | 12TB     | TOSHIBA_MG07ACA12TE | Z1S0A0V1F95G      | Toshiba                 | automatically disabled on 2024-12-03 | replaced on 2024-12-21 with `ZJV1T2Q3` |
 | Disk 4, sdi          | 8TB      | ST8000AS0003        | WCT0BRSD          | Seagate Exos 5E8        | automatically disabled on 2024-09-20 | replaced on 2024-10-01 with `ZJV0P4MY` |
-| Disk 2, sde          | 4TB      | WDC_WD40EZRZ        | WCC7K0CA1EJ6      | Western Digital         | none (removed because of old age)    | 'WD_Charlie', removed on 2024-12-31    |
-| Disk 1, sdd          | 4TB      | WDC_WD40EZRZ        | WCC7K0YNADYX      | Western Digital         | none (removed because of old age)    | 'WD_Bravo', removed on 2024-12-31      |
-| Disk 3, sdj          | ?        | WDC_WD80EZAZ        | 4DG8XW2Z          | ?                       | automatically disabled on 2023-09-07 |                                        |
+| Disk 2, sde          | 4TB      | WDC_WD40EZRZ        | WCC7K0CA1EJ6      | Western Digital         | none (removed due to old age)        | 'WD_Charlie', removed on 2024-12-31    |
+| Disk 1, sdd          | 4TB      | WDC_WD40EZRZ        | WCC7K0YNADYX      | Western Digital         | none (removed due to old age)        | 'WD_Bravo', removed on 2024-12-31      |
+| Disk 3, sdj          | ?        | WDC_WD80EZAZ        | 4DG8XW2Z          | ?                       | automatically disabled on 2023-09-07 | replaced on 2023-09-14 with `???`      |
 
 Change log:
 
-| Date       | Action                                                                                                                                   | Comment                            |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
-| 2024-12-21 | replaced failed `Z1S0A0V1F95G` with `ZJV1T2Q3`                                                                                           | `Z1S0A0V1F95G` was disabled on ... |
-| 2024-12-21 | replaced 4 [old SATA cables](https://www.amazon.de/gp/product/B00V7NOJIS/?th=1) with [new](https://www.amazon.de/gp/product/B00KCS9254/) |                                    |
-|            |                                                                                                                                          |                                    |
-| 2023-09-14 | replaced failed                                                                                                                          |                                    |
-| 2024-12-31 | removed `WCC7K0CA1EJ6` &                                                                                                                 |                                    |
-|            |                                                                                                                                          |                                    |
+| Date       | Action                                                                                                                                   | Comment                                                                                                          |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| 2024-12-21 | replaced failed `Z1S0A0V1F95G` with `ZJV1T2Q3`                                                                                           | `Z1S0A0V1F95G` was disabled on ...                                                                               |
+| 2024-12-21 | replaced 4 [old SATA cables](https://www.amazon.de/gp/product/B00V7NOJIS/?th=1) with [new](https://www.amazon.de/gp/product/B00KCS9254/) |                                                                                                                  |
+|            |                                                                                                                                          |                                                                                                                  |
+| 2023-09-14 | replaced failed `4DG8XW2Z` with `???`                                                                                                    |                                                                                                                  |
+| 2024-12-31 | [removed](https://docs.unraid.net/unraid-os/manual/storage-management/#removing-data-disks) `WCC7K0CA1EJ6` & `WCC7K0YNADYX`              | [reset array config](https://docs.unraid.net/unraid-os/manual/storage-management/#reset-the-array-configuration) |
+| 2024-12-31 | added `???` & `???` (as hot spare, not part of array)                                                                                    |                                                                                                                  |
+|            |                                                                                                                                          |                                                                                                                  |
 
 
 
