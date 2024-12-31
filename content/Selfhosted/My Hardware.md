@@ -58,6 +58,8 @@ Setup Notes:
 - 2x 2.5'' SATA SSD
 - 2x 16GB DDR4 DIMM
 
+Currently installed drives:
+
 | ==Position== | ==Size== | ==Model ID==          | ==Serial number==    | ==Unraid ID== | ==SATA cable== | ==Manufacturer, Model==                                              | ==Comment==                                                                                                                                                            |
 | ------------ | -------- | --------------------- | -------------------- | ------------- | -------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1            | 12TB     | ST12000VN0007         | ZJV1T2Q3             | Disk 3, sdf   | R1             | [Seagate IronWolf receritfied](https://www.amazon.de/dp/B084WLXWXD/) | only 2 screws, [insurance until 2028-12-15](https://www.amazon.de/gp/your-account/order-details?ie=UTF8&orderID=305-1686162-1449121)                                   |
@@ -74,14 +76,15 @@ Setup Notes:
 | -            | 240GB    | Intenso_SSD_Sata_III  | AA000000000000057135 | Cache 2, sdc  | black          | [Intenso](https://www.amazon.de/gp/product/B01D3ACIR6/)              | SATA-SSD, always reports 0 °C                                                                                                                                          |
 | -            | 32GB     | -                     | -                    | Boot, sda     | -              | [SanDisk Cruzer Blade](https://www.amazon.de/gp/product/B005FYNT3G/) | Boot USB                                                                                                                                                               |
 
-replaced drives:
+Previously installed drives:
 
-| ==former Unraid ID== | ==Size== | ==Model ID==        | ==Serial number== | ==Manufacturer, Model== | ==Failure==    |     |
-| -------------------- | -------- | ------------------- | ----------------- | ----------------------- | -------------- | --- |
-| Disk 3, sdf          | 12TB     | TOSHIBA_MG07ACA12TE | Z1S0A0V1F95G      | Toshiba                 |                |     |
-| Disk 4, sdi          | 8TB      | ST8000AS0003        | WCT0BRSD          | Seagate Exos 5E8        |                |     |
-| Disk 2, sde          | 4TB      | WDC_WD40EZRZ        | WCC7K0CA1EJ6      | Western Digital         | none (old age) |     |
-| Disk 1, sdd          | 4TB      | WDC_WD40EZRZ        | WCC7K0YNADYX      | Western Digital         | none (old age) |     |
+| ==former Unraid ID== | ==Size== | ==Model ID==        | ==Serial number== | ==Manufacturer, Model== | ==Failure==                          | ==Comment==                            |
+| -------------------- | -------- | ------------------- | ----------------- | ----------------------- | ------------------------------------ | -------------------------------------- |
+| Disk 3, sdf          | 12TB     | TOSHIBA_MG07ACA12TE | Z1S0A0V1F95G      | Toshiba                 | automatically disabled on 2024-12-03 | replaced on 2024-12-21 with `ZJV1T2Q3` |
+| Disk 4, sdi          | 8TB      | ST8000AS0003        | WCT0BRSD          | Seagate Exos 5E8        | automatically disabled on 2024-09-20 | replaced on 2024-10-01 with `ZJV0P4MY` |
+| Disk 2, sde          | 4TB      | WDC_WD40EZRZ        | WCC7K0CA1EJ6      | Western Digital         | none (removed because of old age)    | 'WD_Charlie', removed on 2024-12-31    |
+| Disk 1, sdd          | 4TB      | WDC_WD40EZRZ        | WCC7K0YNADYX      | Western Digital         | none (removed because of old age)    | 'WD_Bravo', removed on 2024-12-31      |
+| Disk 3, sdj          | ?        | WDC_WD80EZAZ        | 4DG8XW2Z          | ?                       | automatically disabled on 2023-09-07 |                                        |
 
 Change log:
 
@@ -91,6 +94,8 @@ Change log:
 | 2024-12-21 | replaced 4 [old SATA cables](https://www.amazon.de/gp/product/B00V7NOJIS/?th=1) with [new](https://www.amazon.de/gp/product/B00KCS9254/) |                                    |
 |            |                                                                                                                                          |                                    |
 | 2023-09-14 | replaced failed                                                                                                                          |                                    |
+| 2024-12-31 | removed `WCC7K0CA1EJ6` &                                                                                                                 |                                    |
+|            |                                                                                                                                          |                                    |
 
 
 
