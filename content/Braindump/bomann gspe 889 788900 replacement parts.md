@@ -29,9 +29,9 @@ Als Original-Ersatzteil beworben:
 Als `Midea #R563722 12976000006412` (oder `Midea #M537920 12976000000499`) beworben:
 - [ersatzteileshop24.at -> 112,16€](https://www.ersatzteileshop24.at/product/r563722-12976000006412-geschirrkorb-oben-inkl-sprueharm/?inprod=1)
 - [ersatzteilcheck24.de -> 83,05€](https://www.ersatzteilcheck24.de/ersatzteilsortiment/-E-528993.html)
-- [sos-zubehoer.de -> 50,30€](https://www.sos-zubehoer.de/geschirrkorb-oben-besteckkorb-geschirrkorb-curtiss-proline-far-kingdhome-34421388-12976000000499-60844.html) 
-- [manomano.de -> 50,28€](https://www.manomano.de/p/ersatzteil-geschirrkorb-oben-curtiss-proline-337326-54922266)
-- [amazon.co.uk -> ~52,38€ (mit Versand)](https://www.amazon.co.uk/Basket-Dishwasher-34421388-12976000000499-CURTISS/dp/B0947RQW97?ie=UTF8&useRedirectOnSuccess=1&ref_=dex_glow_signin&path=%2FBasket-Dishwasher-34421388-12976000000499-CURTISS%2Fdp%2FB0947RQW97)
+- \* [sos-zubehoer.de -> 50,30€](https://www.sos-zubehoer.de/geschirrkorb-oben-besteckkorb-geschirrkorb-curtiss-proline-far-kingdhome-34421388-12976000000499-60844.html) (+ 5,80€ Versand)
+- \* [manomano.de -> 50,28€](https://www.manomano.de/p/ersatzteil-geschirrkorb-oben-curtiss-proline-337326-54922266) (+ 6,80€ Versand)
+- \* [amazon.co.uk -> ~41,61€](https://www.amazon.co.uk/Basket-Dishwasher-34421388-12976000000499-CURTISS/dp/B0947RQW97?ie=UTF8&useRedirectOnSuccess=1&ref_=dex_glow_signin&path=%2FBasket-Dishwasher-34421388-12976000000499-CURTISS%2Fdp%2FB0947RQW97) (+ ~10,76€ Versand aus UK)
 
 # Unterkorb
 
