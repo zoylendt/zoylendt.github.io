@@ -3,7 +3,7 @@ title: BOMANN GSPE 889 788900 replacement parts
 date: 2025-01-09
 publishDate: 2025-01-09
 updated: 2025-01-09
-draft: true
+draft: false
 tags:
   - note
   - unfinished
@@ -30,7 +30,8 @@ Als `Midea #R563722 12976000006412` (oder `Midea #M537920 12976000000499`) bewor
 - [ersatzteileshop24.at -> 112,16€](https://www.ersatzteileshop24.at/product/r563722-12976000006412-geschirrkorb-oben-inkl-sprueharm/?inprod=1)
 - [ersatzteilcheck24.de -> 83,05€](https://www.ersatzteilcheck24.de/ersatzteilsortiment/-E-528993.html)
 - [sos-zubehoer.de -> 50,30€](https://www.sos-zubehoer.de/geschirrkorb-oben-besteckkorb-geschirrkorb-curtiss-proline-far-kingdhome-34421388-12976000000499-60844.html) 
-- [ma]
+- [manomano.de -> 50,28€](https://www.manomano.de/p/ersatzteil-geschirrkorb-oben-curtiss-proline-337326-54922266)
+- [amazon.co.uk -> ~52,38€ (mit Versand)](https://www.amazon.co.uk/Basket-Dishwasher-34421388-12976000000499-CURTISS/dp/B0947RQW97?ie=UTF8&useRedirectOnSuccess=1&ref_=dex_glow_signin&path=%2FBasket-Dishwasher-34421388-12976000000499-CURTISS%2Fdp%2FB0947RQW97)
 
 # Unterkorb
 
@@ -45,4 +46,4 @@ Als Original-Ersatzteil beworben:
 - [fixpart.de -> 80,55€](https://fixpart.de/produkt/midea-12976000001652-korb-geschirrspuler?apl=2442061)
 
 Als `Midea #M537001 12976000001652` (oder `Midea #R563720 12976000006411`) beworben:
-- [amazon.de -> 39,82€](https://www.amazon.de/gp/product/B08S6K74L4/ref=sw_img_1?smid=A2RBWOHWM4OPR6&psc=1)
+- [amazon.de -> 39,82€](https://www.amazon.de/gp/product/B08S6K74L4/ref=sw_img_1?smid=A2RBWOHWM4OPR6&psc=1) -> bestellt
