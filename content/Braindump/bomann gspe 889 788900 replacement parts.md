@@ -33,6 +33,8 @@ Als `Midea #R563722 12976000006412` (oder `Midea #M537920 12976000000499`) bewor
 - \* [manomano.de -> 50,28€](https://www.manomano.de/p/ersatzteil-geschirrkorb-oben-curtiss-proline-337326-54922266) (+ 6,80€ Versand)
 - \* [amazon.co.uk -> ~41,61€](https://www.amazon.co.uk/Basket-Dishwasher-34421388-12976000000499-CURTISS/dp/B0947RQW97?ie=UTF8&useRedirectOnSuccess=1&ref_=dex_glow_signin&path=%2FBasket-Dishwasher-34421388-12976000000499-CURTISS%2Fdp%2FB0947RQW97) (+ ~10,76€ Versand aus UK)
 
+![amazon.co.uk](https://m.media-amazon.com/images/I/61Iuvt4kZpL._AC_SL1200_.jpg)
+
 # Unterkorb
 
 Original:
