@@ -24,11 +24,13 @@ Als Original-Ersatzteil beworben:
 - [ersatzteilblitz.de -> 83,07€](https://www.ersatzteilblitz.de/artikeldetails/12976000006412+GESCHIRRKORB+OBEN+INKL.+SPR%C3%9CHARM+12976000006412/R563722.html)
 - [ersatzteil-onlineshop24.de -> 83,05€](https://www.ersatzteil-onlineshop24.de/artikel_details.pl?artikelnummer=R563722)
 - [wildbihler-shop.de -> 83,64€](https://shop.wildbihler-shop.de/detailsseite_ma.php?viewpicture=y&pic=R563722&ag=37_5&vgruppe=5207930000&partstr=GSPE889&login=155224N&thispage=&ger=true&modselect=2442061)
+- [fixpart.de -> 91,59€](https://fixpart.de/produkt/midea-12976000006412-korb-geschirrspuler?apl=2442061)
 
-Als `Midea #R563722 12976000006412` (oder `#M537920 12976000000499`) beworben:
+Als `Midea #R563722 12976000006412` (oder `Midea #M537920 12976000000499`) beworben:
 - [ersatzteileshop24.at -> 112,16€](https://www.ersatzteileshop24.at/product/r563722-12976000006412-geschirrkorb-oben-inkl-sprueharm/?inprod=1)
 - [ersatzteilcheck24.de -> 83,05€](https://www.ersatzteilcheck24.de/ersatzteilsortiment/-E-528993.html)
-- 
+- [sos-zubehoer.de -> 50,30€](https://www.sos-zubehoer.de/geschirrkorb-oben-besteckkorb-geschirrkorb-curtiss-proline-far-kingdhome-34421388-12976000000499-60844.html) 
+- [ma]
 
 # Unterkorb
 
@@ -40,7 +42,7 @@ Als Original-Ersatzteil beworben:
 - [ersatzteilblitz.de -> 71,70€](https://www.ersatzteilblitz.de/artikeldetails/12976000001652+GESCHIRRKORB+UNTEN%2C+450MM+12976000001652/M537001.html)
 - [ersatzteil-onlineshop24.de -> 73,14€](https://www.ersatzteil-onlineshop24.de/artikel_details.pl?artikelnummer=M537001)
 - [wildbihler-shop.de -> 74,17€](https://shop.wildbihler-shop.de/detailsseite_ma.php?viewpicture=y&pic=M537001&ag=37_5&vgruppe=5207930000&partstr=GSPE889&login=155224N&thispage=&ger=true&modselect=2442061)
-- [fixpart.de -> 80,55€]()
+- [fixpart.de -> 80,55€](https://fixpart.de/produkt/midea-12976000001652-korb-geschirrspuler?apl=2442061)
 
-Als `Midea #M537001 12976000001652` (oder `#R563720 12976000006411`) beworben:
-- ...
+Als `Midea #M537001 12976000001652` (oder `Midea #R563720 12976000006411`) beworben:
+- [amazon.de -> 39,82€](https://www.amazon.de/gp/product/B08S6K74L4/ref=sw_img_1?smid=A2RBWOHWM4OPR6&psc=1)
