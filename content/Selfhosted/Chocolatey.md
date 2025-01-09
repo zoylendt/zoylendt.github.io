@@ -2,7 +2,7 @@
 title: 
 date: 2024-06-01
 publishDate: 2024-06-01
-updated: 2024-12-16
+updated: 2025-01-09
 draft: false
 tags:
   - note
@@ -82,7 +82,7 @@ m = manually installed
 | telegram                            | m    | c      | m       | c         |     |
 | treesizefree                        | c    | c      | c       | c         |     |
 | vlc                                 | m    | c      |         | c         |     |
-| vscode                              | c    | -      |         | -         |     |
+| vscode                              | c    | -      |         | c         |     |
 | vscodium                            |      | c      |         | c         |     |
 | win32diskimager                     | m    |        | m       | -         |     |
 | wiztree                             | c    |        |         | -         |     |
