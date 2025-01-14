@@ -9,7 +9,12 @@ tags:
   - unfinished
 ---
 
-# Structure
+# Page Structure
+
+- Left Column
+  - 
+
+# File Structure
  
 ```
 - Braindump/Thoughts/Misc
