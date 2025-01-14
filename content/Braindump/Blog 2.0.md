@@ -8,6 +8,8 @@ tags:
   - note
   - unfinished
 ---
+
+# Structure
  
 ```
 - Braindump/Thoughts/Misc
