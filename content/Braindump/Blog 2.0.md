@@ -11,8 +11,21 @@ tags:
 
 # Page Structure
 
-- Left Column
-  - 
+![https://quartz.jzhao.xyz/images/quartz-layout-desktop.png](https://quartz.jzhao.xyz/images/quartz-layout-desktop.png)
+
+- left
+  - Blog title
+  - Search
+- right
+  - ...
+- beforeBody
+  - ...
+- pageBody
+  - ...
+- afterbody
+  - ...
+- footer
+  - ...
 
 # File Structure
  
