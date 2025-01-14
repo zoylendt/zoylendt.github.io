@@ -15,11 +15,13 @@ tags:
 
 - left
   - Blog title
-  - Search
+  - Search, DarkMode
+  - Menu -> NavBar
 - right
   - ...
 - beforeBody
-  - ...
+  - breadcrumbs (without page title)
+  - 
 - pageBody
   - ...
 - afterbody
