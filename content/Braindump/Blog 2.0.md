@@ -23,6 +23,7 @@ https://quartz.jzhao.xyz/layout
     - Search
     - Menu -> NavBar (only in mobile view?)
   - Recent listening (only in desktop mode)
+  - Explorer (only in desktop mode, on )
 - right
   - ...
   - ToC (collapsed in mobile view -> https://turntrout.com/launch)
