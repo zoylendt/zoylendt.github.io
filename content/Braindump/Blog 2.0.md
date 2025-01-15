@@ -17,11 +17,16 @@ https://quartz.jzhao.xyz/layout
 
 - left
   - Blog title
-  - Search, DarkMode
-  - Menu -> NavBar
+  - Icons
+    - Map
+    - Dark Mode
+    - Search
+    - Menu -> NavBar (only in mobile view?)
 - right
   - ...
   - ToC (collapsed in mobile view)
+  - Tags
+  - About this page
   - GraphView
   - Backlinks (only in desktop mode)
 - beforeBody
