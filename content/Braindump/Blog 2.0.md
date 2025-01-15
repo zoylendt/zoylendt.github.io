@@ -22,11 +22,12 @@ https://quartz.jzhao.xyz/layout
     - Dark Mode
     - Search
     - Menu -> NavBar (only in mobile view?)
+  - Recent listening (only in desktop mode)
 - right
   - ...
-  - ToC (collapsed in mobile view)
-  - Tags
-  - About this page
+  - ToC (collapsed in mobile view -> https://turntrout.com/launch)
+  - Tags (better per default in beforeBody?)
+  - (About this page)
   - GraphView
   - Backlinks (only in desktop mode)
 - beforeBody
@@ -37,7 +38,9 @@ https://quartz.jzhao.xyz/layout
 - afterbody
   - ...
 - footer
-  - ...
+  - Links
+  - Scroll to top
+  - random page
 
 # File Structure
  
