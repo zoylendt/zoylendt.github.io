@@ -26,17 +26,21 @@ https://quartz.jzhao.xyz/layout
 - right
   - ...
   - ToC (collapsed in mobile view -> https://turntrout.com/launch)
-  - Tags (better per default in beforeBody?)
-  - (About this page)
   - GraphView
   - Backlinks (only in desktop mode)
 - beforeBody
   - breadcrumbs (without page title)
-  - 
+  - AboutThisPage
+    - created
+    - updated
+    - GitHub links
+  - Tags
 - pageBody
   - ...
 - afterbody
-  - ...
+  - 2 columns, like https://be-far.com/
+    - Graph view
+    - Backlinks
 - footer
   - Links
   - Scroll to top

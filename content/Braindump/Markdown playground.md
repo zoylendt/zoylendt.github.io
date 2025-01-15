@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2024-12-06
+updated: 2025-01-15
 draft: false
 tags:
   - note
@@ -554,3 +554,9 @@ line 5
 ```
 text b
 </details>
+
+---
+
+[Here](https://be-far.com/): For a monthly list of what's new on the site, subscribe to the [Updates RSS feed](/Updates.xml).<sup><a class="internal" href="/Atomic/rss">What’s this?</a></sup>
+
+---
