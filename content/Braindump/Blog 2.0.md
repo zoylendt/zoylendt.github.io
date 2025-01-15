@@ -23,12 +23,13 @@ https://quartz.jzhao.xyz/layout
     - Search
     - Menu -> NavBar (only in mobile view?)
   - Recent listening (only in desktop mode)
-  - Explorer (only in desktop mode, on )
+  - NavBar (only in desktop mode)
+  - Explorer (only in desktop mode, on first page)
+  - Recent Notes (only in desktop mode, on first page)
 - right
-  - ...
+  - GraphView (only in desktop mode)
   - ToC (collapsed in mobile view -> https://turntrout.com/launch)
-  - GraphView
-  - Backlinks (only in desktop mode)
+  - 
 - beforeBody
   - breadcrumbs (without page title)
   - AboutThisPage
