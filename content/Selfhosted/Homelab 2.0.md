@@ -95,6 +95,7 @@ Dockerized Services:
 		- monitor performance with Prometheus
 		- monitor logs with Loki or ELK
 		- maybe with [Beszel](https://github.com/henrygd/beszel)?
+		- Status page with [cachet](https://cachethq.io/)
 	- Backup
 		- Use Offen/docker-volume-backup to pCloud (?)
 	- Homepage
@@ -108,24 +109,26 @@ Dockerized Services:
 # Inventory management with Tailscale
 
 
-| ID        | Type   | TS-ID | TS-IP | Comment      |
-| --------- | ------ | ----- | ----- | ------------ |
-| x1y3-2    | Laptop |       |       |              |
-| uconsole  | Laptop |       |       |              |
-| ds918oy   | NAS    |       |       |              |
-| datengrab | NAS    |       |       |              |
-| abcnas    | NAS    |       |       |              |
-| bernstein | NAS    |       |       | TS availale? |
-| prod400g5 | PC     |       |       |              |
-| m700      | PC     |       |       |              |
-| zalman2   | PC     |       |       |              |
-| titan     | PVE    |       |       |              |
-| vanadium  | PVE    |       |       |              |
-| neodym    | PVE    |       |       |              |
-|           |        |       |       | RPi4 @ KV    |
-|           |        |       |       | RPi4 @ KA    |
-|           |        |       |       | JetKVM       |
-|           |        |       |       |              |
+| ID            | Type   | TS-ID | TS-IP | Comment      |
+| ------------- | ------ | ----- | ----- | ------------ |
+| x1y3-2        | Laptop |       |       |              |
+| uconsole      | Laptop |       |       |              |
+| ds918oy       | NAS    |       |       |              |
+| datengrab     | NAS    |       |       |              |
+| abcnas        | NAS    |       |       |              |
+| bernstein     | NAS    |       |       | TS availale? |
+| prod400g5     | PC     |       |       |              |
+| m700          | PC     |       |       |              |
+| zalman2       | PC     |       |       |              |
+| titan         | PVE    |       |       |              |
+| vanadium      | PVE    |       |       |              |
+| neodym        | PVE    |       |       |              |
+| ceres         | VPS    |       |       |              |
+| homeassistant | VM     |       |       |              |
+|               |        |       |       | RPi4 @ KV    |
+|               |        |       |       | RPi4 @ KA    |
+|               |        |       |       | JetKVM       |
+|               |        |       |       | iPhone       |
 
 # Software
 
