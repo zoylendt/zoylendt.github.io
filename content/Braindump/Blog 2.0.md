@@ -2,7 +2,7 @@
 title: 
 date: 2025-01-14
 publishDate: 2025-01-14
-updated: 2025-01-15
+updated: 2025-01-16
 draft: true
 tags:
   - note
@@ -69,6 +69,7 @@ https://quartz.jzhao.xyz/layout
 About Me
 Contact
 Status
+Map
 
 ---
 
