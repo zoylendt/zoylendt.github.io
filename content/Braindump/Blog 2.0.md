@@ -40,7 +40,7 @@ https://quartz.jzhao.xyz/layout
 - pageBody
   - ...
 - afterbody
-  - 2 columns, like https://be-far.com/
+  - 2 columns, like https://be-far.com/ (not on first page)
     - Graph view
     - Backlinks
 - footer
