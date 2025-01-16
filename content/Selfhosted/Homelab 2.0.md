@@ -2,7 +2,7 @@
 title: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2024-12-30
+updated: 2025-01-16
 draft: false
 tags:
   - note
@@ -94,10 +94,12 @@ Dockerized Services:
 		- HDD-monitoring with scrutiny
 		- monitor performance with Prometheus
 		- monitor logs with Loki or ELK
+		- maybe with [Beszel](https://github.com/henrygd/beszel)?
 	- Backup
 		- Use Offen/docker-volume-backup to pCloud (?)
 	- Homepage
-		- ...
+		- [homepage](https://gethomepage.dev/)
+		- [dashy](https://github.com/Lissy93/dashy)
 	- other services
 		- Tailscale
 		- FactorioServerManager
