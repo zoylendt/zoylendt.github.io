@@ -105,6 +105,28 @@ Dockerized Services:
 		- FactorioServerManager
 		- 
 
+# Inventory management with Tailscale
+
+
+| ID        | Type   | TS-ID | TS-IP | Comment      |
+| --------- | ------ | ----- | ----- | ------------ |
+| x1y3-2    | Laptop |       |       |              |
+| uconsole  | Laptop |       |       |              |
+| ds918oy   | NAS    |       |       |              |
+| datengrab | NAS    |       |       |              |
+| abcnas    | NAS    |       |       |              |
+| bernstein | NAS    |       |       | TS availale? |
+| prod400g5 | PC     |       |       |              |
+| m700      | PC     |       |       |              |
+| zalman2   | PC     |       |       |              |
+| titan     | PVE    |       |       |              |
+| vanadium  | PVE    |       |       |              |
+| neodym    | PVE    |       |       |              |
+|           |        |       |       | RPi4 @ KV    |
+|           |        |       |       | RPi4 @ KA    |
+|           |        |       |       | JetKVM       |
+|           |        |       |       |              |
+
 # Software
 
 GOAL: IaC -> pull from private GitHub Repo (or public Repo + private secrets?)
