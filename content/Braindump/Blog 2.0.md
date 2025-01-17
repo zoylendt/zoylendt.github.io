@@ -2,7 +2,7 @@
 title: 
 date: 2025-01-14
 publishDate: 2025-01-14
-updated: 2025-01-16
+updated: 2025-01-17
 draft: true
 tags:
   - note
@@ -21,8 +21,8 @@ https://quartz.jzhao.xyz/layout
     - Map
     - Dark Mode
     - Search
-    - Menu -> NavBar (only in mobile view?)
-  - NavBar (only in desktop mode)
+    - BurgerMenu -> opens NavBar (only in mobile view?)
+  - NavBar (with description, only in desktop mode)
   - Explorer (only in desktop mode, on first page)
   - Recent Notes (only in desktop mode, on first page)
 - right
