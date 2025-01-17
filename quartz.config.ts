@@ -19,6 +19,12 @@ const config: QuartzConfig = {
     baseUrl: "zoylendt.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", "zzz_static_files"],
     defaultDateType: "created",
+    navbar: {
+      pages: [
+        { title: "About me", slug: "/about" },
+        { title: "My research", slug: "/research" },
+        { title: "Posts", slug: "/posts" },
+      ],
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
