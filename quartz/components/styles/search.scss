@@ -1,5 +1,12 @@
 @use "../../styles/variables.scss" as *;
 
+#navbar-right {
+  @media all and (max-width: $full-page-width) {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .search {
   min-width: fit-content;
   max-width: 14rem;
