@@ -24,7 +24,7 @@ const config: QuartzConfig = {
         { title: "About me", slug: "/about" },
         { title: "My research", slug: "/research" },
         { title: "Posts", slug: "/posts" },
-      ],
+      ],},
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
