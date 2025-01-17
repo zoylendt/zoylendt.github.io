@@ -28,6 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.MobileOnly(Component.Darkmode()),
+    Component.Navbar(),
 //    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
