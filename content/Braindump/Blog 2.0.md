@@ -22,9 +22,10 @@ https://quartz.jzhao.xyz/layout
     - Dark Mode
     - Search
     - BurgerMenu -> opens NavBar (only in mobile view?)
-  - NavBar (with description, only in desktop mode)
+  - NavBar (with description, only in desktop mode) -> https://github.com/ellie/notes/blob/v4/quartz/components/Links.tsx
+    - ...
   - Explorer (only in desktop mode, on first page)
-  - Recent Notes (only in desktop mode, on first page)
+  - Recent Notes ("Recent Updates", only in desktop mode, on first page)
 - right
   - Recent listening (only in desktop mode)
   - GraphView (only in desktop mode)
