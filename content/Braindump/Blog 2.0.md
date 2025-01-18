@@ -15,11 +15,12 @@ https://quartz.jzhao.xyz/layout
 
 ![https://quartz.jzhao.xyz/images/quartz-layout-desktop.png](https://quartz.jzhao.xyz/images/quartz-layout-desktop.png)
 
-General considerations:
-  - mobile view needs better navigation -> map
-    - Overview
+General considerations (features I want to add to my blog):
+  - mobile view needs better navigation -> "Map" page (and maybe icon on top)
+    - Overview of main categories (manually)
     - List of all tags
     - List of recently changed files
+    - (optional) dynamically generate Dataview tables
   - 
 
 - left
