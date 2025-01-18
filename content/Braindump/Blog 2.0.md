@@ -23,9 +23,10 @@ General considerations (features I want to add to my blog):
     - List of recently changed files
     - (optional) dynamically generate Dataview tables
   - mobile view needs ToC on top of page
-    - bautiful, but compilcated solution: https://turntrout.com/launch
+    - beautiful, but complicated solution: https://turntrout.com/launch
     - idea: add as mobile only to pageBody
-      - -> add `Component.MobileOnly(Component.TableOfContents()),` to ``
+      - -> add `Component.MobileOnly(Component.TableOfContents()),` to the end of `beforeBody` to `quartz.layout.ts`
+      - problem: expanded by default (I didn't manage to separately configure the two ToC on each page)
 
 - left
   - Blog title
