@@ -34,7 +34,8 @@ General considerations (features I want to add to my blog):
   - modify ToC to better distinguish entries that take more than 1 line
     - example: https://turntrout.com/launch
   - links to Code/Raw.md/History on top
-    - example: https://quartz.eilleeenz.com/
+    - (source, blame & history): https://quartz.eilleeenz.com/ -> https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/ContentMeta.tsx
+    - (Blame + History): https://notes.yxy.ninja/AWS/Storage/AWS-Parameter-Store -> https://github.com/xy-241/CS-Notes/blob/v4/quartz/components/ContentMeta.tsx
   - hide specific tagged pages from explorer/graph: https://quartz.eilleeenz.com/meta/Hiding-tags-from-various-components
   - 
 
