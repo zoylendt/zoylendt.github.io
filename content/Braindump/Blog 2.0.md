@@ -29,7 +29,8 @@ General considerations (features I want to add to my blog):
       - problem: expanded by default (I didn't manage to separately configure the two ToC on each page)
   - modify ToC to better distinguish entries that take more than 1 line
     - example: https://turntrout.com/launch
-  - linlk
+  - links to Code/Raw.md/History on top
+    - example: https://quartz.eilleeenz.com/
 
 - left
   - Blog title
@@ -43,7 +44,7 @@ General considerations (features I want to add to my blog):
   - Explorer (only in desktop mode, on first page)
   - Recent Notes ("Recent Updates", only in desktop mode, on first page)
 - right
-  - Recent listening (only in desktop mode)
+  - Recent listening (only in desktop mode) -> better not to include here, instead only in a page
   - GraphView (only in desktop mode)
   - ToC (collapsed in mobile view -> https://turntrout.com/launch)
   - 
