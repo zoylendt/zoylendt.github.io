@@ -35,6 +35,8 @@ General considerations (features I want to add to my blog):
     - example: https://turntrout.com/launch
   - links to Code/Raw.md/History on top
     - example: https://quartz.eilleeenz.com/
+  - hide specific tagged pages from explorer/graph: https://quartz.eilleeenz.com/meta/Hiding-tags-from-various-components
+  - 
 
 - left
   - Blog title
@@ -118,7 +120,7 @@ Folders:
 - Posts
     Longer guides, tutorials & resources.
 - Projects
-    Complete writeups of projects, 
+    Complete writeups of projects, meta-notes (like quartz starting page)
     ---------------------------------
 
 Required Main Tags:
