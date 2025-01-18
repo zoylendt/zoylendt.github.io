@@ -118,7 +118,7 @@ Folders:
 - Posts
     Longer guides, tutorials & resources.
 - Projects
-    Complete writeups of projects
+    Complete writeups of projects, 
     ---------------------------------
 
 Required Main Tags:
