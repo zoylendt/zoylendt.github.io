@@ -17,6 +17,11 @@ https://quartz.jzhao.xyz/layout
 
 General considerations (features I want to add to my blog):
   - search and darkmode in same line
+  - Homepage specific setup:
+    - no ToC
+    - no Backlinks
+    - only here: RecentNotes
+    - only here: Explorer
   - mobile view needs better navigation -> "Map" page (and maybe icon on top)
     - Overview of main categories (manually)
     - List of all tags
