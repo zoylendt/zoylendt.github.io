@@ -27,7 +27,9 @@ General considerations (features I want to add to my blog):
     - idea: add as mobile only to pageBody
       - -> add `Component.MobileOnly(Component.TableOfContents()),` to the end of `beforeBody` to `quartz.layout.ts`
       - problem: expanded by default (I didn't manage to separately configure the two ToC on each page)
-  - modify ToC 
+  - modify ToC to better distinguish entries that take more than 1 line
+    - example: https://turntrout.com/launch
+  - linlk
 
 - left
   - Blog title
