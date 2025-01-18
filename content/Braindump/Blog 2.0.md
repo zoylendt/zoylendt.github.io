@@ -25,6 +25,7 @@ General considerations (features I want to add to my blog):
   - mobile view needs ToC on top of page
     - bautiful, but compilcated solution: https://turntrout.com/launch
     - idea: add as mobile only to pageBody
+      - -> add `Component.MobileOnly(Component.TableOfContents()),` to ``
 
 - left
   - Blog title
