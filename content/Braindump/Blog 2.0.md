@@ -20,8 +20,7 @@ General considerations (features I want to add to my blog):
   - Homepage specific setup:
     - no ToC
     - no Backlinks
-    - only here: RecentNotes
-    - only here: Explorer
+    - only here: RecentNotes (on right side)
   - mobile view needs better navigation -> "Map" page (and maybe icon on top)
     - Overview of main categories (manually)
     - List of all tags
