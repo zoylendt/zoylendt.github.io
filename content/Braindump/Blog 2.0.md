@@ -16,7 +16,11 @@ https://quartz.jzhao.xyz/layout
 ![https://quartz.jzhao.xyz/images/quartz-layout-desktop.png](https://quartz.jzhao.xyz/images/quartz-layout-desktop.png)
 
 General considerations:
-  - mobile 
+  - mobile view needs better navigation -> map
+    - Overview
+    - List of all tags
+    - List of recently changed files
+  - 
 
 - left
   - Blog title
