@@ -115,8 +115,6 @@ Folders:
     Unstructured, mostly short ideas
 - Life
     Cooking, brewing, personal stuff
-- Notes
-    
 - Posts
     Longer guides, tutorials & resources.
 - Projects
