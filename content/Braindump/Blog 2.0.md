@@ -2,7 +2,7 @@
 title: 
 date: 2025-01-14
 publishDate: 2025-01-14
-updated: 2025-01-17
+updated: 2025-01-18
 draft: true
 tags:
   - note
@@ -14,6 +14,9 @@ tags:
 https://quartz.jzhao.xyz/layout
 
 ![https://quartz.jzhao.xyz/images/quartz-layout-desktop.png](https://quartz.jzhao.xyz/images/quartz-layout-desktop.png)
+
+General considerations:
+  - mobile 
 
 - left
   - Blog title
