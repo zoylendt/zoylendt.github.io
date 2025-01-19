@@ -2,7 +2,7 @@
 title: 
 date: 2025-01-14
 publishDate: 2025-01-14
-updated: 2025-01-18
+updated: 2025-01-19
 draft: true
 tags:
   - note
@@ -20,7 +20,7 @@ General considerations (features I want to add to my blog):
   - Homepage specific setup:
     - no ToC
     - no Backlinks
-    - only here: RecentNotes (on right side)
+    - only here: RecentNotes (on right side) -> SOLVED
   - mobile view needs better navigation -> "Map" page (and maybe icon on top)
     - Overview of main categories (manually)
     - List of all tags
