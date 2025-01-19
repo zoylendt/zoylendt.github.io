@@ -22,7 +22,7 @@ General considerations (features I want to add to my blog):
     - no Backlinks -> SOLVED
     - only here: RecentNotes (on right side) -> SOLVED
   - mobile view needs better navigation -> "Map" page (and maybe icon on top)
-    - Overview of main categories (manually)
+    - Overview of main categories (manually created text)
     - List of all tags
     - List of recently changed files
     - (optional) dynamically generate Dataview tables
@@ -37,6 +37,8 @@ General considerations (features I want to add to my blog):
     - (source, blame & history): https://quartz.eilleeenz.com/ -> https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/ContentMeta.tsx
     - (Blame + History): https://notes.yxy.ninja/AWS/Storage/AWS-Parameter-Store -> https://github.com/xy-241/CS-Notes/blob/v4/quartz/components/ContentMeta.tsx
   - hide specific tagged pages from explorer/graph: https://quartz.eilleeenz.com/meta/Hiding-tags-from-various-components
+  - remove strikethrough on checked off boxes -> https://quartz.eilleeenz.com/Quartz-customization-log#removing-strikethrough-on-checked-off-boxes
+  - add divider right after page content -> https://quartz.eilleeenz.com/Quartz-customization-log#add-a-divider-right-after-page-content
   - 
 
 - left
