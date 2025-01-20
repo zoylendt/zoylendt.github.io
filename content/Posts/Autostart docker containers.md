@@ -1,13 +1,12 @@
 ---
 title: Autostart docker containers
-subtitle: 
-description: 
-permalink: 
+
 date: 2024-05-20
 publishDate: 2024-05-20
 updated: 2024-06-03
 draft: false
 tags:
+  - note
   - untested
   - unfinished
   - docker
