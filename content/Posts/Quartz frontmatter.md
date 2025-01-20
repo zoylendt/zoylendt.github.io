@@ -2,7 +2,7 @@
 title: 
 date: 2024-05-20
 publishDate: 2024-05-20
-updated: 2024-05-22
+updated: 2025-01-20
 draft: false
 tags:
   - note
@@ -59,6 +59,9 @@ publish: false
 ```md
 ---
 title: 
+subtitle: 
+description: 
+permalink: 
 date: {{date}} 
 publishDate: {{date}} 
 updated: {{date}} 
