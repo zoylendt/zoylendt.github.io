@@ -7,7 +7,7 @@ import { QuartzPluginData } from "./quartz/plugins/vfile"
 // Constants for config that are reused a lot
 const homepageTitle = "Welcome to my blog ^_^"
 const modifiedListTitle = "All-files-chronologically-modified"
-const mapTitle = "Map2"
+const mapTitle = "Map"
 const GraphOnMap = {
   localGraph: {
     drag: true, // whether to allow panning the view around
