@@ -188,4 +188,6 @@ aliases:
 - add page "Dataview"
 - use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
 - document changed files -> https://github.com/zoylendt/zoylendt.github.io/compare/upstream...v4
+- change favicon & banner image -> https://quartz.eilleeenz.com/Quartz-customization-log#changed-favicon-by-the-image-path-also-the-banner
+- restore full breadcrumbs but hide on mobile view
 - 
