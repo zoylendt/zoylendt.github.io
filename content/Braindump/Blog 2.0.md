@@ -190,7 +190,14 @@ aliases:
 - document changed files -> https://github.com/zoylendt/zoylendt.github.io/compare/upstream...v4
 - change favicon & banner image -> https://quartz.eilleeenz.com/Quartz-customization-log#changed-favicon-by-the-image-path-also-the-banner
 - restore full breadcrumbs but hide on mobile view
-- modify ToC to add "- " in front of each element
-- update footer with link to "Contact"
+- update footer with link to "Contact" (instead of pasting mail here)
 - change CSS when permalink is copied to clipboard
 - Fix links to/from footnotes -> https://quartz.eilleeenz.com/Quartz-customization-log#disabling-popover-on-footnotes-and-subtitles
+- change color/opacity of "subtitle" & "permalink", mainly in LightMode
+- change link in RecentNotes (maybe to "Dataview"?)
+- 
+- complicated: 
+  - modify ToC to add "- " (or s) in front of each element
+  - move DarkMode next to Search (in Desktop view)
+  - add Icon which links to "Map" next to it
+  - turn Search box into icon instead (maybe only on Mobile view)
