@@ -186,4 +186,6 @@ aliases:
 - create [list of all notes chronologically modified](https://quartz.eilleeenz.com/meta/All-files-chronologically-modified) and add to map (with [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer))
 - add text animations (like [here](https://quartz.eilleeenz.com/meta/Code-tester)) -> https://github.com/Naraenda/quartz-ascone/commit/6c094df3ac0863d0f13690ca2136ad894943e76e
 - add page "Dataview"
+- use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
+- document changed files -> https://github.com/zoylendt/zoylendt.github.io/compare/upstream...v4
 - 
