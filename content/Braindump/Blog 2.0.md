@@ -190,4 +190,7 @@ aliases:
 - document changed files -> https://github.com/zoylendt/zoylendt.github.io/compare/upstream...v4
 - change favicon & banner image -> https://quartz.eilleeenz.com/Quartz-customization-log#changed-favicon-by-the-image-path-also-the-banner
 - restore full breadcrumbs but hide on mobile view
+- modify ToC to add "- " in front of each element
+- update footer with link to "Contact"
+- change CSS when permalink is copied to clipboard
 - 
