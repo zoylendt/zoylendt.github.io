@@ -20,19 +20,27 @@ Documentation of the Quartz frontmatter implementation: [Here](https://quartz.jz
 Frontmatter example:
 
 ```md
+---
 title: 
+subtitle: An alternative title for the note
 aliases:
   - alias1
-description: <Description of the page used for link previews>
+  - alias2
+description: 
+permalink: perma/9266641
 date: 2024-05-20
 publishDate: 2024-05-20
 updated: 2024-05-20
-draft: true
-publish: false
+draft: false
 enableToc: true
 tags:
   - note
-  - changeme
+  - unfinished
+  - graph-exclude
+  - explorer-exclude
+  - backlinks-exclude
+  - recents-exclude
+---
 ```
 
 Apparently by Quartz ignored components:
@@ -75,4 +83,4 @@ tags:
 
 # Notes
 
-- `draft: flase` gets treated as (the default?) `draft: true`
+- `draft: flase` (sic!) gets treated as (the default?) `draft: true`
