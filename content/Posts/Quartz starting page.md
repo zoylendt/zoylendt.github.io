@@ -1,11 +1,13 @@
 ---
 title: Quartz starting page
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-22
 publishDate: 2024-05-22
 updated: 2024-06-15
 draft: false
 tags:
-  - note
   - quartz
   - obsidian
 ---

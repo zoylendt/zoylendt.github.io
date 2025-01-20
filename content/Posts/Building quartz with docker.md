@@ -16,7 +16,7 @@ tags:
 
 > [!tip] Associated notes
 > This note is part of a series about how this blog is set up.
-> See [[Quartz starting page|here]] for an overview.
+> See [[quartz starting page|here]] for an overview.
  
 You want to locally build a preview of your Quartz website or want to locally host your notes without exposing them to the general web, but installing the required versions of `node` and `npm` is to bothersome?
 

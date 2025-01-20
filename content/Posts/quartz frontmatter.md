@@ -1,5 +1,8 @@
 ---
 title: Quartz frontmatter
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-20
 publishDate: 2024-05-20
 updated: 2025-01-20
@@ -12,7 +15,7 @@ tags:
 
 > [!tip] Associated notes
 > This note is part of a series about how this blog is set up.
-> See [[Quartz starting page|here]] for an overview.
+> See [[quartz starting page|here]] for an overview.
 
 Documentation of the Quartz frontmatter implementation: [Here](https://quartz.jzhao.xyz/plugins/Frontmatter)
 

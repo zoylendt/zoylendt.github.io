@@ -1,12 +1,15 @@
 ---
 title: Antilibrary
+subtitle: A collection of books that I want to read sometime
+description: A list of books that I want to read sometime
+permalink: perma/antilibrary
 date: 2024-05-24
 publishDate: 2024-05-24
 updated: 2024-12-05
 draft: false
 tags:
-  - note
   - reading
+  - media
   - books
 ---
 

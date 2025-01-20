@@ -14,7 +14,7 @@ tags:
 
 > [!tip] Associated notes
 > The other meta notes about my reading habits are:
-> - [[Books - antilibrary|Antilibrary]]
+> - [[books - antilibrary|Antilibrary]]
 > - [[Books - currently reading|Currently reading]]
 > - [[Books - previously read|Previously read books]]
 > - [[Books - quotes|Book quotes]]
