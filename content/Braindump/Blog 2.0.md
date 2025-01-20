@@ -193,8 +193,8 @@ aliases:
 - change color/opacity of "subtitle" & "permalink", mainly in LightMode
 - change link in RecentNotes (to "Dataview" or to "All-files-chronologically-modified")
   - create [list of all notes chronologically modified](https://quartz.eilleeenz.com/meta/All-files-chronologically-modified) and add to map (with [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer))
-  - add page "Dataview"
-- fix that "RecentNotes" appears twice on Home & Map 
+  - add page "Dataview" (also list unpublished notes? can be found in git anyway)
+- fix that "RecentNotes" appears twice on Home & Map (maybe add tags to RecentNotes in afterPage?)
 - experiment with better graph settings (and colors)
 - move Backlinks to afterPage (and hide when empty?)
 - complicated: 
