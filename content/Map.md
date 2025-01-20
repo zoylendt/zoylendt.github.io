@@ -1,5 +1,5 @@
 ---
-title: 
+title: Map
 subtitle: 
 description: 
 permalink: 
@@ -12,4 +12,9 @@ tags:
   - unfinished
 ---
  
-markdown content :)
+Folders:
+  - [Braindump](https://zoylendt.github.io/Braindump/): Unstructured, mostly short ideas
+  - [Life](https://zoylendt.github.io/Life/): Cooking, brewing, personal stuff
+  - [Notes](https://zoylendt.github.io/Notes/)
+  - [Posts](https://zoylendt.github.io/Posts/): Longer guides, tutorials & resources
+  - [Projects](https://zoylendt.github.io/Projects/): Complete write-ups of projects, meta-notes
