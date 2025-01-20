@@ -183,21 +183,23 @@ aliases:
 
 # Additional stuff
 
-- create [list of all notes chronologically modified](https://quartz.eilleeenz.com/meta/All-files-chronologically-modified) and add to map (with [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer))
 - add text animations (like [here](https://quartz.eilleeenz.com/meta/Code-tester)) -> https://github.com/Naraenda/quartz-ascone/commit/6c094df3ac0863d0f13690ca2136ad894943e76e & https://quartz.eilleeenz.com/Quartz-customization-log#copying-fancy-text-and-sticky-notes-from-naras-ascone
-- add page "Dataview"
-- use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
 - document changed files -> https://github.com/zoylendt/zoylendt.github.io/compare/upstream...v4
 - change favicon & banner image -> https://quartz.eilleeenz.com/Quartz-customization-log#changed-favicon-by-the-image-path-also-the-banner
-- restore full breadcrumbs but hide on mobile view
+- [x] restore full breadcrumbs but hide on mobile view (-> hiding on desktop view doesn't work somehow)
 - update footer with link to "Contact" (instead of pasting mail here)
-- change CSS when permalink is copied to clipboard
-- Fix links to/from footnotes -> https://quartz.eilleeenz.com/Quartz-customization-log#disabling-popover-on-footnotes-and-subtitles
+- [x] change CSS when permalink is copied to clipboard
+- Fix links to/from footnotes (on long notes) -> https://quartz.eilleeenz.com/Quartz-customization-log#disabling-popover-on-footnotes-and-subtitles
 - change color/opacity of "subtitle" & "permalink", mainly in LightMode
-- change link in RecentNotes (maybe to "Dataview"?)
-- 
+- change link in RecentNotes (to "Dataview" or to "All-files-chronologically-modified")
+  - create [list of all notes chronologically modified](https://quartz.eilleeenz.com/meta/All-files-chronologically-modified) and add to map (with [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer))
+  - add page "Dataview"
+- fix that "RecentNotes" appears twice on Home & Map 
+- experiment with better graph settings (and colors)
+- move Backlinks to afterPage (and hide when empty?)
 - complicated: 
-  - modify ToC to add "- " (or s) in front of each element
+  - modify ToC to add "- " (or similar) in front of each element (and indent following lines by a few spaces)
   - move DarkMode next to Search (in Desktop view)
   - add Icon which links to "Map" next to it
   - turn Search box into icon instead (maybe only on Mobile view)
+  - use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
