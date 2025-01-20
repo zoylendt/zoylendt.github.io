@@ -5,6 +5,8 @@ import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 import { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
+// @ts-ignore
+import permalinkScript from "./scripts/_permalinkCopy.inline"
 
 interface ContentMetaOptions {
   /**
@@ -27,25 +29,92 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     const text = fileData.text
 
     if (text) {
+      var modifiedSegment: string = ""
+      var createdSegment: string = ""
+      const fileRelativePath = fileData.filePath
+      const githuburl = "https://github.com/zoylendt/zoylendt.github.io"
       const segments: (string | JSX.Element)[] = []
+      const permalinks: (string | JSX.Element)[] = []
+      const subtitles: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
+
+        if (fileData.dates.created) {
+          cfg.defaultDateType = "created"
+          createdSegment = <Date date={getDate(cfg, fileData)!} locale={cfg.locale} />
+        }
+
+        if (fileData.dates.modified) {
+          cfg.defaultDateType = "modified"
+          modifiedSegment = <Date date={getDate(cfg, fileData)!} locale={cfg.locale} />
+        }
       }
 
       // Display reading time if enabled
+      var readingTimeStr: string = ""
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
         segments.push(<span>{displayedTime}</span>)
+        readingTimeStr = `${_words} words, ${displayedTime}`
+      }
+
+      // create permalink
+      if (fileData.frontmatter?.permalink) {
+        permalinks.push(
+            <a key="permalink" class="internal permalink" id="permalink" >
+              {cfg.baseUrl}/{fileData.frontmatter.permalink}
+            </a>
+        )
+      }
+
+      // get alternative title from frontmatter 'subtitle'
+      if (fileData.frontmatter?.subtitle) {
+        // const uppercaseSubtitle = fileData.frontmatter.subtitle.toUpperCase();
+        subtitles.push(
+          // `${uppercaseSubtitle}`
+          `${fileData.frontmatter.subtitle}`
+        )
       }
 
       return (
-        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segments}
+//        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
+//          {segments}
+//        </p>
+        <div>
+          <p class={classNames(displayClass, "content-meta")}>
+
+          {subtitles.length > 0 && (
+          <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
+            Alternatively: <span style={{fontStyle: 'italic'}}>{subtitles}</span>
+          </p>
+          )}
+
+        {permalinks.length > 0 && (
+        <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
+          Semi-permalink: {permalinks}
         </p>
+        )}
+
+        {readingTimeStr} <br />
+
+        Created {createdSegment} & updated {modifiedSegment} <br /> 
+
+        🌟 <a href={`${githuburl}/blob/v4/${fileRelativePath}?plain=1`} class={classNames(displayClass, "external")} target={"_blank"} style={"font-weight:400"}>
+          Code<svg class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg>
+        </a> &nbsp;
+        📄 <a href={`${githuburl}/raw/v4/${fileRelativePath}`} class={classNames(displayClass, "external")} target={"_blank"} style={"font-weight:400"}>
+          Raw.md<svg class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg>
+        </a> &nbsp;
+        🗓️ <a href={`${githuburl}/commits/v4/${fileRelativePath}`} class={classNames(displayClass, "external")} target={"_blank"} style={"font-weight:400"}>
+          History<svg class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg>
+        </a>
+
+        </p>
+        </div>
       )
     } else {
       return null
@@ -53,6 +122,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   }
 
   ContentMetadata.css = style
+  ContentMetadata.afterDOMLoaded = permalinkScript;
 
   return ContentMetadata
 }) satisfies QuartzComponentConstructor

@@ -8,30 +8,30 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🍺ZoyBlog📚",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "zoylendt.github.io",
+    ignorePatterns: ["private", "templates", ".obsidian", "zzz_static_files"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
-      cdnCaching: true,
+      cdnCaching: false,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Sedan SC",
+        body: "Lexend",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          //light: "#faf8f8",
           lightgray: "#e5e5e5",
+          light: "#d8cfc4",
+          //lightgray: "#646464",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
