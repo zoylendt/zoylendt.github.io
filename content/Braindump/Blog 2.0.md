@@ -207,3 +207,4 @@ aliases:
   - turn Search box into icon instead (maybe only on Mobile view)
   - use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
   - reduce empty space (in Mobile view) between ToC and pageBody
+  - change how tables are rendered (best: make tables sortable)
