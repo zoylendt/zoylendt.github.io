@@ -183,23 +183,23 @@ aliases:
 
 # Additional stuff
 
-- add text animations (like [here](https://quartz.eilleeenz.com/meta/Code-tester)) -> https://github.com/Naraenda/quartz-ascone/commit/6c094df3ac0863d0f13690ca2136ad894943e76e & https://quartz.eilleeenz.com/Quartz-customization-log#copying-fancy-text-and-sticky-notes-from-naras-ascone
-- document changed files -> https://github.com/zoylendt/zoylendt.github.io/compare/upstream...v4
-- change favicon & banner image -> https://quartz.eilleeenz.com/Quartz-customization-log#changed-favicon-by-the-image-path-also-the-banner
+- [ ] add text animations (like [here](https://quartz.eilleeenz.com/meta/Code-tester)) -> https://github.com/Naraenda/quartz-ascone/commit/6c094df3ac0863d0f13690ca2136ad894943e76e & https://quartz.eilleeenz.com/Quartz-customization-log#copying-fancy-text-and-sticky-notes-from-naras-ascone
+- [ ] document changed files -> https://github.com/zoylendt/zoylendt.github.io/compare/upstream...v4
+- [ ] change favicon & banner image -> https://quartz.eilleeenz.com/Quartz-customization-log#changed-favicon-by-the-image-path-also-the-banner
 - [x] restore full breadcrumbs but hide on mobile view (-> hiding on desktop view doesn't work somehow)
 - [ ] modify footer
-  - update footer with link to "Contact" (instead of pasting mail here)
-  - add button/likn to scroll to top
+  - [ ] update footer with link to "Contact" (instead of pasting mail here)
+  - [ ] add button/likn to scroll to top
 - [x] change CSS when permalink is copied to clipboard
-- Fix links to/from footnotes (on long notes) -> https://quartz.eilleeenz.com/Quartz-customization-log#disabling-popover-on-footnotes-and-subtitles
-- change color/opacity of "subtitle" & "permalink", mainly in LightMode
-- change link in RecentNotes (to "Dataview" or to "All-files-chronologically-modified")
-  - create [list of all notes chronologically modified](https://quartz.eilleeenz.com/meta/All-files-chronologically-modified) and add to map (with [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer))
-  - add page "Dataview" (also list unpublished notes? can be found in git anyway)
-- fix that "RecentNotes" appears twice on Home & Map (maybe add tags to RecentNotes in afterPage?)
-- experiment with better graph settings (and colors)
-- maybe show folder structure on Map in a "tree graph"?
-- move Backlinks to afterPage (and hide when empty?)
+- [ ] Fix links to/from footnotes (on long notes) -> https://quartz.eilleeenz.com/Quartz-customization-log#disabling-popover-on-footnotes-and-subtitles
+- [ ] change color/opacity of "subtitle" & "permalink", mainly in LightMode
+- [ ] change link in RecentNotes (to "Dataview" or to "All-files-chronologically-modified")
+  - [ ] create [list of all notes chronologically modified](https://quartz.eilleeenz.com/meta/All-files-chronologically-modified) and add to map (with [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer))
+  - [ ] add page "Dataview" (also list unpublished notes? can be found in git anyway)
+- [ ] fix that "RecentNotes" appears twice on Home & Map (maybe add tags to RecentNotes in afterPage?)
+- [ ] experiment with better graph settings (and colors)
+- [ ] maybe show folder structure on Map in a "tree graph"?
+- [ ] move Backlinks to afterPage (and hide when empty?)
 - complicated: 
   - modify ToC to add "- " (or similar) in front of each element (and indent following lines by a few spaces)
   - move DarkMode next to Search (in Desktop view)
