@@ -187,7 +187,9 @@ aliases:
 - document changed files -> https://github.com/zoylendt/zoylendt.github.io/compare/upstream...v4
 - change favicon & banner image -> https://quartz.eilleeenz.com/Quartz-customization-log#changed-favicon-by-the-image-path-also-the-banner
 - [x] restore full breadcrumbs but hide on mobile view (-> hiding on desktop view doesn't work somehow)
-- update footer with link to "Contact" (instead of pasting mail here)
+- [ ] modify footer
+  - update footer with link to "Contact" (instead of pasting mail here)
+  - add button to scroll to top
 - [x] change CSS when permalink is copied to clipboard
 - Fix links to/from footnotes (on long notes) -> https://quartz.eilleeenz.com/Quartz-customization-log#disabling-popover-on-footnotes-and-subtitles
 - change color/opacity of "subtitle" & "permalink", mainly in LightMode
@@ -196,6 +198,7 @@ aliases:
   - add page "Dataview" (also list unpublished notes? can be found in git anyway)
 - fix that "RecentNotes" appears twice on Home & Map (maybe add tags to RecentNotes in afterPage?)
 - experiment with better graph settings (and colors)
+- maybe show folder structure on Map in a "tree graph"?
 - move Backlinks to afterPage (and hide when empty?)
 - complicated: 
   - modify ToC to add "- " (or similar) in front of each element (and indent following lines by a few spaces)
@@ -203,3 +206,4 @@ aliases:
   - add Icon which links to "Map" next to it
   - turn Search box into icon instead (maybe only on Mobile view)
   - use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
+  - reduce empty space (in Mobile view) between ToC and pageBody
