@@ -206,7 +206,8 @@ aliases:
   - modify ToC to add "- " (or similar) in front of each element (and indent following lines by a few spaces)
   - add second ToC for mobile view -> https://quartz.eilleeenz.com/Quartz-customization-log#making-a-second-table-of-contents-component
   - move DarkMode button next to Search-icon (in Desktop view) & add Map button to it -> https://quartz.eilleeenz.com/Quartz-customization-log#forcing-icons-into-a-row-in-the-top-corner
-  - change how tables are rendered (like https://www.ssp.sh/brain/ & https://glossary.airbyte.com/ -> both old Hugo version)
   - use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
   - reduce empty space (in Mobile view) between ToC and pageBody
   - change how tables are rendered (best: make tables sortable)
+    - like https://www.ssp.sh/brain/ & https://glossary.airbyte.com/ -> both old Hugo version
+    - best: make tables sortable
