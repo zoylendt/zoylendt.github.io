@@ -189,7 +189,7 @@ aliases:
 - [x] restore full breadcrumbs but hide on mobile view (-> hiding on desktop view doesn't work somehow)
 - [ ] modify footer
   - [ ] update footer with link to "Contact" (instead of pasting mail here)
-  - [ ] add button/likn to scroll to top
+  - [ ] add button/link to scroll to top
 - [x] change CSS when permalink is copied to clipboard
 - [ ] Fix links to/from footnotes (on long notes) -> https://quartz.eilleeenz.com/Quartz-customization-log#disabling-popover-on-footnotes-and-subtitles
 - [ ] change color/opacity of "subtitle" & "permalink", mainly in LightMode
