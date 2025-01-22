@@ -1,5 +1,8 @@
 ---
 title: Dockerized file indexer
+subtitle: An overview of different dockeried file indexing tools
+description: 
+permalink: 
 date: 2024-05-23
 publishDate: 2024-05-23
 updated: 2024-06-05
