@@ -23,7 +23,7 @@ const GraphOnMap = {
     showTags: true, // whether to show tags in the graph
   },
 }
-const tagsToRemove = ["graph-exclude", "explorer-exclude", "backlinks-exclude", "recents-exclude"]
+const tagsToRemove = ["graph-exclude", "explorer-exclude", "backlinks-exclude", "recents-exclude", "all_files"]
 const defaultGraphConfig = {
   localGraph: {
     removeTags: tagsToRemove,
