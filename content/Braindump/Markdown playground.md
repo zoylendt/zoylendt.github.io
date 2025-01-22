@@ -600,3 +600,20 @@ Sometimes we have footnoes so this needs to be long enough
 [^1]: The world is big but simultaneously small. the ocean is unexplored for the most part. convinced there's some dinosaurs there. 
 
 ![[Quartz Cheatsheet#Footnote syntax]]
+
+---
+
+<div class="welcome">
+<div>
+
+My name is Ellie Huxtable. I'm a software/infrastructure engineer, and am at my happiest when I'm building <i>something cool</i>. I love an adventure, and if I'm not at a computer there's a good chance I'm riding a motorcycle.
+
+Here you will find a mix of notes, longer/more thoughtful posts, and links to various things I've done
+
+</div>
+<div class="me">
+<img src="https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg"/>
+</div>
+
+
+</div>
