@@ -603,17 +603,17 @@ Sometimes we have footnoes so this needs to be long enough
 
 ---
 
-<div class="welcome">
-<div>
+## Thoughts on Corrigibility
 
-My name is Ellie Huxtable. I'm a software/infrastructure engineer, and am at my happiest when I'm building <i>something cool</i>. I love an adventure, and if I'm not at a computer there's a good chance I'm riding a motorcycle.
+<figure class="float-right desktop-only" style="margin-top:-1rem; width: 80%;">
+<img src="https://assets.turntrout.com/static/images/posts/hal_9000.avif" alt="" loading="lazy" style="width: 80%;">
+</figure>
 
-Here you will find a mix of notes, longer/more thoughtful posts, and links to various things I've done
+> [!quote] Original sequence description
+>
+> My writings on different kinds of corrigibility. These thoughts build on each other and form part of my alignment worldview (circa 2021), but they are not yet woven into a coherent narrative.
 
-</div>
-<div class="me">
-<img src="https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg"/>
-</div>
-
-
-</div>
+1. [Non-Obstruction: A Simple Concept Motivating Corrigibility](./non-obstruction-motivates-corrigibility)
+2. [Corrigibility As Outside View](./corrigibility-as-outside-view)
+3. [A Certain Formalization of Corrigibility is VNM-Incoherent](./a-certain-formalization-of-corrigibility-is-vnm-incoherent)
+4. [Formalizing Policy Modification Corrigibility](./formalizing-policy-modification-corrigibility)
