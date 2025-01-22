@@ -202,6 +202,7 @@ aliases:
 - [ ] move Backlinks to afterPage (and hide when empty?)
 - complicated: 
   - modify ToC to add "- " (or similar) in front of each element (and indent following lines by a few spaces)
+  - add second ToC for mobile view -> https://quartz.eilleeenz.com/Quartz-customization-log#making-a-second-table-of-contents-component
   - move DarkMode button next to Search (in Desktop view) & add Map button to it -> https://quartz.eilleeenz.com/Quartz-customization-log#forcing-icons-into-a-row-in-the-top-corner
   - turn Search box into icon instead (maybe only on Mobile view)
   - use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
