@@ -8,9 +8,10 @@ publishDate: 2024-05-25
 updated: 2024-05-29
 draft: false
 tags:
-  - note
+  - guide
   - proxmox
   - linux
+  - vm
 ---
  
 How to quickly set up a Debian 12 VM on Proxmox 8 using [helper scripts](https://helper-scripts.com).
