@@ -1,6 +1,6 @@
 ---
 title: Handhelds
-subtitle: 
+subtitle: An overview of my handhelds
 description: 
 permalink: 
 date: 2024-05-23

@@ -1,11 +1,14 @@
 ---
-title: 
+title: K3S resources
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-20
 publishDate: 2024-05-20
 updated: 2024-06-06
 draft: false
 tags:
-  - note
+  - resources
   - untested
   - unfinished
   - docker

@@ -26,7 +26,7 @@ tags:
 > 		- According to [this issue](https://github.com/qdm12/gluetun/issues/231) it should support random exit servers.
 > 		- This might be possible through the [optional environment variables](https://github.com/qdm12/gluetun-wiki/blob/main/setup/providers/protonvpn.md#optional-environment-variables)
 > 
-> Since I'm anyway planning to migrate to a [[Homelab 2.0 | K3S based homelab setup]] I'll have to create a similar setup within K3S. [Here](https://github.com/qdm12/gluetun-wiki/pull/7) is the K8S sidecar documentation (draft) for [qdm12/gluetun](https://github.com/qdm12/gluetun).
+> Since I'm anyway planning to migrate to a [[homelab 2.0| K3S based homelab setup]] I'll have to create a similar setup within K3S. [Here](https://github.com/qdm12/gluetun-wiki/pull/7) is the K8S sidecar documentation (draft) for [qdm12/gluetun](https://github.com/qdm12/gluetun).
 > 	- [Native K8s Sidecar Containers with gluetun](https://blog.cetinich.net/content/2024/initContainers-stuck-in-PodInitializing/)
 > 	- [Deploying a Kubernetes-Based Media Server](https://merox.dev/blog/kubernetes-media-server/) (see also the [docs](https://docs.merox.dev/operations/containerization/k3s/manifests/media-stack/))
 > 	- [K8s native sidecar with VPN](https://nerdiverset.no/k8s-native-sidecar-with-vpn/)

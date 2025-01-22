@@ -1,11 +1,14 @@
 ---
-title: 
+title: Homelab 2.0
+subtitle: 
+description: 
+permalink: 
 date: 2024-11-01
 publishDate: 2024-11-01
 updated: 2025-01-16
 draft: false
 tags:
-  - note
+  - homelab
   - unfinished
 ---
  

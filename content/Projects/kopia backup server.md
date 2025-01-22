@@ -1,11 +1,13 @@
 ---
-title: 
+title: Kopia backup server
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-30
 publishDate: 2024-05-30
 updated: 2024-06-05
 draft: false
 tags:
-  - note
   - unfinished
   - docker
   - backup

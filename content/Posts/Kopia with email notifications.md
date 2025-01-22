@@ -1,11 +1,13 @@
 ---
 title: 
+subtitle: Adding email notification support to Kopia
+description: 
+permalink: 
 date: 2024-07-29
 publishDate: 2024-07-29
 updated: 2024-07-29
 draft: true
 tags:
-  - note
   - unfinished
   - untested
 ---
