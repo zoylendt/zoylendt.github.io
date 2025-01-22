@@ -8,7 +8,6 @@ publishDate: 2024-05-17
 updated: 2024-05-18
 draft: false
 tags:
-  - all_files
   - latex
   - german
   - overleaf

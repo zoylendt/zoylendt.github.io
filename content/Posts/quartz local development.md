@@ -1,12 +1,13 @@
 ---
 title: Building Quartz With Docker
+subtitle: How to 
+description: 
+permalink: 
 date: 2024-02-05
 updated: 2024-06-15
 publishDate: 2024-02-05
 draft: false
-enableToc: true
 tags:
-  - note
   - quartz
   - docker
   - windows

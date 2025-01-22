@@ -8,7 +8,6 @@ publishDate: 2024-10-09
 updated: 2024-10-09
 draft: true
 tags:
-  - all_files
   - selfhosted
   - unfinished
 ---

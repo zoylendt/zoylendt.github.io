@@ -8,7 +8,6 @@ publishDate: 2024-06-01
 updated: 2025-01-09
 draft: false
 tags:
-  - all_files
   - windows
 ---
  
