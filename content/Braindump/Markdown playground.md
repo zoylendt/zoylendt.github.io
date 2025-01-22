@@ -1,11 +1,13 @@
 ---
-title: 
+title: Markdown Playground
+subtitle: A place for testing how different markdown elements are rendered by Quartz
+description: 
+permalink: 
 date: 2024-05-18
 publishDate: 2024-05-18
 updated: 2025-01-15
 draft: false
 tags:
-  - note
   - markdown
 ---
 

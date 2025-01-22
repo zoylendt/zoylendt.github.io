@@ -1,11 +1,14 @@
 ---
 title: BOMANN GSPE 889 788900 replacement parts
+subtitle: 
+description: 
+permalink: 
 date: 2025-01-09
 publishDate: 2025-01-09
 updated: 2025-01-15
 draft: false
 tags:
-  - note
+
   - unfinished
   - wg
   - german

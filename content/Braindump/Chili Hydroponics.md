@@ -1,11 +1,13 @@
 ---
-title: 
+title: Chili Hydroponics
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-11
 publishDate: 2024-05-11
 updated: 2024-05-22
 draft: false
 tags:
-  - note
   - unfinished
   - plants
   - german

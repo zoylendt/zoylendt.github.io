@@ -200,6 +200,7 @@ aliases:
 - [ ] experiment with better graph settings (and colors)
 - [ ] maybe show folder structure on Map in a "tree graph"?
 - [ ] move Backlinks to afterPage (and hide when empty?)
+- [ ] change style of external links -> https://quartz.eilleeenz.com/Quartz-customization-log#underline-external-links-in-page-bodies-and-lighter
 - complicated: 
   - modify ToC to add "- " (or similar) in front of each element (and indent following lines by a few spaces)
   - add second ToC for mobile view -> https://quartz.eilleeenz.com/Quartz-customization-log#making-a-second-table-of-contents-component

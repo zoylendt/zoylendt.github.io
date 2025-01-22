@@ -1,11 +1,13 @@
 ---
 title: Surplus Steam Keys
+subtitle: 
+description: 
+permalink: perma/steamkeys
 date: 2024-05-09
 updated: 2025-01-09
 publishDate: 2024-05-09
 draft: false
 tags:
-  - note
   - unfinished
 ---
 
