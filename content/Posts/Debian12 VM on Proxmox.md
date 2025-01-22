@@ -1,5 +1,8 @@
 ---
 title: Debian 12 VM on Proxmox
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-25
 publishDate: 2024-05-25
 updated: 2024-05-29

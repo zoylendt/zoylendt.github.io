@@ -1,6 +1,6 @@
 ---
-title: Building Quartz With Docker
-subtitle: How to 
+title: Testing Quartz changes with Docker
+subtitle: How to test blog changes locally with Docker
 description: 
 permalink: 
 date: 2024-02-05
@@ -13,6 +13,7 @@ tags:
   - windows
   - powershell
   - unfinished
+  - vscode
 ---
 
 > [!tip] Associated notes
