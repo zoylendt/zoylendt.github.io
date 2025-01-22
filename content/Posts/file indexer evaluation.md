@@ -8,8 +8,8 @@ publishDate: 2024-05-23
 updated: 2024-06-05
 draft: true
 tags:
-  - note
   - unfinished
+  - docker
 ---
  
 I'm looking for a (dockerized) Setup that indexes files from multiple file storage systems at once.

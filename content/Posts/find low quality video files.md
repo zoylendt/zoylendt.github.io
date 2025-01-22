@@ -1,6 +1,6 @@
 ---
-title: 
-subtitle: 
+title: Find low quality video files
+subtitle: How to identify low quality video files in a media library
 description: 
 permalink: 
 date: 2024-05-18
@@ -8,8 +8,8 @@ publishDate: 2024-05-18
 updated: 2024-05-22
 draft: true
 tags:
-  - note
   - unfinished
+  - media
 ---
  
 Idea: 

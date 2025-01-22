@@ -1,11 +1,14 @@
 ---
-title: 
+title: Handhelds
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-23
 publishDate: 2024-05-23
 updated: 2024-12-31
 draft: true
 tags:
-  - note
+  - videogames
   - unfinished
 ---
 
