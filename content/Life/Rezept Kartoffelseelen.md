@@ -1,17 +1,19 @@
 ---
 title: "Rezept: Konstanzer Kartoffelseelen"
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-20
 publishDate: 2024-05-20
 updated: 2024-05-30
 draft: false
 tags:
-  - note
   - bread
   - recipe
   - german
 ---
  
-Schon häufig gebacken, zB für Partys.
+Schon häufig gebacken, z.B. für Partys.
 
 Zutaten:
 

@@ -1,11 +1,15 @@
 ---
-title: 
+title: "Rezept: Ginger Bug, Ingwerlimonade & Ginger Ale"
+subtitle: 
+description: 
+permalink: 
 date: 2024-11-22
 publishDate: 2024-11-22
 updated: 2024-11-22
 draft: true
 tags:
-  - note
+  - recipe
+  - german
   - unfinished
 ---
 

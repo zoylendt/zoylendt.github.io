@@ -1,16 +1,18 @@
 ---
 title: "Rezept: Arme Ritter"
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-25
 publishDate: 2024-05-25
 updated: 2024-06-05
 draft: false
 tags:
-  - note
   - german
   - recipe
 ---
  
-Ein Rezept für herzhafte Arme Ritter. Reicht für ca 10 kleine Brotscheiben á 5x12cm, zumindest bei relativ dichtem Brot, zB. [[Brot 2024-05-19|diesem Sauerteigbrot]].
+Ein Rezept für herzhafte Arme Ritter. Reicht für ca 10 kleine Brotscheiben á 5x12cm, zumindest bei relativ dichtem Brot, zB. [[brot 2024-05-19|diesem Sauerteigbrot]].
 
 Zutaten:
 

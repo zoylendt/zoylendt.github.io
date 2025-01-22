@@ -1,11 +1,13 @@
 ---
 title: "Rezept: Focaccia"
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-20
 publishDate: 2024-05-20
 updated: 2024-05-20
 draft: false
 tags:
-  - note
   - german
   - bread
   - recipe

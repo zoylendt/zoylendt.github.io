@@ -1,11 +1,14 @@
 ---
-title: 
+title: Invenory of my Homebrewing Consumables
+subtitle: 
+description: 
+permalink: 
 date: 2024-06-05
 publishDate: 2024-06-05
 updated: 2024-06-05
 draft: false
 tags:
-  - note
+  - homebrewing
   - unfinished
   - german
   - beer

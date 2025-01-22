@@ -1,11 +1,14 @@
 ---
-title: 
+title: My brewing Setup
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-13
 publishDate: 2024-05-13
 updated: 2024-08-10
 draft: false
 tags:
-  - note
+  - homebrewing
   - beer
   - brewing
   - unfinished
