@@ -1,11 +1,14 @@
 ---
-title: 
+title: Chocolately
+subtitle: 
+description: 
+permalink: 
 date: 2024-06-01
 publishDate: 2024-06-01
 updated: 2025-01-09
 draft: false
 tags:
-  - note
+  - all_files
   - windows
 ---
  

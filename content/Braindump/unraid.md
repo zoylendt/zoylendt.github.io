@@ -1,11 +1,14 @@
 ---
-title: 
+title: Unraid
+subtitle: 
+description: 
+permalink: 
 date: 2024-10-09
 publishDate: 2024-10-09
 updated: 2024-10-09
 draft: true
 tags:
-  - note
+  - all_files
   - selfhosted
   - unfinished
 ---
