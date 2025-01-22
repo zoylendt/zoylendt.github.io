@@ -1,11 +1,14 @@
 ---
 title: Docker Cheatsheet
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-28
 publishDate: 2024-05-28
 updated: 2024-06-02
 draft: false
 tags:
-  - note
+  - cheatsheet
   - docker
 ---
 

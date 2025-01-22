@@ -1,5 +1,8 @@
 ---
 title: 
+subtitle: 
+description: 
+permalink: 
 date: 2024-06-12
 publishDate: 2024-06-12
 updated: 2024-06-13

@@ -1,11 +1,13 @@
 ---
-title: Run DockerInDocker within another base image
+title: Add DockerInDocker functionality to another base image
+subtitle: 
+description: 
+permalink: 
 date: 2024-08-01
 publishDate: 2024-08-01
 updated: 2024-08-02
 draft: true
 tags:
-  - note
   - unfinished
   - docker
 ---
