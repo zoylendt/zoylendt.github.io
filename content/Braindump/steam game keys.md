@@ -9,6 +9,8 @@ publishDate: 2024-05-09
 draft: false
 tags:
   - unfinished
+  - videogames
+  - media
 ---
 
 A list of surplus steam keys. Currently only Keys from 2022 and later are included.

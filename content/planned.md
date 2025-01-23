@@ -1,6 +1,6 @@
 ---
-title: Some Topics I Want to Write About
-subtitle: 
+title: Planned topics
+subtitle: Some Topics I Want to Write About
 description: 
 permalink: 
 date: 2024-02-11
