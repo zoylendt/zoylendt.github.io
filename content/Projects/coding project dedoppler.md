@@ -31,3 +31,4 @@ tags:
 > - [ ] switch from CSV to SQLite (with migration tool)
 > - [ ] properly log processed files (summary in separate log file?)
 > - [ ] build to run continuously (or with custom schedule)
+> - [ ] add notifications (eMail/SMTP?)

@@ -1,5 +1,5 @@
 ---
-title: "Coding project: SaltMine"
+title: "Coding project: Saltmine"
 subtitle: 
 description: 
 permalink: 
@@ -17,4 +17,6 @@ tags:
 ---
 
 >[!info] Basic concept
-> 
+> Periodically crawl various APIs from RiotGames to save all available data of an configured user's games (intended: you own games).
+> Analyze the data for desired stats (to be determined) and expose those via API (maybe GraphQL?).
+> Should be compatible (= able to be read by) HomeAssistant & selfhosted dashboards.
