@@ -1,11 +1,14 @@
 ---
-title: 
+title: Collapsible sections in Markdown
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-18
 publishDate: 2024-05-18
 updated: 2024-05-22
 draft: false
 tags:
-  - note
+  - quartz
   - markdown
   - unfinished
 ---

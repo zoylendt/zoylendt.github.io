@@ -1,11 +1,13 @@
 ---
 title: Markdown Guide
+subtitle: 
+description: 
+permalink: 
 date: 2024-02-04
 updated: 2024-05-22
 publishDate: 2024-02-04
 draft: false
 tags:
-  - note
   - markdown
   - quartz
   - unfinished
@@ -114,13 +116,13 @@ see http://localhost:8070/advanced/paths
 
 ### link to a whole page
 
-[[Markdown guide]]
+[[markdown guide]]
 
 [[index]]
 
 ### links to a paragraph
 
-[[Markdown guide#Code block|alternative name]]
+[[markdown guide#Code block|alternative name]]
 
 ## external links
 

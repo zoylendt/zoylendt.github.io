@@ -1,5 +1,5 @@
 ---
-title: 
+title: Kopia with email notifications
 subtitle: Adding email notification support to Kopia
 description: 
 permalink: 
