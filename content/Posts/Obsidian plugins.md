@@ -1,11 +1,13 @@
 ---
 title: Obsidian Plugins
+subtitle: A collection of Obsidian plugins I use
+description: 
+permalink: 
 date: 2024-05-10
 updated: 2024-06-05
 publishDate: 2024-05-10
 draft: false
 tags:
-  - note
   - obsidian
   - unfinished
 ---
@@ -25,7 +27,7 @@ https://www.youtube.com/watch?v=W7kTtn9empU
 
 ## Git
 
-see [[My obsidian git quartz workflow]]
+see [[obsidian workflow]]
 
 ## Commander
 

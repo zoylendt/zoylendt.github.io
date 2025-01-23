@@ -71,12 +71,12 @@ tags:
 	- [ ] define [poetry code](https://github.com/search?q=repo%3Ajackyzha0%2Fjackyzha0.github.io%20poetry&type=code)
 	- [ ] rename .md files, same naming scheme (upper-/lowercase)
 	- [ ] Restructure Guide:
-		- [ ] my workflow (Obsidian -> git -> GitHub -> sync action) -> [[My obsidian git quartz workflow]]
-		- [ ] basic setup (without custom layout) -> [[Quartz basic setup]]
-		- [ ] personalisations (used by me and not used by me) [[Quartz customizations]]
-		- [ ] my config files -> only link to github [[My quartz config files]]
-		- [ ] how to incorporate upstream changes [[Quartz sync fork]]
-		- [ ] my obsidian folder structure [[My obsidian folder structure]]
+		- [ ] my workflow (Obsidian -> git -> GitHub -> sync action) -> [[obsidian workflow]]
+		- [ ] basic setup (without custom layout) -> [[quartz basic setup]]
+		- [ ] personalisations (used by me and not used by me) [[quartz modifications]]
+		- [ ] my config files -> only link to github [[quartz my config]]
+		- [ ] how to incorporate upstream changes [[quartz sync fork with upstream]]
+		- [ ] my obsidian folder structure [[obsidian folder structure]]
 		- [ ] how to continue on another PC [[Quartz on multiple PCs]]
 
 # Physics

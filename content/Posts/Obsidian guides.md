@@ -1,11 +1,14 @@
 ---
-title: 
+title: Web resources & guides about Obsidian
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-16
 publishDate: 2024-05-16
 updated: 2024-05-22
 draft: false
 tags:
-  - note
+  - resources
   - obsidian
   - bookmarks
   - unfinished

@@ -1,11 +1,14 @@
 ---
-title: 
+title: Basic Quartz setup
+subtitle: How to deploy a Quartz blog on GitHub Pages with minimal required config changes
+description: 
+permalink: 
 date: 2024-05-22
 publishDate: 2024-05-22
 updated: 2024-07-26
 draft: false
 tags:
-  - note
+  - github
   - quartz
   - git
   - unfinished
@@ -15,18 +18,18 @@ tags:
 > This note is part of a series about how this blog is set up.
 > See [[quartz starting page|here]] for an overview.
 
-This note is about how to spin up your own quartz instance, hosted on [GitHub Pages](https://pages.github.com/). It's a minimal setup that will look like the [Quartz documentation](https://quartz.jzhao.xyz/)) and it's the starting point for [[Quartz customizations|additional customizations]].
+This note is about how to spin up your own quartz instance, hosted on [GitHub Pages](https://pages.github.com/). It's a minimal setup that will look like the [Quartz documentation](https://quartz.jzhao.xyz/)) and it's the starting point for [[quartz modifications|additional customizations]].
 
 In this guide we'll host Quartz on GitHub Pages, however there are [other options](https://quartz.jzhao.xyz/hosting). This basic setup requires no locally installed software, you can work entirely on the GitHub website.
 
 - Fork https://github.com/jackyzha0/quartz into your GitHub account.
 	- Your blog can be reachable at `GHUSERNAME.github.io` (fork as `GHUSERNAME.github.io`) or a subdomain, like `GHUSERNAME.github.io/blog` (fork as `blog`).  You only need to fork the branch `v4`.
 - (optional) Create new branch "upstream" 
-	- From branch `v4`, useful to compare changes that happen upstream, see [[Quartz sync fork|this note]] for more details.
+	- From branch `v4`, useful to compare changes that happen upstream, see [[quartz sync fork with upstream|this note]] for more details.
 - (optional) Delete the files `README.md` and `.github/workflows/ci.yaml`
 - Create a new file `content/index.md`. 
 	- The file can be empty (for now), look [here](https://github.com/jackyzha0/quartz/blob/v4/docs/index.md) for inspirations.
-- Follow the [[Quartz customizations#Minimal required config changes]]:
+- Follow the [[quartz modifications#Minimal required config changes]]:
 	- See the start of `quartz.config.ts` below for the two lines that need to be changed (might change with newer Quartz versions).
 - Create a new file `.github/workflows/deploy.yml`, for the contents see https://quartz.jzhao.xyz/hosting#github-pages
 - Head to “Settings” tab of your forked repository and in the sidebar, click “Pages”. Under “Source”, select “GitHub Actions”.

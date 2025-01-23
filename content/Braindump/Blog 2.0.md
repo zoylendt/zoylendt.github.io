@@ -208,6 +208,7 @@ aliases:
   - move DarkMode button next to Search-icon (in Desktop view) & add Map button to it -> https://quartz.eilleeenz.com/Quartz-customization-log#forcing-icons-into-a-row-in-the-top-corner
   - use encrypted notes (not yet implemented): [PR #1481](https://github.com/jackyzha0/quartz/pull/1481) & [Issue #166](https://github.com/jackyzha0/quartz/issues/1636)
   - reduce empty space (in Mobile view) between ToC and pageBody
+  - hide tags that apper less than n times on "/tags" page
   - change how tables are rendered (best: make tables sortable)
     - like https://www.ssp.sh/brain/ & https://glossary.airbyte.com/ -> both old Hugo version
     - best: make tables sortable

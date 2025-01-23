@@ -1,5 +1,8 @@
 ---
-title: 
+title: My eGPU setup
+subtitle: 
+description: 
+permalink: 
 date: 2024-11-18
 publishDate: 2024-11-18
 updated: 2024-11-18
@@ -7,6 +10,7 @@ draft: true
 tags:
   - note
   - unfinished
+  - internal
 ---
  
 Model: [AkiTio Node Titan](https://www.akitio.com/expansion/node-titan)

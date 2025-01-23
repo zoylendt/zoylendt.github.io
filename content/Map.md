@@ -10,6 +10,8 @@ draft: false
 enableToc: false
 tags:
   - unfinished
+  - blog
+  - meta
 ---
  
 Folders:
