@@ -14,7 +14,9 @@ tags:
   - unfinished
 ---
  
-markdown content :)
+>[!info] Concept
+> I needed a small tool for identifying duplicate files before adding them to a folder.
+> But instead of comparing the new and the current files I also want to reject files that have previously bee
 
 -> https://dev.to/willvelida/pushing-container-images-to-github-container-registry-with-github-actions-1m6b
 -> https://github.com/marketplace/actions/push-to-ghcr

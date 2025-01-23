@@ -17,6 +17,6 @@ tags:
 Folders:
   - [[Braindump]]: Unstructured, mostly short ideas
   - [[Life]]: Cooking, brewing, personal stuff
-  - [[Notes]]: Short pages, 
-  - [[Posts]]: Longer guides, tutorials & resources
-  - [[Projects]]: Complete write-ups of projects, meta-notes
+  - [[Notes]]: Short pages, collections of web resources
+  - [[Posts]]: Longer guides & tutorials
+  - [[Projects]]: Complete write-ups of projects, meta/overview notes
