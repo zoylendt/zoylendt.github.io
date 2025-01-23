@@ -1,12 +1,15 @@
 ---
-title: 
+title: Adding dynamic elements to Quartz
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-18
 publishDate: 2024-05-18
 updated: 2024-11-23
 draft: false
 tags:
-  - note
   - markdown
+  - quartz
   - unfinished
 ---
 
