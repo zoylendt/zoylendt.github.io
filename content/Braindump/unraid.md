@@ -12,5 +12,5 @@ tags:
   - unfinished
 ---
  
-This note contains information about the configuration & plugins of my unraid system (the hardware is documented [[My Hardware#datengrab | here]]).
+This note contains information about the configuration & plugins of my unraid system (the hardware is documented [[homelab hardware#datengrab| here]]).
 

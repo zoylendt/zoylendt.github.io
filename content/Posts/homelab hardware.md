@@ -1,12 +1,14 @@
 ---
-title: 
-description: <Description of the page used for link previews>
+title: My homelab hardware
+subtitle: 
+description: 
+permalink: 
 date: 2024-05-13
 publishDate: 2024-05-13
 updated: 2024-12-31
 draft: false
 tags:
-  - note
+  - homelab
   - selfhosted
   - unfinished
 ---

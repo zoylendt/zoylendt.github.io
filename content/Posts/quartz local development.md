@@ -86,3 +86,9 @@ cd "$env:USERPROFILE\Downloads\quartz-4\" ; docker rm -f blog ; docker image rm 
 ```powershell title="Powershell-oneliner: cleanup"
 cd "$env:USERPROFILE\Downloads\" ; rm -r .\quartz-4.zip ; rm -r .\quartz-4\ ; docker rm -f blog ; docker image rm blog
 ```
+
+# Developing with VSCode (on Windows)
+
+This needs VSCode with the Docker extension and Docker Desktop (or Engine)
+
+docker rm -f blog ; docker image rm blog ; docker build -qt blog . ; docker run -dp 8071:8080 --name blog blog

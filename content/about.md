@@ -8,7 +8,6 @@ publishDate: 2024-12-05
 updated: 2024-12-05
 draft: false
 tags:
-  - note
   - unfinished
 ---
  

@@ -9,7 +9,6 @@ updated: 2025-01-20
 draft: false
 enableToc: false
 tags:
-  - note
   - unfinished
 ---
  
