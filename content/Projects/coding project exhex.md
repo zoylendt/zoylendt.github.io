@@ -2,7 +2,7 @@
 title: "Coding project: ExHex"
 subtitle: 
 description: 
-permalink: 
+permalink: perma/exhex
 date: 2024-10-09
 publishDate: 2024-10-09
 updated: 2024-10-09

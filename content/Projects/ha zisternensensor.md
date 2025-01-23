@@ -1,8 +1,8 @@
 ---
-title: Building a cistern level sensor for HomeAssistant
+title: Building a cistern fill level sensor for HomeAssistant
 subtitle: 
 description: 
-permalink: 
+permalink: perma/zisternensensor
 date: 2024-06-04
 publishDate: 2024-06-04
 updated: 2024-08-11

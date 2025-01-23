@@ -2,7 +2,7 @@
 title: "Coding project: DeDoppler"
 subtitle: 
 description: 
-permalink: 
+permalink: perma/dedoppler
 date: 2024-10-09
 publishDate: 2024-10-09
 updated: 2025-01-24
