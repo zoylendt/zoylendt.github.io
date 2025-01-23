@@ -34,6 +34,15 @@ where econtains(tags, "untested")
 sort updated
 ```
 
+# Notes tagged #note 
+
+```dataview title="Untested notes"
+table title, date, updated
+from "public"
+where econtains(tags, "note")
+sort updated
+```
+
 # 10 latest Notes created in the last week
 
 ```dataview

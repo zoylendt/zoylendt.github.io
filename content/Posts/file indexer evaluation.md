@@ -1,5 +1,5 @@
 ---
-title: Dockerized file indexer
+title: Comparison of dockerized file indexers
 subtitle: An overview of different dockeried file indexing tools
 description: 
 permalink: 
