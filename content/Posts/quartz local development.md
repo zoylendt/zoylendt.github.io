@@ -89,6 +89,9 @@ cd "$env:USERPROFILE\Downloads\" ; rm -r .\quartz-4.zip ; rm -r .\quartz-4\ ; do
 
 # Developing with VSCode (on Windows)
 
-This needs VSCode with the Docker extension and Docker Desktop (or Engine)
+This needs VSCode with the Docker extension and Docker Desktop (or Engine) running.
 
+Execute from the VSCode Terminal (while in the quartz root directory):
+```powershell
 docker rm -f blog ; docker image rm blog ; docker build -qt blog . ; docker run -dp 8071:8080 --name blog blog
+```
