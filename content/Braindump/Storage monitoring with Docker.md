@@ -16,13 +16,13 @@ tags:
 
 # Introduction
 
-I wanted to eval
+I'm looking for a dockerized tool that can monitor and index my NAS systems (Unraid & Synology). 
 
 A list of solutions I'll cover here:
 - [Diskover](https://github.com/diskoverdata/diskover-community)
 - [sist2](https://github.com/simon987/sist2)
 
-Only suitable for local files:
+Only suitable for local files (or docker volumes):
 - [Doku](https://github.com/amerkurev/doku)
 - [Glances](https://github.com/nicolargo/glances)
 
@@ -38,8 +38,6 @@ Only suitable for local files:
 > [Most features](https://diskoverdata.com/solutions/) of Diskover are NOT available in the free Community Edition, noticeably Analytics functions (File Tree, Treemap, Heatmap, ...), tagging files, export to JSON/CSV, checksums etc.  
 > However even the Community Edition has a nice dashboard, a (regex) search, many filet options (size, date, file type) and helps identifying large folders.  
 > Also Diskover doesn't index the content of files or does OCR on them.
-
-...
 
 ## Docker-compose setup
 
@@ -129,3 +127,5 @@ docker exec -u abc -it diskover python3 /app/diskover/diskover.py -i diskover-in
 ```
 
 ### Update indices via cronjob
+
+...

@@ -1,11 +1,16 @@
 ---
-title: 
+title: Blog 2.0
+subtitle: Notes about the second iteration of this blog
+description: 
+permalink: 
 date: 2025-01-14
 publishDate: 2025-01-14
 updated: 2025-01-20
 draft: true
 tags:
-  - note
+  - quartz
+  - github
+  - blog
   - unfinished
 ---
 
