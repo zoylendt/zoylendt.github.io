@@ -1,5 +1,5 @@
 ---
-title: my favorite books
+title: My favorite books
 subtitle: 
 description: 
 permalink: 
@@ -8,7 +8,6 @@ publishDate: 2024-05-24
 updated: 2024-12-05
 draft: false
 tags:
-  - note
   - books
   - reading
   - media
