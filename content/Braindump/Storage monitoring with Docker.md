@@ -1,8 +1,11 @@
 ---
-title: 
+title: Storage monitoring with Docker
+subtitle: 
+description: 
+permalink: 
 date: 2024-12-16
 publishDate: 2024-12-16
-updated: 2024-12-18
+updated: 2025-01-24
 draft: false
 tags:
   - unfinished
@@ -13,7 +16,7 @@ tags:
 
 # Introduction
 
-...
+I wanted to eval
 
 A list of solutions I'll cover here:
 - [Diskover](https://github.com/diskoverdata/diskover-community)
