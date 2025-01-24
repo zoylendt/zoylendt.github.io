@@ -90,14 +90,14 @@ sort updated
 table title, file.folder as "Directory", date, updated
 from "public"
 WHERE draft = false
-sort date desc
+sort updated desc
 ```
 
 ---
 
 ```dataview
-TABLE file.folder as "Folder", dateformat(date-modified,"MMM d, yyyy") as "Updated" 
-FROM -"tags"
-SORT date-modified DESC 
-WHERE file.name != this.file.name AND draft != "true"
+TABLE title AS "Title", file.folder as "Folder", dateformat(updated, "yyyy-MM-dd") as "Updated" 
+FROM "public/Braindump"
+SORT updated DESC 
+WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files"
 ```
