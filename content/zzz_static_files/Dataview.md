@@ -79,3 +79,25 @@ from "public"
 where econtains(title, "Example Title")
 sort updated
 ```
+
+---
+
+# Testing Area
+
+# Published notes
+
+```dataview title="Unpublished notes"
+table title, file.folder as "Directory", date, updated
+from "public"
+WHERE draft = false
+sort date desc
+```
+
+---
+
+```dataview
+TABLE file.folder as "Folder", dateformat(date-modified,"MMM d, yyyy") as "Updated" 
+FROM -"tags"
+SORT date-modified DESC 
+WHERE file.name != this.file.name AND draft != "true"
+```
