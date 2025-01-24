@@ -1,5 +1,5 @@
 ---
-title: Customize/Modify/personalize your Quartz instance
+title: Customize your Quartz instance
 subtitle: 
 description: 
 permalink: 
@@ -116,7 +116,7 @@ missing:
 # Individual Changes
 
 Finished:
-  - Required:  [[quartz modifications#Minimal required config changes|Blog title, base URL]]
+  - Required:  [[quartz customize#Minimal required config changes|Blog title, base URL]]
   - Analytics, fonts, colors
   - Footer links
   - Recent notes
@@ -241,7 +241,7 @@ left: [
 
 Also, add `import { SimpleSlug } from "./quartz/util/path"` at the beginning of `quartz.layout.ts`. And take care where `linkToMore` points. [Here](https://quartz.jzhao.xyz/features/recent-notes) are the config options for this plugin listed.
 
-One remaining issue: this plugin does not show up when I open one of the folders, like [[Braindump]] or [[Brewing/]]. The [[quartz modifications#Explorer customization]] also don't take effect here.
+One remaining issue: this plugin does not show up when I open one of the folders, like [[Braindump]] or [[Brewing/]]. The [[quartz customize#Explorer customization]] also don't take effect here.
 
 ## Explorer customization
 
@@ -294,7 +294,7 @@ You can change the order of plugins, if they appear right or left and if they ar
 > I removed this feature with commit ... from this blog.
 > Reasons: 
 
-This change, together with [[quartz modifications#Last updated & History]], involves probably the most code modifications. Its target is to create a row with six links in the `beforeBody`-part of the layout (above the breadcrumbs). This can be viewed in action on the site of its (apparent) creator: https://notes.camargomau.com/
+This change, together with [[quartz customize#Last updated & History]], involves probably the most code modifications. Its target is to create a row with six links in the `beforeBody`-part of the layout (above the breadcrumbs). This can be viewed in action on the site of its (apparent) creator: https://notes.camargomau.com/
 
 After some digging in his GitHub repo, I identified the corresponding [changes](https://github.com/search?q=repo%3Acamargomau%2Fnotkesto-site%20linksheader&type=code). We need to create two new files, [quartz/components/LinksHeader.tsx](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/LinksHeader.tsx#L2) & [quartz/components/styles/linksHeader.scss](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/styles/linksHeader.scss#L4), and modify two other, [quartz.layout.ts](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz.layout.ts#L7) & [quartz/components/index.ts](https://github.com/camargomau/notkesto-site/blob/7b8a7c5069fb78401022481631223b7e9acb39fe/quartz/components/index.ts#L22).
 

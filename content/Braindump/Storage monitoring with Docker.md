@@ -5,10 +5,10 @@ publishDate: 2024-12-16
 updated: 2024-12-18
 draft: false
 tags:
-  - note
   - unfinished
   - synology
   - docker
+  - selfhosted
 ---
 
 # Introduction

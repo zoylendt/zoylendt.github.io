@@ -18,7 +18,7 @@ tags:
 > This note is part of a series about how this blog is set up.
 > See [[quartz starting page|here]] for an overview.
 
-This note is about how to spin up your own quartz instance, hosted on [GitHub Pages](https://pages.github.com/). It's a minimal setup that will look like the [Quartz documentation](https://quartz.jzhao.xyz/)) and it's the starting point for [[quartz modifications|additional customizations]].
+This note is about how to spin up your own quartz instance, hosted on [GitHub Pages](https://pages.github.com/). It's a minimal setup that will look like the [Quartz documentation](https://quartz.jzhao.xyz/)) and it's the starting point for [[quartz customize|additional customizations]].
 
 In this guide we'll host Quartz on GitHub Pages, however there are [other options](https://quartz.jzhao.xyz/hosting). This basic setup requires no locally installed software, you can work entirely on the GitHub website.
 
@@ -29,7 +29,7 @@ In this guide we'll host Quartz on GitHub Pages, however there are [other option
 - (optional) Delete the files `README.md` and `.github/workflows/ci.yaml`
 - Create a new file `content/index.md`. 
 	- The file can be empty (for now), look [here](https://github.com/jackyzha0/quartz/blob/v4/docs/index.md) for inspirations.
-- Follow the [[quartz modifications#Minimal required config changes]]:
+- Follow the [[quartz customize#Minimal required config changes]]:
 	- See the start of `quartz.config.ts` below for the two lines that need to be changed (might change with newer Quartz versions).
 - Create a new file `.github/workflows/deploy.yml`, for the contents see https://quartz.jzhao.xyz/hosting#github-pages
 - Head to “Settings” tab of your forked repository and in the sidebar, click “Pages”. Under “Source”, select “GitHub Actions”.
