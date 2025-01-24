@@ -96,8 +96,9 @@ sort updated desc
 ---
 
 ```dataview
-TABLE title AS "Title", file.folder as "Folder", dateformat(updated, "yyyy-MM-dd") as "Updated" 
-FROM "public/Braindump"
+TABLE WITHOUT ID
+link(file.name, title) AS "Title", file.folder as "Folder", dateformat(updated, "MMM d, yyyy") as "Updated" 
+FROM "public/Braindump" OR "public/Life"
 SORT updated DESC 
 WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files"
 ```
