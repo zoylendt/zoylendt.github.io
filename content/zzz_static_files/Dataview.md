@@ -98,18 +98,20 @@ sort updated desc
 ```dataview
 TABLE WITHOUT ID
 link(file.name, title) AS "Title", file.folder AS "Folder", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder2", dateformat(updated, "MMM d, yyyy") AS "Updated" 
-FROM "public/Braindump" OR "public/Life"
+FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
 SORT updated DESC 
 WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files"
 ```
 
 ---
 
+# Notes with a permalink
+
 ```dataview
 TABLE WITHOUT ID
-link(file.name, title) AS "Title", link(file.inlinks.file.folder, regexreplace(file.folder, ".*\/([^\/]+)$", "$1")) AS "Folder", dateformat(updated, "MMM d, yyyy") AS "Updated" 
-FROM "public/Braindump" OR "public/Life"
+link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "MMM d, yyyy") AS "Updated" 
+FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
+WHERE permalink = ""
 SORT updated DESC 
-WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files"
 ```
 
