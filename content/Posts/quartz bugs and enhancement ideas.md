@@ -13,7 +13,7 @@ tags:
 
 > [!tip] Associated notes
 > This note is part of a series about how this blog is set up.
-> See [[quartz starting page 2|here]] for an overview.
+> See [[quartz starting page|here]] for an overview.
 
 A collection of Quartz bugs I noticed, and some improvement Ideas I came up with.
 

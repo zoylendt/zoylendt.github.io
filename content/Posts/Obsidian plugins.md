@@ -14,7 +14,7 @@ tags:
 
 > [!tip] Associated notes
 > This note is part of a series about how this blog is set up.
-> See [[quartz starting page 2|here]] for an overview.
+> See [[quartz starting page|here]] for an overview.
 
 An overview about Obsidian plugins, with notes about the ones I'm using.
 
