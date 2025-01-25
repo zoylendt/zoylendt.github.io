@@ -102,3 +102,14 @@ FROM "public/Braindump" OR "public/Life"
 SORT updated DESC 
 WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files"
 ```
+
+---
+
+```dataview
+TABLE WITHOUT ID
+link(file.name, title) AS "Title", link(file.inlinks.file.folder, regexreplace(file.folder, ".*\/([^\/]+)$", "$1")) AS "Folder", dateformat(updated, "MMM d, yyyy") AS "Updated" 
+FROM "public/Braindump" OR "public/Life"
+SORT updated DESC 
+WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files"
+```
+
