@@ -97,7 +97,7 @@ sort updated desc
 
 ```dataview
 TABLE WITHOUT ID
-link(file.name, title) AS "Title", file.folder AS "Folder", rows.file.link AS "Folder2", dateformat(updated, "MMM d, yyyy") AS "Updated" 
+link(file.name, title) AS "Title", file.folder AS "Folder", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder2", dateformat(updated, "MMM d, yyyy") AS "Updated" 
 FROM "public/Braindump" OR "public/Life"
 SORT updated DESC 
 WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files"
