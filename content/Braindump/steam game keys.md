@@ -4,7 +4,7 @@ subtitle:
 description: 
 permalink: perma/steamkeys
 date: 2024-05-09
-updated: 2025-01-09
+updated: 2025-01-27
 publishDate: 2024-05-09
 draft: false
 tags:
@@ -13,7 +13,7 @@ tags:
   - media
 ---
 
-A list of surplus steam keys. Currently only Keys from 2022 and later are included.
+A list of surplus steam keys. Currently only keys from 2022 and later are included.
 
 | Game                                                                               | Bundle Name                                          | Purchase Date | Comment                                                          |
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------- | ---------------------------------------------------------------- |
