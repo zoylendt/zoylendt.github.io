@@ -4,7 +4,7 @@ subtitle: Some Topics I Want to Write About
 description: 
 permalink: 
 date: 2024-02-11
-updated: 2024-06-17
+updated: 2025-01-27
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -178,6 +178,12 @@ tags:
 - [ ] FreshRSS
 - [ ] Podgrab
 
+---
 
+# My homelab
+
+- [ ] add Nous A5T to HomeAssistant
+- [ ] calculate in detail which device needs how much power
+- [ ] 
 
 
