@@ -14,6 +14,7 @@ tags:
 ---
  
 
-| Datum | Kassenbon | Betrag | Zweck | Kommentar |
-| ----- | --------- | ------ | ----- | --------- |
-|       |           |        |       |           |
+| Datum | Kassenbon | Betrag | Zweck                          | Kommentar |
+| ----- | --------- | ------ | ------------------------------ | --------- |
+|       |           |        | Waschmaschinen-Hygienereiniger | Amazon    |
+|       |           |        |                                |           |
