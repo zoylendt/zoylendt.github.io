@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-05-28
 publishDate: 2024-05-28
-updated: 2024-06-02
+updated: 2025-01-31
 draft: false
 tags:
   - cheatsheet
@@ -168,6 +168,7 @@ tags:
   > -> [more about `docker inspect` formatting](https://blog.container-solutions.com/docker-inspect-template-magic)
   >- `'{{index .RepoDigests 0}}'` -> `jellyfin/jellyfin@sha256:21e49baac...`
   >- `'{{.RepoDigests}}'` -> `[jellyfin/jellyfin@sha256:21e49baac...]`
+
 
 - Download image with specific `RepoDigest` (**NOT `ImageID`**, must not be truncated!)
   ```shell
