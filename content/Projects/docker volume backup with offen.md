@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2025-01-31
+updated: 2025-02-01
 draft: false
 tags:
   - docker
@@ -17,10 +17,7 @@ tags:
 This note is about how to use **offen/docker-volume-backup** ([GitHub](https://github.com/offen/docker-volume-backup), [Documentation](https://offen.github.io/docker-volume-backup/)) to back up (and restore) docker volumes. Offen works with mounted folders as well as docker volumes and offers many backup targets.
 
 >[!info] Useful docker commands
-> I have compiled a [[docker cheatsheet|list of useful docker commands]] or [docker cheatsheet](Posts/docker%20cheatsheet.md).
-> Wikilink: [[docker cheatsheet]] or [[docker cheatsheet|text]]
-> Wikilink with manually altered title: [[Docker Cheatsheet]] or [[Docker Cheatsheet|text]]
-> Markdown: [text](Posts/docker%20cheatsheet.md) or [text](docker%20cheatsheet.md)
+> I have compiled a [[docker cheatsheet|list of useful docker commands]].
 
 > [!warning]- "Fatal error running command: permission denied"
 > I encountered once that the Offen container had no read access:

@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-05-28
 publishDate: 2024-05-28
-updated: 2025-01-31
+updated: 2025-02-01
 draft: false
 tags:
   - cheatsheet
@@ -58,7 +58,6 @@ tags:
   
   docker start $CONTRUN2
   ```
-- ...
 
 # Volumes
 
@@ -135,7 +134,6 @@ tags:
   >kapowarr_content
   >  kapowarr
   >```
-- ...
 
 # Images
 
@@ -145,7 +143,6 @@ tags:
 > Short answer: ([Source 1](https://stackoverflow.com/questions/56364643/whats-the-difference-between-a-docker-images-image-id-and-its-digest), [Source 2](https://stackoverflow.com/questions/39811230/why-doesnt-my-newly-created-docker-have-a-digest))
 > - The `ImageID` is a hash of the local image JSON configuration **-> only local ID!**
 > - The `RepoDigest` is a hash of the manifest, introduced in Docker registry v2 **-> ID in the registry!**
-
 
 - List all local Docker images
   ```shell
@@ -159,6 +156,7 @@ tags:
   ```shell
   docker image inspect --format '{{index .RepoDigests 0}}' $IMAGENAME
   ```
+
   >[!info]- Output example
   >```shell
   >jellyfin/jellyfin@sha256:21e49baac0a05efd4822269e3d8ba2f693e741006a2f81aa397cf5f8445e48a9
@@ -168,7 +166,6 @@ tags:
   > -> [more about `docker inspect` formatting](https://blog.container-solutions.com/docker-inspect-template-magic)
   >- `'{{index .RepoDigests 0}}'` -> `jellyfin/jellyfin@sha256:21e49baac...`
   >- `'{{.RepoDigests}}'` -> `[jellyfin/jellyfin@sha256:21e49baac...]`
-
 
 - Download image with specific `RepoDigest` (**NOT `ImageID`**, must not be truncated!)
   ```shell
@@ -198,7 +195,6 @@ tags:
   ```shell
   docker images --format="{{.Repository}} {{.ID}} {{.Digest}}"
   ```
-- ...
 
 # Combined commands
 
@@ -241,7 +237,6 @@ tags:
   >  "deasmi/unraid-tailscale:latest"
   >]
   >```
--
 
 # Other commands
 
