@@ -42,4 +42,24 @@ SORT updated DESC
 WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = true
 ```
 
-## All tags by 
+## Tags by frequency
+
+```dataview
+TABLE WITHOUT ID (tag + "(" + length(rows.file.link) + ")") AS Tags
+FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
+WHERE file.tags 
+FLATTEN file.tags AS tag 
+GROUP BY tag
+SORT length(rows.file.link) DESC
+```
+
+as List:
+
+```dataview
+LIST WITHOUT ID tag + "(" + length(rows.file.link) + ")" AS Tags
+FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
+WHERE file.tags 
+FLATTEN file.tags AS tag 
+GROUP BY tag
+SORT length(rows.file.link) DESC
+```
