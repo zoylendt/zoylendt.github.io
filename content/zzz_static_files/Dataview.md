@@ -115,3 +115,20 @@ WHERE permalink = ""
 SORT updated DESC 
 ```
 
+# all tags
+
+```dataview
+LIST
+file.tags as tags
+FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
+```
+
+```dataviewjs
+let tags = []
+for (let tag of dv.pages('Posts').file.tags) {
+ if (tags.indexOf(tag) == -1) {
+ tags.push(tag)
+ }
+}
+dv.list(tags)
+```
