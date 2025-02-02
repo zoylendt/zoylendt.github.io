@@ -68,6 +68,8 @@ SORT count DESC
 ```
 
 with clickable tags:
+- [ ] limit to correct folders
+- [ ] exclude specific tags
 
 ```dataview
 TABLE WITHOUT ID
