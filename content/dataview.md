@@ -20,6 +20,7 @@ A page which generates dataview tables about pages in the blog.
 
 - [Blacksmith](https://blacksmithgu.github.io/obsidian-dataview/)
 - [example vault](https://github.com/s-blu/obsidian_dataview_example_vault)
+- [obsidian-dataview-serializer](https://github.com/dsebastien/obsidian-dataview-serializer) -> like it's used here: https://quartz.eilleeenz.com/meta/All-files-chronologically-modified
 - 
 
 # Ideas for tables
@@ -29,9 +30,8 @@ A page which generates dataview tables about pages in the blog.
 - [x] list/table of all tags, sorted by frequency
     - [ ] limit to correct folders
     - [ ] exclude specific tags (but not exclude notes with this tags?)
+- [ ] display latest time when this page has been updated-> Today is **`= date(today)`**, and it's **`= dateformat(date(now), "HH:MM")`**.
 - [ ] 
-
-Today is **`= date(today)`**, and it's **`= dateformat(date(now), "HH:MM")`**.
 # Complete
 
 ## All published notes
