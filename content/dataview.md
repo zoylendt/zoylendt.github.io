@@ -59,7 +59,7 @@ as List:
 ```dataview
 TABLE WITHOUT ID
 count,
-join("#" + rows.tags, ", #") as Tags
+join(rows.tags, ", ") as Tags
 WHERE tags
 FLATTEN tags
 GROUP BY tags
@@ -67,4 +67,15 @@ GROUP BY length(rows.rows) as count
 SORT count DESC
 ```
 
+with clickable tags:
 
+```dataview
+TABLE WITHOUT ID
+count,
+join(rows.tags, ", #") as Tags
+WHERE tags
+FLATTEN tags
+GROUP BY tags
+GROUP BY length(rows.rows) as count
+SORT count DESC
+```
