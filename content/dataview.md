@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-29
 publishDate: 2025-01-29
-updated: 2025-02-02
+updated: 2025-02-03
 draft: true
 tags:
   - unfinished
@@ -14,7 +14,16 @@ tags:
   - backlinks-exclude
   - recents-exclude
 ---
- 
+A page which generates dataview tables about pages in the blog.
+
+# Resources
+
+- [Blacksmith](https://blacksmithgu.github.io/obsidian-dataview/)
+- [example vault](https://github.com/s-blu/obsidian_dataview_example_vault)
+- 
+
+
+
 Ideas:
 - [ ] pages without backlinks
 
@@ -54,8 +63,7 @@ GROUP BY tag
 SORT length(rows.file.link) DESC
 ```
 
-as List:
-
+as list: [source](https://www.reddit.com/r/ObsidianMD/comments/1bhq8cp/listing_tags_with_counts_in_a_single_dataview_line/)
 ```dataview
 TABLE WITHOUT ID
 count,
@@ -68,9 +76,6 @@ SORT count DESC
 ```
 
 with clickable tags:
-- [ ] limit to correct folders
-- [ ] exclude specific tags
-
 ```dataview
 TABLE WITHOUT ID
 count,
@@ -81,3 +86,6 @@ GROUP BY tags
 GROUP BY length(rows.rows) as count
 SORT count DESC
 ```
+missing: 
+- [ ] limit to correct folders
+- [ ] exclude specific tags
