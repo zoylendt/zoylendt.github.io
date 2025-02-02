@@ -141,3 +141,9 @@ FLATTEN file.tags AS tag
 GROUP BY tag
 SORT length(rows.file.link) DESC
 ```
+
+---
+
+```dataview
+LIST without ID " ⏰ <small><span style='color:deeppink'>" + revisit + " " + file.link + " </span>︙🌎<span style='color:teal'> " + area + "</span>︙<span style='color:powderblue'> 🐣<span style='color:crimson'> " + " </span>︙✍🏽<span style='color:deepskyblue'> " + lower(dateformat(file.mtime, "EEEMMMddyyyy⌚️HH:mm")) + "🗣 " + takeNote + "*</small>"
+```
