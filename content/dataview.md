@@ -73,8 +73,6 @@ with clickable tags:
 
 ```dataview
 TABLE WITHOUT ID
-FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
-WHERE file.tags 
 count,
 "#" + join((rows.tags), ", #") as Tags
 WHERE tags
