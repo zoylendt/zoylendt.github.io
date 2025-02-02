@@ -57,12 +57,14 @@ SORT length(rows.file.link) DESC
 as List:
 
 ```dataview
-LIST WITHOUT ID tag + "(" + length(rows.file.link) + ")" AS Tags
-FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
-WHERE file.tags 
-FLATTEN file.tags AS tag 
-GROUP BY tag
-SORT length(rows.file.link) DESC
+TABLE WITHOUT ID
+count,
+join("#", rows.tags, ", ") as Tags
+WHERE tags
+FLATTEN tags
+GROUP BY tags
+GROUP BY length(rows.rows) as count
+SORT count DESC
 ```
 
 
