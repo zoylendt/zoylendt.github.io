@@ -22,10 +22,14 @@ A page which generates dataview tables about pages in the blog.
 - [example vault](https://github.com/s-blu/obsidian_dataview_example_vault)
 - 
 
+# Ideas for tables
 
-
-Ideas:
-- [ ] pages without backlinks
+- [ ] list pages without backlinks (graph looks weird for these)
+- [ ] tables for all published & unpublished notes
+- [x] list/table of all tags, sorted by frequency
+    - [ ] limit to correct folders
+    - [ ] exclude specific tags (but not exclude notes with this tags?)
+- [ ] 
 
 Today is **`= date(today)`**, and it's **`= dateformat(date(now), "HH:MM")`**.
 # Complete
@@ -86,6 +90,3 @@ GROUP BY tags
 GROUP BY length(rows.rows) as count
 SORT count DESC
 ```
-missing: 
-- [ ] limit to correct folders
-- [ ] exclude specific tags
