@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-29
 publishDate: 2025-01-29
-updated: 2025-02-01
+updated: 2025-02-02
 draft: true
 tags:
   - unfinished
@@ -18,6 +18,7 @@ tags:
 Ideas:
 - [ ] pages without backlinks
 
+Today is **`= date(today)`**, and it's **`= dateformat(date(now), "HH:MM")`**.
 # Complete
 
 ## All published notes
