@@ -31,6 +31,7 @@ A page which generates dataview tables about pages in the blog.
 - [x] list/table of all tags, sorted by frequency
     - [ ] limit to correct folders
     - [ ] exclude specific tags (but not exclude notes with this tags?)
+    - [ ] exclude unpublished notes
 - [ ] display latest time when this page has been updated-> Today is **`= date(today)`**, and it's **`= dateformat(date(now), "HH:MM")`**.
 - [ ] list all perma links
 - [ ] 
