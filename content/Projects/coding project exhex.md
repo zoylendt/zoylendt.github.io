@@ -54,11 +54,12 @@ Its core features include:
 
 Every image can be marked/rated, not only in itself but also in relation to other images. Each type's value is an integer between `0` (the default) and `9`.
 
-| Type    |     | Description                                              | Individuality                                                                                |
-| ------- | --- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| gallery |     | The whole gallery.                                       | Same for each page of the gallery.                                                           |
-| chapter |     | A chapter. Intended for images connected by a storyline. | All images of the chapter have the same value. (Problem: differenti)                         |
-| series  |     | Consecutive, thematic interrelated pages.                | All 'series' pages within a gallery which share the same value are considered to be related. |
-| page    |     | A single image. Unrelated to its neighboring pages.      | Individual for each page.                                                                    |
-| max     |     | The maximum value of all above.                          | Individual for each page.                                                                    |
-
+| Type    | Description                                              | Individuality                                                                                                         |
+| ------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| gallery | The whole gallery.                                       | Same for each page of the gallery.                                                                                    |
+| chapter | A chapter. Intended for images connected by a storyline. | All images of the chapter have the same value. (Problem: differentiate between neighboring chapters with same value?) |
+| series  | Thematic interrelated pages. Can be consecutive.         | All 'series' pages within a gallery which share the same value are considered to be related.                          |
+| page    | A single image, unrelated to its neighboring pages.      | Individual for each page.                                                                                             |
+| max     | The maximum value of all above.                          | Individual for each page.                                                                                             |
+Currently I have no idea how to actually change this values (ideally while reading, so it somehow has to be integrated into the reader or I have to build a custom reading tool). Nevertheless I want these values to be part of the `exhex.json` structure from the beginning. If I build a custom CBZ reading tool I want it to have a function to go to a random (maybe weighed by favorite value, or with a minimum value) page/series/chapter/gallery and also go from a random page to its related series/chapter/gallery, it's next/first page in this category and so on.  
+In addition to save this values for each page I want to also save the maximum value for each type for the whole gallery.  It also might be worth to consider how to actually
