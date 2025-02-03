@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-31
 publishDate: 2025-01-31
-updated: 2025-01-31
+updated: 2025-02-03
 draft: true
 tags:
   - unfinished
@@ -56,6 +56,7 @@ This is the VM to control the whole setup. Besides the initial setup it's intend
 
 ### carcosa-datengrab (VM on datengrab)
 
+ISO: `debian12.9.0-amd64-netinst.iso`
 ...
 
 ## Automatically deployed machines
