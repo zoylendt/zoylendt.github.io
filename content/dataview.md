@@ -25,12 +25,14 @@ A page which generates dataview tables about pages in the blog.
 
 # Ideas for tables
 
+- [x] lists of all published/unpublished pages
 - [ ] list pages without backlinks (graph looks weird for these)
 - [ ] tables for all published & unpublished notes
 - [x] list/table of all tags, sorted by frequency
     - [ ] limit to correct folders
     - [ ] exclude specific tags (but not exclude notes with this tags?)
 - [ ] display latest time when this page has been updated-> Today is **`= date(today)`**, and it's **`= dateformat(date(now), "HH:MM")`**.
+- [ ] list all perma links
 - [ ] 
 # Complete
 
