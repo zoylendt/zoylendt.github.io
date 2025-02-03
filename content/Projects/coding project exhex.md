@@ -62,4 +62,7 @@ Every image can be marked/rated, not only in itself but also in relation to othe
 | page    | A single image, unrelated to its neighboring pages.      | Individual for each page.                                                                                             |
 | max     | The maximum value of all above.                          | Individual for each page.                                                                                             |
 Currently I have no idea how to actually change this values (ideally while reading, so it somehow has to be integrated into the reader or I have to build a custom reading tool). Nevertheless I want these values to be part of the `exhex.json` structure from the beginning. If I build a custom CBZ reading tool I want it to have a function to go to a random (maybe weighed by favorite value, or with a minimum value) page/series/chapter/gallery and also go from a random page to its related series/chapter/gallery, it's next/first page in this category and so on.  
-In addition to save this values for each page I want to also save the maximum value for each type for the whole gallery.  It also might be worth to consider how to actually
+In addition to save this values for each page I want to also save the maximum value for each type for the whole gallery.  It also might be worth to consider how to actually save the data in the `exhex.json`: 
+- a single string for each image, like `'fav_str': 'gcspm'` where each character is replaced with its value, so `'00000'` per default -> 17 bytes per image
+- a dictionary, like `fav_dict= {'gallery': 0, 'chapter': 0, 'series': 0, 'page': 0, 'max': 0}` -> 72 bytes per image
+For comparison, each image's SHA256 string has 64 bytes.
