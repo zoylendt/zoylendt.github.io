@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-05-18
 publishDate: 2024-05-18
-updated: 2025-01-15
+updated: 2025-02-03
 draft: false
 tags:
   - markdown
@@ -632,3 +632,104 @@ Here you will find a mix of notes, longer/more thoughtful posts, and links to va
 2. [Corrigibility As Outside View](./corrigibility-as-outside-view)
 3. [A Certain Formalization of Corrigibility is VNM-Incoherent](./a-certain-formalization-of-corrigibility-is-vnm-incoherent)
 4. [Formalizing Policy Modification Corrigibility](./formalizing-policy-modification-corrigibility)
+
+---
+
+![image alt >](https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg)
+
+![image alt <](https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg)
+
+![image alt ><](https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg)
+
+  
+
+---
+
+  
+
+![my image](https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg#left)
+
+![my image](https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg#right)
+
+![my image](https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg#center)
+
+  
+
+---
+
+  
+
+My name is Ellie Huxtable. I'm a software/infrastructure engineer, and am at my happiest when I'm building <i>something cool</i>. I love an adventure, and if I'm not at a computer there's a good chance I'm riding a motorcycle.
+
+  
+
+<img align="left" width="50%" src="https://yeet.ellie.wtf/i/f449b641480701bb19587f55672ac7e5bc94847a2d6df66cb5565bc2843e68a2.jpg">
+
+  
+
+My name is Ellie Huxtable. I'm a software/infrastructure engineer, and am at my happiest when I'm building <i>something cool</i>. I love an adventure, and if I'm not at a computer there's a good chance I'm riding a motorcycle.
+
+  
+
+---
+
+  
+
+### You're Breathtaking
+
+  
+
+<img align="right" width="50%" src="https://media.tenor.com/images/6a136e1c2d7b30298a5b657348097a60/tenor.gif">
+
+  
+
+At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu Reeves' presentation of the role-playing game (RPG) Cyberpunk 2077, loudly claiming, “"You're breathtaking,"” which was directed at the actor-cum-presenter. The image macro used to build the "You're Breathtaking" meme generally features a still of Keanu Reeves pointing at someone in the audience in front of him - that someone is Peter Sark, though there are no images from Keanu's point of view that have since been used as part of the "You're Breathtaking" meme.
+
+  
+
+---
+
+  
+
+<div class="welcome">
+
+<div>
+
+At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu Reeves' presentation of the role-playing game (RPG) Cyberpunk 2077, loudly claiming, “"You're breathtaking,"” which was directed at the actor-cum-presenter. The image macro used to build the "You're Breathtaking" meme generally features a still of Keanu Reeves pointing at someone in the audience in front of him - that someone is Peter Sark, though there are no images from Keanu's point of view that have since been used as part of the "You're Breathtaking" meme.
+
+</div>
+
+<div class="me">
+
+<img src="https://media.tenor.com/images/6a136e1c2d7b30298a5b657348097a60/tenor.gif"/>
+
+</div>
+
+</div>
+
+  
+
+---
+
+  
+
+|  | Options         | Damage | Correct-<br/>ion | Offset | Interference |
+
+| --:                | ------ | ------ | ---------- | ------ | ------------ |
+
+| AUP                | ✅      | ✅          | ✅      | ✅            | ✅   |
+
+| Vanilla            | ❌      | ❌          | ❌      | ✅            | ✅   |
+
+| Model-free AUP     | ✅      | ✅          | ❌      | ✅            | ✅   |
+
+| Starting state AUP | ✅      | ✅          | ❌      | ✅            | ❌   |
+
+| Inaction AUP       | ✅      | ✅          | ✅      | ❌            | ✅   |
+
+| Decrease-only AUP  | ✅      | ✅          | ❌      | ✅            | ✅   |
+
+  
+
+Figure: Ablation results. ✅ for achieving the best outcome, ❌ otherwise.
+
