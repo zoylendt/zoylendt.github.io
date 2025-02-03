@@ -52,13 +52,13 @@ Its core features include:
 
 # Favorites
 
-Every image can be marked/rated, not only in itself but also in relation to other images:
+Every image can be marked/rated, not only in itself but also in relation to other images. Each type's value is an integer between `0` (the default) and `9`.
 
-
-| Type    |     | Description                                                                |
-| ------- | --- | -------------------------------------------------------------------------- |
-| gallery |     | The whole gallery. This value is the same for every image of this gallery. |
-| chapter |     | A chapter. Intended for images connected by a storyline.                   |
-| series  |     |                                                                            |
-| page    |     | A single image. Unrelated to its neighboring pages.                        |
+| Type    |     | Description                                              | Individuality                                                                                |
+| ------- | --- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| gallery |     | The whole gallery.                                       | Same for each page of the gallery.                                                           |
+| chapter |     | A chapter. Intended for images connected by a storyline. | All images of the chapter have the same value. (Problem: differenti)                         |
+| series  |     | Consecutive, thematic interrelated pages.                | All 'series' pages within a gallery which share the same value are considered to be related. |
+| page    |     | A single image. Unrelated to its neighboring pages.      | Individual for each page.                                                                    |
+| max     |     | The maximum value of all above.                          | Individual for each page.                                                                    |
 
