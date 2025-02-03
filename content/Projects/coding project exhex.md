@@ -65,4 +65,4 @@ Currently I have no idea how to actually change this values (ideally while readi
 In addition to save this values for each page I want to also save the maximum value for each type for the whole gallery.  It also might be worth to consider how to actually save the data in the `exhex.json`: 
 - a single string for each image, like `'fav_str': 'gcspm'` where each character is replaced with its value, so `'00000'` per default -> 17 bytes per image
 - a dictionary, like `fav_dict= {'gallery': 0, 'chapter': 0, 'series': 0, 'page': 0, 'max': 0}` -> 72 bytes per image
-For comparison, each image's SHA256 string has 64 bytes.
+For comparison, each image's SHA256 string has 64 bytes, MD5 has 32 bytes (calculated with [this tool](https://mothereff.in/byte-counter)).
