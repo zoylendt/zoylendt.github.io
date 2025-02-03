@@ -60,5 +60,5 @@ Every image can be marked/rated, not only in itself but also in relation to othe
 | gallery |     | The whole gallery. This value is the same for every image of this gallery. |
 | chapter |     | A chapter. Intended for images connected by a storyline.                   |
 | series  |     |                                                                            |
-| page    |     | A single image. Unrelated to                                               |
+| page    |     | A single image. Unrelated to its neighboring pages.                        |
 
