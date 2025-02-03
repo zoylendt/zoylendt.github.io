@@ -5,7 +5,7 @@ description:
 permalink: perma/exhex
 date: 2024-10-09
 publishDate: 2024-10-09
-updated: 2025-01-31
+updated: 2025-02-03
 draft: true
 tags:
   - python
@@ -34,4 +34,31 @@ Its core features include:
 ...
 
 >[!info] Planned features
-> - [ ] 
+> - [ ] ...
+
+# Structure
+
+...
+
+## Folder structure
+
+...
+
+## File structure
+
+...
+
+---
+
+# Favorites
+
+Every image can be marked/rated, not only in itself but also in relation to other images:
+
+
+| Type    |     | Description                                                                |
+| ------- | --- | -------------------------------------------------------------------------- |
+| gallery |     | The whole gallery. This value is the same for every image of this gallery. |
+| chapter |     | A chapter. Intended for images connected by a storyline.                   |
+| series  |     |                                                                            |
+| page    |     | A single image. Unrelated to                                               |
+
