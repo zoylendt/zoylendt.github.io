@@ -36,19 +36,38 @@ Its core features include:
 >[!info] Planned features
 > - [ ] ...
 
-# Structure
 
+# Folder structure and files
+
+(the files & folder structure within ExHex)
 ...
 
-## Folder structure and files
+## Python module files
 
-...
+
+| File          | Application |
+| ------------- | ----------- |
+| _archives.py  |             |
+| _cbz.py       |             |
+| _config.py    |             |
+| _csv.py       |             |
+| _docker.py    |             |
+| _download.py  |             |
+| _import.py    |             |
+| _lineage.py   |             |
+| _log.py       |             |
+| _main.py      |             |
+| _scraping.py  |             |
+| _sql.py       |             |
+| _threading.py |             |
+| _tinydb.py    |             |
+
 
 ---
 
 # `exhex.json` 
 All metadata about a gallery is stored within this file.
-# Favorites
+## Favorites
 
 Every image can be marked/rated, not only in itself but also in relation to other images. Each type's value is an integer between `0` (the default) and `9`.
 
@@ -66,7 +85,7 @@ It also might be worth to consider how to actually save the data in the `exhex.j
 - a dictionary, like `fav_dict= {'gallery': 0, 'chapter': 0, 'series': 0, 'page': 0, 'max': 0}` -> 72 bytes per image
 For comparison, each image's SHA256 string has 64 bytes, MD5 has 32 bytes (calculated with [this tool](https://mothereff.in/byte-counter)).
 
-# Additional data
+## Additional data
 When importing local CBZ into the library there needs to be a way to preserve information like the original filename, the path and so on. If the imported VBZ comes from Calibre (or a similar tool), there might also be metadata available (tags, ratings, etc.).  
 I want to store this inside `exhex.json` as three fields, summarized under `custom_data`:
 
