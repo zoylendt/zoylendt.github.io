@@ -73,3 +73,4 @@ I want to store this inside `exhex.json` as three fields, summarized under `cust
 | comment | string     | A free text field. | `...`                                              |
 | tags    | list       |                    | `calibre, imported`                                |
 | dict    | dictionary |                    | `'original_name': '...', 'original_path': '...', ` |
+Idea: why not only use the dict field instead? -> Maybe easier if there are always the three field, even if they're empty
