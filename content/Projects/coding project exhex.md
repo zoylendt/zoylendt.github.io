@@ -65,4 +65,11 @@ It also might be worth to consider how to actually save the data in the `exhex.j
 For comparison, each image's SHA256 string has 64 bytes, MD5 has 32 bytes (calculated with [this tool](https://mothereff.in/byte-counter)).
 
 # Additional data
-When importing local CBZ into the library there needs to be a way to preserve information like the original filename, the path and so on. If the imported VBZ comes from Calibre (or a similar tool), there might also be metadata available (tags, ratings, etc.)
+When importing local CBZ into the library there needs to be a way to preserve information like the original filename, the path and so on. If the imported VBZ comes from Calibre (or a similar tool), there might also be metadata available (tags, ratings, etc.).  
+I want to store this inside `exhex.json` as three fields, summarized under `custom_data`:
+
+| Name    | Data type  | Content            | Example                                            |
+| ------- | ---------- | ------------------ | -------------------------------------------------- |
+| comment | string     | A free text field. | `...`                                              |
+| tags    | list       |                    | `calibre, imported`                                |
+| dict    | dictionary |                    | `'original_name': '...', 'original_path': '...', ` |
