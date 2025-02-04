@@ -42,8 +42,24 @@ Its core features include:
 (the files & folder structure within ExHex)
 ...
 
+## Folder structure
+
+```
+/app
+ ├── config
+ ├── D
+ └── watch
+     ├── 0
+     ├── 1
+     ├── 2
+     └── all
+         └── added
+             └── added
+```
+
 ## Python module files
 
+All functions of ExHex are organized as module files.
 
 | File          | Application |
 | ------------- | ----------- |
@@ -61,6 +77,7 @@ Its core features include:
 | _sql.py       |             |
 | _threading.py |             |
 | _tinydb.py    |             |
+|               |             |
 
 
 ---
