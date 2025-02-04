@@ -46,6 +46,8 @@ Its core features include:
 
 ---
 
+# `exhex.json` 
+All metadata about a gallery is stored within this file.
 # Favorites
 
 Every image can be marked/rated, not only in itself but also in relation to other images. Each type's value is an integer between `0` (the default) and `9`.
@@ -71,6 +73,6 @@ I want to store this inside `exhex.json` as three fields, summarized under `cust
 | Name    | Data type  | Content            | Example                                            |
 | ------- | ---------- | ------------------ | -------------------------------------------------- |
 | comment | string     | A free text field. | `...`                                              |
-| tags    | list       |                    | `calibre, imported`                                |
-| dict    | dictionary |                    | `'original_name': '...', 'original_path': '...', ` |
+| tags    | list       | A list of tags.    | `calibre, imported`                                |
+| dict    | dictionary | Key/value pairs.   | `'original_name': '...', 'original_path': '...', ` |
 Idea: why not only use the dict field instead? -> Maybe easier if there are always the three field, even if they're empty
