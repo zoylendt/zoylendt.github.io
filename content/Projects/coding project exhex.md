@@ -47,7 +47,7 @@ Its core features include:
 ```
 /app
  ├── config
- ├── D
+ ├── exhex_modules
  └── watch
      ├── 0
      ├── 1
