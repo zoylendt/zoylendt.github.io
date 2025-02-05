@@ -98,7 +98,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(tagListConfig),
     Component.MobileOnly(Component.TableOfContents()),
     Component.OnlyFor({titles: [mapTitle]}, Component.Graph(GraphOnMap)),
-    Component.MobileOnly(Component.OnlyFor({titles: [mapTitle]}, Component.Explorer(explorerConfig))),
   ],
   left: [
     Component.PageTitle(),
