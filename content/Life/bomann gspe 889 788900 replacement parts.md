@@ -5,10 +5,9 @@ description:
 permalink: 
 date: 2025-01-09
 publishDate: 2025-01-09
-updated: 2025-01-15
+updated: 2025-02-05
 draft: false
 tags:
-
   - unfinished
   - wg
   - german
