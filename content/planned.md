@@ -1,10 +1,10 @@
 ---
 title: Planned topics
-subtitle: Some Topics I Want to Write About
+subtitle: Some topics I want to write about
 description: 
 permalink: 
 date: 2024-02-11
-updated: 2025-01-27
+updated: 2025-02-05
 publishDate: 2024-02-11
 draft: false
 tags:
