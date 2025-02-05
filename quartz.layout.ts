@@ -105,7 +105,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer(explorerConfig)),
+    Component.Explorer(explorerConfig),
   ],
   right: [
     Component.NotFor({titles: [mapTitle]}, Component.Graph(defaultGraphConfig)),
@@ -123,7 +123,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.Explorer(),
   ],
   right: [],
 }
