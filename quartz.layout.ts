@@ -84,7 +84,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       Main: "https://zoylendt.github.io",
       GitHub: "https://github.com/zoylendt/zoylendt",
-      "eMail (base64): em95bGVuZHRAcHJvdG9uLm1l": "https://www.base64decode.org/",
+      Contact: "https://zoylendt.github.io/about#contact",
     },
   }),
 }
