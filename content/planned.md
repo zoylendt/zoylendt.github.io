@@ -4,7 +4,7 @@ subtitle: Some topics I want to write about
 description: 
 permalink: 
 date: 2024-02-11
-updated: 2025-02-05
+updated: 2025-02-06
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -15,7 +15,9 @@ tags:
 
 > [!warning]
 > This note is subject to frequent changes!
- 
+
+Here I collect a list of topics that I want to write about eventually.
+
 # index.md
 
 - [ ] write something about myself
