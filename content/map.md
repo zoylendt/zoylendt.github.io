@@ -51,6 +51,6 @@ Folders:
 | [[rezept focaccia\|Rezept: Focaccia]]                                                  | Life      | 2024-05-20 |
 <!-- SerializedQuery END -->
 
----
+second try: 
 
-<!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
+<!-- QueryToSerialize: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = false -->
