@@ -20,3 +20,9 @@ Folders:
   - [[Notes]]: Short pages, collections of web resources
   - [[Projects]]: Complete write-ups of projects, meta/overview notes
   - [[Writing]]: Longer guides & tutorials
+
+---
+
+<!-- QueryToSerialize: 
+LIST FROM #quotes WHERE public_note = true SORT file.name ASC 
+-->
