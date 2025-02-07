@@ -24,5 +24,7 @@ Folders:
 ---
 
 <!-- QueryToSerialize: 
-LIST FROM #quotes WHERE public_note = true SORT file.name ASC 
+LIST FROM public
+WHERE public_note = true 
+SORT file.name ASC 
 -->
