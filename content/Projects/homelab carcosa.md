@@ -50,9 +50,25 @@ Overview of planned machines:
 
 This is the VM to control the whole setup. Besides the initial setup it's intended to be only started when a manual change is necessary.
 
+
 ### carcosa-ds918zoy (VM on ds918zoy)
 
 ...
+
+<details>
+  <summary>[Click me] Initial VM settings</summary>
+  
+[guide](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)  
+text a  
+```shell {3-4} title="quartz.layout.ts"
+line 1
+line 2
+line 3
+line 4
+line 5
+```
+text b
+</details>
 
 ### carcosa-datengrab (VM on datengrab)
 
