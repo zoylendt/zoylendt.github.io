@@ -58,7 +58,16 @@ This is the VM to control the whole setup. Besides the initial setup it's intend
 <details>
   <summary>[Click me] Initial VM settings</summary>
   
-[guide](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)  
+
+Name: carcosa-ds918zoy
+CPU(s): 4 [Hyper-V disabled]
+RAM: 2 GB
+GPU: vga
+Type: Q35
+Storage: 256GB (SATA, storage space recovery enabled)
+Network: LAN1
+
+
 text a  
 ```shell {3-4} title="quartz.layout.ts"
 line 1
@@ -69,6 +78,7 @@ line 5
 ```
 text b
 </details>
+
 
 ### carcosa-datengrab (VM on datengrab)
 
