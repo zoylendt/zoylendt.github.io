@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2024-12-22
+updated: 2025-02-11
 draft: false
 tags:
   - resources
@@ -57,6 +57,7 @@ tags:
 - https://www.thushanfernando.com/
 - https://note.nkmk.me/en/
 - https://drfrankenstein.co.uk/arrs-media-project/
+- https://blog.ktz.me/
 
 # Proxmox
 
