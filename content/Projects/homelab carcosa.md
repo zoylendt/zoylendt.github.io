@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-31
 publishDate: 2025-01-31
-updated: 2025-02-03
+updated: 2025-02-11
 draft: true
 tags:
   - unfinished
@@ -50,7 +50,7 @@ Overview of planned machines:
 
 This is the VM to control the whole setup. Besides the initial setup it's intended to be only started when a manual change is necessary.
 
-### carcosa-ds918oy (VM on ds918zoy)
+### carcosa-ds918zoy (VM on ds918zoy)
 
 ...
 
