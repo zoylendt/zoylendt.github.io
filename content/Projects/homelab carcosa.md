@@ -66,9 +66,11 @@ GPU: vga
 Type: Q35
 Storage: 256GB (SATA, storage space recovery enabled)
 Network: LAN1
+ISO: debian-12.9.0-amd64-netinst.iso
+Autostart: yes
+Keyboard layout: de
 
-
-text a  
+Initial commands:
 ```shell {3-4} title="quartz.layout.ts"
 line 1
 line 2
