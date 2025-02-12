@@ -1,5 +1,5 @@
 ---
-title: "Book review: **Paradise-1** by David Wellington"
+title: "Book review: 'Paradise-1' by David Wellington"
 date: 2024-08-19
 publishDate: 2024-08-19
 updated: 2024-08-19
