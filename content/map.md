@@ -30,6 +30,21 @@ Folders:
 > [!warning]
 > Tags from unpublished pages are also included!
 
+<details>
+  <summary>[Click me] Dataview query</summary>
+  
+```
+TABLE WITHOUT ID
+count, "#" + join((rows.tags), ", #") as Tags
+WHERE tags
+FLATTEN tags
+GROUP BY tags
+GROUP BY length(rows.rows) as count
+SORT count DESC
+```
+text b
+</details>
+
 <!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
 
