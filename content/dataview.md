@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-29
 publishDate: 2025-01-29
-updated: 2025-02-07
+updated: 2025-02-12
 draft: true
 tags:
   - unfinished
@@ -83,6 +83,17 @@ SORT count DESC
 ```
 
 with clickable tags:
+```dataview
+TABLE WITHOUT ID
+count, "#" + join((rows.tags), ", #") as Tags
+WHERE tags
+FLATTEN tags
+GROUP BY tags
+GROUP BY length(rows.rows) as count
+SORT count DESC
+```
+
+modified links:
 ```dataview
 TABLE WITHOUT ID
 count, "#" + join((rows.tags), ", #") as Tags
