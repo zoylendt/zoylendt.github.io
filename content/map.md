@@ -19,7 +19,8 @@ tags:
 
 # Folder structure
 
-Folders:
+All pages (besides notes tagged with #meta) are sorted in the following folder structure:
+
   - [[Braindump]]: Unstructured, mostly short ideas
   - [[Life]]: Cooking, brewing, personal stuff
   - [[Notes]]: Short pages, collections of web resources
