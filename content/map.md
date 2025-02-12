@@ -14,10 +14,11 @@ tags:
   - meta
 ---
 
-Today is **`= date(today)`**, and it's **`= dateformat(date(now), "HH:MM")`**.
+> [!warning]
+> All tables on this page rely on the Obsidian plugin `Dataview Serializer` which has to be run manually. Take note when this page has been updated (see above).
 
-<!-- QueryToSerialize: Today is **`= date(today)`**, and it's **`= dateformat(date(now), "HH:MM")`** -->
- 
+# Folder structure
+
 Folders:
   - [[Braindump]]: Unstructured, mostly short ideas
   - [[Life]]: Cooking, brewing, personal stuff
@@ -27,8 +28,11 @@ Folders:
 
 # Tags by frequency
 
-> [!warning]
-> Tags from unpublished pages are also included!
+> [!info]
+> There are some problems with this query:
+> - Tags from unpublished pages are not excluded
+> - Functional tags (like e.g. `explorer-exclude`) are not excluded
+> - Tags from folders outside of the folder `public` (which gets copied to Quartz' `content` folder) are not excluded
 
 <details>
   <summary>[Click me] Dataview query</summary>
@@ -42,7 +46,6 @@ GROUP BY tags
 GROUP BY length(rows.rows) as count
 SORT count DESC
 ```
-text b
 </details>
 
 <!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
@@ -66,6 +69,20 @@ text b
 <!-- SerializedQuery END -->
 
 # Published pages
+
+<details>
+  <summary>[Click me] Dataview query</summary>
+  
+```
+TABLE WITHOUT ID
+count, "#" + join((rows.tags), ", #") as Tags
+WHERE tags
+FLATTEN tags
+GROUP BY tags
+GROUP BY length(rows.rows) as count
+SORT count DESC
+```
+</details>
 
 <!-- QueryToSerialize: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects"SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = false -->
 <!-- SerializedQuery: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects"SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = false -->
