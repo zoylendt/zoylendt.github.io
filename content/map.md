@@ -25,6 +25,28 @@ Folders:
   - [[Projects]]: Complete write-ups of projects, meta/overview notes
   - [[Writing]]: Longer guides & tutorials
 
+# Tags by frequency
+
+<!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
+<!-- SerializedQuery: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
+
+| count | Tags                                                                                                                                                              |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 75    | #unfinished                                                                                                                                                       |
+| 20    | #docker                                                                                                                                                           |
+| 16    | #german                                                                                                                                                           |
+| 14    | #quartz                                                                                                                                                           |
+| 9     | #media                                                                                                                                                            |
+| 8     | #barebone, #github, #markdown, #recipe                                                                                                                            |
+| 7     | #books, #homelab, #obsidian, #python, #reading                                                                                                                    |
+| 6     | #selfhosted                                                                                                                                                       |
+| 5     | #bread, #internal, #untested                                                                                                                                      |
+| 4     | #coding, #git, #kitchen_log, #videogames                                                                                                                          |
+| 3     | #backlinks-exclude, #blog, #explorer-exclude, #graph-exclude, #guide, #homebrewing, #recents-exclude, #resources, #synology, #vscode                              |
+| 2     | #arduino, #backup, #beer, #bookmarks, #brewing, #electronics, #homeassistant, #linux, #proxmox, #syncthing, #wg, #windows                                         |
+| 1     | #cheatsheet, #k3s, #latex, #machine_learning, #mead, #meta, #nsfw, #overleaf, #plants, #powershell, #raspi, #review, #sqlite, #todo, #truenas, #unraid, #vm, #vpn |
+<!-- SerializedQuery END -->
+
 # Published pages
 
 <!-- QueryToSerialize: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects"SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = false -->
@@ -133,25 +155,5 @@ Folders:
 | [[find low quality video files\|Find low quality video files]]                                        | Writing   | 2024-05-22 |
 <!-- SerializedQuery END -->
 
-# Tags
 
-<!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
-<!-- SerializedQuery: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
-
-| count | Tags                                                                                                                                                              |
-| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 75    | #unfinished                                                                                                                                                       |
-| 20    | #docker                                                                                                                                                           |
-| 16    | #german                                                                                                                                                           |
-| 14    | #quartz                                                                                                                                                           |
-| 9     | #media                                                                                                                                                            |
-| 8     | #barebone, #github, #markdown, #recipe                                                                                                                            |
-| 7     | #books, #homelab, #obsidian, #python, #reading                                                                                                                    |
-| 6     | #selfhosted                                                                                                                                                       |
-| 5     | #bread, #internal, #untested                                                                                                                                      |
-| 4     | #coding, #git, #kitchen_log, #videogames                                                                                                                          |
-| 3     | #backlinks-exclude, #blog, #explorer-exclude, #graph-exclude, #guide, #homebrewing, #recents-exclude, #resources, #synology, #vscode                              |
-| 2     | #arduino, #backup, #beer, #bookmarks, #brewing, #electronics, #homeassistant, #linux, #proxmox, #syncthing, #wg, #windows                                         |
-| 1     | #cheatsheet, #k3s, #latex, #machine_learning, #mead, #meta, #nsfw, #overleaf, #plants, #powershell, #raspi, #review, #sqlite, #todo, #truenas, #unraid, #vm, #vpn |
-<!-- SerializedQuery END -->
 
