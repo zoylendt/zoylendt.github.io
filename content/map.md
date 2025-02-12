@@ -27,6 +27,9 @@ Folders:
 
 # Tags by frequency
 
+> [!warning]
+> Tags from unpublished pages are also included!
+
 <!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
 
@@ -130,7 +133,7 @@ Folders:
 | [[rezept ginger bug\|Rezept: Ginger Bug, Ingwerlimonade & Ginger Ale]]                                   | Life      | 2024-11-22 |
 | [[egpu setup\|My eGPU setup]]                                                                           | Notes     | 2024-11-18 |
 | [[ha esphome\|Adding ESP devices to HomeAssistant through ESPHome]]                                   | Writing   | 2024-08-20 |
-| [[book review paradise-1\|Book review: **Paradise-1** by David Wellington]]                              | Life      | 2024-08-19 |
+| [[book review paradise-1\|Book review: 'Paradise-1' by David Wellington]]                                | Life      | 2024-08-19 |
 | [[books song associations\|Books with song associations]]                                                | Life      | 2024-08-11 |
 | [[ha zisternensensor\|Building a cistern fill level sensor for HomeAssistant]]                       | Projects  | 2024-08-11 |
 | [[books quotes\|Book quotes I liked]]                                                                    | Life      | 2024-08-10 |
