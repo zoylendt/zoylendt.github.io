@@ -15,7 +15,8 @@ tags:
 ---
 
 > [!warning]
-> All tables on this page rely on the Obsidian plugin `Dataview Serializer` which has to be run manually. Take note when this page has been updated (see above).
+> All tables on this page rely on the Obsidian plugin `Dataview Serializer` which has to be run manually and is not part of the automatic GitHub Actions workflow.  
+> As a result this note reflects the blog's state at the last time when the plugin was run -> take note when this page has been updated (see above).
 
 # Folder structure
 
