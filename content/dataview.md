@@ -94,9 +94,11 @@ SORT count DESC
 ```
 
 modified links:
+
+`[#docker](https://zoylendt.github.io/tags/docker)` -> [#docker](https://zoylendt.github.io/tags/docker)
 ```dataview
 TABLE WITHOUT ID
-count, "#" + join((rows.tags), ", #") as Tags
+count, "[#" + (rows.tags) + "](https://zoylendt.github.io/tags/" + (rows.tags) + ")" as Tags
 WHERE tags
 FLATTEN tags
 GROUP BY tags
