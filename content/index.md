@@ -1,8 +1,10 @@
 ---
 title: Welcome to my blog ^_^
 date: 2024-02-03
-updated: 2025-01-20
+updated: 2025-02-12
 enableToc: false
+tags:
+  - meta
 ---
 
 > [!warning]

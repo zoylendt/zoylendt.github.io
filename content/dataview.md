@@ -13,6 +13,7 @@ tags:
   - explorer-exclude
   - backlinks-exclude
   - recents-exclude
+  - meta
 ---
 A page which generates dataview tables about pages in the blog.
 

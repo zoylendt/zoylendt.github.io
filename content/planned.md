@@ -4,11 +4,11 @@ subtitle: Some topics I want to write about
 description: 
 permalink: 
 date: 2024-02-11
-updated: 2025-02-06
+updated: 2025-02-12
 publishDate: 2024-02-11
 draft: false
 tags:
-  - blog
+  - meta
   - todo
   - unfinished
 ---
