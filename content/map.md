@@ -75,12 +75,10 @@ SORT count DESC
   
 ```
 TABLE WITHOUT ID
-count, "#" + join((rows.tags), ", #") as Tags
-WHERE tags
-FLATTEN tags
-GROUP BY tags
-GROUP BY length(rows.rows) as count
-SORT count DESC
+link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" 
+FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
+SORT updated DESC 
+WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = false
 ```
 </details>
 
@@ -144,6 +142,18 @@ SORT count DESC
 
 # Unpublished pages
 
+<details>
+  <summary>[Click me] Dataview query</summary>
+  
+```
+TABLE WITHOUT ID
+link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" 
+FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
+SORT updated DESC 
+WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = true
+```
+</details>
+
 <!-- QueryToSerialize: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects" SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = true -->
 <!-- SerializedQuery: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects" SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = true -->
 
@@ -190,5 +200,10 @@ SORT count DESC
 | [[find low quality video files\|Find low quality video files]]                                        | Writing   | 2024-05-22 |
 <!-- SerializedQuery END -->
 
+# Planned Dataview tables
 
+- [x] all Tags, sorted by frequency
+- [x] all published & unpublished pages
+- [ ] list of pages without backlinks
+- [ ] list of all pages with perma links
 
