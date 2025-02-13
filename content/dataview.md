@@ -105,6 +105,7 @@ FROM "public/Braindump"
   OR "public/Writing"
 WHERE tags
   AND draft != "true"
+  AND tag = "german"
 FLATTEN tags
 GROUP BY tags
 GROUP BY length(rows.rows) as count
