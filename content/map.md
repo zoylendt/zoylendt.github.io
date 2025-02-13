@@ -32,12 +32,6 @@ All pages (besides those tagged with #meta) are sorted in the following folder s
 
 ## Tags by frequency
 
-> [!info]
-> There are some problems with this query:
-> - Tags from unpublished pages are not excluded
-> - Functional tags (like e.g. `explorer-exclude`) are not excluded
-> - Tags from folders outside of the folder `public` (which gets copied to Quartz' `content` folder) are not excluded
-
 <details>
   <summary>[Click me] Dataview query</summary>
   
