@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-05-23
 publishDate: 2024-05-23
-updated: 2024-05-23
+updated: 2025-02-13
 draft: true
 tags:
   - unfinished
@@ -160,6 +160,12 @@ fixed ->
 
 ```sh title="/home/adrian/docker-readonly.sh"
 sudo mount -t ext4 -o defaults,noatime /dev/disk/by-uuid/61e34e00-c880-4237-98cb-71cb8257b1c2 /mnt/ssd && sudo systemctl start docker
+```
+
+`crontab -e` ->
+
+```
+@reboot /home/adrian/docker-readonly.sh
 ```
 
 # Notes
