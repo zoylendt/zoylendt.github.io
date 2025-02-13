@@ -104,8 +104,7 @@ FROM "public/Braindump"
   OR "public/Projects"
   OR "public/Writing"
 WHERE tags
-  AND draft != "true"
-  AND econtains(file.etags, "german")
+  AND draft = false
 FLATTEN tags
 GROUP BY tags
 GROUP BY length(rows.rows) as count
