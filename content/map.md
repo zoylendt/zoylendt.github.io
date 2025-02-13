@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-20
 publishDate: 2025-01-20
-updated: 2025-02-12
+updated: 2025-02-13
 draft: false
 enableToc: false
 tags:
@@ -28,7 +28,9 @@ All pages (besides those tagged with #meta) are sorted in the following folder s
   - [[Projects]]: Complete write-ups of projects, overview notes (entry points to topics spanning multiple pages)
   - [[Writing]]: Longer guides & tutorials
 
-# Tags by frequency
+# Published pages
+
+## Tags by frequency
 
 > [!info]
 > There are some problems with this query:
@@ -42,13 +44,22 @@ All pages (besides those tagged with #meta) are sorted in the following folder s
 ```
 TABLE WITHOUT ID
 count, "#" + join((rows.tags), ", #") as Tags
+FROM "public/Braindump"
+  OR "public/Life"
+  OR "public/Notes"
+  OR "public/Projects"
+  OR "public/Writing"
 WHERE tags
+  AND draft = false
 FLATTEN tags
 GROUP BY tags
 GROUP BY length(rows.rows) as count
 SORT count DESC
 ```
 </details>
+
+TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" WHERE tags AND draft = false FLATTEN tags GROUP BY tagsGROUP BY length(rows.rows) as count
+SORT count DESC
 
 <!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
 <!-- SerializedQuery: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
@@ -70,7 +81,7 @@ SORT count DESC
 | 1     | #cheatsheet, #k3s, #latex, #machine_learning, #mead, #nsfw, #overleaf, #plants, #powershell, #raspi, #review, #sqlite, #todo, #truenas, #unraid, #vm, #vpn |
 <!-- SerializedQuery END -->
 
-# Published pages
+## Pages by last updated
 
 <details>
   <summary>[Click me] Dataview query</summary>
@@ -93,8 +104,8 @@ WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public
 | [[markdown playground\|Markdown Playground]]                                        | Braindump | 2025-02-05 |
 | [[bomann gspe 889 788900 replacement parts\|BOMANN GSPE 889 788900 replacement parts]]   | Life      | 2025-02-05 |
 | [[docker cheatsheet\|Docker Cheatsheet]]                                              | Writing   | 2025-02-01 |
-| [[docker volume backup with offen\|Backup & restore Docker volumes with Offen]]      | Projects  | 2025-02-01 |
 | [[kopia backup server\|Kopia backup server]]                                         | Projects  | 2025-02-01 |
+| [[docker volume backup with offen\|Backup & restore Docker volumes with Offen]]      | Projects  | 2025-02-01 |
 | [[homelab hardware\|My homelab hardware]]                                             | Writing   | 2025-01-31 |
 | [[homelab power usage\|My homelabs' electric power draw]]                             | Writing   | 2025-01-31 |
 | [[steam game keys\|Surplus Steam Keys]]                                             | Braindump | 2025-01-27 |
@@ -144,6 +155,33 @@ WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public
 
 # Unpublished pages
 
+## Tags by frequency
+
+
+<details>
+  <summary>[Click me] default</summary>
+  
+```
+TABLE WITHOUT ID
+count, "#" + join((rows.tags), ", #") as Tags
+FROM "public/Braindump"
+  OR "public/Life"
+  OR "public/Notes"
+  OR "public/Projects"
+  OR "public/Writing"
+WHERE tags
+  AND draft = true
+FLATTEN tags
+GROUP BY tags
+GROUP BY length(rows.rows) as count
+SORT count DESC
+```
+</details>
+
+...
+
+# Pages by last updated
+
 <details>
   <summary>[Click me] Dataview query</summary>
   
@@ -161,6 +199,7 @@ WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public
 
 | Title                                                                                                                   | Folder    | Updated    |
 | ----------------------------------------------------------------------------------------------------------------------- | --------- | ---------- |
+| [[raspi with read-only filesystem\|Docker on RasPi with read-only filesystem]]                        | Writing   | 2025-02-13 |
 | [[homelab carcosa\|Homelab 2.0: 'Carcosa']]                                                          | Projects  | 2025-02-11 |
 | [[coding project exhex\|Coding project: ExHex]]                                                      | Projects  | 2025-02-04 |
 | [[wishlist\|Wishlist]]                                                                                   | Life      | 2025-02-02 |
@@ -196,7 +235,6 @@ WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public
 | [[file indexer evaluation\|Comparison of dockerized file indexers]]                                   | Writing   | 2024-06-05 |
 | [[docker on Synology\|Running Docker on Synology]]                                                    | Writing   | 2024-05-25 |
 | [[bananenmet\|Bananenmet]]                                                                               | Life      | 2024-05-23 |
-| [[raspi with read-only filesystem\|Docker on RasPi with read-only filesystem]]                        | Writing   | 2024-05-23 |
 | [[browser plugins\|Browser plugins]]                                                                | Braindump | 2024-05-22 |
 | [[docker setup for machine learning\|Docker setup for ML]]                                            | Writing   | 2024-05-22 |
 | [[find low quality video files\|Find low quality video files]]                                        | Writing   | 2024-05-22 |
