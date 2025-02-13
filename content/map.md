@@ -58,27 +58,23 @@ SORT count DESC
 ```
 </details>
 
-TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" WHERE tags AND draft = false FLATTEN tags GROUP BY tagsGROUP BY length(rows.rows) as count
-SORT count DESC
+<!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" WHERE tags AND draft = false FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
+<!-- SerializedQuery: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" WHERE tags AND draft = false FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
 
-<!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
-<!-- SerializedQuery: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags WHERE tags FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
-
-| count | Tags                                                                                                                                                       |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 75    | #unfinished                                                                                                                                                |
-| 20    | #docker                                                                                                                                                    |
-| 16    | #german                                                                                                                                                    |
-| 14    | #quartz                                                                                                                                                    |
-| 9     | #media                                                                                                                                                     |
-| 8     | #barebone, #github, #markdown, #recipe                                                                                                                     |
-| 7     | #books, #homelab, #obsidian, #python, #reading                                                                                                             |
-| 6     | #meta, #selfhosted                                                                                                                                         |
-| 5     | #bread, #internal, #untested                                                                                                                               |
-| 4     | #coding, #git, #kitchen_log, #videogames                                                                                                                   |
-| 3     | #backlinks-exclude, #explorer-exclude, #graph-exclude, #guide, #homebrewing, #recents-exclude, #resources, #synology, #vscode                              |
-| 2     | #arduino, #backup, #beer, #blog, #bookmarks, #brewing, #electronics, #homeassistant, #linux, #proxmox, #syncthing, #wg, #windows                           |
-| 1     | #cheatsheet, #k3s, #latex, #machine_learning, #mead, #nsfw, #overleaf, #plants, #powershell, #raspi, #review, #sqlite, #todo, #truenas, #unraid, #vm, #vpn |
+| count | Tags                                                                                                                        |
+| ----- | --------------------------------------------------------------------------------------------------------------------------- |
+| 31    | #unfinished                                                                                                                 |
+| 13    | #quartz                                                                                                                     |
+| 11    | #german                                                                                                                     |
+| 9     | #docker                                                                                                                     |
+| 8     | #markdown                                                                                                                   |
+| 7     | #obsidian                                                                                                                   |
+| 6     | #recipe                                                                                                                     |
+| 5     | #barebone, #media, #selfhosted                                                                                              |
+| 4     | #books, #bread, #git, #github, #homelab, #reading                                                                           |
+| 3     | #guide, #kitchen_log, #resources                                                                                            |
+| 2     | #backup, #beer, #bookmarks, #brewing, #homebrewing, #internal, #proxmox, #syncthing, #synology, #untested, #windows         |
+| 1     | #cheatsheet, #k3s, #latex, #linux, #overleaf, #plants, #powershell, #python, #truenas, #videogames, #vm, #vpn, #vscode, #wg |
 <!-- SerializedQuery END -->
 
 ## Pages by last updated
@@ -89,23 +85,28 @@ SORT count DESC
 ```
 TABLE WITHOUT ID
 link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" 
-FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
+FROM "public/Braindump"
+  OR "public/Life"
+  OR "public/Notes"
+  OR "public/Projects"
+  OR "public/Writing"
 SORT updated DESC 
-WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = false
+WHERE draft = false
+  AND file.folder != "public/zzz_static_files/my quartz config files"
 ```
 </details>
 
-<!-- QueryToSerialize: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects"SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = false -->
-<!-- SerializedQuery: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects"SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = false -->
+<!-- QueryToSerialize: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" SORT updated DESC WHERE draft = false -->
+<!-- SerializedQuery: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" SORT updated DESC WHERE draft = false -->
 
 | Title                                                                                                   | Folder    | Updated    |
 | ------------------------------------------------------------------------------------------------------- | --------- | ---------- |
 | [[resources homelab\|Homelab related resources]]                                      | Writing   | 2025-02-11 |
 | [[markdown playground\|Markdown Playground]]                                        | Braindump | 2025-02-05 |
 | [[bomann gspe 889 788900 replacement parts\|BOMANN GSPE 889 788900 replacement parts]]   | Life      | 2025-02-05 |
-| [[docker cheatsheet\|Docker Cheatsheet]]                                              | Writing   | 2025-02-01 |
 | [[kopia backup server\|Kopia backup server]]                                         | Projects  | 2025-02-01 |
 | [[docker volume backup with offen\|Backup & restore Docker volumes with Offen]]      | Projects  | 2025-02-01 |
+| [[docker cheatsheet\|Docker Cheatsheet]]                                              | Writing   | 2025-02-01 |
 | [[homelab hardware\|My homelab hardware]]                                             | Writing   | 2025-01-31 |
 | [[homelab power usage\|My homelabs' electric power draw]]                             | Writing   | 2025-01-31 |
 | [[steam game keys\|Surplus Steam Keys]]                                             | Braindump | 2025-01-27 |
@@ -178,7 +179,20 @@ SORT count DESC
 ```
 </details>
 
-...
+<!-- QueryToSerialize: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" WHERE tags AND draft = true FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
+<!-- SerializedQuery: TABLE WITHOUT ID count, "#" + join((rows.tags), ", #") as Tags FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" WHERE tags AND draft = true FLATTEN tags GROUP BY tags GROUP BY length(rows.rows) as count SORT count DESC -->
+
+| count | Tags                                                                                                                                                                                                                                 |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 38    | #unfinished                                                                                                                                                                                                                          |
+| 11    | #docker                                                                                                                                                                                                                              |
+| 6     | #python                                                                                                                                                                                                                              |
+| 5     | #german                                                                                                                                                                                                                              |
+| 4     | #coding, #github, #media                                                                                                                                                                                                             |
+| 3     | #barebone, #books, #homelab, #internal, #reading, #untested, #videogames                                                                                                                                                             |
+| 2     | #arduino, #electronics, #homeassistant, #recipe, #vscode                                                                                                                                                                             |
+| 1     | #backlinks-exclude, #blog, #bread, #explorer-exclude, #graph-exclude, #homebrewing, #kitchen_log, #linux, #machine_learning, #mead, #nsfw, #quartz, #raspi, #recents-exclude, #review, #selfhosted, #sqlite, #synology, #unraid, #wg |
+<!-- SerializedQuery END -->
 
 # Pages by last updated
 
@@ -188,14 +202,19 @@ SORT count DESC
 ```
 TABLE WITHOUT ID
 link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" 
-FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Posts" OR "public/Projects"
+FROM "public/Braindump"
+  OR "public/Life"
+  OR "public/Notes"
+  OR "public/Projects"
+  OR "public/Writing"
 SORT updated DESC 
-WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = true
+WHERE draft = true
+  AND file.folder != "public/zzz_static_files/my quartz config files"
 ```
 </details>
 
-<!-- QueryToSerialize: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects" SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = true -->
-<!-- SerializedQuery: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Writing" OR "public/Projects" SORT updated DESC WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public/zzz_static_files/my quartz config files" AND draft = true -->
+<!-- QueryToSerialize: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" SORT updated DESC WHERE draft = true -->
+<!-- SerializedQuery: TABLE WITHOUT ID link(file.name, title) AS "Title", regexreplace(file.folder, ".*\/([^\/]+)$", "$1") AS "Folder", dateformat(updated, "yyyy-MM-dd") AS "Updated" FROM "public/Braindump" OR "public/Life" OR "public/Notes" OR "public/Projects" OR "public/Writing" SORT updated DESC WHERE draft = true -->
 
 | Title                                                                                                                   | Folder    | Updated    |
 | ----------------------------------------------------------------------------------------------------------------------- | --------- | ---------- |
@@ -239,6 +258,7 @@ WHERE file.name != this.file.name AND draft != "true" AND file.folder != "public
 | [[docker setup for machine learning\|Docker setup for ML]]                                            | Writing   | 2024-05-22 |
 | [[find low quality video files\|Find low quality video files]]                                        | Writing   | 2024-05-22 |
 <!-- SerializedQuery END -->
+
 
 # Planned Dataview tables
 
