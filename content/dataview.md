@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-29
 publishDate: 2025-01-29
-updated: 2025-02-12
+updated: 2025-02-13
 draft: true
 tags:
   - unfinished
@@ -93,6 +93,24 @@ GROUP BY tags
 GROUP BY length(rows.rows) as count
 SORT count DESC
 ```
+
+modified folders:
+```dataview
+TABLE WITHOUT ID
+count, "#" + join((rows.tags), ", #") as Tags
+FROM "public/Braindump"
+  OR "public/Life"
+  OR "public/Notes"
+  OR "public/Projects"
+  OR "public/Writing"
+WHERE tags
+  AND draft != "true"
+FLATTEN tags
+GROUP BY tags
+GROUP BY length(rows.rows) as count
+SORT count DESC
+```
+
 
 modified links:
 
