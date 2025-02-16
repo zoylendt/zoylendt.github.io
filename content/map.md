@@ -218,7 +218,7 @@ WHERE draft = true
 | [[wishlist\|Wishlist]]                                                                                   | Life      | 2025-02-02 |
 | [[unraid\|Unraid]]                                                                                  | Braindump | 2025-02-01 |
 | [[wg expenses\|Ausgaben für die WG]]                                                                     | Life      | 2025-01-31 |
-| [[homelab history\|Homelab history]]                                                                  | Writing   | 2025-01-31 |
+| [[homelab log\|Homelab history]]                                                                  | Writing   | 2025-01-31 |
 | [[homelab overview]]                                                                | Writing   | 2025-01-31 |
 | [[coding project dedoppler\|Coding project: DeDoppler]]                                              | Projects  | 2025-01-24 |
 | [[coding project saltmine\|Coding project: Saltmine]]                                                | Projects  | 2025-01-24 |

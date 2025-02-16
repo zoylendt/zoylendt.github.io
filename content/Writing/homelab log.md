@@ -1,15 +1,15 @@
 ---
-title: Homelab history
+title: Homelab log
 subtitle: Log of changes/incidents/etc of my homelab
 description: 
 permalink: 
 date: 2025-01-30
 publishDate: 2025-01-30
 updated: 2025-02-16
-draft: true
+draft: false
 tags:
-  - unfinished
   - homelab
+  - ongoing
 ---
  
 # Overview
