@@ -29,4 +29,14 @@ tags:
 
 Potential name schemes:
 - Signalis planets/locations
-    - 
+    - Sun
+    - Buyan
+    - Vineta
+    - Kitezh
+    - Rotfront
+    - Heimat
+    - Leng
+    - Oort
+    - S23-Sierpinski
+    - Penrose-512
+    - Nowhere
