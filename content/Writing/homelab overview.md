@@ -40,3 +40,6 @@ Potential name schemes:
     - S23-Sierpinski
     - Penrose-512
     - Nowhere
+    - Mandelbrot
+    - Black shore
+    - Rotfront Interplanetar Station 06
