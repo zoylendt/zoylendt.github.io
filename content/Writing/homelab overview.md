@@ -25,3 +25,8 @@ tags:
 | 172.16.40.22 | titan         | PVE        |                                   | 100.124.115.133 |                |
 | 172.16.40.23 | vanadium      | PVE        |                                   | 100.125.38.76   |                |
 |              |               |            |                                   |                 |                |
+
+
+Potential name schemes:
+- Signalis planets/locations
+    - 
