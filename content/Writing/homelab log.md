@@ -14,11 +14,11 @@ tags:
  
 # Overview
 
-| Date            | Type     | Description                                          |
-| --------------- | -------- | ---------------------------------------------------- |
-| [[#2025-01-29]] | incident | Unraid lost connection during Parity check           |
-| [[#2025-02-16]] | change   | Updated OS from 6.12.14 to 7.0.0 (UnraidPatch 1.0.0) |
-|                 |          |                                                      |
+| Date            | Type     | Description                                              |
+| --------------- | -------- | -------------------------------------------------------- |
+| [[#2025-01-29]] | incident | Unraid lost connection during Parity check               |
+| [[#2025-02-16]] | change   | Updated Unraid from 6.12.14 to 7.0.0 (UnraidPatch 1.0.0) |
+| 2025-02-17      | change   | Updated PVE titan from 8.2.4 to                          |
 
 # Details
 
