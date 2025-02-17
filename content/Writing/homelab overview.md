@@ -36,7 +36,7 @@ Potential name schemes:
     - Rotfront
     - Heimat
     - Leng
-    - Oort
+    - Oort cloud
     - S23-Sierpinski
     - Penrose-512
     - Nowhere
