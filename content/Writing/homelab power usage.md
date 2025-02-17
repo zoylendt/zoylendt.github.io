@@ -32,24 +32,24 @@ For now I'm using two smarthome devices connected to HomeAssistant to collect va
 
 ## Individual devices
 
-| Device     | State                   | Power   | Comment                          |
-| ---------- | ----------------------- | ------- | -------------------------------- |
-| vanadium   | idle                    | 11.1 W  | no VM online                     |
-| vanadium   | CPU 17%                 | 20.0 W  | 1 of 6 cores run stress-ng       |
-| vanadium   | CPU 50%                 | 34.6 W  | 3 of 6 cores run stress-ng       |
-| vanadium   | CPU 100%                | 50.7 W  | 6 of 6 cores run stress-ng       |
-| datengrab  | idle (10 HDD spun down) | 40.0 W  | no HDD activity                  |
-| datengrab  | idle (10 HDD spun up)   | 91.2 W  | HDD auto spin-down disabled      |
-| datengrab  | File Integrity Check    | 55.8 W* | 1 reading HDD + active Parity    |
-| datengrab  | Parity Check            | 87.5 W* | 8 reading HDD + CPU              |
-| ds918zoy   | default                 | 45.2 W  | (need to log CPU + HDD activity) |
-| ds918zoy   | minimal                 | ?       | docker & syncthing disabled      |
-| ds918zoy   | 100% load               | ?       | ?                                |
-| titan      |                         | ?       |                                  |
-| fritzbox   | default                 | ?       |                                  |
-| PoE switch |                         | ?       | for WiFi APs                     |
-| UPS        | default                 | ?       | not charging                     |
-| RasPi      |                         |         |                                  |
+| Device     | State                   | Power   | Comment                                                                         |
+| ---------- | ----------------------- | ------- | ------------------------------------------------------------------------------- |
+| vanadium   | idle                    | 11.1 W  | no VM online                                                                    |
+| vanadium   | CPU 17%                 | 20.0 W  | 1 of 6 cores run stress-ng                                                      |
+| vanadium   | CPU 50%                 | 34.6 W  | 3 of 6 cores run stress-ng                                                      |
+| vanadium   | CPU 100%                | 50.7 W  | 6 of 6 cores run stress-ng                                                      |
+| datengrab  | idle (10 HDD spun down) | 40.0 W  | no HDD activity                                                                 |
+| datengrab  | idle (10 HDD spun up)   | 91.2 W  | HDD auto spin-down disabled                                                     |
+| datengrab  | File Integrity Check    | 55.8 W* | 1 reading HDD + active Parity                                                   |
+| datengrab  | Parity Check            | 87.5 W* | 8 reading HDD + CPU                                                             |
+| ds918zoy   | default                 | 48.4 W  | (need to log CPU + HDD activity)                                                |
+| ds918zoy   | minimal                 | ?       | docker & syncthing disabled                                                     |
+| ds918zoy   | 100% load               | 53.6 W  | `docker run -it --rm polinux/stress-ng --cpu 4 --io 1 --verbose --timeout 3600` |
+| titan      |                         | ?       |                                                                                 |
+| fritzbox   | default                 | ?       |                                                                                 |
+| PoE switch |                         | ?       | for WiFi APs                                                                    |
+| UPS        | default                 | ?       | not charging                                                                    |
+| RasPi      |                         |         |                                                                                 |
 Note: * = only tested with HS110, A5T might yield more accurate results
 
 ## Multiple devices together
