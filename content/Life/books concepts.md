@@ -1,5 +1,5 @@
 ---
-title: Noteable quotes from books
+title: Interesting concepts from books
 subtitle: 
 description: 
 permalink: 
@@ -20,6 +20,7 @@ tags:
 > - [[books currently reading|Currently reading]]
 > - [[books favorites|Favorite books]]
 > - [[books previously read|Previously read books]]
+> - [[books quotes|Book quotes]]
 
 ---
 

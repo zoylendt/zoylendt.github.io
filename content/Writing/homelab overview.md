@@ -1,11 +1,11 @@
 ---
-title: 
+title: Homelab overview
 subtitle: 
 description: 
 permalink: 
 date: 2025-01-31
 publishDate: 2025-01-31
-updated: 2025-01-31
+updated: 2025-02-17
 draft: true
 tags:
   - unfinished
