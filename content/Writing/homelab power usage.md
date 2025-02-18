@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-27
 publishDate: 2025-01-27
-updated: 2025-02-17
+updated: 2025-02-19
 draft: false
 tags:
   - unfinished
@@ -45,7 +45,9 @@ For now I'm using two smarthome devices connected to HomeAssistant to collect va
 | ds918zoy   | default                 | 48.4 W  | (need to log CPU + HDD activity)                                                |
 | ds918zoy   | minimal                 | ?       | docker & syncthing disabled                                                     |
 | ds918zoy   | 100% load               | 53.6 W  | `docker run -it --rm polinux/stress-ng --cpu 4 --io 1 --verbose --timeout 3600` |
-| titan      |                         | ?       |                                                                                 |
+| titan      | idle                    | 6.1 W   | no VM,  ~1.2% of 4 CPU                                                          |
+| titan      | default (~9% of 4 CPU)  |         |                                                                                 |
+| titan      | 4 CPU @ 100%            | 10.2 W  | `stress-ng --cpu 4 --timeout 150m --metrics-brief`                              |
 | fritzbox   | default                 | ?       |                                                                                 |
 | PoE switch |                         | ?       | for WiFi APs                                                                    |
 | UPS        | default                 | ?       | not charging                                                                    |
