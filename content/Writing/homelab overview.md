@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-31
 publishDate: 2025-01-31
-updated: 2025-02-17
+updated: 2025-02-21
 draft: true
 tags:
   - unfinished
@@ -43,3 +43,14 @@ Potential name schemes:
     - Mandelbrot
     - Black shore
     - Rotfront Interplanetar Station 06
+- W40K Legions homeworlds
+    - Baal (Blood Angels)
+    - Barbarus (Death Guard)
+
+
+| Legion | Name | Primarch | Homeworld | Flagship |
+| ------ | ---- | -------- | --------- | -------- |
+| 1      |      |          |           |          |
+| 2      |      |          |           |          |
+| 3      |      |          |           |          |
+| 4      |      |          |           |          |
