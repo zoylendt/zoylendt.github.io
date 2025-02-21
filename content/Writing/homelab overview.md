@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-31
 publishDate: 2025-01-31
-updated: 2025-02-21
+updated: 2025-02-22
 draft: true
 tags:
   - unfinished
@@ -48,9 +48,23 @@ Potential name schemes:
     - Barbarus (Death Guard)
 
 
-| Legion | Name | Primarch | Homeworld | Flagship |
-| ------ | ---- | -------- | --------- | -------- |
-| 1      |      |          |           |          |
-| 2      |      |          |           |          |
-| 3      |      |          |           |          |
-| 4      |      |          |           |          |
+| Legion | Name               | Primarch       | Homeworld | Flagship |
+| ------ | ------------------ | -------------- | --------- | -------- |
+| 1      | Dark Angels        | Lion El'Jonson | Caliban   |          |
+| 3      | Emperor's Children | Fulgrim        | Chemos    |          |
+| 4      | Iron Warriors      | Perturabo      | Olympia   |          |
+| 5      | White Scars        | Jaghatai Khan  | Chogoris  |          |
+| 6      | Space Wolves       | Leman Russ     | Fenris    |          |
+| 7      | Imperial Fists     | Rogal Dorn     | Inwit     |          |
+| 8      | Night Lords        | Konrad Curze   | Nostramo  |          |
+| 9      | Blood Angels       | Sanguinius     | Baal      |          |
+| 10     | Iron Hands         | Ferrus Manus   | Medusa    |          |
+| 12     | World Eaters       | Angron         |           |          |
+| 13     |                    |                |           |          |
+| 14     |                    |                |           |          |
+| 15     |                    |                |           |          |
+| 16     |                    |                |           |          |
+| 17     |                    |                |           |          |
+| 18     |                    |                |           |          |
+| 19     |                    |                |           |          |
+| 20     |                    |                |           |          |
