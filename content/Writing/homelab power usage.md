@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-27
 publishDate: 2025-01-27
-updated: 2025-02-19
+updated: 2025-02-21
 draft: false
 tags:
   - unfinished
@@ -43,10 +43,9 @@ For now I'm using two smarthome devices connected to HomeAssistant to collect va
 | datengrab  | File Integrity Check    | 55.8 W* | 1 reading HDD + active Parity                                                   |
 | datengrab  | Parity Check            | 87.5 W* | 8 reading HDD + CPU                                                             |
 | ds918zoy   | default                 | 48.4 W  | (need to log CPU + HDD activity)                                                |
-| ds918zoy   | minimal                 | ?       | docker & syncthing disabled                                                     |
 | ds918zoy   | 100% load               | 53.6 W  | `docker run -it --rm polinux/stress-ng --cpu 4 --io 1 --verbose --timeout 3600` |
 | titan      | idle                    | 6.1 W   | no VM,  ~1.2% of 4 CPU                                                          |
-| titan      | default (~9% of 4 CPU)  |         |                                                                                 |
+| titan      | default (~9% of 4 CPU)  | 8. W    |                                                                                 |
 | titan      | 4 CPU @ 100%            | 10.2 W  | `stress-ng --cpu 4 --timeout 150m --metrics-brief`                              |
 | fritzbox   | default                 | ?       |                                                                                 |
 | PoE switch |                         | ?       | for WiFi APs                                                                    |
