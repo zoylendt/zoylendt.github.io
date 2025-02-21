@@ -51,6 +51,7 @@ For now I'm using two smarthome devices connected to HomeAssistant to collect va
 | PoE switch |                         | ?       | for WiFi APs                                                                    |
 | UPS        | default                 | ?       | not charging                                                                    |
 | RasPi      |                         |         |                                                                                 |
+| cer        |                         | ?       |                                                                                 |
 Note: * = only tested with HS110, A5T might yield more accurate results
 
 ## Multiple devices together
