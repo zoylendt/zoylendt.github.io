@@ -48,23 +48,23 @@ Potential name schemes:
     - Barbarus (Death Guard)
 
 
-| Legion | Name               | Primarch       | Homeworld | Flagship |
-| ------ | ------------------ | -------------- | --------- | -------- |
-| 1      | Dark Angels        | Lion El'Jonson | Caliban   |          |
-| 3      | Emperor's Children | Fulgrim        | Chemos    |          |
-| 4      | Iron Warriors      | Perturabo      | Olympia   |          |
-| 5      | White Scars        | Jaghatai Khan  | Chogoris  |          |
-| 6      | Space Wolves       | Leman Russ     | Fenris    |          |
-| 7      | Imperial Fists     | Rogal Dorn     | Inwit     |          |
-| 8      | Night Lords        | Konrad Curze   | Nostramo  |          |
-| 9      | Blood Angels       | Sanguinius     | Baal      |          |
-| 10     | Iron Hands         | Ferrus Manus   | Medusa    |          |
-| 12     | World Eaters       | Angron         |           |          |
-| 13     |                    |                |           |          |
-| 14     |                    |                |           |          |
-| 15     |                    |                |           |          |
-| 16     |                    |                |           |          |
-| 17     |                    |                |           |          |
-| 18     |                    |                |           |          |
-| 19     |                    |                |           |          |
-| 20     |                    |                |           |          |
+| Legion | Name               | Primarch           | Homeworld   | Flagship              |
+| ------ | ------------------ | ------------------ | ----------- | --------------------- |
+| 1      | Dark Angels        | Lion El'Jonson     | Caliban     | Invincible Reason     |
+| 3      | Emperor's Children | Fulgrim            | Chemos      | Pride of the Emperor  |
+| 4      | Iron Warriors      | Perturabo          | Olympia     | Iron Blood            |
+| 5      | White Scars        | Jaghatai Khan      | Chogoris    | Swordstorm            |
+| 6      | Space Wolves       | Leman Russ         | Fenris      | Hrafnkel              |
+| 7      | Imperial Fists     | Rogal Dorn         | Inwit       | Phalanx               |
+| 8      | Night Lords        | Konrad Curze       | Nostramo    | Nightfall             |
+| 9      | Blood Angels       | Sanguinius         | Baal        | Red Tear              |
+| 10     | Iron Hands         | Ferrus Manus       | Medusa      | Fists of Iron         |
+| 12     | World Eaters       | Angron             | Nuceria     | Conqueror             |
+| 13     | Ultramarines       | Roboute Guilliman  | Macragge    | Macragge's Honour     |
+| 14     | Death Guard        | Mortarion          | Barbarus    | Terminus Est          |
+| 15     | Thousand Sons      | Magnus the Red     | Prospero    | Photep                |
+| 16     | Sons of Horus      | Horus Lupercal     | Cthonia     | Vengeful Spirit       |
+| 17     | Word Bearers       | Lorgar Aurelian    | Colchis     | Fidelitas Lex         |
+| 18     | Salamanders        | Vulkan             | Nocturne    | Flamewrought          |
+| 19     | Raven Guard        | Corvus Corax       | Deliverance | Shadow of the Emperor |
+| 20     | Alpha Legion       | Alpharius / Omegon | ?           | Alpha / Beta          |
