@@ -42,11 +42,11 @@ For now I'm using two smarthome devices connected to HomeAssistant to collect va
 | datengrab  | idle (10 HDD spun up)   | 91.2 W  | HDD auto spin-down disabled                                                     |
 | datengrab  | File Integrity Check    | 55.8 W* | 1 reading HDD + active Parity                                                   |
 | datengrab  | Parity Check            | 87.5 W* | 8 reading HDD + CPU                                                             |
-| ds918zoy   | default                 | 48.4 W  | (need to log CPU + HDD activity)                                                |
+| ds918zoy   | default                 | 48.4 W  | typical activity (measured avg. over 9h)                                        |
 | ds918zoy   | 100% load               | 53.6 W  | `docker run -it --rm polinux/stress-ng --cpu 4 --io 1 --verbose --timeout 3600` |
-| titan      | idle                    | 6.1 W   | no VM,  ~1.2% of 4 CPU                                                          |
-| titan      | default (~9% of 4 CPU)  | 8. W    |                                                                                 |
-| titan      | 4 CPU @ 100%            | 10.2 W  | `stress-ng --cpu 4 --timeout 150m --metrics-brief`                              |
+| titan      | idle                    | 6.1 W   | no VM, ~1.2% of 4 CPU                                                           |
+| titan      | default                 | 8.0 W   | 2 VMs, ~9% of 4 CPU                                                             |
+| titan      | CPU 100%                | 10.2 W  | 4 CPU @ 100% `stress-ng --cpu 4 --timeout 150m --metrics-brief`                 |
 | fritzbox   | default                 | ?       |                                                                                 |
 | PoE switch |                         | ?       | for WiFi APs                                                                    |
 | UPS        | default                 | ?       | not charging                                                                    |
@@ -57,8 +57,8 @@ Note: * = only tested with HS110, A5T might yield more accurate results
 
 | Date       | Active devices                                 | Inactive devices                      | Power (NousA5T) | Power (HS110) | Comment           |
 | ---------- | ---------------------------------------------- | ------------------------------------- | --------------- | ------------- | ----------------- |
-| 2025-01-28 | UPS, FritzBox, Switches + APs, titan, ds918zoy | datengrab, vanadium, RasPi, bernstein | 0 W             | 93.1 W        | average over 2.5h |
-| 2025-02-17 | ds918zoy                                       |                                       | 48.4 W          | -             | average over 9h   |
+| 2025-01-28 | UPS, FritzBox, Switches + APs, titan, ds918zoy | datengrab, vanadium, RasPi, bernstein | -               | 93.1 W        | average over 2.5h |
+
 
 # Ideas to improve the testing setup
 
