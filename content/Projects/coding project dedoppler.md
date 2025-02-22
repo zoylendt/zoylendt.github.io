@@ -5,7 +5,7 @@ description:
 permalink: perma/dedoppler
 date: 2024-10-09
 publishDate: 2024-10-09
-updated: 2025-01-24
+updated: 2025-02-22
 draft: true
 tags:
   - github
@@ -32,3 +32,5 @@ tags:
 > - [ ] properly log processed files (summary in separate log file?)
 > - [ ] build to run continuously (or with custom schedule)
 > - [ ] add notifications (eMail/SMTP?)
+
+- Rewrite to use SQLAlchemy and SQLite instead of CSV files -> practice for ExHex
