@@ -9,11 +9,14 @@ updated: 2025-02-22
 draft: true
 tags:
   - unfinished
-  - graph-exclude
-  - explorer-exclude
-  - backlinks-exclude
-  - recents-exclude
+  - proxmox
+  - homelab
 ---
  
 - [ ] install OPNsense VM in Proxmox
-- [ ] 
+- [ ] x
+- [ ] install QEMU-guest-agent plugin
+- [ ] change LAN IP
+- [ ] install Tailscale plugin
+- [ ] install AdGuard plugin
+
