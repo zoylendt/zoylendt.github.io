@@ -14,9 +14,20 @@ tags:
 ---
  
 - [ ] install OPNsense VM in Proxmox
+    - [ ] create network
 - [ ] x
 - [ ] install QEMU-guest-agent plugin
 - [ ] change LAN IP
 - [ ] install Tailscale plugin
 - [ ] install AdGuard plugin
+
+# Introduction
+
+...
+
+# OPNsense VM setup in Proxmox
+
+## Create new network
+
+`Datacenter` -> `$HOSTNAME` -> `System` -> `Network` -> `Create` -> `Linux Bridge`
 
