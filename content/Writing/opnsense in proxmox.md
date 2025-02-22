@@ -40,7 +40,17 @@ This installation guide uses `OPNsense-25.1-dvd-amd64.iso` under Proxmox 8.3.4
 ## VM resources
 
 
-| Tab     | Type          | Value  |
-| ------- | ------------- | ------ |
-| General | Start at boot | enable |
-| OS      |               |        |
+| Tab     | Type                | Value                                  |
+| ------- | ------------------- | -------------------------------------- |
+| General | Start at boot       | enable                                 |
+| OS      | ISO                 | `OPNsense-25.1-dvd-amd64.iso` or newer |
+| System  | Qemu Agent          | enable                                 |
+| Disks   | Size                | 32 GB                                  |
+| Disks   | Discard             | enable                                 |
+| Disks   | IO thread           | enable                                 |
+| CPU     | Cores               | at least `2`, with AES support         |
+| Memory  | Memory              | at least `3072 MB` during installation |
+| Memory  | Ballooning Device   | disable                                |
+| Network | Firewall            | disable                                |
+| Network | Multiqueue          | 8                                      |
+| Confirm | Start after created | disable                                |
