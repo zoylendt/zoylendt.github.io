@@ -31,3 +31,16 @@ tags:
 
 `Datacenter` -> `$HOSTNAME` -> `System` -> `Network` -> `Create` -> `Linux Bridge`
 
+Create a new network interface next to the default `vmbr0`.
+
+## Get newest OPNsense ISO
+
+This installation guide uses `OPNsense-25.1-dvd-amd64.iso` under Proxmox 8.3.4
+
+## VM resources
+
+
+| Tab     | Type          | Value  |
+| ------- | ------------- | ------ |
+| General | Start at boot | enable |
+| OS      |               |        |
