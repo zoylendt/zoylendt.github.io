@@ -9,10 +9,9 @@ updated: 2025-02-25
 draft: true
 tags:
   - unfinished
-  - graph-exclude
-  - explorer-exclude
-  - backlinks-exclude
-  - recents-exclude
+  - python
+  - docker
+  - nsfw
 ---
  
 Ideas: 
@@ -22,6 +21,9 @@ Ideas:
 - get all not yet downloaded images from the DB, sort by date
 - forward single link to imgbrd-grabber, download + add to Szurubooru
 - verify that it has been added to Szurubooru, update SQLite DB entry
+
+-> don't use imgbrd-grabber, download with python tools instead
+-> all (except Szurubooru) in a docker container, linked to Szurubooru instance
 
 Resources:
 - Imgbrd-grabber
@@ -37,4 +39,5 @@ Resources:
 - Python tools for R34
     - [...](https://github.com/sinkaroid/booru)
     - [...](https://github.com/RaulS963/Rule34-Downloader/blob/master/py_code/rule34-downloader-hd.py)
+    - [...](https://github.com/StellaSmith/lewd_downloader/blob/master/lewdd/rule34_xxx.py)
     - 
