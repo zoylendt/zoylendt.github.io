@@ -30,4 +30,7 @@ Resources:
     - [Szurubooru-Integration](https://www.bionus.org/imgbrd-grabber/docs/commands/szurubooru.html)
     - [Linux installation guide](https://www.bionus.org/imgbrd-grabber/docs/install/linux.html)
     - [CLI](https://www.bionus.org/imgbrd-grabber/docs/cli.html)
-- [Szurubooru setup guide](https://github.com/rr-/szurubooru/blob/master/doc/INSTALL.md)
+- Szurubooru
+    - [Setup guide](https://github.com/rr-/szurubooru/blob/master/doc/INSTALL.md)
+    - [API guide](https://github.com/rr-/szurubooru/blob/master/doc/API.md)
+    - 
