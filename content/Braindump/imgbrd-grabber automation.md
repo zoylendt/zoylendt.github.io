@@ -33,4 +33,4 @@ Resources:
 - Szurubooru
     - [Setup guide](https://github.com/rr-/szurubooru/blob/master/doc/INSTALL.md)
     - [API guide](https://github.com/rr-/szurubooru/blob/master/doc/API.md)
-    - 
+    - [Python API wrapper](https://github.com/sgsunder/python-szurubooru)
