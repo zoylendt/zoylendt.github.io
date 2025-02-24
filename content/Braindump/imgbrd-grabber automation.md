@@ -22,3 +22,8 @@ Ideas:
 - get all not yet downloaded images from the DB, sort by date
 - forward single link to imgbrd-grabber, download + add to Szurubooru
 - verify that it has been added to Szurubooru, update SQLite DB entry
+
+Resources:
+- [Imgbrd-grabber homepage]
+    - [https://www.bionus.org/imgbrd-grabber/docs/commands/szurubooru.html](Szurubooru-Integration of imgbrd-grabber)
+- 
