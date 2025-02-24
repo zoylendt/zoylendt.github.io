@@ -21,3 +21,4 @@ Ideas:
 - query the website's API for all images, add them (with metadata) to SQLite DB
 - get all not yet downloaded images from the DB, sort by date
 - forward single link to imgbrd-grabber, download + add to Szurubooru
+- verify that it has been added to Szurubooru, update SQLite DB entry
