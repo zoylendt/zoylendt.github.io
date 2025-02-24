@@ -40,4 +40,5 @@ Resources:
     - [...](https://github.com/sinkaroid/booru)
     - [...](https://github.com/RaulS963/Rule34-Downloader/blob/master/py_code/rule34-downloader-hd.py) (5y old)
     - [...](https://github.com/StellaSmith/lewd_downloader/blob/master/lewdd/rule34_xxx.py) (7y old)
+    - [...](https://github.com/SolitarySpiral/python-image-dowloader/blob/main/post.py)
     - (Rust) [...](https://github.com/FerrahWolfeh/imageboard-downloader-rs)
