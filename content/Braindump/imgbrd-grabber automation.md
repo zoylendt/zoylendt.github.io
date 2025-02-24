@@ -39,5 +39,5 @@ Resources:
 - Python tools for R34
     - [...](https://github.com/sinkaroid/booru)
     - [...](https://github.com/RaulS963/Rule34-Downloader/blob/master/py_code/rule34-downloader-hd.py)
-    - [...](https://github.com/StellaSmith/lewd_downloader/blob/master/lewdd/rule34_xxx.py)
+    - [...](https://github.com/StellaSmith/lewd_downloader/blob/master/lewdd/rule34_xxx.py) (7y old)
     - 
