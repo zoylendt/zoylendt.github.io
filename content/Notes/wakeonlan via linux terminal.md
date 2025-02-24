@@ -15,6 +15,6 @@ tags:
   - recents-exclude
 ---
  
-markdown content :)
+Following [this guide](https://www.cyberciti.biz/tips/linux-send-wake-on-lan-wol-magic-packets.html)
 
 `wakeonlan 38:22:E2:29:5F:C7`
