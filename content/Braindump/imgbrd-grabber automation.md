@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-24
 publishDate: 2025-02-24
-updated: 2025-02-24
+updated: 2025-02-25
 draft: true
 tags:
   - unfinished
@@ -34,3 +34,7 @@ Resources:
     - [Setup guide](https://github.com/rr-/szurubooru/blob/master/doc/INSTALL.md)
     - [API guide](https://github.com/rr-/szurubooru/blob/master/doc/API.md)
     - [Python API wrapper](https://github.com/sgsunder/python-szurubooru)
+- Python tools for R34
+    - [...](https://github.com/sinkaroid/booru)
+    - [...](https://github.com/RaulS963/Rule34-Downloader/blob/master/py_code/rule34-downloader-hd.py)
+    - 
