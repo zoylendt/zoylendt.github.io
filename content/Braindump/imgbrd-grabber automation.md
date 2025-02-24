@@ -24,6 +24,10 @@ Ideas:
 - verify that it has been added to Szurubooru, update SQLite DB entry
 
 Resources:
-- [Imgbrd-grabber homepage](https://github.com/Bionus/imgbrd-grabber)
-    - [https://www.bionus.org/imgbrd-grabber/docs/commands/szurubooru.html](Szurubooru-Integration of imgbrd-grabber)
-- 
+- Imgbrd-grabber
+    - [GitHub](https://github.com/Bionus/imgbrd-grabber)
+    - [Homepage](https://www.bionus.org/imgbrd-grabber/index.html)
+    - [Szurubooru-Integration](https://www.bionus.org/imgbrd-grabber/docs/commands/szurubooru.html)
+    - [Linux installation guide](https://www.bionus.org/imgbrd-grabber/docs/install/linux.html)
+    - [CLI](https://www.bionus.org/imgbrd-grabber/docs/cli.html)
+- [Szurubooru setup guide](https://github.com/rr-/szurubooru/blob/master/doc/INSTALL.md)
