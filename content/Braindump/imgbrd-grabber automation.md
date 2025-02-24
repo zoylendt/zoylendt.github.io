@@ -15,4 +15,7 @@ tags:
   - recents-exclude
 ---
  
-markdown content :)
+Ideas: 
+- have list of tags that should be watched in a txt file
+- optionally add negative tags to (some) lines
+- query the website's API for all 
