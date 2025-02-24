@@ -18,4 +18,6 @@ tags:
 Ideas: 
 - have list of tags that should be watched in a txt file
 - optionally add negative tags to (some) lines
-- query the website's API for all 
+- query the website's API for all images, add them (with metadata) to SQLite DB
+- get all not yet downloaded images from the DB, sort by date
+- forward single link to imgbrd-grabber, download + add to Szurubooru
