@@ -16,3 +16,5 @@ tags:
 ---
  
 markdown content :)
+
+`wakeonlan 38:22:E2:29:5F:C7`
