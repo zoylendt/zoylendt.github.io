@@ -69,7 +69,7 @@ Resources:
 - list of tags that should ALWAYS been ignored
 - multiple groups 
 
-# Tag search
+# R34 tag search
 
 [Cheat sheet](https://rule34.xxx/index.php?page=help&topic=cheatsheet)
 
@@ -84,4 +84,6 @@ Resources:
     - one tale per tag type? or only one table for all tags
     - `Copyright, Character, Artist, General, Meta`
 - table 'comments'
-    - ...
+    - one row per comment
+    - how to handle hidden comments?
+    - `post_id, comment_number, profile, comment_id, posted, score, html`
