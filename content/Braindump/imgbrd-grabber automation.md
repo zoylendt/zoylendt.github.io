@@ -37,7 +37,7 @@ Functions:
     - add to szurubooru
     - verify that it has been added successfully
     - update in DB
-- [ ] ...
+- [ ] (opt) remove a post (by hash) from szuru & DB 
 
 Resources:
 - Imgbrd-grabber
