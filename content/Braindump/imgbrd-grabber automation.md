@@ -46,6 +46,7 @@ Resources:
     - [Szurubooru-Integration](https://www.bionus.org/imgbrd-grabber/docs/commands/szurubooru.html)
     - [Linux installation guide](https://www.bionus.org/imgbrd-grabber/docs/install/linux.html)
     - [CLI](https://www.bionus.org/imgbrd-grabber/docs/cli.html)
+    - [Save metadata to SQLite](https://gist.github.com/reedHam/fbb1a65e8295cf902e0a0903b6f96982)
 - Szurubooru
     - [Setup guide](https://github.com/rr-/szurubooru/blob/master/doc/INSTALL.md)
     - [API guide](https://github.com/rr-/szurubooru/blob/master/doc/API.md)
@@ -73,4 +74,13 @@ Resources:
 [Cheat sheet](https://rule34.xxx/index.php?page=help&topic=cheatsheet)
 
 - `sort:score:desc`
-- 
+
+# DB structure
+
+- table 'images'
+    - ...
+- table 'tags'
+    - one tale per tag type? or only one table for all tags
+    - `Copyright, Character, Artist, General, Meta`
+- table 'comments'
+    - ...
