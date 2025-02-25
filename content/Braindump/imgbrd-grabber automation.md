@@ -28,9 +28,9 @@ Ideas:
 Functions:
 - [ ] load YAML file with tags that should be searched
 - [ ] scan: search R34-API for posts (based on YAML file), optionally abort if posts are returned that are already in DB
-    - save metadata to SQLite DB (tags, date, hash, ext, ...)
+    - save metadata to SQLite DB (tags, date, hash, ext, downloaded?, szuru?, ...)
     - ...
-- [ ] ...
+- [ ] get list of not yet downloaded posts, sort by date (download oldest first)
 
 Resources:
 - Imgbrd-grabber
