@@ -37,6 +37,7 @@ Resources:
     - [API guide](https://github.com/rr-/szurubooru/blob/master/doc/API.md)
     - [Python API wrapper](https://github.com/sgsunder/python-szurubooru)
 - Python tools for R34
+    - [...](https://github.com/mikf/gallery-dl/) -> also used for ExHex
     - [...](https://github.com/sinkaroid/booru)
     - [...](https://github.com/trickerer01/Ruxx)
     - [...](https://github.com/RaulS963/Rule34-Downloader/blob/master/py_code/rule34-downloader-hd.py) (5y old) -> best candidate
