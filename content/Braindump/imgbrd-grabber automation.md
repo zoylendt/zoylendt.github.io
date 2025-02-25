@@ -79,7 +79,7 @@ Resources:
 
 - table 'images'
     - `id, posted, uploader, size, source, rating, score`
-    - also: `hash, ext, filesize, comments, downloaded, scraped, booru`
+    - also: `hash, ext, filesize, comments, downloaded, scraped, booru, pools_ids, child_ids, parent_id`
 - table 'tags'
     - one tale per tag type? or only one table for all tags
     - `Copyright, Character, Artist, General, Meta`
@@ -87,3 +87,5 @@ Resources:
     - one row per comment
     - how to handle hidden comments?
     - `post_id, comment_number, profile, comment_id, posted, score, html`
+- table `pools`
+    - `name, id, creator, posts, public`
