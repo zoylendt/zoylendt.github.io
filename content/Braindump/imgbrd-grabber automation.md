@@ -50,6 +50,9 @@ Resources:
     - [Setup guide](https://github.com/rr-/szurubooru/blob/master/doc/INSTALL.md)
     - [API guide](https://github.com/rr-/szurubooru/blob/master/doc/API.md)
     - [Python API wrapper](https://github.com/sgsunder/python-szurubooru)
+- R34
+    - [API](https://api.rule34.xxx/)
+    - [Python-script to query API](https://github.com/Gabriel712/r34_downloader/blob/main/only_search.py) -> also saves to SQLite
 - Python tools for R34
     - [...](https://github.com/mikf/gallery-dl/) -> also used for ExHex
     - [...](https://github.com/sinkaroid/booru)
@@ -58,3 +61,9 @@ Resources:
     - [...](https://github.com/StellaSmith/lewd_downloader/blob/master/lewdd/rule34_xxx.py) (7y old)
     - [...](https://github.com/SolitarySpiral/python-image-dowloader/blob/main/post.py)
     - (Rust) [...](https://github.com/FerrahWolfeh/imageboard-downloader-rs)
+
+
+# Config-YAML
+
+- list of tags that should ALWAYS been ignored
+- 
