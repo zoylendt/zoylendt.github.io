@@ -67,3 +67,8 @@ Resources:
 
 - list of tags that should ALWAYS been ignored
 - multiple groups 
+
+# Tag search
+
+- `sort:score:desc`
+- 
