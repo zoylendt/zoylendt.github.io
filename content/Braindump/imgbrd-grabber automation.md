@@ -27,7 +27,9 @@ Ideas:
 
 Functions:
 - [ ] load YAML file with tags that should be searched
-- [ ] scan: search R34-API for posts (based on YAML )
+- [ ] scan: search R34-API for posts (based on YAML file) and add to DB, optionally abort if posts are returned that are already in DB
+    - 
+- [ ] ...
 
 Resources:
 - Imgbrd-grabber
