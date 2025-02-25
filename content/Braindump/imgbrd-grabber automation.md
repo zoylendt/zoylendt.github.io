@@ -78,7 +78,8 @@ Resources:
 # DB structure
 
 - table 'images'
-    - ...
+    - `id, posted, uploader, size, source, rating, score`
+    - also: `hash, ext, filesize, comments, downloaded, scraped, booru`
 - table 'tags'
     - one tale per tag type? or only one table for all tags
     - `Copyright, Character, Artist, General, Meta`
