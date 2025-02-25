@@ -31,6 +31,10 @@ Functions:
     - save metadata to SQLite DB (tags, date, hash, ext, downloaded?, szuru?, ...)
     - ...
 - [ ] get list of not yet downloaded posts, sort by date (download oldest first)
+- [ ] download
+    - download a post
+    - get current metadata
+- [ ] ...
 
 Resources:
 - Imgbrd-grabber
