@@ -31,9 +31,10 @@ Functions:
     - save metadata to SQLite DB (tags, date, hash, ext, downloaded?, szuru?, ...)
     - ...
 - [ ] get list of not yet downloaded posts, sort by date (download oldest first)
-- [ ] download
+- [ ] download (run the steps for each single post)
     - download a post
-    - get current metadata
+    - get current metadata (in case they changed since last scrape), update in DB
+    - add
 - [ ] ...
 
 Resources:
