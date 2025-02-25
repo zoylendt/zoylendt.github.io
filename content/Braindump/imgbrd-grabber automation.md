@@ -26,15 +26,17 @@ Ideas:
 -> all (except Szurubooru) in a docker container, linked to Szurubooru instance
 
 Functions:
-- [ ] load YAML file with tags that should be searched
+- [ ] load: load YAML file with tags that should be searched
 - [ ] scan: search R34-API for posts (based on YAML file), optionally abort if posts are returned that are already in DB
     - save metadata to SQLite DB (tags, date, hash, ext, downloaded?, szuru?, ...)
     - ...
 - [ ] get list of not yet downloaded posts, sort by date (download oldest first)
-- [ ] download (run the steps for each single post)
-    - download a post
-    - get current metadata (in case they changed since last scrape), update in DB
-    - add
+- [ ] download (run these steps for each single post)
+    - get current metadata (in case of changes since last scrape), update in DB
+    - download a post (handle if post is not available -> write to DB)
+    - add to szurubooru
+    - verify that it has been added successfully
+    - update in DB
 - [ ] ...
 
 Resources:
