@@ -70,5 +70,7 @@ Resources:
 
 # Tag search
 
+[Cheat sheet](https://rule34.xxx/index.php?page=help&topic=cheatsheet)
+
 - `sort:score:desc`
 - 
