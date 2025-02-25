@@ -25,6 +25,10 @@ Ideas:
 -> don't use imgbrd-grabber, download with python tools instead
 -> all (except Szurubooru) in a docker container, linked to Szurubooru instance
 
+Functions:
+- [ ] load YAML file with tags that should be searched
+- [ ] scan: search R34-API for posts (based on YAML )
+
 Resources:
 - Imgbrd-grabber
     - [GitHub](https://github.com/Bionus/imgbrd-grabber)
