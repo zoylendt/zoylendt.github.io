@@ -66,4 +66,4 @@ Resources:
 # Config-YAML
 
 - list of tags that should ALWAYS been ignored
-- 
+- multiple groups 
