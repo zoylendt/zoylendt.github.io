@@ -88,8 +88,8 @@ Resources:
     - `id, posted, uploader, size, source, rating, score`
     - also: `hash, ext, filesize, comments, downloaded, scraped, booru, pools_ids, child_ids, parent_id`
 - table 'tags'
-    - one tale per tag type? or only one table for all tags
-    - `Copyright, Character, Artist, General, Meta`
+    - one table per tag type? or only one table for all tags?
+    - `Copyright (3), Character (4), Artist (1), General (0), Meta`
 - table 'comments'
     - one row per comment
     - how to handle hidden comments?
