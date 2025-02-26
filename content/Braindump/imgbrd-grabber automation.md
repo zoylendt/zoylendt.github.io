@@ -57,6 +57,7 @@ Resources:
     - other API wrappers:
         - pyrule34 [GH](https://github.com/Hypick122/pyrule34), [pypi](https://pypi.org/project/pyrule34/)
         - rule34Py [GH](https://github.com/b3yc0d3/rule34Py), [pypi](https://pypi.org/project/rule34Py/)
+        - rule4-api [GH](https://github.com/cardisnotvalid/rule34-api)
 - Python tools/downloaders for R34
     - [...](https://github.com/mikf/gallery-dl/) -> also used for ExHex
     - [...](https://github.com/sinkaroid/booru)
@@ -66,6 +67,7 @@ Resources:
     - [...](https://github.com/SolitarySpiral/python-image-dowloader/blob/main/post.py)
     - (Rust) [...](https://github.com/FerrahWolfeh/imageboard-downloader-rs)
     - [...](https://github.com/SolitarySpiral/python-image-dowloader)
+    - [...](https://github.com/visiuun/PyR34-Downloader)
     - 
 
 
