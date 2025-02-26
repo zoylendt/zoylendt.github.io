@@ -86,7 +86,7 @@ Resources:
 
 - table 'images'
     - `id, posted, uploader, size, source, rating, score`
-    - also: `hash, ext, filesize, comments, downloaded, scraped, booru, pools_ids, child_ids, parent_id`
+    - also: `hash, ext, filesize, comments, downloaded, scraped, booru, pools_ids, child_ids, parent_id, removed`
 - table 'tags'
     - one table per tag type? or only one table for all tags?
     - `Copyright (3), Character (4), Artist (1), General (0), Meta`
