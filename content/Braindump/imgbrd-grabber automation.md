@@ -80,6 +80,7 @@ Resources:
 ```yaml
 positive tags:
   - abc
+    - include
   - def
 - 
 ```
