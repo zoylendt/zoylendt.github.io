@@ -97,3 +97,47 @@ Resources:
     - `post_id, comment_number, profile, comment_id, posted, score, html`
 - table `pools`
     - `name, id, creator, posts, public`
+
+# Python code
+
+## Get tag info
+
+```python
+import requests
+import xmltodict
+
+def get_tag_info(tag_name):
+    # based on https://github.com/Gabriel712/r34_downloader/blob/main/only_search.py
+    url= "https://api.rule34.xxx/index.php?page=dapi&s=tag&q=index"
+    params = {"name": tag_name}
+    try:
+        response = requests.get(url, params=params)
+        if response.status_code == 200:
+            data_dict = xmltodict.parse(response.text)
+            # assign type_name from number
+            if int(data_dict['tags']['tag']['@type']) == 0:
+                type_name = "General"
+            elif int(data_dict['tags']['tag']['@type']) == 1:
+                type_name = "Artist"
+            elif int(data_dict['tags']['tag']['@type']) == 2:
+                type_name = "Meta"
+            elif int(data_dict['tags']['tag']['@type']) == 3:
+                type_name = "Copyright"
+            elif int(data_dict['tags']['tag']['@type']) == 4:
+                type_name = "Character"
+            return_dict = {
+                "name": data_dict['tags']['tag']['@name'],
+                "type": int(data_dict['tags']['tag']['@type']),
+                "type_name": type_name,
+                "count": int(data_dict['tags']['tag']['@count']),
+                "ambiguous": bool(data_dict['tags']['tag']['@ambiguous']),
+                "id": int(data_dict['tags']['tag']['@id'])
+            }
+            return return_dict
+        else:
+            print("Failed to retrieve data. Status code:", response.status_code)
+            return {}
+    except Exception as e:
+        print("An error occurred:", e)
+        return {}
+```
