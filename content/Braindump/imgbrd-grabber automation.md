@@ -28,8 +28,8 @@ Ideas:
 Functions:
 - [ ] load: load YAML file with tags that should be searched
 - [ ] scan: search R34-API for posts (based on YAML file), optionally abort if posts are returned that are already in DB
-    - save metadata to SQLite DB (tags, date, hash, ext, downloaded?, szuru?, ...)
-    - ...
+    - save metadata to SQLite DB (tags, date, hash, ext, downloaded?, szuru?, ...) -> see below
+    - problem: API returns all tags not sorted by tag type -> maybe query tag-API for each tag?
 - [ ] sort: get list of not yet downloaded posts, sort by date (download oldest first)
 - [ ] download (run these steps for each single post)
     - get current metadata (in case of changes since last scrape), update in DB
@@ -54,7 +54,10 @@ Resources:
 - R34
     - [API](https://api.rule34.xxx/)
     - [Python-script to query API](https://github.com/Gabriel712/r34_downloader/blob/main/only_search.py) -> also saves to SQLite
-- Python tools for R34
+    - other API wrappers:
+        - pyrule34 [GH](https://github.com/Hypick122/pyrule34), [pypi](https://pypi.org/project/pyrule34/)
+        - rule34Py [GH](https://github.com/b3yc0d3/rule34Py), [pypi](https://pypi.org/project/rule34Py/)
+- Python tools/downloaders for R34
     - [...](https://github.com/mikf/gallery-dl/) -> also used for ExHex
     - [...](https://github.com/sinkaroid/booru)
     - [...](https://github.com/trickerer01/Ruxx)
@@ -62,6 +65,8 @@ Resources:
     - [...](https://github.com/StellaSmith/lewd_downloader/blob/master/lewdd/rule34_xxx.py) (7y old)
     - [...](https://github.com/SolitarySpiral/python-image-dowloader/blob/main/post.py)
     - (Rust) [...](https://github.com/FerrahWolfeh/imageboard-downloader-rs)
+    - [...](https://github.com/SolitarySpiral/python-image-dowloader)
+    - 
 
 
 # Config-YAML
