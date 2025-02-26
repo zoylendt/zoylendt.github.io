@@ -77,7 +77,14 @@ Resources:
 - list of tags that should ALWAYS been ignored
 - multiple groups 
 
-# R34 tag search
+```yaml
+positive tags:
+  - abc
+  - def
+- 
+```
+
+# R34 advanced tag search
 
 [Cheat sheet](https://rule34.xxx/index.php?page=help&topic=cheatsheet)
 
@@ -131,7 +138,7 @@ def get_tag_info(tag_name):
             return_dict = {
                 "name": data_dict['tags']['tag']['@name'],
                 "type": int(data_dict['tags']['tag']['@type']),
-                "type_name": type_name,
+                "type_title": type_name,
                 "count": int(data_dict['tags']['tag']['@count']),
                 "ambiguous": bool(data_dict['tags']['tag']['@ambiguous']),
                 "id": int(data_dict['tags']['tag']['@id'])
@@ -178,8 +185,8 @@ def search_and_format_posts(search_terms):
     all_posts.extend(recieved_posts)
     print(f'   {len(recieved_posts)} posts on page {params["pid"]} found, total: {len(all_posts)}')
     while len(recieved_posts) == params["limit"]:
-        if len(recieved_posts) < params["limit"]:
-            break # obsolete?
+        if len(recieved_posts) < params["limit"]: # obsolete?
+            break
         params["pid"] += 1
         i += 1
         time.sleep(1)
