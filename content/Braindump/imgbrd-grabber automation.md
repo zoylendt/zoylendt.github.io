@@ -88,8 +88,11 @@ Resources:
 - table 'images'
     - `id, posted, uploader, size, source, rating, score`
     - also: `hash, ext, filesize, comment_count, downloaded, scraped, booru, pools_ids, child_ids, parent_id, status (active/removed), has_notes`
+    - problems:
+        - only parent_id is returned via API, not child_ids
+        - pools are not listed via API
 - table 'tags'
-    - one table per tag type? or only one table for all tags?
+    - one table for all tags, with namespace (as number?) etc
     - `Copyright (3), Character (4), Artist (1), General (0), Meta`
 - table 'comments'
     - one row per comment
@@ -140,4 +143,48 @@ def get_tag_info(tag_name):
     except Exception as e:
         print("An error occurred:", e)
         return {}
+```
+
+## get all posts for a given search
+
+```python
+import requests
+import time
+
+def search_and_format_posts(search_terms):
+    params = {
+        "tags": search_terms,
+        "pid": 0,    # number of page to be checked
+        "limit": 1000, # how many posts should be returned
+        "json": 1    # return as json format
+    }
+    all_posts = []
+
+    def get_mult_pages(params):
+        url = "https://api.rule34.xxx/index.php?page=dapi&s=post&q=index"
+        try:
+            response = requests.get(url, params=params)
+            if response.status_code != 200:
+                print("Failed to retrieve data. Status code:", response.status_code)
+                # ToDo: break here since something went wrong, or retry first
+                return []
+            return response.json()
+        except Exception as e:
+            print("An error occurred:", e)
+            return []
+
+    recieved_posts = get_mult_pages(params)
+    i = 0
+    all_posts.extend(recieved_posts)
+    print(f'   {len(recieved_posts)} posts on page {params["pid"]} found, total: {len(all_posts)}')
+    while len(recieved_posts) == params["limit"]:
+        if len(recieved_posts) < params["limit"]:
+            break # obsolete?
+        params["pid"] += 1
+        i += 1
+        time.sleep(1)
+        recieved_posts = get_mult_pages(params)
+        all_posts.extend(recieved_posts)
+        print(f'   {len(recieved_posts)} posts on page {params["pid"]} found, total: {len(all_posts)}')
+    return all_posts
 ```
