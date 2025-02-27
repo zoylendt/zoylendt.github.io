@@ -51,6 +51,7 @@ Resources:
     - [Setup guide](https://github.com/rr-/szurubooru/blob/master/doc/INSTALL.md)
     - [API guide](https://github.com/rr-/szurubooru/blob/master/doc/API.md)
     - [Python API wrapper](https://github.com/sgsunder/python-szurubooru)
+    - [Python toolkit](https://github.com/reluce/szurubooru-toolkit)
 - R34
     - [API](https://api.rule34.xxx/)
     - [Python-script to query API](https://github.com/Gabriel712/r34_downloader/blob/main/only_search.py) -> also saves to SQLite
@@ -95,7 +96,7 @@ positive tags:
 
 - table 'images'
     - `id, posted, uploader, size, source, rating, score`
-    - also: `hash, ext, filesize, comment_count, downloaded, scraped, booru, pools_ids, child_ids, parent_id, status (active/removed), has_notes`
+    - also: `hash, ext, filesize, comment_count, downloaded, scraped, booru, pools_ids, child_ids, parent_id, status (active/removed), has_notes, szuru_id`
     - problems:
         - only parent_id is returned via API, not child_ids
         - pools are not listed via API
