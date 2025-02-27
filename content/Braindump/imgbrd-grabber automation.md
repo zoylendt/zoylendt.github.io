@@ -202,16 +202,28 @@ def search_and_format_posts(search_terms):
 (work in progress)
 
 ```yaml title='config.yaml'
-# simple list -> if this exists ONLY it is used and the rest of the YAML is ignored
+# general config of szurule34
+config:
+  flag1: abc
+  flag2: def
+
+# define scrape tasks below.
+# Important:
+#   - each task name has to be unique (or only the last instance is recognized)
+#   - follow intendation rules
+
+# simple list
+#   is not affected by the other rules below, like global ignore list
+#   can contain complex queries, see R34 cheatsheet
 simple list:
   job 1: tag21 -tag22
   job 2: tag23 -tag24
 
-# negative tags
+# ignored tags
+#   posts that contain one or more of these tags are always ignored, except:
+#     - tags are explicitly defined as 'included' for the task
+#     - 'simple list' is not affected
 global ignore list:
-  # posts with these tags will ALWAYS be ignored
-  # (unless specifically included later)
-  # (also has no effect on simple list)
   - tag1
   - tag2
 
@@ -267,8 +279,6 @@ main list:
   exclude: 
     - tag15
     - tag16
-
-# Warning: do not create multiple jobs with the same name (here: 'Job 1', 'Job 2', etc.) since only the last one will be recognized.
 
 ```
 
@@ -383,4 +393,8 @@ for job in extr['main list']:
             return job_string2
         
 """
+```
+
+```
+{'config': {'flag1': 'abc', 'flag2': 'def'}, 'simple list': {'job 1': 'tag21 -tag22', 'job 2': 'tag23 -tag24'}, 'global ignore list': ['tag1', 'tag2'], 'exclude presets': [{'list 1': None, 'type': None, 'tags': ['tag3', 'tag4']}, {'list 2': None, 'type': 'def', 'tags': ['tag5', 'tag6']}], 'include presets': [{'list 1': None, 'type': None, 'tags': ['tag17', 'tag18']}, {'list 2': None, 'type': ['def', 'ghi'], 'tags': ['tag19', 'tag20']}], 'main list': [{'title': 'job 3', 'type': 'abc', 'include lists': ['list 1', 'list 2'], 'exclude lists': 'list 1', 'include': ['tag8', 'tag9'], 'exclude': ['tag10', 'tag11']}, {'title': 'job 4', 'type': None, 'include lists': 'list 1', 'exclude lists': None, 'include': ['tag13', 'tag14'], 'exclude': ['tag15', 'tag16']}]}
 ```
