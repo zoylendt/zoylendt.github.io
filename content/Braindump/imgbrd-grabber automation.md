@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-24
 publishDate: 2025-02-24
-updated: 2025-02-26
+updated: 2025-02-27
 draft: true
 tags:
   - unfinished
@@ -195,4 +195,192 @@ def search_and_format_posts(search_terms):
         all_posts.extend(recieved_posts)
         print(f'   {len(recieved_posts)} posts on page {params["pid"]} found, total: {len(all_posts)}')
     return all_posts
+```
+
+## config.yaml
+
+(work in progress)
+
+```yaml title='config.yaml'
+# simple list -> if this exists ONLY it is used and the rest of the YAML is ignored
+simple list:
+  job 1: tag21 -tag22
+  job 2: tag23 -tag24
+
+# negative tags
+global ignore list:
+  # posts with these tags will ALWAYS be ignored
+  # (unless specifically included later)
+  # (also has no effect on simple list)
+  - tag1
+  - tag2
+
+# presets of tags that are often used
+exclude presets:
+  - list 1:
+    type:
+    tags:
+      - tag3
+      - tag4
+  - list 2:
+    type: def
+    tags:
+      - tag5
+      - tag6
+
+# postitive tags
+include presets:
+  - list 1:
+    type:
+    tags:
+      - tag17
+      - tag18
+  - list 2:
+    type: 
+      - def
+      - ghi
+    tags:
+      - tag19
+      - tag20
+
+# main tag list
+main list:
+- title: job 3
+  type: abc # category
+  include lists: 
+    - list 1
+    - list 2
+  exclude lists: list 1
+  include: 
+    - tag8 
+    - tag9
+  exclude: 
+    - tag10 
+    - tag11
+- title: job 4
+  type:  # category
+  include lists: list 1
+  exclude lists: 
+  include:
+    - tag13
+    - tag14
+  exclude: 
+    - tag15
+    - tag16
+
+# Warning: do not create multiple jobs with the same name (here: 'Job 1', 'Job 2', etc.) since only the last one will be recognized.
+
+```
+
+```python
+import yaml
+
+with open('config.yaml', 'r') as file:
+    extr = yaml.safe_load(file)
+
+print(extr)
+print('---')
+
+# create dictionary to hold all job strings
+job_dict = {}
+
+if 'simple list' in extr:
+    for job in extr['simple list']:
+        job_string = str(extr['simple list'][job])
+        job_dict[str(job)] = job_string
+
+print(job_dict)
+print('---')
+
+# check for globally excluded tags
+if 'global ignore list' in extr:
+    global_ignore_list = extr['global ignore list']
+    global_ignore_str = '-' + ' -'.join(str(x) for x in global_ignore_list)
+else:
+    global_ignore_list = []
+    global_ignore_str = ''
+
+print(global_ignore_list)
+
+# process each job
+for job in extr['main list']:
+    print(f'processing: {job['title']}')
+
+    # get type(s) of job
+    job_type = []
+    if 'type' in job:
+        if job['type'] != None:
+            job_type.append(job['type'])
+    print(f'   Type: {job_type}')
+
+    included = []
+    # check for included lists
+    if 'include lists' in job:
+        if job['include lists'] != None:
+            if isinstance(job['include lists'], list):
+                for x in job['include lists']:
+                    for elem in extr['include presets']:
+                        key_list = list(elem.keys())
+                        if x in key_list:
+                            included.extend(elem['tags'])
+                            break
+            else:
+                for elem in extr['include presets']:
+                    key_list = list(elem.keys())
+                    if job['include lists'] in key_list:
+                        included.extend(elem['tags'])
+                        break
+
+    # check for included tags
+    if 'include' in job:
+        if job['include'] != None:
+            if isinstance(job['include lists'], str):
+                included.extend([job['include']])
+            else:
+               included.extend(job['include'])
+
+    # check for additions through type
+    print('->')
+    if job_type != []:
+        if 'include presets' in extr:
+            if extr['include presets'] != None:
+                for x in extr['include presets']:
+                    print(x)
+
+    print(included)
+"""
+        # order: main tag, included, excluded
+        main_tag = job['main tag']
+        # included
+        if 'include' in job:
+            if job['include'] != None:
+
+        # included presets (from job)
+        ...
+        # included presets (from preset)
+        ...
+        included = set()
+        for x in main_tag:
+            included.add(x)
+        print(included)
+        # excluded
+        ...
+        # excluded presets (from job)
+        ...
+        # excluded presets (from preset)
+        ...
+        # excluded globally
+        ...
+        excluded = 
+        # combine to job_string
+        job_string = str(main_tag) + ' '.join(str(x) for x in included)
+        # calculate excluded without tags from included
+        excluded2 = [x for x in excluded if x not in included]
+        if len(excluded2) == 0:
+            return job_string
+        else:
+            job_string2 = job_string + ' -' + ' -'.join(str(x) for x in excluded2)
+            return job_string2
+        
+"""
 ```
