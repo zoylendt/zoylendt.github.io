@@ -1,5 +1,5 @@
 ---
-title: 
+title: "Coding project: SzuRule34"
 subtitle: 
 description: 
 permalink: 
