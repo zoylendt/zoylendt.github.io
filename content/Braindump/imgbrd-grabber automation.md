@@ -283,6 +283,13 @@ tasks:
     - tag16
   include lists: list 1
   exclude lists: 
+- title: job 5
+  type:  test
+  complex:
+  include:
+  exclude: 
+  include lists:
+  exclude lists: 
 ```
 
 ```python
@@ -412,9 +419,11 @@ print(job_dict)
 ```
 
 ```
-{'job 1': 'tag21 -tag22', 
+{
+'job 1': 'tag21 -tag22', 
 'job 2': 'tag23 -tag24', 
 'job 3': '( a ~ b ) ( c ~ d ) tag18 tag9 tag20 tag19 tag8 tag17 -tag3 -tag11 -tag1 -tag10 -tag4 -tag2', 
 'job 4': 'tag14 tag18 tag13 tag17 -tag15 -tag16 -tag2 -tag1', 
-'job 5': 'tag18 tag17 -tag3 -tag2 -tag4 -tag1'}
+'job 5': 'tag18 tag17 -tag3 -tag2 -tag4 -tag1'
+}
 ```
