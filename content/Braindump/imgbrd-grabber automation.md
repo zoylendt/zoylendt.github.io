@@ -515,7 +515,7 @@ tasks:
 ```python
 import yaml
 
-with open('config.yaml', 'r') as file:
+with open('config1.yaml', 'r') as file:
     extr = yaml.safe_load(file)
 
 def get_list(input):
@@ -527,14 +527,11 @@ def get_list(input):
     else:
         return []
 
-print(extr)
-print('---')
 # create dictionary to hold all task queries
 task_dict = {}
 
 # check simple tasks, add them to task_dict
 if 'simple tasks' in extr:
-    print(extr['simple tasks'])
     for job in get_list(extr['simple tasks']):
         task_dict.update(job)
 
@@ -545,72 +542,74 @@ else:
     global_ignore_list = []
 
 # process each job
-for job in extr['tasks']:
-    print(f'processing: {job['title']}')
+if 'tasks' in extr:
+    for job in extr['tasks']:
+        print(f'processing: {job['title']}')
 
-    # get complex tag string (as list with a single element)
-    complex_str = []
-    if 'complex' in job:
-        complex_str = get_list(job['complex'])
+        # get complex tag string (as list with a single element)
+        complex_str = []
+        if 'complex' in job:
+            complex_str = get_list(job['complex'])
 
-    included = []
-    excluded = global_ignore_list
+        included = []
+        excluded = global_ignore_list
 
-    # include/exclude tags from task
-    if 'include' in job:
-        included.extend(get_list(job['include']))
-    if 'exclude' in job:
-        excluded.extend(get_list(job['exclude']))
+        # include/exclude tags from task
+        if 'include' in job:
+            included.extend(get_list(job['include']))
+        if 'exclude' in job:
+            excluded.extend(get_list(job['exclude']))
 
-    # include/exclude tags from presets referenced in task
-    def get_preset_tags(input):
-        if 'presets' in extr:
-            for x in extr['presets']:
-                if input == x['title']:
-                    return get_list(x['tags'])
+        # include/exclude tags from presets referenced in task
+        def get_preset_tags(input):
+            if 'presets' in extr:
+                for x in extr['presets']:
+                    if input == x['title']:
+                        return get_list(x['tags'])
+            else:
+                return []
+
+        if 'include presets' in job:
+            for x in get_list(job['include presets']):
+                included.extend(get_preset_tags(x))
+        if 'exclude presets' in job:
+            for x in get_list(job['exclude presets']):
+                excluded.extend(get_preset_tags(x))
+
+        print(f'   >>>complex: {complex_str}')
+        print(f'   >>>included: {included}')
+        print(f'   >>>excluded: {excluded}')
+
+        # build query
+        if complex_str == []:
+            query_str_1 = ''
         else:
-            return []
+            query_str_1 = ' '.join(str(x) for x in complex_str) + ' '
+        
+        if included == []:
+            include_nodup = []
+            query_str_2 = ''
+        else:
+            include_nodup = list(set(included))
+            query_str_2 = ' '.join(str(x) for x in include_nodup) + ' '
 
-    if 'include presets' in job:
-        for x in get_list(job['include presets']):
-            included.extend(get_preset_tags(x))
-    if 'exclude presets' in job:
-        for x in get_list(job['exclude presets']):
-            excluded.extend(get_preset_tags(x))
+        if excluded == []:
+            exclude_nodup = []
+            query_str_3 = ''
+        else:
+            exclude_nodup = list(set(excluded))
+            query_str_3 = '-' + ' -'.join(str(x) for x in exclude_nodup if x not in include_nodup)
 
-    print(f'   >>>complex: {complex_str}')
-    print(f'   >>>included: {included}')
-    print(f'   >>>excluded: {excluded}')
+        query_str = query_str_1 + query_str_2 + query_str_3
+        print(f'   >>>query: {query_str}')
 
-    # build query
-    if complex_str == []:
-        query_str_1 = ''
-    else:
-        query_str_1 = ' '.join(str(x) for x in complex_str) + ' '
-    
-    if included == []:
-        include_nodup = []
-        query_str_2 = ''
-    else:
-        include_nodup = list(set(included))
-        query_str_2 = ' '.join(str(x) for x in include_nodup) + ' '
-
-    if excluded == []:
-        exclude_nodup = []
-        query_str_3 = ''
-    else:
-        exclude_nodup = list(set(excluded))
-        query_str_3 = '-' + ' -'.join(str(x) for x in exclude_nodup if x not in include_nodup)
-
-    query_str = query_str_1 + query_str_2 + query_str_3
-    print(f'   >>>query: {query_str}')
-
-    # add to jobdict
-    if query_str.isspace() == False:
-        if query_str != '':
-            task_dict[str(job['title'])] = query_str
+        # add to jobdict
+        if query_str.isspace() == False:
+            if query_str != '':
+                task_dict[str(job['title'])] = query_str
 
 print(task_dict)
+
 ```
 
 ```
