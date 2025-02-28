@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-24
 publishDate: 2025-02-24
-updated: 2025-02-27
+updated: 2025-02-28
 draft: true
 tags:
   - unfinished
@@ -205,12 +205,12 @@ def search_and_format_posts(search_terms):
 ```yaml title='config.yaml'
 # general config of szurule34
 config:
-  flag1: abc
+  save to: abc
   flag2: def
 
 # define scrape tasks below.
 # Important:
-#   - each task name has to be unique (or only the last instance is recognized)
+#   - each task name ('title') has to be unique (or only the last instance is recognized)
 #   - follow intendation rules
 
 # simple list
@@ -230,57 +230,59 @@ global ignore list:
 
 # presets of tags that are often used
 exclude presets:
-  - list 1:
-    type:
+  - title: list 1
+    type: test
     tags:
       - tag3
       - tag4
-  - list 2:
+  - title: list 2
     type: def
     tags:
       - tag5
       - tag6
 
-# postitive tags
 include presets:
-  - list 1:
-    type:
+  - title: list 1
+    type: test
     tags:
       - tag17
       - tag18
-  - list 2:
+  - title: list 2
     type: 
-      - def
+      - abc
       - ghi
     tags:
       - tag19
       - tag20
 
-# main tag list
-main list:
+# main task list
+tasks:
 - title: job 3
-  type: abc # category
-  include lists: 
-    - list 1
-    - list 2
-  exclude lists: list 1
+  type: abc
+  complex: 
+    - ( a ~ b )
+    - ( c ~ d )
   include: 
     - tag8 
     - tag9
   exclude: 
     - tag10 
     - tag11
+  include lists: 
+    - list 1
+    - list 2
+  exclude lists: list 1
 - title: job 4
-  type:  # category
-  include lists: list 1
-  exclude lists: 
+  type: 
+  complex:
   include:
     - tag13
     - tag14
   exclude: 
     - tag15
     - tag16
-
+  include lists: list 1
+  exclude lists: 
 ```
 
 ```python
@@ -289,8 +291,14 @@ import yaml
 with open('config.yaml', 'r') as file:
     extr = yaml.safe_load(file)
 
-print(extr)
-print('---')
+def get_list(input):
+    if input != None:
+        if isinstance(input, list):
+            return input
+        elif isinstance(input, str):
+            return [input]
+    else:
+        return []
 
 # create dictionary to hold all job strings
 job_dict = {}
@@ -300,102 +308,113 @@ if 'simple list' in extr:
         job_string = str(extr['simple list'][job])
         job_dict[str(job)] = job_string
 
-print(job_dict)
-print('---')
-
 # check for globally excluded tags
 if 'global ignore list' in extr:
-    global_ignore_list = extr['global ignore list']
-    global_ignore_str = '-' + ' -'.join(str(x) for x in global_ignore_list)
+    global_ignore_list = get_list(extr['global ignore list'])
 else:
     global_ignore_list = []
-    global_ignore_str = ''
-
-print(global_ignore_list)
 
 # process each job
-for job in extr['main list']:
+for job in extr['tasks']:
     print(f'processing: {job['title']}')
+
+    # get complex tag string (as list with a single element)
+    complex_str = []
+    if 'complex' in job:
+        complex_str = get_list(job['complex'])
 
     # get type(s) of job
     job_type = []
     if 'type' in job:
-        if job['type'] != None:
-            job_type.append(job['type'])
-    print(f'   Type: {job_type}')
+        job_type = get_list(job['type'])
 
     included = []
-    # check for included lists
-    if 'include lists' in job:
-        if job['include lists'] != None:
-            if isinstance(job['include lists'], list):
-                for x in job['include lists']:
-                    for elem in extr['include presets']:
-                        key_list = list(elem.keys())
-                        if x in key_list:
-                            included.extend(elem['tags'])
-                            break
-            else:
-                for elem in extr['include presets']:
-                    key_list = list(elem.keys())
-                    if job['include lists'] in key_list:
-                        included.extend(elem['tags'])
-                        break
-
-    # check for included tags
+    # include tags from task
     if 'include' in job:
-        if job['include'] != None:
-            if isinstance(job['include lists'], str):
-                included.extend([job['include']])
-            else:
-               included.extend(job['include'])
+        included.extend(get_list(job['include']))
 
-    # check for additions through type
-    print('->')
+    # include tags from list specified in task
+    if 'include lists' in job:
+        included_lists = get_list(job['include lists'])
+        if 'include presets' in extr:
+            for x in included_lists:
+                for y in extr['include presets']:
+                    if y['title'] == x:
+                        included.extend(y['tags'])
+
+    # include tags added through task type
     if job_type != []:
         if 'include presets' in extr:
-            if extr['include presets'] != None:
-                for x in extr['include presets']:
-                    print(x)
+            for y in job_type:
+                for x in get_list(extr['include presets']):
+                    if x['type'] == y:
+                        included.extend(x['tags'])
 
-    print(included)
-"""
-        # order: main tag, included, excluded
-        main_tag = job['main tag']
-        # included
-        if 'include' in job:
-            if job['include'] != None:
+    excluded = []
+    # exclude tags from task
+    if 'exclude' in job:
+        excluded.extend(get_list(job['exclude']))
 
-        # included presets (from job)
-        ...
-        # included presets (from preset)
-        ...
-        included = set()
-        for x in main_tag:
-            included.add(x)
-        print(included)
-        # excluded
-        ...
-        # excluded presets (from job)
-        ...
-        # excluded presets (from preset)
-        ...
-        # excluded globally
-        ...
-        excluded = 
-        # combine to job_string
-        job_string = str(main_tag) + ' '.join(str(x) for x in included)
-        # calculate excluded without tags from included
-        excluded2 = [x for x in excluded if x not in included]
-        if len(excluded2) == 0:
-            return job_string
-        else:
-            job_string2 = job_string + ' -' + ' -'.join(str(x) for x in excluded2)
-            return job_string2
-        
-"""
+    # exclude tags from list specified in task
+    if 'exclude lists' in job:
+        excluded_lists = get_list(job['exclude lists'])
+        if 'exclude presets' in extr:
+            for x in excluded_lists:
+                for y in extr['exclude presets']:
+                    if y['title'] == x:
+                        excluded.extend(y['tags'])
+
+    # exclude tags added through task type
+    if job_type != []:
+        if 'exclude presets' in extr:
+            for y in job_type:
+                for x in get_list(extr['exclude presets']):
+                    if x['type'] == y:
+                        excluded.extend(x['tags'])
+
+    print(f'   >>>type: {job_type}')
+    print(f'   >>>complex: {complex_str}')
+    print(f'   >>>included: {included}')
+    print(f'   >>>excluded: {excluded}')
+    print(f'   >>>global_ignore_list: {global_ignore_list}')
+
+    # build query
+    if complex_str == []:
+        query_str_1 = ''
+    else:
+        query_str_1 = ' '.join(str(x) for x in complex_str) + ' '
+    if included == []:
+        include_nodup = []
+    else:
+        include_nodup = list(set(included))
+    if excluded == []:
+        exclude_nodup = list(set(global_ignore_list))
+    else:
+        excluded.extend(global_ignore_list)
+        exclude_nodup = list(set(excluded))
+    if include_nodup == []:
+        query_str_2 = ''
+    else:
+        query_str_2 = ' '.join(str(x) for x in include_nodup) + ' '
+    if exclude_nodup == []:
+        query_str_3 = ''
+    else:
+        query_str_3 = '-' + ' -'.join(str(x) for x in exclude_nodup if x not in include_nodup)
+    query_str = query_str_1 + query_str_2 + query_str_3
+    print(f'   >>>query: {query_str}')
+
+    # add to jobdict
+    if query_str.isspace() == False:
+        if query_str != '':
+            job_dict[str(job['title'])] = query_str
+
+print(job_dict)
 ```
 
 ```
-{'config': {'flag1': 'abc', 'flag2': 'def'}, 'simple list': {'job 1': 'tag21 -tag22', 'job 2': 'tag23 -tag24'}, 'global ignore list': ['tag1', 'tag2'], 'exclude presets': [{'list 1': None, 'type': None, 'tags': ['tag3', 'tag4']}, {'list 2': None, 'type': 'def', 'tags': ['tag5', 'tag6']}], 'include presets': [{'list 1': None, 'type': None, 'tags': ['tag17', 'tag18']}, {'list 2': None, 'type': ['def', 'ghi'], 'tags': ['tag19', 'tag20']}], 'main list': [{'title': 'job 3', 'type': 'abc', 'include lists': ['list 1', 'list 2'], 'exclude lists': 'list 1', 'include': ['tag8', 'tag9'], 'exclude': ['tag10', 'tag11']}, {'title': 'job 4', 'type': None, 'include lists': 'list 1', 'exclude lists': None, 'include': ['tag13', 'tag14'], 'exclude': ['tag15', 'tag16']}]}
+{'job 1': 'tag21 -tag22', 
+'job 2': 'tag23 -tag24', 
+'job 3': '( a ~ b ) ( c ~ d ) tag18 tag9 tag20 tag19 tag8 tag17 -tag3 -tag11 -tag1 -tag10 -tag4 -tag2', 
+'job 4': 'tag14 tag18 tag13 tag17 -tag15 -tag16 -tag2 -tag1', 
+'job 5': 'tag18 tag17 -tag3 -tag2 -tag4 -tag1'}
 ```
