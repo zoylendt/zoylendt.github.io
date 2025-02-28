@@ -122,7 +122,9 @@ positive tags:
     - [ ] get ID's of all posts in DB
     - [ ] run query, process for each post:
         - [ ] check if post is already in DB
-        - [ ] compare posts
+            - [ ] if yes:
+                - [ ] compare posts, update if needed (handle tags)
+                - [ ] 
 
 ```python
 
