@@ -112,6 +112,22 @@ positive tags:
 
 # Python code
 
+## main.py
+
+(pseudocode)
+
+- [x] build all search queries
+- [ ] create empty DB if not present
+- [ ] for each query:
+    - [ ] get ID's of all posts in DB
+    - [ ] run query, process for each post:
+        - [ ] check if post is already in DB
+        - [ ] compare posts
+
+```python
+
+```
+
 ## Get tag info
 
 ```python
@@ -311,7 +327,7 @@ def get_list(input):
 job_dict = {}
 
 if 'simple list' in extr:
-    for job in extr['simple list']:
+    for job in get_list(extr['simple list']):
         job_string = str(extr['simple list'][job])
         job_dict[str(job)] = job_string
 
