@@ -218,7 +218,7 @@ def search_and_format_posts(search_terms):
 
 ## config.yaml
 
-(work in progress)
+### complicated setup
 
 ```yaml title='config.yaml'
 # general config of szurule34
@@ -443,5 +443,181 @@ print(job_dict)
 'job 3': '( a ~ b ) ( c ~ d ) tag18 tag9 tag20 tag19 tag8 tag17 -tag3 -tag11 -tag1 -tag10 -tag4 -tag2', 
 'job 4': 'tag14 tag18 tag13 tag17 -tag15 -tag16 -tag2 -tag1', 
 'job 5': 'tag18 tag17 -tag3 -tag2 -tag4 -tag1'
+}
+```
+
+### simple setup
+
+```yaml title='config.yaml'
+# general config of szurule34
+config:
+  save to: abc
+  flag2: def
+
+# define scrape tasks below.
+# Important:
+#   - each task name ('title') has to be unique (or only the last instance is recognized)
+#   - follow intendation rules
+
+# simple list
+#   is not affected by the other rules below, like global ignore list
+#   can contain complex queries, see R34 cheatsheet
+simple tasks:
+  - job 1: tag21 -tag22
+  - job 2: tag23 -tag24
+
+# ignored tags
+#   posts that contain one or more of these tags are always ignored, except:
+#     - tags are explicitly defined as 'included' for the task
+#     - 'simple list' is not affected
+global ignore list:
+  - tag1
+  - tag2
+
+# presets of tags that are often used
+presets:
+  - title: set 1
+    tags:
+      - tag3
+      - tag4
+  - title: set 2
+    tags:
+      - tag5
+      - tag6
+
+# main task list
+tasks:
+- title: job 3
+  complex: 
+    - ( a ~ b )
+    - ( c ~ d )
+  include presets: set 1
+  exclude presets: set 2
+  include: 
+    - tag8 
+    - tag9
+  exclude: 
+    - tag10 
+    - tag11
+- title: job 4
+  complex:
+  include presets: set 2
+  exclude presets: set 1
+  include:
+    - tag13
+    - tag14
+  exclude: 
+    - tag15
+    - tag16
+
+```
+
+```python
+import yaml
+
+with open('config.yaml', 'r') as file:
+    extr = yaml.safe_load(file)
+
+def get_list(input):
+    if input != None:
+        if isinstance(input, list):
+            return input
+        elif isinstance(input, str):
+            return [input]
+    else:
+        return []
+
+print(extr)
+print('---')
+# create dictionary to hold all task queries
+task_dict = {}
+
+# check simple tasks, add them to task_dict
+if 'simple tasks' in extr:
+    print(extr['simple tasks'])
+    for job in get_list(extr['simple tasks']):
+        task_dict.update(job)
+
+# check for globally excluded tags
+if 'global ignore list' in extr:
+    global_ignore_list = get_list(extr['global ignore list'])
+else:
+    global_ignore_list = []
+
+# process each job
+for job in extr['tasks']:
+    print(f'processing: {job['title']}')
+
+    # get complex tag string (as list with a single element)
+    complex_str = []
+    if 'complex' in job:
+        complex_str = get_list(job['complex'])
+
+    included = []
+    excluded = global_ignore_list
+
+    # include/exclude tags from task
+    if 'include' in job:
+        included.extend(get_list(job['include']))
+    if 'exclude' in job:
+        excluded.extend(get_list(job['exclude']))
+
+    # include/exclude tags from presets referenced in task
+    def get_preset_tags(input):
+        if 'presets' in extr:
+            for x in extr['presets']:
+                if input == x['title']:
+                    return get_list(x['tags'])
+        else:
+            return []
+
+    if 'include presets' in job:
+        for x in get_list(job['include presets']):
+            included.extend(get_preset_tags(x))
+    if 'exclude presets' in job:
+        for x in get_list(job['exclude presets']):
+            excluded.extend(get_preset_tags(x))
+
+    print(f'   >>>complex: {complex_str}')
+    print(f'   >>>included: {included}')
+    print(f'   >>>excluded: {excluded}')
+
+    # build query
+    if complex_str == []:
+        query_str_1 = ''
+    else:
+        query_str_1 = ' '.join(str(x) for x in complex_str) + ' '
+    
+    if included == []:
+        include_nodup = []
+        query_str_2 = ''
+    else:
+        include_nodup = list(set(included))
+        query_str_2 = ' '.join(str(x) for x in include_nodup) + ' '
+
+    if excluded == []:
+        exclude_nodup = []
+        query_str_3 = ''
+    else:
+        exclude_nodup = list(set(excluded))
+        query_str_3 = '-' + ' -'.join(str(x) for x in exclude_nodup if x not in include_nodup)
+
+    query_str = query_str_1 + query_str_2 + query_str_3
+    print(f'   >>>query: {query_str}')
+
+    # add to jobdict
+    if query_str.isspace() == False:
+        if query_str != '':
+            task_dict[str(job['title'])] = query_str
+
+print(task_dict)
+```
+
+```
+{
+'job 1': 'tag21 -tag22', 
+'job 2': 'tag23 -tag24', 
+'job 3': '( a ~ b ) ( c ~ d ) tag9 tag3 tag4 tag8 -tag6 -tag2 -tag1 -tag11 -tag10 -tag5', 
+'job 4': 'tag6 tag14 tag13 tag5 -tag4 -tag16 -tag3 -tag15 -tag2 -tag1 -tag11 -tag10'
 }
 ```
