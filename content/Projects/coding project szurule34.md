@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-24
 publishDate: 2025-02-24
-updated: 2025-02-28
+updated: 2025-03-01
 draft: true
 tags:
   - unfinished
@@ -58,7 +58,7 @@ Resources:
     - other API wrappers:
         - pyrule34 [GH](https://github.com/Hypick122/pyrule34), [pypi](https://pypi.org/project/pyrule34/)
         - rule34Py [GH](https://github.com/b3yc0d3/rule34Py), [pypi](https://pypi.org/project/rule34Py/)
-        - rule4-api [GH](https://github.com/cardisnotvalid/rule34-api)
+        - rule34-api [GH](https://github.com/cardisnotvalid/rule34-api)
         - r34-json-api [GH](https://github.com/KuroZen/r34-json-api) (7y old)
 - Python tools/downloaders for R34
     - [...](https://github.com/mikf/gallery-dl/) -> also used for ExHex
