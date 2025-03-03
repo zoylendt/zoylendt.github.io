@@ -43,4 +43,7 @@ Note: I think this needs to be run after the package has been updeted too -> may
 
 [YT-Guide](https://www.youtube.com/watch?v=0o2EhK-QvmY&t=500s)
 
-    Req
+Requirements:
+- enabled MagicDNS
+- enabled HTTPS-certs (set custom tailnet name before that, if you want to)
+
