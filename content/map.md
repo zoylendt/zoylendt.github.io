@@ -246,7 +246,7 @@ WHERE draft = true
 | [[homebrewing resources\|Homebrewing related resources]]                                                 | Life      | 2024-06-05 |
 | [[bookmark manager comparison\|Bookmark manager comparison]]                                          | Writing   | 2024-06-05 |
 | [[file indexer evaluation\|Comparison of dockerized file indexers]]                                   | Writing   | 2024-06-05 |
-| [[docker on Synology\|Running Docker on Synology]]                                                    | Writing   | 2024-05-25 |
+| [[docker on synology nas\|Running Docker on Synology]]                                                    | Writing   | 2024-05-25 |
 | [[bananenmet\|Bananenmet]]                                                                               | Life      | 2024-05-23 |
 | [[browser plugins\|Browser plugins]]                                                                | Braindump | 2024-05-22 |
 | [[docker setup for machine learning\|Docker setup for ML]]                                            | Writing   | 2024-05-22 |
