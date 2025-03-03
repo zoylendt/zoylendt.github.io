@@ -39,4 +39,8 @@ Follow [this steps](https://tailscale.com/kb/1131/synology#enable-outbound-conne
 
 Note: I think this needs to be run after the package has been updeted too -> maybe add to update-script in previous chapter too?
 
-# Enable TLS-
+# Enable TLS-certificates
+
+[YT-Guide](https://www.youtube.com/watch?v=0o2EhK-QvmY&t=500s)
+
+    Req
