@@ -21,7 +21,8 @@ It mainly follows the [official guide](https://tailscale.com/kb/1131/synology).
 
 Tailscale is available as an official app, no community repo is needed. If it doesn't open a login page after started, it has to be started from the command line: `tailscale up`.
 
-The package is updated very ralely, so
+The package is updated very ralely, so it's adviceable to auto-update with `tailscale update --yes` (steps copied from [here](https://tailscale.com/kb/1131/synology#schedule-automatic-updates)):
+
 1. In Synology, go to **Control Panel** > **Task Scheduler**, select **Create**, and select **Scheduled Task**.
 2. Select **User-defined script**.
 3. In the **General Settings** tab, enter a task name and select the **User:** as `root`.
@@ -31,3 +32,11 @@ The package is updated very ralely, so
     tailscale update --yes
     ```
 6. Select **OK** to save the settings.
+
+# Enable outbound connections
+
+Follow [this steps](https://tailscale.com/kb/1131/synology#enable-outbound-connections) to enable outgoing connections on the latest DSM version (required for backups).
+
+Note: I think this needs to be run after the package has been updeted too -> maybe add to update-script in previous chapter too?
+
+# Enable TLS-
