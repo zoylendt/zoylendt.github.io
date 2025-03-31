@@ -43,7 +43,11 @@ Options:
     - [ds918+ kleinanzeigen 220€](https://www.kleinanzeigen.de/s-anzeige/verkaufe-eine-synology-diskstation-ds-918-/3002400199-225-8453)
 
 
-| Manufacturer | Model             | HDD Slots | Release | Price  | Links                                                      |     |
-| ------------ | ----------------- | --------- | ------- | ------ | ---------------------------------------------------------- | --- |
-| Synology     | RS822RP+​/​RS822+ |           |         | ~1050€ | [Homepage](https://www.synology.com/de-de/products/RS822+) |     |
-|              |                   |           |         |        |                                                            |     |
+| Manufacturer | Model     | HDD Slots | Release | Price | Links                                                         |     |
+| ------------ | --------- | --------- | ------- | ----- | ------------------------------------------------------------- | --- |
+| Synology     | RS1619xs+ | 4         | ~2019   |       | [Homepage](https://www.synology.com/de-de/products/RS1619xs+) |     |
+| Synology     | RS822RP+  | 4         |         |       | [Homepage](https://www.synology.com/de-de/products/RS822RP+)  |     |
+| Synology     | RS822+    | 4         |         |       | [Homepage](https://www.synology.com/de-de/products/RS822+)    |     |
+| Synology     | RS422+    | 4         |         |       | [Homepage](https://www.synology.com/de-de/products/RS422+)    |     |
+| Synology     | RS1221RP+ | 8         | ~2021   |       | [Homepage](https://www.synology.com/de-de/products/RS1221RP+) |     |
+| Synology     | RS1221+   | 8         | ~2021   |       | [Homepage](https://www.synology.com/de-de/products/RS1221+)   |     |
