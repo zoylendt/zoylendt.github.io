@@ -29,12 +29,13 @@ Options:
     - [QNAP TR-004U]()
         - [ebay 1](https://www.ebay.de/itm/226126203298), [ebay 2](https://www.ebay.de/itm/395598964844)
 - DIY 8+ bay rack-mounted NAS (new enclosure for unraid system)
-    - My NEW Storage Server
+    - 'My NEW Storage Server' by Christian Lempa
         - [YT](https://www.youtube.com/watch?v=HriJkdgNlKs)
         - [Hardware](https://kit.co/christianlempa/my-new-storage-server)
             - [Silverstone RM21-308](https://www.amazon.de/SilverStone-Technology-28018-Sst-RM21-308/dp/B07PQGKBJQ/)
                 - [Homepage](https://www.silverstonetek.com/de/product/info/server-nas/RM21-308/)
             - [PSU](https://www.amazon.de/dp/B0995V4V6S)
+    - [FANTEC SRC-2080X07-12G/6G-BCE](https://www.amazon.de/gp/product/B0CVBLJKZL/)
 - ds918+ replacement
     - [Terramaster F4-424](https://www.amazon.de/TERRAMASTER-F4-424-NAS-Storage-4Bay/dp/B0CT5CZ8WW/)
     - [QNAP TS-932PX-4G](https://www.cyberport.de/?DEEP=3F43-1TU)
