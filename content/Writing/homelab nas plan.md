@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-03-31
 publishDate: 2025-03-31
-updated: 2025-03-31
+updated: 2025-04-01
 draft: true
 tags:
   - unfinished
@@ -41,3 +41,8 @@ Options:
     - [QNAP TS-932PX-4G](https://www.cyberport.de/?DEEP=3F43-1TU)
     - [ds918+ kleinanzeigen 380€](https://www.kleinanzeigen.de/s-anzeige/synology-ds-918-/3025456276-225-8111)
     - [ds918+ kleinanzeigen 220€](https://www.kleinanzeigen.de/s-anzeige/verkaufe-eine-synology-diskstation-ds-918-/3002400199-225-8453)
+
+
+| Manufacturer | Model             | HDD Slots | Release | Price  | Links                                                      |     |
+| ------------ | ----------------- | --------- | ------- | ------ | ---------------------------------------------------------- | --- |
+| Synology     | RS822RP+​/​RS822+ |           |         | ~1050€ | [Homepage](https://www.synology.com/de-de/products/RS822+) |     |
