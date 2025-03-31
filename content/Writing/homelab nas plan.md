@@ -43,13 +43,13 @@ Options:
     - [ds918+ kleinanzeigen 220€](https://www.kleinanzeigen.de/s-anzeige/verkaufe-eine-synology-diskstation-ds-918-/3002400199-225-8453)
 
 
-| Manufacturer | Model     | HDD Slots | Release | Price  | Links                                                         | Note          |
-| ------------ | --------- | --------- | ------- | ------ | ------------------------------------------------------------- | ------------- |
-| Synology     | RS1619xs+ | 4         | ~2019   |        | [Homepage](https://www.synology.com/de-de/products/RS1619xs+) |               |
-| Synology     | RS822RP+  | 4         | ~2022   |        | [Homepage](https://www.synology.com/de-de/products/RS822RP+)  | redundant PSU |
-| Synology     | RS822+    | 4         | ~2022   |        | [Homepage](https://www.synology.com/de-de/products/RS822+)    |               |
-| Synology     | RS422+    | 4         | ~2022   |        | [Homepage](https://www.synology.com/de-de/products/RS422+)    |               |
-| Synology     | RS1221RP+ | 8         | ~2021   |        | [Homepage](https://www.synology.com/de-de/products/RS1221RP+) |               |
-| Synology     | RS1221+   | 8         | ~2021   |        | [Homepage](https://www.synology.com/de-de/products/RS1221+)   |               |
-| QNAP         | TS-h765eU | 4         |         | ~1050€ |                                                               |               |
-|              | TS-464eU  | 4         |         | ~950€  |                                                               |               |
+| Manufacturer | Model     | HDD Slots | Release | Price  | Links                                                                                              | Note          |
+| ------------ | --------- | --------- | ------- | ------ | -------------------------------------------------------------------------------------------------- | ------------- |
+| Synology     | RS1619xs+ | 4         | ~2019   |        | [Homepage](https://www.synology.com/de-de/products/RS1619xs+)                                      |               |
+| Synology     | RS822RP+  | 4         | ~2022   |        | [Homepage](https://www.synology.com/de-de/products/RS822RP+)                                       | redundant PSU |
+| Synology     | RS822+    | 4         | ~2022   |        | [Homepage](https://www.synology.com/de-de/products/RS822+)                                         |               |
+| Synology     | RS422+    | 4         | ~2022   |        | [Homepage](https://www.synology.com/de-de/products/RS422+)                                         |               |
+| Synology     | RS1221RP+ | 8         | ~2021   |        | [Homepage](https://www.synology.com/de-de/products/RS1221RP+)                                      |               |
+| Synology     | RS1221+   | 8         | ~2021   |        | [Homepage](https://www.synology.com/de-de/products/RS1221+)                                        |               |
+| QNAP         | TS-h765eU | 4         |         | ~1050€ |                                                                                                    |               |
+|              | TS-464eU  | 4         |         | ~950€  | [Amazon, 930€](https://www.amazon.de/Qnap-TS-464eU-8G-2-5GbE-Short-Depth-Rackmount/dp/B0BPHJJQTQ/) |               |
