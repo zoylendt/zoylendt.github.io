@@ -17,9 +17,13 @@ Options:
     - [Qnap TS-431XeU-2G](https://www.amazon.de/QNAP-TS-431XEU-2G-TS-431XeU-2G4-Bay-Rack-Geh%C3%A4use/dp/B076BZKPZN/)
     - [Qnap TS-431XeU-8g](https://www.amazon.de/QNAP-TS-431XEU-8G-TS-431XeU-8G4-Bay-Rack-Geh%C3%A4use/dp/B076XVTZZT/)
     - [Qnap TS-464eU-8G](https://www.amazon.de/Qnap-TS-464eU-8G-2-5GbE-Short-Depth-Rackmount/dp/B0BPHJJQTQ/)
+    - [Qnap TS-433eU](https://www.qnap.com/de-de/product/ts-433eu)
+    - [Synology RackStation RS822+](https://www.idealo.de/preisvergleich/OffersOfProduct/202066269_-rs822-leergehaeuse-synology.html)
 - 8-bay rack-mounted NAS
     - [Synology RackStation RS1221+](https://www.amazon.de/Synology-RS1221-8-Bay-Rackmount-NAS-Geh%C3%A4use/dp/B08QSL8MVK/)
 - 4-bay rack-mounted DAS (connected to e.g. TrueNAS-VM)
+    - [QNAP TR-004U]()
+        - [ebay 1](https://www.ebay.de/itm/226126203298), [ebay 2](https://www.ebay.de/itm/395598964844)
 - 8+ bay rack-mounted NAS (new enclosure for unraid system)
     - My NEW Storage Server
         - [YT](https://www.youtube.com/watch?v=HriJkdgNlKs)
@@ -29,3 +33,4 @@ Options:
             - [PSU](https://www.amazon.de/dp/B0995V4V6S)
 - ds918+ replacement
     - [Terramaster F4-424](https://www.amazon.de/TERRAMASTER-F4-424-NAS-Storage-4Bay/dp/B0CT5CZ8WW/)
+    - [QNAP TS-932PX-4G](https://www.cyberport.de/?DEEP=3F43-1TU)
