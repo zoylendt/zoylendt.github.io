@@ -46,3 +46,4 @@ Options:
 | Manufacturer | Model             | HDD Slots | Release | Price  | Links                                                      |     |
 | ------------ | ----------------- | --------- | ------- | ------ | ---------------------------------------------------------- | --- |
 | Synology     | RS822RP+​/​RS822+ |           |         | ~1050€ | [Homepage](https://www.synology.com/de-de/products/RS822+) |     |
+|              |                   |           |         |        |                                                            |     |
