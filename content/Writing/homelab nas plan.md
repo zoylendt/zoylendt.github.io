@@ -38,3 +38,5 @@ Options:
 - ds918+ replacement
     - [Terramaster F4-424](https://www.amazon.de/TERRAMASTER-F4-424-NAS-Storage-4Bay/dp/B0CT5CZ8WW/)
     - [QNAP TS-932PX-4G](https://www.cyberport.de/?DEEP=3F43-1TU)
+    - [ds918+ kleinanzeigen 380€](https://www.kleinanzeigen.de/s-anzeige/synology-ds-918-/3025456276-225-8111)
+    - [ds918+ kleinanzeigen 220€](https://www.kleinanzeigen.de/s-anzeige/verkaufe-eine-synology-diskstation-ds-918-/3002400199-225-8453)
