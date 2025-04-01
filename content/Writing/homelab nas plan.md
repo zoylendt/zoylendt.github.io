@@ -54,8 +54,9 @@ Options:
 | QNAP         | TS-h765eU | 4         |         | ~1050€ |                                                                                                    |               |
 |              | TS-464eU  | 4         |         | ~950€  | [Amazon, 930€](https://www.amazon.de/Qnap-TS-464eU-8G-2-5GbE-Short-Depth-Rackmount/dp/B0BPHJJQTQ/) |               |
 
-| Manufacturer | Model  | HDD Slots | Release | Price          | Links | Note |
-| ------------ | ------ | --------- | ------- | -------------- | ----- | ---- |
-| Synology     | DS920+ | 4         | ~2019   |                |       |      |
-| Synology     | DS423+ | 4         |         | [Amazon, 519€] |       |      |
-| Synology     | DS923+ | 4         |         |                |       |      |
+| Manufacturer | Model  | HDD Slots | Release   | Price                                                                                                                                                                            | Links | Note              |
+| ------------ | ------ | --------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ----------------- |
+| Synology     | DS920+ | 4         | ~Jun 2020 |                                                                                                                                                                                  |       |                   |
+| Synology     | DS423+ | 4         | ~Mar 2023 | [Amazon, 519€](https://www.amazon.de/Synology-4-Bay-DS423-Celeron-J4125/dp/B0BXH389D1/), [Alternate, 519€](https://www.alternate.de/Synology/DS423plus-NAS/html/product/1904251) |       |                   |
+| Synology     | DS923+ | 4         | ~Dec 2022 | [Alternate, 599€](https://www.alternate.de/Synology/DS923plus-NAS/html/product/1876407)                                                                                          |       | best CPU, ECC-RAM |
+| Synology     | DS918+ | 4         |           | [eBay, 225€](https://www.kleinanzeigen.de/s-anzeige/verkaufe-eine-synology-diskstation-ds-918-/3002400199-225-8453), [eBay, 380€]                                                |       |                   |
