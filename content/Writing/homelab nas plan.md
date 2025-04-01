@@ -53,3 +53,9 @@ Options:
 | Synology     | RS1221+   | 8         | ~2021   |        | [Homepage](https://www.synology.com/de-de/products/RS1221+)                                        |               |
 | QNAP         | TS-h765eU | 4         |         | ~1050€ |                                                                                                    |               |
 |              | TS-464eU  | 4         |         | ~950€  | [Amazon, 930€](https://www.amazon.de/Qnap-TS-464eU-8G-2-5GbE-Short-Depth-Rackmount/dp/B0BPHJJQTQ/) |               |
+
+| Manufacturer | Model  | HDD Slots | Release | Price          | Links | Note |
+| ------------ | ------ | --------- | ------- | -------------- | ----- | ---- |
+| Synology     | DS920+ | 4         | ~2019   |                |       |      |
+| Synology     | DS423+ | 4         |         | [Amazon, 519€] |       |      |
+| Synology     | DS923+ | 4         |         |                |       |      |
