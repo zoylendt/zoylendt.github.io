@@ -28,6 +28,9 @@ Options:
 - 4-bay rack-mounted DAS (connected to e.g. TrueNAS-VM)
     - [QNAP TR-004U]()
         - [ebay 1](https://www.ebay.de/itm/226126203298), [ebay 2](https://www.ebay.de/itm/395598964844)
+    - [KTN-STL3](https://reddit.com/r/homelab/s/sSosZo1D0N)
+    - for future use: this but for a 10" rack:
+      - [6x 2,5" enclosure](https://www.amazon.com/READYXIO-Drive-Enclosure-Station-Colling/dp/B0CQT4VQR4)
 - DIY 8+ bay rack-mounted NAS (new enclosure for unraid system)
     - 'My NEW Storage Server' by Christian Lempa
         - [YT](https://www.youtube.com/watch?v=HriJkdgNlKs)
@@ -36,6 +39,10 @@ Options:
                 - [Homepage](https://www.silverstonetek.com/de/product/info/server-nas/RM21-308/)
             - [PSU](https://www.amazon.de/dp/B0995V4V6S)
     - [FANTEC SRC-2080X07-12G/6G-BCE](https://www.amazon.de/gp/product/B0CVBLJKZL/)
+    - good reddit threads
+      - [#1](https://www.reddit.com/r/homelab/s/rqN2yMs1j0)
+      - [#2](https://www.reddit.com/r/homelab/s/jiFLipNMd8)
+      - [#3](https://www.reddit.com/r/homelab/s/Gt4B6a9awC)
 - ds918+ replacement
     - [Terramaster F4-424](https://www.amazon.de/TERRAMASTER-F4-424-NAS-Storage-4Bay/dp/B0CT5CZ8WW/)
     - [QNAP TS-932PX-4G](https://www.cyberport.de/?DEEP=3F43-1TU)
