@@ -13,22 +13,32 @@ tags:
 ---
  
 Tools:
-- [ ] RClone
-- [ ] RSync
-- [ ] Restic
+- [ ] rclone
+- [ ] rsync
+- [ ] restic
 - [ ] Kopia
-- [ ] RSnapshot
-- [ ] luckybackup
-- [ ] borgbackup
+- [ ] rsnapshot
+- [ ] borg
+- [ ] borgbackup / borgmatic
 - [ ] backrest
+- [ ] luckybackup
 - [ ] urbackup
 - [ ] duplicati
 - [ ] duplicacy
 - [ ] duplicity
-- [ ] Kopia
+- [ ] 
 
 
-| Tool | Dockerized | Notifications | Encrypted backups | Incremental backups | Cloud providers | GUI (tools) | Links | Note |     |
-| ---- | ---------- | ------------- | ----------------- | ------------------- | --------------- | ----------- | ----- | ---- | --- |
-|      |            |               |                   |                     |                 |             |       |      |     |
-|      |            |               |                   |                     |                 |             |       |      |     |
+| Tool                   | Dockerized | Architecture | Notifications | Encrypted backups | Incremental snapshots | Targets | Cloud providers | GUI (tools) | Links | Note                          |
+| ---------------------- | ---------- | ------------ | ------------- | ----------------- | --------------------- | ------- | --------------- | ----------- | ----- | ----------------------------- |
+| rclone                 |            |              |               |                   |                       |         |                 |             |       |                               |
+| rsync                  |            |              |               |                   |                       |         |                 |             |       |                               |
+| restic                 |            |              |               |                   |                       |         |                 |             |       |                               |
+| kopia                  |            |              |               |                   |                       |         |                 |             |       |                               |
+| rsnapshot              |            |              |               |                   |                       |         |                 |             |       |                               |
+| borg                   |            |              |               |                   |                       |         |                 |             |       |                               |
+| borgbackup / borgmatic |            |              |               |                   |                       |         |                 |             |       | verifies integrity of backups |
+| backrest               |            |              |               |                   |                       |         |                 |             |       |                               |
+| luckybackup            |            |              |               |                   |                       |         |                 |             |       |                               |
+| urbackup               |            |              |               |                   |                       |         |                 |             |       |                               |
+| duplicati*             |            |              |               |                   |                       |         |                 |             |       |                               |
