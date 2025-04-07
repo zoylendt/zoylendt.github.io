@@ -26,7 +26,9 @@ Tools:
 - [ ] duplicati
 - [ ] duplicacy
 - [ ] duplicity
-- [ ] 
+
+Out of scope:
+- [ ] syncthing
 
 
 | Tool                   | Dockerized | Architecture | Notifications | Encrypted backups | Incremental snapshots | Targets | Cloud providers | GUI (tools) | Links | Note                          |
