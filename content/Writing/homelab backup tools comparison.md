@@ -25,10 +25,10 @@ Tools:
 - [ ] duplicati
 - [ ] duplicacy
 - [ ] duplicity
-- [ ] 
+- [ ] Kopia
 
 
-| Tool | Dockerized | Notifications | Encrypted backups | Incremental backups | Cloud providers | GUI (tools) | Links | Note |
-| ---- | ---------- | ------------- | ----------------- | ------------------- | --------------- | ----------- | ----- | ---- |
-|      |            |               |                   |                     |                 |             |       |      |
-|      |            |               |                   |                     |                 |             |       |      |
+| Tool | Dockerized | Notifications | Encrypted backups | Incremental backups | Cloud providers | GUI (tools) | Links | Note |     |
+| ---- | ---------- | ------------- | ----------------- | ------------------- | --------------- | ----------- | ----- | ---- | --- |
+|      |            |               |                   |                     |                 |             |       |      |     |
+|      |            |               |                   |                     |                 |             |       |      |     |
