@@ -31,16 +31,20 @@ Out of scope:
 - [ ] syncthing
 
 
-| Tool                   | Dockerized | Architecture  | Notifications | Encrypted backups | Incremental snapshots | Targets | Cloud providers | GUI (tools) | Links | Note                          |
-| ---------------------- | ---------- | ------------- | ------------- | ----------------- | --------------------- | ------- | --------------- | ----------- | ----- | ----------------------------- |
-| rclone                 |            |               |               |                   |                       |         |                 |             |       |                               |
-| rsync                  |            |               |               |                   |                       |         |                 |             |       |                               |
-| restic                 |            |               |               |                   |                       |         |                 |             |       |                               |
-| kopia                  |            | server/client |               |                   |                       |         |                 |             |       |                               |
-| rsnapshot              |            |               |               |                   |                       |         |                 |             |       |                               |
-| borg                   |            |               |               |                   |                       |         |                 |             |       |                               |
-| borgbackup / borgmatic |            |               |               |                   |                       |         |                 |             |       | verifies integrity of backups |
-| backrest               |            |               |               |                   |                       |         |                 |             |       |                               |
-| luckybackup            |            |               |               |                   |                       |         |                 |             |       |                               |
-| urbackup               |            |               |               |                   |                       |         |                 |             |       |                               |
-| duplicati*             |            |               |               |                   |                       |         |                 |             |       |                               |
+| Tool        | Dockerized | Architecture  | Notifications | Encrypted backups | Incremental snapshots | Targets | Cloud providers | GUI (tools) | Links | Note                          |
+| ----------- | ---------- | ------------- | ------------- | ----------------- | --------------------- | ------- | --------------- | ----------- | ----- | ----------------------------- |
+| rclone      |            |               |               |                   |                       |         |                 |             |       |                               |
+| rsync       |            |               |               |                   |                       |         |                 |             |       |                               |
+| restic      |            |               |               |                   |                       |         |                 |             |       |                               |
+| kopia       |            | server/client |               |                   |                       |         |                 |             |       |                               |
+| rsnapshot   |            |               |               |                   |                       |         |                 |             |       |                               |
+| borg        |            |               |               |                   |                       |         |                 |             |       |                               |
+| borgmatic   |            |               |               |                   |                       |         |                 |             |       |                               |
+| borgbackup  |            |               |               |                   |                       |         |                 |             |       | verifies integrity of backups |
+| backrest    |            |               |               |                   |                       |         |                 |             |       |                               |
+| luckybackup |            |               |               |                   |                       |         |                 |             |       |                               |
+| urbackup    |            |               |               |                   |                       |         |                 |             |       |                               |
+| duplicati*  |            |               |               |                   |                       |         |                 |             |       |                               |
+|             |            |               |               |                   |                       |         |                 |             |       |                               |
+|             |            |               |               |                   |                       |         |                 |             |       |                               |
+|             |            |               |               |                   |                       |         |                 |             |       |                               |
