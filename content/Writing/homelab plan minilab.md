@@ -24,4 +24,4 @@ Here I collect some thoughts about creating my own minilab.
 
 # Potential hardware
 
-...
+- 8x 
