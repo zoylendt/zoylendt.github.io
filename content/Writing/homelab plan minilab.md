@@ -43,9 +43,8 @@ I'm only listing drive cages for 2,5" SATA drives. All cages fit in a 5,25" slot
 
 ### 8x 2,5"
 
-- 8x 2,5" cage in 5,25" format
-    - [IcyDock MB038SP-B](https://de.icydock.com/product_1359.html) -> [Amazon, 125€](https://www.amazon.de/gp/product/B0CQJY5K8C), [Alternate, 144€](https://www.alternate.de/Icy-Dock/ExpressCage-MB038SP-B-Wechselrahmen/html/product/100070398)
-    - ..
+- [IcyDock MB038SP-B](https://de.icydock.com/product_1359.html) -> [Amazon, 125€](https://www.amazon.de/gp/product/B0CQJY5K8C), [Alternate, 144€](https://www.alternate.de/Icy-Dock/ExpressCage-MB038SP-B-Wechselrahmen/html/product/100070398)
+- ..
 
 ### 5...7x 2,5"
 
