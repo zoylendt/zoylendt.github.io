@@ -16,6 +16,5 @@ tags:
 Hardware:
 - [Sonoff ZigBee Bridge Pro (2 pack), Amazon.de, 26,26€](https://www.amazon.de/dp/B09ZQQZSQZ)
 - USB-UART connector like [this](https://www.amazon.de/FT232RL-Seriell-Konverter-Breakout-serielle/dp/B07Y2Z1XX9/) FT232 based
+    - (optionally) install FT232 drivers from [here](https://ftdichip.com/drivers/vcp-drivers/) (following [thisguide](https://www.partitionwizard.com/partitionmanager/ft232r-usb-uart-driver.html))
 
-Preparation:
-- (optionally) install FT232 drivers from [here](https://ftdichip.com/drivers/vcp-drivers/) (following [this](https://www.partitionwizard.com/partitionmanager/ft232r-usb-uart-driver.html) guide)
