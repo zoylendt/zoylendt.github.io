@@ -30,6 +30,7 @@ tags:
 | True Romance       |                                       | 1993 |                                                 |           |            |
 | Rocketman          |                                       | 2019 |                                                 |           |            |
 | Galaxy Quest       | Galaxy Quest - Planlos durchs Weltall | 1999 | [7,4](https://www.imdb.com/de/title/tt0177789/) | yes       | 2025-04-12 |
+| Rush               |                                       |      |                                                 |           |            |
 |                    |                                       |      |                                                 |           |            |
 
 | Title (Eng)       | Title (Ger)    | Year | IMDB | Jellyfin? |
