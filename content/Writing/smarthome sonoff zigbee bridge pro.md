@@ -20,5 +20,9 @@ Hardware:
 
 Setup
     1. Flashing Tasmota
-        - The Bridge Pro is ESP32 based, the first link for [ESP32 based zigbee devices](https://tasmota.github.io/docs/Zigbee/#hardware)
+        - The Bridge Pro is [ESP32 based](https://tasmota.github.io/docs/Zigbee/#hardware), which leads to the [blakadder.com template](https://templates.blakadder.com/sonoff_ZBBridge-P.html)
+        - Connect the Bridge Pro in flashing mode (GPIO to GND) to PC and open the [web-based Tasmota flasher](https://tasmota.github.io/install/)
+        - Select `Tasmota32 Sonoff-ZigbeeBridgePro`, click `Connect` & flash.
     2. ...
+    3. ...
+    4. ...
