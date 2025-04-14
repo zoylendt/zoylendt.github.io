@@ -74,3 +74,9 @@ Out of scope:
     - no dedup/compression
     - S3 support
     - support for shared repos
+
+# Notes
+Possible setup:
+- 'Kopia' for backups of PC userdata & other places with frequent changes
+- 'Offen' for backups of docker volumes
+- '___' for backups of kopia repo & static folders to remote NAS/cloud (encrypted)
