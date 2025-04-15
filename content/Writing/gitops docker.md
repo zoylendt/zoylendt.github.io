@@ -21,10 +21,15 @@ Here I want to compare some tools that provide gitops features to a docker (comp
     - BUT: only single node for [free](https://app.simplecontainer.io/pricing)
 - [doco-cd](https://github.com/kimdre/doco-cd)
 - [drone.io](https://hinty.io/ivictbor/deploy-docker-compose-using-drone-ci/)
+- [bulckan](https://github.com/dockopslab/bulckan)
 
 
 # Requirement matrix
 
-| Tool | supported git |     |
-| ---- | ------------- | --- |
-|      |               |     |
+| Tool            | supported git | specific git subdirectory | secrets |
+| --------------- | ------------- | ------------------------- | ------- |
+| portainer       |               |                           |         |
+| simplecontainer |               |                           |         |
+| doco-cd         |               |                           |         |
+| drone.io        |               |                           |         |
+| bulckan         |               |                           |         |
