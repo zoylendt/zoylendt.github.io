@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-04-13
+updated: 2025-04-15
 draft: true
 tags:
   - unfinished
@@ -31,6 +31,7 @@ tags:
 | Rocketman          |                                       | 2019 |                                                 |           |            |
 | Galaxy Quest       | Galaxy Quest - Planlos durchs Weltall | 1999 | [7,4](https://www.imdb.com/de/title/tt0177789/) | yes       | 2025-04-12 |
 | Rush               |                                       |      |                                                 |           |            |
+| The Crow           |                                       | 1994 |                                                 |           |            |
 |                    |                                       |      |                                                 |           |            |
 
 | Title (Eng)       | Title (Ger)    | Year | IMDB | Jellyfin? |
