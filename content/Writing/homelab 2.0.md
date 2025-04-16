@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-11-01
 publishDate: 2024-11-01
-updated: 2025-01-16
+updated: 2025-04-16
 draft: false
 tags:
   - homelab
@@ -42,6 +42,8 @@ My goal is to implement IaC & GitOps in order to create a reproducible setup.
 | Configuring Istio with OIDC authentication | [Blog](https://homelab.blog/blog/devops/Istio-OIDC-Config/)                                                                                                                                           | Istio                                                             | only about Istio, 2020                                                                                                              |
 | Provisioning with GitHub Runners           | [Blog](https://fredrickb.com/2024/10/14/using-terraform-ansible-and-github-actions-to-automate-provisioning-and-configuration-of-workloads-in-the-homelab/)                                           | Terraform, Ansible, GitHub  Actions, Proxmox, K3S                 | many other good posts in blog                                                                                                       |
 |                                            |                                                                                                                                                                                                       |                                                                   |                                                                                                                                     |
+
+[Reddit](https://www.reddit.com/r/selfhosted/comments/w2wwum/comment/iguw5h4/) -> https://github.com/onedr0p/home-ops
 https://luislogs.com/
 https://www.lisenet.com/
 https://thedatabaseme.de/
