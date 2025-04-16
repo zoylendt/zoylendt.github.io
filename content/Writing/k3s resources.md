@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-05-20
 publishDate: 2024-05-20
-updated: 2024-06-06
+updated: 2025-04-16
 draft: false
 tags:
   - resources
@@ -64,4 +64,9 @@ Some resources about using K3S in a homelab environment, possibly on multiple lo
 - https://lachlanlife.net/posts/2022-09-provisioning-vms/
 - https://inherently.xyz/blog/ansible-terraform-and-proxmox/
 - https://www.45drives.co.uk/blog/Proxmox/guide-for-automating-deployments-of-virtual-machines-in-proxmox/
+
+
+# K8S resources
+
+- https://www.reddit.com/r/selfhosted/comments/1cadkv3/are_any_of_you_using_kubernetes_got_some_good/
 - 
