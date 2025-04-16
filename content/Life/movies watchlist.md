@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-04-16
+updated: 2025-04-17
 draft: true
 tags:
   - unfinished
@@ -50,3 +50,6 @@ tags:
 | Apocalypse Now Redux |                | 1979 |      |           |
 | Godfather            |                | 1972 |      |           |
 |                      |                |      |      |           |
+
+- Gunbuster
+- 
