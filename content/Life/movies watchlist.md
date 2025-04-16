@@ -38,6 +38,7 @@ tags:
 |                    | Der schmale Grat                      | 1998 |                                                 |           |            |
 | Stalker            |                                       |      |                                                 |           |            |
 | Spiders            |                                       | 2023 |                                                 |           |            |
+| Fantastic Mr. Fox  |                                       |      |                                                 |           |            |
 |                    |                                       |      |                                                 |           |            |
 
 | Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
