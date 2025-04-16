@@ -24,4 +24,4 @@ tags:
     - https://github.com/jannfis/argocd-nutshell
     - https://www.reddit.com/r/selfhosted/comments/125fwib/my_recently_deployed_media_apps_in_argocd/
     - https://iopshub.medium.com/streamlining-gitops-with-atlantis-and-terraform-1c5654f725df
-    - 
+- proxmox/tailscale set DNS
