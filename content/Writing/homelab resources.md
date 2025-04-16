@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-05-21
 publishDate: 2024-05-21
-updated: 2025-04-16
+updated: 2025-04-17
 draft: false
 tags:
   - resources
@@ -60,6 +60,8 @@ tags:
 - https://blog.ktz.me/
 - https://qdnqn.com/
 - https://kmh.prasil.info/
+- https://seifrajhi.github.io/blog/
+- https://blog.ogenki.io/
 
 # Proxmox
 
