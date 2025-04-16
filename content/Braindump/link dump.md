@@ -25,3 +25,7 @@ tags:
     - https://www.reddit.com/r/selfhosted/comments/125fwib/my_recently_deployed_media_apps_in_argocd/
     - https://iopshub.medium.com/streamlining-gitops-with-atlantis-and-terraform-1c5654f725df
 - proxmox/tailscale set DNS
+- https://www.zimaspace.com/docs/zimaboard/Power-on-Zimablade
+    - http://172.16.40.192/#/welcome
+- https://github.com/nextcloud/all-in-one
+- 
