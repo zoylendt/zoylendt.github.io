@@ -95,7 +95,7 @@ WHERE draft = false
 
 | Title                                                                                                   | Folder    | Updated    |
 | ------------------------------------------------------------------------------------------------------- | --------- | ---------- |
-| [[resources homelab\|Homelab related resources]]                                      | Writing   | 2025-02-11 |
+| [[homelab resources\|Homelab related resources]]                                      | Writing   | 2025-02-11 |
 | [[markdown playground\|Markdown Playground]]                                        | Braindump | 2025-02-05 |
 | [[bomann gspe 889 788900 replacement parts\|BOMANN GSPE 889 788900 replacement parts]]   | Life      | 2025-02-05 |
 | [[kopia backup server\|Kopia backup server]]                                         | Projects  | 2025-02-01 |
