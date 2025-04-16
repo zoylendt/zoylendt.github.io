@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-09
 publishDate: 2025-04-09
-updated: 2025-04-10
+updated: 2025-04-16
 draft: true
 tags:
   - unfinished
@@ -84,3 +84,4 @@ Maybe use a [ZimaBlade (83+€)](https://www.amazon.de/dp/B0D4D37ZVS) as storage
 ## Misc
 
 Switch, Router, Smarthome sensors, JetKVM
+- https://modmymods.com/cables/voltage-reduction-cables.html
