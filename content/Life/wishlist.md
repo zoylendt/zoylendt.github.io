@@ -21,4 +21,5 @@ tags:
 - [Time timer](https://www.amazon.com/dp/B08FBK8RBR)
 - [Wireless ThinkPad keyboard](https://www.lenovo.com/us/en/p/accessories-and-software/keyboards-and-mice/keyboards/4y40x49493)
 - [android e-ink reader](https://shop.boox.com/)
+- [Nomad FindMy tracking card](https://nomadgoods.com/eu/products/tracking-card) or similar
 - 
