@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-04-15
+updated: 2025-04-16
 draft: true
 tags:
   - unfinished
@@ -32,13 +32,21 @@ tags:
 | Galaxy Quest       | Galaxy Quest - Planlos durchs Weltall | 1999 | [7,4](https://www.imdb.com/de/title/tt0177789/) | yes       | 2025-04-12 |
 | Rush               |                                       |      |                                                 |           |            |
 | The Crow           |                                       | 1994 |                                                 |           |            |
+|                    | Die durch die Hölle gehen             | 1987 |                                                 |           |            |
+| Heat               |                                       | 1995 |                                                 |           |            |
+| Goodfellas         |                                       | 1990 |                                                 |           |            |
+|                    | Der schmale Grat                      | 1998 |                                                 |           |            |
+| Stalker            |                                       |      |                                                 |           |            |
+| Spiders            |                                       | 2023 |                                                 |           |            |
 |                    |                                       |      |                                                 |           |            |
 
-| Title (Eng)       | Title (Ger)    | Year | IMDB | Jellyfin? |
-| ----------------- | -------------- | ---- | ---- | --------- |
-|                   | Leon der Profi | 1994 |      | yes       |
-|                   | Das Boot       |      |      |           |
-| Blade Runner      |                |      |      |           |
-| Blade Runner 2049 |                |      |      |           |
-| Akira             |                |      |      |           |
-|                   |                |      |      |           |
+| Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
+| -------------------- | -------------- | ---- | ---- | --------- |
+|                      | Leon der Profi | 1994 |      | yes       |
+|                      | Das Boot       |      |      |           |
+| Blade Runner         |                |      |      |           |
+| Blade Runner 2049    |                |      |      |           |
+| Akira                |                |      |      |           |
+| Apocalypse Now Redux |                | 1979 |      |           |
+| Godfather            |                | 1972 |      |           |
+|                      |                |      |      |           |

@@ -28,4 +28,8 @@ tags:
 - https://www.zimaspace.com/docs/zimaboard/Power-on-Zimablade
     - http://172.16.40.192/#/welcome
 - https://github.com/nextcloud/all-in-one
-- 
+- https://www.youtube.com/watch?v=k1BneeJTDcU
+
+# Media
+
+- https://www.youtube.com/watch?v=c9Q7ObGIyOs&list=PLXlwbMbOdWeoUz7w9wsjV-Eu6Yjt0xh2T&index=11
