@@ -39,6 +39,7 @@ tags:
 | Stalker            |                                       |      |                                                 |           |            |
 | Spiders            |                                       | 2023 |                                                 |           |            |
 | Fantastic Mr. Fox  |                                       |      |                                                 |           |            |
+| The Fly            |                                       |      |                                                 |           |            |
 |                    |                                       |      |                                                 |           |            |
 
 | Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
