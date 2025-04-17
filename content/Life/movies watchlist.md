@@ -49,7 +49,8 @@ tags:
 | Blade Runner 2049    |                |      |      |           |
 | Akira                |                |      |      |           |
 | Apocalypse Now Redux |                | 1979 |      |           |
-| Godfather            |                | 1972 |      |           |
+| Godfather I          |                | 1972 |      |           |
+| Total Recal          |                | 1990 |      |           |
 |                      |                |      |      |           |
 
 - Gunbuster
