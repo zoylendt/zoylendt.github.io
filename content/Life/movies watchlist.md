@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-04-20
+updated: 2025-04-21
 draft: true
 tags:
   - unfinished
@@ -41,6 +41,7 @@ tags:
 | The Fantastic Mr. Fox |                                       |      |                                                 |           |            |
 | The Fly               |                                       |      |                                                 |           |            |
 | Legend                |                                       | 2015 |                                                 |           |            |
+| Copshop               |                                       | 2021 |                                                 |           |            |
 |                       |                                       |      |                                                 |           |            |
 
 | Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
