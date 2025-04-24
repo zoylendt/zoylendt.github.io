@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-04-21
+updated: 2025-04-24
 draft: true
 tags:
   - unfinished
@@ -42,6 +42,7 @@ tags:
 | The Fly               |                                       |      |                                                 |           |            |
 | Legend                |                                       | 2015 |                                                 |           |            |
 | Copshop               |                                       | 2021 |                                                 |           |            |
+| City of Ember         |                                       |      |                                                 |           |            |
 |                       |                                       |      |                                                 |           |            |
 
 | Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
@@ -58,4 +59,5 @@ tags:
 |                      |                |      |      |           |
 
 - Gunbuster
+- Futurama S11
 - 
