@@ -30,12 +30,12 @@ tags:
 | True Romance                                               |                           | 1993 |                                                 |           |            |
 | Rocketman                                                  |                           | 2019 |                                                 |           |            |
 | Galaxy Quest                                               |                           | 1999 | [7,4](https://www.imdb.com/de/title/tt0177789/) | y         | 2025-04-12 |
-| Rush                                                       |                           |      |                                                 |           |            |
+| Rush                                                       |                           | 2013 | [8,1](https://www.imdb.com/de/title/tt1979320/) |           |            |
 | The Crow                                                   |                           | 1994 |                                                 |           |            |
 | The Deer Hunter                                            | Die durch die Hölle gehen | 1987 | [8,1](https://www.imdb.com/de/title/tt0077416/) |           |            |
 | Heat                                                       |                           | 1995 |                                                 |           |            |
 | Goodfellas                                                 |                           | 1990 |                                                 |           |            |
-|                                                            | Der schmale Grat          | 1998 |                                                 |           |            |
+| The Thin Red Line                                          | Der schmale Grat          | 1998 | [7,6](https://www.imdb.com/de/title/tt0120863/) |           |            |
 | Stalker                                                    |                           |      |                                                 |           |            |
 | Spiders                                                    |                           | 2023 |                                                 |           |            |
 | The Fantastic Mr. Fox                                      |                           |      |                                                 |           |            |
@@ -49,6 +49,8 @@ tags:
 | The Monkey                                                 |                           | 2025 |                                                 | y         |            |
 | Training Day                                               |                           | 2001 | [7,8](https://www.imdb.com/de/title/tt0139654/) |           |            |
 | Crimson Tide                                               |                           | 1995 | [7,4](https://www.imdb.com/de/title/tt0112740/) |           |            |
+| Ford v Ferrari                                             |                           | 2019 | [8,1](https://www.imdb.com/de/title/tt1950186/) |           |            |
+|                                                            |                           |      |                                                 |           |            |
 
 | Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
 | -------------------- | -------------- | ---- | ---- | --------- |
