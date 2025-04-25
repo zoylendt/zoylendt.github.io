@@ -51,6 +51,8 @@ tags:
 | Crimson Tide                                               |                           | 1995 | [7,4](https://www.imdb.com/de/title/tt0112740/)  |           |            |
 | Ford v Ferrari                                             |                           | 2019 | [8,1](https://www.imdb.com/de/title/tt1950186/)  |           |            |
 | La cocina                                                  |                           | 2024 | [7,2](https://www.imdb.com/de/title/tt19864832/) |           |            |
+| War Dogs                                                   |                           |      |                                                  |           |            |
+|                                                            |                           |      |                                                  |           |            |
 
 | Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
 | -------------------- | -------------- | ---- | ---- | --------- |
@@ -63,6 +65,7 @@ tags:
 | Godfather I          |                | 1972 |      |           |
 | Total Recal          |                | 1990 |      |           |
 | Pulp Fiction         |                |      |      |           |
+| Tropic Thunder       |                |      |      |           |
 |                      |                |      |      |           |
 
 - Gunbuster
