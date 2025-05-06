@@ -195,4 +195,18 @@ Here I collect a list of topics that I want to write about eventually.
 
 A first step to restructure my notes.
 
-##
+- [ ] [[homelab backup tools comparison]]
+- [ ] [[homelab plan minilab]]
+- [ ] [[homelab 2.0]]
+- [ ] [[k3s resources]]
+- [ ] [[homelab resources]]
+- [ ] [[homelab log]]
+- [ ] [[smarthome sonoff zigbee bridge pro]]
+- [ ] [[gitops for docker]]
+- [ ] [[link dump]]
+- [ ] [[homelab hardware]]
+- [ ] [[homelab overview]]
+- [ ] [[movies watchlist]]
+- [ ] [[wishlist]]
+- [ ] [[monitoring tool comparison]]
+- [ ] [[homelab nas plan]]
