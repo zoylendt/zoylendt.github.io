@@ -4,7 +4,7 @@ subtitle: Some topics I want to write about
 description: 
 permalink: 
 date: 2024-02-11
-updated: 2025-02-12
+updated: 2025-05-07
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -189,3 +189,10 @@ Here I collect a list of topics that I want to write about eventually.
 - [ ] 
 
 
+---
+
+# 2025
+
+A first step to restructure my notes.
+
+##
