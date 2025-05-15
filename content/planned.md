@@ -195,36 +195,53 @@ Here I collect a list of topics that I want to write about eventually.
 
 A first step to restructure my notes.
 
-- [ ] [[homelab backup tools comparison]]
-- [ ] [[homelab plan minilab]]
-- [ ] [[homelab 2.0]]
+- [ ] homelab
+  - [ ] [[homelab plan minilab]]
+  - [ ] [[homelab 2.0]]
+  - [ ] [[homelab nas plan]]
+  - [ ] [[homelab resources]]
+  - [ ] [[homelab log]]
+  - [ ] [[homelab hardware]]
+  - [ ] [[homelab overview]]
+  - [ ] extra note with ideas for server names
 - [ ] [[k3s resources]]
-- [ ] [[homelab resources]]
-- [ ] [[homelab log]]
-- [ ] [[smarthome sonoff zigbee bridge pro]]
-- [ ] [[gitops for docker]]
-- [ ] [[link dump]]
-- [ ] [[homelab hardware]]
-- [ ] [[homelab overview]]
-- [ ] [[movies watchlist]]
-- [ ] [[wishlist]]
-- [ ] [[monitoring tool comparison]]
-- [ ] [[homelab nas plan]]
-- [ ] Relfhosted RSS server inkl. Web frontend & iOS integration (Reeder: FreshRSS or Reader (Google Reader API))
-- [ ] get new & organize old domains
+- [ ] list of hardware projects
+  - [ ] [[smarthome sonoff zigbee bridge pro]]
+  - [ ] lorawan garden sensor
+  - [ ] brauautomat + gärcontroller
+  - [ ] zisternensensor
+  - [ ] eink
+  - [ ] tolino gen 1
+- [ ] RSS
+  - [ ] [[link dump]]
+  - [ ] Relfhosted RSS server inkl. Web frontend & iOS integration (Reeder: FreshRSS or Reader (Google Reader API))
+  - [ ] Ollama for karakeep
+  - [ ] reddit to karakeep
+- [ ] [[wishlist]] -> update
+- [ ] WG-Ausgaben
+- [ ] get new & organize old domains -> https://do.de
+- [ ] tool comparisons
+  - [ ] [[monitoring tool comparison]]
+  - [ ] [[homelab backup tools comparison]]
+  - [ ] smartwatch
 - [ ] Tailscale
   - [ ] Issue: MagicDNS & Proxmox
   - [ ] overview of all hosts
-- [ ] 
+  - [ ] enable/document on ds923+, bernstein2 & abcnas
+- [ ] media-related
+  - [ ] [[movies watchlist]]
+  - [ ] books -> quotes, concepts, reading list 2025
 - [ ] Blog
   - [ ] rebuild landing page
   - [ ] update quartz
   - [ ] update documentation
   - [ ] implement new functions
   - [ ] fix map/tags issue
+  - [ ] planned topics
+  - [ ] restructure notes/projects/writing folder structure
 - [ ] Homelab/GitOps
   - [ ] secrets management
-  - [ ] renovate bot
+  - [ ] renovate bot -> [[gitops for docker]]
 - [ ] Anki Karteikarten -> web
   - [ ] Japanisch
   - [ ] Walisisch
