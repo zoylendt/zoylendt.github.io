@@ -4,7 +4,7 @@ subtitle: Some topics I want to write about
 description: 
 permalink: 
 date: 2024-02-11
-updated: 2025-05-07
+updated: 2025-05-15
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -210,3 +210,29 @@ A first step to restructure my notes.
 - [ ] [[wishlist]]
 - [ ] [[monitoring tool comparison]]
 - [ ] [[homelab nas plan]]
+- [ ] Relfhosted RSS server inkl. Web frontend & iOS integration (Reeder: FreshRSS or Reader (Google Reader API))
+- [ ] get new & organize old domains
+- [ ] Tailscale
+  - [ ] Issue: MagicDNS & Proxmox
+  - [ ] overview of all hosts
+- [ ] 
+- [ ] Blog
+  - [ ] rebuild landing page
+  - [ ] update quartz
+  - [ ] update documentation
+  - [ ] implement new functions
+  - [ ] fix map/tags issue
+- [ ] Homelab/GitOps
+  - [ ] secrets management
+  - [ ] renovate bot
+- [ ] Anki Karteikarten -> web
+  - [ ] Japanisch
+  - [ ] Walisisch
+- [ ] Programming projects
+  - [ ] exhex
+  - [ ] Hiduch/DeDoppler (better name? hashpast/doppelgaenger/histdup/hashhistory?/retroscan/...) -> include option to detect similar video/image files
+  - [ ] szurule34
+  - [ ] blaettchen (AI supermarket flyer & reciept summarizer & receipt scanner. Also scrape supermarket APIs if possible?)
+  - [ ] project-mapper (map stuff to MS Project)
+  - [ ] jd2manager (create + manage a docker-compose stack of gluetun & jd2, import & distribute .dlc files, restart inactive downloaders, ...)
+  - [ ] pr0dump (dump favorites from pr0gram.com -> optionally dump into szurubooru) -> wait until website redesign is finished
