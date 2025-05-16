@@ -4,7 +4,7 @@ subtitle: Some topics I want to write about
 description: 
 permalink: 
 date: 2024-02-11
-updated: 2025-05-15
+updated: 2025-05-16
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -253,3 +253,4 @@ A first step to restructure my notes.
   - [ ] project-mapper (map stuff to MS Project)
   - [ ] jd2manager (create + manage a docker-compose stack of gluetun & jd2, import & distribute .dlc files, restart inactive downloaders, ...)
   - [ ] pr0dump (dump favorites from pr0gram.com -> optionally dump into szurubooru) -> wait until website redesign is finished
+  - [ ] saltmine
