@@ -220,7 +220,7 @@ WHERE draft = true
 | [[wg expenses\|Ausgaben für die WG]]                                                                     | Life      | 2025-01-31 |
 | [[homelab log\|Homelab history]]                                                                  | Writing   | 2025-01-31 |
 | [[homelab overview]]                                                                | Writing   | 2025-01-31 |
-| [[coding project dedoppler\|Coding project: DeDoppler]]                                              | Projects  | 2025-01-24 |
+| [[coding project hashpast\|Coding project: DeDoppler]]                                              | Projects  | 2025-01-24 |
 | [[coding project saltmine\|Coding project: Saltmine]]                                                | Projects  | 2025-01-24 |
 | [[blog 2.0\|Blog 2.0]]                                                                              | Braindump | 2025-01-20 |
 | [[vscode setup\|My VSCode setup]]                                                                   | Braindump | 2025-01-09 |
