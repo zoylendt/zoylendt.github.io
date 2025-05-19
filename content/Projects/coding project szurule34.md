@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-24
 publishDate: 2025-02-24
-updated: 2025-05-16
+updated: 2025-05-19
 draft: true
 tags:
   - unfinished
@@ -13,7 +13,13 @@ tags:
   - docker
   - nsfw
 ---
- 
+
+>[!info] Basic concept
+> Automatically scrape the given R34 site for configured search terms (and favorites) and download new posts
+> Add downloaded posts (with tags and other metadata) to a given Szurubooru instance
+> Update the internal DB based on other posts on the Szurubooru instance
+> Modular setup: allow multiple websites as sources (reject duplicate images, identified by hash)
+
 Ideas: 
 - have list of tags that should be watched in a txt file
 - optionally add negative tags to (some) lines

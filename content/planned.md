@@ -4,7 +4,7 @@ subtitle: Some topics I want to write about
 description: 
 permalink: 
 date: 2024-02-11
-updated: 2025-05-16
+updated: 2025-05-19
 publishDate: 2024-02-11
 draft: false
 tags:
@@ -239,6 +239,7 @@ A first step to restructure my notes.
   - [ ] fix map/tags issue
   - [ ] planned topics
   - [ ] restructure notes/projects/writing folder structure
+  - [ ] add github codespace with obsidian plugin
 - [ ] Homelab/GitOps
   - [ ] secrets management
   - [ ] renovate bot -> [[gitops for docker]]
