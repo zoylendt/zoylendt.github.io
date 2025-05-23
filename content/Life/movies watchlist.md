@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-05-23
+updated: 2025-05-24
 draft: false
 tags:
   - unfinished
@@ -68,6 +68,8 @@ tags:
 | Pulp Fiction         |                |      |      |           |
 | Tropic Thunder       |                |      |      |           |
 | Hooligans            |                |      |      |           |
+| Jarhead              |                |      |      |           |
+|                      |                |      |      |           |
 
 - Gunbuster
 - Futurama S11
