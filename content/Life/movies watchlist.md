@@ -52,6 +52,7 @@ tags:
 | Ford v Ferrari                                             |                           | 2019 | [8,1](https://www.imdb.com/de/title/tt1950186/)  |           |            |
 | La cocina                                                  |                           | 2024 | [7,2](https://www.imdb.com/de/title/tt19864832/) |           |            |
 | War Dogs                                                   |                           |      |                                                  |           |            |
+| Predator 1                                                 |                           |      |                                                  |           |            |
 |                                                            |                           |      |                                                  |           |            |
 
 | Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
