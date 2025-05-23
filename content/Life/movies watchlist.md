@@ -1,12 +1,12 @@
 ---
-title: 
+title: Movies I want to watch (again)
 subtitle: 
 description: 
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-04-25
-draft: true
+updated: 2025-05-23
+draft: false
 tags:
   - unfinished
 ---
@@ -66,7 +66,7 @@ tags:
 | Total Recal          |                | 1990 |      |           |
 | Pulp Fiction         |                |      |      |           |
 | Tropic Thunder       |                |      |      |           |
-|                      |                |      |      |           |
+| Hooligans            |                |      |      |           |
 
 - Gunbuster
 - Futurama S11
