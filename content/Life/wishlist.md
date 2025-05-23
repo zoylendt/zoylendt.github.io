@@ -5,14 +5,10 @@ description:
 permalink: 
 date: 2025-02-02
 publishDate: 2025-02-02
-updated: 2025-04-17
+updated: 2025-05-23
 draft: true
 tags:
-  - unfinished
-  - graph-exclude
-  - explorer-exclude
-  - backlinks-exclude
-  - recents-exclude
+  - personal
 ---
  
 - [M5 Stamp S3](https://www.amazon.de/M5Stack-Offizielles-Cardputer-Kit-M5StampS3-GRAU/dp/B0D8Q4852D/)
@@ -22,4 +18,6 @@ tags:
 - [Wireless ThinkPad keyboard](https://www.lenovo.com/us/en/p/accessories-and-software/keyboards-and-mice/keyboards/4y40x49493)
 - [android e-ink reader](https://shop.boox.com/)
 - [Nomad FindMy tracking card](https://nomadgoods.com/eu/products/tracking-card) or similar
+- Playdate
+- Flipper Zero
 - 
