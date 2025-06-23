@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🍺ZoyBlog",
+    pageTitle: "🍺zoy.sh📙",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "zoylendt.github.io",
+    baseUrl: "blog.zoy.sh",
     ignorePatterns: ["private", "templates", ".obsidian", "zzz_static_files"],
     defaultDateType: "created",
     generateSocialImages: false,
