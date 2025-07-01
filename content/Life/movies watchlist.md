@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-06-17
+updated: 2025-07-01
 draft: false
 tags:
   - unfinished
@@ -74,4 +74,5 @@ tags:
 
 - Gunbuster
 - Futurama S11
+- Jobless Reincarnation
 - 
