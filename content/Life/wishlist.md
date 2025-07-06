@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-02
 publishDate: 2025-02-02
-updated: 2025-05-23
+updated: 2025-07-07
 draft: true
 tags:
   - personal
@@ -20,4 +20,4 @@ tags:
 - [Nomad FindMy tracking card](https://nomadgoods.com/eu/products/tracking-card) or similar
 - Playdate
 - Flipper Zero
-- 
+- [Achtung! Cthulhu 2D20: Black Sun Exarch Collectors Edition (EN)](https://www.magierspiele.de/Achtung-Cthulhu-2D20-Black-Sun-Exarch-Collectors-Edition-EN) (100...125€)
