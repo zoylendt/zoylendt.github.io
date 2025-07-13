@@ -22,4 +22,5 @@ tags:
 |       |              |        |                 |              |          | Waschmaschine Unterbau         |           |
 |       |              |        |                 |              |          | Backofen                       |           |
 |       |              |        |                 |              |          | Backofen Kabel                 |           |
-|       |              |        |                 |              |          |                                |           |
+|       |              | Amazon |                 |              |          | Waschmaschine Vibrationsmatte  |           |
+|       |              | Amazon |                 |              |          | Storageboxen                   |           |
