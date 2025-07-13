@@ -24,5 +24,5 @@ tags:
 |            |              |        |                 |              |          | Backofen Kabel                         |           |
 | 2022-07-16 | -            | Amazon | 12,99           |              |          | Waschmaschine Vibrationsmatte          |           |
 | 2025-01-04 | -            | Amazon | 74,99 (6 Stück) |              |          | 30L Storageboxen ()                    |           |
-|            |              |        |                 |              |          |                                        |           |
 | 2025-01-04 | -            | Amazon | 9,02            |              |          | 4 Antivibrationspads für Waschmaschine |           |
+|            |              |        |                 |              |          |                                        |           |
