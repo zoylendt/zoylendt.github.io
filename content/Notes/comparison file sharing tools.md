@@ -20,16 +20,20 @@ tags:
 ...
 
 
-| Tool          | Links | Encrypted | German | Docker |
-| ------------- | ----- | --------- | ------ | ------ |
-| Chibisafe     |       |           |        |        |
-| Enclosed      |       |           |        |        |
-| Files Sharing |       |           |        |        |
-| Gokapi        |       |           |        |        |
-| Gose          |       |           |        |        |
-| PicoShare     |       |           |        |        |
-| Picsur        |       |           |        |        |
-| PictShare     |       |           |        |        |
-| Plik          |       |           |        |        |
-|               |       |           |        |        |
-|               |       |           |        |        |
+| Tool          | Links                        | Encrypted | German | Docker |     |
+| ------------- | ---------------------------- | --------- | ------ | ------ | --- |
+| Chibisafe     |                              |           |        |        |     |
+| Enclosed      | [Demo](https://enclosed.cc/) | y         | y      | y      |     |
+| Files Sharing |                              |           |        |        |     |
+| Gokapi        |                              |           |        |        |     |
+| Gose          |                              |           |        |        |     |
+| PicoShare     |                              |           |        |        |     |
+| Picsur        |                              |           |        |        |     |
+| PictShare     |                              |           |        |        |     |
+| Plik          |                              |           |        |        |     |
+| QuickShare    |                              |           |        |        |     |
+| Sharry        |                              |           |        |        |     |
+| Shifter       |                              |           |        |        |     |
+| Slink         |                              |           |        |        |     |
+| XBackBone     |                              |           |        |        |     |
+| Zipline       |                              |           |        |        |     |
