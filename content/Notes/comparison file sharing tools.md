@@ -20,20 +20,20 @@ tags:
 ...
 
 
-| Tool          | Links                        | Encrypted | German | Docker |     |
-| ------------- | ---------------------------- | --------- | ------ | ------ | --- |
-| Chibisafe     |                              |           |        |        |     |
-| Enclosed      | [Demo](https://enclosed.cc/) | y         | y      | y      |     |
-| Files Sharing |                              |           |        |        |     |
-| Gokapi        |                              |           |        |        |     |
-| Gose          |                              |           |        |        |     |
-| PicoShare     |                              |           |        |        |     |
-| Picsur        |                              |           |        |        |     |
-| PictShare     |                              |           |        |        |     |
-| Plik          |                              |           |        |        |     |
-| QuickShare    |                              |           |        |        |     |
-| Sharry        |                              |           |        |        |     |
-| Shifter       |                              |           |        |        |     |
-| Slink         |                              |           |        |        |     |
-| XBackBone     |                              |           |        |        |     |
-| Zipline       |                              |           |        |        |     |
+| Tool          | Links                                                                                | Encrypted | German | Docker                                                                   | Photo Album |
+| ------------- | ------------------------------------------------------------------------------------ | --------- | ------ | ------------------------------------------------------------------------ | ----------- |
+| Chibisafe     | [GH](https://github.com/chibisafe/chibisafe)                                         |           |        |                                                                          |             |
+| Enclosed      | [GH](https://github.com/CorentinTh/enclosed), [Demo](https://enclosed.cc/)           | y         | y      | mono                                                                     | n           |
+| Files Sharing | [GH](https://github.com/axeloz/filesharing), [Demo](https://filesharing.webinno.fr/) | y         | n      | [mono](https://github.com/axeloz/filesharing?tab=readme-ov-file#docker)  | n           |
+| Gokapi        | [GH](https://github.com/Forceu/gokapi)                                               | y         | n      | [mono](https://github.com/Forceu/Gokapi/blob/master/docker-compose.yaml) | n           |
+| Gose          | [GH](https://github.com/stv0g/gose)                                                  |           |        |                                                                          |             |
+| PicoShare     |                                                                                      |           |        |                                                                          |             |
+| Picsur        |                                                                                      |           |        |                                                                          |             |
+| PictShare     |                                                                                      |           |        |                                                                          |             |
+| Plik          |                                                                                      |           |        |                                                                          |             |
+| QuickShare    |                                                                                      |           |        |                                                                          |             |
+| Sharry        |                                                                                      |           |        |                                                                          |             |
+| Shifter       |                                                                                      |           |        |                                                                          |             |
+| Slink         |                                                                                      |           |        |                                                                          |             |
+| XBackBone     |                                                                                      |           |        |                                                                          |             |
+| Zipline       |                                                                                      |           |        |                                                                          |             |
