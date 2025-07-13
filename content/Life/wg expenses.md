@@ -25,6 +25,8 @@ tags:
 | 2022-07-16 | -            | Amazon          | 12,99           |              |          | Waschmaschine Vibrationsmatte        |                               |
 | 2025-01-04 | -            | Amazon          | 74,99 (6 Stück) |              |          | 30L Storageboxen ()                  |                               |
 | 2025-01-04 | -            | Amazon          | 9,02            |              |          | Antivibrationspads für Waschmaschine |                               |
+|            |              |                 |                 |              |          | Tiefe Pfanne                         |                               |
+|            |              |                 |                 |              |          | Flache Pfanne                        |                               |
 |            |              |                 |                 |              |          |                                      |                               |
 -> kurz nach 2025-01-10: Retoure von Fiyo.de (Bestellung war 88,98€ + 6,99€ Versand)
 # Kleine Posten (Verbrauchsgüter)
