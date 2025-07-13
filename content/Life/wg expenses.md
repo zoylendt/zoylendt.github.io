@@ -26,7 +26,7 @@ tags:
 | 2025-01-04 | -            | Amazon          | 74,99 (6 Stück) |              |          | 30L Storageboxen ()                  |                               |
 | 2025-01-04 | -            | Amazon          | 9,02            |              |          | Antivibrationspads für Waschmaschine |                               |
 |            |              |                 |                 |              |          |                                      |                               |
--> kurz nach 2025-01-10: Retoure von Fiyo.de ()
+-> kurz nach 2025-01-10: Retoure von Fiyo.de (Bestellung war 88,98€ + 6,99€ Versand)
 # Kleine Posten (Verbrauchsgüter)
 
 | Datum      | Kassenbon ID | Shop   | Betrag (gesamt) | Betrag (1/3) | In Splid | Item                           | Kommentar |
