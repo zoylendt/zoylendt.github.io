@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-30
 publishDate: 2025-01-30
-updated: 2025-07-13
+updated: 2025-07-14
 draft: true
 tags:
   - unfinished
@@ -27,6 +27,7 @@ tags:
 | 2025-01-04 | -            | Amazon          | 9,02            |              |          | Antivibrationspads für Waschmaschine |                               |
 |            |              |                 |                 |              |          | Tiefe Pfanne                         |                               |
 |            |              |                 |                 |              |          | Flache Pfanne                        |                               |
+|            |              |                 |                 |              |          | Mehrfachsteckdose                    |                               |
 |            |              |                 |                 |              |          |                                      |                               |
 -> kurz nach 2025-01-10: Retoure von Fiyo.de (Bestellung war 88,98€ + 6,99€ Versand)
 # Kleine Posten (Verbrauchsgüter)
