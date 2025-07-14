@@ -29,7 +29,8 @@ tags:
 |            |              |                 |                 |              |          | Flache Pfanne                        |                               |
 |            |              |                 |                 |              |          | Mehrfachsteckdose                    |                               |
 |            |              |                 |                 |              |          | Luftentfeuchter fürs Bad             |                               |
-|            |              | Amazon          |                 |              |          |                                      |                               |
+| 2022-12-18 | -            | Amazon          | 13,95           |              |          | Backofen/Kühlschrankthermometer      |                               |
+| 2022-06-20 | -            | Amazon          | 14,99           |              |          | 1L Messbecher Glas                   |                               |
 -> kurz nach 2025-01-10: Retoure von Fiyo.de (Bestellung war 88,98€ + 6,99€ Versand)
 # Kleine Posten (Verbrauchsgüter)
 
