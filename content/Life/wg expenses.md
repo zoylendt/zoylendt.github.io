@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-30
 publishDate: 2025-01-30
-updated: 2025-07-15
+updated: 2025-07-16
 draft: true
 tags:
   - unfinished
@@ -32,12 +32,14 @@ tags:
 | 2022-12-18 | -            | Amazon          | 13,95                     |              |          | Backofen/Kühlschrankthermometer        |                               |
 | 2022-06-20 | -            | Amazon          | 14,99                     |              |          | 1L Messbecher Glas                     |                               |
 |            |              | Bauhaus         |                           |              |          | Duschschlauch                          | gekauft nach Timothy's Auszug |
+|            |              | IKEA            |                           |              |          | Schere                                 | gekauft nach Timothy's Auszug |
 -> kurz nach 2025-01-10: Retoure von Fiyo.de (Bestellung war 88,98€ + 6,99€ Versand)
 # Kleine Posten (Verbrauchsgüter)
 
 | Datum      | Kassenbon ID | Shop   | Betrag (gesamt) | Betrag (1/3) | In Splid | Item                           | Kommentar |
 | ---------- | ------------ | ------ | --------------- | ------------ | -------- | ------------------------------ | --------- |
 | 2025-01-27 | -            | Amazon | 2,65            |              |          | Waschmaschinen-Hygienereiniger |           |
+|            |              | IKEA   |                 |              |          | Küchenrolle                    |           |
 |            |              |        |                 |              |          |                                |           |
 # Laufende Kosten (Internet)
 
