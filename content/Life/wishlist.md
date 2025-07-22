@@ -13,8 +13,6 @@ tags:
 
 
 
-- [M5 Stamp S3](https://www.amazon.de/M5Stack-Offizielles-Cardputer-Kit-M5StampS3-GRAU/dp/B0D8Q4852D/)
-- [Zigbee vibration sensor](https://www.amazon.de/dp/B0C9DP249C)
 - [Zigbee temp sensor](https://apolloautomation.com/products/temp-1-temperature-probe-for-home-assistant)
 - [Wireless ThinkPad keyboard](https://www.lenovo.com/us/en/p/accessories-and-software/keyboards-and-mice/keyboards/4y40x49493)
 - [android e-ink reader](https://shop.boox.com/)
@@ -26,13 +24,16 @@ tags:
 - [M5 Stamp S3](https://www.amazon.de/M5Stack-Offizielles-Cardputer-Kit-M5StampS3-GRAU/dp/B0D8Q4852D/)
 - [YubiKey 5 NFC](https://www.amazon.de/gp/product/B07HBD71HL/) ~55€
 - [Heltec MeshPocket Qi2 10Ah](https://heltec.org/project/meshpocket/) ~70€ + Versand
-- 
+- [Heltec Capsule Sensor V3](https://heltec.org/project/heltec-capsule-sensor-v3/) ~50€ + Versand
 
 # SmartHome & Homelab
 - [Shelly Pro 3EM 120A](https://www.amazon.de/gp/product/B0BVKZ4NGM/) ~90€
 - Balkonkraftwerk + Batteriespeicher
+- Balkongarten
 - [Zigbee Bodenfeuchtigkeits-Sensor](https://www.amazon.de/gp/product/B0F5MP8CQB/) ~32€ für 2
 - JetKVM
+- [Zigbee Vibrationssensor mit Alarm](https://www.amazon.de/dp/B0C9DP249C/) ~18€
+- DIY TRMNL
 - 
 
 # Küche
