@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-02
 publishDate: 2025-02-02
-updated: 2025-07-07
+updated: 2025-07-22
 draft: true
 tags:
   - personal
@@ -21,3 +21,16 @@ tags:
 - Playdate
 - Flipper Zero
 - [Achtung! Cthulhu 2D20: Black Sun Exarch Collectors Edition (EN)](https://www.magierspiele.de/Achtung-Cthulhu-2D20-Black-Sun-Exarch-Collectors-Edition-EN) (100...125€)
+
+# SmartHome
+- [Shelly Pro 3EM 120A](https://www.amazon.de/gp/product/B0BVKZ4NGM/) ~90€
+- Balkonkraftwerk + Batteriespeicher
+- [Zigbee Bodenfeuchtigkeits-Sensor](https://www.amazon.de/gp/product/B0F5MP8CQB/)
+
+# Küche
+- [BRITA Flow Wasserfilter XXL (8,2l)](https://www.amazon.de/gp/product/B0BSXFMRQN/) ~45€
+- [Flaschen-Abtropfgestell](https://www.amazon.de/gp/product/B0DK9BJH3C/) ~17€
+- Instant Pot Zubehör:
+    - [Dörrgestell](https://www.amazon.de/gp/product/B0B8SGL8ML/) ~26€
+    - [Kochtopf](https://www.amazon.de/gp/product/B07ZGGPQCX/) ~50€
+    - [Glasdeckel](https://www.amazon.de/gp/product/B01K7XKN8I/) ~25€
