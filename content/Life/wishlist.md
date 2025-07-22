@@ -20,15 +20,20 @@ tags:
 - [android e-ink reader](https://shop.boox.com/)
 
 
-# Tech Gadgets
+# Gadgets
 - Playdate
 - Flipper Zero
-- - [M5 Stamp S3](https://www.amazon.de/M5Stack-Offizielles-Cardputer-Kit-M5StampS3-GRAU/dp/B0D8Q4852D/)
+- [M5 Stamp S3](https://www.amazon.de/M5Stack-Offizielles-Cardputer-Kit-M5StampS3-GRAU/dp/B0D8Q4852D/)
+- [YubiKey 5 NFC](https://www.amazon.de/gp/product/B07HBD71HL/) ~55€
+- [Heltec MeshPocket Qi2 10Ah](https://heltec.org/project/meshpocket/) ~70€ + Versand
+- 
 
 # SmartHome & Homelab
 - [Shelly Pro 3EM 120A](https://www.amazon.de/gp/product/B0BVKZ4NGM/) ~90€
 - Balkonkraftwerk + Batteriespeicher
 - [Zigbee Bodenfeuchtigkeits-Sensor](https://www.amazon.de/gp/product/B0F5MP8CQB/) ~32€ für 2
+- JetKVM
+- 
 
 # Küche
 - [BRITA Flow Wasserfilter XXL (8,2l)](https://www.amazon.de/gp/product/B0BSXFMRQN/) ~45€
@@ -38,7 +43,7 @@ tags:
     - [Kochtopf](https://www.amazon.de/gp/product/B07ZGGPQCX/) ~50€
     - [Glasdeckel](https://www.amazon.de/gp/product/B01K7XKN8I/) ~25€
 - Standmixer
-- 
+- Keramik-Pfanne
 - Holzbrett, zB:
     - [40x29cm](https://www.amazon.de/gp/product/B0DCKGLQ92/) ~55€
     - [Öl](https://www.amazon.de/gp/product/B07CYXK3T3/) ~13€
@@ -50,4 +55,5 @@ tags:
 # Brettspiele & PnP
 - [Achtung! Cthulhu 2D20: Black Sun Exarch Collectors Edition (EN)](https://www.magierspiele.de/Achtung-Cthulhu-2D20-Black-Sun-Exarch-Collectors-Edition-EN) (100...125€)
 - [Achtung! Cthulhu Dice Set](https://www.amazon.de/gp/product/B098KLG1F9/) ~22€
+- [A-Puzzle-A-Day](https://www.amazon.de/gp/product/B09BHV12QF/)
 - 
