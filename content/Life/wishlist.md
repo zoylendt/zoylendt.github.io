@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-02
 publishDate: 2025-02-02
-updated: 2025-07-22
+updated: 2025-07-23
 draft: true
 tags:
   - personal
@@ -43,6 +43,7 @@ tags:
     - [Dörrgestell](https://www.amazon.de/gp/product/B0B8SGL8ML/) ~26€
     - [Kochtopf](https://www.amazon.de/gp/product/B07ZGGPQCX/) ~50€
     - [Glasdeckel](https://www.amazon.de/gp/product/B01K7XKN8I/) ~25€
+    - [Dämpfkorb](https://www.amazon.de/gp/product/B07P4LJJG4/) ~20€
 - Standmixer
 - Keramik-Pfanne
 - Holzbrett, zB:
