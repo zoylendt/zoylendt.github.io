@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-02-02
 publishDate: 2025-02-02
-updated: 2025-07-23
+updated: 2025-08-04
 draft: true
 tags:
   - personal
@@ -21,8 +21,8 @@ tags:
 # Gadgets
 - Playdate
 - Flipper Zero
-- [M5 Stamp S3](https://www.amazon.de/M5Stack-Offizielles-Cardputer-Kit-M5StampS3-GRAU/dp/B0D8Q4852D/)
-- [YubiKey 5 NFC](https://www.amazon.de/gp/product/B07HBD71HL/) ~55€
+- [M5 Stamp S3A](https://shop.m5stack.com/products/m5stack-cardputer-with-m5stamps3-v1-1) ~30$ + Versand
+- ~~[YubiKey 5 NFC](https://www.amazon.de/gp/product/B07HBD71HL/) ~55€~~
 - [Heltec MeshPocket Qi2 10Ah](https://heltec.org/project/meshpocket/) ~70€ + Versand
 - [Heltec Capsule Sensor V3](https://heltec.org/project/heltec-capsule-sensor-v3/) ~50€ + Versand
 
@@ -40,7 +40,7 @@ tags:
 - [BRITA Flow Wasserfilter XXL (8,2l)](https://www.amazon.de/gp/product/B0BSXFMRQN/) ~45€
 - [Flaschen-Abtropfgestell](https://www.amazon.de/gp/product/B0DK9BJH3C/) ~17€
 - Instant Pot Zubehör:
-    - [Dörrgestell](https://www.amazon.de/gp/product/B0B8SGL8ML/) ~26€
+    - ~~[Dörrgestell](https://www.amazon.de/gp/product/B0B8SGL8ML/) ~26€~~
     - [Kochtopf](https://www.amazon.de/gp/product/B07ZGGPQCX/) ~50€
     - [Glasdeckel](https://www.amazon.de/gp/product/B01K7XKN8I/) ~25€
     - [Dämpfkorb](https://www.amazon.de/gp/product/B07P4LJJG4/) ~20€
