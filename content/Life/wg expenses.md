@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-01-30
 publishDate: 2025-01-30
-updated: 2025-07-16
+updated: 2025-08-17
 draft: true
 tags:
   - unfinished
@@ -28,7 +28,7 @@ tags:
 |            |              |                 |                           |              |          | Tiefe Pfanne                           |                               |
 |            |              |                 |                           |              |          | Flache Pfanne                          |                               |
 |            |              |                 |                           |              |          | Mehrfachsteckdose                      |                               |
-|            |              |                 |                           |              |          | Luftentfeuchter fürs Bad               |                               |
+| 2025-04-26 |              |                 | 13,98                     |              |          | Luftentfeuchter fürs Bad               |                               |
 | 2022-12-18 | -            | Amazon          | 13,95                     |              |          | Backofen/Kühlschrankthermometer        |                               |
 | 2022-06-20 | -            | Amazon          | 14,99                     |              |          | 1L Messbecher Glas                     |                               |
 |            |              | Bauhaus         |                           |              |          | Duschschlauch                          | gekauft nach Timothy's Auszug |
