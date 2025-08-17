@@ -21,18 +21,19 @@ tags:
 | 2025-01-09 | -            | Amazon          | 39,82                     |              |          | Spülmaschine Korb Unten                |                               |
 |            |              |                 |                           |              |          | Waschmaschine Unterbau                 | gekauft nach Timothy's Auszug |
 | 2023-08-08 |              | Saturn          | 474,88                    |              |          | Backofen                               |                               |
-|            |              | Bauhaus         |                           |              |          | Backofen Kabel                         |                               |
+| 2023-10-31 | 23-10-09     | Bauhaus         | 9,95                      |              |          | Backofen Kabel                         |                               |
 | 2022-07-16 | -            | Amazon          | 12,99                     |              |          | Waschmaschine Vibrationsmatte          |                               |
 | 2025-01-04 | -            | Amazon          | 24,97 (74,99 für 6 Stück) |              |          | 30L Storageboxen (2 St.)               | 2 für WG + 1 für Alexios      |
 | 2025-01-04 | -            | Amazon          | 9,02                      |              |          | 4 Antivibrationspads für Waschmaschine |                               |
 |            |              |                 |                           |              |          | Tiefe Pfanne                           |                               |
 |            |              |                 |                           |              |          | Flache Pfanne                          |                               |
-|            |              |                 |                           |              |          | Mehrfachsteckdose                      |                               |
+|            |              | IKEA            |                           |              |          | Mehrfachsteckdose                      |                               |
 | 2025-04-26 |              |                 | 13,98                     |              |          | Luftentfeuchter fürs Bad               |                               |
 | 2022-12-18 | -            | Amazon          | 13,95                     |              |          | Backofen/Kühlschrankthermometer        |                               |
 | 2022-06-20 | -            | Amazon          | 14,99                     |              |          | 1L Messbecher Glas                     |                               |
 |            |              | Bauhaus         |                           |              |          | Duschschlauch                          | gekauft nach Timothy's Auszug |
 |            |              | IKEA            |                           |              |          | Schere                                 | gekauft nach Timothy's Auszug |
+| 2023-02-1  | 23-02-13     |                 |                           |              |          |                                        |                               |
 -> kurz nach 2025-01-10: Retoure von Fiyo.de (Bestellung war 88,98€ + 6,99€ Versand)
 # Kleine Posten (Verbrauchsgüter)
 
@@ -40,7 +41,7 @@ tags:
 | ---------- | ------------ | ------ | --------------- | ------------ | -------- | ------------------------------ | --------- |
 | 2025-01-27 | -            | Amazon | 2,65            |              |          | Waschmaschinen-Hygienereiniger |           |
 |            |              | IKEA   |                 |              |          | Küchenrolle                    |           |
-|            |              |        |                 |              |          |                                |           |
+| 2023-02-09 | 23-02-05     | REWE   | 4,05            |              |          | Toilettenpapier                |           |
 # Laufende Kosten (Internet)
 
 ...
