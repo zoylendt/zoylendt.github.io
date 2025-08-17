@@ -33,6 +33,8 @@ tags:
 |            |              | IKEA            |                           |              |          | Schere                                 | gekauft nach Timothy's Auszug |
 | 2023-02-18 | 23-02-13     | REWE            | 14,99                     |              |          | Pfanne 28cm                            |                               |
 | 2023-05-10 | 23-05-11     | ALDI            | 16,99                     |              |          | Pfanne 24cm                            |                               |
+| 2023-07-08 | 23-07-04     | IKEA            | 7,99                      |              |          | Mülleimer kl.                          |                               |
+| 2023-11-17 | 23-11-07     | IKEA            | 28,97                     |              |          | Mülleimer (1 gr. + 2 kl)               |                               |
 -> kurz nach 2025-01-10: Retoure von Fiyo.de (Bestellung war 88,98€ + 6,99€ Versand)
 # Kleine Posten (Verbrauchsgüter)
 
@@ -44,6 +46,12 @@ tags:
 | 2023-04-25 | 23-04-13     | dm     | 15,65           |              |          | div. Reinigungsmittel          |           |
 | 2023-06-02 | 23-06-03     | dm     | 2,25            |              |          | 120L Abfallsäcke               |           |
 | 2023-06-16 | 23-06-17     | ALDI   | 1,49            |              |          | WC-Reiniger                    |           |
+| 2023-07-15 | 23-07-10     | Edeka  | 1,89            |              |          | Sonnenblumenöl                 |           |
+| 2023-07-15 | 23-07-12     | Rewe   | 1,69            |              |          | WC frisch                      |           |
+| 2023-09-29 | 23-09-11     | Rewe   | 2,79            |              |          | Pfeffer                        |           |
+| 2023-10-31 | 23-10-10     | Edeka  | 4,94            |              |          | Backpapier + Entkalker         |           |
+| 2023-11-23 | 23-11-09     | Aldi   | 1,69            |              |          | Zucker                         |           |
+|            |              | dm     |                 |              |          | div. Reinigungsmittel          |           |
 # Laufende Kosten (Internet)
 
 ...
