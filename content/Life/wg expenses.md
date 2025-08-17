@@ -35,6 +35,8 @@ tags:
 | 2023-05-10 | 23-05-11     | ALDI            | 16,99                     |              |          | Pfanne 24cm                            |                               |
 | 2023-07-08 | 23-07-04     | IKEA            | 7,99                      |              |          | Mülleimer kl.                          |                               |
 | 2023-11-17 | 23-11-07     | IKEA            | 28,97                     |              |          | Mülleimer (1 gr. + 2 kl)               |                               |
+| 2023-12-04 | 23-12-01     | Bauhaus         | 24,89                     |              |          | Leuchtmittel                           |                               |
+| 2023-12-19 | 23-12-05     | Bauhaus         | 30,59                     |              |          | Besteckkasten, Lack, Röhre             |                               |
 -> kurz nach 2025-01-10: Retoure von Fiyo.de (Bestellung war 88,98€ + 6,99€ Versand)
 # Kleine Posten (Verbrauchsgüter)
 
@@ -50,8 +52,13 @@ tags:
 | 2023-07-15 | 23-07-12     | Rewe   | 1,69            |              |          | WC frisch                      |           |
 | 2023-09-29 | 23-09-11     | Rewe   | 2,79            |              |          | Pfeffer                        |           |
 | 2023-10-31 | 23-10-10     | Edeka  | 4,94            |              |          | Backpapier + Entkalker         |           |
-| 2023-11-23 | 23-11-09     | Aldi   | 1,69            |              |          | Zucker                         |           |
-|            |              | dm     |                 |              |          | div. Reinigungsmittel          |           |
+| 2023-11-25 | 23-11-13     | Aldi   | 2,29            |              |          | Zucker                         |           |
+| 2023-11-23 | 23-11-10     | dm     | 15,20           |              |          | div. Reinigungsmittel          |           |
+| 2023-11-23 | 23-11-11     | Lidl   | 1,29            |              |          | Sonnenblumenöl                 |           |
+|            | 24-01-02     | Rewe   | 1,90            |              |          | Putzlappen                     |           |
+|            | 24-01-03     | Aldi   | 2,94            |              |          | Reiniger                       |           |
+|            | 24-01-07     | Rewe   | 5,69            |              |          | Toilettenpapier                |           |
+|            | 24-04-02     | Rewe   | 2,79            |              |          | Zucker                         |           |
 # Laufende Kosten (Internet)
 
 ...
