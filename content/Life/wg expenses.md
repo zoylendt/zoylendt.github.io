@@ -20,7 +20,7 @@ tags:
 | 2025-01-10 | -            | sos-zubehoer.de | 55,20                     |              |          | Spülmaschine Korb Oben                 |                               |
 | 2025-01-09 | -            | Amazon          | 39,82                     |              |          | Spülmaschine Korb Unten                |                               |
 |            |              |                 |                           |              |          | Waschmaschine Unterbau                 | gekauft nach Timothy's Auszug |
-|            |              |                 |                           |              |          | Backofen                               |                               |
+| 2023-08-08 |              | Saturn          | 474,88                    |              |          | Backofen                               |                               |
 |            |              | Bauhaus         |                           |              |          | Backofen Kabel                         |                               |
 | 2022-07-16 | -            | Amazon          | 12,99                     |              |          | Waschmaschine Vibrationsmatte          |                               |
 | 2025-01-04 | -            | Amazon          | 24,97 (74,99 für 6 Stück) |              |          | 30L Storageboxen (2 St.)               | 2 für WG + 1 für Alexios      |
