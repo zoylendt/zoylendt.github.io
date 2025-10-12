@@ -1,11 +1,11 @@
 ---
 title: Wishlist
-subtitle: 
-description: 
-permalink: 
+subtitle:
+description:
+permalink:
 date: 2025-02-02
 publishDate: 2025-02-02
-updated: 2025-08-04
+updated: 2025-10-13
 draft: true
 tags:
   - personal
@@ -20,7 +20,7 @@ tags:
 
 # Gadgets
 - Playdate
-- Flipper Zero
+- ~~Flipper Zero~~ Flipper One
 - [M5 Stamp S3A](https://shop.m5stack.com/products/m5stack-cardputer-with-m5stamps3-v1-1) ~30$ + Versand
 - ~~[YubiKey 5 NFC](https://www.amazon.de/gp/product/B07HBD71HL/) ~55€~~
 - [Heltec MeshPocket Qi2 10Ah](https://heltec.org/project/meshpocket/) ~70€ + Versand
