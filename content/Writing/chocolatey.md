@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2024-06-01
 publishDate: 2024-06-01
-updated: 2025-03-03
+updated: 2025-10-19
 draft: false
 tags:
   - windows
@@ -45,57 +45,60 @@ c = installed through chocolatey
 m = manually installed  
 \- = not installed  
 
-|                                     | m700 | x1y3-2 | zalman2 | prod400g5 | VM  |
+|                                     | m700 | x1y3-2 | zalman3 | prod400g5 | VM  |
 | ----------------------------------- | ---- | ------ | ------- | --------- | --- |
 | 7zip.install                        |      | c      |         | c         |     |
 | alldup                              | m    | c      | -       | -         |     |
-| anydesk.install                     | m    | c      | m       | m         |     |
+| anydesk                             | m    | c      | -       | c         |     |
 | arduino                             | c    |        | -       | -         |     |
-| bitwarden                           | m    | c      | m       | m         |     |
-| brave                               | m    | c      | m       | m         |     |
-| calibre                             | c    |        | m       | -         |     |
-| chocolateygui                       | c    |        | c       | -         |     |
-| docker-desktop                      |      | c      |         | m         |     |
-| everything                          | c    | c      | m       | c         |     |
+| audioswitcher                       | m    | c      | -       | c         |     |
+| bitwarden                           | m    | c      | -       | c         |     |
+| brave                               | m    | c      | c       | c         |     |
+| calibre                             | c    |        | -       | -         |     |
+| chocolateygui                       | c    |        | -       | -         |     |
+| discord.install                     |      | c      |         | c         |     |
+| docker-desktop                      |      | c      |         | c         |     |
+| everything                          | c    | c      | -       | c         |     |
 | extractnow                          | c    |        | -       | -         |     |
 | fastcopy                            |      | c      |         | c         |     |
 | filebeat                            |      | c      |         | -         |     |
 | foxitreader                         |      | c      |         | c         |     |
-| git.install                         | c    | c      | m       | c         |     |
-| github-desktop                      | c    | c      | m       | c         |     |
-| handbrake                           |      | c      |         | c         |     |
+| git.install                         | c    | c      | -       | c         |     |
+| github-desktop                      | c    | c      | -       | c         |     |
+| handbrake                           |      | c      |         | -         |     |
 | jdownloader                         | c    | c      |         | c         |     |
-| kopiaui                             | c    | c      | c       | c         |     |
+| kopiaui                             | c    | c      | -       | c         |     |
 | metricbeat                          |      | c      |         | -         |     |
 | notepadplusplus                     | m    | c      |         | c         |     |
 | obsidian                            | m    | c      |         | c         |     |
-| paint.net                           | c    | c      |         | -         |     |
-| pdf24                               | c    | c      | c       | c         |     |
+| paint.net                           | c    | c      |         | c         |     |
+| pdf24                               | c    | c      | -       | c         |     |
 | prometheus-windows-exporter.install |      | c      |         | -         |     |
 | putty                               | m    | c      |         | c         |     |
-| pycharm-community                   |      | c      |         | c         |     |
-| rpi-imager                          | m    | c      | m       | -         |     |
+| pycharm-community                   |      | c      |         | -         |     |
+| rpi-imager                          | m    | c      | -       | c         |     |
 | sonos-controller                    | m    |        | -       | c         |     |
-| spotify                             | m    | c      | m       | c         |     |
-| steam                               | m    | m      | m       | m         |     |
-| synctrayzor                         | m    | c      | m       | m         |     |
-| tailscale                           | m    | c      | m       | m         |     |
-| teamspeak                           | m    | c      | m       | m         |     |
-| telegram                            | m    | c      | m       | c         |     |
-| treesizefree                        | c    | c      | c       | c         |     |
+| spotify                             | m    | c      | -       | c         |     |
+| steam                               | m    | m      | c       | c         |     |
+| synctrayzor                         | m    | c      | -       | c         |     |
+| tailscale                           | m    | c      | -       | c         |     |
+| teamspeak                           | m    | c      | c       | c         |     |
+| telegram                            | m    | c      | -       | c         |     |
+| treesizefree                        | c    | c      | -       | -         |     |
 | vlc                                 | m    | c      |         | c         |     |
 | vscode                              | c    | -      |         | c         |     |
-| vscodium                            |      | c      |         | c         |     |
-| win32diskimager                     | m    |        | m       | -         |     |
+| vscodium                            |      | c      |         | -         |     |
+| win32diskimager                     | m    |        | -       | -         |     |
 | wiztree                             | c    |        |         | -         |     |
 
 Special notes:
 - [extractnow](https://extractnow.com/#/home) (no longer available in Chocolatey)
 - alldup (outdated, last update: 29 Jun 2021)
+- audioswitcher (doesn't work under Win11?)
 
 Install all at once:
   ```shell
-  choco install -y 
+  choco install -y <pkg1> <pkg2>
   ```
 
 
