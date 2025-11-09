@@ -20,14 +20,14 @@ Here is a number linked:
 
 # Locations
 
-- in the same folder: 1
-- in a subfolder 'attachments': 2
-- in the root folder: 3
-- in a subfolder 'attachments' of the root folder: 4
-- in braindump: 5
-- in braindump/attachments: 6
-- in life: 7
-- in life/attachments: 8
+- 1: in the same folder
+- 2: in a subfolder 'attachments'
+- 3: in the root folder
+- 4: in a subfolder 'attachments' of the root folder
+- 5: in braindump
+- 6: in braindump/attachments
+- 7: in life
+- 8: in life/attachments
 
 # Priority
 
