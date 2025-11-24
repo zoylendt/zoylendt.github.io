@@ -5,7 +5,7 @@ description:
 permalink: 
 date: 2025-04-10
 publishDate: 2025-04-10
-updated: 2025-07-01
+updated: 2025-11-23
 draft: false
 tags:
   - unfinished
@@ -54,7 +54,7 @@ tags:
 | War Dogs                                                   |                           |      |                                                  |           |            |
 | Predator 1                                                 |                           |      |                                                  |           |            |
 | Office Space                                               |                           | 1999 |                                                  |           |            |
-|                                                            |                           |      |                                                  |           |            |
+| Lisztomania                                                |                           | 1975 | [6,1](https://www.imdb.com/title/tt0073298/)     | n         |            |
 
 | Title (Eng)          | Title (Ger)    | Year | IMDB | Jellyfin? |
 | -------------------- | -------------- | ---- | ---- | --------- |
