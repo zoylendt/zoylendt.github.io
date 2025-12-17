@@ -4,7 +4,7 @@ subtitle:
 description:
 permalink: perma/steamkeys
 date: 2024-05-09
-updated: 2025-12-13
+updated: 2025-12-17
 publishDate: 2024-05-09
 draft: false
 tags:
@@ -23,8 +23,6 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | 2026-06-07  | Narita Boy                         | 2025-05-28    | -       |
 | 2026-06-07  | Honey I joined a cult              | 2025-05-28    | -       |
 | 2026-06-11  | Ring of Pain                       | 2025-12-07    | -       |
-| 2026-07-01  | Warhammer 40,000: Rogue Trader     | 2025-07-10    | -       |
-| 2026-09-01  | Persona 5 Royal                    | 2025-08-26    | -       |
 | 2026-10-06  | Return to Monkey Island            | 2025-09-29    | -       |
 | 2026-11-03  | System Shock (2023)                | 2025-10-28    | -       |
 | 2026-12-01  | Total War: WARHAMMER III           | 2025-11-04    | -       |
