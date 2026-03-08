@@ -1,18 +1,18 @@
 ---
 title: Numbers Test
-subtitle: 
-description: 
-permalink: 
+subtitle:
+description:
+permalink:
 date: 2025-11-09
 publishDate: 2025-11-09
-updated: 2025-11-09
+updated: 2026-03-09
 draft: false
 publish: true
 tags:
   - test
 ---
 
-This is for testing the pririty of directories when resolving linked files.
+This is for testing the priority of directories when resolving linked files.
 
 Here is a number linked:
 
