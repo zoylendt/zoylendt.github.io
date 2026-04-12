@@ -1,4 +1,4 @@
-import { pathToRoot, slugTag } from "../util/path"
+import { FullSlug, resolveRelative } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import { GlobalConfiguration } from "../cfg"
@@ -22,7 +22,7 @@ export default ((userOpts?: Partial<Options>) => {
           {tags.filter(tag => {
             return !_excludeTags.some(excludeTag => tag.includes(excludeTag));
           }).map((tag) => {
-            const linkDest = baseDir + `/tags/${slugTag(tag)}`
+            const linkDest = resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
             return (
               <li>
                 <a href={linkDest} class="internal tag-link">
