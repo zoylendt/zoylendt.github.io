@@ -1,43 +1,30 @@
 import { FullSlug, resolveRelative } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-import { GlobalConfiguration } from "../cfg"
 
-interface Options {
-  excludeTags: string[]
-}
-const defaultOptions = (cfg: GlobalConfiguration): Options => ({
-  excludeTags: []
-})
-
-export default ((userOpts?: Partial<Options>) => {
-  const TagList: QuartzComponent = ({ fileData, displayClass, cfg }: QuartzComponentProps) => {
-    const opts = { ...defaultOptions(cfg), ...userOpts }
-    const _excludeTags = opts.excludeTags
-    const tags = fileData.frontmatter?.tags
-    const baseDir = pathToRoot(fileData.slug!)
-    if (tags && tags.length > 0) {
-      return (
-        <ul class={classNames(displayClass, "tags")}>
-          {tags.filter(tag => {
-            return !_excludeTags.some(excludeTag => tag.includes(excludeTag));
-          }).map((tag) => {
-            const linkDest = resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
-            return (
-              <li>
-                <a href={linkDest} class="internal tag-link">
-                  {tag}
-                </a>
-              </li>
-            )
-          })}
-        </ul>
-      )
-    } else {
-      return null
-    }
+const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
+  const tags = fileData.frontmatter?.tags
+  if (tags && tags.length > 0) {
+    return (
+      <ul class={classNames(displayClass, "tags")}>
+        {tags.map((tag) => {
+          const linkDest = resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
+          return (
+            <li>
+              <a href={linkDest} class="internal tag-link">
+                {tag}
+              </a>
+            </li>
+          )
+        })}
+      </ul>
+    )
+  } else {
+    return null
   }
-  TagList.css = `
+}
+
+TagList.css = `
 .tags {
   list-style: none;
   display: flex;
@@ -65,7 +52,5 @@ a.internal.tag-link {
   margin: 0 0.1rem;
 }
 `
-  return TagList
-}) satisfies QuartzComponentConstructor
 
-// export default (() => TagList) satisfies QuartzComponentConstructor
+export default (() => TagList) satisfies QuartzComponentConstructor
