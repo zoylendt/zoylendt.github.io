@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🍺zoy.sh📙",
+    pageTitle: "🍺zoy.sh",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
