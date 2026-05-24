@@ -1,18 +1,34 @@
 ---
 title: My homelab hardware
-subtitle: 
-description: 
-permalink: 
+subtitle:
+description:
+permalink:
 date: 2024-05-13
 publishDate: 2024-05-13
-updated: 2025-01-31
+updated: 2026-05-24
 draft: false
 tags:
   - homelab
   - selfhosted
   - unfinished
 ---
- 
+
+# Overview
+
+
+| Hostname   | CPU (Cores), RAM    | Storage                                          | Usage | Comment                                                |
+| ---------- | ------------------- | ------------------------------------------------ | ----- | ------------------------------------------------------ |
+| titan      | N4100 (4), 32GB     |                                                  |       |                                                        |
+| tungsten   | i7-8700T (12), 32GB | - 1TB NVMe (root)<br>- 4TB SATA SSD              |       |                                                        |
+| neodym     | i5-4570S (4), 16GB  |                                                  |       |                                                        |
+| cer        | J3455 (4), 16GB     | - 250GB m.2 SSD<br>- 250Gb microSD               |       | [Fitlet2](https://edge.compulab.com/products/fitlet2/) |
+| indium     | i3-6100T (4), 16GB  | - 250GB m.2 SSD<br>- 4TB SATA SSD<br>- 250GB USB |       |                                                        |
+| datengrab  | J3455 (4), 16GB     |                                                  |       |                                                        |
+| ds923zoy   | R1600 (2), 20GB     |                                                  |       | Syno DS923+                                            |
+| bernstein2 |                     |                                                  |       | Syno DS                                                |
+| abcnas     |                     |                                                  |       | Syno DS                                                |
+
+
 # Complete Systems
 
 | ==ID==    | ==System (or MB)==                                                               | ==CPU==       | ==RAM== | ==Usable (Raw) Storage== | ==Usage==       |
