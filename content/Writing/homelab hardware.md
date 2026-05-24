@@ -16,17 +16,17 @@ tags:
 # Overview
 
 
-| Hostname   | CPU (Cores), RAM    | Storage                                          | Usage | Comment                                                |
-| ---------- | ------------------- | ------------------------------------------------ | ----- | ------------------------------------------------------ |
-| titan      | N4100 (4), 32GB     |                                                  |       |                                                        |
-| tungsten   | i7-8700T (12), 32GB | - 1TB NVMe (root)<br>- 4TB SATA SSD              |       |                                                        |
-| neodym     | i5-4570S (4), 16GB  |                                                  |       |                                                        |
-| cer        | J3455 (4), 16GB     | - 250GB m.2 SSD<br>- 250Gb microSD               |       | [Fitlet2](https://edge.compulab.com/products/fitlet2/) |
-| indium     | i3-6100T (4), 16GB  | - 250GB m.2 SSD<br>- 4TB SATA SSD<br>- 250GB USB |       |                                                        |
-| datengrab  | J3455 (4), 16GB     |                                                  |       |                                                        |
-| ds923zoy   | R1600 (2), 20GB     |                                                  |       | Syno DS923+                                            |
-| bernstein2 |                     |                                                  |       | Syno DS                                                |
-| abcnas     |                     |                                                  |       | Syno DS                                                |
+| Hostname   | CPU (Cores), RAM    | Storage                                                                | Usage | Comment                                                |
+| ---------- | ------------------- | ---------------------------------------------------------------------- | ----- | ------------------------------------------------------ |
+| titan      | N4100 (4), 32GB     | - 1TB (root)                                                           | PVE   |                                                        |
+| tungsten   | i7-8700T (12), 32GB | - 1TB NVMe (root)<br>- 4TB SATA SSD                                    | PVE   |                                                        |
+| neodym     | i5-4570S (4), 16GB  | - 500GB (root)<br>- 2TB SATA SSD<br>- 250GB USB Thumb<br>- 3TB USB HDD | PVE   |                                                        |
+| cer        | J3455 (4), 16GB     | - 250GB m.2 SSD (root)<br>- 250Gb microSD                              | PVE   | [Fitlet2](https://edge.compulab.com/products/fitlet2/) |
+| indium     | i3-6100T (4), 16GB  | - 250GB m.2 SSD (root)<br>- 4TB SATA SSD<br>- 250GB USB Thumb          | PVE   |                                                        |
+| datengrab  | J3455 (4), 16GB     |                                                                        |       |                                                        |
+| ds923zoy   | R1600 (2), 20GB     |                                                                        |       | Syno DS923+                                            |
+| bernstein2 |                     |                                                                        |       | Syno DS                                                |
+| abcnas     |                     |                                                                        |       | Syno DS                                                |
 
 
 # Complete Systems
