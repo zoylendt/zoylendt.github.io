@@ -4,7 +4,7 @@ subtitle:
 description:
 permalink: perma/steamkeys
 date: 2024-05-09
-updated: 2025-12-17
+updated: 2026-09-07
 publishDate: 2024-05-09
 draft: false
 tags:
@@ -17,43 +17,82 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 
 # Keys with expiry date
 
-| Expiry date | Game                               | Purchase date | Comment |
-| ----------- | ---------------------------------- | ------------- | ------- |
-| 2026-06-07  | King of the Castle                 | 2025-05-28    | -       |
-| 2026-06-07  | Narita Boy                         | 2025-05-28    | -       |
-| 2026-06-07  | Honey I joined a cult              | 2025-05-28    | -       |
-| 2026-06-11  | Ring of Pain                       | 2025-12-07    | -       |
-| 2026-10-06  | Return to Monkey Island            | 2025-09-29    | -       |
-| 2026-11-03  | System Shock (2023)                | 2025-10-28    | -       |
-| 2026-12-01  | Total War: WARHAMMER III           | 2025-11-04    | -       |
-| 2026-12-02  | Endling - Extinction is Forever    | 2025-12-07    | -       |
-| 2026-12-02  | Eternal Threads                    | 2025-12-07    | -       |
-| 2026-12-02  | Brewmaster: Beer Brewing Simulator | 2025-12-07    | -       |
-| 2026-12-02  | Due Process                        | 2025-12-07    | -       |
-| 2026-12-02  | Townsmen - A Kingdom Rebuilt       | 2025-12-07    | -       |
-| 2026-12-11  | Grime                              | 2025-12-12    | -       |
-| 2026-12-11  | Shantae and the Seven Sirens       | 2025-12-12    | -       |
-| 2026-12-11  | Islets                             | 2025-12-12    | -       |
-| 2026-12-11  | Monster Sanctuary                  | 2025-12-12    | -       |
-| 2026-12-11  | Gato Roboto                        | 2025-12-12    | -       |
-| 2026-12-13  | Wandersong                         | 2025-12-12    | -       |
-| 2026-12-13  | Everhood                           | 2025-12-12    | -       |
-| 2026-12-30  | Ghostrunner 2                      | 2025-12-12    | -       |
-| 2026-12-30  | Bright Memory: Infinite            | 2025-12-12    | -       |
+| Expiry Date | Game                                                | Purchase Date | Comment                                |
+| ----------- | --------------------------------------------------- | ------------- | -------------------------------------- |
+| 2026-09-30  | Ultros Deluxe Edition                               | 2026-03-30    | -                                      |
+| 2026-10-06  | Return to Monkey Island                             | 2025-09-29    | -                                      |
+| 2026-11-03  | System Shock (2023)                                 | 2025-10-28    | -                                      |
+| 2026-12-01  | Total War: WARHAMMER III                            | 2025-11-04    | -                                      |
+| 2026-12-02  | Endling - Extinction is Forever                     | 2025-12-07    | -                                      |
+| 2026-12-02  | Eternal Threads                                     | 2025-12-07    | -                                      |
+| 2026-12-02  | Brewmaster: Beer Brewing Simulator                  | 2025-12-07    | -                                      |
+| 2026-12-02  | Due Process                                         | 2025-12-07    | -                                      |
+| 2026-12-02  | Townsmen - A Kingdom Rebuilt                        | 2025-12-07    | -                                      |
+| 2026-12-11  | Grime                                               | 2025-12-12    | -                                      |
+| 2026-12-11  | Shantae and the Seven Sirens                        | 2025-12-12    | -                                      |
+| 2026-12-11  | Islets                                              | 2025-12-12    | -                                      |
+| 2026-12-11  | Monster Sanctuary                                   | 2025-12-12    | -                                      |
+| 2026-12-11  | Gato Roboto                                         | 2025-12-12    | -                                      |
+| 2026-12-13  | Wandersong                                          | 2025-12-12    | -                                      |
+| 2026-12-13  | Everhood                                            | 2025-12-12    | -                                      |
+| 2026-12-18  | Disco Elysium                                       | 2025-12-19    | -                                      |
+| 2026-12-18  | Pillars of Eternity - Definitive Edition            | 2025-12-19    | -                                      |
+| 2026-12-18  | Roadwarden                                          | 2025-12-19    | -                                      |
+| 2026-12-18  | Pillars of Eternity II: Deadfire - Obsidian Edition | 2025-12-19    | -                                      |
+| 2026-12-18  | Citizen Sleeper                                     | 2025-12-19    | -                                      |
+| 2026-12-30  | Ghostrunner 2                                       | 2025-12-12    | -                                      |
+| 2026-12-30  | Bright Memory: Infinite                             | 2025-12-12    | -                                      |
+| 2027-01-05  | Streets of Rage 4                                   | 2025-12-29    | -                                      |
+| 2027-01-20  | Trepang2                                            | 2026-01-02    | -                                      |
+| 2027-01-20  | Maneater                                            | 2026-01-02    | -                                      |
+| 2027-02-02  | Hunt: Showdown 1896                                 | 2026-01-27    | -                                      |
+| 2027-02-03  | Go! Go! Nippon! ~My First Trip to Japan~            | 2026-02-04    | -                                      |
+| 2027-03-01  | TOEM: A Photo Adventure                             | 2026-06-21    | -                                      |
+| 2027-03-03  | Iron Lung                                           | 2026-02-13    | -                                      |
+| 2027-03-10  | Osmos                                               | 2026-02-18    | -                                      |
+| 2027-03-10  | And Yet It Moves                                    | 2026-02-18    | -                                      |
+| 2027-03-24  | Immortal Redneck                                    | 2026-03-04    | -                                      |
+| 2027-03-25  | Yoku's Island Express                               | 2026-03-27    | -                                      |
+| 2027-03-31  | F.I.S.T.: Forged In Shadow Torch                    | 2026-03-30    | -                                      |
+| 2027-03-31  | Rabi-Ribi                                           | 2026-03-30    | -                                      |
+| 2027-03-31  | Aeterna Noctis                                      | 2026-03-30    | -                                      |
+| 2027-03-31  | Lost Ruins                                          | 2026-03-30    | -                                      |
+| 2027-04-14  | The Invisible Hand                                  | 2026-04-15    | -                                      |
+| 2027-04-14  | DISTRAINT 2                                         | 2026-04-15    | -                                      |
+| 2027-04-14  | Distraint                                           | 2026-04-15    | -                                      |
+| 2027-04-14  | Dropsy: Warm Damp Hug Edition                       | 2026-04-15    | -                                      |
+| 2027-04-21  | Old World                                           | 2026-04-22    | -                                      |
+| 2027-04-21  | Songs of Conquest                                   | 2026-04-22    | -                                      |
+| 2027-04-21  | Valkyria Chronicles 4 Complete Edition              | 2026-04-22    | -                                      |
+| 2027-04-21  | Showgunners Deluxe Edition                          | 2026-04-22    | -                                      |
+| 2027-04-30  | Legion TD 2 - Multiplayer Tower Defense             | 2026-05-07    | -                                      |
+| 2027-05-04  | Planet of Lana                                      | 2026-04-07    | -                                      |
+| 2027-06-01  | Crysis 3 Remastered                                 | 2026-05-26    | -                                      |
+| 2027-06-01  | Diablo IV                                           | 2026-05-26    | battle.net key                         |
+| 2027-06-04  | Taiji                                               | 2026-06-09    | -                                      |
+| 2027-06-23  | The Last Campfire                                   | 2026-06-21    | -                                      |
+| 2027-06-23  | Paradise Killer: Perfect 25 Edition                 | 2026-06-21    | -                                      |
+| 2027-06-23  | Control Ultimate Edition                            | 2026-06-21    | -                                      |
+| 2027-06-23  | Shadow Gambit: The Cursed Crew                      | 2026-06-21    | -                                      |
+| 2027-06-23  | Rollerdrome                                         | 2026-06-21    | -                                      |
+| 2027-06-30  | Heaven's Vault                                      | 2026-06-21    | -                                      |
+| 2027-06-30  | Sorcery! Parts 1 and 2                              | 2026-06-21    | -                                      |
+| 2027-06-30  | 80 Days                                             | 2026-06-21    | -                                      |
 
 # Keys without expiry date
 
 | Game                                                                               | Purchase Date | Comment                   |
 | ---------------------------------------------------------------------------------- | ------------- | ------------------------- |
 | 1000xRESIST                                                                        | 2025-04-09    | -                         |
-| 112 Operator                                                                       | 2023-03-01    | -                         |
 | 112 Operator                                                                       | 2022-03-18    | -                         |
+| 112 Operator                                                                       | 2023-03-01    | -                         |
+| 5D Chess With Multiverse Time Travel                                               | 2026-04-15    | -                         |
 | 7 Billion Humans                                                                   | 2022-09-14    | -                         |
-| 911 Operator                                                                       | 2023-03-01    | -                         |
 | 911 Operator                                                                       | 2022-03-18    | -                         |
+| 911 Operator                                                                       | 2023-03-01    | -                         |
 | A Juggler's Tale                                                                   | 2025-12-07    | -                         |
-| A Plague Tale: Innocence                                                           | 2024-03-10    | -                         |
 | A Plague Tale: Innocence                                                           | 2022-08-03    | -                         |
+| A Plague Tale: Innocence                                                           | 2024-03-10    | -                         |
 | A Short Hike                                                                       | 2025-08-08    | -                         |
 | ABZU                                                                               | 2024-03-03    | -                         |
 | Aeterna Noctis                                                                     | 2023-05-04    | -                         |
@@ -61,6 +100,7 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Alchemist's Castle                                                                 | 2023-03-01    | -                         |
 | Amnesia: Rebirth                                                                   | 2022-03-18    | -                         |
 | Amnesia: The Dark Descent + Amnesia: A Machine for Pigs                            | 2022-03-18    | -                         |
+| Anno: Mutationem                                                                   | 2026-04-15    | -                         |
 | Arctic Eggs                                                                        | 2025-11-10    | -                         |
 | Armello                                                                            | 2023-03-01    | -                         |
 | As Dusk Falls                                                                      | 2025-05-23    | -                         |
@@ -72,30 +112,30 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Before Your Eyes                                                                   | 2023-09-26    | -                         |
 | Bendy and the Dark Revival                                                         | 2023-10-15    | -                         |
 | Beyond a Steel Sky                                                                 | 2023-09-26    | -                         |
-| Beyond: Two Souls                                                                  | 2025-04-09    | -                         |
 | Beyond: Two Souls                                                                  | 2023-09-26    | -                         |
+| Beyond: Two Souls                                                                  | 2025-04-09    | -                         |
 | Black Book                                                                         | 2024-02-23    | key already revealed      |
 | Black Future '88                                                                   | 2025-04-09    | -                         |
 | Blasphemous                                                                        | 2023-06-21    | -                         |
 | Blasphemous 2                                                                      | 2025-01-07    | -                         |
-| Bloodstained®︎: Ritual of the Night                                                | 2023-06-21    | -                         |
-| Bloodstained®︎: Ritual of the Night                                                | 2022-03-02    | -                         |
+| Bloodstained: Ritual of the Night                                                  | 2022-03-02    | -                         |
+| Bloodstained: Ritual of the Night                                                  | 2023-06-21    | -                         |
 | Book of Demons                                                                     | 2022-03-18    | -                         |
-| Broken Age                                                                         | 2025-05-23    | -                         |
 | Broken Age                                                                         | 2022-03-18    | -                         |
+| Broken Age                                                                         | 2025-05-23    | -                         |
 | Brothers: A Tale of Two Sons                                                       | 2022-03-18    | -                         |
 | Builder Simulator                                                                  | 2023-05-03    | -                         |
-| Calico                                                                             | 2023-05-07    | -                         |
 | Calico                                                                             | 2023-03-01    | -                         |
+| Calico                                                                             | 2023-05-07    | -                         |
 | Call of the Sea                                                                    | 2023-03-08    | -                         |
 | Car Mechanic Simulator 2018                                                        | 2022-03-18    | -                         |
-| Celeste                                                                            | 2023-06-21    | -                         |
 | Celeste                                                                            | 2022-03-02    | -                         |
-| Citizen Sleeper                                                                    | 2025-04-09    | -                         |
+| Celeste                                                                            | 2023-06-21    | -                         |
 | Citizen Sleeper                                                                    | 2024-03-05    | -                         |
+| Citizen Sleeper                                                                    | 2025-04-09    | -                         |
 | Conan Chop Chop                                                                    | 2023-01-03    | -                         |
-| Control Ultimate Edition                                                           | 2025-04-09    | -                         |
 | Control Ultimate Edition                                                           | 2023-03-08    | -                         |
+| Control Ultimate Edition                                                           | 2025-04-09    | -                         |
 | Coromon                                                                            | 2024-04-04    | -                         |
 | Crying Suns                                                                        | 2022-03-18    | -                         |
 | DEEP ROCK GALACTIC + 65% OFF ULTIMATE BUNDLE COUPON                                | 2022-07-05    | -                         |
@@ -115,6 +155,7 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Dreamfall Chapters                                                                 | 2022-08-15    | -                         |
 | Dredge                                                                             | 2025-04-09    | -                         |
 | EXAPUNKS                                                                           | 2022-09-14    | -                         |
+| Eastward                                                                           | 2026-04-15    | -                         |
 | Elderborn                                                                          | 2025-09-22    | -                         |
 | Eldest Souls                                                                       | 2022-11-01    | -                         |
 | Endless Space 2                                                                    | 2022-03-18    | -                         |
@@ -128,13 +169,13 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Founders' Fortune                                                                  | 2023-04-04    | -                         |
 | Friday the 13th                                                                    | 2022-01-21    | -                         |
 | Fury Unleashed                                                                     | 2022-03-18    | -                         |
-| Ghostrunner                                                                        | 2025-04-09    | -                         |
 | Ghostrunner                                                                        | 2023-03-01    | -                         |
+| Ghostrunner                                                                        | 2025-04-09    | -                         |
 | Going Under                                                                        | 2022-03-18    | -                         |
 | Golden Light                                                                       | 2023-03-07    | -                         |
 | Gotham Knights                                                                     | 2024-08-27    | -                         |
 | Grime                                                                              | 2023-06-07    | -                         |
-| Guilty Gear X2 \#Reload                                                            | 2023-03-01    | -                         |
+| Guilty Gear X2 Reload                                                            | 2023-03-01    | -                         |
 | Guts and Glory                                                                     | 2022-09-14    | -                         |
 | Hack 'n' Slash                                                                     | 2023-03-01    | -                         |
 | Haiku, the Robot                                                                   | 2023-06-21    | -                         |
@@ -171,8 +212,8 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Max Payne 3                                                                        | 2022-03-18    | Rockstar Games Launcher   |
 | Metal: Hellsinger                                                                  | 2024-03-10    | -                         |
 | Metro Exodus                                                                       | 2022-03-18    | -                         |
-| Monaco                                                                             | 2023-03-01    | -                         |
 | Monaco                                                                             | 2022-03-18    | -                         |
+| Monaco                                                                             | 2023-03-01    | -                         |
 | Monster Sanctuary                                                                  | 2022-04-06    | -                         |
 | Monster Train                                                                      | 2022-10-25    | -                         |
 | Moon Hunters                                                                       | 2022-03-18    | -                         |
@@ -199,6 +240,7 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Pathfinder: Wrath of the Righteous - Enhanced Edition                              | 2025-04-09    | -                         |
 | Pathologic 2                                                                       | 2023-10-15    | -                         |
 | Pathway                                                                            | 2022-03-18    | -                         |
+| Pawnbarian                                                                         | 2026-04-15    | -                         |
 | Per Aspera                                                                         | 2022-02-03    | -                         |
 | Persona 4 Golden                                                                   | 2024-11-26    | -                         |
 | Persona 5 Strikers                                                                 | 2024-10-01    | Key already revealed      |
@@ -209,8 +251,8 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Project Warlock                                                                    | 2022-03-05    | -                         |
 | Pseudoregalia                                                                      | 2025-04-09    | -                         |
 | Quake II                                                                           | 2024-04-12    | -                         |
-| Quantum Break                                                                      | 2025-05-23    | -                         |
 | Quantum Break                                                                      | 2022-03-18    | -                         |
+| Quantum Break                                                                      | 2025-05-23    | -                         |
 | Rain World                                                                         | 2023-06-21    | -                         |
 | Remnant: From the Ashes - Complete Edition                                         | 2023-06-07    | -                         |
 | Remnants of Naezith                                                                | 2023-03-01    | -                         |
@@ -237,8 +279,8 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Starbound                                                                          | 2022-03-18    | -                         |
 | Station to Station                                                                 | 2025-05-20    | -                         |
 | Steelrising                                                                        | 2025-09-22    | -                         |
-| Sticky Business                                                                    | 2025-12-07    | -                         |
 | Sticky Business                                                                    | 2025-06-30    | -                         |
+| Sticky Business                                                                    | 2025-12-07    | -                         |
 | Strange Brigade                                                                    | 2023-03-01    | -                         |
 | Stray Gods: The Roleplaying Musical                                                | 2024-06-05    | -                         |
 | Stygian: Reign of the Old Ones                                                     | 2023-03-01    | -                         |
@@ -286,8 +328,8 @@ A list of surplus steam keys. Currently only keys from 2022 and later are includ
 | Wargroove                                                                          | 2022-03-18    | -                         |
 | Warhammer 40,000: Chaos Gate - Daemonhunters                                       | 2023-05-03    | -                         |
 | Warhammer 40,000: Space Wolf                                                       | 2023-09-26    | -                         |
-| Wasteland 3                                                                        | 2025-05-23    | -                         |
 | Wasteland 3                                                                        | 2022-12-19    | -                         |
+| Wasteland 3                                                                        | 2025-05-23    | -                         |
 | West of Dead                                                                       | 2022-03-18    | -                         |
 | Wizard of Legend                                                                   | 2022-03-18    | -                         |
 | Worms Rumble                                                                       | 2023-03-01    | -                         |
